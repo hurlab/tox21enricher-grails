@@ -1,0 +1,917 @@
+87333-19-5	Cardiovascular
+26921-17-5	Cardiovascular
+47879-92-5	Infectious Disease
+51012-32-9	Central Nervous System (CNS)
+10262-69-8	Central Nervous System (CNS)
+78110-38-0	Infectious Disease
+37517-28-5	Infectious Disease
+76824-35-6	Gastrointestinal System
+14216-34-3	Anti-inflammatory
+50-06-6	Central Nervous System (CNS)
+93957-54-1	Cardiovascular
+14976-57-9	Anti-inflammatory
+8055-10-5	Infectious Disease
+89565-68-4	Gastrointestinal System
+110204-46-1	Central Nervous System (CNS)
+55-18-5	Toxicants
+127-07-1	Oncology
+59865-13-3	Anti-inflammatory
+123958-79-2	Central Nervous System (CNS)
+101-77-9	Toxicants
+102625-70-7	Gastrointestinal System
+49745-95-1	Cardiovascular
+143201-11-0	Cardiovascular
+107007-99-8	Central Nervous System (CNS)
+1492-18-8	Chemoprophylaxis
+321-64-2	Central Nervous System (CNS)
+98-96-4	Infectious Disease
+1404-31-5	Infectious Disease
+51-52-5	Hormones, Endocrine and Metabolic
+33089-61-1	Toxicant
+82410-32-0	Infectious Disease
+81-81-2	Cardiovascular
+142678-34-0	Gastrointestinal System
+57308-51-7	Central Nervous System (CNS)
+58409-59-9	Central Nervous System (CNS)
+50-52-2	Central Nervous System (CNS)
+80214-83-1	Infectious Disease
+15468-34-5	Oncology
+3426-54-8	Infectious Disease
+34156-56-4	Infectious Disease
+59-92-7	Central Nervous System (CNS)
+90438-83-8	Infectious Disease
+41372-08-1	Cardiovascular
+37091-65-9	Infectious Disease
+15307-79-6	Anti-inflammatory
+3810-74-0	Infectious Disease
+93957-55-2	Cardiovascular
+154-93-8	Oncology
+88873-75-0	Anti-inflammatory
+121-19-7	Veterinarian
+525-66-6	Cardiovascular
+122111-03-9	Oncology
+85441-61-8	Cardiovascular
+111974-72-2	Central Nervous System (CNS)
+53-19-0	Oncology
+84449-90-1	Hormones, Endocrine and Metabolic
+66104-23-2	Central Nervous System (CNS)
+61-72-3	Infectious Disease
+53902-12-8	Anti-inflammatory
+1154-59-2	Biochemicals
+22232-80-0	Dermatology
+58-18-4	Hormones, Endocrine and Metabolic
+93479-97-1	Hormones, Endocrine and Metabolic
+74011-58-8	Infectious Disease
+71963-77-4	Infectious Disease
+145599-86-6	Cardiovascular
+61869-08-7	Central Nervous System (CNS)
+8072-21-7	Pesticide
+60-56-0	Hormones, Endocrine and Metabolic
+434-07-1	Hematology
+28981-97-7	Central Nervous System (CNS)
+3778-73-2	Oncology
+57-62-5	Infectious Disease
+114798-26-4	Cardiovascular
+75736-33-3	Central Nervous System (CNS)
+63-74-1	Infectious Disease
+113665-84-2	Cardiovascular
+1134-47-0	Central Nervous System (CNS)
+71-55-6	Toxicants
+41294-56-8	Vitamins, Minerals and Nutrients
+106650-56-0	Central Nervous System (CNS)
+58-38-8	Central Nervous System (CNS)
+56420-45-2	Oncology
+65-49-6	Infectious Disease
+14402-89-2	Cardiovascular
+63585-09-1	Infectious Disease
+63968-64-9	Infectious Disease
+39122-18-4	Central Nervous System (CNS)
+98079-51-7	Infectious Disease
+1622-61-3	Central Nervous System (CNS)
+76095-16-4	Cardiovascular
+101053-01-4	Central Nervous System (CNS)
+87-10-5	Dermatology
+35212-22-7	Vitamins, Minerals and Nutrients
+305-33-9	Central Nervous System (CNS)
+73-78-9	Peripheral Nervous System (PNS)
+13721-39-6	Toxicant
+52-86-8	Central Nervous System (CNS)
+5786-21-0	Central Nervous System (CNS)
+67-20-9	Infectious Disease
+20830-81-3	Oncology
+11103-62-1	Infectious Disease
+53746-45-5	Anti-inflammatory
+1402-99-9	Infectious Disease
+15307-86-5	Anti-inflammatory
+93107-08-5	Infectious Disease
+139481-59-7	Cardiovascular
+4759-48-2	Dermatology
+51-79-6	Toxicants
+123040-16-4	Central Nervous System (CNS)
+2011-67-8	Central Nervous System (CNS)
+64-17-5	Toxicants
+100490-36-6	Infectious Disease
+30418-52-1	Toxicants
+3254-89-5	Gastrointestinal System
+30484-77-6	Cardiovascular
+147-94-4	Oncology
+70458-96-7	Infectious Disease
+36205-82-0	Anti-inflammatory
+147-24-0	Anti-inflammatory
+15676-16-1	Central Nervous System (CNS)
+71486-22-1	Oncology
+57-92-1	Infectious Disease
+97-77-8	Other Human Uses
+111406-87-2	Respiratory System
+39809-25-1	Infectious Disease
+54-64-8	Infectious Disease
+60-87-7	Anti-inflammatory
+37350-58-6	Cardiovascular
+6620-60-6	Gastrointestinal System
+1951-25-3	Cardiovascular
+148229-78-1	Central Nervous System (CNS)
+59-66-5	Cardiovascular
+82419-36-1	Infectious Disease
+1197-18-8	Cardiovascular
+124832-26-4	Infectious Disease
+51481-61-9	Gastrointestinal System
+446-72-0	Oncology
+1684-40-8	Central Nervous System (CNS)
+128-62-1	Eye, Ear, Nose and Throat Preparations
+30771-29-0	Chemoprophylaxis
+98-92-0	Cardiovascular
+34597-40-5	Anti-inflammatory
+10592-13-9	Infectious Disease
+38194-50-2	Anti-inflammatory
+160738-57-8	Infectious Disease
+42551-62-2	Central Nervous System (CNS)
+108068-98-0	Central Nervous System (CNS)
+134523-00-5	Cardiovascular
+438-41-5	Central Nervous System (CNS)
+64485-93-4	Infectious Disease
+1400-61-9	Infectious Disease
+76-73-3	Central Nervous System (CNS)
+23541-50-6	Oncology
+79-57-2	Infectious Disease
+38821-49-7	Central Nervous System (CNS)
+36322-90-4	Anti-inflammatory
+26839-75-8	Cardiovascular
+882-09-7	Cardiovascular
+100986-85-4	Infectious Disease
+1066-17-7	Infectious Disease
+95-25-0	Central Nervous System (CNS)
+71950-35-1	Infectious Disease
+50-76-0	Oncology
+109889-09-0	Central Nervous System (CNS)
+95510-70-6	Gastrointestinal System
+57-30-7	Central Nervous System (CNS)
+171599-83-0	Cardiovascular
+19387-91-8	Infectious Disease
+157810-81-6	Infectious Disease
+52-49-3	Central Nervous System (CNS)
+104051-69-6	Infectious Disease
+123-03-5	Biochemicals
+50-07-7	Oncology
+41708-72-9	Peripheral Nervous System (PNS)
+64092-48-4	Anti-inflammatory
+61379-65-5	Infectious Disease
+110707-92-1	Central Nervous System (CNS)
+99614-02-5	Central Nervous System (CNS)
+75706-12-6	Anti-inflammatory
+12374-71-9	Central Nervous System (CNS)
+111025-46-8	Hormones, Endocrine and Metabolic
+41340-25-4	Anti-inflammatory
+161814-49-9	Infectious Disease
+86-54-4	Cardiovascular
+144-11-6	Central Nervous System (CNS)
+1403-00-5	Infectious Disease
+124750-99-8	Cardiovascular
+112885-41-3	Gastrointestinal System
+138786-67-1	Gastrointestinal System
+3930-20-9	Cardiovascular
+154644-14-1	Gastrointestinal System
+15687-27-1	Anti-inflammatory
+105816-04-4	Hormones, Endocrine and Metabolic
+89786-04-9	Infectious Disease
+21187-98-4	Hormones, Endocrine and Metabolic
+36894-69-6	Cardiovascular
+156-51-4	Central Nervous System (CNS)
+6055-19-2	Oncology
+58-54-8	Cardiovascular
+66104-22-1	Central Nervous System (CNS)
+138680-08-7	Central Nervous System (CNS)
+60-02-6	Cardiovascular
+98079-52-8	Infectious Disease
+34552-83-5	Gastrointestinal System
+19767-45-4	Chemoprophylaxis
+55-65-2	Cardiovascular
+132539-06-1	Central Nervous System (CNS)
+51-06-9	Cardiovascular
+30418-50-9	Toxicants
+671-16-9	Oncology
+665-66-7	Infectious Disease
+81103-11-9	Infectious Disease
+70918-01-3	Cardiovascular
+54-31-9	Cardiovascular
+1229-29-4	Central Nervous System (CNS)
+42924-53-8	Anti-inflammatory
+90357-06-5	Oncology
+109581-93-3	Anti-inflammatory
+119-04-0	Infectious Disease
+29094-61-9	Hormones, Endocrine and Metabolic
+61825-94-3	Oncology
+2809-21-4	Hormones, Endocrine and Metabolic
+50700-72-6	Central Nervous System (CNS)
+120-78-5	Biochemical
+56180-94-0	Hormones, Endocrine and Metabolic
+90581-31-0	Infectious Disease
+548-73-2	Central Nervous System (CNS)
+57-55-6	Eye, Ear, Nose and Throat Preparations
+555-30-6	Cardiovascular
+465-65-6	Central Nervous System (CNS)
+56211-40-6	Cardiovascular
+53123-88-9	Anti-inflammatory
+299-39-8	Cardiovascular
+69975-86-6	Respiratory System
+645-43-2	Cardiovascular
+859-18-7	Infectious Disease
+104987-11-3	Anti-inflammatory
+57-83-0	Hormones, Endocrine and Metabolic
+62-73-7	Pesticide
+113-92-8	Anti-inflammatory
+8052-21-9	Anti-inflammatory
+9041-93-4	Oncology
+133-92-6	Infectious Disease
+151319-34-5	Central Nervous System (CNS)
+645-05-6	Oncology
+2610-86-8	Cardiovascular
+57-66-9	Hormones, Endocrine and Metabolic
+6108-05-0	Peripheral Nervous System (PNS)
+15301-69-6	Autonomic Nervous System (ANS)
+106266-06-2	Central Nervous System (CNS)
+1508-65-2	Autonomic Nervous System (ANS)
+97-54-1	Other Human Uses
+68342-78-9	Peripheral Nervous System (PNS)
+30751-05-4	Gastrointestinal System
+723-46-6	Infectious Disease
+4910-46-7	Central Nervous System (CNS)
+315-30-0	Hormones, Endocrine and Metabolic
+43210-67-9	Veterinarian
+123040-69-7	Central Nervous System (CNS)
+7540-22-9	Infectious Disease
+50-27-1	Hormones, Endocrine and Metabolic
+18968-99-5	Central Nervous System (CNS)
+17440-83-4	Cardiovascular
+112885-42-4	Gastrointestinal System
+532-03-6	Central Nervous System (CNS)
+15686-71-2	Infectious Disease
+54-21-7	Anti-inflammatory
+90581-30-9	Infectious Disease
+76-74-4	Central Nervous System (CNS)
+50-33-9	Anti-inflammatory
+24659-79-8	Infectious Disease
+10347-81-6	Central Nervous System (CNS)
+50-81-7	Vitamins, Minerals and Nutrients
+128794-94-5	Anti-inflammatory
+302-01-2	Toxicants
+26833-85-2	Oncology
+80573-04-2	Anti-inflammatory
+49562-28-9	Cardiovascular
+61422-45-5	Oncology
+88150-42-9	Cardiovascular
+551-06-4	Toxicants
+69-23-8	Central Nervous System (CNS)
+318-98-9	Cardiovascular
+54-11-5	Other Human Uses
+59-01-8	Infectious Disease
+62139-95-1	Pesticide
+102030-19-3	Infectious Disease
+14028-44-5	Central Nervous System (CNS)
+59-05-2	Oncology
+43200-80-2	Central Nervous System (CNS)
+309-29-5	Respiratory System
+41575-94-4	Oncology
+637-07-0	Cardiovascular
+26159-34-2	Anti-inflammatory
+81161-17-3	Cardiovascular
+93413-69-5	Central Nervous System (CNS)
+8026-72-0	Infectious Disease
+134523-05-8	Cardiovascular
+10418-03-8	Hormones, Endocrine and Metabolic
+150378-17-9	Infectious Disease
+25122-46-7	Anti-inflammatory
+11024-24-1	Cardiovascular
+1156-19-0	Hormones, Endocrine and Metabolic
+134523-03-8	Cardiovascular
+58-08-2	Central Nervous System (CNS)
+3506-09-0	Cardiovascular
+69-09-0	Central Nervous System (CNS)
+2152-34-3	Central Nervous System (CNS)
+59293-82-2	Infectious Disease
+7712-50-7	Peripheral Nervous System (PNS)
+120511-73-1	Oncology
+112885-43-5	Gastrointestinal System
+138729-47-2	Central Nervous System (CNS)
+58970-76-6	Oncology
+29122-68-7	Cardiovascular
+58-32-2	Cardiovascular
+55-91-4	Eye, Ear, Nose and Throat Preparations
+64-75-5	Infectious Disease
+56-23-5	Toxicants
+53-86-1	Anti-inflammatory
+59-67-6	Vitamins, Minerals and Nutrients
+7683-59-2	Cardiovascular
+134-03-2	Vitamins, Minerals and Nutrients
+302-79-4	Dermatology
+13010-47-4	Oncology
+36505-84-7	Central Nervous System (CNS)
+94-20-2	Hormones, Endocrine and Metabolic
+22204-53-1	Anti-inflammatory
+107097-79-0	Infectious Disease
+5633-20-5	Autonomic Nervous System (ANS)
+61036-63-3	Infectious Disease
+82768-84-1	Cardiovascular
+29701-07-3	Infectious Disease
+5929-09-9	Diagnostics and Pharmaceutical Aids
+86393-32-0	Infectious Disease
+1405-87-4	Infectious Disease
+56-53-1	Oncology
+1953-04-4	Central Nervous System (CNS)
+99300-78-4	Central Nervous System (CNS)
+52468-60-7	Cardiovascular
+90729-43-4	Anti-inflammatory
+84625-61-6	Infectious Disease
+19685-09-7	Oncology
+53797-16-3	Infectious Disease
+63-45-6	Infectious Disease
+6004-24-6	Biochemicals
+129-03-3	Anti-inflammatory
+54-92-2	Central Nervous System (CNS)
+81147-92-4	Cardiovascular
+5104-49-4	Anti-inflammatory
+17902-23-7	Oncology
+94-59-7	Toxicants
+28860-95-9	Central Nervous System (CNS)
+68373-14-8	Infectious Disease
+72-14-0	Infectious Disease
+136-47-0	Peripheral Nervous System (PNS)
+302-22-7	Hormones, Endocrine and Metabolic
+75330-75-5	Cardiovascular
+911-45-5	Hormones, Endocrine and Metabolic
+78628-80-5	Infectious Disease
+12738-72-6	Dermatology
+69-53-4	Infectious Disease
+298-46-4	Central Nervous System (CNS)
+64840-90-0	Central Nervous System (CNS)
+13013-17-7	Cardiovascular
+100599-27-7	Anti-inflammatory
+51-15-0	Cardiovascular
+129-18-0	Anti-inflammatory
+66357-59-3	Gastrointestinal System
+169590-42-5	Anti-inflammatory
+67-92-5	Gastrointestinal System
+61318-91-0	Infectious Disease
+8015-12-1	Hormones, Endocrine and Metabolic
+84371-65-3	Hormones, Endocrine and Metabolic
+146-56-5	Central Nervous System (CNS)
+10026-11-6	Toxicants
+56839-43-1	Central Nervous System (CNS)
+34330-64-8	Toxicants
+29398-76-3	Toxicants
+140401-05-4	Anti-inflammatory
+54910-89-3	Central Nervous System (CNS)
+5370-01-4	Cardiovascular
+105167-68-8	Hormones, Endocrine and Metabolic
+75-35-4	Industrial reagent
+56391-56-1	Infectious Disease
+81771-21-3	Central Nervous System (CNS)
+23593-75-1	Infectious Disease
+125-33-7	Central Nervous System (CNS)
+52-01-7	Cardiovascular
+76584-70-8	Central Nervous System (CNS)
+10540-29-1	Oncology
+112809-51-5	Oncology
+76-03-9	Dermatology
+304-20-1	Cardiovascular
+8023-22-1	Pesticide
+53179-11-6	Gastrointestinal System
+106-24-1	Other Human Uses
+100286-90-6	Oncology
+4205-90-7	Cardiovascular
+31431-39-7	Infectious Disease
+58-73-1	Anti-inflammatory
+52-67-5	Anti-inflammatory
+65-45-2	Anti-inflammatory
+104-40-5	Toxicants
+90-39-1	Cardiovascular
+12772-40-6	Pesticide
+89785-84-2	Infectious Disease
+614-39-1	Cardiovascular
+95828-55-0	Pesticide
+51012-33-0	Central Nervous System (CNS)
+32780-64-6	Cardiovascular
+103-90-2	Anti-inflammatory
+137862-53-4	Cardiovascular
+62571-86-2	Cardiovascular
+5638-76-6	Cardiovascular
+518-28-5	Infectious Disease
+131322-37-7	Gastrointestinal System
+59729-32-7	Central Nervous System (CNS)
+86541-74-4	Cardiovascular
+12663-50-2	Peripheral Nervous System (PNS)
+58957-92-9	Oncology
+148229-79-2	Central Nervous System (CNS)
+30516-87-1	Infectious Disease
+50976-86-8	Infectious Disease
+41859-67-0	Cardiovascular
+84485-00-7	Central Nervous System (CNS)
+79559-97-0	Central Nervous System (CNS)
+53164-05-9	Anti-inflammatory
+17431-55-9	Infectious Disease
+11096-21-2	Pesticide
+102-76-1	Infectious Disease
+51-05-8	Peripheral Nervous System (PNS)
+51-71-8	Central Nervous System (CNS)
+846-49-1	Central Nervous System (CNS)
+72559-06-9	Infectious Disease
+77-19-0	Gastrointestinal System
+22232-54-8	Hormones, Endocrine and Metabolic
+158920-43-5	Hormones, Endocrine and Metabolic
+50-35-1	Infectious Disease
+103577-45-3	Gastrointestinal System
+148-79-8	Infectious Disease
+13755-38-9	Cardiovascular
+18323-44-9	Infectious Disease
+1424-27-7	Cardiovascular
+154-21-2	Infectious Disease
+51-98-9	Hormones, Endocrine and Metabolic
+103890-78-4	Cardiovascular
+111974-69-7	Central Nervous System (CNS)
+63074-08-8	Cardiovascular
+57-22-7	Oncology
+972-02-1	Gastrointestinal System
+27262-47-1	Peripheral Nervous System (PNS)
+72-33-3	Hormones, Endocrine and Metabolic
+103628-46-2	Central Nervous System (CNS)
+22204-88-2	Central Nervous System (CNS)
+396-01-0	Cardiovascular
+5743-04-4	Toxicants
+89796-99-6	Anti-inflammatory
+91-64-5	Cardiovascular
+49625-23-2	Central Nervous System (CNS)
+86386-73-4	Infectious Disease
+76487-49-5	Cardiovascular
+13497-05-7	Dermatology
+10108-64-2	Toxicants
+38304-91-5	Dermatology
+61-68-7	Anti-inflammatory
+5979-00-0	Cardiovascular
+71-63-6	Cardiovascular
+7790-78-5	Toxicants
+115007-34-6	Anti-inflammatory
+83380-47-6	Infectious Disease
+72956-09-3	Cardiovascular
+65-28-1	Cardiovascular
+68342-79-0	Peripheral Nervous System (PNS)
+54856-23-4	Cardiovascular
+2315-02-8	Respiratory System
+66085-59-4	Cardiovascular
+61036-64-4	Infectious Disease
+3094-09-5	Oncology
+61318-90-9	Infectious Disease
+621-42-1	Toxicants
+72589-96-9	Toxicants
+523-87-5	Central Nervous System (CNS)
+7689-03-4	Oncology
+155213-67-5	Infectious Disease
+537-98-4	Biochemical
+67-73-2	Anti-inflammatory
+35543-24-9	Cardiovascular
+70476-82-3	Oncology
+34691-31-1	Anti-inflammatory
+595-33-5	Infectious Disease
+34368-04-2	Cardiovascular
+117-81-7	Toxicants
+434-03-7	Hormones, Endocrine and Metabolic
+768-94-5	Infectious Disease
+8027-03-0	Infectious Disease
+603-50-9	Gastrointestinal System
+17321-77-6	Central Nervous System (CNS)
+86126-06-9	Cardiovascular
+91-84-9	Anti-inflammatory
+1403-66-3	Infectious Disease
+22071-15-4	Anti-inflammatory
+104227-87-4	Infectious Disease
+2438-32-6	Anti-inflammatory
+96036-03-2	Infectious Disease
+144256-27-9	Gastrointestinal System
+181695-72-7	Anti-inflammatory
+112811-59-3	Infectious Disease
+87-66-1	Biochemicals
+107-18-6	Toxicants
+50-18-0	Oncology
+969-33-5	Anti-inflammatory
+68-35-9	Infectious Disease
+91032-26-7	Infectious Disease
+123-41-1	Vitamins, Minerals and Nutrients
+71751-41-2	Infectious Disease
+7414-83-7	Hormones, Endocrine and Metabolic
+2447-57-6	Infectious Disease
+15318-45-3	Infectious Disease
+57-94-3	Central Nervous System (CNS)
+27220-47-9	Infectious Disease
+650-51-1	Dermatology
+121985-71-5	Central Nervous System (CNS)
+24219-97-4	Central Nervous System (CNS)
+443-48-1	Infectious Disease
+4205-91-8	Cardiovascular
+65-85-0	Infectious Disease
+90638-38-3	Central Nervous System (CNS)
+50-91-9	Oncology
+58-25-3	Central Nervous System (CNS)
+137-58-6	Peripheral Nervous System (PNS)
+2016-88-8	Cardiovascular
+52-53-9	Cardiovascular
+31828-71-4	Cardiovascular
+64-72-2	Infectious Disease
+23734-88-5	Oncology
+67-48-1	Vitamins, Minerals and Nutrients
+129618-40-2	Infectious Disease
+125-59-7	Central Nervous System (CNS)
+82640-04-8	Hormones, Endocrine and Metabolic
+24390-14-5	Infectious Disease
+1867-66-9	Central Nervous System (CNS)
+86753-29-9	Infectious Disease
+11030-21-0	Infectious Disease
+50-44-2	Oncology
+31377-23-8	Infectious Disease
+6740-88-1	Central Nervous System (CNS)
+22916-47-8	Infectious Disease
+149908-23-6	Infectious Disease
+53776-71-9	Infectious Disease
+51-21-8	Oncology
+364-62-5	Central Nervous System (CNS)
+103598-03-4	Cardiovascular
+6000-74-4	Anti-inflammatory
+53885-35-1	Cardiovascular
+11095-17-3	Pesticide
+66357-35-5	Gastrointestinal System
+2933-45-1	Central Nervous System (CNS)
+63590-64-7	Cardiovascular
+7232-21-5	Central Nervous System (CNS)
+39831-55-5	Infectious Disease
+92-84-2	Central Nervous System (CNS)
+77-92-9	Electrolytic, Caloric and Water Balance
+97845-62-0	Infectious Disease
+36791-04-5	Infectious Disease
+140-72-7	Biochemicals
+74-31-7	Additives
+865-21-4	Oncology
+79617-96-2	Central Nervous System (CNS)
+19216-56-9	Cardiovascular
+1264-72-8	Infectious Disease
+67-66-3	Toxicants
+56767-76-1	Anti-inflammatory
+114715-36-5	Infectious Disease
+76963-41-2	Gastrointestinal System
+24558-49-4	Toxicants
+112529-15-4	Hormones, Endocrine and Metabolic
+88-04-0	Dermatology
+57852-57-0	Oncology
+60142-96-3	Central Nervous System (CNS)
+479-18-5	Respiratory System
+31430-15-6	Infectious Disease
+53-03-2	Anti-inflammatory
+36-06-6	Cardiovascular
+959-24-0	Cardiovascular
+110871-86-8	Infectious Disease
+58-33-3	Anti-inflammatory
+50-78-2	Anti-inflammatory
+68767-14-6	Anti-inflammatory
+10238-21-8	Hormones, Endocrine and Metabolic
+302-27-2	Toxicant
+50-28-2	Hormones, Endocrine and Metabolic
+54-25-1	Oncology
+69-72-7	Anti-inflammatory
+99-66-1	Central Nervous System (CNS)
+120011-70-3	Central Nervous System (CNS)
+58-55-9	Respiratory System
+305-03-3	Oncology
+76547-98-3	Cardiovascular
+56391-57-2	Infectious Disease
+3056-17-5	Infectious Disease
+101827-46-7	Infectious Disease
+630-60-4	Cardiovascular
+7722-44-3	Infectious Disease
+75847-73-3	Cardiovascular
+526-08-9	Infectious Disease
+51-55-8	Respiratory System
+53-96-3	Toxicants
+543-90-8	Toxicants
+114-80-7	Central Nervous System (CNS)
+8060-73-9	Central Nervous System (CNS)
+98319-26-7	Hormones, Endocrine and Metabolic
+483-63-6	Dermatology
+74191-85-8	Cardiovascular
+15826-37-6	Respiratory System
+42200-33-9	Cardiovascular
+36282-47-0	Central Nervous System (CNS)
+19237-84-4	Cardiovascular
+146874-86-4	Cardiovascular
+111542-93-9	Infectious Disease
+25523-97-1	Anti-inflammatory
+68-12-2	Toxicants
+10083-56-4	Central Nervous System (CNS)
+17230-88-5	Hormones, Endocrine and Metabolic
+66-27-3	Toxicants
+146-22-5	Central Nervous System (CNS)
+90-34-6	Infectious Disease
+60-32-2	Cardiovascular
+91032-34-7	Infectious Disease
+12643-15-1	Infectious Disease
+13292-46-1	Infectious Disease
+37091-66-0	Infectious Disease
+1135-24-6	Biochemical
+14769-73-4	Oncology
+3801-06-7	Central Nervous System (CNS)
+564-25-0	Infectious Disease
+57-41-0	Central Nervous System (CNS)
+58-93-5	Cardiovascular
+15686-51-8	Anti-inflammatory
+59729-33-8	Central Nervous System (CNS)
+15307-81-0	Anti-inflammatory
+100-63-0	biochemical
+23672-07-3	Gastrointestinal System
+1508-27-6	Central Nervous System (CNS)
+1405-41-0	Infectious Disease
+57808-65-8	Infectious Disease (Veterinary)
+53-06-5	Anti-inflammatory
+127-69-5	Infectious Disease
+143-67-9	Oncology
+23031-32-5	Respiratory System
+30418-51-0	Toxicants
+32385-11-8	Infectious Disease
+99-76-3	Other Human Uses
+8017-77-4	Infectious Disease
+68077-27-0	Infectious Disease
+71125-38-7	Anti-inflammatory
+84057-84-1	Central Nervous System (CNS)
+79794-75-5	Anti-inflammatory
+50-53-3	Central Nervous System (CNS)
+120014-06-4	Central Nervous System (CNS)
+140-65-8	Dermatology
+101828-21-1	Infectious Disease
+99614-01-4	Central Nervous System (CNS)
+894-71-3	Central Nervous System (CNS)
+95058-81-4	Oncology
+7002-58-6	Cardiovascular
+1491-59-4	Respiratory System
+100-33-4	Infectious Disease
+532-32-1	Infectious Disease
+15663-27-1	Oncology
+120-80-9	Toxicants
+70-30-4	Dermatology
+52663-81-7	Cardiovascular
+80-05-7	Toxicants
+8072-39-7	Pesticide
+50-48-6	Central Nervous System (CNS)
+83203-42-3	Hormones, Endocrine and Metabolic
+94-09-7	Peripheral Nervous System (PNS)
+25316-40-9	Oncology
+110862-48-1	Cardiovascular
+22494-42-4	Anti-inflammatory
+55268-74-1	Infectious Disease
+7491-74-9	Central Nervous System (CNS)
+1404-93-9	Infectious Disease
+120210-48-2	Anti-inflammatory
+69-74-9	Oncology
+5841-63-4	Central Nervous System (CNS)
+65-29-2	Peripheral Nervous System (PNS)
+62-44-2	Anti-inflammatory
+82159-09-9	Metabolic Diseases
+121268-17-5	Hormones, Endocrine and Metabolic
+115964-29-9	Infectious Disease
+492-08-0	Cardiovascular
+8065-45-0	Central Nervous System (CNS)
+21829-25-4	Cardiovascular
+84-02-6	Central Nervous System (CNS)
+13311-84-7	Oncology
+15690-55-8	Hormones, Endocrine and Metabolic
+1953-02-2	Central Nervous System (CNS)
+27948-47-6	Cardiovascular
+117-37-3	Hematologics
+116788-91-1	Pesticide
+50-24-8	Anti-inflammatory
+139755-83-2	Cardiovascular
+514-36-3	Hormones, Endocrine and Metabolic
+80581-86-8	Infectious Disease
+67-97-0	Vitamins, Minerals and Nutrients
+56296-78-7	Central Nervous System (CNS)
+124832-27-5	Infectious Disease
+122320-73-4	Hormones, Endocrine and Metabolic
+357-70-0	Central Nervous System (CNS)
+56-40-6	Vitamins, Minerals and Nutrients
+17198-21-9	biochemical
+20830-75-5	Cardiovascular
+114-07-8	Infectious Disease
+25389-94-0	Infectious Disease
+98319-25-7	Hormones, Endocrine and Metabolic
+162011-90-7	Analgesics
+31879-05-7	Anti-inflammatory
+59333-67-4	Central Nervous System (CNS)
+127779-20-8	Infectious Disease
+226904-33-2	Gastrointestinal System
+73963-72-1	Cardiovascular
+86541-75-5	Cardiovascular
+50-50-0	Hormones, Endocrine and Metabolic
+40671-54-3	Cardiovascular
+84057-94-3	Cardiovascular
+1538-09-6	Infectious Disease
+33419-42-0	Oncology
+55837-25-7	Cardiovascular
+27724-96-5	Gastrointestinal System
+127-48-0	Central Nervous System (CNS)
+7783-47-3	Other Human Uses
+69-65-8	Cardiovascular
+140-64-7	Infectious Disease
+73573-88-3	Cardiovascular
+427-51-0	Hormones, Endocrine and Metabolic
+549-18-8	Central Nervous System (CNS)
+54143-57-6	Central Nervous System (CNS)
+69353-21-5	Central Nervous System (CNS)
+6493-05-6	Cardiovascular
+66-76-2	Cardiovascular
+83-44-3	Vitamins, Minerals and Nutrients
+30652-11-0	Cardiovascular
+24169-02-6	Infectious Disease
+6036-95-9	Anti-inflammatory
+37341-99-4	Cardiovascular
+77883-43-3	Cardiovascular
+86050-77-3	Contrasting Agent for magnetic resonance imaging.
+59-46-1	Peripheral Nervous System (PNS)
+55-98-1	Oncology
+7081-53-0	Respiratory System
+59277-89-3	Infectious Disease
+58186-27-9	Central Nervous System (CNS)
+85721-33-1	Infectious Disease
+91032-37-0	Infectious Disease
+154-42-7	Oncology
+2280-32-2	Infectious Disease
+22601-59-8	Infectious Disease
+103628-48-4	Central Nervous System (CNS)
+303-49-1	Central Nervous System (CNS)
+81-25-4	Vitamins, Minerals and Nutrients
+21256-18-8	Anti-inflammatory
+91032-38-1	Infectious Disease
+148-82-3	Oncology
+58-40-2	Central Nervous System (CNS)
+94-58-6	Toxicants
+134678-17-4	Infectious Disease
+357-08-4	Central Nervous System (CNS)
+59-33-6	Anti-inflammatory
+121-54-0	Diagnostics and Pharmaceutical Aids
+105826-92-4	Gastrointestinal System
+60-54-8	Infectious Disease
+131086-21-0	Infectious Disease
+51803-78-2	Anti-inflammatory
+73590-58-6	Gastrointestinal System
+71-27-2	Autonomic Nervous System (ANS)
+152-11-4	Cardiovascular
+117976-89-3	Gastrointestinal System
+65277-42-1	Infectious Disease
+57-63-6	Hormones, Endocrine and Metabolic
+8017-52-5	Central Nervous System (CNS)
+637-58-1	Dermatology
+107910-75-8	Infectious Disease
+6591-49-7	Infectious Disease
+64211-45-6	Infectious Disease
+122742-25-0	Hormones, Endocrine and Metabolic
+116002-70-1	Central Nervous System (CNS)
+2068-78-2	Oncology
+77-67-8	Central Nervous System (CNS)
+41354-29-4	Anti-inflammatory
+912-60-7	Eye, Ear, Nose and Throat Preparations
+59-88-1	biochemical
+24729-96-2	Infectious Disease
+23214-92-8	Oncology
+496-67-3	Central Nervous System (CNS)
+119478-56-7	Infectious Disease
+155141-29-0	Hormones, Endocrine and Metabolic
+81098-60-4	Central Nervous System (CNS)
+143-75-9	Central Nervous System (CNS)
+54-85-3	Infectious Disease
+70024-40-7	Cardiovascular
+361-09-1	Vitamins, Minerals and Nutrients
+113403-10-4	Anti-inflammatory
+7554-65-6	Other Human Uses
+404-86-4	Analgesics
+51-43-4	Central Nervous System (CNS)
+39562-70-4	Cardiovascular
+63675-72-9	Cardiovascular
+57-96-5	Hormones, Endocrine and Metabolic
+71320-77-9	Central Nervous System (CNS)
+53179-09-2	Infectious Disease
+70288-86-7	Infectious Disease
+23981-47-7	Anti-inflammatory
+35658-65-2	Toxicants
+55142-85-3	Cardiovascular
+57-33-0	Central Nervous System (CNS)
+91032-36-9	Infectious Disease
+64211-46-7	Infectious Disease
+103628-47-3	Central Nervous System (CNS)
+1421-15-4	Central Nervous System (CNS)
+33386-08-2	Central Nervous System (CNS)
+81093-37-0	Cardiovascular
+61-25-6	Cardiovascular
+6011-62-7	Central Nervous System (CNS)
+56-75-7	Infectious Disease
+50-02-2	Anti-inflammatory
+77-86-1	electrolyte balance
+439-14-5	Central Nervous System (CNS)
+55819-32-4	Pesticide
+298-57-7	Cardiovascular
+111348-33-5	Oncology
+1668-19-5	Central Nervous System (CNS)
+18883-66-4	Oncology
+1806-26-4	Toxicants
+470-82-6	Respiratory System
+138199-71-0	Infectious Disease
+7440-38-2	Toxicants
+35891-93-1	Peripheral Nervous System (PNS)
+58-05-9	Chemoprophylaxis
+83905-01-5	Infectious Disease
+82586-55-8	Cardiovascular
+508-52-1	Cardiovascular
+50-60-2	Cardiovascular
+187285-10-5	Hormones, Endocrine and Metabolic
+1405-10-3	Infectious Disease
+121947-25-9	Central Nervous System (CNS)
+73-31-4	Hormones, Endocrine and Metabolic
+96448-41-8	Central Nervous System (CNS)
+125317-39-7	Oncology
+25387-67-1	Oncology
+16110-51-3	Respiratory System
+3239-44-9	Central Nervous System (CNS)
+66376-36-1	Hormones, Endocrine and Metabolic
+72-69-5	Central Nervous System (CNS)
+27203-92-5	Central Nervous System (CNS)
+81131-70-6	Cardiovascular
+103639-04-9	Central Nervous System (CNS)
+68-22-4	Hormones, Endocrine and Metabolic
+65271-80-9	Oncology
+113-98-4	Infectious Disease
+93106-60-6	Veterinarian
+21535-47-7	Central Nervous System (CNS)
+90243-99-5	Cardiovascular
+15347-57-6	Toxicants
+34786-70-4	Infectious Disease
+25812-30-0	Cardiovascular
+75438-57-2	Cardiovascular
+28721-07-5	Central Nervous System (CNS)
+86784-41-0	Infectious Disease
+122-11-2	infectious disease
+68693-11-8	Central Nervous System (CNS)
+60-80-0	Anti-inflammatory
+119-36-8	Anti-inflammatory
+23288-49-5	Cardiovascular
+47880-49-9	Infectious Disease
+126-07-8	Infectious Disease
+150399-21-6	Anti-inflammatory
+93572-42-0	Infectious Disease
+87573-04-4	Infectious Disease
+74-55-5	Infectious Disease
+50-23-7	Anti-inflammatory
+129-06-6	Cardiovascular
+39331-48-1	Central Nervous System (CNS)
+53716-50-0	Veterinarian
+60763-49-7	Cardiovascular
+108138-46-1	Infectious Disease
+148-24-3	Diagnostics and Pharmaceutical Aids
+91161-71-6	Infectious Disease
+34675-84-8	Gastrointestinal System
+5581-45-3	Central Nervous System (CNS)
+21462-39-5	Infectious Disease
+23795-03-1	Hormones, Endocrine and Metabolic
+97682-44-5	Oncology
+63527-52-6	Infectious Disease
+53-60-1	Central Nervous System (CNS)
+108863-62-3	Central Nervous System (CNS)
+58947-95-8	Central Nervous System (CNS)
+3717-88-2	Autonomic Nervous System (ANS)
+47879-97-0	Infectious Disease
+51146-56-6	Anti-inflammatory
+11116-31-7	Oncology
+630-93-3	Central Nervous System (CNS)
+94-24-6	Peripheral Nervous System (PNS)
+142057-77-0	Central Nervous System (CNS)
+54965-21-8	Infectious Disease
+80382-23-6	Anti-inflammatory
+16595-80-5	Oncology
+456-59-7	Cardiovascular
+105878-73-7	Respiratory System
+105234-21-7	Central Nervous System (CNS)
+125-84-8	Oncology
+51-83-2	Ophthamology
+180683-37-8	Infectious Disease
+548-62-9	Infectious Disease
+79902-63-9	Cardiovascular

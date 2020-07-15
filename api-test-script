@@ -1,0 +1,54 @@
+#!/bin/bash
+# script for POSTing new json to tox21 api
+curl -i POST http://localhost:8080/tox21enricher/tox21-api/ -H "Content-Type: application/json" -d $'{
+    "smiles":"CC(=O)C1=CC=C(C=C1)[N+]([O-])
+ClCC1=CC=CC=C1
+CN(C)C1=CC=C(C=C1)", 
+    "annoSelectStr":"MESH=checked PHARMACTIONLIST=checked ACTIVITY_CLASS=checked ADVERSE_EFFECT=checked INDICATION=checked KNOWN_TOXICITY=checked MECH_LEVEL_2=checked MECH_LEVEL_3=checked MECHANISM=checked MESH_LEVEL_1=checked MESH_LEVEL_2=checked MESH_LEVEL_3=checked MODE_CLASS=checked PRODUCT_CLASS=checked STRUCTURE_ACTIVITY=checked TA_LEVEL_1=checked TA_LEVEL_2=checked TA_LEVEL_3=checked THERAPEUTIC_CLASS=checked TISSUE_TOXICITY=checked CTD_CHEM2DISEASE=checked CTD_CHEM2GENE_25=checked CTD_PATHWAY=checked DRUGBANK_ATC_CODE=checked DRUGBANK_TARGETS=checked HTS_ACTIVE=checked LEADSCOPE_TOXICITY=checked MULTICASE_TOX_PREDICTION=checked TOXCAST=checked TOXINS_TARGETS=checked TOXPRINT_STRUCTURE=checked TOXREFDB=checked", 
+    "enrichAnalysisType":"smiles", 
+    "casrnInput": "",
+    "meshTerm": "on",
+    "pharmAction": "on",
+    "activityColumn": "on",
+    "adverseEffect": "on",
+    "indication": "on",
+    "knownToxicity": "on",
+    "mechLevel1": "on",
+    "mechLevel2": "on",
+    "mechLevel3": "on",
+    "mechanism":  "on",
+    "meshLevel1": "on",
+    "meshLevel2": "on",
+    "meshLevel3": "on",
+    "modeClass": "on",
+    "productClass": "on",
+    "structureActivity": "on",
+    "taLevel1": "on",
+    "taLevel2": "on",
+    "taLevel3": "on",
+    "therapeuticClass": "on",
+    "tissueToxicity": "on",
+    "chem2Disease": "on",
+    "ctdChem2Gene25": "on",
+    "pathway": "on",
+    "drugbankAtcCode": "on",
+    "drugbankTargets": "on",
+    "htsActive": "on",
+    "leadscopeToxicity": "on",
+    "multicaseToxPrediction": "on",
+    "toxCast": "on",
+    "toxinsTargets": "on",
+    "toxPrintStructure": "on",
+    "toxRefDb": "on",
+    "casrnBox": "",
+    "smilesSearchType": "Substructure",
+    "thresholdSelectValue": "0.5",
+    "smileBox": "CC(=O)C1=CC=C(C=C1)[N+]([O-])
+ClCC1=CC=CC=C1
+CN(C)C1=CC=C(C=C1)",
+    "analysisType": "SMILES"
+}'
+
+#curl -i http://localhost:8080/tox21enricher/tox21-api/4cf55775-4677-4ed5-978a-e033a969691c/enrich
+
+#curl -O http://localhost:8080/tox21enricher/analysisResults/downloadFile?resultSet=49&filename=tox21enricher.zip     

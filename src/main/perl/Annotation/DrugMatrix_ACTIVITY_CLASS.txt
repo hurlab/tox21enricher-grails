@@ -1,0 +1,1043 @@
+26921-17-5	Adrenergic antagonist
+51012-32-9	Dopamine antagonist
+76824-35-6	Histamine antagonist
+14216-34-3	Anti-inflammatory
+50-06-6	GABA agonist
+8055-10-5	Non-DNA reactive antiproliferative agent
+89565-68-4	Serotonin antagonist
+101-77-9	Toxicant, DNA damaging
+102625-70-7	H+/K+-ATPase inhibitor
+49745-95-1	Adrenergic agonist
+107007-99-8	Serotonin antagonist
+1492-18-8	Non-DNA reactive antiproliferative agent
+57308-51-7	Dopamine agonist
+108-90-7	Toxicant, DNA damaging
+58409-59-9	Monoamine re-uptake/oxidase inhibitor
+50-52-2	Dopamine antagonist
+80214-83-1	Antibiotic, ribosomal inhibitor
+69-14-7	Toxicant
+15468-34-5	DNA damager
+17466-45-4	Antiproliferative agent
+59-92-7	Dopamine agonist
+90438-83-8	Antibiotic, ribosomal inhibitor
+37091-65-9	Antibiotic, bacterial cell wall inhibitor
+15307-79-6	Anti-inflammatory
+3810-74-0	Antibiotic, ribosomal inhibitor
+93957-55-2	Cholesterol biosynthesis inhibitor
+154-93-8	DNA damager
+88873-75-0	Anti-inflammatory
+121-19-7	Toxicant
+525-66-6	Adrenergic antagonist
+122111-03-9	Non-DNA reactive antiproliferative agent
+85441-61-8	RAAS inhibitor
+111974-72-2	Serotonin antagonist
+110-00-9	Toxicant, DNA damaging
+61-72-3	Antibiotic, bacterial cell wall inhibitor
+53902-12-8	Unknown mechanism
+1154-59-2	Unknown mechanism
+22232-80-0	Retinoic acid receptor (RAR) agonist
+74011-58-8	DNA gyrase inhibitor
+152-04-5	GR-MR agonist
+71963-77-4	DNA damager
+145599-86-6	Cholesterol biosynthesis inhibitor
+61869-08-7	Monoamine re-uptake/oxidase inhibitor
+28981-97-7	GABA agonist
+114798-26-4	RAAS inhibitor
+63-74-1	Antibiotic, sulfonamide
+113665-84-2	Nucleotide receptor P2Y12 antagonist
+41294-56-8	Vitamin D receptor agonist
+65-49-6	Anti-inflammatory
+14402-89-2	Vasodilator
+98079-51-7	DNA gyrase inhibitor
+1622-61-3	GABA agonist
+76095-16-4	RAAS inhibitor
+101053-01-4	Monoamine re-uptake/oxidase inhibitor
+305-33-9	Monoamine re-uptake/oxidase inhibitor
+73-78-9	Na+ channel blocker
+13721-39-6	Mitochondrial toxicant
+67-20-9	DNA damager
+20830-81-3	DNA damager
+53746-45-5	Anti-inflammatory
+1402-99-9	Antibiotic, bacterial cell wall inhibitor
+15307-86-5	Anti-inflammatory
+139481-59-7	RAAS inhibitor
+4759-48-2	Retinoic acid receptor (RAR) agonist
+123040-16-4	Serotonin antagonist
+135-23-9	Histamine antagonist
+2011-67-8	GABA agonist
+64-17-5	Alcohol dehydrogenase inhibitor
+100490-36-6	DNA gyrase inhibitor
+30484-77-6	Ca++ channel (T-Type) blocker
+147-94-4	Non-DNA reactive antiproliferative agent
+965-90-2	Androgen receptor agonist
+36205-82-0	Anti-inflammatory
+147-24-0	Histamine antagonist
+71486-22-1	Non-DNA reactive antiproliferative agent
+39809-25-1	Anti-viral
+1951-25-3	K+ (inward), & KATP (SUR2) channel blocker, adrenoceptor antagonist, monoamine transporter inhibitor
+148229-78-1	Monoamine re-uptake/oxidase inhibitor
+59-66-5	Diuretic
+51481-61-9	Histamine antagonist
+446-72-0	Estrogen agonist
+1684-40-8	Cholinesterase inhibitor
+10592-13-9	Antibiotic, ribosomal inhibitor
+38194-50-2	Anti-inflammatory
+160738-57-8	DNA gyrase inhibitor
+108068-98-0	Monoamine re-uptake/oxidase inhibitor
+438-41-5	GABA agonist
+64485-93-4	Antibiotic, bacterial cell wall inhibitor
+1400-61-9	Antibiotic
+23541-50-6	DNA damager
+36322-90-4	Anti-inflammatory
+1066-17-7	Antibiotic
+95-25-0	K+ channel opener
+71950-35-1	Non-DNA reactive antiproliferative agent
+50-76-0	DNA damager
+109889-09-0	Serotonin antagonist
+79-01-6	Toxicant, DNA damaging
+157810-81-6	Anti-viral
+64-86-8	Non-DNA reactive antiproliferative agent
+11061-68-0	Insulin receptor agonist
+52-49-3	Muscarinic acetylcholine receptor antagonist
+62996-74-1	Antiproliferative agent
+123-03-5	Antibiotic
+50-07-7	DNA damager
+110707-92-1	Serotonin antagonist
+99614-02-5	Serotonin antagonist
+12374-71-9	Monoamine re-uptake/oxidase inhibitor
+86-54-4	K+ channel opener
+138786-67-1	H+/K+-ATPase inhibitor
+96-18-4	Toxicant, DNA damaging
+99-57-0	Toxicant, DNA damaging
+154644-14-1	H+/K+-ATPase inhibitor
+15687-27-1	Anti-inflammatory
+105816-04-4	Anti-diabetic
+89786-04-9	Antibiotic, bacterial cell wall inhibitor
+21187-98-4	Anti-diabetic
+36894-69-6	Adrenergic antagonist
+156-51-4	Monoamine re-uptake/oxidase inhibitor
+138680-08-7	GABA agonist
+60-02-6	Monoamine re-uptake/oxidase inhibitor
+98079-52-8	DNA gyrase inhibitor
+19767-45-4	H2O2 radical scavenger
+30418-50-9	Toxicant
+124-48-1	Toxicant
+81103-11-9	Antibiotic, ribosomal inhibitor
+70918-01-3	Adrenergic antagonist
+54-31-9	Diuretic
+42924-53-8	Anti-inflammatory
+119-04-0	Antibiotic, ribosomal inhibitor
+29094-61-9	Anti-diabetic
+387867-13-2	Non-DNA reactive antiproliferative agent
+56180-94-0	Anti-diabetic
+90581-31-0	Antibiotic, ribosomal inhibitor
+555-30-6	Adrenergic agonist
+465-65-6	Opioid receptor antagonist
+56211-40-6	Diuretic
+3572-43-8	Guanylate cyclase inhibitor
+53123-88-9	Inhibit calcineurin as a drug-immunophilin complex
+69975-86-6	Phosphodiesterase inhibitor
+645-43-2	Monoamine re-uptake/oxidase inhibitor
+9045-66-3	Insulin receptor agonist
+62-73-7	Toxicant
+8052-21-9	Histamine antagonist
+9041-93-4	DNA damager
+151319-34-5	GABA agonist
+645-05-6	DNA damager
+57-66-9	Organic anion transporter inhibitor
+6108-05-0	Na+ channel blocker
+15301-69-6	Unknown mechanism
+106266-06-2	Serotonin antagonist
+30751-05-4	Unknown mechanism
+4910-46-7	Monoamine re-uptake/oxidase inhibitor
+315-30-0	Non-DNA reactive antiproliferative agent
+123040-69-7	Serotonin antagonist
+18968-99-5	Monoamine re-uptake/oxidase inhibitor
+532-03-6	Unknown mechanism
+91714-93-1	Anti-inflammatory
+90581-30-9	Antibiotic, ribosomal inhibitor
+50-63-5	Toxicant
+24659-79-8	Non-DNA reactive antiproliferative agent
+128794-94-5	Non-DNA reactive antiproliferative agent
+302-01-2	Toxicant, DNA damaging
+26833-85-2	Non-DNA reactive antiproliferative agent
+80573-04-2	Anti-inflammatory
+49562-28-9	Peroxisome proliferator
+9045-67-4	Insulin receptor agonist
+54-11-5	Nicotinic acetylcholine receptor agonist
+59-01-8	Antibiotic, ribosomal inhibitor
+62139-95-1	Toxicant
+14028-44-5	Serotonin antagonist
+43200-80-2	GABA agonist
+637-07-0	Peroxisome proliferator
+26159-34-2	Anti-inflammatory
+81161-17-3	Adrenergic antagonist
+93413-69-5	Monoamine re-uptake/oxidase inhibitor
+134523-05-8	Cholesterol biosynthesis inhibitor
+10418-03-8	Androgen receptor agonist
+150378-17-9	Anti-viral
+11024-24-1	Na+/K+-ATPase inhibitor
+1156-19-0	Anti-diabetic
+58-08-2	Adenosine receptor antagonist, xanthine
+3506-09-0	Adrenergic antagonist
+137-09-7	Toxicant
+69-09-0	Dopamine antagonist
+89-63-4	Toxicant, DNA damaging
+59293-82-2	Antifungals azole
+7712-50-7	Na+ channel blocker
+120511-73-1	Estrogen antagonist
+112885-43-5	Serotonin agonist
+29122-68-7	Adrenergic antagonist
+55-91-4	Cholinesterase inhibitor
+64-75-5	Antibiotic, ribosomal inhibitor
+56-23-5	Toxicant, DNA damaging
+59-67-6	Cholesterol biosynthesis inhibitor
+134-03-2	H2O2 radical scavenger
+302-79-4	Retinoic acid receptor (RAR) agonist
+13010-47-4	DNA damager
+144285-03-0	Phosphodiesterase inhibitor
+5633-20-5	Muscarinic acetylcholine receptor antagonist
+5929-09-9	Nicotinic acetylcoline receptor antagonist
+56-53-1	Estrogen agonist
+1953-04-4	Cholinesterase inhibitor
+99300-78-4	Monoamine re-uptake/oxidase inhibitor
+90729-43-4	Histamine antagonist
+84625-61-6	Antifungals azole
+105784-61-0	DNA gyrase inhibitor
+129-03-3	Serotonin antagonist
+54-92-2	Monoamine re-uptake/oxidase inhibitor
+17902-23-7	Non-DNA reactive antiproliferative agent
+68373-14-8	Antibiotic, bacterial cell wall inhibitor
+302-22-7	Androgen antagonist
+75330-75-5	Cholesterol biosynthesis inhibitor
+911-45-5	Estrogen antagonist
+78628-80-5	Cholesterol biosynthesis inhibitor
+64840-90-0	Sigma receptor modulator
+13013-17-7	Adrenergic antagonist
+66357-59-3	Histamine antagonist
+84371-65-3	Progesterone receptor antagonist
+146-56-5	Dopamine antagonist
+10026-11-6	Toxicant
+34330-64-8	Toxicant
+4474-91-3	Angiotensin receptor agonist
+47468-70-2	GR-MR agonist
+140401-05-4	Non-DNA reactive antiproliferative agent
+5370-01-4	Na+ channel blocker
+75-35-4	Toxicant, DNA damaging
+56391-56-1	Antibiotic, ribosomal inhibitor
+6621-47-2	Mitochondrial toxicant
+125-33-7	GABA agonist
+52-01-7	RAAS inhibitor
+10540-29-1	Estrogen antagonist
+112809-51-5	Estrogen antagonist
+8023-22-1	Toxicant
+58-73-1	Histamine antagonist
+90-39-1	Nicotinic acetylcoline receptor antagonist
+95828-55-0	Toxicant
+32780-64-6	Adrenergic antagonist
+62571-86-2	RAAS inhibitor
+5638-76-6	Histamine receptor agonist
+131322-37-7	Serotonin agonist
+107-11-9	Toxicant
+59729-32-7	Monoamine re-uptake/oxidase inhibitor
+86541-74-4	RAAS inhibitor
+2921-88-2	Toxicant
+30516-87-1	Anti-viral
+50976-86-8	Antibiotic, ribosomal inhibitor
+41859-67-0	Peroxisome proliferator
+17431-55-9	Antibiotic, ribosomal inhibitor
+102-76-1	Unknown mechanism
+99-99-0	Toxicant
+158920-43-5	Organic anion transporter inhibitor
+22232-54-8	Thyroperoxidase inhibitor
+62-55-5	Toxicant
+50-35-1	Unknown mechanism
+103577-45-3	H+/K+-ATPase inhibitor
+154-21-2	Antibiotic, ribosomal inhibitor
+57-22-7	Non-DNA reactive antiproliferative agent
+106-47-8	Toxicant, DNA damaging
+22204-88-2	Monoamine re-uptake/oxidase inhibitor
+396-01-0	Diuretic
+5743-04-4	Toxicant
+89796-99-6	Anti-inflammatory
+49625-23-2	Monoamine re-uptake/oxidase inhibitor
+86386-73-4	Antifungals azole
+51234-28-7	Anti-inflammatory
+13497-05-7	Retinoic acid receptor (RAR) agonist
+10108-64-2	Toxicant
+38304-91-5	K+ channel opener
+71-63-6	Na+/K+-ATPase inhibitor
+7790-78-5	Toxicant
+611-75-6	Guanylate cyclase inhibitor
+54856-23-4	Histamine receptor agonist
+2315-02-8	Adrenergic agonist
+61036-64-4	Antibiotic, bacterial cell wall inhibitor
+91714-94-2	Anti-inflammatory
+61318-90-9	Antifungals azole
+621-42-1	Anti-inflammatory
+72589-96-9	Toxicant
+7689-03-4	Non-DNA reactive antiproliferative agent
+155213-67-5	Anti-viral
+67-73-2	GR-MR agonist
+34368-04-2	Adrenergic agonist
+117-81-7	Peroxisome proliferator
+434-03-7	Progesterone receptor agonist
+8027-03-0	Non-DNA reactive antiproliferative agent
+603-50-9	Unknown mechanism
+17321-77-6	Monoamine re-uptake/oxidase inhibitor
+86126-06-9	Adrenergic antagonist
+91-84-9	Histamine antagonist
+1403-66-3	Antibiotic, ribosomal inhibitor
+2438-32-6	Histamine antagonist
+96036-03-2	Antibiotic, bacterial cell wall inhibitor
+144256-27-9	Serotonin agonist
+181695-72-7	Anti-inflammatory
+107-18-6	Toxicant
+123-41-1	Muscarinic acetylcholine receptor agonist
+15318-45-3	Antibiotic, ribosomal inhibitor
+650-51-1	Unknown mechanism
+121985-71-5	Na+ channel blocker
+52-39-1	GR-MR agonist
+443-48-1	DNA damager
+4205-91-8	Adrenergic agonist
+137-58-6	Na+ channel blocker
+52-53-9	Ca++ channel (L-Type) blocker
+31828-71-4	Na+ channel blocker
+50679-08-8	Histamine antagonist
+10102-18-8	Toxicant
+67-64-1	Toxicant
+602-59-5	Toxicant
+24390-14-5	Antibiotic, ribosomal inhibitor
+1867-66-9	Glutamate antagonist
+50-44-2	Non-DNA reactive antiproliferative agent
+192329-42-3	Antiproliferative agent
+6740-88-1	Glutamate antagonist
+22916-47-8	Antifungals azole
+149908-23-6	Antibiotic, ribosomal inhibitor
+53776-71-9	Antibiotic, ribosomal inhibitor
+364-62-5	Monoamine re-uptake/oxidase inhibitor
+103598-03-4	Adrenergic antagonist
+140-11-4	Toxicant
+63-24-1	Antiproliferative agent
+31677-93-7	Monoamine re-uptake/oxidase inhibitor
+53885-35-1	Nucleotide receptor P2Y12 antagonist
+77-92-9	Unknown mechanism
+140-72-7	Antibiotic
+79617-96-2	Monoamine re-uptake/oxidase inhibitor
+19216-56-9	Adrenergic antagonist
+9045-65-2	Insulin receptor agonist
+112529-15-4	Anti-diabetic
+88-04-0	Unknown mechanism
+60142-96-3	Reduce glutamate release
+57852-57-0	DNA damager
+31430-15-6	Non-DNA reactive antiproliferative agent
+959-24-0	Adrenergic antagonist
+50-78-2	Anti-inflammatory
+10238-21-8	Anti-diabetic
+68767-14-6	Anti-inflammatory
+302-27-2	Toxicant
+3056-17-5	Anti-viral
+7722-44-3	Antibiotic
+75847-73-3	RAAS inhibitor
+526-08-9	Antibiotic, sulfonamide
+51-55-8	Muscarinic acetylcholine receptor antagonist
+53-96-3	Toxicant, DNA damaging
+543-90-8	Toxicant
+114-80-7	Cholinesterase inhibitor
+8060-73-9	Na+ channel blocker
+58-22-0	Androgen receptor agonist
+98319-26-7	Androgen antagonist
+33032-12-1	Histamine antagonist
+74191-85-8	Adrenergic antagonist
+15826-37-6	Unknown mechanism
+36282-47-0	Monoamine re-uptake/oxidase inhibitor
+483-18-1	Toxicant
+146874-86-4	Adrenergic antagonist
+111542-93-9	DNA gyrase inhibitor
+10083-56-4	Monoamine re-uptake/oxidase inhibitor
+66-27-3	DNA damager
+146-22-5	GABA agonist
+90-34-6	Non-DNA reactive antiproliferative agent
+91032-34-7	Antibiotic, bacterial cell wall inhibitor
+13292-46-1	Non-DNA reactive antiproliferative agent
+37091-66-0	Antibiotic, bacterial cell wall inhibitor
+14769-73-4	Non-DNA reactive antiproliferative agent
+57-41-0	Na+ channel blocker
+59729-33-8	Monoamine re-uptake/oxidase inhibitor
+15686-51-8	Histamine antagonist
+100-63-0	Dopamine antagonist
+57808-65-8	Mitochondrial toxicant
+143-67-9	Non-DNA reactive antiproliferative agent
+32385-11-8	Antibiotic, ribosomal inhibitor
+99-76-3	Unknown mechanism
+6251-69-0	GR-MR agonist
+68077-27-0	DNA gyrase inhibitor
+71125-38-7	Anti-inflammatory
+84057-84-1	Na+ channel blocker
+183319-69-9	Non-DNA reactive antiproliferative agent
+102-54-5	Toxicant
+894-71-3	Monoamine re-uptake/oxidase inhibitor
+100-33-4	Antibiotic
+15663-27-1	DNA damager
+70-30-4	Cholinesterase inhibitor
+52663-81-7	Adrenergic agonist
+80-05-7	Toxicant
+83203-42-3	Progesterone receptor antagonist
+1397-94-0	Mitochondrial toxicant
+25316-40-9	DNA damager
+110862-48-1	Cholesterol biosynthesis inhibitor
+18911-13-2	Anti-inflammatory
+55268-74-1	Ca++ channel blocker, antiparasitics
+7491-74-9	Glycine receptor antagonist
+1404-93-9	Antibiotic, bacterial cell wall inhibitor
+65-29-2	Muscarinic acetylcholine receptor antagonist
+82159-09-9	Anti-diabetic
+147059-72-1	DNA gyrase inhibitor
+121268-17-5	Non-DNA reactive antiproliferative agent
+21829-25-4	Ca++ channel (L-Type) blocker
+84-02-6	Dopamine antagonist
+446-86-6	Non-DNA reactive antiproliferative agent
+117-37-3	Vitamin-K-epoxide reductase inhibitor
+139755-83-2	Phosphodiesterase inhibitor
+514-36-3	GR-MR agonist
+80581-86-8	Antibiotic, bacterial cell wall inhibitor
+67-97-0	Vitamin D receptor agonist
+124832-27-5	Anti-viral
+56-40-6	Glutamate receptor agonist, glycine receptor agonist
+357-70-0	Cholinesterase inhibitor
+114-07-8	Antibiotic, ribosomal inhibitor
+64-85-7	Progesterone receptor agonist
+59333-67-4	Monoamine re-uptake/oxidase inhibitor
+226904-33-2	H+/K+-ATPase inhibitor
+86541-75-5	RAAS inhibitor
+50-50-0	Estrogen agonist
+40671-54-3	K+ channel opener
+1538-09-6	Antibiotic, bacterial cell wall inhibitor
+55837-25-7	Adrenergic antagonist
+27724-96-5	Increase gastric mucosal glycoprotein synthesis, molecular target unknown
+69-65-8	Diuretic
+73573-88-3	Cholesterol biosynthesis inhibitor
+54143-57-6	Monoamine re-uptake/oxidase inhibitor
+6493-05-6	Adenosine receptor antagonist, xanthine
+24169-02-6	Antifungals azole
+6036-95-9	Histamine antagonist
+37341-99-4	Vitamin-K-epoxide reductase inhibitor
+77883-43-3	Adrenergic antagonist
+86050-77-3	Unknown mechanism
+55-98-1	DNA damager
+7081-53-0	Respiratory stimulant
+58186-27-9	H2O2 radical scavenger
+61-76-7	Adrenergic agonist
+2280-32-2	Antibiotic, ribosomal inhibitor
+756-79-6	Cholinesterase inhibitor
+81-25-4	Toxicant
+21256-18-8	Anti-inflammatory
+148-82-3	DNA damager
+58-40-2	Dopamine antagonist
+134678-17-4	Anti-viral
+59-33-6	Histamine antagonist
+144035-83-6	Phosphodiesterase inhibitor
+121-54-0	Nicotinic acetylcoline receptor antagonist
+60-54-8	Antibiotic, ribosomal inhibitor
+131086-21-0	Anti-viral
+71-27-2	Nicotinic acetylcholine receptor agonist
+152-11-4	Ca++ channel (L-Type) blocker
+117976-89-3	H+/K+-ATPase inhibitor
+57-63-6	Estrogen agonist
+99464-64-9	Anti-inflammatory
+2068-78-2	Non-DNA reactive antiproliferative agent
+41354-29-4	Serotonin antagonist
+24729-96-2	Antibiotic, ribosomal inhibitor
+23214-92-8	DNA damager
+496-67-3	GABA agonist
+98-95-3	Toxicant
+155141-29-0	Anti-diabetic
+81098-60-4	Serotonin agonist
+361-09-1	Toxicant
+39562-70-4	Ca++ channel (L-Type) blocker
+63675-72-9	Ca++ channel (L-Type) blocker
+71320-77-9	Monoamine re-uptake/oxidase inhibitor
+70288-86-7	GABA agonist
+108319-06-8	DNA gyrase inhibitor
+55142-85-3	Nucleotide receptor P2Y12 antagonist
+57-33-0	GABA agonist
+91032-36-9	Antibiotic, bacterial cell wall inhibitor
+64211-46-7	Antifungals azole
+33386-08-2	Serotonin agonist
+81093-37-0	Cholesterol biosynthesis inhibitor
+6011-62-7	Monoamine re-uptake/oxidase inhibitor
+56-75-7	Antibiotic, ribosomal inhibitor
+50-02-2	GR-MR agonist
+111348-33-5	Non-DNA reactive antiproliferative agent
+18883-66-4	DNA damager
+138199-71-0	DNA gyrase inhibitor
+470-82-6	Unknown mechanism
+7440-38-2	Toxicant
+35891-93-1	Na+ channel blocker
+83905-01-5	Antibiotic, ribosomal inhibitor
+508-52-1	Na+/K+-ATPase inhibitor
+50-60-2	Adrenergic antagonist
+187285-10-5	Non-DNA reactive antiproliferative agent
+121947-25-9	Na+ channel blocker
+73-31-4	Melatonin receptor agonist
+125317-39-7	Non-DNA reactive antiproliferative agent
+25387-67-1	Non-DNA reactive antiproliferative agent
+16110-51-3	Unknown mechanism
+3239-44-9	Monoamine re-uptake/oxidase inhibitor
+27203-92-5	Monoamine re-uptake/oxidase inhibitor
+81131-70-6	Cholesterol biosynthesis inhibitor
+65271-80-9	DNA damager
+113-98-4	Antibiotic, bacterial cell wall inhibitor
+21535-47-7	Histamine antagonist
+90243-99-5	RAAS inhibitor
+15347-57-6	Toxicant
+34786-70-4	Antibiotic
+25812-30-0	Peroxisome proliferator
+122-11-2	Antibiotic, sulfonamide
+68693-11-8	Monoamine re-uptake/oxidase inhibitor
+126-07-8	Non-DNA reactive antiproliferative agent
+87573-04-4	Antibiotic, ribosomal inhibitor
+74-55-5	Antibiotic
+129-06-6	Vitamin-K-epoxide reductase inhibitor
+53716-50-0	Non-DNA reactive antiproliferative agent
+148-24-3	Monoamine re-uptake/oxidase inhibitor
+34675-84-8	Increase gastric mucosal glycoprotein synthesis, molecular target unknown
+162401-32-3	Phosphodiesterase inhibitor
+12393-32-7	Insulin receptor agonist
+63527-52-6	Antibiotic, bacterial cell wall inhibitor
+108863-62-3	Monoamine re-uptake/oxidase inhibitor
+58947-95-8	Muscarinic acetylcholine receptor antagonist
+51146-56-6	Anti-inflammatory
+11116-31-7	DNA damager
+630-93-3	Na+ channel blocker
+94-24-6	Na+ channel blocker
+80382-23-6	Anti-inflammatory
+109-52-4	Toxicant
+16595-80-5	Non-DNA reactive antiproliferative agent
+456-59-7	Unknown mechanism
+105878-73-7	Unknown mechanism
+125-84-8	Estrogen antagonist
+180683-37-8	Anti-viral
+107-02-8	Toxicant, DNA damaging
+548-62-9	Mitochondrial toxicant
+79902-63-9	Cholesterol biosynthesis inhibitor
+87333-19-5	RAAS inhibitor
+47879-92-5	Antibiotic, ribosomal inhibitor
+10262-69-8	Monoamine re-uptake/oxidase inhibitor
+78110-38-0	Antibiotic, bacterial cell wall inhibitor
+37517-28-5	Antibiotic, ribosomal inhibitor
+93957-54-1	Cholesterol biosynthesis inhibitor
+14976-57-9	Histamine antagonist
+55-18-5	Toxicant, DNA damaging
+110204-46-1	Serotonin antagonist
+59865-13-3	Inhibit calcineurin as a drug-immunophilin complex
+127-07-1	Non-DNA reactive antiproliferative agent
+91-80-5	Histamine antagonist
+83730-53-4	Toxicant
+143201-11-0	Cholesterol biosynthesis inhibitor
+321-64-2	Cholinesterase inhibitor
+98-96-4	Antibiotic
+33089-61-1	Toxicant
+51-52-5	Thyroperoxidase inhibitor
+1404-31-5	Antibiotic
+81-81-2	Vitamin-K-epoxide reductase inhibitor
+142678-34-0	H+/K+-ATPase inhibitor
+3426-54-8	Non-DNA reactive antiproliferative agent
+14930-96-2	Non-DNA reactive antiproliferative agent
+34156-56-4	Anti-viral
+41372-08-1	Adrenergic agonist
+84449-90-1	Estrogen antagonist
+53-19-0	Non-DNA reactive antiproliferative agent
+66104-23-2	Ergot alkaloid
+58-18-4	Androgen receptor agonist
+93479-97-1	Anti-diabetic
+7535-00-4	Toxicant
+99551-09-4	Insulin receptor agonist
+8072-21-7	Toxicant
+434-07-1	Androgen receptor agonist
+60-56-0	Thyroperoxidase inhibitor
+3778-73-2	DNA damager
+57-62-5	Antibiotic, ribosomal inhibitor
+75736-33-3	Monoamine re-uptake/oxidase inhibitor
+1134-47-0	GABA agonist
+71-55-6	Toxicant
+106650-56-0	Monoamine re-uptake/oxidase inhibitor
+111-42-2	Toxicant
+58-38-8	Dopamine antagonist
+56420-45-2	DNA damager
+63585-09-1	Anti-viral
+63968-64-9	DNA damager
+39122-18-4	Na+ channel blocker
+35212-22-7	Estrogen agonist
+52-86-8	Dopamine antagonist
+5786-21-0	Serotonin antagonist
+10-64-67	Toxicant, DNA damaging
+16905-00-3	Anti-inflammatory
+11103-62-1	Non-DNA reactive antiproliferative agent
+24377-67-1	Toxicant
+93107-08-5	DNA gyrase inhibitor
+5072-26-4	Toxicant
+51-79-6	Glutamate antagonist
+30418-52-1	Toxicant
+3254-89-5	Muscarinic acetylcholine receptor antagonist
+70458-96-7	DNA gyrase inhibitor
+15676-16-1	Dopamine antagonist
+61413-54-5	Phosphodiesterase inhibitor
+57-92-1	Antibiotic, ribosomal inhibitor
+111406-87-2	Anti-inflammatory
+97-77-8	Aldehyde dehydrogenase inhibitor
+75-27-4	Toxicant
+54-64-8	Toxicant
+60-87-7	Dopamine antagonist
+37350-58-6	Adrenergic antagonist
+6620-60-6	Cholecystokinin (CCK) receptor antagonist, non-selective
+26787-78-0	Antibiotic, bacterial cell wall inhibitor
+315-22-0	Toxicant
+1197-18-8	Plasmin inhibitor
+82419-36-1	DNA gyrase inhibitor
+1759-53-1	Mitochondrial toxicant
+124832-26-4	Anti-viral
+128-62-1	Bradykinin antagonist
+30771-29-0	Non-DNA reactive antiproliferative agent
+98-92-0	Cholesterol biosynthesis inhibitor
+34597-40-5	Anti-inflammatory
+42551-62-2	Glutamate antagonist
+134523-00-5	Cholesterol biosynthesis inhibitor
+76-73-3	GABA agonist
+79-57-2	Antibiotic, ribosomal inhibitor
+38821-49-7	Dopamine antagonist
+26839-75-8	Adrenergic antagonist
+882-09-7	Peroxisome proliferator
+100986-85-4	DNA gyrase inhibitor
+2691-45-4	Toxicant
+19387-91-8	DNA damager
+171599-83-0	Phosphodiesterase inhibitor
+57-30-7	GABA agonist
+12584-58-6	Insulin receptor agonist
+95510-70-6	H+/K+-ATPase inhibitor
+104051-69-6	DNA gyrase inhibitor
+41708-72-9	Na+ channel blocker
+61379-65-5	Non-DNA reactive antiproliferative agent
+64092-48-4	Anti-inflammatory
+75706-12-6	Non-DNA reactive antiproliferative agent
+111025-46-8	Anti-diabetic
+41340-25-4	Anti-inflammatory
+7487-94-7	Toxicant
+161814-49-9	Anti-viral
+144-11-6	Muscarinic acetylcholine receptor antagonist
+1403-00-5	Antibiotic, bacterial cell wall inhibitor
+112885-41-3	Serotonin agonist
+124750-99-8	RAAS inhibitor
+3930-20-9	Adrenergic antagonist
+108-42-9	Toxicant
+6055-19-2	DNA damager
+66104-22-1	Ergot alkaloid
+58-54-8	Diuretic
+34552-83-5	Opioid receptor (mu) agonist
+55-65-2	Monoamine re-uptake/oxidase inhibitor
+132539-06-1	Serotonin antagonist
+51-06-9	Na+ channel blocker
+671-16-9	DNA damager
+665-66-7	Nicotinic acetylcoline receptor antagonist
+1229-29-4	Histamine antagonist
+109581-93-3	Inhibit calcineurin as a drug-immunophilin complex
+90357-06-5	Androgen antagonist
+61825-94-3	DNA damager
+2809-21-4	Non-DNA reactive antiproliferative agent
+50700-72-6	Nicotinic acetylcoline receptor antagonist
+120-78-5	Pro-inflammatory stimuli
+548-73-2	Dopamine antagonist
+57-55-6	Alcohol dehydrogenase inhibitor
+299-39-8	Nicotinic acetylcoline receptor antagonist
+859-18-7	Antibiotic, ribosomal inhibitor
+11003-08-0	Toxicant, DNA damaging
+104987-11-3	Inhibit calcineurin as a drug-immunophilin complex
+57-83-0	Progesterone receptor agonist
+113-92-8	Histamine antagonist
+133-92-6	Antibiotic, ribosomal inhibitor
+123-31-9	Toxicant, DNA damaging
+2610-86-8	Vitamin-K-epoxide reductase inhibitor
+51-41-2	Adrenergic agonist
+97-54-1	Pro-inflammatory stimuli
+68342-78-9	Na+ channel blocker
+1508-65-2	Muscarinic acetylcholine receptor antagonist
+723-46-6	Antibiotic, sulfonamide
+43210-67-9	Non-DNA reactive antiproliferative agent
+50-27-1	Estrogen agonist
+7540-22-9	Antibiotic, ribosomal inhibitor
+112885-42-4	Serotonin agonist
+17440-83-4	Diuretic
+54-21-7	Anti-inflammatory
+15686-71-2	Antibiotic, bacterial cell wall inhibitor
+50-33-9	Anti-inflammatory
+76-74-4	GABA agonist
+10347-81-6	Monoamine re-uptake/oxidase inhibitor
+50-81-7	H2O2 radical scavenger
+61422-45-5	Non-DNA reactive antiproliferative agent
+551-06-4	Toxicant
+88150-42-9	Ca++ channel (L-Type) blocker
+69-23-8	Dopamine antagonist
+318-98-9	Adrenergic antagonist
+50-14-6	Vitamin D receptor agonist
+102030-19-3	Antibiotic, ribosomal inhibitor
+59-05-2	Non-DNA reactive antiproliferative agent
+309-29-5	Respiratory stimulant
+41575-94-4	DNA damager
+8026-72-0	Antibiotic, ribosomal inhibitor
+25122-46-7	GR-MR agonist
+134523-03-8	Cholesterol biosynthesis inhibitor
+2152-34-3	Monoamine re-uptake/oxidase inhibitor
+138729-47-2	GABA agonist
+58970-76-6	Anti-inflammatory
+58-32-2	Equilibrative nucleoside transporter 1 inhibitor
+53-86-1	Anti-inflammatory
+7683-59-2	Adrenergic agonist
+36505-84-7	Serotonin agonist
+22204-53-1	Anti-inflammatory
+94-20-2	Anti-diabetic
+107097-79-0	DNA gyrase inhibitor
+184475-35-2	Non-DNA reactive antiproliferative agent
+516-90-5	Toxicant
+61036-63-3	Antibiotic, bacterial cell wall inhibitor
+29701-07-3	Antibiotic, ribosomal inhibitor
+82768-84-1	RAAS inhibitor
+154039-60-8	Antiproliferative agent
+86393-32-0	DNA gyrase inhibitor
+62-23-7	Toxicant, DNA damaging
+1405-87-4	Antibiotic, bacterial cell wall inhibitor
+52468-60-7	Ca++ channel (T-Type) blocker
+6893-02-3	T3 receptor agonist
+53797-16-3	Antibiotic, ribosomal inhibitor
+19685-09-7	Non-DNA reactive antiproliferative agent
+63-45-6	Non-DNA reactive antiproliferative agent
+6004-24-6	Antibiotic
+5104-49-4	Anti-inflammatory
+81147-92-4	Adrenergic antagonist
+94-59-7	Toxicant
+11070-73-8	Insulin receptor agonist
+28860-95-9	Dopamine antagonist
+136-47-0	Na+ channel blocker
+72-14-0	Antibiotic, sulfonamide
+298-46-4	Na+ channel blocker
+69-53-4	Antibiotic, bacterial cell wall inhibitor
+32986-56-4	Antibiotic, ribosomal inhibitor
+100599-27-7	Anti-inflammatory
+129-18-0	Anti-inflammatory
+51-15-0	Cholinesterase inhibitor
+67-92-5	Muscarinic acetylcholine receptor antagonist
+169590-42-5	Anti-inflammatory
+61318-91-0	Antifungals azole
+8015-12-1	Progesterone receptor agonist
+56839-43-1	Sigma receptor modulator
+29398-76-3	Toxicant
+54910-89-3	Monoamine re-uptake/oxidase inhibitor
+105167-68-8	Anti-diabetic
+81771-21-3	Glutamate antagonist
+23593-75-1	Antifungals azole
+76584-70-8	Na+ channel blocker
+76-03-9	Unknown mechanism
+304-20-1	K+ channel opener
+53179-11-6	Opioid receptor (mu) agonist
+106-24-1	Interferes with protein prenylation
+100286-90-6	Non-DNA reactive antiproliferative agent
+31431-39-7	Non-DNA reactive antiproliferative agent
+4205-90-7	Adrenergic agonist
+52-67-5	Unknown mechanism
+110-86-1	Toxicant
+104-40-5	Toxicant
+65-45-2	Anti-inflammatory
+12772-40-6	Toxicant
+89785-84-2	Antibiotic, bacterial cell wall inhibitor
+614-39-1	Na+ channel blocker
+34031-32-8	Unknown mechanism
+51012-33-0	Dopamine antagonist
+10328-70-8	GR-MR agonist
+1434-54-4	Glucocorticoid receptor antagonist
+103-90-2	Anti-inflammatory
+137862-53-4	RAAS inhibitor
+89-82-7	Toxicant
+1162-65-8	Toxicant, DNA damaging
+518-28-5	Non-DNA reactive antiproliferative agent
+12663-50-2	Na+ channel blocker
+148229-79-2	Monoamine re-uptake/oxidase inhibitor
+58957-92-9	DNA damager
+84485-00-7	Monoamine re-uptake/oxidase inhibitor
+79559-97-0	Monoamine re-uptake/oxidase inhibitor
+53164-05-9	Anti-inflammatory
+11096-21-2	Toxicant
+51-05-8	Na+ channel blocker
+51-71-8	Monoamine re-uptake/oxidase inhibitor
+846-49-1	GABA agonist
+72559-06-9	Non-DNA reactive antiproliferative agent
+77-19-0	Muscarinic acetylcholine receptor antagonist
+148-79-8	Non-DNA reactive antiproliferative agent
+13755-38-9	Vasodilator
+18323-44-9	Antibiotic, ribosomal inhibitor
+434-13-9	FXR agonist
+1424-27-7	Diuretic
+51-98-9	Progesterone receptor agonist
+103890-78-4	Ca++ channel (L-Type) blocker
+63074-08-8	Adrenergic antagonist
+111974-69-7	Serotonin antagonist
+972-02-1	Muscarinic acetylcholine receptor antagonist
+72-33-3	Estrogen agonist
+103628-46-2	Serotonin agonist
+91-64-5	Vitamin-K-epoxide reductase inhibitor
+76487-49-5	Monoamine re-uptake/oxidase inhibitor
+2169-64-4	Non-DNA reactive antiproliferative agent
+61-68-7	Anti-inflammatory
+5979-00-0	Vitamin-K-epoxide reductase inhibitor
+2265-22-7	GR-MR agonist
+115007-34-6	Non-DNA reactive antiproliferative agent
+83380-47-6	DNA gyrase inhibitor
+100643-71-8	Histamine antagonist
+72956-09-3	Adrenergic antagonist
+68342-79-0	Na+ channel blocker
+65-28-1	Adrenergic antagonist
+66085-59-4	Ca++ channel (L-Type) blocker
+3094-09-5	Non-DNA reactive antiproliferative agent
+152459-95-5	Non-DNA reactive antiproliferative agent
+523-87-5	Histamine antagonist
+537-98-4	H2O2 radical scavenger
+35543-24-9	Adrenergic antagonist
+70476-82-3	DNA damager
+34691-31-1	Anti-inflammatory
+595-33-5	Progesterone receptor agonist
+50892-23-4	Peroxisome proliferator
+768-94-5	Nicotinic acetylcoline receptor antagonist
+22071-15-4	Anti-inflammatory
+104227-87-4	Anti-viral
+112811-59-3	DNA gyrase inhibitor
+87-66-1	Peroxidase inhibitor
+50-18-0	DNA damager
+91032-26-7	Antibiotic, bacterial cell wall inhibitor
+68-35-9	Antibiotic, sulfonamide
+969-33-5	Serotonin antagonist
+71751-41-2	GABA agonist
+7414-83-7	Non-DNA reactive antiproliferative agent
+57-94-3	Nicotinic acetylcoline receptor antagonist
+2447-57-6	Antibiotic, sulfonamide
+27220-47-9	Antifungals azole
+97322-87-7	Anti-diabetic
+24219-97-4	Histamine antagonist
+3504-43-6	Anti-inflammatory
+65-85-0	Unknown mechanism
+90638-38-3	Dopamine agonist
+50-91-9	Non-DNA reactive antiproliferative agent
+33069-62-4	Non-DNA reactive antiproliferative agent
+58-25-3	GABA agonist
+2016-88-8	Diuretic
+64-72-2	Antibiotic, ribosomal inhibitor
+67-48-1	Muscarinic acetylcholine receptor agonist
+23734-88-5	Estrogen antagonist
+129618-40-2	Anti-viral
+125-59-7	Na+ channel blocker
+82640-04-8	Estrogen antagonist
+120638-55-3	Anti-inflammatory
+86753-29-9	GABA agonist
+11030-21-0	Antibiotic, ribosomal inhibitor
+31377-23-8	Nicotinic acetylcoline receptor antagonist
+51-21-8	Non-DNA reactive antiproliferative agent
+9004-10-8	Insulin receptor agonist
+6000-74-4	GR-MR agonist
+11095-17-3	Toxicant
+2933-45-1	Monoamine re-uptake/oxidase inhibitor
+66357-35-5	Histamine antagonist
+63590-64-7	Adrenergic antagonist
+7232-21-5	Monoamine re-uptake/oxidase inhibitor
+92-84-2	Dopamine antagonist
+39831-55-5	Antibiotic, ribosomal inhibitor
+97845-62-0	Anti-viral
+74-31-7	H2O2 radical scavenger
+865-21-4	Non-DNA reactive antiproliferative agent
+67-66-3	Toxicant, DNA damaging
+56767-76-1	Anti-inflammatory
+1264-72-8	Antibiotic
+62-75-9	Toxicant, DNA damaging
+114715-36-5	DNA gyrase inhibitor
+76963-41-2	Histamine antagonist
+24558-49-4	Toxicant
+479-18-5	Phosphodiesterase inhibitor
+36-06-6	Na+/K+-ATPase inhibitor
+53-03-2	GR-MR agonist
+110871-86-8	DNA gyrase inhibitor
+58-33-3	Dopamine antagonist
+87-68-3	Toxicant, DNA damaging
+54-25-1	Non-DNA reactive antiproliferative agent
+50-28-2	Estrogen agonist
+99-66-1	Na+ channel blocker
+69-72-7	Anti-inflammatory
+58-55-9	Adenosine receptor antagonist, xanthine
+305-03-3	DNA damager
+76547-98-3	RAAS inhibitor
+56391-57-2	Antibiotic, ribosomal inhibitor
+630-60-4	Na+/K+-ATPase inhibitor
+101827-46-7	Cholesterol biosynthesis inhibitor
+329-65-7	Adrenergic agonist
+483-63-6	Unknown mechanism
+42200-33-9	Adrenergic antagonist
+19237-84-4	Adrenergic antagonist
+25523-97-1	Histamine antagonist
+68-12-2	Toxicant
+17230-88-5	Progesterone receptor antagonist
+60-32-2	Plasmin inhibitor
+12643-15-1	Antibiotic
+1135-24-6	H2O2 radical scavenger
+3801-06-7	Monoamine re-uptake/oxidase inhibitor
+564-25-0	Antibiotic, ribosomal inhibitor
+58-93-5	Diuretic
+23672-07-3	Dopamine antagonist
+15307-81-0	Anti-inflammatory
+34911-55-2	Monoamine re-uptake/oxidase inhibitor
+1405-41-0	Antibiotic, ribosomal inhibitor
+1508-27-6	Dopamine antagonist
+127-69-5	Antibiotic, sulfonamide
+53-06-5	GR-MR agonist
+30418-51-0	Toxicant
+23031-32-5	Adrenergic agonist
+8017-77-4	Antibiotic, ribosomal inhibitor
+79794-75-5	Histamine antagonist
+50-53-3	Dopamine antagonist
+140-65-8	Na+ channel blocker
+99614-01-4	Serotonin antagonist
+101828-21-1	Cholesterol biosynthesis inhibitor
+95058-81-4	Non-DNA reactive antiproliferative agent
+1491-59-4	Adrenergic agonist
+7002-58-6	Histamine antagonist
+532-32-1	Unknown mechanism
+120-80-9	Toxicant, DNA damaging
+8072-39-7	Toxicant
+50-48-6	Monoamine re-uptake/oxidase inhibitor
+94-09-7	Na+ channel blocker
+22494-42-4	Anti-inflammatory
+120210-48-2	Anti-inflammatory
+69-74-9	Non-DNA reactive antiproliferative agent
+5841-63-4	Monoamine re-uptake/oxidase inhibitor
+556-52-5	Toxicant, DNA damaging
+62-44-2	Anti-inflammatory
+74103-06-3	Anti-inflammatory
+115964-29-9	DNA gyrase inhibitor
+8065-45-0	Monoamine re-uptake/oxidase inhibitor
+40180-04-9	Diuretic
+492-08-0	Nicotinic acetylcoline receptor antagonist
+13311-84-7	Androgen antagonist
+1953-02-2	Monoamine re-uptake/oxidase inhibitor
+15690-55-8	Estrogen antagonist
+27948-47-6	Adrenergic antagonist
+116788-91-1	Toxicant
+50-24-8	GR-MR agonist
+56296-78-7	Monoamine re-uptake/oxidase inhibitor
+122320-73-4	Anti-diabetic
+17198-21-9	Dopamine antagonist
+20830-75-5	Na+/K+-ATPase inhibitor
+25389-94-0	Antibiotic, ribosomal inhibitor
+1553-60-2	Anti-inflammatory
+98319-25-7	Androgen antagonist
+162011-90-7	Anti-inflammatory
+31879-05-7	Anti-inflammatory
+127779-20-8	Anti-viral
+73963-72-1	Phosphodiesterase inhibitor
+74103-07-4	Anti-inflammatory
+84057-94-3	Adrenergic antagonist
+33419-42-0	Non-DNA reactive antiproliferative agent
+127-48-0	GABA agonist
+7783-47-3	Toxicant
+140-64-7	Antibiotic
+427-51-0	Androgen antagonist
+549-18-8	Monoamine re-uptake/oxidase inhibitor
+69353-21-5	Cholinesterase inhibitor
+30652-11-0	Chelator, iron
+83-44-3	Toxicant
+66-76-2	Vitamin-K-epoxide reductase inhibitor
+59-46-1	Na+ channel blocker
+59277-89-3	Anti-viral
+91032-37-0	Antibiotic, bacterial cell wall inhibitor
+85721-33-1	DNA gyrase inhibitor
+154-42-7	Non-DNA reactive antiproliferative agent
+22601-59-8	Antibiotic, bacterial cell wall inhibitor
+103628-48-4	Serotonin agonist
+303-49-1	Monoamine re-uptake/oxidase inhibitor
+91032-38-1	Antibiotic, bacterial cell wall inhibitor
+94-58-6	Toxicant
+69655-05-6	Anti-viral
+357-08-4	Opioid receptor antagonist
+105826-92-4	Serotonin antagonist
+7481-89-2	Anti-viral
+51803-78-2	Anti-inflammatory
+73590-58-6	H+/K+-ATPase inhibitor
+65277-42-1	Antifungals azole
+8017-52-5	Na+ channel blocker
+637-58-1	Na+ channel blocker
+8049-62-5	Insulin receptor agonist
+56-49-5	Toxicant, DNA damaging
+64211-45-6	Antifungals azole
+6591-49-7	Antibiotic, ribosomal inhibitor
+116002-70-1	Serotonin antagonist
+3771-19-5	Peroxisome proliferator
+122742-25-0	Progesterone receptor antagonist
+642-15-9	Mitochondrial toxicant
+912-60-7	Bradykinin antagonist
+77-67-8	Na+ channel blocker
+59-88-1	Dopamine antagonist
+119478-56-7	Antibiotic, bacterial cell wall inhibitor
+9045-63-0	Insulin receptor agonist
+143-75-9	Na+ channel blocker
+54-85-3	Antibiotic
+63-98-9	GABA agonist
+70024-40-7	Adrenergic antagonist
+113403-10-4	Anti-inflammatory
+101043-37-2	Antiproliferative agent
+7554-65-6	Alcohol dehydrogenase inhibitor
+51-43-4	Adrenergic agonist
+404-86-4	Vanilloid receptor agonist
+57-96-5	Organic anion transporter inhibitor
+53179-09-2	Antibiotic, ribosomal inhibitor
+23981-47-7	Anti-inflammatory
+35658-65-2	Toxicant
+103628-47-3	Serotonin agonist
+1421-15-4	Na+ channel blocker
+61-25-6	Ca++ channel (L-Type) blocker
+55819-32-4	Toxicant
+439-14-5	GABA agonist
+91-23-6	Toxicant, DNA damaging
+67-72-1	Toxicant
+298-57-7	Histamine antagonist
+1806-26-4	Toxicant
+1668-19-5	Histamine antagonist
+58-05-9	Non-DNA reactive antiproliferative agent
+82586-55-8	RAAS inhibitor
+96448-41-8	Glutamate antagonist
+1405-10-3	Antibiotic, ribosomal inhibitor
+66376-36-1	Non-DNA reactive antiproliferative agent
+72-69-5	Monoamine re-uptake/oxidase inhibitor
+103639-04-9	Serotonin antagonist
+12244-57-4	Anti-inflammatory
+68-22-4	Progesterone receptor agonist
+93106-60-6	DNA gyrase inhibitor
+28721-07-5	Na+ channel blocker
+75438-57-2	Adrenergic agonist
+86784-41-0	DNA gyrase inhibitor
+105165-22-8	Androgen receptor agonist
+60-80-0	Anti-inflammatory
+3102-57-6	Toxicant
+119-36-8	Anti-inflammatory
+47880-49-9	Antibiotic, ribosomal inhibitor
+150399-21-6	Anti-inflammatory
+93572-42-0	Pro-inflammatory stimuli
+50-23-7	GR-MR agonist
+39331-48-1	Monoamine re-uptake/oxidase inhibitor
+68-89-3	Anti-inflammatory
+60763-49-7	Histamine antagonist
+108138-46-1	DNA gyrase inhibitor
+91161-71-6	Cholesterol biosynthesis inhibitor
+5581-45-3	Monoamine re-uptake/oxidase inhibitor
+23795-03-1	Organic anion transporter inhibitor
+21462-39-5	Antibiotic, ribosomal inhibitor
+97682-44-5	Non-DNA reactive antiproliferative agent
+53-60-1	Dopamine antagonist
+3717-88-2	Unknown mechanism
+47879-97-0	Antibiotic, ribosomal inhibitor
+32222-06-3	Vitamin D receptor agonist
+54965-21-8	Non-DNA reactive antiproliferative agent
+105234-21-7	Na+ channel blocker
+51-83-2	Muscarinic acetylcholine receptor agonist

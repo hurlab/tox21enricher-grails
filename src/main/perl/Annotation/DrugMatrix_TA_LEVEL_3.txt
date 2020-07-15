@@ -1,0 +1,820 @@
+87333-19-5	Diuretic
+26921-17-5	hypertension
+47879-92-5	Systemic infections
+51012-32-9	Anxlytic
+10262-69-8	Depression
+78110-38-0	systemic infections
+37517-28-5	Aminoglycoside
+76824-35-6	Gastric secretion inhibitors
+14216-34-3	NSAID
+50-06-6	Antiepileptics / Anticonvulsants
+93957-54-1	HMG-CoA reductase inhibitors
+89565-68-4	IBS
+110204-46-1	Antiemetic
+55-18-5	Liver toxicants
+127-07-1	Solid and soft tumors
+123958-79-2	Alzheimer's disease
+101-77-9	Bone Marrow Toxicants
+102625-70-7	N/K ATPase inhibitor
+143201-11-0	HMG-CoA reductase inhibitors
+107007-99-8	Antiemetic
+321-64-2	Alzheimer's disease
+98-96-4	tuberculosis
+1404-31-5	topical infections
+51-52-5	direct acting thyroid agent
+33089-61-1	Toxicant
+82410-32-0	CMV retitintis
+81-81-2	anticoagulant
+142678-34-0	N/K ATPase inhibitor
+57308-51-7	Parkinson's Disease
+58409-59-9	depression
+50-52-2	Antipsychotics
+80214-83-1	Systemic infections
+15468-34-5	Solid Tumors
+34156-56-4	viral replication inhibitor
+59-92-7	Parkinson's Disease
+90438-83-8	systemic infections
+41372-08-1	Hypertension
+15307-79-6	NSAID
+3810-74-0	Aminoglycoside
+93957-55-2	HMG-CoA reductase inhibitors
+154-93-8	Solid Tumors
+88873-75-0	NSAID
+121-19-7	kidney compounds without group
+525-66-6	Beta blocker
+122111-03-9	DNA synthesis inhibitors
+85441-61-8	Diuretic
+111974-72-2	Schizophrenia
+84449-90-1	SERM
+66104-23-2	Parkinsons
+61-72-3	systemic infections
+53902-12-8	rhinitis, conjunctivitis
+1154-59-2	Antiseptics / Disinfectants
+22232-80-0	Acne Preparations
+58-18-4	Steroid
+93479-97-1	glycemic control
+74011-58-8	quinolones
+71963-77-4	malaria
+145599-86-6	HMG-CoA reductase inhibitors
+61869-08-7	SERTs
+8072-21-7	Toxicant
+60-56-0	direct acting thyroid agent
+434-07-1	Anabolic Steroid
+28981-97-7	Anxiolytics
+3778-73-2	Solid Tumors
+57-62-5	topical infections
+114798-26-4	Diuretic
+75736-33-3	Narcolepsy
+63-74-1	vaginitis
+113665-84-2	anti thrombolytics
+1134-47-0	Antispasmodic Agents
+71-55-6	Liver toxicants
+41294-56-8	Vitamin D
+106650-56-0	Anorexiants
+58-38-8	Anxiolytics
+56420-45-2	Solid Tumors
+65-49-6	tuberculosis
+63585-09-1	viral replication inhibitor
+63968-64-9	malaria
+39122-18-4	Absence Seizures
+98079-51-7	quinolones
+1622-61-3	Antiepileptics / Anticonvulsants
+76095-16-4	Diuretic
+101053-01-4	attention deficit syndrome
+87-10-5	Toxicant
+35212-22-7	synthetic flavone
+305-33-9	depression
+73-78-9	Topical Local Anesthesia
+13721-39-6	Toxicant
+52-86-8	Antipsychotics
+5786-21-0	Schizophrenia
+67-20-9	urinary tract infections
+20830-81-3	Solid and soft Tumors
+53746-45-5	NSAID
+1402-99-9	anti-bacterial, topical
+15307-86-5	NSAID
+93107-08-5	quinolones
+139481-59-7	Diuretic
+4759-48-2	Acne Preparations
+51-79-6	Liver toxicants
+123040-16-4	Antiemetic
+2011-67-8	Benzodiazepine
+64-17-5	Liver toxicants
+100490-36-6	quinolones
+30418-52-1	Bone Marrow Toxicants
+3254-89-5	nausea
+30484-77-6	Antiarrhythmic Agents
+147-94-4	Soft tumors
+70458-96-7	quinolones
+147-24-0	Oral anti-histamine
+15676-16-1	Schizophrenia
+71486-22-1	Anti-mitotic
+57-92-1	Aminoglycoside
+97-77-8	Alcohol abuse
+111406-87-2	asthma
+39809-25-1	herpes
+54-64-8	Antibacterials, Topical
+37350-58-6	Beta blocker
+6620-60-6	CCK antagonist
+1951-25-3	unrelated anti-arrthymic
+148229-78-1	opiate agonist, 5-receptor agonists
+59-66-5	Diuretic
+82419-36-1	quinolones
+1197-18-8	thrombin inhibitor
+124832-26-4	viral replication inhibitor
+51481-61-9	Gastric secretion inhibitors
+446-72-0	Solid and soft tumors
+1684-40-8	Alzheimer's disease
+128-62-1	Opium derived alklaloid
+98-92-0	hypertriglyceridemia
+34597-40-5	NSAID
+38194-50-2	NSAID
+160738-57-8	quinolones
+42551-62-2	Dissociative anesthetic
+108068-98-0	depression
+134523-00-5	HMG-CoA reductase inhibitors
+438-41-5	Anxlytic
+64485-93-4	systemic infections
+1400-61-9	vanginitis
+76-73-3	Sedatives/Hypnotics
+23541-50-6	Solid and soft Tumors
+79-57-2	systemic infections
+38821-49-7	Parkinson's Disease
+36322-90-4	NSAID
+26839-75-8	hypertension
+882-09-7	fibrates
+100986-85-4	quinolones
+1066-17-7	topical infections
+95-25-0	Skeletal Muscle Relaxants
+71950-35-1	tuberculosis
+50-76-0	Solid and soft Tumors
+109889-09-0	Antiemetic
+57-30-7	Antiepileptics / Anticonvulsants
+171599-83-0	PDE inhibitors
+19387-91-8	antiparasitic imidazoles
+157810-81-6	viral replication inhibitor
+52-49-3	Parkinsons
+104051-69-6	quinolones
+123-03-5	Toxicology Standard
+50-07-7	Solid Tumors
+64092-48-4	NSAID
+61379-65-5	tuberculosis
+110707-92-1	Antiemetic
+99614-02-5	Antiemetic
+75706-12-6	Anti-proliferative
+12374-71-9	attention deficit syndrome
+111025-46-8	Thiazolidinedione
+41340-25-4	NSAID
+161814-49-9	viral replication inhibitor
+144-11-6	Parkinsons
+1403-00-5	anti-bacterial, topical
+124750-99-8	Diuretic
+138786-67-1	N/K ATPase inhibitor
+3930-20-9	hypertension
+154644-14-1	N/K ATPase inhibitor
+15687-27-1	NSAID
+105816-04-4	glycemic control
+89786-04-9	systemic infections
+21187-98-4	glycemic control
+36894-69-6	hypertension
+156-51-4	depression
+6055-19-2	Solid and soft Tumors
+58-54-8	Diuretic
+66104-22-1	Parkinsons
+138680-08-7	Sedatives/Hypnotics
+98079-52-8	quinolones
+132539-06-1	Antiphyschotic
+51-06-9	Arrhythmia, Tachycardia
+30418-50-9	Bone Marrow Toxicants
+665-66-7	Also used in Parkinson's
+81103-11-9	Systemic infections
+70918-01-3	hypertension
+54-31-9	Diuretic
+1229-29-4	Tricyclic antidpressant
+42924-53-8	NSAID
+90357-06-5	prostate cancer
+119-04-0	Aminoglycoside
+29094-61-9	glycemic control
+61825-94-3	Solid Tumors
+2809-21-4	Bisphosphonate
+50700-72-6	Skeletal Muscle Relaxants
+120-78-5	Biochemical
+56180-94-0	Diabetes
+90581-31-0	Systemic infections
+548-73-2	Anxlytic
+57-55-6	keratoconjunctivitis
+555-30-6	Hypertension
+465-65-6	hypotension, coma
+56211-40-6	Diuretic
+69975-86-6	PDE inhibitors
+859-18-7	Systemic infections
+57-83-0	Progesterone receptor agonists
+62-73-7	Toxicant
+8052-21-9	Oral anti-histamine
+9041-93-4	Solid Tumors
+133-92-6	Aminoglycoside
+151319-34-5	Sedatives/Hypnotics
+645-05-6	Solid Tumors
+2610-86-8	anticoagulant
+57-66-9	Gout-Related Agents
+6108-05-0	Topical Local Anesthesia
+15301-69-6	Antispasmodics, urinary tract
+106266-06-2	Schizophrenia
+1508-65-2	anti-muscarinic
+68342-78-9	Injectable Local Anesthesia
+30751-05-4	gastric ulcer
+723-46-6	Systemic infections
+4910-46-7	depression
+315-30-0	Gout-Related Agents
+43210-67-9	antiparasitic imidazoles
+123040-69-7	Antiemetic
+7540-22-9	Systemic infections
+50-27-1	SERM
+18968-99-5	attention deficit syndrome
+17440-83-4	Potassium-sparing Diuretic
+532-03-6	Skeletal Muscle Relaxants
+15686-71-2	systemic infections
+54-21-7	Topical NSAID
+90581-30-9	Systemic infections
+76-74-4	Sedatives/Hypnotics
+50-33-9	NSAID
+10347-81-6	Depression
+50-81-7	Anti-oxidant
+128794-94-5	immunosuppressant
+302-01-2	Liver toxicants
+49562-28-9	fibrates
+61422-45-5	Breast cancer
+88150-42-9	Ca++ channel antagonists
+551-06-4	Liver toxicants
+69-23-8	Antipsychotics
+318-98-9	Beta blocker
+59-01-8	Aminoglycoside
+62139-95-1	Toxicant
+102030-19-3	systemic infections
+14028-44-5	SERTs
+59-05-2	Anti-proliferative
+43200-80-2	Sedatives/Hypnotics
+309-29-5	SERTs
+41575-94-4	Solid Tumors
+637-07-0	fibrates
+26159-34-2	NSAID
+81161-17-3	Beta blocker
+93413-69-5	SERTs
+8026-72-0	systemic infections
+134523-05-8	HMG-CoA reductase inhibitors
+10418-03-8	Steroid
+150378-17-9	viral replication inhibitor
+25122-46-7	Topical steroid
+1156-19-0	sulfonylurea
+134523-03-8	HMG-CoA reductase inhibitors
+58-08-2	PDE inhibitors
+3506-09-0	Beta blocker
+69-09-0	Antipsychotics
+2152-34-3	attention deficit syndrome
+59293-82-2	topical infections
+7712-50-7	Injectable Local Anesthesia
+120511-73-1	Breast cancer
+138729-47-2	Sedatives/Hypnotics
+58970-76-6	Solid and soft tumors
+29122-68-7	Beta blocker
+58-32-2	anti-platlet
+55-91-4	Glaucoma
+64-75-5	systemic infections
+56-23-5	Liver toxicants
+53-86-1	NSAID
+59-67-6	vitamin deficiency
+7683-59-2	Beta agonist
+134-03-2	Anti-oxidant
+302-79-4	Acne Preparations
+13010-47-4	Solid Tumors
+36505-84-7	Anxlytic
+94-20-2	sulfonylurea
+22204-53-1	NSAID
+107097-79-0	quinolones
+5633-20-5	anti-muscarinic
+61036-63-3	systemic infections
+82768-84-1	Diuretic
+29701-07-3	Aminoglycoside
+5929-09-9	Antiseptic, topical
+86393-32-0	quinolones
+1405-87-4	anti-bacterial, topical
+56-53-1	SERM
+1953-04-4	Alzheimer's disease
+99300-78-4	SERTs
+52468-60-7	Antiarrhythmic Agents
+84625-61-6	systemic
+19685-09-7	Solid and soft Tumors
+53797-16-3	Aminoglycoside
+6004-24-6	Toxicology Standard
+129-03-3	Allergy medication
+54-92-2	depression
+81147-92-4	Beta blocker
+5104-49-4	NSAID
+17902-23-7	Antimitotic
+94-59-7	Bone Marrow Toxicants
+28860-95-9	Parkinson's Disease
+68373-14-8	systemic infections
+72-14-0	vaginitis
+136-47-0	Topical Local Anesthesia
+75330-75-5	HMG-CoA reductase inhibitors
+911-45-5	Fertility drug
+78628-80-5	Systemic
+12738-72-6	Toxicant
+69-53-4	systemic infections
+298-46-4	Seizures
+64840-90-0	anti-spasmodic
+13013-17-7	Beta blocker
+100599-27-7	rheumatoid arthritis
+51-15-0	organophosphate poisoning
+129-18-0	NSAID
+66357-59-3	Gastric secretion inhibitors
+169590-42-5	COX2 inhbitor
+67-92-5	urinary incontinence
+61318-91-0	topical infections
+8015-12-1	Progesterone receptor agonists
+84371-65-3	Progesterone receptor antagonists
+146-56-5	Antipsychotics
+10026-11-6	Liver toxicants
+56839-43-1	anti-spasmodic
+34330-64-8	Kidney toxicants
+29398-76-3	Cardiovascular toxicants
+140401-05-4	immunosuppressant
+54910-89-3	Anxlytic
+5370-01-4	Antiarrhythmic Agents
+105167-68-8	Thiazolidinedione
+75-35-4	Toxicant
+56391-56-1	Aminoglycoside
+81771-21-3	Dissociative anesthetic
+23593-75-1	cholesterol synthesis inhibitors
+125-33-7	Antiepileptics / Anticonvulsants
+52-01-7	Systemic steroid
+76584-70-8	Complex, partial seizures
+10540-29-1	SERM
+112809-51-5	Aromatase
+76-03-9	warts
+8023-22-1	Toxicant
+106-24-1	none
+100286-90-6	Solid and soft Tumors
+4205-90-7	hypertension
+31431-39-7	antiparasitic imidazoles
+58-73-1	Oral anti-histamine
+104-40-5	Liver toxicants
+12772-40-6	Toxicant
+89785-84-2	systemic infections
+614-39-1	Arrhythmia, Tachycardia
+95828-55-0	Toxicant
+51012-33-0	Anxlytic
+32780-64-6	hypertension
+103-90-2	NSAID
+137862-53-4	Diuretic
+62571-86-2	Diuretic
+5638-76-6	vertigo
+518-28-5	Warts
+59729-32-7	SERTs
+86541-74-4	Diuretic
+58957-92-9	AML treatment
+148229-79-2	opiate agonist, 5-receptor agonists
+30516-87-1	antiviral RT inhibitors
+50976-86-8	Systemic infections
+41859-67-0	fibrates
+84485-00-7	Anorexiants
+79559-97-0	Anxlytic
+53164-05-9	Rheumatoid arthritis
+17431-55-9	Systemic infections
+11096-21-2	Toxicant
+102-76-1	antifungal, topical
+51-71-8	depression
+846-49-1	Anxiolytics
+72559-06-9	systemic infections
+77-19-0	urinary incontinence
+22232-54-8	direct acting thyroid agent
+158920-43-5	Gout-Related Agents
+50-35-1	leprosy
+103577-45-3	N/K ATPase inhibitor
+148-79-8	antiparasitic imidazoles
+18323-44-9	Systemic infections
+1424-27-7	Diuretic
+154-21-2	Systemic infections
+51-98-9	Progesterone receptor agonists
+103890-78-4	Ca++ channel antagonists
+111974-69-7	Schizophrenia
+63074-08-8	hypertension
+57-22-7	Anti-mitotic
+972-02-1	nausea
+27262-47-1	Injectable Local Anesthesia
+72-33-3	Birth control
+103628-46-2	migraine headaches
+22204-88-2	opiate agonist, 5-receptor agonists
+396-01-0	Potassium-sparing Diuretic
+5743-04-4	Cardiovascular toxicants
+89796-99-6	NSAID
+91-64-5	anticoagulant
+49625-23-2	Antiemetic
+86386-73-4	systemic
+13497-05-7	Acne Preparations
+10108-64-2	Kidney toxicants
+38304-91-5	Hair growth agent
+61-68-7	NSAID
+5979-00-0	anticoagulant
+71-63-6	Cardiac glycoside
+7790-78-5	Kidney toxicants
+115007-34-6	immunosuppressant
+83380-47-6	quinolones
+65-28-1	Hypertension
+68342-79-0	Injectable Local Anesthesia
+54856-23-4	vertigo
+2315-02-8	nasal congestion
+66085-59-4	Ca++ channel antagonists
+61036-64-4	systemic infections
+3094-09-5	Antimitotic
+61318-90-9	topical infections
+621-42-1	Liver toxicants
+72589-96-9	Kidney toxicants
+7689-03-4	Solid and soft Tumors
+155213-67-5	viral replication inhibitor
+537-98-4	biochemical
+67-73-2	Topical steroid
+35543-24-9	Reynauds Phenomenom
+70476-82-3	Acute Myelogenous (Myeloid) Leukemia (AML)
+34691-31-1	NSAID
+595-33-5	Prevent weight loss
+117-81-7	Liver toxicants
+434-03-7	uterine function
+768-94-5	Also used in Parkinson's
+17321-77-6	obsessive compulsive
+86126-06-9	hypertension
+1403-66-3	Aminoglycoside
+22071-15-4	NSAID
+104227-87-4	viral replication inhibitor
+96036-03-2	systemic infections
+181695-72-7	NSAID
+112811-59-3	quinolones
+87-66-1	Biochemicals
+107-18-6	Liver toxicants
+50-18-0	Solid and soft Tumors
+969-33-5	Allergy medication
+91032-26-7	systemic infections
+68-35-9	topical infections
+71751-41-2	Anti-schistosomiasis/cetode
+7414-83-7	Bisphosphonate
+15318-45-3	biliary tract infection
+57-94-3	Skeletal Muscle Relaxants
+2447-57-6	Systemic infections
+27220-47-9	Topical
+650-51-1	warts
+121985-71-5	Seizures
+24219-97-4	Depression
+443-48-1	antiparasitic imidazoles
+4205-91-8	hypertension
+90638-38-3	Parkinson's Disease
+50-91-9	Antimitotic
+58-25-3	Anxlytic
+137-58-6	Topical Local Anesthesia
+2016-88-8	Potassium-sparing Diuretic
+52-53-9	Ca++ channel blockers
+31828-71-4	Antiarrhythmic Agents
+64-72-2	topical infections
+23734-88-5	Aromatase
+129618-40-2	antiviral RT inhibitors
+125-59-7	Antiepileptics / Anticonvulsants
+82640-04-8	SERM
+1867-66-9	Dissociative anesthetic
+86753-29-9	Anti-schistosomiasis/cetode
+11030-21-0	Aminoglycoside
+50-44-2	Solid and soft tumors
+31377-23-8	Also used in Parkinson's
+6740-88-1	Dissociative anesthetic
+22916-47-8	Topical
+149908-23-6	Systemic infections
+51-21-8	Topical Skin tumors
+53776-71-9	Aminoglycoside
+364-62-5	Antiemetic
+103598-03-4	Beta blocker
+6000-74-4	Topical steroid
+53885-35-1	anti-platlet
+11095-17-3	Toxicant
+66357-35-5	Gastric secretion inhibitors
+2933-45-1	attention deficit syndrome
+63590-64-7	hypertension
+7232-21-5	Antiemetic
+39831-55-5	Aminoglycoside
+92-84-2	Antipsychotics
+77-92-9	Alkalinizing Agents
+97845-62-0	herpes
+140-72-7	Toxicology Standard
+74-31-7	biochemical
+865-21-4	Anti-mitotic
+79617-96-2	Anxlytic
+19216-56-9	hypertension
+1264-72-8	topical infections
+67-66-3	Liver toxicants
+56767-76-1	NSAID
+114715-36-5	quinolones
+76963-41-2	Gastric secretion inhibitors
+24558-49-4	Cardiovascular toxicants
+112529-15-4	Thiazolidinedione
+88-04-0	Antiseptic, topical
+57852-57-0	AML treatment
+60142-96-3	GABA analogs
+479-18-5	Bronchodilators
+31430-15-6	pinworm, roundworm, hookworm
+53-03-2	Systemic steroid
+36-06-6	Cardiac glycoside
+959-24-0	hypertension
+110871-86-8	quinolones
+50-78-2	NSAID
+68767-14-6	NSAID
+10238-21-8	sulfonylurea
+302-27-2	Toxicant
+50-28-2	SERM
+99-66-1	Complex, partial seizures
+69-72-7	Topical NSAID
+120011-70-3	Alzheimer's disease
+58-55-9	PDE inhibitors
+305-03-3	Soft tumors
+76547-98-3	Diuretic
+56391-57-2	Aminoglycoside
+3056-17-5	antiviral RT inhibitors
+101827-46-7	antifungal, topical
+630-60-4	Cardiac glycoside
+7722-44-3	topical infections
+75847-73-3	Diuretic
+526-08-9	Systemic infections
+51-55-8	anti-muscarinic
+53-96-3	Liver toxicants
+543-90-8	Cardiovascular toxicants
+114-80-7	Myasthenia gravis
+8060-73-9	Absence Seizures
+98319-26-7	Male pattern baldness/BPH
+483-63-6	Antipruritic Agents, Topical
+74191-85-8	hypertension
+15826-37-6	Rhinitis, Asthma
+42200-33-9	Beta blocker
+36282-47-0	opiate agonist, 5-receptor agonists
+19237-84-4	hypertension
+146874-86-4	Beta blocker
+111542-93-9	quinolones
+68-12-2	Liver toxicants
+10083-56-4	attention deficit syndrome
+17230-88-5	Progesterone receptor antagonists
+66-27-3	Bone Marrow Toxicants
+146-22-5	Benzodiazepine
+60-32-2	Hemostatic Agents
+91032-34-7	systemic infections
+12643-15-1	topical infections
+13292-46-1	systemic infections
+1135-24-6	biochemical
+3801-06-7	depression
+57-41-0	Antiepileptics / Anticonvulsants
+59729-33-8	SERTs
+15307-81-0	NSAID
+23672-07-3	nausea
+100-63-0	biochemical
+1508-27-6	Antipsychotics
+1405-41-0	Aminoglycoside
+57808-65-8	Anti-schistosomiasis/cetode
+53-06-5	Topical steroid
+127-69-5	Systemic infections
+143-67-9	Anti-mitotic
+23031-32-5	Asthma
+30418-51-0	Bone Marrow Toxicants
+32385-11-8	Aminoglycoside
+99-76-3	none
+8017-77-4	systemic infections
+68077-27-0	quinolones
+71125-38-7	NSAID
+84057-84-1	Antiepileptics / Anticonvulsants
+50-53-3	Antipsychotics
+120014-06-4	Alzheimer's disease
+140-65-8	anesthetic,  topical
+101828-21-1	antifungal, topical
+99614-01-4	Antiemetic
+894-71-3	Antidepressants
+95058-81-4	DNA synthesis inhibitors
+7002-58-6	peripheral vascular disease
+1491-59-4	nasal congestion
+100-33-4	pneumocytosis carinii
+15663-27-1	Solid Tumors
+120-80-9	Liver toxicants
+70-30-4	anti-bacterial, topical
+80-05-7	Liver toxicants
+8072-39-7	Toxicant
+50-48-6	Tricyclic antidepressant
+83203-42-3	Progesterone receptor antagonists
+25316-40-9	Solid and soft Tumors
+110862-48-1	HMG-CoA reductase inhibitors
+22494-42-4	NSAID
+55268-74-1	Anti-schistosomiasis/cetode
+1404-93-9	systemic infections
+120210-48-2	rheumatoid arthritis
+69-74-9	Soft tumors
+5841-63-4	attention deficit syndrome
+65-29-2	preanesthetic
+82159-09-9	diabetic retinopathy
+62-44-2	NSAID
+121268-17-5	Bisphosphonate
+115964-29-9	quinolones
+8065-45-0	attention deficit syndrome
+21829-25-4	Ca++ channel antagonists
+84-02-6	Anxiolytics
+13311-84-7	prostate cancer
+15690-55-8	Fertility drug
+1953-02-2	depression
+27948-47-6	hypertension
+117-37-3	Wafarin like
+116788-91-1	Toxicant
+50-24-8	Corticosteroids
+139755-83-2	PDE inhibitors
+514-36-3	Systemic steroid
+80581-86-8	systemic infections
+67-97-0	Vitamin D
+56296-78-7	Anxlytic
+124832-27-5	viral replication inhibitor
+122320-73-4	Thiazolidinedione
+357-70-0	Alzheimer's disease
+56-40-6	none
+17198-21-9	biochemical
+20830-75-5	Cardiac glycoside
+114-07-8	Systemic infections
+25389-94-0	Aminoglycoside
+98319-25-7	Male pattern baldness/BPH
+162011-90-7	COX2 inhbitor
+31879-05-7	NSAID
+59333-67-4	Anxlytic
+127779-20-8	viral replication inhibitor
+226904-33-2	N/K ATPase inhibitor
+73963-72-1	PDE inhibitors
+86541-75-5	Diuretic
+50-50-0	SERM
+84057-94-3	Beta blocker
+1538-09-6	systemic infections
+33419-42-0	Solid and soft Tumors
+55837-25-7	Reynauds Phenomenom
+27724-96-5	gastric ulcer
+127-48-0	Absence Seizures
+7783-47-3	prevention (cavities, gum disease)
+69-65-8	Osmolarity of renal filtrate
+140-64-7	pneumocytosis carinii
+73573-88-3	Statin
+427-51-0	Steroid antagonist
+549-18-8	Tricyclic antidepressant
+54143-57-6	Antiemetic
+69353-21-5	Alzheimer's disease
+6493-05-6	Claudication
+66-76-2	anticoagulant
+30652-11-0	thalassaemia
+24169-02-6	Topical
+37341-99-4	anticoagulant
+77883-43-3	hypertension
+86050-77-3	Contrasting Agent for magnetic resonance imaging.
+55-98-1	Soft tumors
+7081-53-0	SERTs
+59277-89-3	viral replication inhibitor
+85721-33-1	quinolones
+91032-37-0	systemic infections
+154-42-7	Solid and soft tumors
+2280-32-2	Aminoglycoside
+22601-59-8	anti-bacterial, topical
+103628-48-4	migraine headaches
+303-49-1	obsessive compulsive
+21256-18-8	NSAID
+91032-38-1	systemic infections
+148-82-3	multiple myeloma
+58-40-2	Antipsychotics
+94-58-6	Bone Marrow Toxicants
+134678-17-4	antiviral RT inhibitors
+357-08-4	hypotension, coma
+121-54-0	Antiseptic, topical
+105826-92-4	IBS
+60-54-8	systemic infections
+131086-21-0	antiviral RT inhibitors
+51803-78-2	NSAID
+152-11-4	Ca++ channel blockers
+71-27-2	anesthesia adjuvant
+65277-42-1	systemic
+57-63-6	SERM
+8017-52-5	Antiepileptics / Anticonvulsants
+637-58-1	anesthetic,  topical
+107910-75-8	CMV retitintis
+6591-49-7	systemic infections
+64211-45-6	topical infections
+122742-25-0	Progesterone receptor antagonists
+116002-70-1	Antiemetic
+2068-78-2	Anti-mitotic
+77-67-8	Absence Seizures
+41354-29-4	Allergy medication
+912-60-7	Opium derived alklaloid
+24729-96-2	Systemic infections
+59-88-1	biochemical
+23214-92-8	Solid and soft Tumors
+496-67-3	Benzodiazepine-like
+119478-56-7	systemic infections
+155141-29-0	Thiazolidinedione
+81098-60-4	Antiemetic
+143-75-9	Antiepileptics / Anticonvulsants
+54-85-3	tuberculosis
+70024-40-7	hypertension
+113403-10-4	NSAID
+7554-65-6	none
+404-86-4	Analgesics, Topical
+39562-70-4	Ca++ channel antagonists
+63675-72-9	Ca++ channel antagonists
+71320-77-9	depression
+57-96-5	Gout-Related Agents
+53179-09-2	Aminoglycoside
+70288-86-7	Ivermectin
+23981-47-7	NSAID
+35658-65-2	Kidney toxicants
+55142-85-3	anti-platlet
+91032-36-9	systemic infections
+64211-46-7	topical infections
+57-33-0	Sedatives/Hypnotics
+103628-47-3	migraine headaches
+33386-08-2	Anxlytic
+1421-15-4	Antiepileptics / Anticonvulsants
+81093-37-0	HMG-CoA reductase inhibitors
+61-25-6	thromboembolism
+6011-62-7	depression
+56-75-7	Systemic infections
+50-02-2	Corticosteroids
+77-86-1	metabolic acidosis
+439-14-5	Benzodiazepine
+55819-32-4	Toxicant
+298-57-7	peripheral vascular disease
+111348-33-5	Solid and soft Tumors
+1668-19-5	Tricyclic antidpressant
+1806-26-4	Liver toxicants
+18883-66-4	pancreas tumors
+138199-71-0	quinolones
+7440-38-2	Liver toxicants
+83905-01-5	Systemic infections
+82586-55-8	Diuretic
+508-52-1	Cardiac glycoside
+187285-10-5	Bisphosphonate
+50-60-2	Hypertension
+1405-10-3	Aminoglycoside
+121947-25-9	Seizures
+73-31-4	5HT-like
+96448-41-8	Dissociative anesthetic
+125317-39-7	Anti-mitotic
+25387-67-1	Solid and soft Tumors
+16110-51-3	Rhinitis, Asthma
+3239-44-9	Appetite suppressant
+66376-36-1	Bisphosphonate
+72-69-5	Antidepressants
+27203-92-5	opiate agonist, 5-receptor agonists
+81131-70-6	HMG-CoA reductase inhibitors
+103639-04-9	Antiemetic
+68-22-4	Progesterone receptor agonists
+65271-80-9	Acute Myelogenous (Myeloid) Leukemia (AML)
+93106-60-6	quinolones
+113-98-4	systemic infections
+21535-47-7	Depression
+90243-99-5	Diuretic
+15347-57-6	Kidney toxicants
+34786-70-4	vanginitis
+25812-30-0	fibrates
+75438-57-2	hypertension
+28721-07-5	Seizures
+86784-41-0	quinolones
+122-11-2	urinary tract infection
+68693-11-8	Narcolepsy
+60-80-0	Analgesics, Topical
+119-36-8	NSAID
+23288-49-5	hypercholestrolemia
+47880-49-9	Systemic infections
+87573-04-4	Systemic infections
+74-55-5	systemic infections
+50-23-7	Topical steroid
+129-06-6	anticoagulant
+39331-48-1	attention deficit syndrome
+53716-50-0	antiparasitic imidazoles
+60763-49-7	peripheral vascular disease
+108138-46-1	quinolones
+91161-71-6	Systemic
+34675-84-8	gastric ulcer
+5581-45-3	Antiemetic
+21462-39-5	Systemic infections
+23795-03-1	Gout-Related Agents
+97682-44-5	Solid and soft Tumors
+63527-52-6	systemic infections
+53-60-1	Antipsychotics
+108863-62-3	depression
+58947-95-8	Parkinsons
+3717-88-2	Antispasmodics, urinary tract
+47879-97-0	Systemic infections
+51146-56-6	NSAID
+11116-31-7	Solid Tumors
+630-93-3	Antiepileptics / Anticonvulsants
+94-24-6	Topical Local Anesthesia
+142057-77-0	Alzheimer's disease
+54965-21-8	antiparasitic imidazoles
+80382-23-6	NSAID
+456-59-7	Vasodilators
+105878-73-7	Rhinitis, Asthma
+105234-21-7	Seizures
+125-84-8	Aromatase
+51-83-2	anti-muscarinics
+180683-37-8	viral replication inhibitor
+548-62-9	topical infections
+79902-63-9	HMG-CoA reductase inhibitors

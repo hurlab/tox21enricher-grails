@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	'-//Hibernate/Hibernate Configuration DTD 3.0//EN'
+	'http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd'>
+
+<hibernate-configuration>
+
+	<session-factory>
+	<!--
+		<mapping package='com.books' />
+
+		<mapping class='com.books.Book' />
+
+		<mapping resource='someresource.hbm.xml'/>
+	-->
+
+		<mapping package="tox21_test" />
+		<mapping class="tox21_test.ResultSetModel" />
+	</session-factory>
+
+
+</hibernate-configuration>

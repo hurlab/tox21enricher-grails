@@ -1,0 +1,434 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "ID",
+                    "name": "ID"
+                }
+            },
+            {
+                "data": {
+                    "id": "KEGG:05310|Asthma",
+                    "name": "KEGG:05310|Asthma"
+                }
+            },
+            {
+                "data": {
+                    "id": "RCA reproductive toxicity in adult males, rodent",
+                    "name": "RCA reproductive toxicity in adult males, rodent"
+                }
+            },
+            {
+                "data": {
+                    "id": "Hepatic Adenoma",
+                    "name": "Hepatic Adenoma"
+                }
+            },
+            {
+                "data": {
+                    "id": "Reproductive Toxicity -repro mouse female",
+                    "name": "Reproductive Toxicity -repro mouse female"
+                }
+            },
+            {
+                "data": {
+                    "id": "ring:fused_steroid_generic_[5_6_6_6]",
+                    "name": "ring:fused_steroid_generic_[5_6_6_6]"
+                }
+            },
+            {
+                "data": {
+                    "id": "KEGG:04340|Hedgehog signaling pathway",
+                    "name": "KEGG:04340|Hedgehog signaling pathway"
+                }
+            },
+            {
+                "data": {
+                    "id": "GUS_2_Genital Moniliasis",
+                    "name": "GUS_2_Genital Moniliasis"
+                }
+            },
+            {
+                "data": {
+                    "id": "RCA fetal death, rodent",
+                    "name": "RCA fetal death, rodent"
+                }
+            },
+            {
+                "data": {
+                    "id": "chain:alkaneCyclic_hexyl_C6",
+                    "name": "chain:alkaneCyclic_hexyl_C6"
+                }
+            },
+            {
+                "data": {
+                    "id": "Genetic Toxicity -mam. mutation",
+                    "name": "Genetic Toxicity -mam. mutation"
+                }
+            },
+            {
+                "data": {
+                    "id": "Immune System Diseases",
+                    "name": "Immune System Diseases"
+                }
+            },
+            {
+                "data": {
+                    "id": "Reproductive Toxicity -repro rodent female",
+                    "name": "Reproductive Toxicity -repro rodent female"
+                }
+            },
+            {
+                "data": {
+                    "id": "KEGG:05217|Basal cell carcinoma",
+                    "name": "KEGG:05217|Basal cell carcinoma"
+                }
+            },
+            {
+                "data": {
+                    "id": "GUS_2_Genital Pruritis",
+                    "name": "GUS_2_Genital Pruritis"
+                }
+            },
+            {
+                "data": {
+                    "id": "antagonism_GR",
+                    "name": "antagonism_GR"
+                }
+            },
+            {
+                "data": {
+                    "id": "agonism_ER/full",
+                    "name": "agonism_ER/full"
+                }
+            },
+            {
+                "data": {
+                    "id": "RCA fetal death, rat",
+                    "name": "RCA fetal death, rat"
+                }
+            },
+            {
+                "data": {
+                    "id": "NVS_ADME_rCYP2C6",
+                    "name": "NVS_ADME_rCYP2C6"
+                }
+            },
+            {
+                "data": {
+                    "id": "ESR1",
+                    "name": "ESR1"
+                }
+            },
+            {
+                "data": {
+                    "id": "Tox21 ARE activation assay, only strong actives by NIEHS calls, research only",
+                    "name": "Tox21 ARE activation assay, only strong actives by NIEHS calls, research only"
+                }
+            },
+            {
+                "data": {
+                    "id": "agonism_ER/partial",
+                    "name": "agonism_ER/partial"
+                }
+            },
+            {
+                "data": {
+                    "id": "chain:alkaneCyclic_pentyl_C5",
+                    "name": "chain:alkaneCyclic_pentyl_C5"
+                }
+            },
+            {
+                "data": {
+                    "id": "Reproductive Toxicity -repro rat female",
+                    "name": "Reproductive Toxicity -repro rat female"
+                }
+            },
+            {
+                "data": {
+                    "id": "RCA reproductive toxicity in adult males, rat",
+                    "name": "RCA reproductive toxicity in adult males, rat"
+                }
+            },
+            {
+                "data": {
+                    "id": "Dermatitis, Atopic",
+                    "name": "Dermatitis, Atopic"
+                }
+            },
+            {
+                "data": {
+                    "id": "chain:alkeneCyclic_diene_cyclohexene",
+                    "name": "chain:alkeneCyclic_diene_cyclohexene"
+                }
+            },
+            {
+                "data": {
+                    "id": "RCA fetal weight decrease, rat",
+                    "name": "RCA fetal weight decrease, rat"
+                }
+            },
+            {
+                "data": {
+                    "id": "DNA_2_Hepatic Adenoma",
+                    "name": "DNA_2_Hepatic Adenoma"
+                }
+            },
+            {
+                "data": {
+                    "id": "BIL_2_Gallbladder Disease",
+                    "name": "BIL_2_Gallbladder Disease"
+                }
+            },
+            {
+                "data": {
+                    "id": "Estradiol Congeners",
+                    "name": "Estradiol Congeners"
+                }
+            },
+            {
+                "data": {
+                    "id": "activation_H2AX",
+                    "name": "activation_H2AX"
+                }
+            },
+            {
+                "data": {
+                    "id": "RCA newborn behavioral toxicity, rodent",
+                    "name": "RCA newborn behavioral toxicity, rodent"
+                }
+            },
+            {
+                "data": {
+                    "id": "inhibition_MMP",
+                    "name": "inhibition_MMP"
+                }
+            },
+            {
+                "data": {
+                    "id": "antagonism_AR/full/run2",
+                    "name": "antagonism_AR/full/run2"
+                }
+            },
+            {
+                "data": {
+                    "id": "Hormones, Endocrine and Metabolic",
+                    "name": "Hormones, Endocrine and Metabolic"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "source": "ESR1",
+                    "target": "activation_H2AX"
+                }
+            },
+            {
+                "data": {
+                    "source": "KEGG:04340|Hedgehog signaling pathway",
+                    "target": "agonism_ER/partial"
+                }
+            },
+            {
+                "data": {
+                    "source": "ESR1",
+                    "target": "antagonism_AR/full/run2"
+                }
+            },
+            {
+                "data": {
+                    "source": "agonism_ER/partial",
+                    "target": "antagonism_GR"
+                }
+            },
+            {
+                "data": {
+                    "source": "ESR1",
+                    "target": "antagonism_GR"
+                }
+            },
+            {
+                "data": {
+                    "source": "NVS_ADME_rCYP2C6",
+                    "target": "chain:alkaneCyclic_pentyl_C5"
+                }
+            },
+            {
+                "data": {
+                    "source": "Hepatic Adenoma",
+                    "target": "chain:alkeneCyclic_diene_cyclohexene"
+                }
+            },
+            {
+                "data": {
+                    "source": "BIL_2_Gallbladder Disease",
+                    "target": "DNA_2_Hepatic Adenoma"
+                }
+            },
+            {
+                "data": {
+                    "source": "RCA newborn behavioral toxicity, rodent",
+                    "target": "ESR1"
+                }
+            },
+            {
+                "data": {
+                    "source": "GUS_2_Genital Moniliasis",
+                    "target": "GUS_2_Genital Pruritis"
+                }
+            },
+            {
+                "data": {
+                    "source": "agonism_ER/full",
+                    "target": "Hepatic Adenoma"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_AR/full/run2",
+                    "target": "Hepatic Adenoma"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_GR",
+                    "target": "Hepatic Adenoma"
+                }
+            },
+            {
+                "data": {
+                    "source": "RCA reproductive toxicity in adult males, rodent",
+                    "target": "Hepatic Adenoma"
+                }
+            },
+            {
+                "data": {
+                    "source": "activation_H2AX",
+                    "target": "Hormones, Endocrine and Metabolic"
+                }
+            },
+            {
+                "data": {
+                    "source": "RCA newborn behavioral toxicity, rodent",
+                    "target": "Hormones, Endocrine and Metabolic"
+                }
+            },
+            {
+                "data": {
+                    "source": "activation_H2AX",
+                    "target": "inhibition_MMP"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_AR/full/run2",
+                    "target": "inhibition_MMP"
+                }
+            },
+            {
+                "data": {
+                    "source": "activation_H2AX",
+                    "target": "NVS_ADME_rCYP2C6"
+                }
+            },
+            {
+                "data": {
+                    "source": "agonism_ER/full",
+                    "target": "NVS_ADME_rCYP2C6"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_GR",
+                    "target": "NVS_ADME_rCYP2C6"
+                }
+            },
+            {
+                "data": {
+                    "source": "inhibition_MMP",
+                    "target": "NVS_ADME_rCYP2C6"
+                }
+            },
+            {
+                "data": {
+                    "source": "Reproductive Toxicity -repro rodent female",
+                    "target": "NVS_ADME_rCYP2C6"
+                }
+            },
+            {
+                "data": {
+                    "source": "agonism_ER/partial",
+                    "target": "RCA fetal death, rodent"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_AR/full/run2",
+                    "target": "RCA fetal weight decrease, rat"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_GR",
+                    "target": "RCA newborn behavioral toxicity, rodent"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_AR/full/run2",
+                    "target": "RCA reproductive toxicity in adult males, rat"
+                }
+            },
+            {
+                "data": {
+                    "source": "antagonism_GR",
+                    "target": "RCA reproductive toxicity in adult males, rat"
+                }
+            },
+            {
+                "data": {
+                    "source": "inhibition_MMP",
+                    "target": "RCA reproductive toxicity in adult males, rodent"
+                }
+            },
+            {
+                "data": {
+                    "source": "RCA reproductive toxicity in adult males, rat",
+                    "target": "RCA reproductive toxicity in adult males, rodent"
+                }
+            },
+            {
+                "data": {
+                    "source": "Reproductive Toxicity -repro mouse female",
+                    "target": "RCA reproductive toxicity in adult males, rodent"
+                }
+            },
+            {
+                "data": {
+                    "source": "agonism_ER/full",
+                    "target": "Reproductive Toxicity -repro mouse female"
+                }
+            },
+            {
+                "data": {
+                    "source": "agonism_ER/full",
+                    "target": "Reproductive Toxicity -repro rodent female"
+                }
+            },
+            {
+                "data": {
+                    "source": "RCA fetal death, rodent",
+                    "target": "ring:fused_steroid_generic_[5_6_6_6]"
+                }
+            },
+            {
+                "data": {
+                    "source": "RCA reproductive toxicity in adult males, rat",
+                    "target": "ring:fused_steroid_generic_[5_6_6_6]"
+                }
+            }
+        ]
+    }
+}

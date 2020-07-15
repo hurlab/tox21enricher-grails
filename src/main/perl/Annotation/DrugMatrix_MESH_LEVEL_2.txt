@@ -1,0 +1,918 @@
+87333-19-5	Heterocyclic Compounds, Bridged-Ring
+26921-17-5	Amines
+47879-92-5	Carbohydrates
+51012-32-9	Amides
+10262-69-8	Polycyclic Hydrocarbons, Aromatic
+78110-38-0	Amides
+37517-28-5	Carbohydrates
+76824-35-6	Heterocyclic Compounds, 1-Ring
+14216-34-3	Carboxylic Acids
+50-06-6	Heterocyclic Compounds, 1-Ring
+93957-54-1	Polycyclic Hydrocarbons, Aromatic
+14976-57-9	Heterocyclic Compounds, 1-Ring
+8055-10-5	Heterocyclic Compounds, 2-Ring
+89565-68-4	Heterocyclic Compounds, 1-Ring
+110204-46-1	Heterocyclic Compounds, 1-Ring
+55-18-5	Nitroso Compounds
+127-07-1	Urea
+59865-13-3	Peptides
+123958-79-2	Polycyclic Hydrocarbons, Aromatic
+101-77-9	Amines
+102625-70-7	Heterocyclic Compounds, 2-Ring
+49745-95-1	Amines
+143201-11-0	Polycyclic Hydrocarbons, Aromatic
+107007-99-8	Heterocyclic Compounds, 1-Ring
+1492-18-8	Vitamins
+321-64-2	Heterocyclic Compounds, 3-Ring
+98-96-4	Heterocyclic Compounds, 1-Ring
+1404-31-5	Peptides
+51-52-5	Heterocyclic Compounds, 1-Ring
+33089-61-1	Amines
+82410-32-0	Heterocyclic Compounds, 2-Ring
+81-81-2	Heterocyclic Compounds, 2-Ring
+142678-34-0	Heterocyclic Compounds, 2-Ring
+57308-51-7	Amines
+58409-59-9	Hydrazines
+50-52-2	Heterocyclic Compounds, 3-Ring
+80214-83-1	Carbohydrates
+15468-34-5	Heterocyclic Compounds, 1-Ring
+3426-54-8	Heterocyclic Compounds, 2-Ring
+34156-56-4	Organophosphorus Compounds
+59-92-7	Amines
+90438-83-8	Polycyclic Hydrocarbons, Aromatic
+41372-08-1	Amines
+37091-65-9	Amides
+15307-79-6	Carboxylic Acids
+3810-74-0	Carbohydrates
+93957-55-2	Polycyclic Hydrocarbons, Aromatic
+154-93-8	Nitroso Compounds
+88873-75-0	Heterocyclic Compounds, 1-Ring
+121-19-7	Organometallic Compounds
+525-66-6	Alcohols
+122111-03-9	Nucleosides
+85441-61-8	Heterocyclic Compounds, 2-Ring
+111974-72-2	Heterocyclic Compounds, 3-Ring
+53-19-0	Hydrocarbons
+84449-90-1	Hydrocarbons
+66104-23-2	Alkaloids
+61-72-3	Amides
+53902-12-8	Carboxylic Acids
+1154-59-2	Amides
+22232-80-0	Hydrocarbons
+58-18-4	Steroids
+93479-97-1	Sulfur Compounds
+74011-58-8	Heterocyclic Compounds, 2-Ring
+71963-77-4	Hydrocarbons
+145599-86-6	Polycyclic Hydrocarbons, Aromatic
+61869-08-7	Heterocyclic Compounds, 1-Ring
+8072-21-7	Organophosphorus Compounds
+60-56-0	Heterocyclic Compounds, 1-Ring
+434-07-1	Steroids
+28981-97-7	Heterocyclic Compounds, 2-Ring
+3778-73-2	Heterocyclic Compounds, 1-Ring
+57-62-5	Polycyclic Hydrocarbons, Aromatic
+114798-26-4	Heterocyclic Compounds, 1-Ring
+75736-33-3	Hydrocarbons
+63-74-1	Amides
+113665-84-2	Heterocyclic Compounds, 1-Ring
+1134-47-0	Carboxylic Acids
+71-55-6	Hydrocarbons
+41294-56-8	Vitamins
+106650-56-0	Hydrocarbons
+58-38-8	Heterocyclic Compounds, 3-Ring
+56420-45-2	Carbohydrates
+65-49-6	Carboxylic Acids
+14402-89-2	Iron Compounds
+63585-09-1	Organophosphorus Compounds
+63968-64-9	Hydrocarbons
+39122-18-4	Heterocyclic Compounds, 1-Ring
+98079-51-7	Heterocyclic Compounds, 2-Ring
+1622-61-3	Heterocyclic Compounds, 2-Ring
+76095-16-4	Peptides
+101053-01-4	Heterocyclic Compounds, 1-Ring
+87-10-5	Amides
+35212-22-7	Heterocyclic Compounds, 2-Ring
+305-33-9	Hydrazines
+73-78-9	Amides
+13721-39-6	Vanadium Compounds
+52-86-8	Ketones
+5786-21-0	Heterocyclic Compounds, 3-Ring
+67-20-9	Heterocyclic Compounds, 1-Ring
+20830-81-3	Carbohydrates
+11103-62-1	Heterocyclic Compounds, 2-Ring
+53746-45-5	Carboxylic Acids
+1402-99-9	Peptides
+15307-86-5	Carboxylic Acids
+93107-08-5	Heterocyclic Compounds, 2-Ring
+139481-59-7	Heterocyclic Compounds, 1-Ring
+4759-48-2	Hydrocarbons
+51-79-6	Carboxylic Acids
+123040-16-4	Heterocyclic Compounds, 1-Ring
+2011-67-8	Heterocyclic Compounds, 2-Ring
+64-17-5	Alcohols
+100490-36-6	Heterocyclic Compounds, 2-Ring
+30418-52-1	Heterocyclic Compounds, 1-Ring
+3254-89-5	Heterocyclic Compounds, 1-Ring
+30484-77-6	Heterocyclic Compounds, 1-Ring
+147-94-4	Nucleosides
+70458-96-7	Heterocyclic Compounds, 2-Ring
+36205-82-0	Amides
+147-24-0	Amines
+15676-16-1	Amides
+71486-22-1	Alkaloids
+57-92-1	Carbohydrates
+97-77-8	Carboxylic Acids
+111406-87-2	Urea
+39809-25-1	Heterocyclic Compounds, 2-Ring
+54-64-8	Organometallic Compounds
+60-87-7	Heterocyclic Compounds, 3-Ring
+37350-58-6	Alcohols
+6620-60-6	Amino Acids
+1951-25-3	Heterocyclic Compounds, 2-Ring
+148229-78-1	Alcohols
+59-66-5	Heterocyclic Compounds, 1-Ring
+82419-36-1	Heterocyclic Compounds, 2-Ring
+1197-18-8	Carboxylic Acids
+124832-26-4	Heterocyclic Compounds, 2-Ring
+51481-61-9	Heterocyclic Compounds, 1-Ring
+446-72-0	Heterocyclic Compounds, 2-Ring
+1684-40-8	Heterocyclic Compounds, 3-Ring
+128-62-1	Alkaloids
+30771-29-0	Vitamins
+98-92-0	Vitamins
+34597-40-5	Carboxylic Acids
+10592-13-9	Polycyclic Hydrocarbons, Aromatic
+38194-50-2	Polycyclic Hydrocarbons, Aromatic
+160738-57-8	Heterocyclic Compounds, 2-Ring
+42551-62-2	Hydrocarbons
+108068-98-0	Hydrazines
+134523-00-5	Polycyclic Hydrocarbons, Aromatic
+438-41-5	Heterocyclic Compounds, 2-Ring
+64485-93-4	Amides
+1400-61-9	Lactones
+76-73-3	Heterocyclic Compounds, 1-Ring
+23541-50-6	Carbohydrates
+79-57-2	Polycyclic Hydrocarbons, Aromatic
+38821-49-7	Amines
+36322-90-4	Heterocyclic Compounds, 1-Ring
+26839-75-8	Amines
+882-09-7	Carboxylic Acids
+100986-85-4	Heterocyclic Compounds, 2-Ring
+1066-17-7	Peptides
+95-25-0	Heterocyclic Compounds, 2-Ring
+71950-35-1	Heterocyclic Compounds with 4 or More Rings
+50-76-0	Heterocyclic Compounds, 3-Ring
+109889-09-0	Heterocyclic Compounds, 1-Ring
+95510-70-6	Heterocyclic Compounds, 2-Ring
+57-30-7	Heterocyclic Compounds, 1-Ring
+171599-83-0	Heterocyclic Compounds, 1-Ring
+19387-91-8	Heterocyclic Compounds, 1-Ring
+157810-81-6	Heterocyclic Compounds, 1-Ring
+52-49-3	Heterocyclic Compounds, 1-Ring
+104051-69-6	Heterocyclic Compounds, 2-Ring
+123-03-5	Heterocyclic Compounds, 1-Ring
+50-07-7	Heterocyclic Compounds, 1-Ring
+41708-72-9	Amides
+64092-48-4	Heterocyclic Compounds, 1-Ring
+61379-65-5	Heterocyclic Compounds with 4 or More Rings
+110707-92-1	Heterocyclic Compounds, 1-Ring
+99614-02-5	Heterocyclic Compounds, 1-Ring
+75706-12-6	Heterocyclic Compounds, 1-Ring
+12374-71-9	Heterocyclic Compounds, 1-Ring
+111025-46-8	Heterocyclic Compounds, 1-Ring
+41340-25-4	Heterocyclic Compounds, 2-Ring
+161814-49-9	Amides
+86-54-4	Heterocyclic Compounds, 1-Ring
+144-11-6	Heterocyclic Compounds, 1-Ring
+1403-00-5	Peptides
+124750-99-8	Heterocyclic Compounds, 1-Ring
+112885-41-3	Amides
+138786-67-1	Heterocyclic Compounds, 2-Ring
+3930-20-9	Amines
+154644-14-1	Heterocyclic Compounds, 2-Ring
+15687-27-1	Carboxylic Acids
+105816-04-4	Hydrocarbons
+89786-04-9	Amides
+21187-98-4	Sulfur Compounds
+36894-69-6	Amines
+156-51-4	Hydrazines
+6055-19-2	Hydrocarbons
+58-54-8	Carboxylic Acids
+66104-22-1	Alkaloids
+138680-08-7	Heterocyclic Compounds, 1-Ring
+60-02-6	Amidines
+98079-52-8	Heterocyclic Compounds, 2-Ring
+34552-83-5	Heterocyclic Compounds, 1-Ring
+19767-45-4	Hydrocarbons
+55-65-2	Amidines
+132539-06-1	Heterocyclic Compounds, 2-Ring
+51-06-9	Amides
+30418-50-9	Heterocyclic Compounds, 1-Ring
+671-16-9	Amides
+665-66-7	Hydrocarbons
+81103-11-9	Lactones
+70918-01-3	Heterocyclic Compounds, 2-Ring
+54-31-9	Amides
+1229-29-4	Heterocyclic Compounds, 3-Ring
+42924-53-8	Ketones
+90357-06-5	Amides
+109581-93-3	Lactones
+119-04-0	Carbohydrates
+29094-61-9	Sulfur Compounds
+61825-94-3	Organometallic Compounds
+2809-21-4	Organophosphorus Compounds
+50700-72-6	Steroids
+120-78-5	Heterocyclic Compounds, 1-Ring
+56180-94-0	Carbohydrates
+90581-31-0	Lactones
+548-73-2	Heterocyclic Compounds, 2-Ring
+57-55-6	Alcohols
+555-30-6	Amines
+465-65-6	Alkaloids
+56211-40-6	Amides
+3572-43-8	Amines
+53123-88-9	Lactones
+299-39-8	Alkaloids
+69975-86-6	Aklaloids
+645-43-2	Amidines
+859-18-7	Carbohydrates
+104987-11-3	Lactones
+57-83-0	Steroids
+62-73-7	Organophosphorus Compounds
+113-92-8	Heterocyclic Compounds, 1-Ring
+8052-21-9	Amines
+9041-93-4	Peptides
+133-92-6	Carbohydrates
+151319-34-5	Amides
+645-05-6	Heterocyclic Compounds, 1-Ring
+2610-86-8	Heterocyclic Compounds, 2-Ring
+57-66-9	Amides
+6108-05-0	Amides
+15301-69-6	Heterocyclic Compounds, 2-Ring
+106266-06-2	Heterocyclic Compounds, 1-Ring
+1508-65-2	Carboxylic Acids
+97-54-1	Hydrocarbons
+68342-78-9	Hydrocarbons
+30751-05-4	Heterocyclic Compounds, 1-Ring
+723-46-6	Amides
+4910-46-7	Hydrazines
+315-30-0	Heterocyclic Compounds, 2-Ring
+43210-67-9	Heterocyclic Compounds, 2-Ring
+123040-69-7	Heterocyclic Compounds, 1-Ring
+7540-22-9	Carbohydrates
+50-27-1	Steroids
+18968-99-5	Heterocyclic Compounds, 1-Ring
+17440-83-4	Heterocyclic Compounds, 1-Ring
+112885-42-4	Amides
+532-03-6	Carboxylic Acids
+15686-71-2	Amides
+54-21-7	Carboxylic Acids
+90581-30-9	Lactones
+76-74-4	Heterocyclic Compounds, 1-Ring
+50-33-9	Heterocyclic Compounds, 1-Ring
+24659-79-8	Heterocyclic Compounds, 2-Ring
+10347-81-6	Polycyclic Hydrocarbons, Aromatic
+50-81-7	Carboxylic Acids
+128794-94-5	Carboxylic Acids
+302-01-2	Hydrazines
+26833-85-2	Alkaloids
+80573-04-2	Phenols
+49562-28-9	Carboxylic Acids
+61422-45-5	Heterocyclic Compounds, 1-Ring
+88150-42-9	Heterocyclic Compounds, 1-Ring
+551-06-4	Isocyanates
+69-23-8	Heterocyclic Compounds, 3-Ring
+318-98-9	Alcohols
+54-11-5	Heterocyclic Compounds, 1-Ring
+59-01-8	Carbohydrates
+62139-95-1	Organophosphorus Compounds
+102030-19-3	Polycyclic Hydrocarbons, Aromatic
+14028-44-5	Heterocyclic Compounds, 3-Ring
+59-05-2	Heterocyclic Compounds, 2-Ring
+43200-80-2	Heterocyclic Compounds, 1-Ring
+309-29-5	Heterocyclic Compounds, 1-Ring
+41575-94-4	Organometallic Compounds
+637-07-0	Carboxylic Acids
+26159-34-2	Polycyclic Hydrocarbons, Aromatic
+81161-17-3	Alcohols
+93413-69-5	Alcohols
+8026-72-0	Polycyclic Hydrocarbons, Aromatic
+134523-05-8	Polycyclic Hydrocarbons, Aromatic
+10418-03-8	Steroids
+150378-17-9	Heterocyclic Compounds, 1-Ring
+25122-46-7	Steroids
+11024-24-1	Carbohydrates
+1156-19-0	Sulfur Compounds
+134523-03-8	Polycyclic Hydrocarbons, Aromatic
+58-08-2	Alkaloids
+3506-09-0	Alcohols
+69-09-0	Heterocyclic Compounds, 3-Ring
+2152-34-3	Heterocyclic Compounds, 1-Ring
+59293-82-2	Heterocyclic Compounds, 1-Ring
+7712-50-7	Hydrocarbons
+120511-73-1	Heterocyclic Compounds, 1-Ring
+112885-43-5	Amides
+138729-47-2	Heterocyclic Compounds, 1-Ring
+58970-76-6	Amino Acids
+29122-68-7	Alcohols
+58-32-2	Heterocyclic Compounds, 1-Ring
+55-91-4	  Organophosphorus Compounds
+64-75-5	Polycyclic Hydrocarbons, Aromatic
+56-23-5	Hydrocarbons
+53-86-1	Heterocyclic Compounds, 2-Ring
+59-67-6	Heterocyclic Compounds, 1-Ring
+7683-59-2	Amines
+134-03-2	Carboxylic Acids
+302-79-4	Hydrocarbons
+13010-47-4	Nitroso Compounds
+36505-84-7	Heterocyclic Compounds, 1-Ring
+94-20-2	Sulfur Compounds
+22204-53-1	Polycyclic Hydrocarbons, Aromatic
+107097-79-0	Heterocyclic Compounds, 2-Ring
+5633-20-5	Carboxylic Acids
+61036-63-3	Carbohydrates
+82768-84-1	Heterocyclic Compounds, 2-Ring
+29701-07-3	Carbohydrates
+5929-09-9	Amines
+86393-32-0	Heterocyclic Compounds, 2-Ring
+1405-87-4	Peptides
+56-53-1	Hydrocarbons
+1953-04-4	Alkaloids
+99300-78-4	Alcohols
+52468-60-7	Heterocyclic Compounds, 1-Ring
+90729-43-4	Ketones
+84625-61-6	Heterocyclic Compounds, 1-Ring
+19685-09-7	Alkaloids
+53797-16-3	Carbohydrates
+63-45-6	Heterocyclic Compounds, 2-Ring
+6004-24-6	Heterocyclic Compounds, 1-Ring
+129-03-3	Heterocyclic Compounds, 1-Ring
+54-92-2	Hydrazines
+81147-92-4	Alcohols
+5104-49-4	Carboxylic Acids
+17902-23-7	Heterocyclic Compounds, 1-Ring
+94-59-7	Heterocyclic Compounds, 1-Ring
+28860-95-9	Amines
+68373-14-8	Amides
+72-14-0	Amides
+136-47-0	Carboxylic Acids
+302-22-7	Steroids
+75330-75-5	Polycyclic Hydrocarbons, Aromatic
+911-45-5	Hydrocarbons
+78628-80-5	Polycyclic Hydrocarbons, Aromatic
+12738-72-6	Amides
+69-53-4	Amides
+298-46-4	Heterocyclic Compounds, 3-Ring
+64840-90-0	Ketones
+13013-17-7	Alcohols
+100599-27-7	Heterocyclic Compounds, 2-Ring
+51-15-0	Amines
+129-18-0	Heterocyclic Compounds, 1-Ring
+66357-59-3	Heterocyclic Compounds, 1-Ring
+169590-42-5	Amides
+67-92-5	Carboxylic Acids
+61318-91-0	Heterocyclic Compounds, 1-Ring
+8015-12-1	Steroids
+84371-65-3	Steroids
+146-56-5	Heterocyclic Compounds, 3-Ring
+10026-11-6	Metals
+56839-43-1	Ketones
+34330-64-8	Cadmium Compounds
+29398-76-3	Cadmium Compounds
+140401-05-4	Carboxylic Acids
+54910-89-3	Amines
+5370-01-4	Amines
+105167-68-8	Heterocyclic Compounds, 1-Ring
+75-35-4	Hydrocarbons
+56391-56-1	Carbohydrates
+81771-21-3	Hydrocarbons
+23593-75-1	Heterocyclic Compounds, 1-Ring
+125-33-7	Heterocyclic Compounds, 1-Ring
+52-01-7	Steroids
+76584-70-8	Carboxylic Acids
+10540-29-1	Hydrocarbons
+112809-51-5	Nitriles
+76-03-9	Carboxylic Acids
+304-20-1	Heterocyclic Compounds, 1-Ring
+8023-22-1	Organophosphorus Compounds
+53179-11-6	Heterocyclic Compounds, 1-Ring
+106-24-1	Hydrocarbons
+100286-90-6	Alkaloids
+4205-90-7	Heterocyclic Compounds, 1-Ring
+31431-39-7	Heterocyclic Compounds, 2-Ring
+58-73-1	Amines
+52-67-5	Amino Acids
+65-45-2	Amides
+104-40-5	Phenols
+90-39-1	Alkaloids
+12772-40-6	Organophosphorus Compounds
+89785-84-2	Amides
+614-39-1	Amides
+95828-55-0	Organophosphorus Compounds
+51012-33-0	Amides
+32780-64-6	Amines
+103-90-2	Amides
+137862-53-4	Heterocyclic Compounds, 1-Ring
+62571-86-2	Amino Acids
+5638-76-6	Heterocyclic Compounds, 1-Ring
+518-28-5	Polycyclic Hydrocarbons, Aromatic
+131322-37-7	Amides
+59729-32-7	Amines
+86541-74-4	Heterocyclic Compounds, 2-Ring
+12663-50-2	Carboxylic Acids
+58957-92-9	Carbohydrates
+148229-79-2	Alcohols
+30516-87-1	Nucleosides
+50976-86-8	Carbohydrates
+41859-67-0	Carboxylic Acids
+84485-00-7	Hydrocarbons
+79559-97-0	Polycyclic Hydrocarbons, Aromatic
+53164-05-9	Heterocyclic Compounds, 2-Ring
+17431-55-9	Carbohydrates
+11096-21-2	Organophosphorus Compounds
+102-76-1	Lipids
+51-05-8	Carboxylic Acids
+51-71-8	Hydrazines
+846-49-1	Heterocyclic Compounds, 2-Ring
+72559-06-9	Heterocyclic Compounds with 4 or More Rings
+77-19-0	Carboxylic Acids
+22232-54-8	Heterocyclic Compounds, 1-Ring
+158920-43-5	Heterocyclic Compounds, 1-Ring
+50-35-1	Heterocyclic Compounds, 1-Ring
+103577-45-3	Heterocyclic Compounds, 2-Ring
+148-79-8	Heterocyclic Compounds, 2-Ring
+13755-38-9	Iron Compounds
+18323-44-9	Carbohydrates
+1424-27-7	Heterocyclic Compounds, 1-Ring
+154-21-2	Carbohydrates
+51-98-9	Steroids
+103890-78-4	Heterocyclic Compounds, 1-Ring
+111974-69-7	Heterocyclic Compounds, 3-Ring
+63074-08-8	Heterocyclic Compounds, 2-Ring
+57-22-7	Alkaloids
+972-02-1	Heterocyclic Compounds, 1-Ring
+27262-47-1	Amides
+72-33-3	Steroids
+103628-46-2	Amides
+22204-88-2	Alcohols
+396-01-0	Heterocyclic Compounds, 2-Ring
+5743-04-4	Cadmium Compounds
+89796-99-6	Carboxylic Acids
+91-64-5	Heterocyclic Compounds, 2-Ring
+49625-23-2	Amides
+86386-73-4	Heterocyclic Compounds, 1-Ring
+76487-49-5	Amidines
+13497-05-7	Hydrocarbons
+10108-64-2	Cadmium Compounds
+38304-91-5	Heterocyclic Compounds, 1-Ring
+61-68-7	Carboxylic Acids
+5979-00-0	Heterocyclic Compounds, 2-Ring
+71-63-6	Carbohydrates
+7790-78-5	Cadmium Compounds
+115007-34-6	Carboxylic Acids
+611-75-6	Amines
+83380-47-6	Heterocyclic Compounds, 2-Ring
+72956-09-3	Heterocyclic Compounds, 3-Ring
+65-28-1	Heterocyclic Compounds, 1-Ring
+68342-79-0	Hydrocarbons
+54856-23-4	Heterocyclic Compounds, 1-Ring
+2315-02-8	Heterocyclic Compounds, 1-Ring
+66085-59-4	Heterocyclic Compounds, 1-Ring
+61036-64-4	Carbohydrates
+3094-09-5	Nucleosides
+61318-90-9	Heterocyclic Compounds, 1-Ring
+621-42-1	Amines
+72589-96-9	Cadmium Compounds
+523-87-5	Alkaloids
+7689-03-4	Alkaloids
+155213-67-5	Heterocyclic Compounds, 1-Ring
+537-98-4	Carboxylic Acids
+67-73-2	Steroids
+35543-24-9	Heterocyclic Compounds, 1-Ring
+70476-82-3	Quinones
+34691-31-1	Carboxylic Acids
+595-33-5	Steroids
+34368-04-2	Amines
+117-81-7	Carboxylic Acids
+434-03-7	Steroids
+768-94-5	Hydrocarbons
+8027-03-0	Heterocyclic Compounds, 2-Ring
+603-50-9	Phenols
+17321-77-6	Heterocyclic Compounds, 3-Ring
+86126-06-9	Heterocyclic Compounds, 2-Ring
+91-84-9	Heterocyclic Compounds, 1-Ring
+1403-66-3	Carbohydrates
+22071-15-4	Carboxylic Acids
+104227-87-4	Heterocyclic Compounds, 2-Ring
+2438-32-6	Heterocyclic Compounds, 1-Ring
+96036-03-2	Amides
+144256-27-9	Amides
+181695-72-7	Amides
+112811-59-3	Heterocyclic Compounds, 2-Ring
+87-66-1	Phenols
+107-18-6	Hydrocarbons
+50-18-0	Hydrocarbons
+969-33-5	Heterocyclic Compounds, 1-Ring
+68-35-9	Amides
+91032-26-7	Carbohydrates
+123-41-1	Amines
+71751-41-2	Lactones
+7414-83-7	Organophosphorus Compounds
+2447-57-6	Amides
+15318-45-3	Alcohols
+57-94-3	Alkaloids
+27220-47-9	Heterocyclic Compounds, 1-Ring
+650-51-1	Carboxylic Acids
+121985-71-5	Heterocyclic Compounds, 3-Ring
+24219-97-4	Heterocyclic Compounds, 3-Ring
+443-48-1	Heterocyclic Compounds, 1-Ring
+4205-91-8	Heterocyclic Compounds, 1-Ring
+65-85-0	Carboxylic Acids
+90638-38-3	Amines
+50-91-9	Nucleosides
+58-25-3	Heterocyclic Compounds, 2-Ring
+137-58-6	Amides
+2016-88-8	Heterocyclic Compounds, 1-Ring
+52-53-9	Amines
+31828-71-4	Amines
+64-72-2	Polycyclic Hydrocarbons, Aromatic
+23734-88-5	Heterocyclic Compounds, 1-Ring
+67-48-1	Amines
+129618-40-2	Heterocyclic Compounds, 1-Ring
+125-59-7	Heterocyclic Compounds, 1-Ring
+82640-04-8	Hydrocarbons
+24390-14-5	Polycyclic Hydrocarbons, Aromatic
+1867-66-9	Hydrocarbons
+86753-29-9	Lactones
+11030-21-0	Carbohydrates
+50-44-2	Heterocyclic Compounds, 2-Ring
+31377-23-8	Hydrocarbons
+6740-88-1	Hydrocarbons
+22916-47-8	Heterocyclic Compounds, 1-Ring
+149908-23-6	Carbohydrates
+53776-71-9	Carbohydrates
+51-21-8	Heterocyclic Compounds, 1-Ring
+364-62-5	Amides
+103598-03-4	Alcohols
+6000-74-4	Steroids
+53885-35-1	Heterocyclic Compounds, 1-Ring
+11095-17-3	Organophosphorus Compounds
+66357-35-5	Heterocyclic Compounds, 1-Ring
+2933-45-1	Heterocyclic Compounds, 1-Ring
+63590-64-7	Heterocyclic Compounds, 2-Ring
+7232-21-5	Amides
+39831-55-5	Carbohydrates
+92-84-2	?
+77-92-9	Carboxylic Acids
+97845-62-0	Heterocyclic Compounds, 2-Ring
+36791-04-5	Nucleosides
+140-72-7	Heterocyclic Compounds, 1-Ring
+74-31-7	Amines
+865-21-4	Alkaloids
+79617-96-2	Polycyclic Hydrocarbons, Aromatic
+19216-56-9	Heterocyclic Compounds, 2-Ring
+1264-72-8	Peptides
+67-66-3	Hydrocarbons
+56767-76-1	Carboxylic Acids
+114715-36-5	Heterocyclic Compounds, 2-Ring
+76963-41-2	Heterocyclic Compounds, 1-Ring
+24558-49-4	Cadmium Compounds
+112529-15-4	Heterocyclic Compounds, 1-Ring
+88-04-0	Hydrocarbons
+57852-57-0	Carbohydrates
+60142-96-3	Carboxylic Acids
+479-18-5	Heterocyclic Compounds, 2-Ring
+31430-15-6	Heterocyclic Compounds, 2-Ring
+53-03-2	Steroids
+36-06-6	Carbohydrates
+959-24-0	Amines
+110871-86-8	Heterocyclic Compounds, 2-Ring
+58-33-3	Heterocyclic Compounds, 3-Ring
+50-78-2	Carboxylic Acids
+68767-14-6	Carboxylic Acids
+10238-21-8	Sulfur Compounds
+302-27-2	Alkaloids
+50-28-2	Steroids
+54-25-1	Nucleosides
+69-72-7	Carboxylic Acids
+99-66-1	Carboxylic Acids
+120011-70-3	Polycyclic Hydrocarbons, Aromatic
+58-55-9	Alkaloids
+305-03-3	Hydrocarbons
+76547-98-3	Peptides
+56391-57-2	Carbohydrates
+3056-17-5	Nucleosides
+101827-46-7	Amines
+630-60-4	Carbohydrates
+7722-44-3	Peptides
+75847-73-3	Peptides
+526-08-9	Amides
+51-55-8	Alkaloids
+53-96-3	Amides
+543-90-8	Cadmium Compounds
+114-80-7	Amines
+8060-73-9	Heterocyclic Compounds, 1-Ring
+98319-26-7	Steroids
+483-63-6	Amines
+74191-85-8	Heterocyclic Compounds, 2-Ring
+15826-37-6	Heterocyclic Compounds, 2-Ring
+42200-33-9	Alcohols
+36282-47-0	Alcohols
+19237-84-4	Heterocyclic Compounds, 2-Ring
+146874-86-4	Alcohols
+111542-93-9	Heterocyclic Compounds, 2-Ring
+25523-97-1	Heterocyclic Compounds, 1-Ring
+68-12-2	Carboxylic Acids
+10083-56-4	Heterocyclic Compounds, 1-Ring
+17230-88-5	Steroids
+66-27-3	Hydrocarbons
+146-22-5	Heterocyclic Compounds, 2-Ring
+90-34-6	Heterocyclic Compounds, 2-Ring
+60-32-2	Carboxylic Acids
+91032-34-7	Carbohydrates
+12643-15-1	Peptides
+13292-46-1	Heterocyclic Compounds with 4 or More Rings
+37091-66-0	Amides
+1135-24-6	Carboxylic Acids
+14769-73-4	Heterocyclic Compounds, 1-Ring
+3801-06-7	Hydrazines
+564-25-0	Polycyclic Hydrocarbons, Aromatic
+57-41-0	Heterocyclic Compounds, 1-Ring
+58-93-5	Heterocyclic Compounds, 2-Ring
+15686-51-8	Heterocyclic Compounds, 1-Ring
+59729-33-8	Amines
+15307-81-0	Carboxylic Acids
+100-63-0	Hydrazines
+23672-07-3	Amides
+1508-27-6	Heterocyclic Compounds, 3-Ring
+1405-41-0	Carbohydrates
+57808-65-8	Amides
+53-06-5	Steroids
+127-69-5	Amides
+143-67-9	Alkaloids
+23031-32-5	Amines
+30418-51-0	Heterocyclic Compounds, 1-Ring
+32385-11-8	Carbohydrates
+99-76-3	Carboxylic Acids
+8017-77-4	Polycyclic Hydrocarbons, Aromatic
+68077-27-0	Heterocyclic Compounds, 2-Ring
+71125-38-7	Heterocyclic Compounds, 1-Ring
+84057-84-1	Heterocyclic Compounds, 1-Ring
+79794-75-5	Heterocyclic Compounds, 1-Ring
+50-53-3	Heterocyclic Compounds, 3-Ring
+120014-06-4	Polycyclic Hydrocarbons, Aromatic
+140-65-8	Heterocyclic Compounds, 1-Ring
+101828-21-1	Amines
+99614-01-4	Heterocyclic Compounds, 1-Ring
+894-71-3	Polycyclic Hydrocarbons, Aromatic
+95058-81-4	Nucleosides
+7002-58-6	Heterocyclic Compounds, 1-Ring
+1491-59-4	Heterocyclic Compounds, 1-Ring
+100-33-4	Amidines
+532-32-1	Carboxylic Acids
+15663-27-1	Platinum Compounds
+120-80-9	Phenols
+70-30-4	Hydrocarbons
+52663-81-7	Amines
+80-05-7	Carboxylic Acids
+8072-39-7	Organophosphorus Compounds
+50-48-6	Polycyclic Hydrocarbons, Aromatic
+83203-42-3	Steroids
+94-09-7	Carboxylic Acids
+25316-40-9	Carbohydrates
+110862-48-1	Polycyclic Hydrocarbons, Aromatic
+22494-42-4	Phenols
+55268-74-1	Heterocyclic Compounds, 2-Ring
+7491-74-9	Amides
+1404-93-9	Carbohydrates
+120210-48-2	Heterocyclic Compounds, 2-Ring
+69-74-9	Nucleosides
+5841-63-4	Heterocyclic Compounds, 1-Ring
+65-29-2	Amines
+62-44-2	Amides
+82159-09-9	Heterocyclic Compounds, 1-Ring
+121268-17-5	Organophosphorus Compounds
+115964-29-9	Heterocyclic Compounds, 2-Ring
+492-08-0	Alkaloids
+8065-45-0	Heterocyclic Compounds, 1-Ring
+21829-25-4	Heterocyclic Compounds, 1-Ring
+84-02-6	Heterocyclic Compounds, 3-Ring
+13311-84-7	Amides
+15690-55-8	Hydrocarbons
+446-86-6	Heterocyclic Compounds, 2-Ring
+1953-02-2	Hydrazines
+27948-47-6	Amines
+117-37-3	Polycyclic Hydrocarbons, Aromatic
+116788-91-1	Organophosphorus Compounds
+50-24-8	Steroids
+139755-83-2	Heterocyclic Compounds, 1-Ring
+514-36-3	Steroids
+80581-86-8	Amides
+67-97-0	Vitamins
+56296-78-7	Amines
+124832-27-5	Heterocyclic Compounds, 2-Ring
+122320-73-4	Heterocyclic Compounds, 1-Ring
+357-70-0	Alkaloids
+56-40-6	Amino Acids
+17198-21-9	Hydrazines
+20830-75-5	Carbohydrates
+114-07-8	Carbohydrates
+25389-94-0	Carbohydrates
+98319-25-7	Steroids
+162011-90-7	Lactones
+31879-05-7	Carboxylic Acids
+59333-67-4	Amines
+127779-20-8	Heterocyclic Compounds, 2-Ring
+226904-33-2	Heterocyclic Compounds, 2-Ring
+73963-72-1	Heterocyclic Compounds, 1-Ring
+86541-75-5	Heterocyclic Compounds, 2-Ring
+50-50-0	Steroids
+40671-54-3	Heterocyclic Compounds, 1-Ring
+84057-94-3	Alcohols
+1538-09-6	Amides
+33419-42-0	Polycyclic Hydrocarbons, Aromatic
+55837-25-7	Heterocyclic Compounds, 1-Ring
+27724-96-5	Carboxylic Acids
+127-48-0	Heterocyclic Compounds, 1-Ring
+7783-47-3	Tin Compounds
+69-65-8	Alcohols
+140-64-7	Amidines
+73573-88-3	Polycyclic Hydrocarbons, Aromatic
+427-51-0	Steroids
+549-18-8	Polycyclic Hydrocarbons, Aromatic
+54143-57-6	Amides
+69353-21-5	Alkaloids
+6493-05-6	Alkaloids
+66-76-2	Heterocyclic Compounds, 2-Ring
+83-44-3	Steroids
+30652-11-0	Heterocyclic Compounds, 1-Ring
+24169-02-6	Heterocyclic Compounds, 1-Ring
+6036-95-9	Heterocyclic Compounds, 1-Ring
+37341-99-4	Heterocyclic Compounds, 2-Ring
+77883-43-3	Heterocyclic Compounds, 2-Ring
+86050-77-3	Amines
+59-46-1	Carboxylic Acids
+55-98-1	Alcohols
+7081-53-0	Heterocyclic Compounds, 1-Ring
+59277-89-3	Heterocyclic Compounds, 2-Ring
+58186-27-9	Quinones
+85721-33-1	Heterocyclic Compounds, 2-Ring
+91032-37-0	Carbohydrates
+154-42-7	Heterocyclic Compounds, 2-Ring
+2280-32-2	Carbohydrates
+22601-59-8	Peptides
+103628-48-4	Amides
+303-49-1	Heterocyclic Compounds, 3-Ring
+81-25-4	Steroids
+21256-18-8	Carboxylic Acids
+91032-38-1	Carbohydrates
+148-82-3	Hydrocarbons
+58-40-2	Heterocyclic Compounds, 3-Ring
+94-58-6	Heterocyclic Compounds, 1-Ring
+134678-17-4	Nucleosides
+357-08-4	Alkaloids
+59-33-6	Heterocyclic Compounds, 1-Ring
+121-54-0	Amines
+105826-92-4	Heterocyclic Compounds, 1-Ring
+60-54-8	Polycyclic Hydrocarbons, Aromatic
+131086-21-0	Nucleosides
+51803-78-2	Amides
+73590-58-6	Heterocyclic Compounds, 2-Ring
+71-27-2	Amines
+152-11-4	Amines
+117976-89-3	Heterocyclic Compounds, 2-Ring
+65277-42-1	Heterocyclic Compounds, 1-Ring
+57-63-6	Steroids
+8017-52-5	Heterocyclic Compounds, 1-Ring
+637-58-1	Heterocyclic Compounds, 1-Ring
+107910-75-8	Heterocyclic Compounds, 2-Ring
+6591-49-7	Polycyclic Hydrocarbons, Aromatic
+64211-45-6	Heterocyclic Compounds, 1-Ring
+122742-25-0	Steroids
+116002-70-1	Heterocyclic Compounds, 1-Ring
+2068-78-2	Alkaloids
+77-67-8	Heterocyclic Compounds, 1-Ring
+41354-29-4	Heterocyclic Compounds, 1-Ring
+912-60-7	Alkaloids
+59-88-1	Hydrazines
+24729-96-2	Carbohydrates
+23214-92-8	Carbohydrates
+496-67-3	Urea
+119478-56-7	Amides
+155141-29-0	Heterocyclic Compounds, 1-Ring
+81098-60-4	Amides
+143-75-9	Heterocyclic Compounds, 1-Ring
+54-85-3	Hydrazines
+70024-40-7	Heterocyclic Compounds, 2-Ring
+361-09-1	Steroids
+7554-65-6	Heterocyclic Compounds, 1-Ring
+404-86-4	Carboxylic Acids
+51-43-4	Amines
+39562-70-4	Heterocyclic Compounds, 1-Ring
+63675-72-9	Heterocyclic Compounds, 1-Ring
+57-96-5	Heterocyclic Compounds, 1-Ring
+71320-77-9	Amides
+53179-09-2	Carbohydrates
+70288-86-7	Carbohydrates
+23981-47-7	Polycyclic Hydrocarbons, Aromatic
+35658-65-2	Cadmium Compounds
+55142-85-3	Heterocyclic Compounds, 1-Ring
+57-33-0	Heterocyclic Compounds, 1-Ring
+91032-36-9	Carbohydrates
+64211-46-7	Heterocyclic Compounds, 1-Ring
+103628-47-3	Amides
+1421-15-4	Heterocyclic Compounds, 1-Ring
+33386-08-2	Heterocyclic Compounds, 1-Ring
+81093-37-0	Polycyclic Hydrocarbons, Aromatic
+61-25-6	Alkaloids
+6011-62-7	Hydrazines
+56-75-7	Alcohols
+50-02-2	Steroids
+77-86-1	Alcohols
+439-14-5	Heterocyclic Compounds, 2-Ring
+55819-32-4	Organophosphorus Compounds
+298-57-7	Heterocyclic Compounds, 1-Ring
+111348-33-5	Alkaloids
+1668-19-5	Heterocyclic Compounds, 3-Ring
+18883-66-4	Nitroso Compounds
+1806-26-4	Phenols
+470-82-6	Hydrocarbons
+138199-71-0	Heterocyclic Compounds, 2-Ring
+7440-38-2	Organometallic Compounds
+35891-93-1	Amides
+58-05-9	Vitamins
+83905-01-5	Lactones
+82586-55-8	Heterocyclic Compounds, 2-Ring
+508-52-1	Carbohydrates
+50-60-2	Heterocyclic Compounds, 1-Ring
+187285-10-5	Organophosphorus Compounds
+1405-10-3	Carbohydrates
+121947-25-9	Heterocyclic Compounds, 3-Ring
+73-31-4	Heterocyclic Compounds, 2-Ring
+96448-41-8	Hydrocarbons
+125317-39-7	Alkaloids
+25387-67-1	Alkaloids
+16110-51-3	Heterocyclic Compounds, 2-Ring
+3239-44-9	Amines
+66376-36-1	Organophosphorus Compounds
+72-69-5	Polycyclic Hydrocarbons, Aromatic
+27203-92-5	Alcohols
+81131-70-6	Polycyclic Hydrocarbons, Aromatic
+103639-04-9	Heterocyclic Compounds, 1-Ring
+68-22-4	Steroids
+65271-80-9	Quinones
+113-98-4	Amides
+93106-60-6	Heterocyclic Compounds, 2-Ring
+21535-47-7	Heterocyclic Compounds, 3-Ring
+90243-99-5	Heterocyclic Compounds, 2-Ring
+15347-57-6	Metals
+34786-70-4	Lactones
+25812-30-0	Carboxylic Acids
+75438-57-2	Heterocyclic Compounds, 1-Ring
+28721-07-5	Heterocyclic Compounds, 3-Ring
+86784-41-0	Heterocyclic Compounds, 2-Ring
+122-11-2	Amides
+68693-11-8	Hydrocarbons
+60-80-0	Heterocyclic Compounds, 1-Ring
+119-36-8	Carboxylic Acids
+23288-49-5	Phenols
+47880-49-9	Carbohydrates
+126-07-8	Heterocyclic Compounds, 2-Ring
+150399-21-6	Phenols
+93572-42-0	Lipids
+87573-04-4	Carbohydrates
+74-55-5	Amines
+50-23-7	Steroids
+129-06-6	Heterocyclic Compounds, 2-Ring
+39331-48-1	Heterocyclic Compounds, 1-Ring
+53716-50-0	Heterocyclic Compounds, 2-Ring
+60763-49-7	Heterocyclic Compounds, 1-Ring
+108138-46-1	Heterocyclic Compounds, 2-Ring
+148-24-3	Heterocyclic Compounds, 2-Ring
+91161-71-6	Polycyclic Hydrocarbons, Aromatic
+34675-84-8	Carboxylic Acids
+5581-45-3	Amides
+21462-39-5	Carbohydrates
+23795-03-1	Amides
+97682-44-5	Alkaloids
+63527-52-6	Amides
+53-60-1	Heterocyclic Compounds, 3-Ring
+108863-62-3	Hydrazines
+58947-95-8	Heterocyclic Compounds, 1-Ring
+3717-88-2	Heterocyclic Compounds, 2-Ring
+47879-97-0	Carbohydrates
+11116-31-7	Peptides
+630-93-3	Heterocyclic Compounds, 1-Ring
+94-24-6	Carboxylic Acids
+142057-77-0	Polycyclic Hydrocarbons, Aromatic
+54965-21-8	Heterocyclic Compounds, 2-Ring
+80382-23-6	Carboxylic Acids
+16595-80-5	Heterocyclic Compounds, 1-Ring
+456-59-7	Carboxylic Acids
+105878-73-7	Heterocyclic Compounds, 2-Ring
+105234-21-7	Heterocyclic Compounds, 3-Ring
+125-84-8	Heterocyclic Compounds, 1-Ring
+51-83-2	Amines
+180683-37-8	Heterocyclic Compounds, 1-Ring
+548-62-9	Amines
+79902-63-9	Polycyclic Hydrocarbons, Aromatic

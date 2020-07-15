@@ -1,0 +1,905 @@
+87333-19-5	Bicyclo Compounds, Heterocyclic
+26921-17-5	Amino Alcohols
+47879-92-5	Glycosides
+51012-32-9	Benzamides
+10262-69-8	Anthracenes
+78110-38-0	Lactams
+37517-28-5	Aminoglycosides
+76824-35-6	Thiazoles
+14216-34-3	Acids, Carbocyclic
+50-06-6	Pyrimidines
+93957-54-1	Naphthalenes
+14976-57-9	Pyrrolidines
+8055-10-5	Benzofurans
+89565-68-4	Pyridines
+110204-46-1	Imidazoles
+55-18-5	Nitrosamines
+127-07-1	Hydroxyurea
+59865-13-3	Peptides, Cyclic
+123958-79-2	Indenes
+101-77-9	Anilides
+102625-70-7	Benzimidazoles
+49745-95-1	Catecholamines
+143201-11-0	Naphthalenes
+107007-99-8	Pyrazoles
+1492-18-8	Vitamin B Complex
+321-64-2	Acridines
+98-96-4	Pyrazines
+1404-31-5	Peptides, Cyclic
+51-52-5	Pyrimidines
+33089-61-1	Aniline Compounds
+82410-32-0	Purines
+81-81-2	Benzopyrans
+142678-34-0	Benzimidazoles
+57308-51-7	Catecholamines
+58409-59-9	Phenelzine
+50-52-2	Phenothiazines
+80214-83-1	Glycosides
+15468-34-5	Triazines
+3426-54-8	Benzofurans
+34156-56-4	Phosphonic Acids
+59-92-7	Catecholamines
+90438-83-8	Naphthalenes
+41372-08-1	Catecholamines
+37091-65-9	Lactams
+15307-79-6	Acids, Carbocyclic
+3810-74-0	Aminoglycoside
+93957-55-2	Naphthalenes
+154-93-8	Nitrosourea Compounds
+88873-75-0	Pyrazoles
+121-19-7	Arsenicals
+525-66-6	Amino Alcohols
+122111-03-9	Deoxyribonucleosides
+85441-61-8	Isoquinolones
+111974-72-2	Dibenzothiazepines
+53-19-0	Hydrocarbons, Halogenated
+84449-90-1	Hydrocarbons, Cyclic
+66104-23-2	Ergot Alkaloids
+61-72-3	Lactams
+53902-12-8	Anthranilic Acids
+1154-59-2	Anilides
+22232-80-0	Terpenes
+58-18-4	Androstanes
+93479-97-1	Sulfones
+74011-58-8	Quinolines
+71963-77-4	Terpenes
+145599-86-6	Naphthalenes
+61869-08-7	Piperidines
+8072-21-7	Dichlorvos
+60-56-0	Imidazoles
+434-07-1	Androstanes
+28981-97-7	Benzazepines
+3778-73-2	Oxazines
+57-62-5	Naphthalenes
+114798-26-4	Imidazoles
+75736-33-3	Hydrocarbons, Cyclic
+63-74-1	Sulfonamides
+113665-84-2	Thiophenes
+1134-47-0	Acids, Acyclic
+71-55-6	Hydrocarbons, Halogenated
+41294-56-8	Vitamin D
+106650-56-0	Hydrocarbons, Cyclic
+58-38-8	Phenothiazines
+56420-45-2	Aminoglycosides
+65-49-6	Acids, Carbocyclic
+14402-89-2	Ferric Compounds
+63585-09-1	Phosphonic Acids
+63968-64-9	Terpenes
+39122-18-4	Pyrrolidines
+98079-51-7	Quinolines
+1622-61-3	Benzazepines
+76095-16-4	Oligopeptides
+101053-01-4	Oxazoles
+87-10-5	Salicylamides
+35212-22-7	Benzopyrans
+305-33-9	Iproniazid
+73-78-9	Anilides
+13721-39-6	Vanadates
+52-86-8	Butyrophenones
+5786-21-0	Dibenzazepines
+67-20-9	Furans
+20830-81-3	Aminoglycosides
+11103-62-1	Benzofurans
+53746-45-5	Acids, Carbocyclic
+1402-99-9	Peptides, Cyclic
+15307-86-5	Acids, Carbocyclic
+93107-08-5	Quinolines
+139481-59-7	Tetrazoles
+4759-48-2	Terpenes
+51-79-6	Acids, Acyclic
+123040-16-4	Oxazines
+2011-67-8	Benzazepines
+64-17-5	Ethanol
+100490-36-6	Quinolines
+30418-52-1	Dioxoles
+3254-89-5	Piperidines
+30484-77-6	Piperazines
+147-94-4	Arabinonucleosides
+70458-96-7	Quinolines
+36205-82-0	Salicylamides
+147-24-0	Ethylamines
+15676-16-1	Benzamides
+71486-22-1	Vinca Alkaloids
+57-92-1	Aminoglycoside
+97-77-8	Acids, Acyclic
+111406-87-2	Hydroxyurea
+39809-25-1	Purines
+54-64-8	Organomercury Compounds
+60-87-7	Phenothiazines
+37350-58-6	Amino Alcohols
+6620-60-6	Amino Acids, Diamino
+1951-25-3	Benzofurans
+148229-78-1	Hexanols
+59-66-5	Thiazoles
+82419-36-1	Quinolines
+1197-18-8	Acids, Carbocyclic
+124832-26-4	Purines
+51481-61-9	Imidazoles
+446-72-0	Benzopyrans
+1684-40-8	Acridines
+128-62-1	Opium
+30771-29-0	Vitamin B Complex
+98-92-0	Vitamin B Complex
+34597-40-5	Acids, Carbocyclic
+10592-13-9	Tetracyclines
+38194-50-2	Indenes
+160738-57-8	Quinolines
+42551-62-2	Hydrocarbons, Cyclic
+108068-98-0	Phenelzine
+134523-00-5	Naphthalenes
+438-41-5	Benzazepines
+64485-93-4	Lactams
+1400-61-9	Macrolides
+76-73-3	Pyrimidines
+23541-50-6	Aminoglycosides
+79-57-2	Naphthalenes
+38821-49-7	Catecholamines
+36322-90-4	Thiazines
+26839-75-8	Amino Alcohols
+882-09-7	Acids, Acyclic
+100986-85-4	Quinolines
+1066-17-7	Peptides, Cyclic
+95-25-0	Benzoxazoles
+71950-35-1	Rifamycins
+50-76-0	Dactinomycin
+109889-09-0	Pyrazoles
+95510-70-6	Benzimidazoles
+57-30-7	Pyrimidines
+171599-83-0	Azepines
+19387-91-8	Imidazoles
+157810-81-6	Pyridines
+52-49-3	Piperidines
+104051-69-6	Quinolines
+123-03-5	Pyridines
+50-07-7	Azirines
+41708-72-9	Anilides
+64092-48-4	Pyrroles
+61379-65-5	Rifamycins
+110707-92-1	Imidazoles
+99614-02-5	Imidazoles
+75706-12-6	Oxazoles
+12374-71-9	Oxazoles
+111025-46-8	Thiazoles
+41340-25-4	Indoles
+161814-49-9	 Sulfonamides
+86-54-4	Pyridazines
+144-11-6	Piperidines
+1403-00-5	Peptides, Cyclic
+124750-99-8	Imidazoles
+112885-41-3	Benzamides
+138786-67-1	Benzimidazoles
+3930-20-9	Amino Alcohols
+154644-14-1	Benzimidazoles
+15687-27-1	Acids, Carbocyclic
+105816-04-4	Hydrocarbons, Cyclic
+89786-04-9	Lactams
+21187-98-4	Sulfones
+36894-69-6	Amino Alcohols
+156-51-4	Phenelzine
+6055-19-2	Hydrocarbons, Halogenated
+58-54-8	Hydroxy Acids
+66104-22-1	Ergot Alkaloids
+138680-08-7	Piperazines
+60-02-6	Guanidines
+98079-52-8	Quinolines
+34552-83-5	Piperidines
+19767-45-4	Hydrocarbons, Acyclic
+55-65-2	Guanidines
+132539-06-1	Benzazepines
+51-06-9	Benzamides
+30418-50-9	Dioxoles
+671-16-9	Benzamides
+665-66-7	Hydrocarbons, Cyclic
+81103-11-9	Macrolides
+70918-01-3	Quinazolines
+54-31-9	Sulfonamides
+1229-29-4	Dibenzoxepins
+42924-53-8	Butanones
+90357-06-5	Anilides
+109581-93-3	Macrolides
+119-04-0	Aminoglycosides
+29094-61-9	Sulfones
+61825-94-3	Organoplatinum Compounds
+2809-21-4	Diphosphonates
+50700-72-6	Androstanes
+120-78-5	Thiazoles
+56180-94-0	Polysaccharides
+90581-31-0	Macrolides
+548-73-2	Benzimidazoles
+57-55-6	Glycols
+555-30-6	Catecholamines
+465-65-6	Opium
+56211-40-6	Sulfonamides
+3572-43-8	Aniline Compounds
+53123-88-9	Macrolides
+299-39-8	Sparteine
+69975-86-6	Xanthine Alkaloids
+645-43-2	Guanidines
+859-18-7	Glycosides
+104987-11-3	Macrolides
+57-83-0	Pregnanes
+62-73-7	Dichlorvos
+113-92-8	Pyridines
+8052-21-9	Ethylamines
+9041-93-4	Glycopeptides
+133-92-6	Aminoglycoside
+151319-34-5	Acetamides
+645-05-6	Triazines
+2610-86-8	Benzopyrans
+57-66-9	Sulfonamides
+6108-05-0	Anilides
+15301-69-6	Benzopyrans
+106266-06-2	Pyrimidines
+1508-65-2	Acids, Carbocyclic
+97-54-1	Terpenes
+68342-78-9	Terpenes
+30751-05-4	Piperidines
+723-46-6	Sulfonamides
+4910-46-7	Phenelzine
+315-30-0	Purines
+43210-67-9	Benzimidazoles
+123040-69-7	Oxazines
+7540-22-9	Glycosides
+50-27-1	Estranes
+18968-99-5	Oxazoles
+17440-83-4	Pyrazines
+112885-42-4	Benzamides
+532-03-6	Acids, Acyclic
+15686-71-2	Lactams
+54-21-7	Acids, Carbocyclic
+90581-30-9	Macrolides
+76-74-4	Pyrimidines
+50-33-9	Pyrazoles
+24659-79-8	Benzofurans
+10347-81-6	Anthracenes
+50-81-7	Acids, Acyclic
+128794-94-5	Acids, Carbocyclic
+302-01-2	Methylhydrazines
+26833-85-2	Harringtonines
+80573-04-2	Hydroxybenzoic Acids
+49562-28-9	Acids, Acyclic
+61422-45-5	Pyrimidines
+88150-42-9	Pyridines
+551-06-4	Isothiocyanates
+69-23-8	Phenothiazines
+318-98-9	Amino Alcohols
+54-11-5	Pyridines
+59-01-8	Aminoglycoside
+62139-95-1	Dichlorvos
+102030-19-3	Naphthalenes
+14028-44-5	Dibenzoxazepines
+59-05-2	Pteridines
+43200-80-2	Piperazines
+309-29-5	Pyrrolidines
+41575-94-4	Organoplatinum Compounds
+637-07-0	Acids, Acyclic
+26159-34-2	Naphthalenes
+81161-17-3	Amino Alcohols
+93413-69-5	Hexanols
+8026-72-0	Naphthalenes
+134523-05-8	Naphthalenes
+10418-03-8	Androstanes
+150378-17-9	Pyridines
+25122-46-7	Steroids, Fluorinated
+11024-24-1	Glycosides
+1156-19-0	Sulfones
+134523-03-8	Naphthalenes
+58-08-2	Xanthine Alkaloids
+3506-09-0	Amino Alcohols
+69-09-0	Phenothiazines
+2152-34-3	Oxazoles
+59293-82-2	 Imidazoles
+7712-50-7	Terpenes
+120511-73-1	Azoles
+112885-43-5	Benzamides
+138729-47-2	Piperazines
+58970-76-6	Amino Acids, essential
+29122-68-7	Amino Alcohols
+58-32-2	Pyrimidines
+55-91-4	Isofluorophate
+64-75-5	Naphthalenes
+56-23-5	Hydrocarbons, Halogenated
+53-86-1	Indoles
+59-67-6	Pyridines
+7683-59-2	 Amino Alcohols
+134-03-2	Acids, Acyclic
+302-79-4	Terpenes
+13010-47-4	Nitrosourea Compounds
+36505-84-7	Pyrimidines
+94-20-2	Sulfones
+22204-53-1	Naphthalenes
+107097-79-0	Quinolines
+5633-20-5	Acids, Carbocyclic
+61036-63-3	Glycoconjugates
+82768-84-1	Isoquinolones
+29701-07-3	Aminoglycoside
+5929-09-9	Ammonium Compounds
+86393-32-0	Quinolines
+1405-87-4	Peptides, Cyclic
+56-53-1	Hydrocarbons, Cyclic
+1953-04-4	Galanthamine
+99300-78-4	Hexanols
+52468-60-7	Piperazines
+90729-43-4	 Butyrophenones
+84625-61-6	Azoles
+19685-09-7	Camptothecin
+53797-16-3	Aminoglycoside
+63-45-6	Quinolines
+6004-24-6	Pyridines
+129-03-3	Piperidines
+54-92-2	Iproniazid
+81147-92-4	Amino Alcohols
+5104-49-4	Acids, Acyclic
+17902-23-7	Pyrimidines
+94-59-7	Dioxoles
+28860-95-9	Catecholamines
+68373-14-8	Lactams
+72-14-0	Sulfonamides
+136-47-0	Acids, Carbocyclic
+302-22-7	Pregnanes
+75330-75-5	Naphthalenes
+911-45-5	Hydrocarbons, Cyclic
+78628-80-5	Naphthalenes
+12738-72-6	Salicylamides
+69-53-4	Lactams
+298-46-4	Dibenzazepines
+64840-90-0	Propiophenones
+13013-17-7	Amino Alcohols
+100599-27-7	Indoles
+51-15-0	Hydroxylamines
+129-18-0	Pyrazoles
+66357-59-3	Furans
+169590-42-5	Sulfonamides
+67-92-5	Acids, Carbocyclic
+61318-91-0	 Imidazoles
+8015-12-1	Norsteroids
+84371-65-3	Estranes
+146-56-5	Phenothiazines
+10026-11-6	Metals, Heavy
+56839-43-1	Propiophenones
+140401-05-4	Acids, Carbocyclic
+54910-89-3	Propylamines
+5370-01-4	Propylamines
+105167-68-8	Thiazoles
+75-35-4	 Hydrocarbons, Halogenated
+56391-56-1	Aminoglycosides
+81771-21-3	Hydrocarbons, Cyclic
+23593-75-1	Imidazoles
+125-33-7	Pyrimidines
+52-01-7	Pregnanes
+76584-70-8	Acids, Acyclic
+10540-29-1	Hydrocarbons, Cyclic
+76-03-9	Acids, Acyclic
+304-20-1	Pyridazines
+8023-22-1	Dichlorvos
+53179-11-6	Piperidines
+106-24-1	Terpenes
+100286-90-6	 Camptothecin
+4205-90-7	Imidazoles
+31431-39-7	Benzimidazoles
+58-73-1	Ethylamines
+52-67-5	Amino Acids, Sulfur
+65-45-2	Salicylamides
+90-39-1	Sparteine
+12772-40-6	Dichlorvos
+89785-84-2	Lactams
+614-39-1	Benzamides
+95828-55-0	Dichlorvos
+51012-33-0	Benzamides
+32780-64-6	Amino Alcohols
+103-90-2	Anilides
+137862-53-4	Tetrazoles
+62571-86-2	Amino Acids, Cyclic
+5638-76-6	Pyridines
+518-28-5	Naphthalenes
+131322-37-7	Benzamides
+59729-32-7	Propylamines
+86541-74-4	Benzazepines
+12663-50-2	Acids, Carbocyclic
+58957-92-9	Aminoglycoside
+148229-79-2	Hexanols
+30516-87-1	Deoxyribonucleosides
+50976-86-8	Glycosides
+41859-67-0	Acids, Acyclic
+84485-00-7	Hydrocarbons, Cyclic
+79559-97-0	Naphthalenes
+53164-05-9	Indoles
+17431-55-9	Glycosides
+11096-21-2	Dichlorvos
+102-76-1	Glycerides
+51-05-8	Acids, Carbocyclic
+51-71-8	Phenelzine
+846-49-1	Benzazepines
+72559-06-9	Rifamycins
+77-19-0	Acids, Carbocyclic
+22232-54-8	Imidazoles
+158920-43-5	Pyrazoles
+50-35-1	Piperidines
+103577-45-3	Benzimidazoles
+148-79-8	Benzimidazoles
+13755-38-9	Ferric Compounds
+18323-44-9	Glycosides
+1424-27-7	Thiazoles
+154-21-2	Glycosides
+51-98-9	Norsteroids
+103890-78-4	Pyridines
+111974-69-7	Dibenzothiazepines
+63074-08-8	Quinazolines
+57-22-7	Vinca Alkaloids
+972-02-1	Piperidines
+27262-47-1	Anilides
+72-33-3	Norsteroids
+103628-46-2	Sulfonamides
+22204-88-2	Hexanols
+396-01-0	Pteridines
+89796-99-6	Acids, Carbocyclic
+91-64-5	Benzopyrans
+49625-23-2	Benzamides
+86386-73-4	Azoles
+76487-49-5	Guanidines
+13497-05-7	Terpenes
+38304-91-5	Piperidines
+61-68-7	Acids, Carbocyclic
+5979-00-0	Benzopyrans
+71-63-6	Glycosides
+115007-34-6	Acids, Carbocyclic
+611-75-6	Aniline Compounds
+83380-47-6	Quinolines
+72956-09-3	Carbazoles
+65-28-1	Imidazoles
+68342-79-0	Terpenes
+54856-23-4	Pyridines
+2315-02-8	Imidazoles
+66085-59-4	Pyridines
+61036-64-4	Glycoconjugates
+3094-09-5	Deoxyribonucleosides
+61318-90-9	 Imidazoles
+621-42-1	Aniline Compounds
+523-87-5	Xanthine Alkaloids
+7689-03-4	Camptothecin
+155213-67-5	Thiazoles
+537-98-4	Acids, Carbocyclic
+67-73-2	Pregnanes
+35543-24-9	Pyrrolidines
+70476-82-3	Anthraquinones
+34691-31-1	Acids, Carbocyclic
+595-33-5	Pregnanes
+34368-04-2	Catecholamines
+117-81-7	Acids, Carbocyclic
+434-03-7	Pregnanes
+768-94-5	Hydrocarbons, Cyclic
+8027-03-0	Benzofurans
+603-50-9	Cresols
+17321-77-6	Dibenzazepines
+86126-06-9	Quinazolines
+91-84-9	Pyridines
+1403-66-3	Aminoglycoside
+22071-15-4	Acids, Carbocyclic
+104227-87-4	Purines
+2438-32-6	Pyridines
+96036-03-2	Lactams
+144256-27-9	Benzamides
+181695-72-7	Sulfonamides
+112811-59-3	Quinolines
+87-66-1	Pyrogallol
+107-18-6	Hydrocarbons, Acyclic
+50-18-0	Hydrocarbons, Halogenated
+969-33-5	Piperidines
+68-35-9	Sulfonamides
+91032-26-7	Glycoconjugates
+123-41-1	Ammonium Compounds
+71751-41-2	Ivermectin analogs
+7414-83-7	Diphosphonates
+2447-57-6	Sulfonamides
+15318-45-3	Glycols
+57-94-3	Indole Alkaloids
+27220-47-9	Imidazoles
+650-51-1	Acids, Acyclic
+121985-71-5	Dibenzazepines
+24219-97-4	Dibenzazepines
+443-48-1	Imidazoles
+4205-91-8	Imidazoles
+65-85-0	Acids, Carbocyclic
+90638-38-3	Catecholamines
+50-91-9	Deoxyribonucleosides
+58-25-3	Benzazepines
+137-58-6	Anilides
+2016-88-8	Pyrazines
+52-53-9	Ethylamines
+31828-71-4	Propylamines
+64-72-2	Naphthalenes
+23734-88-5	Piperidines
+67-48-1	Ammonium Compounds
+129618-40-2	Pyridines
+125-59-7	Imidazoles
+82640-04-8	Hydrocarbons, Cyclic
+24390-14-5	Tetracyclines
+1867-66-9	Hydrocarbons, Cyclic
+86753-29-9	Ivermectin analogs
+11030-21-0	Aminoglycoside
+50-44-2	Purines
+31377-23-8	Hydrocarbons, Cyclic
+6740-88-1	Hydrocarbons, Cyclic
+22916-47-8	Imidazoles
+149908-23-6	Glycosides
+53776-71-9	Aminoglycoside
+51-21-8	Pyrimidines
+364-62-5	Benzamides
+103598-03-4	Amino Alcohols
+6000-74-4	Pregnanes
+53885-35-1	Thiophenes
+11095-17-3	Dichlorvos
+66357-35-5	Furans
+2933-45-1	Oxazoles
+63590-64-7	Quinazolines
+7232-21-5	Benzamides
+39831-55-5	Aminoglycosides
+92-84-2	Phenothiazines
+77-92-9	Acids, Acyclic
+97845-62-0	Purines
+36791-04-5	Ribonucleosides
+140-72-7	Pyridines
+74-31-7	Polyamines
+865-21-4	Vinca Alkaloids
+79617-96-2	Naphthalenes
+19216-56-9	Quinazolines
+1264-72-8	Peptides, Cyclic
+67-66-3	Hydrocarbons, Halogenated
+56767-76-1	Acids, Acyclic
+114715-36-5	Quinolines
+76963-41-2	Thiazoles
+112529-15-4	Thiazoles
+88-04-0	Hydrocarbons, Cyclic
+57852-57-0	Aminoglycoside
+60142-96-3	Acids, Acyclic
+479-18-5	Purines
+31430-15-6	Benzimidazoles
+53-03-2	Pregnanes
+36-06-6	Cardiac glycosides
+959-24-0	Amino Alcohols
+110871-86-8	Quinolines
+58-33-3	Phenothiazines
+50-78-2	Acids, Carbocyclic
+68767-14-6	Acids, Carbocyclic
+10238-21-8	Sulfones
+302-27-2	Aconite
+50-28-2	Estranes
+54-25-1	Ribonucleosides
+69-72-7	Acids, Carbocyclic
+99-66-1	Acids, Acyclic
+120011-70-3	Indenes
+58-55-9	Xanthine Alkaloids
+305-03-3	Hydrocarbons, Halogenated
+76547-98-3	Oligopeptides
+56391-57-2	Aminoglycosides
+3056-17-5	Deoxyribonucleosides
+101827-46-7	Benzylamines
+630-60-4	Cardiac glycosides
+7722-44-3	Peptides, Cyclic
+75847-73-3	Oligopeptides
+526-08-9	Sulfonamides
+51-55-8	Tropanes
+53-96-3	Acetamides
+114-80-7	Ammonium Compounds
+8060-73-9	Pyrrolidines
+98319-26-7	Androstanes
+483-63-6	Aniline Compounds
+74191-85-8	Quinazolines
+15826-37-6	Benzopyrans
+42200-33-9	Amino Alcohols
+36282-47-0	Hexanols
+19237-84-4	Quinazolines
+146874-86-4	Amino Alcohols
+111542-93-9	Quinolines
+25523-97-1	Pyridines
+68-12-2	Acids, Acyclic
+10083-56-4	Oxazoles
+17230-88-5	Pregnanes
+66-27-3	Hydrocarbons, Acyclic
+146-22-5	Benzazepines
+90-34-6	Quinolines
+60-32-2	Acids, Acyclic
+91032-34-7	Glycoconjugates
+12643-15-1	Peptides, Cyclic
+13292-46-1	Rifamycins
+37091-66-0	Lactams
+1135-24-6	Acids, Carbocyclic
+14769-73-4	Imidazoles
+3801-06-7	Phenelzine
+564-25-0	Tetracyclines
+57-41-0	Imidazoles
+58-93-5	Benzothiadiazines
+15686-51-8	Pyrrolidines
+59729-33-8	Propylamines
+15307-81-0	Acids, Carbocyclic
+100-63-0	Phenylhydrazines
+23672-07-3	Benzamides
+1508-27-6	Phenothiazines
+1405-41-0	Aminoglycoside
+57808-65-8	Anilides
+53-06-5	Pregnanes
+127-69-5	Sulfonamides
+143-67-9	Vinca Alkaloids
+23031-32-5	Amino Alcohols
+30418-51-0	Dioxoles
+32385-11-8	Aminoglycoside
+99-76-3	Hydroxy Acids
+8017-77-4	Naphthalenes
+68077-27-0	Quinolines
+71125-38-7	Thiazines
+84057-84-1	Triazines
+79794-75-5	Piperidines
+50-53-3	Phenothiazines
+120014-06-4	Indenes
+140-65-8	Oxazines
+101828-21-1	Benzylamines
+99614-01-4	Imidazoles
+894-71-3	Benzocycloheptenes
+95058-81-4	Deoxyribonucleosides
+7002-58-6	Piperazines
+1491-59-4	Imidazoles
+100-33-4	Benzamidines
+532-32-1	Acids, Carbocyclic
+15663-27-1	Cisplatin
+120-80-9	Catechols
+70-30-4	Hydrocarbons, Cyclic
+52663-81-7	Catecholamines
+80-05-7	Acids, Acyclic
+8072-39-7	Dichlorvos
+50-48-6	Benzocycloheptenes
+83203-42-3	Estranes
+94-09-7	Acids, Carbocyclic
+25316-40-9	Aminoglycosides
+110862-48-1	Naphthalenes
+22494-42-4	Hydroxybenzoic Acids
+55268-74-1	Isoquinolines
+7491-74-9	Acetamides
+1404-93-9	Glycoconjugates
+120210-48-2	Indoles
+69-74-9	Arabinonucleosides
+5841-63-4	Oxazoles
+65-29-2	Ammonium Compounds
+62-44-2	Anilides
+82159-09-9	Thiazoles
+121268-17-5	Diphosphonates
+115964-29-9	Quinolines
+492-08-0	Sparteine
+8065-45-0	Oxazoles
+21829-25-4	Pyridines
+84-02-6	Phenothiazines
+13311-84-7	Anilides
+15690-55-8	Hydrocarbons, Cyclic
+446-86-6	Purines
+1953-02-2	Phenelzine
+27948-47-6	Amino Alcohols
+117-37-3	Indenes
+116788-91-1	Dichlorvos
+50-24-8	Pregnanes
+139755-83-2	Azepines
+514-36-3	Pregnanes
+80581-86-8	Lactams
+67-97-0	Vitamin D
+56296-78-7	Propylamines
+124832-27-5	Purines
+122320-73-4	Thiazoles
+357-70-0	Galanthamine
+56-40-6	Glycine
+17198-21-9	Phenylhydrazines
+20830-75-5	Glycosides
+114-07-8	Glycosides
+25389-94-0	Aminoglycoside
+98319-25-7	Androstanes
+31879-05-7	Acids, Carbocyclic
+59333-67-4	Propylamines
+127779-20-8	Isoquinolines
+226904-33-2	Benzimidazoles
+73963-72-1	Azoles
+86541-75-5	Benzazepines
+50-50-0	Estranes
+40671-54-3	Pyridazines
+84057-94-3	Amino Alcohols
+1538-09-6	Lactams
+33419-42-0	Naphthalenes
+55837-25-7	Pyrrolidines
+27724-96-5	Acids, Carbocyclic
+127-48-0	Oxazoles
+7783-47-3	 Tin Flourides
+69-65-8	Sugar Alcohols
+140-64-7	Benzamidines
+73573-88-3	Naphthalenes
+427-51-0	Pregnanes
+549-18-8	Benzocycloheptenes
+54143-57-6	Benzamides
+69353-21-5	Galanthamine
+6493-05-6	Xanthine Alkaloids
+66-76-2	Benzopyrans
+83-44-3	Cholanes
+30652-11-0	Pyrimidines
+24169-02-6	Imidazoles
+6036-95-9	Pyridines
+37341-99-4	Benzopyrans
+77883-43-3	Quinazolines
+86050-77-3	Polyamines
+59-46-1	Acids, Carbocyclic
+55-98-1	Glycols
+7081-53-0	Pyrrolidines
+59277-89-3	Purines
+58186-27-9	Benzoquinones
+85721-33-1	Quinolines
+91032-37-0	Glycoconjugates
+154-42-7	Purines
+2280-32-2	Aminoglycoside
+22601-59-8	Peptides, Cyclic
+103628-48-4	Sulfonamides
+303-49-1	Dibenzazepines
+81-25-4	Cholanes
+21256-18-8	Acids, Carbocyclic
+91032-38-1	Glycoconjugates
+148-82-3	Hydrocarbons, Halogenated
+58-40-2	Phenothiazines
+94-58-6	Dioxoles
+134678-17-4	Deoxyribonucleosides
+357-08-4	Opium
+59-33-6	Pyridines
+121-54-0	Ammonium Compounds
+105826-92-4	Pyridines
+60-54-8	Naphthalenes
+131086-21-0	Deoxyribonucleosides
+51803-78-2	Sulfonamides
+73590-58-6	Benzimidazoles
+71-27-2	Ammonium Compounds
+152-11-4	Ethylamines
+117976-89-3	Benzimidazoles
+65277-42-1	Piperazines
+57-63-6	Norsteroids
+8017-52-5	Imidazoles
+637-58-1	Oxazines
+107910-75-8	Purines
+6591-49-7	Naphthalenes
+64211-45-6	 Imidazoles
+122742-25-0	Estranes
+116002-70-1	Imidazoles
+2068-78-2	Vinca Alkaloids
+77-67-8	Pyrrolidines
+41354-29-4	Piperidines
+912-60-7	Opium
+59-88-1	Phenylhydrazines
+24729-96-2	Glycosides
+23214-92-8	Aminoglycosides
+496-67-3	Bromisovalum
+119478-56-7	Lactams
+155141-29-0	Thiazoles
+81098-60-4	Benzamides
+143-75-9	Imidazoles
+54-85-3	Isoniazid
+70024-40-7	Quinazolines
+361-09-1	Cholanes
+7554-65-6	Pyrazoles
+404-86-4	Acids, Acyclic
+51-43-4	Catecholamines
+39562-70-4	Pyridines
+63675-72-9	Pyridines
+57-96-5	Pyrazoles
+71320-77-9	Benzamides
+53179-09-2	Aminoglycoside
+70288-86-7	Polysaccharides
+23981-47-7	Naphthalenes
+55142-85-3	Thiophenes
+57-33-0	Pyrimidines
+91032-36-9	Glycoconjugates
+64211-46-7	 Imidazoles
+103628-47-3	Sulfonamides
+1421-15-4	Imidazoles
+33386-08-2	Pyrimidines
+81093-37-0	Naphthalenes
+61-25-6	Opium
+6011-62-7	Iproniazid
+56-75-7	Glycols
+50-02-2	Pregnanes
+77-86-1	Glycols
+439-14-5	Benzazepines
+55819-32-4	Dichlorvos
+298-57-7	Piperazines
+111348-33-5	 Camptothecin
+1668-19-5	Dibenzoxepins
+18883-66-4	Nitrosourea Compounds
+470-82-6	Terpenes
+138199-71-0	Quinolines
+7440-38-2	Arsenicals
+35891-93-1	Anilides
+58-05-9	Vitamin B Complex
+83905-01-5	Macrolides
+82586-55-8	Isoquinolones
+508-52-1	Cardiac glycosides
+50-60-2	Imidazoles
+187285-10-5	Diphosphonates
+1405-10-3	Aminoglycosides
+121947-25-9	Dibenzazepines
+73-31-4	Indoles
+96448-41-8	Hydrocarbons, Cyclic
+125317-39-7	Vinca Alkaloids
+25387-67-1	Camptothecin
+16110-51-3	Benzopyrans
+3239-44-9	Ethylamines
+66376-36-1	Diphosphonates
+72-69-5	Benzocycloheptenes
+27203-92-5	Hexanols
+81131-70-6	Naphthalenes
+103639-04-9	Imidazoles
+68-22-4	Norsteroids
+65271-80-9	Anthraquinones
+113-98-4	Lactams
+93106-60-6	Quinolines
+21535-47-7	Dibenzazepines
+90243-99-5	Isoquinolones
+15347-57-6	Metals, Heavy
+34786-70-4	Macrolides
+25812-30-0	Acids, Acyclic
+75438-57-2	Imidazoles
+28721-07-5	 Dibenzazepines
+86784-41-0	Quinolines
+122-11-2	Sulfonamides
+68693-11-8	Hydrocarbons, Cyclic
+60-80-0	Pyrazoles
+119-36-8	Acids, Carbocyclic
+23288-49-5	Probucol
+47880-49-9	Glycosides
+126-07-8	Benzofurans
+150399-21-6	Hydroxybenzoic Acids
+93572-42-0	Lipopolysaccharides
+87573-04-4	Glycosides
+74-55-5	Polyamines
+50-23-7	Pregnanes
+129-06-6	Benzopyrans
+39331-48-1	Oxazoles
+53716-50-0	Benzimidazoles
+60763-49-7	Piperazines
+108138-46-1	Quinolines
+148-24-3	Quinolines
+91161-71-6	Naphthalenes
+34675-84-8	Acids, Carbocyclic
+5581-45-3	Benzamides
+21462-39-5	Glycosides
+23795-03-1	Sulfonamides
+97682-44-5	 Camptothecin
+63527-52-6	Lactams
+53-60-1	Phenothiazines
+108863-62-3	Phenelzine
+58947-95-8	Piperidines
+3717-88-2	Benzopyrans
+47879-97-0	Glycosides
+11116-31-7	Glycopeptides
+630-93-3	Imidazoles
+94-24-6	Acids, Carbocyclic
+142057-77-0	Indenes
+54965-21-8	Benzimidazoles
+80382-23-6	Acids, Carbocyclic
+16595-80-5	Imidazoles
+456-59-7	Acids, Carbocyclic
+105878-73-7	Benzopyrans
+105234-21-7	Dibenzazepines
+125-84-8	Piperidines
+51-83-2	Ammonium Compounds
+180683-37-8	Pyridines
+548-62-9	 Aniline Compounds
+79902-63-9	Naphthalenes
