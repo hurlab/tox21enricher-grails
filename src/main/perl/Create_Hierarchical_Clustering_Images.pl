@@ -245,7 +245,7 @@ sub perform_hclustering_per_directory
 
 			# my $command	= "java $java_flags -DlibDir=$libDir -jar $libDir"."hclimage-o.jar \"$cdtFile\" \"$output_base_name\" $output_format -c$column_size -r$row_size -g$show_grid -l$grid_color -a$show_row_description -s$show_row_names -f$row_to_highlight -h$row_highlight_color -n$color_scheme -m$color_palette".$gtrCmd.$atrCmd." -u$use_color_gradient";
 
-			# Create heatmap image using Java TreeView
+			# Create heatmap image
 			my $command = "java -jar TreeView-1.1.6r4-bin/TreeView.jar -r $cdtFile -x Dendrogram -- -o $output_base_name.png -f png -a 0 -g 1 -s 20x20 -b";
 			print "$command\n";
 			system ($command);

@@ -2,7 +2,7 @@
 
 function renderCheckboxes() {
 
-    $.get("/tox21enricher/analysis/getAnnoClassAsJson", function(data) {
+    $.get("/tox21enricher/init/getAnnoClassAsJson", function(data) {
         //alert("Data: " + data)
         var checkboxGroups = {"PubChem Compound Annotation":[], "DrugMatrix Annotation":[], "CTD Annotation":[], "Other Annotations":[]};
         var stringMap = {"CTD":"CTD Annotation", "DrugMatrix":"DrugMatrix Annotation","Compound PubChem":"PubChem Compound Annotation"};

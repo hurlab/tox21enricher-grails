@@ -68,6 +68,7 @@ class AnalysisController implements InitializingBean {
             itemBox = transactionData[3].SMILEBox
         }
         
+        //put transaction data in queue
         setQueueData(transactionData)
 
         println(">>> Set ${transactionData[1]} in queue!")

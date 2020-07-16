@@ -264,7 +264,7 @@
                             Complete
                         </g:elseif>
                         <g:else>
-                            Waiting
+                            Initializing
                         </g:else>
                     </td>
                     <td>${type}</td>
