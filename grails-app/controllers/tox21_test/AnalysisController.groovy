@@ -286,10 +286,10 @@ class AnalysisController implements InitializingBean {
                                         
                                         def resultSet
                                         if (params.smilesSearchType == "Substructure") {
-                                            resultSet = sql.rows("select casrn from mols where m @> '$smile';")
+                                            resultSet = sql.rows("select casrn from mols where m @> CAST(${smile} AS mol);")
                                         }
                                         else if (params.smilesSearchType == "Similarity") {
-                                            resultSet = sql.rows("select casrn from get_mfp2_neighbors('$smile');")
+                                            resultSet = sql.rows("select casrn from get_mfp2_neighbors(${smile});")
                                         }
 
                                         println("| RESULT SET: $resultSet")

@@ -442,8 +442,10 @@
 
                             <%-- <input type="radio" name="smilesSearchType" value="Substructure" id="substructureRadio"><label for="substructureRadio">Substructure</label> --%>
 
+                            <%--
                             <button class="button" type="button" id="toggleSubstructureSearchButton" onclick="toggleSubstructureSearch()">Switch to InChI input</button>
                             <br>
+                            --%>
 
                             <%-- SMILES Box --%>
                             <div id="smileBoxContainer">   
@@ -508,9 +510,10 @@
                                     </label>
                                 </div>
 
-                                
+                                <%--
                                 <button class="button" type="button" id="toggleSubstructureSimilaritySearchButton" onclick="toggleSubstructureSimilaritySearch()">Switch to InChI input</button>
                                 <br>
+                                --%>
 
                                 <%-- SMILES Box --%>
                                 <div id="smileSimilarityBoxContainer"> 
