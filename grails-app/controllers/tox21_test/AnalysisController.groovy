@@ -50,8 +50,8 @@ class AnalysisController implements InitializingBean {
     def GROOVY_PERL_KVP = 0
 
 
-    def actorGroup = new groovyx.gpars.group.DefaultPGroup(5)//change value to allow different #s of concurrent enrichment processes
-    def queueGroup = new groovyx.gpars.group.DefaultPGroup(1)
+    def actorGroup = new groovyx.gpars.group.NonDaemonPGroup(5)//change value to allow different #s of concurrent enrichment processes
+    def queueGroup = new groovyx.gpars.group.DefaultPGroup(1)  
 
     def transactionQueue = []
     def queueDataList = []
@@ -63,6 +63,9 @@ class AnalysisController implements InitializingBean {
         def itemBox
         if (transactionData[3].analysisType == "CASRNS") {
             itemBox = transactionData[3].CASRNBox
+        }
+        else if (transactionData[3].analysisType == "InChI" || transactionData[3].analysisType == "InChISimilarity") {
+            itemBox = transactionData[3].InChIBox
         }
         else { //smiles
             itemBox = transactionData[3].SMILEBox
@@ -76,6 +79,16 @@ class AnalysisController implements InitializingBean {
         render(view: "form", model: [tid: transactionData[1], pos: transactionData[2], type: transactionData[3].analysisType, items: itemBox, success: transactionData[4], nodeCutoff: transactionData[5]])
     }
 
+    def getQueuePosition(def transactionData) { //fetch position in queue of a given transaction
+        //transactionData:: 0 = context | 1 = id | 2 = queue position | 3 = params | 4 = result link | 5 = node cutoff value
+        println(">>> Notifying ${transactionData[1]} of queue position!")
+        for(int i = 0; i < queueDataList.size(); i++) {
+            if(transactionData[1] == queueDataList[i][1]) {
+                return transactionData[2]
+            }
+        }
+    }
+
     def setQueueData(def transactionData) { //put item into queue (enqueue)
         queueDataList << transactionData
     }
@@ -86,6 +99,9 @@ class AnalysisController implements InitializingBean {
                 def itemBox
                 if (queueDataList[i][3].analysisType == "CASRNS") {
                     itemBox = queueDataList[i][3].CASRNBox
+                }
+                else if (queueDataList[i][3].analysisType == "InChI" || queueDataList[i][3].analysisType == "InChISimilarity") {
+                    itemBox = queueDataList[i][3].InChIBox
                 }
                 else { //smiles
                     itemBox = queueDataList[i][3].SMILEBox
@@ -104,6 +120,9 @@ class AnalysisController implements InitializingBean {
                 def itemBox
                 if (queueDataList[i][3].analysisType == "CASRNS") {
                     itemBox = queueDataList[i][3].CASRNBox
+                }
+                else if (queueDataList[i][3].analysisType == "InChI") {
+                    itemBox = queueDataList[i][3].InChIBox
                 }
                 else { //smiles
                     itemBox = queueDataList[i][3].SMILEBox
@@ -152,7 +171,7 @@ class AnalysisController implements InitializingBean {
             println("PARAMS: $paramsThread")
 
             def enrichmentProcess = actorGroup.actor { 
-                loop {
+                //loop {
                     react { queuePos -> //grab queue item
                         RequestContextHolder.setRequestAttributes(requestContext)//set HTTP request attributes
                         //do enrichment after we're done waiting in the queue
@@ -177,19 +196,24 @@ class AnalysisController implements InitializingBean {
                         def psqlErrorSmiles = []
                         def psqlGoodSmiles = []
                         def smiles = []
+                        def inchis = []
                         def smilesWithResults = []
                         def smilesNoResults = []
                         def enrichAnalysisType = "none"
                                         
                         //println("params: $params")
 
-                        //If we're using SMILE input
+                        //If we're using SMILE input or InChI input
                         //query psql to get our CASRNs.
-                        if (params.analysisType == "SMILES" || params.analysisType == "SMILESSimilarity") {
+                        if (params.analysisType == "SMILES" || params.analysisType == "SMILESSimilarity" || params.analysisType == "InChI" || params.analysisType == "InChISimilarity") {
 
                             //
                             if(params.analysisType == "SMILESSimilarity") {
                                 params.SMILEBox = params.SMILESimilarityBox
+                                params.smilesSearchType = "Similarity"
+                            }
+                            else if (params.analysisType == "InChISimilarity") {
+                                params.InChIBox = params.InChISimilarityBox
                                 params.smilesSearchType = "Similarity"
                             }
                             else {
@@ -198,9 +222,9 @@ class AnalysisController implements InitializingBean {
 
 
 
-                            enrichAnalysisType = "SMILES"
+                            enrichAnalysisType = params.analysisType
                             resultSetService.setAnalysisType(enrichAnalysisType)
-                            if (params.SMILEBox == "") {
+                            if (params.SMILEBox == "" && enrichAnalysisType == "SMILES") {
                                 render(view: "form", model: [isSmileErrors: true, noSmileInput: true])
                                 return
                             }
@@ -208,11 +232,22 @@ class AnalysisController implements InitializingBean {
                             params.CASRNBox = "";
                             def sql = new Sql(dataSource_psql)
                             def curSet = 1
-                            params.SMILEBox.eachLine { smile, lineNumber ->
-                                //println "-------------|" + smile + "|-------------"
-                                smiles.add(smile)
-                            }
 
+                            if(enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
+                                println("| I think it's SMILES")
+                                params.SMILEBox.eachLine { smile, lineNumber ->
+                                    //println "-------------|" + smile + "|-------------"
+                                    smiles.add(smile)
+                                }
+                            }
+                            else if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
+                                println("| I think it's InChI")
+                                params.InChIBox.eachLine { inchi, lineNumber ->
+                                    //println "-------------|" + smile + "|-------------"
+                                    inchis.add(inchi)
+                                }
+                            }
+                            
                             def setThresholdQuery
                             def threshold
                             //validate input because we can't sanitize with prepared statement because prepared statement isn't working here for some reason
@@ -230,54 +265,109 @@ class AnalysisController implements InitializingBean {
                             def ret = sql.execute(setThresholdQuery)
                             //println("RET: " + ret)
 
-                            params.SMILEBox.eachLine { smile, lineNumber ->
-                                //check if substructure search or similarity search
-                                def query
-                                if (params.smilesSearchType == "Substructure") {
-                                    //println("---> analysis type: SMILES Substructure")
-                                    query = "select casrn from mols where m @> CAST(? AS mol);"
-                                }
-                                else if (params.smilesSearchType == "Similarity") {
-                                    //println("---> analysis type: SMILES Similarity")
-                                    query = "select casrn from get_mfp2_neighbors('CAST(? AS mol)');"
-                                } else {
-                                    //something went wrong if we're here
-                                    //println("Something went wrong with smilesSearchType.");
-                                }
-                                //Try/catch block to catch invalid SMILEs
-                                try {
-                                    
-                                    def resultSet
+                            //If SMILES
+                            if(enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
+                                params.SMILEBox.eachLine { smile, lineNumber ->
+                                    //check if substructure search or similarity search
+                                    def query
                                     if (params.smilesSearchType == "Substructure") {
-                                        resultSet = sql.rows("select casrn from mols where m @> '$smile';")
+                                        //println("---> analysis type: SMILES Substructure")
+                                        query = "select casrn from mols where m @> CAST(? AS mol);"
                                     }
                                     else if (params.smilesSearchType == "Similarity") {
-                                        resultSet = sql.rows("select casrn from get_mfp2_neighbors('$smile');")
-                                    }
-                                    
-                                    psqlGoodSmiles.add([index: lineNumber, smile: smile])
-                                    if (resultSet.size() > 0) {
-                                        params.CASRNBox += "#Set" + curSet + "\n"
-                                        curSet++
-                                        resultSet.each { result ->
-                                            params.CASRNBox += result.casrn + "\n"
-                                        }
-                                        smilesWithResults.add(smile)
-                                    }
-                                }
-                                catch (PSQLException e) {
-                                    psqlErrorMessage = e.getMessage()
-                                    if (psqlErrorMessage.contains(PSQL_SMILE_ERROR)) {
-                                        //Add the smile and the line in the input set it occurred on.
-                                        //This will allow us to give a useful message such as:
-                                        //"SMILE on line 5 is invalid."
-                                        psqlErrorSmiles.add([index: lineNumber, smile: smile])
+                                        //println("---> analysis type: SMILES Similarity")
+                                        query = "select casrn from get_mfp2_neighbors('CAST(? AS mol)');"
                                     } else {
-                                        //TODO: "Unknown database error"
-                                        println(psqlErrorMessage)
+                                        //something went wrong if we're here
+                                        //println("Something went wrong with smilesSearchType.");
+                                    }
+                                    //Try/catch block to catch invalid SMILEs
+                                    try {
+                                        
+                                        def resultSet
+                                        if (params.smilesSearchType == "Substructure") {
+                                            resultSet = sql.rows("select casrn from mols where m @> '$smile';")
+                                        }
+                                        else if (params.smilesSearchType == "Similarity") {
+                                            resultSet = sql.rows("select casrn from get_mfp2_neighbors('$smile');")
+                                        }
+
+                                        println("| RESULT SET: $resultSet")
+                                        
+                                        psqlGoodSmiles.add([index: lineNumber, smile: smile])
+                                        if (resultSet.size() > 0) {
+                                            params.CASRNBox += "#Set" + curSet + "\n"
+                                            curSet++
+                                            resultSet.each { result ->
+                                                params.CASRNBox += result.casrn + "\n"
+                                            }
+                                            smilesWithResults.add(smile)
+                                        }
+                                    }
+                                    catch (PSQLException e) {
+                                        psqlErrorMessage = e.getMessage()
+                                        if (psqlErrorMessage.contains(PSQL_SMILE_ERROR)) {
+                                            //Add the smile and the line in the input set it occurred on.
+                                            //This will allow us to give a useful message such as:
+                                            //"SMILE on line 5 is invalid."
+                                            psqlErrorSmiles.add([index: lineNumber, smile: smile])
+                                        } else {
+                                            //TODO: "Unknown database error"
+                                            println(psqlErrorMessage)
+                                        }
                                     }
                                 }
                             }
+
+                            //If InChI
+                            def mysql = new Sql(dataSource)
+                            if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
+                                params.InChIBox.eachLine { inchi, lineNumber ->
+                                    //Try/catch block to catch invalid SMILEs
+                                    try {
+                                        
+                                        def resultSet
+                                        if (inchi.toString().contains("#")) { //add set name
+                                            params.CASRNBox += inchi + "\n"
+                                        }
+                                        else {
+                                            if (params.smilesSearchType == "Substructure") {
+                                                resultSet = mysql.rows("select CASRN from chemicals_tox21 where InChiKey = '$inchi';")
+                                            }
+                                            else if (params.smilesSearchType == "Similarity") {
+                                                //### PLACEHOLDER: NEED TO CHANGE TO ACTUAL SIMILARITY SEARCH ###//
+                                                resultSet = mysql.rows("select CASRN from chemicals_tox21 where InChiKey = '$inchi';")
+                                            }
+
+                                            println("got these: $resultSet")
+                                            
+                                            psqlGoodSmiles.add([index: lineNumber, smile: inchi])
+                                            if (resultSet.size() > 0) {
+                                                //curSet++
+                                                resultSet.each { result ->
+                                                    params.CASRNBox += result.casrn + "\n"
+                                                }
+                                                smilesWithResults.add(inchi)
+                                            }
+                                        }  
+                                    }
+
+                                    catch (PSQLException e) {
+                                        psqlErrorMessage = e.getMessage()
+                                        if (psqlErrorMessage.contains(PSQL_SMILE_ERROR)) {
+                                            //Add the smile and the line in the input set it occurred on.
+                                            //This will allow us to give a useful message such as:
+                                            //"SMILE on line 5 is invalid."
+                                            psqlErrorSmiles.add([index: lineNumber, smile: inchi])
+                                        } else {
+                                            //TODO: "Unknown database error"
+                                            println(psqlErrorMessage)
+                                        }
+                                    }
+                                }
+                            }
+
+
 
                             resultSetService.setSmilesWithResults(smilesWithResults)
 
@@ -585,12 +675,12 @@ class AnalysisController implements InitializingBean {
                         return
 
                     }//end of react
-                }//end of loop
+                //}//end of loop
             }//end of enrichment process
 
 
             //queue
-            def queue = queueGroup.actor {
+            def queue = actor {
 
                 RequestContextHolder.setRequestAttributes(requestContext)//set HTTP request attributes
                 
@@ -626,6 +716,8 @@ class AnalysisController implements InitializingBean {
                 queueMessenger(tData)
 
                 enrichmentProcess.send queueListItem //send item from queue
+
+                
                 react {resultId ->
                     println(">>> enrichment success! Freeing thread...")
                     for(int ind2 = 0; ind2 < transactionQueue.size(); ind2++) {

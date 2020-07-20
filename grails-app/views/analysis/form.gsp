@@ -53,12 +53,49 @@
                     "CN(C)C1=CC=C(C=C1)\n";
             document.getElementById("SMILEBox").value= setSmile;
         }
+        function exampleInchi() {
+            var setInchi =  "#TestSet1\n" +
+                            "AOXRBFRFYPMWLR-XGXHKTLJSA-N\n" +
+                            "UYIFTLBWAOGQBI-BZDYCCQFSA-N\n" +
+                            "RSEPBGGWRJCQGY-RBRWEJTLSA-N\n" +
+                            "FHXBMXJMKMWVRG-SLHNCBLASA-N\n" +
+                            "LHHGDZSESBACKH-UHFFFAOYSA-N\n" +
+                            "#TestSet2\n" +
+                            "MBMQEIFVQACCCH-QBODLPLBSA-N\n" +
+                            "ONKUMRGIYFNPJW-KIEAKMPYSA-N\n" +
+                            "PWZUUYSISTUNDW-VAFBSOEGSA-N\n" +
+                            "UOACKFBJUYNSLK-XRKIENNPSA-N\n" +
+                            "RFWTZQAOOLFXAY-BZDYCCQFSA-N\n" +
+                            "YTSDTJNDMGOTFN-UHFFFAOYSA-M\n";
+
+            document.getElementById("InChIBox").value= setInchi;
+        }
+
         function exampleSmileSimilarity() {
             var setSmile = "CC(=O)C1=CC=C(C=C1)[N+]([O-])\n" +
                     "ClCC1=CC=CC=C1\n" +
                     "CN(C)C1=CC=C(C=C1)\n";
             document.getElementById("SMILESimilarityBox").value= setSmile;
         }
+
+        function exampleInchiSimilarity() {
+            var setInchi =  "#TestSet1\n" +
+                            "AOXRBFRFYPMWLR-XGXHKTLJSA-N\n" +
+                            "UYIFTLBWAOGQBI-BZDYCCQFSA-N\n" +
+                            "RSEPBGGWRJCQGY-RBRWEJTLSA-N\n" +
+                            "FHXBMXJMKMWVRG-SLHNCBLASA-N\n" +
+                            "LHHGDZSESBACKH-UHFFFAOYSA-N\n" +
+                            "#TestSet2\n" +
+                            "MBMQEIFVQACCCH-QBODLPLBSA-N\n" +
+                            "ONKUMRGIYFNPJW-KIEAKMPYSA-N\n" +
+                            "PWZUUYSISTUNDW-VAFBSOEGSA-N\n" +
+                            "UOACKFBJUYNSLK-XRKIENNPSA-N\n" +
+                            "RFWTZQAOOLFXAY-BZDYCCQFSA-N\n" +
+                            "YTSDTJNDMGOTFN-UHFFFAOYSA-M\n";
+
+            document.getElementById("InChISimilarityBox").value= setInchi;
+        }
+
         function singleSet() {
             var set1 = "965-90-2\n" +
                     "50-50-0\n" +
@@ -138,8 +175,26 @@
             $('#enrichForm').submit();
         }
 
+        function submitInchi() {
+            document.getElementById("analysisType").value = "InChI";
+            document.getElementById("transactionId").value = transactionId;
+            $('#main').hide();
+            $('#wait').show();
+            isPerformingEnrichment = true;
+            $('#enrichForm').submit();
+        }
+
         function submitSmilesSimilarity() {
             document.getElementById("analysisType").value = "SMILESSimilarity";
+            document.getElementById("transactionId").value = transactionId;
+            $('#main').hide();
+            $('#wait').show();
+            isPerformingEnrichment = true;
+            $('#enrichForm').submit();
+        }
+
+        function submitInchiSimilarity() {
+            document.getElementById("analysisType").value = "InChISimilarity";
             document.getElementById("transactionId").value = transactionId;
             $('#main').hide();
             $('#wait').show();
@@ -219,6 +274,51 @@
             });
         }
 
+        var substructureInputSMILES = true;   //true = currently smiles, false = currently inchi
+        function toggleSubstructureSearch () { //for shared substructure search, toggle between SMILES and InChI input
+            if(substructureInputSMILES == true) {  //if currently SMILES, switch to InChI
+                $('#smileBoxContainer').hide();
+                $('#inchiBoxContainer').show();
+                $('#toggleSubstructureSearchButton').text("Switch to SMILES input");
+                $('#SMILEBox').val("");
+                $('#smileSubmitContainer').hide();
+                $('#inchiSubmitContainer').show();
+                substructureInputSMILES = false;
+            }
+            else {                              //if currently InChI, switch to SMILES
+                $('#inchiBoxContainer').hide();
+                $('#smileBoxContainer').show();
+                $('#toggleSubstructureSearchButton').text("Switch to InChI input");
+                $('#InChIBox').val("");
+                $('#inchiSubmitContainer').hide();
+                $('#smileSubmitContainer').show();
+                substructureInputSMILES = true;
+            }
+
+        }
+
+        var substructureSimilarityInputSMILES = true;   //true = currently smiles, false = currently inchi
+        function toggleSubstructureSimilaritySearch () { //for shared substructure search, toggle between SMILES and InChI input
+            if(substructureSimilarityInputSMILES == true) {  //if currently SMILES, switch to InChI
+                $('#smileSimilarityBoxContainer').hide();
+                $('#inchiSimilarityBoxContainer').show();
+                $('#toggleSubstructureSimilaritySearchButton').text("Switch to SMILES input");
+                $('#SMILESimilarityBox').val("");
+                $('#smileSimilaritySubmitContainer').hide();
+                $('#inchiSimilaritySubmitContainer').show();
+                substructureSimilarityInputSMILES = false;
+            }
+            else {                              //if currently InChI, switch to SMILES
+                $('#inchiSimilarityBoxContainer').hide();
+                $('#smileSimilarityBoxContainer').show();
+                $('#toggleSubstructureSimilaritySearchButton').text("Switch to InChI input");
+                $('#InChISimilarityBox').val("");
+                $('#inchiSimilaritySubmitContainer').hide();
+                $('#smileSimilaritySubmitContainer').show();
+                substructureSimilarityInputSMILES = true;
+            }
+
+        }
         
         //Periodically refresh the waiting page to update queue position and transaction status
         setInterval(function(){
@@ -234,7 +334,6 @@
     <div id="wait" style="display: none">
         <br />
         <h3>Enrichment in Progress...</h3>
-
         <p>You will be directed to the results page shortly. Please do not use your browser's back button.</p>
         <br />
 
@@ -295,6 +394,7 @@
                 <div class="columns">
                     <br>
                     <h3>Enrich From...</h3>
+                    <p>Note: Please verify you are using the correct chemical identifiers by referencing the <a href="https://comptox.epa.gov/dashboard">EPA's CompTox Chemicals Dashboard.</a> </p>
                 </div>
             </div>
 
@@ -336,38 +436,57 @@
 
                         </div>
 
-                    <%--Chemicals w/ Shared Substructures (SMILES)--%>
+                    <%--Chemicals w/ Shared Substructures (SMILES/InChI)--%>
                         <div class="tabs-panel" id="panel2">
                             <h4>Chemicals With Shared Substructures</h4>
 
                             <%-- <input type="radio" name="smilesSearchType" value="Substructure" id="substructureRadio"><label for="substructureRadio">Substructure</label> --%>
 
-                            <label for="SMILEBox">Enter partial or complete SMILES strings, one per line Ex)
-                                <button class="tiny button" type="button" onclick = "exampleSmile()">SMILES strings</button>
-                            </label>
+                            <button class="button" type="button" id="toggleSubstructureSearchButton" onclick="toggleSubstructureSearch()">Switch to InChI input</button>
+                            <br>
 
+                            <%-- SMILES Box --%>
+                            <div id="smileBoxContainer">   
 
+                                <label for="SMILEBox">Enter partial or complete SMILES strings, one per line. Ex)
+                                    <button class="tiny button" type="button" onclick = "exampleSmile()">SMILES strings</button>
+                                </label>
 
-                            <g:if test="${isSmileErrors}">
-                                <!--This line is all on one line with no whitespace because of the way the textArea is being populated.-->
-                                <g:textArea class="extralarge" name="SMILEBox" ><%--
-                            --%><g:each in="${psqlGoodSmiles}">
-                                <%--                            --%>${it.smile}<%--
-                            --%></g:each><%--
-                    --%></g:textArea>
-                                <g:each in="${psqlErrorSmiles}">
-                                    <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}</p>
-                                </g:each>
-                                <g:if test="${noSmileInput}">
-                                    <p style="color:red">Input is required to perform enrichment</p>
+                                <g:if test="${isSmileErrors}">
+                                    <!--This line is all on one line with no whitespace because of the way the textArea is being populated.-->
+                                    <g:textArea class="extralarge" name="SMILEBox" ><%--
+                                --%><g:each in="${psqlGoodSmiles}">
+                                    <%--                            --%>${it.smile}<%--
+                                --%></g:each><%--
+                        --%></g:textArea>
+                                    <g:each in="${psqlErrorSmiles}">
+                                        <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}</p>
+                                    </g:each>
+                                    <g:if test="${noSmileInput}">
+                                        <p style="color:red">Input is required to perform enrichment</p>
+                                    </g:if>
                                 </g:if>
-                            </g:if>
-                            <g:else>
-                                <g:textArea class="extralarge" name="SMILEBox" ></g:textArea>
-                                <br>
-                            </g:else>
+                                <g:else>
+                                    <g:textArea class="extralarge" name="SMILEBox" id="SMILEBox" ></g:textArea>
+                                    <br>
+                                </g:else>
+                            </div>
 
-                            <input type="button" class="button" name="begin" value="Begin Enrichment Analysis" onclick="submitSmiles()"  />
+                            <%-- InChI Box --%>
+                            <div id="inchiBoxContainer" style="display: none">
+                                <label for="InChIBox">Enter InChI strings, one per line. Add '#SetName' before each set, if using multiple sets at once. Ex)
+                                    <button class="tiny button" type="button" onclick = "exampleInchi()">InChi strings</button>
+                                </label>
+                                <g:textArea class="extralarge" name="InChIBox" id="InChIBox" ></g:textArea>
+                                <br>
+                            </div>
+
+                            <div id="smileSubmitContainer">
+                                <input type="button" class="button" name="begin" value="Begin Enrichment Analysis" onclick="submitSmiles()"  />
+                            </div>
+                            <div id="inchiSubmitContainer" style="display: none">
+                                <input type="button" class="button" name="begin" value="Begin Enrichment Analysis" onclick="submitInchi()"  />
+                            </div>
                         </div>
 
                     <%--Chemicals w/ Structural Similarity (SMILES)--%>
@@ -389,31 +508,54 @@
                                     </label>
                                 </div>
 
-                                <label for="SMILEStructuralBox">Enter partial or complete SMILES strings, one per line Ex)
-                                    <button class="tiny button" type="button" onclick = "exampleSmileSimilarity()">SMILES strings</button>
-                                </label>
                                 
-                                <g:if test="${isSmileErrors}">
-                                <!--This line is all on one line with no whitespace because of the way the textArea is being populated.-->
-                                <g:textArea class="extralarge" name="SMILESimilarityBox" ><%--
-                            --%><g:each in="${psqlGoodSmiles}">
-                                <%--                            --%>${it.smile}<%--
-                            --%></g:each><%--
-                    --%></g:textArea>
-                                <g:each in="${psqlErrorSmiles}">
-                                    <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}</p>
-                                </g:each>
-                                <g:if test="${noSmileInput}">
-                                    <p style="color:red">Input is required to perform enrichment</p>
-                                </g:if>
-                            </g:if>
-                            <g:else>
-                                <g:textArea class="extralarge" name="SMILESimilarityBox" ></g:textArea>
+                                <button class="button" type="button" id="toggleSubstructureSimilaritySearchButton" onclick="toggleSubstructureSimilaritySearch()">Switch to InChI input</button>
                                 <br>
-                            </g:else>
 
+                                <%-- SMILES Box --%>
+                                <div id="smileSimilarityBoxContainer"> 
 
+                                    <label for="SMILEStructuralBox">Enter partial or complete SMILES strings, one per line Ex)
+                                        <button class="tiny button" type="button" onclick = "exampleSmileSimilarity()">SMILES strings</button>
+                                    </label>
+                                    
+                                    <g:if test="${isSmileErrors}">
+                                        <!--This line is all on one line with no whitespace because of the way the textArea is being populated.-->
+                                        <g:textArea class="extralarge" name="SMILESimilarityBox" ><%--
+                                    --%><g:each in="${psqlGoodSmiles}">
+                                        <%--                            --%>${it.smile}<%--
+                                    --%></g:each><%--
+                            --%></g:textArea>
+                                        <g:each in="${psqlErrorSmiles}">
+                                            <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}</p>
+                                        </g:each>
+                                        <g:if test="${noSmileInput}">
+                                            <p style="color:red">Input is required to perform enrichment</p>
+                                        </g:if>
+                                    </g:if>
+                                    <g:else>
+                                        <g:textArea class="extralarge" name="SMILESimilarityBox" ></g:textArea>
+                                        <br>
+                                    </g:else>
+                                </div>
+
+                            <%-- InChI Box --%>
+                            <div id="inchiSimilarityBoxContainer" style="display: none">
+                                <label for="InChISimilarityBox">Enter InChI strings, one per line. Add '#SetName' before each set, if using multiple sets at once. Ex)
+                                    <button class="tiny button" type="button" onclick = "exampleInchiSimilarity()">InChi strings</button>
+                                </label>
+                                <g:textArea class="extralarge" name="InChISimilarityBox" id="InChISimilarityBox" ></g:textArea>
+                                <br>
+                            </div>
+
+                            <div id="smileSimilaritySubmitContainer">
                                 <input type="button" class="button" name="begin" value="Begin Enrichment Analysis" onclick="submitSmilesSimilarity()"  />
+                            </div>
+                            <div id="inchiSimilaritySubmitContainer" style="display: none">
+                                <input type="button" class="button" name="begin" value="Begin Enrichment Analysis" onclick="submitInchiSimilarity()"  />
+                            </div>
+
+
                             </div>
                         
                         <%--Chemicals w/ Biological Similarity (SMILES)--%> <%--

@@ -50,6 +50,7 @@
                 <input name="qval" id="qvalInput" value="${params.qval}">
             </label></nobr>
             <label>Select Input Sets</label>
+            <br />
             <g:each var="inputSet" in="${inputSets.keySet()}">
                 <input name="checkbox" type="checkbox" value="${inputSet}" data-checked="${Arrays.asList(inputSetCheckbox).contains(inputSet)}"><label for="checkbox">${inputSet}</label>
                 <br />
