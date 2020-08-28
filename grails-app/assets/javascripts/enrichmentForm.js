@@ -5,22 +5,22 @@ function renderCheckboxes() {
     $.get("/tox21enricher/init/getAnnoClassAsJson", function(data) {
         //alert("Data: " + data)
         var checkboxGroups = {"PubChem Compound Annotation":[], "DrugMatrix Annotation":[], "CTD Annotation":[], "Other Annotations":[]};
-        var stringMap = {"CTD":"CTD Annotation", "DrugMatrix":"DrugMatrix Annotation","Compound PubChem":"PubChem Compound Annotation"};
-        for (var annoClass in data) {
-            var record = data[annoClass];
-            var annoType = record.annoType;
+        var stringMap = {"CTD Annotation":"CTD Annotation", "DrugMatrix Annotation":"DrugMatrix Annotation","PubChem Compound Annotation":"PubChem Compound Annotation"};
+        for (var annoclassid in data) {
+            var record = data[annoclassid];
+            var annotype = record.annotype;
             var name = "Other Annotations";
-            if (stringMap.hasOwnProperty(annoType)) {
-                name = stringMap[annoType];
+            if (stringMap.hasOwnProperty(annotype)) {
+                name = stringMap[annotype];
             }
-            if (record.annoClassName == "CTD_GO_BP") {
+            if (record.annoclassname == "CTD_GO_BP") {
                 checkboxGroups[name].push(["GO BIOP <sub>Very Slow</sub>", record.annoGroovyClassName, record.annoDesc, false]);
             }
-            else if (record.annoClassName == "ZERO_CLASS") {
+            else if (record.annoclassname == "ZERO_CLASS") {
                 //this is just here so ZERO_CLASS isn't populated as a checkbox option
             }
             else {
-                checkboxGroups[name].push([record.annoClassName, record.annoGroovyClassName, record.annoDesc]);
+                checkboxGroups[name].push([record.annoclassname, record.annoGroovyClassName, record.annoDesc]);
             }
         }
 

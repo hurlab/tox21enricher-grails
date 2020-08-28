@@ -77,21 +77,6 @@ grails:
                 taglib: none
                 staticparts: none
 ---
-dataSource:
-    pooled: true
-    jmxExport: true
-    driverClassName: com.mysql.cj.jdbc.Driver
-    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-    url: jdbc:mysql://127.0.0.1:3306/tox21enricher?serverTimezone=UTC
-    username: username
-    password: >-
-       password
-    properties:
-        validationQuery: SELECT 1 AS tox21_validation
-        validationQueryTimeout: 3
-        validationInterval: 15000
-        testOnBorrow: true
-        testWhileIdle: true
 dataSources:
     psql:
         pooled: true
@@ -105,9 +90,6 @@ environments:
         server:
             servlet:
                 context-path: '/tox21enricher'
-        dataSource:
-            dbCreate: validate
-            url: jdbc:mysql://127.0.0.1:3306/tox21enricher
         dataSources:
             psql:
                 dbCreate: validate
@@ -116,9 +98,6 @@ environments:
         server:
             servlet:
                 context-path: '/tox21enricher'
-        dataSource:
-            dbCreate: validate
-            url: jdbc:mysql://127.0.0.1:3306/tox21enricher
         dataSources:
             psql:
                 dbCreate: validate
@@ -127,9 +106,6 @@ environments:
         server:
             servlet:
                 context-path: '/tox21enricher'
-        dataSource:
-            dbCreate: validate
-            url: jdbc:mysql://127.0.0.1:3306/tox21enricher
         dataSources:
             psql:
                 dbCreate: validate

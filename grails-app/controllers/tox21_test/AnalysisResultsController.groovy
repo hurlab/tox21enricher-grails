@@ -7,8 +7,8 @@ import java.awt.Color
 
 class AnalysisResultsController {
 
-    //injecting datasource
-    def dataSource
+    //injecting psql datasource
+    def dataSource_psql
     //injecting storage properties bean
     def storageProperties
     def scriptLocationProperties
@@ -16,7 +16,6 @@ class AnalysisResultsController {
     def ResultSetService
 
     def enrichmentService
-    def cacheService
     def directoryCompressionService
     def errorCasrnService
 
@@ -270,19 +269,28 @@ println ""
 println "Terms joined: $termsJoined"
 println ""
 
+println "UIDs joined: $uidsJoined"
+println ""
+
         def termsString = "'" + termsJoined + "'"
         def uidsString = "'" + termsJoined + "'"
 println "Terms string: $termsString"
 println ""
+
+    uids.each { println it }
 
         //string of question marks for bound params
         //should be the same size as terms
         def termsStringPlaceholder = ""
         def termPlaceholderCount = 0
         terms.each {
-            termsStringPlaceholder += "?,"
+        //    termsStringPlaceholder += "?,"
+            
             termPlaceholderCount++
         }
+        uids.each { termsStringPlaceholder += "$it," }
+
+
 println ""
 println "TERMS LENGTH: ${terms.size()}"
 println ""
@@ -291,7 +299,7 @@ println ""
         termsStringPlaceholder = termsStringPlaceholder.substring(0, termsStringPlaceholder.length() -1)
 println "Terms string placeholder: $termsStringPlaceholder"
 
-        def sql = new Sql(dataSource)
+        def sql = new Sql(dataSource_psql)
 
         def qval
         if (params.qval == null) {
@@ -302,19 +310,19 @@ println "Terms string placeholder: $termsStringPlaceholder"
         println "qval: $qval"
 
         //mysql query for network generation
+        //^^ this is now psql ^^
         def rows = sql.rows '''SELECT
-  p.*, a.annoTerm as name1, b.annoTerm as name2, ac.annoClassName as class1, bc.annoClassName as class2, ac.baseURL as url1, bc.baseURL as url2
+  p.*, a.annoterm as name1, b.annoterm as name2, ac.annoclassname as class1, bc.annoclassname as class2, ac.baseurl as url1, bc.baseurl as url2
   FROM annoterm_pairwise p
     LEFT JOIN annotation_detail a 
-      ON p.term1UID = a.annoTermID
+      ON p.term1uid = a.annotermid
     LEFT JOIN annotation_detail b 
-      ON p.term2UID = b.annoTermID
+      ON p.term2uid = b.annotermid
     LEFT JOIN annotation_class ac 
-      ON a.annoClassID = ac.annoClassID
+      ON a.annoclassid = ac.annoclassid
     LEFT JOIN annotation_class bc 
-      ON b.annoClassID = bc.annoClassID
-  WHERE p.term1UID IN (''' + termsStringPlaceholder + ") AND p.term2UID IN (" + termsStringPlaceholder + ") AND p.qvalue <" + qval, uidsSqlParams
-
+      ON b.annoclassid = bc.annoclassid
+  WHERE p.term1uid IN (''' + termsStringPlaceholder + ") AND p.term2uid IN (" + termsStringPlaceholder + ") AND p.qvalue <" + qval
 
         sql.close()
 

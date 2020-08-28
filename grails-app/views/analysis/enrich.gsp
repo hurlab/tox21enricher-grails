@@ -40,10 +40,23 @@
         </style>
 
         <script>
+            //Toggle display of user-submitted items
+            var showingSubmittedItems = false;
+            function showSubmittedItems() {
+                if(showingSubmittedItems == false) {
+                    $('#submittedItems').show();
+                    $('#showSubmittedItemsButton').text("Hide Submitted Items");
+                    showingSubmittedItems = true;
+                }
+                else {
+                    $('#submittedItems').hide();
+                    $('#showSubmittedItemsButton').text("Show Submitted Items");
+                    showingSubmittedItems = false;
+                }
+            }
+            
             setInterval(function(){
-                self.location = "http://localhost:8080/tox21enricher/analysis/success?resultSet=${success}&nodeCutoff=${nodeCutoff}";
-                //change depending on environment
-                //self.location = "http://134.129.166.26:8080/tox21enricher/analysis/success?resultSet=${success}&nodeCutoff=${nodeCutoff}";
+                self.location = "success?resultSet=${success}&nodeCutoff=${nodeCutoff}";
                 return false;
             }, 1000);
         </script>
@@ -66,7 +79,6 @@
                     <th width="150">Queue Position</th>
                     <th width="150">Status</th>
                     <th width="150">Enrichment Analysis Type</th>
-                    <th width="150">Items Submitted</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -85,10 +97,18 @@
                         </g:else>
                     </td>
                     <td>${type}</td>
-                    <td>${items}</td>
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <br />
+        <div>
+            <button class="button" type="button" id="showSubmittedItemsButton" onclick="showSubmittedItems()">Show Submitted Items</button>
+            <div id="submittedItems" style="display: none">
+                <div id="submittedItemsList" style="white-space: pre-line">
+                    ${items}
+                </div>
+            </div>
         </div>
         <br />
     

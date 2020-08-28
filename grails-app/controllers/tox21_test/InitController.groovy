@@ -9,10 +9,7 @@ import org.springframework.web.servlet.ModelAndView
 
 //for concurrency/async
 import static groovyx.gpars.actor.Actors.actor
-import static grails.async.Promises.*
-import static grails.async.web.WebPromises.*
 import grails.http.client.*
-import grails.async.*
 import grails.events.*
 import java.util.concurrent.*
 import java.util.*
@@ -34,12 +31,14 @@ class InitController {
     def index() { 
 
     }
-
-    def dataSource
+    //inject psql datasource
+    def casrnService
+    def dataSource_psql
 
     def getAnnoClassAsJson() {
-        def sql = new Sql(dataSource)
-        def rows = sql.rows("SELECT * FROM annotation_class")
+        def sql = new Sql(dataSource_psql)
+        def rows = sql.rows("SELECT * FROM annotation_class;")
+        println rows
 
         respond rows    //have to use respond instead of render
     }

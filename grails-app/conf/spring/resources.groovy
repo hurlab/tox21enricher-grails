@@ -12,10 +12,10 @@ beans = {
             }
             scriptLocationProperties(ScriptLocationProperties) {
                 perlScriptDir = "/home/hurlab/tox21/src/main/perl/"
+                pythonScriptDir = "/home/hurlab/tox21/src/main/python/"
             }
-            
-            
             break
+
         case Environment.DEVELOPMENT:
             storageProperties(StorageProperties) {
                 baseDir = "/home/hurlab/tox21/Output/"
@@ -23,6 +23,7 @@ beans = {
             }
             scriptLocationProperties(ScriptLocationProperties) {
                 perlScriptDir = "/home/hurlab/tox21/src/main/perl/"
+                pythonScriptDir = "/home/hurlab/tox21/src/main/python/"
             }
             break
     }

@@ -54,19 +54,12 @@
             document.getElementById("SMILEBox").value= setSmile;
         }
         function exampleInchi() {
-            var setInchi =  "#TestSet1\n" +
-                            "AOXRBFRFYPMWLR-XGXHKTLJSA-N\n" +
-                            "UYIFTLBWAOGQBI-BZDYCCQFSA-N\n" +
-                            "RSEPBGGWRJCQGY-RBRWEJTLSA-N\n" +
-                            "FHXBMXJMKMWVRG-SLHNCBLASA-N\n" +
-                            "LHHGDZSESBACKH-UHFFFAOYSA-N\n" +
-                            "#TestSet2\n" +
-                            "MBMQEIFVQACCCH-QBODLPLBSA-N\n" +
-                            "ONKUMRGIYFNPJW-KIEAKMPYSA-N\n" +
-                            "PWZUUYSISTUNDW-VAFBSOEGSA-N\n" +
-                            "UOACKFBJUYNSLK-XRKIENNPSA-N\n" +
-                            "RFWTZQAOOLFXAY-BZDYCCQFSA-N\n" +
-                            "YTSDTJNDMGOTFN-UHFFFAOYSA-M\n";
+            var setInchi =  "#InchISet1\n" +
+                            "InChI=1S/C8H7NO2/c1-6(10)7-2-4-8(9-11)5-3-7/h2-5H,1H3\n" +
+                            "#InchISet2\n" +
+                            "InChI=1S/C7H7Cl/c8-6-7-4-2-1-3-5-7/h1-5H,6H2\n" +
+                            "#InchISet3\n" +
+                            "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3\n";
 
             document.getElementById("InChIBox").value= setInchi;
         }
@@ -79,19 +72,12 @@
         }
 
         function exampleInchiSimilarity() {
-            var setInchi =  "#TestSet1\n" +
-                            "AOXRBFRFYPMWLR-XGXHKTLJSA-N\n" +
-                            "UYIFTLBWAOGQBI-BZDYCCQFSA-N\n" +
-                            "RSEPBGGWRJCQGY-RBRWEJTLSA-N\n" +
-                            "FHXBMXJMKMWVRG-SLHNCBLASA-N\n" +
-                            "LHHGDZSESBACKH-UHFFFAOYSA-N\n" +
-                            "#TestSet2\n" +
-                            "MBMQEIFVQACCCH-QBODLPLBSA-N\n" +
-                            "ONKUMRGIYFNPJW-KIEAKMPYSA-N\n" +
-                            "PWZUUYSISTUNDW-VAFBSOEGSA-N\n" +
-                            "UOACKFBJUYNSLK-XRKIENNPSA-N\n" +
-                            "RFWTZQAOOLFXAY-BZDYCCQFSA-N\n" +
-                            "YTSDTJNDMGOTFN-UHFFFAOYSA-M\n";
+            var setInchi =  "#InchISet1\n" +
+                            "InChI=1S/C8H7NO2/c1-6(10)7-2-4-8(9-11)5-3-7/h2-5H,1H3\n" +
+                            "#InchISet2\n" +
+                            "InChI=1S/C7H7Cl/c8-6-7-4-2-1-3-5-7/h1-5H,6H2\n" +
+                            "#InchISet3\n" +
+                            "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3\n";
 
             document.getElementById("InChISimilarityBox").value= setInchi;
         }
@@ -319,12 +305,27 @@
             }
 
         }
+
+        //Toggle display of user-submitted items
+        var showingSubmittedItems = false;
+        function showSubmittedItems() {
+            if(showingSubmittedItems == false) {    //display items
+                $('#submittedItems').show();
+                $('#showSubmittedItemsButton').text("Hide Submitted Items");
+                showingSubmittedItems = true;
+            }
+            else {                                  //hide items
+                $('#submittedItems').hide();
+                $('#showSubmittedItemsButton').text("Show Submitted Items");
+                showingSubmittedItems = false;
+            }
+        }
         
         //Periodically refresh the waiting page to update queue position and transaction status
         setInterval(function(){
             if(isPerformingEnrichment === true) {
-                $('#waittable').load("http://localhost:8080/tox21enricher/analysis/getQueueData?tid="+transactionId+" #waittable");
-                //$('#waittable').load("http://134.129.166.26:8080/tox21enricher/analysis/getQueueData?tid="+transactionId+" #waittable");
+                $('#waittable').load("analysis/getQueueData?tid="+transactionId+" #waittable");
+                $('#submittedItemsList').load("analysis/getQueueData?tid="+transactionId+" #submittedItemsList");
             }
         }, 2000);
 
@@ -345,7 +346,6 @@
                     <th width="150">Queue Position</th>
                     <th width="150">Status</th>
                     <th width="150">Enrichment Analysis Type</th>
-                    <th width="150">Items Submitted</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -367,11 +367,20 @@
                         </g:else>
                     </td>
                     <td>${type}</td>
-                    <td>${items}</td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        <td>
+        <br />
+        <div>
+            <button class="button" type="button" id="showSubmittedItemsButton" onclick="showSubmittedItems()">Show Submitted Items</button>
+            <div id="submittedItems" style="display: none">
+                <div id="submittedItemsList" style="white-space: pre-line">
+                    ${items}
+                </div>
+            </div>
+        </div>      
         <br />
     </div>
 
@@ -442,10 +451,10 @@
 
                             <%-- <input type="radio" name="smilesSearchType" value="Substructure" id="substructureRadio"><label for="substructureRadio">Substructure</label> --%>
 
-                            <%--
+                            
                             <button class="button" type="button" id="toggleSubstructureSearchButton" onclick="toggleSubstructureSearch()">Switch to InChI input</button>
                             <br>
-                            --%>
+                            
 
                             <%-- SMILES Box --%>
                             <div id="smileBoxContainer">   
@@ -510,10 +519,10 @@
                                     </label>
                                 </div>
 
-                                <%--
+                                
                                 <button class="button" type="button" id="toggleSubstructureSimilaritySearchButton" onclick="toggleSubstructureSimilaritySearch()">Switch to InChI input</button>
                                 <br>
-                                --%>
+                                
 
                                 <%-- SMILES Box --%>
                                 <div id="smileSimilarityBoxContainer"> 

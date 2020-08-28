@@ -6,24 +6,6 @@ grails.mime.types = [
 
 ]
 
-
-//MySQL datasource
-dataSource {
-    pooled = true
-    jmxExport = true
-    driverClassName = "com.mysql.jdbc.Driver"
-    url = "jdbc:mysql://127.0.0.1/tox21enricher?serverTimezone=UTC"
-    username = "username"
-    password = "password"
-    properties {
-        //Validation query keeps server from timing out.
-        validationQuery = "SELECT 1 AS tox21_validation"
-        validationQueryTimeout = 3
-        validationInterval = 15000
-        testOnBorrow = true
-        testWhileIdle = true
-    }
-}
 //PostgreSQL datasource
 dataSource_psql {
     pooled = true
@@ -46,27 +28,16 @@ hibernate {
 // environment specific settings
 environments {
     development {
-        dataSource {
-            dbCreate = "validate" // one of 'create', 'create-drop', 'update', 'validate', ''
-        }
         dataSource_psql {
-            dbCreate = "validate"
+            dbCreate = "validate" // one of 'create', 'create-drop', 'update', 'validate', ''
         }
         hibernate {
             dbCreate = "update"
         }
     }
     test {
-        dataSource {
-            dbCreate = "validate"
-            //url = "jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-        }
     }
     production {
-        dataSource {
-            dbCreate = "validate"
-            url = "jdbc:mysql://127.0.0.1/tox21enricher"
-        }
         dataSource_psql {
             dbCreate = "validate"
             url = "jdbc:postgresql://127.0.0.1/tox21enricher"

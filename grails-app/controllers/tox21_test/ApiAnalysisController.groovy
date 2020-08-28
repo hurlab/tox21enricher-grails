@@ -113,7 +113,7 @@ class ApiAnalysisController extends RestfulController<ApiAnalysis> implements In
 
 
                         //initialize datasource and fetch db entry to enrich from db
-                        def initSql = new Sql(dataSource)
+                        def initSql = new Sql(dataSource_psql)
                         def paramsDb = initSql.firstRow("SELECT * FROM api_analysis WHERE id = $_params.apiAnalysisId")
 
                         groovyParams = paramsDb
@@ -372,8 +372,6 @@ class ApiAnalysisController extends RestfulController<ApiAnalysis> implements In
 
                         //println("ANNO SELECT STR: $annoSelectStr")
 
-                        def currentCacheDirString = cacheService.getNextCacheDir("$ENRICH_OUTPUT_PATH/CurrentOutputDir.txt")
-
                         //print "$currentCacheDirString\n"
 
                         //change from incremental to UUID
@@ -445,7 +443,7 @@ class ApiAnalysisController extends RestfulController<ApiAnalysis> implements In
                                                 //Better yet, make it its own method
                                                 //FYI: sql.rows() returns a list of maps
                                                 //where each map is field names and values for a given record
-                                                def sql = new Sql(dataSource)
+                                                def sql = new Sql(dataSource_psql)
                                                 def rows = sql.rows("SELECT TestSubstance_ChemName FROM chemical_detail WHERE CASRN LIKE '" + line + "'")
                                                 //println("Line: " + line)
                                                 //println("Rows: " + rows)
@@ -521,7 +519,7 @@ class ApiAnalysisController extends RestfulController<ApiAnalysis> implements In
 
             //queue
             def queue = actor {
-                def queueListItem = [paramsThread, dataSource]
+                def queueListItem = [paramsThread, dataSource_psql]
 
                 //thread debug
                 println("\n######THREAD DEBUG INFORMATION ######")
@@ -547,7 +545,6 @@ class ApiAnalysisController extends RestfulController<ApiAnalysis> implements In
     def final PSQL_SMILE_ERROR = "could not create molecule from SMILES"
     def resultSetService
     def enrichmentService
-    def cacheService
     def directoryCompressionService
     def errorCasrnService
 

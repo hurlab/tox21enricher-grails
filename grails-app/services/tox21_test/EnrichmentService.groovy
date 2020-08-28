@@ -10,9 +10,25 @@ class EnrichmentService implements InitializingBean {
     def scriptLocationProperties
     def config = Holders.getGrailsApplication().config
     def EXT_SCRIPT_PATH_PERL
+    def EXT_SCRIPT_PATH_PYTHON
 
     def validate() {
 
+    }
+
+    def convertInchiToSmiles(inchi) {
+        println("| Running Python script...")
+        println("| Python: ${EXT_SCRIPT_PATH_PYTHON}convertInchiToMol.py ${inchi}")
+        Process convertInchiToMol = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 /home/hurlab/tox21/src/main/python/convertInchiToMol.py ${inchi}".execute()
+        def pythonOut = new StringBuffer()
+        def pythonErr = new StringBuffer()
+        convertInchiToMol.consumeProcessOutput(pythonOut, pythonErr)
+        convertInchiToMol.waitFor()
+        if (pythonOut.size() > 0) {
+            print ("Output: $pythonOut\n")
+            return pythonOut.toString()
+        }
+        if (pythonErr.size() > 0) print ("Error: $pythonErr\n")
     }
 
     def performEnrichment(inputDir, outputDir, annoSelectStr) {
@@ -66,6 +82,9 @@ class EnrichmentService implements InitializingBean {
     @Override
     void afterPropertiesSet() throws Exception {
         this.EXT_SCRIPT_PATH_PERL = scriptLocationProperties.getPerlScriptDir()
+        this.EXT_SCRIPT_PATH_PYTHON = scriptLocationProperties.getPythonScriptDir()
     }
+
+
 
 }
