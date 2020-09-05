@@ -150,55 +150,136 @@ class ResultSetService {
         def inputSetsMap = [:]
         def lineSplit
         def lineSplitList = []
+
         def final TERM_NAME_INDEX = 1;  //TODO: get rid of magic number
+        
+        def maxSetsNumber = 0
+        def processedFirstLine = false
+
         println "IN ResultSetService.getInputSets()"
+        
         lines.each { String line ->  //TODO: add number
             println "line: $line"
             lineSplit = line.split("\t") as List  //split as List so we can add an element to it if the last column had "\t" and got trimmed off (thus, one too short)
             println "lineSplit: $lineSplit"
-            if (lineSplit.size() == 5) {
-                lineSplit << ""  //add("") didn't work here for some reason; left shift also didn't work -> add/leftShift didn't work b/c .split() result type is Array not List or ArrayList; it should work now
-                println "lineSplit $lineSplit"
-            }
-            else if (lineSplit.size() == 4) {  //need to figure out how this happens, but I think it's what's causing PAH to get more than what should be added
-                lineSplit << ""
-                lineSplit << ""
-                println "lineSplit $lineSplit"
-            }
-            println "lineSplit.size(): ${lineSplit.size()}"
+
+            //I think we don't have to hardcode this
+            //if (lineSplit.size() == 5) {
+            //    lineSplit << ""  //add("") didn't work here for some reason; left shift also didn't work -> add/leftShift didn't work b/c .split() result type is Array not List or ArrayList; it should work now
+            //    println "lineSplit $lineSplit"
+            //}
+            //else if (lineSplit.size() == 4) {  //need to figure out how this happens, but I think it's what's causing PAH to get more than what should be added
+            //    lineSplit << ""
+            //    lineSplit << ""
+            //    println "lineSplit $lineSplit"
+            //}
+
+
+
+
+            
             //println "lineSplitList.size(): ${lineSplitList.size()}"
+
+            if (processedFirstLine == true) {           // add buffer each line so it can be read correctly if too short
+                for (int j=lineSplit.size(); j < maxSetsNumber; j++) {
+                    lineSplit << ""
+                }
+            }
+
             firstInputSetIndex = (lineSplit.size() - numInputSets)  //if there are 3 input sets and 3 other tokens as expected before the input set columns, this will be 3 which is the starting index of set names
-            //println "firstInputSetIndex: $firstInputSetIndex"
+            
+            println "lineSplit.size(): ${lineSplit.size()}"
+
+            println "firstInputSetIndex: $firstInputSetIndex"
+            println "${lineSplit[firstInputSetIndex]}"
+
             if (line.startsWith("GROUPID")) {  //if first line  //TODO: check if first line based on number from .each loop thing?
                 println "LINE STARTED WITH 'GROUPID'"
                 println "firstInputSetIndex: $firstInputSetIndex"
-                for (int i = 0; i < numInputSets; i++) {  //put input set names into list
-                    inputSets[i] = lineSplit[i + firstInputSetIndex]
+                //for (int i = 0; i < numInputSets; i++) {  //put input set names into list
+                def inputSetIndex = 0
+                for (int i = firstInputSetIndex; i < firstInputSetIndex + numInputSets; i++) {
+                    //println ">>>ADDING: ${lineSplit[i + firstInputSetIndex]}"
+                    println ">>>ADDING: ${lineSplit[i]} with index $i"
+                    //inputSets[i] = lineSplit[i + firstInputSetIndex]
+                    inputSets[inputSetIndex] = lineSplit[i]
+                    inputSetIndex++
                 }
                 for (int i = 0; i < numInputSets; i++) {  //grab input set name and put into input map as key
-                    inputSetsMap.put(inputSets[i], [])
+                    inputSetsMap.put(inputSets[i], [])                    
                 }
+                maxSetsNumber = lineSplit.size()//figure out how many sets we have
+                processedFirstLine = true
+
                 println "inputSets $inputSets"
                 println "inputSetsMap $inputSetsMap"
             }
             else {  //TODO: change to else if to check for ... other cases
-                for (int i = 0; i < numInputSets; i++) {  //grab input set name and put in inputSets[]
+                def inputSetIndex = 0
+                //for (int i = 0; i < numInputSets; i++) {  //grab input set name and put in inputSets[]
+                for (int i = firstInputSetIndex; i < firstInputSetIndex + numInputSets; i++) {
                     println "i before if: $i"
-                    println "lineSplit[i + firstInputSetIndex]: ${lineSplit[i + firstInputSetIndex]}"
-                    if (lineSplit[i + firstInputSetIndex] != "" && Character.isDigit(lineSplit[i + firstInputSetIndex].charAt(0))) {
+                    //println "lineSplit[i + firstInputSetIndex]: ${lineSplit[i + firstInputSetIndex]}"
+                    println "lineSplit[i]: ${lineSplit[i]}"
+                    //if (lineSplit[i + firstInputSetIndex] != "" && Character.isDigit(lineSplit[i + firstInputSetIndex].charAt(0))) {
+                    if (lineSplit[i] != null && lineSplit[i] != "" && Character.isDigit(lineSplit[i].charAt(0))) {  //if not null and is a numerical value
                         println "i after if: $i"
-                        println "inputSets[i]: ${inputSets[i]}"
-                        inputSetsMap.getAt("${inputSets[i]}").add(lineSplit[TERM_NAME_INDEX])
-                        def indexOfSetToAddTerm = i + firstInputSetIndex
-                        println "indexOfSetToAddTerm $indexOfSetToAddTerm"
-                        println "adding ${lineSplit[TERM_NAME_INDEX]} to ${inputSets[i]}"
+                        //println "inputSets[i]: ${inputSets[i]}"
+                        println "inputSets[i]: ${inputSets[inputSetIndex]}"
+                        
+                        println ">>>>>trying to add id: ${lineSplit[TERM_NAME_INDEX]}"
+                        println ">>>>>trying to add dc: ${lineSplit[i]}"
+                        println ">>>>>adding to index : ${i}"
+
+                        //inputSetsMap.getAt("${inputSets[i]}").add(lineSplit[TERM_NAME_INDEX])
+                        inputSetsMap.getAt("${inputSets[inputSetIndex]}").add(lineSplit[TERM_NAME_INDEX])
+                        inputSetsMap.getAt("${inputSets[inputSetIndex]}").add(lineSplit[i])
+                        //inputSetsMap.getAt("${inputSets[i]}").add(lineSplit[i + firstInputSetIndex])
+
+                        //def indexOfSetToAddTerm = i + firstInputSetIndex
+                        //println "indexOfSetToAddTerm $indexOfSetToAddTerm"
+                        //println "adding ${lineSplit[TERM_NAME_INDEX]} to ${inputSets[i]}"
+                        println "adding ${lineSplit[TERM_NAME_INDEX]} to ${inputSets[inputSetIndex]}"
                     }
+                    inputSetIndex++
                 }
             }
 
         }
+
+        println "inputSetsMap $inputSetsMap"
+
+        //******     This will re-analyze each item and remove ones that fall outside of the node cutoff limit       ******//
+        def sortedInputSets = [:]
+        inputSetsMap.each { sortedKey, sortedValue -> 
+            def tmpSort = [:]
+            for (int j = 0; j < sortedValue.size(); j++) {        //if so, iterate through that data set's associated items
+                if (j % 2 != 0) {                                                    //and for each decimal number (they should always be on odd-numbered indices)
+                    tmpSort += ["${sortedValue[j-1]}":sortedValue[j]]
+                }
+            }
+            tmpSort = tmpSort.sort { a, b -> b.value.toFloat() <=> a.value.toFloat() }
+            def listToKeep = []
+            def deleteCutoff = 0
+            tmpSort.each { sk, sv ->
+                if (deleteCutoff < nodeCutoff.toInteger()) {
+                    listToKeep += sk
+                }
+                deleteCutoff++
+            }
+            sortedInputSets += [(sortedKey.toString()):listToKeep]
+        }
+
+        println ">>>SORTED LIST:"
+        sortedInputSets.each { key, value ->
+            println "------$key------"
+            println "| $value"
+        }
+        println sortedInputSets
+
         println "inputSetsMap $inputSetsMap"
         println "inputSets $inputSets"
-        return inputSetsMap
+        //return inputSetsMap
+        return sortedInputSets
     }
 }

@@ -11,6 +11,7 @@
     <meta name="layout" content="main" />
     <title>Network Generation</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.js"></script>
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
@@ -56,17 +57,25 @@
                 <br />
             </g:each>
             <g:submitButton class="button small" name="networkSubmit" value="Begin Network Generation" />
-            <div id="eventSpan">Click a node to see more details.</div>
+            <div id="eventSpan">
+                Click a node to see more details. 
+                <br />
+                <i>Note: number of represented nodes may change for a certain set depending on if the set was enriched with other sets.</i>
+            </div>
             <div id="eventSpan">Node Legend</div>
             <g:each var="annoClass" in="${classColors.keySet()}">
                 <g:if test="${classes.contains(annoClass)}">
                     <div style="background-color:rgb(${classColors[annoClass][0]}, ${classColors[annoClass][1]}, ${classColors[annoClass][2]})">${annoClass}</div>
                 </g:if>
             </g:each>
+            <%-- Venn Diagram for edges --%>
+            <div id="venn"></div>
         </div>
         <div id="mynetwork" class="small-9 column"></div>
     </div>
 </g:form>
+
+
 
 <script type="text/javascript">
     var resultSetId = "${resultSet}";
@@ -102,6 +111,9 @@
                 },
                 interaction: {
                     hover: true
+                },
+                edges: {
+
                 }
             };
 
@@ -112,9 +124,11 @@
                 network.setOptions( { physics: false } );
             });
 
+            //click nodes & edges
             network.on("click", function (params) {
                 params.event = "[original event]";
                 var ids = params.nodes;
+                //$("#venn").text(params.edges)
 
                 var clickedNodes = nodes.get(ids);
                 var clickedNodeUrl = clickedNodes[0].url;
@@ -126,8 +140,30 @@
                 }
                 else
                     document.getElementById('eventSpan').innerHTML = 'Click a node to see more details.';
-                    console.log('Node url is null')
+                    //console.log('Node url is null')
+/*
+                let myConfig = {
+                    type: "venn",
+                    series: [
+                        {
+                        values: [100],
+                        join: [15]
+                        },
+                        {
+                        values: [100],
+                        join: [15]
+                        }
+                    ]
+                };
+
+                zingchart.render({
+                    id: 'venn',
+                    data: myConfig,
+                });
+*/
             });
+            
+
         })
     });
 
