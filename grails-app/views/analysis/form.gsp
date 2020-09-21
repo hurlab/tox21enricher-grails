@@ -60,7 +60,6 @@
                             "InChI=1S/C7H7Cl/c8-6-7-4-2-1-3-5-7/h1-5H,6H2\n" +
                             "#InchISet3\n" +
                             "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3\n";
-
             document.getElementById("InChIBox").value= setInchi;
         }
 
@@ -78,7 +77,6 @@
                             "InChI=1S/C7H7Cl/c8-6-7-4-2-1-3-5-7/h1-5H,6H2\n" +
                             "#InchISet3\n" +
                             "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3\n";
-
             document.getElementById("InChISimilarityBox").value= setInchi;
         }
 
@@ -140,7 +138,6 @@
                             "56-55-3\n" +
                             "83-32-9\n" +
                             "85-01-8\n";
-
             document.getElementById("CASRNBox").value = setMany;
             CASRNBox.value= setMany;
         }
@@ -322,8 +319,8 @@
         }
         
         //Periodically refresh the waiting page to update queue position and transaction status
-        setInterval(function(){
-            if(isPerformingEnrichment === true) {
+        setInterval(function() {
+            if (isPerformingEnrichment === true) {
                 $('#waittable').load("analysis/getQueueData?tid="+transactionId+" #waittable");
                 $('#submittedItemsList').load("analysis/getQueueData?tid="+transactionId+" #submittedItemsList");
             }
@@ -373,7 +370,7 @@
         </div>
         <td>
         <br />
-        <div>
+        <div class="row">
             <button class="button" type="button" id="showSubmittedItemsButton" onclick="showSubmittedItems()">Show Submitted Items</button>
             <div id="submittedItems" style="display: none">
                 <div id="submittedItemsList" style="white-space: pre-line">
@@ -430,10 +427,10 @@
                                 --%></g:each><%--
                             --%></g:textArea>
                                     <g:each in="${errorCasrns}">
-                                        <p style="color:red">Invalid CASRN "${it.casrn}" on line ${it.index + 1}</p>
+                                        <p style="color:red">Invalid CASRN "${it.casrn}" on line ${it.index + 1}.</p>
                                     </g:each>
                                     <g:if test="${noCasrnInput}">
-                                        <p style="color:red">Input is required to perform enrichment</p>
+                                        <p style="color:red">Input is required to perform enrichment.</p>
                                     </g:if>
                                 </g:if>
                                 <g:else>
@@ -448,9 +445,6 @@
                     <%--Chemicals w/ Shared Substructures (SMILES/InChI)--%>
                         <div class="tabs-panel" id="panel2">
                             <h4>Chemicals With Shared Substructures</h4>
-
-                            <%-- <input type="radio" name="smilesSearchType" value="Substructure" id="substructureRadio"><label for="substructureRadio">Substructure</label> --%>
-
                             
                             <button class="button" type="button" id="toggleSubstructureSearchButton" onclick="toggleSubstructureSearch()">Switch to InChI input</button>
                             <br>
@@ -471,10 +465,10 @@
                                 --%></g:each><%--
                         --%></g:textArea>
                                     <g:each in="${psqlErrorSmiles}">
-                                        <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}</p>
+                                        <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}.</p>
                                     </g:each>
                                     <g:if test="${noSmileInput}">
-                                        <p style="color:red">Input is required to perform enrichment</p>
+                                        <p style="color:red">Input is required to perform enrichment.</p>
                                     </g:if>
                                 </g:if>
                                 <g:else>
@@ -504,7 +498,6 @@
                         <div class="tabs-panel" id="panel3">
                                 <h4>Chemicals With Structural Similarity</h4>
                                 
-                                <!-- <input type="radio" name="smilesSearchType" value="Similarity" id="similarityRadio"><label for="similarityRadio">Similarity</label> -->
                                 <div>
                                     <label id="thresholdSelect">Select similarity threshold (%)
                                             <input type="text" name="thresholdSelectValue" id="thresholdSelectValue">
@@ -539,10 +532,10 @@
                                     --%></g:each><%--
                             --%></g:textArea>
                                         <g:each in="${psqlErrorSmiles}">
-                                            <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}</p>
+                                            <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}.</p>
                                         </g:each>
                                         <g:if test="${noSmileInput}">
-                                            <p style="color:red">Input is required to perform enrichment</p>
+                                            <p style="color:red">Input is required to perform enrichment.</p>
                                         </g:if>
                                     </g:if>
                                     <g:else>
@@ -596,8 +589,7 @@
             </div>
         </div>
             <input type="hidden" name="analysisType" id="analysisType" value="CASRNS" />
-            
-            <input type="hidden" name="transactionId" id="transactionId" value="none">
+            <input type="hidden" name="transactionId" id="transactionId" value="none" />
         </form>
     </div>
 </body>

@@ -65,7 +65,7 @@ our $color_palette				= "";
 # -------------------------
 # Handle additional options
 # -------------------------
-our $output_format			= "jpeg";
+our $output_format			= "png";
 #-.jpeg, .png, .tiff, .bmp, .eps
 if ((defined $ARGV[1]) && (lc($ARGV[1]) =~ /(jpeg|png|tiff|bmp|eps)/i))
 {	$output_format			= lc($ARGV[1]);
@@ -117,7 +117,6 @@ if (($column_distance_measure == 0) && ($row_distance_measure == 0))
 # Define required variables - Clustering Images
 # ---------------------------------------------
 our $java_flags				= "-Djava.awt.headless=true -Xmx1024m";
-#my $output_format			= "jpeg";
 our $row_size				= "16";
 our $column_size			= "16";
 our $show_grid				= "yes";
@@ -233,20 +232,17 @@ sub perform_hclustering_per_directory
 			my $gtrCmd	= '';
 
 			if ($row_distance_measure != 0)
-			{	$gtrCmd = " -x\"$gtrFile\"";
+			{	
+				$gtrCmd = " -x\"$gtrFile\"";
 			}
 
 			if ($column_distance_measure != 0)
-			{	$atrCmd = " -y\"$atrFile\"";
+			{	
+				$atrCmd = " -y\"$atrFile\"";
 			}
 
-
-
-
-			# my $command	= "java $java_flags -DlibDir=$libDir -jar $libDir"."hclimage-o.jar \"$cdtFile\" \"$output_base_name\" $output_format -c$column_size -r$row_size -g$show_grid -l$grid_color -a$show_row_description -s$show_row_names -f$row_to_highlight -h$row_highlight_color -n$color_scheme -m$color_palette".$gtrCmd.$atrCmd." -u$use_color_gradient";
-
 			# Create heatmap image
-			my $command = "java -jar TreeView-1.1.6r4-bin/TreeView.jar -r $cdtFile -x Dendrogram -- -o $output_base_name.png -f png -a 0 -g 1 -s 20x20 -b";
+			my $command	= "java $java_flags -DlibDir=$libDir -jar $libDir"."hclimage-o.jar \"$cdtFile\" \"$output_base_name\" $output_format -c$column_size -r$row_size -g$show_grid -l$grid_color -a$show_row_description -s$show_row_names -f$row_to_highlight -h$row_highlight_color -n$color_scheme -m$color_palette -u$use_color_gradient";
 			print "$command\n";
 			system ($command);
 

@@ -39,7 +39,13 @@
         }
         </style>
 
+        <%--Use Groovy to generate transaction UUID--%>
+        <%def tid = UUID.randomUUID().toString()%>
+
         <script>
+            //save UUID to JS variable for easy access
+            var transactionId = "<%=tid%>"
+
             function toggleAccordions() {
                 $("ul.accordion").each(function() {
                     var isDown = $(this).data("tox21_isExpanded");
@@ -64,12 +70,107 @@
             function regenerateNetwork() {
                 $('#regen').submit();
             }
+
+            //Toggle display of user-submitted items
+            var showingSubmittedItems = false;
+            function showSubmittedItems() {
+                if(showingSubmittedItems == false) {    //display items
+                    $('#submittedItems').show();
+                    $('#showSubmittedItemsButton').text("Hide Submitted Items");
+                    showingSubmittedItems = true;
+                }
+                else {                                  //hide items
+                    $('#submittedItems').hide();
+                    $('#showSubmittedItemsButton').text("Show Submitted Items");
+                    showingSubmittedItems = false;
+                }
+            }
+
+            var isPerformingEnrichment = false;
+            function resubmitCasrns() {
+                var textTest = "${casrnResults}";
+                console.log(textTest);
+                var aR = "${annoResults}";
+                console.log(aR);
+                document.getElementById("analysisType").value = "CASRNSReenrich";
+                document.getElementById("transactionId").value = transactionId;
+                document.getElementById("nodeCutoff").value = $("#nodeCutoff")
+                $('#main').hide();
+                $('#wait').show();
+                isPerformingEnrichment = true;
+                $('#enrichForm').submit();
+            }
+
+            //Periodically refresh the waiting page to update queue position and transaction status
+            setInterval(function(){
+                if (isPerformingEnrichment === true) {
+                    $('#waittable').load("getQueueData?tid="+transactionId+" #waittable");
+                    $('#submittedItemsList').load("getQueueData?tid="+transactionId+" #submittedItemsList");
+                }
+            }, 2000);
+
         </script>
 
         <title>Enrichment Results</title>
     </head>
 
     <body>
+
+    <%-- Waiting page for re-enrichment, hidden by default until user resubmits --%>
+    <div id="wait" style="display: none">
+        <br />
+        <h3>Enrichment in Progress...</h3>
+        <p>You will be directed to the results page shortly. Please do not use your browser's back button.</p>
+        <br />
+
+        <div id="waittable" class="table-scroll">
+            <table class="hover">
+                <thead>
+                    <tr>
+                    <th width="150">Transaction ID</th>
+                    <th width="150">Queue Position</th>
+                    <th width="150">Status</th>
+                    <th width="150">Enrichment Analysis Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>${tid}</td>
+                    <td>${pos}</td>
+                    <td>
+                        <g:if test="${pos >= 5}">
+                            Waiting
+                        </g:if>
+                        <g:elseif test="${pos < 5 && pos >= 0 && success == "waiting..."}">
+                            Running
+                        </g:elseif>
+                        <g:elseif test="${pos < 5 && pos >= 0 && success != "waiting..."}">
+                            Complete
+                        </g:elseif>
+                        <g:else>
+                            Initializing
+                        </g:else>
+                    </td>
+                    <td>${type}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <td>
+        <br />
+        <div class="row">
+            <button class="button" type="button" id="showSubmittedItemsButton" onclick="showSubmittedItems()">Show Submitted Items</button>
+            <div id="submittedItems" style="display: none">
+                <div id="submittedItemsList" style="white-space: pre-line">
+                    ${items}
+                </div>
+            </div>
+        </div>      
+        <br />
+    </div>
+
+    <%-- Main results page, shown by default --%>
+    <div id="main">
         <br />
         <h3>Enrichment Results</h3>
 
@@ -114,7 +215,7 @@
         </g:each>
         </ul>
 
-        <g:if test="${resultSetModel.enrichAnalysisType == 'SMILES'}">
+        <g:if test="${resultSetModel.enrichAnalysisType == 'SMILES' || resultSetModel.enrichAnalysisType == 'SMILESSimilarity'}">
             SMILE input with no results: <br />
             <g:each var="smileNoResults" in="${resultSetModel.smilesNoResults}">
                 ${smileNoResults}<br />
@@ -217,45 +318,8 @@
         <g:link uri="/analysisResults/downloadFile?resultSet=${resultSetModel.resultSet}&filename=tox21enricher.zip">Download Full Result Set (.zip)</g:link>
         <br />
 
-        
-        <%-- for SMILES, show table --%> <%--
-        <g:if test="${resultSetModel.enrichAnalysisType == 'SMILES' && resultSetModel.smilesWithResults != []}">
-            <div class="table-scroll"> <!-- to allow table to horizontaly scroll if content overflows-->
-                <table class="hover">
-                    <thead>
-                        <tr>
-                        <th width="150">Select</th>
-                        <th>Chemical Structure</th>
-                        <th width="150">Name</th>
-                        <th width="150">Structural Similarity (Tanimoto)</th>
-                        <th width="150">Biological Similarity (Pearson)</th>
-                        <th width="150">SMILES</th>
-                        <th width="150">CASRN</th>
-                        <th width="150">Mismatch Structure Alert</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <g:each var="smileWithResults" in="${resultSetModel.smilesWithResults}">
-                            <tr>
-                            <td><input type="checkbox" name="selectSmile" value="selectSmile" id="selectSmile" required></td>
-                            <td>[CHEMICAL STRUCTURE IMAGE GOES HERE]</td>
-                            <td>[NAME]</td>
-                            <td>[0.5]</td>
-                            <td>[0.5]</td>
-                            <td>${smileWithResults}</td>
-                            <td>[CASRN]</td>
-                            <td>X</td>
-                            </tr>
-                        </g:each>
-                    </tbody>
-                </table>
-            </div>
-            <br />
-            <g:link class="button">Re-Enrich Selected Chemicals</g:link>
-        </g:if> --%>
-
-<%--changing node cutoff to generate a new network--%>
-<%-- Only show option to view heatmaps & network if we actually generated them --%>
+    <%--changing node cutoff to generate a new network--%>
+    <%-- Only show option to view heatmaps & network if we actually generated them --%>
     <g:if test="${resultSetModel.images.size() > 0}"> 
         <div class="row">
             <div class="columns">
@@ -291,7 +355,75 @@
             </div>
         </div>
     </g:if>
-    
+
+        <%-- for SMILES or InChI, show table --%>
+        <g:if test="${(resultSetModel.enrichAnalysisType == 'SMILES' && resultSetModel.smilesWithResults != []) 
+        || (resultSetModel.enrichAnalysisType == 'SMILESSimilarity' && resultSetModel.smilesWithResults != [])
+        || (resultSetModel.enrichAnalysisType == 'InChI' && resultSetModel.smilesWithResults != [])
+        || (resultSetModel.enrichAnalysisType == 'InChISimilarity' && resultSetModel.smilesWithResults != [])}">
+        <form action="enrich" method="post" id="enrichForm">
+            <br>
+            <h3>Re-enrich Selected Chemicals</h3>
+            <br>
+            <ul class="accordion" data-accordion data-multi-expand="false" data-allow-all-closed="true">
+                <g:each var="dataSet" in="${casrnResults}">
+                    <li class="accordion-item" data-accordion-item>
+                        <a class="accordion-title">Set: ${dataSet.key}</a>
+                            <div class="accordion-content" data-tab-content>
+                                <div class="row">
+                                    <div class="columns">
+                                        <div class="table-scroll"> <!-- to allow table to horizontaly scroll if content overflows-->
+                                            <table class="hover">
+                                                <input style="display: none" type="text" name="setName" id="setName" value="${"{\"#"+dataSet.key+"\":\""+dataSet.value.id+"\"}"}" />
+                                                <thead>
+                                                    <tr>
+                                                    <th width="150">Select</th>
+                                                    <!-- <th width="150">Chemical Structure</th> -->
+                                                    <th width="150">Name</th>
+                                                    <th width="150">Structural Similarity (Tanimoto)</th>
+                                                    <!-- <th width="150">Biological Similarity (Pearson)</th> -->
+                                                    <th width="150">CASRN</th>
+                                                    <!-- <th width="150">Mismatch Structure Alert</th> -->
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <g:each var="casrn" in="${dataSet.value}">
+                                                        <tr>
+                                                        <td><input type="checkbox" name="CASRNSChecked" id="CASRNSChecked" value="${casrn.id}" checked></td>
+                                                        <!-- <td>[CHEMICAL STRUCTURE IMAGE GOES HERE]</td> -->
+                                                        <td>${casrn.name}</td>
+                                                        <td>${casrn.sim}</td>
+                                                        <!-- <td>[not implemented yet]</td> -->
+                                                        <td id="casrnToReenrich">${casrn.id}</td>
+                                                        <!-- <td>[not implemented yet]</td> -->
+                                                        </tr>
+                                                    </g:each>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </g:each>
+            </ul>
+            <br />
+
+            <input type="button" class="button" name="reenrich" value="Re-Enrich Selected Chemicals" onclick="resubmitCasrns()" />                
+            <input type="hidden" name="analysisType" id="analysisType" value="CASRNSReenrich" />
+            <input type="hidden" name="transactionId" id="transactionId" value="none" />
+            <input type="hidden" name="nodeCutoff" id="nodeCutoff" value="${nodeCutoff}" />
+            <input type="hidden" name="CASRNBox" id="CASRNBox" value = "" />
+            <g:each var="annoSet" in="${annoResults}"> 
+                <input type="hidden" name="${annoSet.key}" id="${annoSet.key}" value="${annoSet.value}" />
+            </g:each>
+
+        </form>
+        </g:if> 
+
+
+    </div>
+
     <script type="text/javascript">
         $(document).foundation();
     </script>

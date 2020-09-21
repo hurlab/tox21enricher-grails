@@ -376,7 +376,8 @@ println "Terms string placeholder: $termsStringPlaceholder"
             def rgb = Eval.me(color)
             def rgbCss = "rgb(" + rgb[0] + ", " + rgb[1] + ", " + rgb[2] + ")"
             println "edge color: $rgbCss"
-            map.elements.edges << [from: p.name1 + "@" + p.class1, to: p.name2 + "@" + p.class2, jaccard: p.jaccardIndex, color: rgbCss]
+            def edgeUuid = UUID.randomUUID().toString()
+            map.elements.edges << [from: p.name1 + "@" + p.class1, to: p.name2 + "@" + p.class2, jaccard: p.jaccardIndex, color: rgbCss, id: edgeUuid]
         }
         println(JsonOutput.prettyPrint(JsonOutput.toJson(map)))
         //network JSON file in appropriate Output directory and for appropriate network

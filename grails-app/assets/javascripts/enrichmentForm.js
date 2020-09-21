@@ -14,13 +14,13 @@ function renderCheckboxes() {
                 name = stringMap[annotype];
             }
             if (record.annoclassname == "CTD_GO_BP") {
-                checkboxGroups[name].push(["GO BIOP <sub>Very Slow</sub>", record.annoGroovyClassName, record.annoDesc, false]);
+                checkboxGroups[name].push(["GO BIOP <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
             }
             else if (record.annoclassname == "ZERO_CLASS") {
                 //this is just here so ZERO_CLASS isn't populated as a checkbox option
             }
             else {
-                checkboxGroups[name].push([record.annoclassname, record.annoGroovyClassName, record.annoDesc]);
+                checkboxGroups[name].push([record.annoclassname, record.annogroovyclassname, record.annodesc]);
             }
         }
 

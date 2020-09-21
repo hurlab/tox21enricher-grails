@@ -102,7 +102,7 @@
             </table>
         </div>
         <br />
-        <div>
+        <div class="row">
             <button class="button" type="button" id="showSubmittedItemsButton" onclick="showSubmittedItems()">Show Submitted Items</button>
             <div id="submittedItems" style="display: none">
                 <div id="submittedItemsList" style="white-space: pre-line">

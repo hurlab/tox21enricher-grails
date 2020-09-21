@@ -19,7 +19,7 @@ class DirectoryCompressionService {
     }
 
     public static void addDirToZipArchive(ZipOutputStream zos, File fileToZip, String parentDirectoryName, String ignore) throws Exception {
-        if (fileToZip == null || !fileToZip.exists()) {
+        if (fileToZip == null || !fileToZip.exists() || fileToZip.getName() == "CASRNs.txt") { //don't add the temporary casrns zip file used for re-enrichment
             return;
         }
 

@@ -68,14 +68,15 @@
                     <div style="background-color:rgb(${classColors[annoClass][0]}, ${classColors[annoClass][1]}, ${classColors[annoClass][2]})">${annoClass}</div>
                 </g:if>
             </g:each>
-            <%-- Venn Diagram for edges --%>
-            <div id="venn"></div>
+            
         </div>
         <div id="mynetwork" class="small-9 column"></div>
     </div>
 </g:form>
 
-
+<%-- Venn Diagram for edges --%>
+            <div id="vennTitle"></div>
+            <div id="venn"></div>
 
 <script type="text/javascript">
     var resultSetId = "${resultSet}";
@@ -126,44 +127,83 @@
 
             //click nodes & edges
             network.on("click", function (params) {
-                params.event = "[original event]";
-                var ids = params.nodes;
-                //$("#venn").text(params.edges)
+                if (params.nodes.length > 0) { //if node is clicked
+                    params.event = "[original event]";
+                    var ids = params.nodes;
+                    var clickedNodes = nodes.get(ids);
+                    var clickedNodeUrl = clickedNodes[0].url;
+                    //console.log('clicked nodes:', clickedNodes);
+                    //console.log('clicked node url:', clickedNodeUrl);
+                    //console.log('click event, getNodeAt returns: ' + this.getNodeAt(params.pointer.DOM));
+                    if (clickedNodeUrl != null) {
+                        document.getElementById('eventSpan').innerHTML = '<p>More information about ' + clickedNodes[0].label + ' <a href="' + clickedNodeUrl + '" target="_blank">here</a>.</p>';
+                    }
+                    else {
+                        document.getElementById('eventSpan').innerHTML = 'Click a node to see more details.';
+                        //console.log('Node url is null')
+                    }
 
-                var clickedNodes = nodes.get(ids);
-                var clickedNodeUrl = clickedNodes[0].url;
-                console.log('clicked nodes:', clickedNodes);
-                console.log('clicked node url:', clickedNodeUrl);
-                console.log('click event, getNodeAt returns: ' + this.getNodeAt(params.pointer.DOM));
-                if (clickedNodeUrl != null) {
-                    document.getElementById('eventSpan').innerHTML = '<p>More information about ' + clickedNodes[0].label + ' <a href="' + clickedNodeUrl + '" target="_blank">here</a>.</p>';
-                }
-                else
-                    document.getElementById('eventSpan').innerHTML = 'Click a node to see more details.';
-                    //console.log('Node url is null')
-/*
-                let myConfig = {
-                    type: "venn",
-                    series: [
-                        {
-                        values: [100],
-                        join: [15]
-                        },
-                        {
-                        values: [100],
-                        join: [15]
+                    //$("#venn").hide();
+                    //$("#vennTitle").text('');
+                } 
+                /* else if (params.edges.length > 0 && params.nodes.length == 0) { //if edge is clicked
+                    var eids = params.edges;
+                    clickedEdges = edges.get(eids);
+
+                    var fromColor;
+                    var toColor;
+
+                    //get color for from circle
+                    for (let [key,value] of Object.entries(nodes)) {
+                        for (let [dataKey,dataValue] of Object.entries(value)) {
+                            for (let [nodeKey,nodeValue] of Object.entries(dataValue)) {
+                                if (nodeKey == "id" && nodeValue == clickedEdges[0].from) {
+                                    fromColor = dataValue.color;
+                                    console.log("setting color to: " + fromColor)
+                                }
+                                if (nodeKey == "id" && nodeValue == clickedEdges[0].to) {
+                                    toColor = dataValue.color;
+                                    console.log("setting color to: " + toColor)
+                                }
+                                //console.log("--- " + JSON.stringify(dataKey) + " | " + JSON.stringify(dataValue));
+                                //console.log("| " + JSON.stringify(nodeKey) + " | " + JSON.stringify(nodeValue));
+                            }
                         }
-                    ]
-                };
+                    }
 
-                zingchart.render({
-                    id: 'venn',
-                    data: myConfig,
-                });
-*/
+                    let myConfig = {
+                        type: "venn",
+                        plot: {
+                            'value-box': {
+                                text: "%t" 
+                            },
+                            'font-size': 10
+                        },
+                        series: [
+                            {
+                            values: [100],
+                            join: [15],
+                            text: JSON.stringify(clickedEdges[0].from),
+                            'background-color': fromColor
+                            },
+                            {
+                            values: [100],
+                            join: [15],
+                            text: JSON.stringify(clickedEdges[0].to),
+                            'background-color': toColor
+                            }
+                        ]
+                    };
+
+                    zingchart.render({
+                        id: 'venn',
+                        data: myConfig,
+                    });
+
+                    $("#venn").show();
+                    $("#vennTitle").text('Edge: ' + JSON.stringify(clickedEdges[0].from) + ' to ' + JSON.stringify(clickedEdges[0].to));
+                } */
             });
-            
-
         })
     });
 

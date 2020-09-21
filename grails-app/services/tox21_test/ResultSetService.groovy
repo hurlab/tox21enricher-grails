@@ -129,13 +129,67 @@ class ResultSetService {
         this.analysisType = analysisType
     }
 
+    def getCasrnResults(resultSet, nodeCutoff){
+        def fh
+        def lines
+        try {
+            fh = new File(storageProperties.getBaseDir() + "${resultSet}/CASRNs.txt")
+            lines = fh.readLines()
+        }
+        catch (FileNotFoundException e) {
+            return [Set1:[id: "none", name: "none", sim: 0.0]]
+        }
+        def inputSetsMap = [:]
+        def currentSet
+        lines.each { String line ->  //TODO: add number
+            //println "line: $line"
+            def inputSetCasrns = []
+            if (line.startsWith("#")) {
+                line = line.substring(1) //remove # symbol from set name
+                currentSet = line
+                inputSetsMap.put(line,[])
+            }
+            else if (line.startsWith("%")) {
+                //ignore here                
+            }
+            else {
+                def tmp = line.split("\t")
+                inputSetsMap.getAt("${currentSet}").add( [id: tmp[0], name: tmp[1], sim: tmp[2]] )
+            }
+        }
+        println ">>> INPUT SETS MAP >>> " + inputSetsMap
+        return inputSetsMap
+    }
+
+    def getAnnoResults(resultSet){
+        def fh
+        def lines
+        try {
+            fh = new File(storageProperties.getBaseDir() + "${resultSet}/CASRNs.txt")
+            lines = fh.readLines()
+        }
+        catch (FileNotFoundException e) {
+            return [none:"none"]
+        }
+        def annoMap = [:]
+        lines.each { String line ->  //TODO: add number
+            if (line.startsWith("%")) {
+                line = line.substring(1) //remove # symbol from set name
+                def tmp = line.split("\t") //split to get anno name and condition
+                annoMap.put(tmp[0],tmp[1])
+            }
+        }
+        println ">>> ANNO MAP >>> " + annoMap
+        return annoMap
+    }
+
     def getInputSets(resultSet, numSets, network, nodeCutoff) {
         println numSets
         println network
         def fh
         if (network == 1) {
             fh = new File(storageProperties.getBaseDir() + "${resultSet}/gct/Chart_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.ForNet") 
-	}
+	    }
         else if (network == 2)
             fh = new File(storageProperties.getBaseDir() + "${resultSet}/gct/Cluster_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.ForNet")
         else {
@@ -163,24 +217,7 @@ class ResultSetService {
             lineSplit = line.split("\t") as List  //split as List so we can add an element to it if the last column had "\t" and got trimmed off (thus, one too short)
             println "lineSplit: $lineSplit"
 
-            //I think we don't have to hardcode this
-            //if (lineSplit.size() == 5) {
-            //    lineSplit << ""  //add("") didn't work here for some reason; left shift also didn't work -> add/leftShift didn't work b/c .split() result type is Array not List or ArrayList; it should work now
-            //    println "lineSplit $lineSplit"
-            //}
-            //else if (lineSplit.size() == 4) {  //need to figure out how this happens, but I think it's what's causing PAH to get more than what should be added
-            //    lineSplit << ""
-            //    lineSplit << ""
-            //    println "lineSplit $lineSplit"
-            //}
-
-
-
-
-            
-            //println "lineSplitList.size(): ${lineSplitList.size()}"
-
-            if (processedFirstLine == true) {           // add buffer each line so it can be read correctly if too short
+            if (processedFirstLine == true) {           // add buffer each line below the first line so it can be read correctly if too short
                 for (int j=lineSplit.size(); j < maxSetsNumber; j++) {
                     lineSplit << ""
                 }
