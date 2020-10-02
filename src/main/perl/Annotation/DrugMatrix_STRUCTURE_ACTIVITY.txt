@@ -1,0 +1,2939 @@
+115103-85-0	Leukotriene receptor antagonist
+26921-17-5	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+51012-32-9	Dopamine receptor antagonist (D)
+8013-40-9	Adenosine receptor antagonist, xanthine
+108912-14-7	NSAID, COX-1/2, heterogenous
+76824-35-6	Histamine receptor (H2) antagonist
+184036-34-8	Endothelin receptor antagonist
+8055-10-5	Tubulin binder
+29442-58-8	GABA-A agonist, benzodiazepin
+143538-27-6	Leukotriene receptor antagonist
+101-77-9	Toxicant, DNA alkylator
+102625-70-7	H+/K+-ATPase inhibitor
+37517-30-9	Adrenoceptor-beta antagonist
+102676-47-1	Estrogen antagonist, aromatase inhibitor
+52485-79-7	Opioid receptor mixed agonist/antagonist
+1492-18-8	Antifolate rescue
+1508-75-4	Muscarinic acetylcoline receptor (M) antagonist
+108912-17-0	NSAID, COX-1/2, heterogenous
+115972-78-6	Ca++ channel (L-Type) blocker, 1,4-DHP
+52225-20-4	Vitamin E analog
+13392-28-4	Viral M2 protein inhibitor
+17754-44-8	Toxicant, mitochondrial respiration inhibitor, uncouples Oxidative phosphorylation
+191866-32-7	Squalene synthetase inhibitor
+36637-19-1	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+114580-45-9	DNA-alkylator
+125-64-4	GABA-A agonist, barbiturate
+93129-94-3	Vitamin D receptor agonist
+80214-83-1	Bacterial ribosomal (50S) function inhibitor, macrolide
+69-14-7	Toxicant, phospholipidosis inducer
+15468-34-5	DNA-alkylator
+6533-00-2	Progesterone receptor agonist
+153559-49-0	Retinoic acid receptor (RXR) agonist
+466-06-8	Na+/K+-ATPase inhibitor
+59-92-7	Dopamine receptor (D) agonist
+90438-83-8	Bacterial ribosomal (30S) function inhibitor, tetracycline
+37091-65-9	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+103295-65-4	PDE inhibitor, non-specific, xanthine
+15307-79-6	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+152323-98-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+608-93-5	Toxicant
+70-51-9	Iron chelator, HIF-1alpha stablizer
+3810-74-0	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+93957-55-2	HMG-CoA reductase inhibitors
+115436-72-1	Farnesyl-PP synthase inhibitor
+108437-28-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+162652-95-1	Tubulin binder, vinca
+154-93-8	DNA damaging, free oxygen radical generator, nitrosourea
+88873-75-0	NSAID, COX-1, heterogeneous
+121-19-7	Toxicant, heavy metal
+630-56-8	Progesterone receptor agonist
+122111-03-9	DNA-Polymerase Inhibitor, pyrimidine nucleoside
+85441-61-8	Angiotensin converting enzyme (ACE) inhibitor
+111974-72-2	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+75695-93-1	Ca++ channel (L-Type) blocker, 1,4-DHP
+34183-22-7	Voltage gated Na+ channel blocker
+110-00-9	Toxicant, DNA damaging
+61-72-3	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+49720-72-1	Tubulin binder, colchicinoid
+53902-12-8	Unknown mechanism, inflammation mediator/ blocker
+101152-94-7	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+141-01-5	Vitamin/mineral, miscellaneous
+22232-80-0	Retinoic acid receptor (RAR) agonist
+87691-92-7	5HT1 agonist
+74011-58-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+152-04-5	Mineralocorticoid receptor agonist
+71963-77-4	DNA damaging, free oxygen radical generator, antiparasitic
+145599-86-6	HMG-CoA reductase inhibitors
+5875-06-9	Voltage gated Na+ channel blocker, p-aminobenzoate
+51-57-0	Monoamine Re-uptake (NET) inhibitor
+144702-17-0	Angiotensin receptor AT1 antagonist
+146961-76-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+28981-97-7	GABA-A agonist, benzodiazepin, medium acting
+142217-69-4	Viral DNA-polymerase inhibitor
+280105-85-3	Bile acid transporter (ileal) inhibitor
+114798-26-4	Angiotensin receptor AT1 antagonist
+51274-83-0	Imidazoline receptor agonist
+41294-56-8	Vitamin D receptor agonist
+95847-70-4	5HT1 agonist
+72803-02-2	Ca++ channel (L-Type) blocker, 1,4-DHP
+152658-17-8	Opioid receptor agonist
+119514-66-8	Histamine receptor (H1) antagonist
+131-17-9	Toxicant
+98079-51-7	Bacterial DNA gyrase inhibitor, fluoroquinolone
+1622-61-3	GABA-A agonist, benzodiazepin, long acting
+167354-40-7	Multidrug resistant pump inhibitor
+299-42-3	Adrenoceptor agonist
+101053-01-4	Monoamine Re-uptake (DAT) inhibitor
+66887-96-5	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+73-78-9	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+2353-33-5	DNA methyltransferase inhibitor
+2922-20-5	Adrenoceptor-beta2 agonist
+37661-08-8	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+67-20-9	DNA damaging, free oxygen radical generator, antiparasitic
+66-79-5	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+20830-81-3	DNA intercalator, anthracycline
+1402-99-9	Bacterial Cell wall biosynthesis inhibitor
+15307-86-5	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+67190-19-6	Gonadotropin-releasing hormone (GnRH) receptor agonist
+138661-03-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+129299-88-3	Anti-emetic, 5HT3 antagonist
+139481-59-7	Angiotensin receptor AT1 antagonist
+125133-74-6	Protein-serine/threonine kinase (PKC) inhibitor
+123040-16-4	Anti-emetic, 5HT3 antagonist
+135-23-9	Histamine receptor (H1) antagonist, hepatocarcinogen
+2011-67-8	GABA-A agonist, benzodiazepin, long acting
+59733-86-7	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+111490-36-9	DNA-alkylator, platin
+64-17-5	Alcohol dehydrogenase inhibitor
+208848-19-5	Protease (serine/threonine) inhibitor
+166432-28-6	Ca++ channel (L-Type) blocker, 1,4-DHP
+30484-77-6	Ca++ channel (T-Type) blocker
+99047-26-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+147-94-4	DNA-Polymerase Inhibitor, pyrimidine nucleoside
+14611-52-0	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+83-98-7	Monoamine Re-uptake (NET) inhibitor
+147-24-0	Histamine receptor (H1) antagonist, diphenylamine
+147238-98-0	DNA topoisomerase II inhibitor
+321-98-2	Adrenoceptor agonist
+59388-44-2	PDE inhibitor, non-specific, xanthine
+10118-90-8	Bacterial ribosomal (30S) function inhibitor, tetracycline
+7082-21-5	Ca++ channel (L-Type) blocker
+101-31-5	Muscarinic acetylcoline receptor (M) antagonist
+94489-23-3	H2O2 radical scavenger
+134234-12-1	Glutamate receptor (NMDA) antagonist
+123-77-3	Toxicant, free oxygen radical generator
+53003-10-4	Impairs cell membrane function
+1951-25-3	K+ (inward), & KATP (SUR2) channel blocker, adrenoceptor antagonist, monoamine transporter inhibitor
+390-28-3	Adrenoceptor-alpha1 agonist, oxymetazoline
+174636-32-9	Neurokinin 3 receptor antagonist
+59-66-5	Carbonic Anhydrase Inhibitor
+51481-61-9	Histamine receptor (H2) antagonist
+446-72-0	Phytoestrogen
+77-02-1	GABA-A agonist, barbiturate
+20554-84-1	Unknown mechanism, inflammation mediator/ blocker
+269062-93-3	Impairs cell membrane function
+4199-10-4	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+10592-13-9	Bacterial ribosomal (30S) function inhibitor, tetracycline
+38194-50-2	NSAID, COX-1, indomethacin like
+160738-57-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+65646-68-6	Increase cellular ceramide level
+79307-93-0	Histamine receptor (H1) antagonist
+560-53-2	Na+/K+-ATPase inhibitor
+1400-61-9	Impairs cell membrane function, polyene antifungal antibiotic
+23541-50-6	DNA intercalator, anthracycline
+122852-42-0	Anti-emetic, 5HT3 antagonist
+75607-67-9	DNA-Polymerase Inhibitor, purine nucleoside
+36322-90-4	NSAID, COX-1/2, oxicam
+467-43-6	GABA-A agonist, barbiturate
+87234-24-0	NSAID, COX-1/2, oxicam
+2051-24-3	Toxicant, free oxygen radical generator
+102908-59-8	5HT1 agonist
+71950-35-1	RNA polymerase inhibitor
+50-76-0	DNA intercalator
+109889-09-0	Anti-emetic, 5HT3 antagonist
+2192-20-3	Histamine receptor (H1) antagonist
+157810-81-6	Protease (HIV-1) inhibitor
+64-86-8	Tubulin binder, colchicinoid
+122003-11-6	H2O2 radical scavenger
+52-49-3	Muscarinic acetylcoline receptor (M1) antagonist
+62996-74-1	Protein-serine/threonine kinase (PKC) inhibitor
+968-81-0	K+ Channel (KATP-SUR1) blocker, antidiabetic
+123-03-5	Impairs cell membrane function
+50-07-7	DNA-alkylator
+36945-03-6	Ergot alkaloid
+89778-27-8	Estrogen receptor antagonist/agonist, tissue specific
+75067-66-2	Dopamine receptor antagonist (D), butyrophenone
+113045-82-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+167256-08-8	Endothelin receptor antagonist
+1786-81-8	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+285983-48-4	Protein-serine/threonine kinase (p38) inhibitor
+546141-08-6	Toxicant, free radical generator, induces methemoglobinemia
+138786-67-1	H+/K+-ATPase inhibitor
+28797-61-7	Muscarinic acetylcoline receptor (M) antagonist
+99-57-0	Toxicant, DNA alkylator
+154644-14-1	H+/K+-ATPase inhibitor
+89786-04-9	Bacterial beta-lactamase inhibitor
+21187-98-4	K+ Channel (KATP-SUR1) blocker, antidiabetic
+42399-41-7	Ca++ channel (L-Type) blocker
+36894-69-6	Adrenoceptor-beta antagonist
+91421-43-1	DNA topoisomerase I inhibitor
+156-51-4	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+109552-15-0	Farnesyl-PP synthase inhibitor
+121032-29-9	DNA-Polymerase Inhibitor, purine nucleoside
+536-33-4	Mycolic acid biosynthesis inhibitor
+107758-27-0	Adrenoceptor-beta3 agonist
+19767-45-4	H2O2 radical scavenger
+24477-37-0	K+ Channel (KATP-SUR1) blocker, antidiabetic
+129731-10-8	Estrogen antagonist, aromatase inhibitor
+3176-03-2	Opioid receptor agonist
+54-31-9	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+36587-93-6	Glutamate receptor (NMDA) antagonist
+119-04-0	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+157126-18-6	Squalene synthetase inhibitor
+76706-55-3	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+636-54-4	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+19875-60-6	Ergot alkaloid
+1421-86-9	Glycine receptor antagonist
+303-53-7	5HT2 antagonist
+1034-82-8	K+ Channel (KATP-SUR1) blocker, antidiabetic
+90581-31-0	Bacterial ribosomal (50S) function inhibitor, macrolide
+31868-18-5	GABA-A agonist, benzodiazepin
+13614-98-7	Bacterial ribosomal (30S) function inhibitor, tetracycline
+105981-50-8	5HT1 agonist
+71195-58-9	Opioid receptor (mu) agonist
+555-30-6	Adrenoceptor-alpha2 agonist, aromatic L-amino acid decarboxylase inhibitor
+465-65-6	Opioid receptor antagonist
+3572-43-8	Guanylate cyclase inhibitor
+523-54-6	Dopamine receptor antagonist (D), phenothiazine
+69975-86-6	PDE inhibitor, non-specific, xanthine
+645-43-2	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+40391-99-9	Farnesyl-PP synthase inhibitor
+83881-52-1	Histamine receptor (H1) antagonist
+9045-66-3	Insulin receptor agonist
+51-75-2	DNA-alkylator, nitrogen mustard
+518-82-1	Toxicant
+4222-79-1	Progesterone receptor agonist
+54-71-7	Muscarinic acetylcoline receptor (M) agonist
+204519-64-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+9041-93-4	DNA damaging, free oxygen radical generator
+191732-72-6	Unknown mechanism, inhibit cytokine production
+112245-32-6	DNA intercalator
+57-66-9	Organic anion transporter inhibitor
+6108-05-0	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+151767-02-1	Leukotriene receptor antagonist
+15301-69-6	Unknown mechanism
+106266-06-2	5HT2/D4/D2 antagonist
+30751-05-4	Unknown mechanism, inflammation mediator/ blocker
+6875-10-1	Na+/K+-ATPase inhibitor
+101345-71-5	Opioid receptor (mu) agonist
+315-30-0	Inhibits pyrimidine /purine metabolism, xanthine oxidase inhibitor
+123948-87-8	DNA topoisomerase I inhibitor
+123040-69-7	Anti-emetic, 5HT3 antagonist
+79944-58-4	Adrenoceptor-alpha2 antagonist
+18968-99-5	Monoamine Re-uptake (DAT) inhibitor
+123258-84-4	Anti-emetic, 5HT3 antagonist
+192755-52-5	Interleukin converting enzyme (ICE) inhibitor
+532-03-6	Unknown mechanism
+150915-41-6	5HT1 agonist
+13093-88-4	Dopamine receptor antagonist (D), phenothiazine
+50-63-5	Toxicant
+24659-79-8	Tubulin binder
+152-02-3	Opioid receptor mixed agonist/antagonist
+128794-94-5	Inhibits pyrimidine /purine metabolism, IMP dehydrogenase inhibitor
+302-01-2	Toxicant, DNA alkylator
+26833-85-2	Cell-cycle inhibitor, inhibits G1/S transition, induce apotosis
+80573-04-2	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, aminosalicylic acid
+27912-14-7	Adrenoceptor-beta antagonist
+83536-10-1	Adrenoceptor-beta2 agonist
+66711-21-5	Imidazoline receptor agonist
+9045-67-4	Insulin receptor agonist
+54-11-5	Nicotinic acetylcholine receptor agonist
+111358-88-4	Protein-tyrosine kinase (Flt3) inhibitor
+59-01-8	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+136019-12-0	Cyclodextrin
+135-88-6	Toxicant
+14028-44-5	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+43200-80-2	GABA-A agonist, short acting
+135910-20-2	HMG-CoA reductase inhibitors
+530-78-9	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+637-07-0	PPAR alpha agonist, fibrate ester
+210353-53-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+26807-65-8	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+26159-34-2	NSAID, COX-1, 6-Methoxy-naphthalenyl-acetic acid
+81161-17-3	Adrenoceptor-beta1 antagonist, p-phenoxypropanoamine
+93413-69-5	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+113045-81-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+134523-05-8	HMG-CoA reductase inhibitors
+10418-03-8	Androgen receptor agonist
+52214-84-3	PPAR alpha agonist, fibric acid
+150378-17-9	Protease (HIV-1) inhibitor
+11024-24-1	Na+/K+-ATPase inhibitor
+3506-09-0	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+137-09-7	Toxicant
+66794-74-9	Voltage gated Na+ channel blocker
+111011-76-8	Ca++ channel (L-Type) blocker, 1,4-DHP
+23142-01-0	Sigma receptor modulator
+59293-82-2	Sterol 14-demethylase inhibitor, fluconazole like
+7712-50-7	Voltage gated Na+ channel blocker, lipophylic amine
+124083-14-3	Carnitine palmitoyltransferase inhibitor
+120511-73-1	Estrogen antagonist, aromatase inhibitor
+127299-93-8	Adrenoceptor-beta3 agonist
+166981-11-9	Toxicant, DNA damaging
+27848-84-6	Ergot alkaloid
+29122-68-7	Adrenoceptor-beta1 antagonist, p-phenoxypropanoamine
+145216-43-9	Angiotensin receptor AT1 antagonist
+33067-94-6	Imidazoline receptor agonist
+134-03-2	H2O2 radical scavenger
+302-79-4	Retinoic acid receptor (RAR) agonist
+428-07-9	Muscarinic acetylcoline receptor (M) antagonist
+35107-70-1	GABA-A agonist, barbiturate
+5929-09-9	Nicotinic acetylcholine receptor antagonist
+56-53-1	Estrogen receptor agonist
+352513-83-8	Protein-serine/threonine kinase (p38) inhibitor
+60-31-1	Muscarinic acetylcoline receptor (M) agonist
+90729-43-4	Histamine receptor (H1) antagonist, diphenylamine
+84625-61-6	Sterol 14-demethylase inhibitor, ketoconazole like
+1404-19-9	Toxicant, mitochondrial respiration inhibitor, inhibits ATP-synthase
+14252-80-3	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+77191-36-7	PDE inhibitor, non-specific, xanthine
+105784-61-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+95549-92-1	Adrenoceptor-alpha1 antagonist, zosin
+17692-51-2	Ergot alkaloid
+280744-09-4	Glycogen synthase kinase-3 (GSK-3) inhibitor
+508-77-0	Na+/K+-ATPase inhibitor
+83-12-5	Vitamin-K-epoxide reductase inhibitor
+89391-50-4	Aldehyde reductase inhibitor
+54527-84-3	Ca++ channel (L-Type) blocker, 1,4-DHP
+302-22-7	Androgen receptor antagonist, steroid
+108030-77-9	DNA-alkylator
+75330-75-5	HMG-CoA reductase inhibitors, non-aromatic
+146939-27-7	5HT2/D4/D2 antagonist
+153808-85-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+911-45-5	Estrogen receptor antagonist/agonist, tissue specific
+78628-80-5	Squalene epoxidase inhibitor
+64840-90-0	Sigma receptor modulator
+3093-35-4	Glucocorticoid receptor agonist
+55779-06-1	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+84371-65-3	Progesterone receptor antagonist
+10026-11-6	Toxicant, transition metal
+34330-64-8	Toxicant, heavy metal
+1518-86-1	Monoamine Re-uptake (NET) inhibitor
+470-37-1	Na+/K+-ATPase inhibitor
+87233-61-2	Histamine receptor (H1) antagonist
+47468-70-2	Mineralocorticoid receptor agonist
+5370-01-4	Voltage gated Na+ channel blocker, lipophylic amine
+75-25-2	Toxicant
+138402-11-6	Angiotensin receptor AT1 antagonist
+127182-67-6	Bacterial beta-lactamase inhibitor
+6621-47-2	Carnitine palmitoyltransferase inhibitor
+2323-36-6	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+486-12-4	Histamine receptor (H1) antagonist
+138452-21-8	Histamine receptor (H1) antagonist
+22336-84-1	Ergot alkaloid
+125-33-7	GABA-A agonist, barbiturate
+52-01-7	Mineralocorticoid receptor antagonist
+143693-03-2	Leukotriene receptor antagonist
+10540-29-1	Estrogen receptor antagonist/agonist, tissue specific
+112809-51-5	Estrogen antagonist, aromatase inhibitor
+378-44-9	Glucocorticoid receptor agonist
+8023-22-1	Toxicant, insecticide, cholinesterase inhibitor
+192927-63-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+4774-24-7	Anti-emetic, 5HT3 antagonist
+222723-55-9	Toxicant, Ah receptor agonist, DNA alkylator
+83-79-4	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+89781-55-5	Antiinflammatory, thromboxane-A synthase inhibitor
+95828-55-0	Toxicant, insecticide, cholinesterase inhibitor
+196809-22-0	PPAR gamma agonist
+132875-62-8	Opioid receptor (mu) agonist
+62571-86-2	Angiotensin converting enzyme (ACE) inhibitor
+137-53-1	T3 receptor agonist
+131322-37-7	5HT4 agonist
+59729-32-7	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+116143-31-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+2921-88-2	Toxicant, insecticide, cholinesterase inhibitor
+76-25-5	Glucocorticoid receptor agonist
+145969-31-9	5HT2 antagonist
+95-94-3	Toxicant
+554-57-4	Carbonic Anhydrase Inhibitor
+102-76-1	Unknown mechanism
+224785-90-4	PDE5 inhibitor
+191592-35-5	5HT2 antagonist
+107052-56-2	Ergot alkaloid
+139340-56-0	Lipoxygenase inhibitor
+104060-12-0	Ca++ channel (L-Type) blocker, 1,4-DHP
+70774-25-3	DNA intercalator, anthracycline
+117-08-8	Toxicant
+142116-34-5	PDE inhibitor, non-specific, xanthine
+58-94-6	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+158920-43-5	Organic anion transporter inhibitor
+62-55-5	Toxicant, free radical generator
+103577-45-3	H+/K+-ATPase inhibitor
+96244-68-7	Protease (thiol) inhibitor
+18559-94-9	Adrenoceptor-beta2 agonist
+90-65-3	Toxicant, mycotoxin/plant toxin
+139264-19-0	5HT1 agonist
+144689-24-7	Angiotensin receptor AT1 antagonist
+71-43-2	Toxicant
+23092-17-3	GABA-A agonist, benzodiazepin
+57-22-7	Tubulin binder, vinca
+131739-92-9	Apoptosis inducer, Cyclin-dependent kinase inhibitor
+60-41-3	Glycine receptor antagonist
+92689-49-1	DNA intercalator, anthracycline
+91503-79-6	NSAID, COX-1/2, heterogenous
+396-01-0	Na+ channel (ENaC) inhibitor, distal tubule diuretic
+5743-04-4	Toxicant, heavy metal
+89-25-8	H2O2 radical scavenger
+302962-49-8	Protein-tyrosine kinase (Bcr-Abl) inhibitor
+49625-23-2	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+89796-99-6	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+74667-52-0	Toxicant, mycotoxin/plant toxin
+3092-17-9	Adrenoceptor-alpha1 agonist, oxymetazoline
+51234-28-7	NSAID, COX-1, heterogeneous
+38304-91-5	K+ Channel (KATP-SUR2 ) opener
+546-88-3	Acidifying Agent
+36573-63-4	Na+/K+-ATPase inhibitor
+379-79-3	Ergot alkaloid
+71-63-6	Na+/K+-ATPase inhibitor
+7790-78-5	Toxicant, heavy metal
+131644-83-2	Ca++ channel (L-Type) blocker, 1,4-DHP
+156511-34-1	Protein farnesyl transferase inhibitor
+82571-53-7	Antiinflammatory, thromboxane-A synthase inhibitor
+150821-03-7	Leukotriene receptor antagonist
+54856-23-4	Histamine receptor agonist
+61036-64-4	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+131-13-5	Vitamin-K-epoxide reductase inhibitor
+227619-96-7	Apoptosis inducer
+61318-90-9	Sterol 14-demethylase inhibitor, fluconazole like
+56030-54-7	Opioid receptor (mu) agonist
+4368-28-9	Voltage gated Na+ channel blocker
+339-43-5	K+ Channel (KATP-SUR1) blocker, antidiabetic
+155213-67-5	Protease (HIV-1) inhibitor
+35795-16-5	Adrenoceptor-alpha1 antagonist, zosin
+67-73-2	Glucocorticoid receptor agonist
+132195-37-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+14357-78-9	Opioid receptor antagonist
+34368-04-2	Adrenoceptor-beta1 agonist
+41100-52-1	Glutamate receptor (NMDA) antagonist
+34846-90-7	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+434-03-7	Progesterone receptor agonist
+8027-03-0	Tubulin binder
+603-50-9	Unknown mechanism
+143538-48-1	Leukotriene receptor antagonist
+17321-77-6	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+115575-11-6	Estrogen antagonist, aromatase inhibitor
+389-08-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+86126-06-9	Adrenoceptor-alpha1 antagonist, zosin
+149882-10-0	DNA topoisomerase I inhibitor
+91-84-9	Histamine receptor (H1) antagonist
+1841-19-6	Ca++ channel (T-Type) blocker
+5585-88-6	Sigma receptor modulator
+599-79-1	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+1303-00-0	Toxicant
+97205-34-0	PDE inhibitor, non-specific, xanthine
+96036-03-2	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+181695-72-7	NSAID, COX-2/1, coxib like
+74764-40-2	Ca++ channel blocker
+149845-07-8	Farnesyl-PP synthase inhibitor
+89459-25-6	DNA topoisomerase inhibitor
+128007-31-8	Toxicant, Ah receptor agonist, DNA alkylator
+159652-53-6	Cholinesterase (acetyl) inhibitor, heterogeneous
+143257-98-1	Anti-emetic, 5HT3 antagonist
+78-44-4	GABA-A agonist, barbiturate
+547-44-4	K+ Channel (KATP-SUR1) blocker, antidiabetic
+17560-51-9	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+52-39-1	Mineralocorticoid receptor agonist
+4205-91-8	Adrenoceptor-alpha2 agonist, imidazoline receptor agonist
+106017-08-7	Bacterial DNA gyrase inhibitor, fluoroquinolone
+2043-38-1	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+137-58-6	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+89651-01-4	Ergot alkaloid
+31828-71-4	Voltage gated Na+ channel blocker, lipophylic amine
+29177-84-2	GABA-A agonist, benzodiazepin
+180637-87-0	5HT1 agonist
+67-64-1	Toxicant
+83-43-2	Glucocorticoid receptor agonist
+37932-96-0	Histamine receptor (H1) antagonist
+602-59-5	Toxicant, voltage-gated Na+ channel opener
+24390-14-5	Bacterial ribosomal (30S) function inhibitor, tetracycline
+1867-66-9	Glutamate receptor (NMDA) antagonist
+50-44-2	DNA-Polymerase Inhibitor, thiopurine base
+192329-42-3	Protease (MMP) inhibitor
+56796-20-4	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+5874-97-5	Adrenoceptor agonist
+3833-99-6	Dopamine receptor antagonist (D), phenothiazine
+499-67-2	Voltage gated Na+ channel blocker, p-aminobenzoate
+53776-71-9	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+57801-81-7	GABA-A agonist, benzodiazepin
+128470-16-6	Adrenoceptor-beta agonist
+128312-51-6	Leukotriene receptor antagonist
+364-62-5	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+63-24-1	Binds to hepatic F-actin
+40507-23-1	PDE inhibitor
+36889-15-3	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+140-11-4	Toxicant
+563-47-3	Toxicant
+153190-29-5	H2O2 radical scavenger
+31677-93-7	Monoamine Re-uptake (DAT/NET) inhibitor, adrenoceptor-alpha antagonist
+53885-35-1	Nucleotide receptor P2Y12 antagonist
+122665-70-7	DNA-alkylator, methanesulfonate
+54739-18-3	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+742-20-1	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+390824-20-1	Toxicant, DNA damaging, induces methemoglobinemia
+36791-04-5	Viral RT inhibitor
+357-67-5	GABA-A agonist, barbiturate
+141200-24-0	PPAR gamma agonist, thiazolidinedione, antidiabetic
+97901-22-9	Antiinflammatory, thromboxane-A synthase inhibitor
+100-47-0	Toxicant
+26171-23-3	NSAID, COX-1, heterogeneous
+57333-96-7	Vitamin D receptor agonist
+17692-38-5	NSAID, COX-1/2, heterogenous
+201341-05-1	Viral RT inhibitor
+132907-72-3	Anti-emetic, 5HT3 antagonist
+28911-01-5	GABA-A agonist, benzodiazepin, short acting
+112529-15-4	PPAR gamma agonist, thiazolidinedione, antidiabetic
+29110-48-3	Adrenoceptor-alpha2 partial agonist
+103434-39-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+107724-20-9	Mineralocorticoid receptor antagonist
+64024-15-3	Sigma receptor modulator
+18356-28-0	PDE inhibitor, non-specific, xanthine
+31430-15-6	Tubulin binder, benzimidazole
+105-87-3	Toxicant
+104428-01-5	Gonadotropin-releasing hormone (GnRH) receptor agonist
+7542-37-2	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+1744-22-5	Voltage gated Na+ channel blocker
+55-03-8	T3 receptor agonist
+50-04-4	Glucocorticoid receptor agonist
+174634-09-4	DNA topoisomerase inhibitor
+110311-27-8	K+ Channel (KATP-SUR1) blocker, antidiabetic
+3385-03-3	Glucocorticoid receptor agonist
+151069-12-4	DNA intercalator
+22161-81-5	NSAID, COX-1, arylacylprofen
+16714-57-1	DNA-Polymerase Inhibitor, thiopurine base
+60-99-1	Dopamine receptor antagonist (D), phenothiazine
+6700-40-9	Opioid receptor (mu) agonist
+75847-73-3	Angiotensin converting enzyme (ACE) inhibitor
+36105-20-1	GABA-A agonist, benzodiazepin, long acting
+526-08-9	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+118-23-0	Histamine receptor (H1) antagonist
+124669-23-4	Sterol 14-demethylase inhibitor, fluconazole like
+105431-72-9	Acetylcholine release stimulator
+175865-68-6	Viral DNA-polymerase inhibitor
+58-22-0	Androgen receptor agonist
+98319-26-7	Androgen antagonist, steroid 5a-reductase inhibitor
+33032-12-1	Histamine receptor (H1) antagonist, hepatocarcinogen
+74191-85-8	Adrenoceptor-alpha1 antagonist, zosin
+180915-85-9	Estrogen receptor antagonist/agonist, tissue specific
+52-43-7	GABA-A agonist, barbiturate
+152918-18-8	Adenosine receptor agonist,
+64490-92-2	NSAID, COX-1, heterogeneous
+1172-18-5	GABA-A agonist, benzodiazepin, long acting
+98043-60-8	Ca++ channel (T-Type) blocker
+186827-02-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+31352-82-6	GABA-A agonist, benzodiazepin
+175865-67-5	Viral DNA-polymerase inhibitor
+10083-56-4	Monoamine Re-uptake (DAT) inhibitor
+66211-92-5	DNA intercalator, anthracycline
+123482-23-5	Anti-emetic, 5HT3 antagonist
+90-34-6	Quinone reductase inhibitor
+992-21-2	Bacterial ribosomal (30S) function inhibitor, tetracycline
+145525-41-3	K+ Channel (KATP-SUR1) blocker, antidiabetic
+91032-34-7	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+73-49-4	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+51-24-1	T3 receptor agonist
+164150-99-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+125251-66-3	Adrenoceptor-beta agonist
+57-41-0	Voltage gated Na+ channel blocker, anticonvulsant
+127-18-4	Toxicant
+146426-40-6	Apoptosis inducer, Cyclin-dependent kinase inhibitor
+180981-07-1	DNA-alkylator, platin
+28781-64-8	GABA-A agonist, benzodiazepin
+213211-10-0	Integrin inhibitor
+173903-42-9	DNA-alkylator, platin
+86-13-5	Monoamine Re-uptake (DAT) inhibitor
+156177-65-0	Protein-serine/threonine kinase inhibitor
+5579-16-8	Adrenoceptor agonist
+90-81-3	Adrenoceptor agonist
+31282-04-9	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+32385-11-8	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+6251-69-0	Mineralocorticoid receptor agonist
+84057-84-1	Voltage gated Na+ channel blocker, anticonvulsant
+71125-38-7	NSAID, COX-1/2, oxicam
+25546-65-0	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+15302-12-2	Dopamine receptor antagonist (D), phenothiazine
+7681-76-7	DNA damaging, free oxygen radical generator
+175463-14-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+4478-93-7	Induce phase II detoxification enzymes
+131179-95-8	Radiosensitizer
+80-75-1	Progesterone receptor agonist
+57435-86-6	GABA-A agonist, benzodiazepin
+52663-81-7	Adrenoceptor-beta1 agonist
+53643-48-4	Tubulin binder, vinca
+3252-43-5	Toxicant
+132036-88-5	Anti-emetic, 5HT3 antagonist
+20594-83-6	Opioid receptor mixed agonist/antagonist
+110862-48-1	HMG-CoA reductase inhibitors
+55268-74-1	Ca++ channel blocker, antiparasitics
+7491-74-9	Glycine receptor antagonist
+147098-18-8	HMG-CoA reductase inhibitors
+7005-78-9	Retinoic acid receptor (RAR) agonist
+17617-23-1	GABA-A agonist, benzodiazepin, long acting
+147059-72-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+98383-18-7	DNA-alkylator, nitrogen mustard
+21829-25-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+67-97-0	Vitamin D receptor agonist
+56-40-6	Glutamate receptor agonist, glycine receptor agonist
+357-70-0	Cholinesterase (acetyl) inhibitor, heterogeneous
+56-57-5	Toxicant
+105201-55-6	Apoptosis inducer, BH3 domain binder
+112733-06-9	Aldehyde reductase inhibitor
+64-85-7	Progesterone receptor agonist
+59333-67-4	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+226904-33-2	H+/K+-ATPase inhibitor
+106243-16-7	Histamine receptor (H3) antagonist
+50-50-0	Estrogen receptor agonist, steroidal
+121569-61-7	Protein-serine/threonine kinase (PKC) inhibitor
+111974-60-8	Leukotriene receptor antagonist
+82952-64-5	Antifolate, dihydrofolate reductase inhibitor
+40034-42-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+29110-47-2	Adrenoceptor-alpha2 partial agonist
+138384-68-6	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+1538-09-6	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+6700-42-1	Vitamin-K-epoxide reductase inhibitor
+27724-96-5	Increase gastric mucosal glycoprotein synthesis, molecular target unknown
+69-65-8	Diuretic (osmotic)
+32062-10-5	Opioid receptor (mu) agonist
+54143-57-6	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+6493-05-6	Adenosine receptor antagonist, xanthine
+17575-21-2	Na+/K+-ATPase inhibitor
+6036-95-9	Histamine receptor (H1) antagonist
+77883-43-3	Adrenoceptor-alpha1 antagonist, zosin
+657-24-9	AMP kinase activator
+34381-68-5	Adrenoceptor-beta antagonist
+297-90-5	Opioid receptor agonist
+71863-55-3	Ca++ channel (L-Type) blocker, 1,4-DHP
+90-22-2	Muscarinic acetylcoline receptor (M) antagonist
+86050-77-3	Unknown mechanism
+290357-24-3	Protein-serine/threonine kinase (p38) inhibitor
+149488-17-5	Viral RT inhibitor
+55-98-1	DNA-alkylator, methanesulfonate
+33564-31-7	Glucocorticoid receptor agonist
+158836-71-6	NSAID, COX-1/2, heterogenous
+25332-39-2	5HT2 antagonist
+75820-08-5	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+2280-32-2	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+63612-50-0	Androgen receptor antagonist
+102676-96-0	Estrogen antagonist, aromatase inhibitor
+68550-75-4	PDE3 inhibitor
+552-94-3	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+182133-25-1	Estrogen receptor antagonist/agonist, tissue specific
+58-28-6	Monoamine Re-uptake (NET) inhibitor
+58-40-2	Dopamine receptor antagonist (D), phenothiazine
+134678-17-4	Viral RT inhibitor
+59-33-6	Histamine receptor (H1) antagonist
+465-21-4	Na+/K+-ATPase inhibitor
+170431-71-7	Toxicant, DNA damaging
+162635-04-3	Inhibits T-cell activation
+631-64-1	Toxicant, free oxygen radical generator
+152-11-4	Ca++ channel (L-Type) blocker
+160146-16-7	Estrogen antagonist, aromatase inhibitor
+134054-36-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+57-63-6	Estrogen receptor agonist, steroidal
+99464-64-9	NSAID, COX-1/2, oxicam
+90-04-0	Toxicant, free oxygen radical generator
+57775-22-1	5HT2 antagonist
+37612-13-8	Voltage gated Na+ channel blocker
+41354-29-4	5HT2/H1 antagonist, tricyclic
+93035-33-7	Histamine receptor (H1) antagonist
+6202-23-9	5HT2 antagonist
+159098-79-0	NSAID, COX-1, arylacylprofen
+37561-27-6	Dopamine receptor antagonist (D), phenothiazine
+155141-29-0	PPAR gamma agonist, thiazolidinedione, antidiabetic
+116308-56-6	Ca++ channel (L-Type) blocker, 1,4-DHP
+35711-34-3	NSAID, COX-1, heterogeneous
+64-77-7	K+ Channel (KATP-SUR1) blocker, antidiabetic
+71320-77-9	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+108319-06-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+57-33-0	GABA-A agonist, barbiturate
+33386-08-2	5HT1A partial agonist
+81093-37-0	HMG-CoA reductase inhibitors, non-aromatic
+198470-85-8	NSAID, COX-2/1, coxib like
+60918-52-7	GABA-A agonist, benzodiazepin
+12772-57-5	Apoptosis inducer
+6011-62-7	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+56-75-7	Bacterial ribosomal (50S) function inhibitor, amphenicol
+50-02-2	Glucocorticoid receptor agonist
+5536-17-4	DNA-Polymerase Inhibitor, purine nucleoside
+1425-61-2	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+18883-66-4	DNA damaging, free oxygen radical generator, nitrosourea
+138199-71-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+470-82-6	Unknown mechanism, inhibit cytokine production
+35891-93-1	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+508-52-1	Na+/K+-ATPase inhibitor
+151093-98-0	Histamine receptor (H3) antagonist
+73-31-4	Melatonin receptor agonist
+180916-16-9	Estrogen receptor antagonist/agonist, tissue specific
+25387-67-1	DNA topoisomerase I inhibitor
+16110-51-3	Unknown mechanism, inhibit cytokine production
+27203-92-5	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+81131-70-6	HMG-CoA reductase inhibitors, non-aromatic
+14838-15-4	Sympathomimetic amine
+117591-79-4	Dopamine receptor antagonist (D)
+104713-75-9	Ca++ channel (L-Type) blocker, 1,4-DHP
+65271-80-9	DNA intercalator
+58-63-9	Adenosine receptor agonist,
+178979-85-6	Viral RT inhibitor
+21535-47-7	Histamine receptor (H1) antagonist
+90243-99-5	Angiotensin converting enzyme (ACE) inhibitor
+25812-30-0	PPAR alpha agonist, fibric acid
+212142-19-3	Protein-tyrosine kinase (Kit) inhibitor
+359-83-1	Sigma receptor modulator
+29868-97-1	Muscarinic acetylcoline receptor (M) antagonist
+604-75-1	GABA-A agonist, benzodiazepin, short acting
+125549-25-9	PPAR gamma agonist, thiazolidinedione, antidiabetic
+175865-64-2	Viral DNA-polymerase inhibitor
+126-07-8	Tubulin binder
+84057-95-4	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+74-55-5	Indolylacetylinositol arabinosyltransferase inhibitor
+26308-28-1	GABA-A agonist, benzodiazepin
+129-06-6	Vitamin-K-epoxide reductase inhibitor
+53716-50-0	Tubulin binder, benzimidazole
+134028-05-0	Ca++ channel (L-Type) blocker, 1,4-DHP
+34675-84-8	Increase gastric mucosal glycoprotein synthesis, molecular target unknown
+4097-22-7	DNA-Polymerase Inhibitor, purine nucleoside
+129299-72-5	Anti-emetic, 5HT3 antagonist
+162401-32-3	PDE4 inhibitor
+124351-85-5	Farnesyl-PP synthase inhibitor
+1038-59-1	K+ Channel (KATP-SUR1) blocker, antidiabetic
+63527-52-6	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+108863-62-3	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+58947-95-8	Muscarinic acetylcoline receptor (M1) antagonist
+25614-03-3	Ergot alkaloid
+26944-48-9	K+ Channel (KATP-SUR1) blocker, antidiabetic
+116574-11-9	Ca++ channel (L-Type) blocker, 1,4-DHP
+113145-70-3	Ca++ channel (L-Type) blocker, 1,4-DHP
+80382-23-6	NSAID, COX-1, ibuprofen like
+109-52-4	Toxicant
+16595-80-5	Tubulin binder
+52942-31-1	5HT2 antagonist
+3546-03-0	Dopamine receptor antagonist (D), phenothiazine
+105878-73-7	Unknown mechanism, inhibit cytokine production
+4696-76-8	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+108674-87-9	Ergot alkaloid
+125-84-8	Estrogen antagonist, aromatase inhibitor
+110958-19-5	PDE inhibitor, non-specific, xanthine
+52-68-6	Toxicant, insecticide, cholinesterase inhibitor
+595-21-1	Na+/K+-ATPase inhibitor
+320-67-2	DNA-Polymerase Inhibitor, pyrimidine nucleoside
+79902-63-9	HMG-CoA reductase inhibitors, non-aromatic
+47879-92-5	Bacterial ribosomal (50S) function inhibitor, macrolide
+11002-83-8	DNA intercalator, anthracycline
+113029-02-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+78110-38-0	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+37517-28-5	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+547757-23-3	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor
+112984-60-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+31428-61-2	Imidazoline receptor agonist
+55-18-5	Toxicant, DNA alkylator
+172344-72-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+59865-13-3	Inhibits T-cell activation
+123958-79-2	Cholinesterase (acetyl) inhibitor, heterogeneous
+144701-48-4	Angiotensin receptor AT1 antagonist
+74772-77-3	PPAR gamma agonist, thiazolidinedione, antidiabetic
+134234-13-2	Glutamate receptor (NMDA) antagonist
+135905-89-4	Anti-emetic, 5HT3 antagonist
+91-80-5	Histamine receptor (H1) antagonist, hepatocarcinogen
+83730-53-4	Inhibits glutathione synthesis
+321-64-2	Cholinesterase inhibitor
+368455-04-3	Inhibits T-cell activation
+138926-19-9	Farnesyl-PP synthase inhibitor
+163680-77-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+33089-61-1	Toxicant, adrenoceptor binder
+81-81-2	Vitamin-K-epoxide reductase inhibitor
+142678-34-0	H+/K+-ATPase inhibitor
+5714-08-9	T3 receptor agonist
+84408-37-7	Viral DNA-polymerase inhibitor
+841-67-8	Unknown mechanism, inhibit cytokine production
+52-31-3	GABA-A agonist, barbiturate
+66036-44-0	Gonadotropin-releasing hormone (GnRH) receptor agonist
+62013-04-1	Bacterial ribosomal (50S) function inhibitor, macrolide
+3426-54-8	Tubulin binder
+34156-56-4	Viral DNA-polymerase inhibitor
+14930-96-2	Tubulin binder
+41372-08-1	Adrenoceptor-alpha2 agonist, aromatic L-amino acid decarboxylase inhibitor
+124669-24-5	Sterol 14-demethylase inhibitor, fluconazole like
+2409-26-9	GABA-A agonist, barbiturate
+86304-28-1	Viral DNA-polymerase inhibitor
+102676-31-3	Estrogen antagonist, aromatase inhibitor
+179819-89-7	Adrenoceptor-beta3 agonist
+89371-37-9	Angiotensin converting enzyme (ACE) inhibitor
+509-67-1	Opioid receptor agonist
+122665-73-0	DNA-alkylator, methanesulfonate
+57-68-1	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor, pyrimidin-sulfonamide
+93479-97-1	K+ Channel (KATP-SUR1) blocker, antidiabetic
+159351-69-6	Inhibits T-cell activation
+22316-47-8	GABA-A agonist, benzodiazepin
+99551-09-4	Insulin receptor agonist
+7535-00-4	Apoptosis inducer
+101343-69-5	Opioid receptor (mu) agonist
+112733-11-6	Aldehyde reductase inhibitor
+109683-61-6	Angiotensin converting enzyme (ACE) inhibitor
+62973-76-6	DNA damaging, free oxygen radical generator
+985-13-7	Ca++ channel (L-Type) blocker
+372151-71-8	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+131918-61-1	Vitamin D receptor agonist
+98048-97-6	Angiotensin converting enzyme (ACE) inhibitor
+58-38-8	Dopamine receptor antagonist (D), phenothiazine
+56420-45-2	DNA intercalator, anthracycline
+204714-56-7	Estrogen antagonist, aromatase inhibitor
+101363-10-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+66052-89-9	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+63968-64-9	DNA damaging, free oxygen radical generator, antiparasitic
+86-21-5	Histamine receptor (H1) antagonist
+50370-12-2	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+61802-93-5	GABA-A agonist, benzodiazepin
+1424-00-6	Androgen receptor agonist
+40828-46-4	NSAID, COX-1, arylacylprofen
+56-25-7	Protein-serine/threonine phosphatase inhibitor
+5786-21-0	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+2898-13-7	GABA-A agonist, benzodiazepin
+10-64-67	Toxicant, free radical generator, DNA damaging
+55726-47-1	DNA-Polymerase Inhibitor, pyrimidine nucleoside
+136067-88-4	Sterol 14-demethylase inhibitor, fluconazole like
+520-85-4	Progesterone receptor agonist
+109229-58-5	PPAR gamma agonist, thiazolidinedione, antidiabetic
+59708-52-0	Opioid receptor (mu) agonist
+320725-47-1	Angiogenesis inhibitor
+30418-52-1	Toxicant
+124-94-7	Glucocorticoid receptor agonist
+18010-40-7	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+119610-26-3	PDE inhibitor, non-specific, xanthine
+167354-41-8	Multidrug resistant pump inhibitor
+179545-76-7	Protease (MMP) inhibitor
+75-27-4	Toxicant, free radical generator
+120408-07-3	Antifolate
+54-64-8	Toxicant, heavy metal
+79570-19-7	Imidazoline receptor agonist
+60-87-7	Dopamine receptor antagonist (D), phenothiazine
+6620-60-6	Cholecystokinin (CCK) receptor antagonist, non-selective
+26787-78-0	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+1759-53-1	Toxicant, mitochondrial respiration inhibitor, inhibits beta-oxidation
+151096-09-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+124832-26-4	Viral DNA-polymerase inhibitor
+129300-27-2	Anti-emetic, 5HT3 antagonist
+31698-14-3	DNA-Polymerase Inhibitor
+127254-10-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+140661-97-8	Bradykinin antagonist
+98-92-0	Vitamin B, niacin
+180384-57-0	Endothelin receptor antagonist
+34597-40-5	NSAID, COX-1/2, heterogenous
+52279-59-1	DNA damaging, free oxygen radical generator
+297-76-7	Progesterone receptor agonist
+76-73-3	GABA-A agonist, barbiturate
+125729-29-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+150200-16-1	Progesterone receptor agonist
+38821-49-7	Dopamine synthesis inhibitor, aromatic-L-amino-acid decarboxylase inhibitor
+91-33-8	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+50-47-5	Monoamine Re-uptake (NET) inhibitor
+113617-63-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+26839-75-8	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+116-38-1	Cholinesterase (acetyl) inhibitor, heterogeneous
+100986-85-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+2691-45-4	Toxicant, phospholipidosis inducer
+2614-06-4	Unknown mechanism, inhibit cytokine production
+95510-70-6	H+/K+-ATPase inhibitor
+57-30-7	GABA-A agonist, barbiturate
+60-57-1	GABA-A antagonist, insecticide
+105979-17-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+105618-02-8	DNA-alkylator, nitrogen mustard
+138982-67-9	5HT2/D4/D2 antagonist
+81872-10-8	Angiotensin converting enzyme (ACE) inhibitor
+148699-92-7	Bradykinin antagonist
+41708-72-9	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+64092-48-4	NSAID, COX-1/2, heterogenous
+84-06-0	Dopamine receptor antagonist (D), phenothiazine
+16590-41-3	Opioid receptor antagonist
+163253-36-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+83928-76-1	5HT1 agonist
+102106-08-1	Ca++ channel (L-Type) blocker, 1,4-DHP
+7685-23-6	Na+/K+-ATPase inhibitor
+41340-25-4	NSAID, COX-1/2, heterogenous
+162829-90-5	Bacterial DNA gyrase inhibitor, fluoroquinolone
+7487-94-7	Toxicant, heavy metal
+144-11-6	Muscarinic acetylcoline receptor (M1) antagonist
+1403-00-5	Bacterial Cell wall biosynthesis inhibitor
+112885-41-3	5HT4 agonist
+3930-20-9	Adrenoceptor-beta antagonist
+108-42-9	Toxicant, induces methemoglobinemia
+108943-08-4	DNA intercalator, anthracycline
+6055-19-2	DNA-alkylator, nitrogen mustard
+58-54-8	Na+-K+-2Cl- cotransporter inhibitor, ticrynafen like, loop diuretic
+66104-22-1	Ergot alkaloid
+88851-61-0	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+34552-83-5	Opioid receptor (mu) agonist
+55-65-2	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+51-06-9	Voltage gated Na+ channel blocker, p-aminobenzoate
+125974-72-3	DNA intercalator
+105118-12-5	DNA intercalator
+1229-29-4	Histamine receptor (H1) antagonist, tricyclic
+90357-06-5	Androgen receptor antagonist
+109581-93-3	Inhibits T-cell activation
+107811-63-2	DNA-alkylator, nitrogen mustard
+61825-94-3	DNA-alkylator, platin
+59091-65-5	Ergot alkaloid
+50700-72-6	Nicotinic acetylcholine receptor antagonist
+120-78-5	Pro-inflammatory stimuli
+533-45-9	GABA-A agonist
+65517-27-3	GABA-A agonist, benzodiazepin
+548-73-2	Dopamine receptor (D2) antagonist
+57-55-6	Alcohol dehydrogenase inhibitor
+299-39-8	Nicotinic acetylcholine receptor antagonist
+138298-79-0	5HT1 agonist
+57-83-0	Progesterone receptor agonist
+26328-11-0	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+15301-82-3	Bacterial ribosomal (30S) function inhibitor, tetracycline
+72822-12-9	Adrenoceptor-alpha1 antagonist
+148408-66-6	Tubulin binder
+133-92-6	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+71576-40-4	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+96125-53-0	GABA-A agonist, benzodiazepin
+522-00-9	Dopamine receptor antagonist (D), phenothiazine
+123-31-9	Toxicant, free radical generator, DNA damaging
+175212-04-1	Arachidonate 5-lipoxygenase inhibitor
+2610-86-8	Vitamin-K-epoxide reductase inhibitor
+2180-92-9	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+81801-12-9	Adrenoceptor-beta1 agonist
+171596-29-5	PDE5 inhibitor
+68342-78-9	Voltage gated Na+ channel blocker, lipophylic amine
+62928-11-4	DNA-alkylator, platin
+97-54-1	Pro-inflammatory stimuli
+193275-85-3	Protein farnesyl transferase inhibitor
+148563-16-0	Adrenoceptor agonist
+103180-28-5	Leukotriene receptor antagonist
+723-46-6	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+105981-51-9	5HT1 agonist
+82-92-8	Histamine receptor (H1) antagonist
+17307-32-3	Vitamin/mineral, miscellaneous
+50-27-1	Estrogen receptor agonist, steroidal
+59917-39-4	Tubulin binder, vinca
+7336-33-6	Tubulin binder, colchicinoid
+186668-70-2	DNA topoisomerase I inhibitor
+86976-77-4	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+112885-42-4	5HT4 agonist
+76-74-4	GABA-A agonist, barbiturate
+10347-81-6	Monoamine Re-uptake (NET) inhibitor
+1330-78-5	Toxicant
+115597-07-4	DNA-alkylator, platin
+6190-39-2	Ergot alkaloid
+508-76-9	Na+/K+-ATPase inhibitor
+6869-51-8	Na+/K+-ATPase inhibitor
+88150-42-9	Ca++ channel (L-Type) blocker, 1,4-DHP
+59-87-0	Unknown mechanism
+69-23-8	Dopamine receptor antagonist (D), phenothiazine
+212141-51-0	Protein-tyrosine kinase (Kit) inhibitor
+50-14-6	Vitamin D receptor agonist
+93390-81-9	Voltage gated Na+ channel blocker, anticonvulsant
+141430-65-1	Tubulin binder
+102030-19-3	Bacterial ribosomal (30S) function inhibitor, tetracycline
+107-19-7	Toxicant
+309-29-5	Respiratory stimulant
+114084-78-5	Farnesyl-PP synthase inhibitor
+179545-78-9	Protease (MMP) inhibitor
+74050-97-8	Dopamine receptor antagonist (D), butyrophenone
+135-07-9	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+330600-85-6	Viral neuraminidase inhibitor
+24526-64-5	Monoamine Re-uptake (DAT/NET) inhibitor, adrenoceptor-alpha antagonist
+60-91-3	Dopamine receptor antagonist (D), phenothiazine
+119-84-6	Toxicant
+69123-98-4	Viral DNA-polymerase inhibitor
+134523-03-8	HMG-CoA reductase inhibitors
+129453-61-8	Estrogen receptor antagonist/agonist, tissue specific
+53179-12-7	Ca++ channel (T-Type) blocker
+2152-34-3	Monoamine Re-uptake (DAT) inhibitor
+3268-87-9	Toxicant, Ah receptor agonist
+106-99-0	Toxicant, free oxygen radical generator
+53-86-1	NSAID, COX-1, indomethacin like
+7683-59-2	Adrenoceptor-beta agonist
+94-20-2	K+ Channel (KATP-SUR1) blocker, antidiabetic
+107097-79-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+54143-56-5	Voltage gated Na+ channel blocker
+151-18-8	Toxicant, free oxygen radical generator
+256934-39-1	Toxicant, Ah receptor agonist, DNA alkylator
+178738-96-0	Endothelin receptor antagonist
+315-72-0	Sigma receptor modulator
+58-37-7	Dopamine receptor antagonist (D), phenothiazine
+82768-84-1	Angiotensin converting enzyme (ACE) inhibitor
+1393-88-0	Impairs cell membrane function
+29701-07-3	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+42863-81-0	GABA-A agonist, benzodiazepin, short acting
+62-23-7	Toxicant, DNA damaging
+154039-60-8	Protease (MMP) inhibitor
+1405-87-4	Bacterial Cell wall biosynthesis inhibitor
+206873-63-4	Multidrug resistant pump inhibitor
+52468-60-7	Ca++ channel (T-Type) blocker
+19685-09-7	DNA topoisomerase I inhibitor
+510-53-2	Opioid receptor (mu) agonist
+53797-16-3	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+6893-02-3	T3 receptor agonist
+63-45-6	Quinone reductase inhibitor
+289499-45-2	Protein-tyrosine kinase (erbb) inhibitor
+6004-24-6	Impairs cell membrane function
+808-26-4	Bacterial ribosomal (30S) function inhibitor, tetracycline
+75898-90-7	PDE3 inhibitor
+70132-50-2	DNA damaging, free oxygen radical generator
+28860-95-9	Dopamine synthesis inhibitor, aromatic-L-amino-acid decarboxylase inhibitor
+72-14-0	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+86393-37-5	Bacterial DNA gyrase inhibitor, fluoroquinolone
+97205-35-1	PDE inhibitor, non-specific, xanthine
+69-53-4	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+212141-89-4	Protein-tyrosine kinase (Kit) inhibitor
+87691-91-6	5HT1 agonist
+89458-99-1	DNA topoisomerase inhibitor
+162424-67-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+100981-43-9	Histamine receptor (H2) antagonist
+137882-98-5	Angiotensin receptor AT1 antagonist
+129-18-0	NSAID, COX-1, heterogeneous
+67-92-5	Muscarinic acetylcoline receptor (M1) antagonist
+51-49-0	T3 receptor agonist
+61318-91-0	Sterol 14-demethylase inhibitor, fluconazole like
+8015-12-1	Progesterone receptor agonist
+22254-24-6	Muscarinic acetylcoline receptor (M) antagonist
+141549-75-9	Anti-emetic, 5HT3 antagonist
+56839-43-1	Sigma receptor modulator
+29398-76-3	Toxicant, heavy metal
+110013-21-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+2078-54-8	GABA-A agonist
+79660-53-0	Bacterial DNA gyrase inhibitor, 8-fluoro-fluoroquinolone
+64-43-7	GABA-A agonist, barbiturate
+105167-68-8	PPAR gamma agonist, thiazolidinedione, antidiabetic
+692-13-7	AMP kinase activator
+122894-15-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+61337-67-5	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+145969-30-8	5HT2 antagonist
+107736-98-1	5HT1 agonist
+81771-21-3	Glutamate receptor (NMDA) antagonist
+125-28-0	Opioid receptor (mu) agonist
+123524-52-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+77016-85-4	Estrogen antagonist, aromatase inhibitor
+192185-72-1	Protein farnesyl transferase inhibitor
+304-20-1	K+ Channel (Ca++ dependent) opener
+191592-09-3	5HT2 antagonist
+156137-99-4	Cholinesterase (acetyl) inhibitor, heterogeneous
+53179-11-6	Opioid receptor (mu) agonist
+106-24-1	Interferes with protein prenylation
+522-24-7	Dopamine receptor antagonist (D), phenothiazine
+79778-41-9	Farnesyl-PP synthase inhibitor
+100286-90-6	DNA topoisomerase I inhibitor
+31431-39-7	Tubulin binder, benzimidazole
+84-04-8	Dopamine receptor antagonist (D), phenothiazine
+52-67-5	Unknown mechanism, inflammation mediator/ blocker
+124937-51-5	Muscarinic acetylcoline receptor (M) antagonist
+89785-84-2	Bacterial beta-lactamase inhibitor
+50-36-2	Monoamine Re-uptake (DAT) inhibitor
+34031-32-8	Unknown mechanism, inflammation mediator/ blocker
+129-49-7	5HT2 antagonist
+117086-68-7	Anti-emetic, 5HT3 antagonist
+82079-32-1	Bacterial lipid metabolism inhibitor
+51012-33-0	Dopamine receptor antagonist (D)
+10328-70-8	Mineralocorticoid receptor agonist
+71-68-1	Opioid receptor (mu) agonist
+15468-10-7	Farnesyl-PP synthase inhibitor
+1162-65-8	Toxicant, DNA alkylator
+14882-18-9	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+85650-56-2	Dopamine receptor antagonist (D)
+35763-26-9	Adrenoceptor-beta2 agonist
+51-26-3	T3 receptor agonist
+51022-76-5	DNA damaging, free oxygen radical generator
+57248-88-1	Farnesyl-PP synthase inhibitor
+148229-79-2	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+5800-19-1	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+79559-97-0	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+53164-05-9	NSAID, COX-1, indomethacin like
+124858-35-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+75-01-4	Toxicant, free oxygen radical generator
+162412-70-6	Endothelin receptor antagonist
+51-71-8	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+35067-47-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+77326-96-6	Glucocorticoid receptor agonist
+287096-87-1	Protein-serine/threonine kinase (p38) inhibitor
+846-49-1	GABA-A agonist, benzodiazepin, short acting
+77-19-0	Muscarinic acetylcoline receptor (M1) antagonist
+75747-14-7	Protein-tyrosine kinase (erbb) inhibitor
+14417-88-0	Sterol O-acyltransferase (ACAT) inhibitor
+8067-24-1	Ergot alkaloid
+364-98-7	K+ Channel (KATP-SUR2 ) opener
+511-12-6	Ergot alkaloid
+61325-80-2	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+76808-16-7	Lipase (gastric and pancreatic) inhibitor
+18323-44-9	Bacterial ribosomal (50S) function inhibitor, lincosamide
+434-13-9	Toxicant, PXR inducer
+88-73-3	Toxicant
+103890-78-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+63074-08-8	Adrenoceptor-alpha1 antagonist, zosin
+132875-61-7	Opioid receptor (mu) agonist
+161172-51-6	Leukotriene receptor antagonist
+28546-58-9	GABA-A agonist, benzodiazepin
+142522-81-4	Leukotriene receptor antagonist
+145375-43-5	K+ Channel (KATP-SUR1) blocker, antidiabetic
+61-01-8	Dopamine receptor antagonist (D), phenothiazine
+80876-01-3	Angiotensin converting enzyme (ACE) inhibitor
+37065-29-5	Bacterial DNA gyrase inhibitor, fluoroquinolone
+91-64-5	Vitamin-K-epoxide reductase inhibitor
+134028-06-1	Ca++ channel (L-Type) blocker, 1,4-DHP
+76487-49-5	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+113-52-0	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+55096-26-9	Opioid receptor antagonist
+61-68-7	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+120051-39-0	Estrogen antagonist, aromatase inhibitor
+115007-34-6	Inhibits pyrimidine /purine metabolism, IMP dehydrogenase inhibitor
+101477-55-8	Ca++ channel (L-Type) blocker
+115-02-6	DNA-alkylator
+829-74-3	Adrenoceptor agonist
+100643-71-8	Histamine receptor (H1) antagonist, tricyclic
+131374-93-1	DNA-alkylator, platin
+68342-79-0	Voltage gated Na+ channel blocker, lipophylic amine
+65-28-1	Adrenoceptor-alpha antagonist
+126100-97-8	PDE inhibitor, non-specific, xanthine
+83172-76-3	Chemokine receptor inhibitor
+162763-53-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+31884-77-2	Muscarinic acetylcoline receptor (M) antagonist
+143491-57-0	Viral RT inhibitor
+66085-59-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+146623-69-0	Angiotensin receptor AT1 antagonist
+3094-09-5	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+122823-06-7	Opioid receptor (mu) agonist
+14918-35-5	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+75970-64-8	Histamine receptor (H1) antagonist
+18046-32-7	Opioid receptor (mu) agonist
+152459-95-5	Protein-tyrosine kinase (Bcr-Abl) inhibitor
+202475-60-3	Toxicant, DNA damaging
+523-87-5	Histamine receptor (H1) antagonist, adenosine receptor antagonist
+129904-55-8	Ca++ channel (L-Type) blocker, 1,4-DHP
+7054-25-3	Voltage gated Na+ channel blocker
+72005-58-4	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+147366-41-4	F-actin cross-linker
+29144-42-1	Bacterial ribosomal (30S) function inhibitor, tetracycline
+34691-31-1	NSAID, COX-1/2, heterogenous
+51022-70-9	Adrenoceptor-beta2 agonist
+92134-98-0	Voltage gated Na+ channel blocker, anticonvulsant
+768-94-5	Nicotinic acetylcholine receptor antagonist
+14759-04-7	Dopamine receptor antagonist (D), phenothiazine
+5003-48-5	NSAID, COX-3, acetaminophen like
+1271-19-8	Toxicant
+22071-15-4	NSAID, COX-1, arylacylprofen
+4238-71-5	Antiinflammatory, thromboxane-A synthase inhibitor
+104227-87-4	Viral DNA-polymerase inhibitor
+1824-58-4	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+112811-59-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+29767-20-2	DNA topoisomerase II inhibitor
+2746-81-8	Dopamine receptor antagonist (D), phenothiazine
+7492-29-7	GABA-A agonist, benzodiazepin
+81045-50-3	Angiotensin converting enzyme (ACE) inhibitor
+87-66-1	Peroxidase inhibitor
+24143-17-7	GABA-A agonist, benzodiazepin
+50-18-0	DNA-alkylator, nitrogen mustard
+68-35-9	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+71751-41-2	GABA-A Cl- channel opener, antiparasitic
+57-94-3	Nicotinic acetylcholine receptor antagonist
+87679-37-6	Angiotensin converting enzyme (ACE) inhibitor
+3504-43-6	Antiinflammatory, elastase inhibitor
+65-85-0	Unknown mechanism, acidifying agent
+33069-62-4	Tubulin binder
+90638-38-3	Dopamine receptor (D) agonist
+58-25-3	GABA-A agonist, benzodiazepin, long acting
+124151-60-6	Carnitine palmitoyltransferase inhibitor
+61477-96-1	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+64-72-2	Bacterial ribosomal (30S) function inhibitor, tetracycline
+67-48-1	Muscarinic acetylcoline receptor (M) agonist
+1088-11-5	GABA-A agonist, benzodiazepin
+129618-40-2	Viral RT inhibitor
+82640-04-8	Estrogen receptor antagonist/agonist, tissue specific
+54063-53-5	Voltage gated Na+ channel blocker
+120638-55-3	NSAID, COX-1, heterogeneous
+622-97-9	Toxicant
+11030-21-0	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+110143-10-7	Viral RT inhibitor
+117241-46-0	Ca++ channel (L-Type) blocker, 1,4-DHP
+4291-63-8	DNA-Polymerase Inhibitor, purine nucleoside
+60-79-7	Ergot alkaloid
+11095-17-3	Toxicant, insecticide, cholinesterase inhibitor
+66357-35-5	Histamine receptor (H2) antagonist
+63590-64-7	Adrenoceptor-alpha1 antagonist, zosin
+244-63-3	Protein-tyrosine kinase (Bcr-Abl) inhibitor
+97845-62-0	Viral DNA-polymerase inhibitor
+865-21-4	Tubulin binder, vinca
+116313-94-1	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+56767-76-1	NSAID, COX-1/2, heterogenous
+67-66-3	Toxicant, free radical generator, DNA damaging
+62-75-9	Toxicant, DNA alkylator
+136-96-9	Tubulin binder, benzimidazole
+114715-36-5	Bacterial DNA gyrase inhibitor, fluoroquinolone
+24558-49-4	Toxicant, heavy metal
+84-74-2	Toxicant
+129299-89-4	Anti-emetic, 5HT3 antagonist
+66318-17-0	NSAID, COX-1, arylacylprofen
+76-42-6	Opioid receptor (mu) agonist
+138844-81-2	Farnesyl-PP synthase inhibitor
+134028-07-2	Ca++ channel (L-Type) blocker, 1,4-DHP
+36418-29-8	Opioid receptor (mu) agonist
+38029-10-6	Adrenoceptor-beta2 agonist
+53-03-2	Glucocorticoid and mineralocorticoid receptor agonist
+36-06-6	Na+/K+-ATPase inhibitor
+59973-80-7	NSAID, COX-1, indomethacin like
+31478-45-2	DNA damaging, free oxygen radical generator
+133-16-4	Voltage gated Na+ channel blocker, p-aminobenzoate
+2675-35-6	Estrogen receptor antagonist/agonist, tissue specific
+5874-95-3	Bacterial ribosomal (30S) function inhibitor, tetracycline
+50-28-2	Estrogen receptor agonist, steroidal
+69-72-7	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+120011-70-3	Cholinesterase (acetyl) inhibitor, heterogeneous
+187724-61-4	Protein-tyrosine kinase (EGFR) inhibitor
+148260-92-8	Cholesterol (intestinal) absorption inhibitor
+58-55-9	Adenosine receptor antagonist, xanthine
+305-03-3	DNA-alkylator, nitrogen mustard
+57-24-9	Glycine receptor antagonist
+630-60-4	Na+/K+-ATPase inhibitor
+329-65-7	Adrenoceptor agonist
+1404-15-5	DNA intercalator, anthracycline
+76631-46-4	Imidazoline receptor agonist
+914-00-1	Bacterial ribosomal (30S) function inhibitor, tetracycline
+212141-52-1	Protein-tyrosine kinase (Kit) inhibitor
+89778-26-7	Estrogen receptor antagonist/agonist, tissue specific
+116839-68-0	Cholinesterase (acetyl) inhibitor, heterogeneous
+483-63-6	Unknown mechanism, inflammation mediator/ blocker
+61718-82-9	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+31793-07-4	NSAID, COX-1, heterogeneous
+52712-76-2	Adrenoceptor-alpha1 antagonist, zosin
+128427-54-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+1950-39-6	Iron chelator, HIF-1alpha stablizer
+19237-84-4	Adrenoceptor-alpha1 antagonist, zosin
+116143-32-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+162301-05-5	Bacterial DNA gyrase inhibitor, fluoroquinolone
+147511-69-1	HMG-CoA reductase inhibitors
+892-49-9	DNA-Polymerase Inhibitor, purine nucleoside
+120788-07-0	Bacterial beta-lactamase inhibitor
+82857-40-7	Norepinephrine uptake inhibitor, specific
+127618-28-4	Anti-emetic, 5HT3 antagonist
+94-25-7	Voltage gated Na+ channel blocker, p-aminobenzoate
+12643-15-1	Impairs cell membrane function
+4670-05-7	Apoptosis inducer
+1135-24-6	H2O2 radical scavenger
+74627-35-3	Ergot alkaloid
+3801-06-7	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+564-25-0	Bacterial ribosomal (30S) function inhibitor, tetracycline
+551-92-8	DNA damaging, free oxygen radical generator
+23672-07-3	Dopamine receptor (D2) antagonist
+85392-79-6	Imidazoline receptor agonist
+1508-27-6	Dopamine receptor antagonist (D), phenothiazine
+1405-41-0	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+129655-21-6	DNA-alkylator
+23031-32-5	Adrenoceptor agonist
+40762-15-0	GABA-A agonist, benzodiazepin, short acting
+177834-92-3	5HT1 agonist
+139404-48-1	Muscarinic acetylcoline receptor (M) antagonist
+8017-77-4	Bacterial ribosomal (30S) function inhibitor, tetracycline
+57576-44-0	DNA intercalator, anthracycline
+79794-75-5	Histamine receptor (H1) antagonist, tricyclic
+205256-55-9	PDGF antagonist
+190791-29-8	Estrogen receptor antagonist/agonist, tissue specific
+140703-51-1	Gonadotropin-releasing hormone (GnRH) receptor agonist
+179324-69-7	Proteasome inhibitor
+50-53-3	Dopamine receptor antagonist (D), phenothiazine
+82935-42-0	Dopamine receptor antagonist (D)
+124508-66-3	Gonadotropin-releasing hormone (GnRH) receptor agonist
+7002-58-6	Histamine receptor (H1) antagonist, Ca++ channel (L-Type) blocker
+103775-75-3	DNA-alkylator, platin
+32004-67-4	NSAID, COX-1, indomethacin like
+110221-44-8	Angiotensin converting enzyme (ACE) inhibitor
+50-48-6	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+143-33-9	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+22494-42-4	NSAID, COX-1/2, heterogenous
+1182-87-2	Na+/K+-ATPase inhibitor
+306-21-8	Monoamine Re-uptake (NET) inhibitor
+120210-48-2	NSAID, COX-1, indomethacin like
+1524-88-5	Glucocorticoid receptor agonist
+76-01-7	Toxicant
+556-52-5	Toxicant, DNA alkylator
+158885-09-7	NSAID, COX-1/2, heterogenous
+118438-45-2	DNA-alkylator, nitrogen mustard
+834-28-6	AMP kinase activator
+60643-86-9	GABA reuptake inhibitor
+492-08-0	Nicotinic acetylcholine receptor antagonist
+40180-04-9	Na+-K+-2Cl- cotransporter inhibitor, ticrynafen like, loop diuretic
+94-07-5	Adrenoceptor agonist
+15690-55-8	Estrogen receptor antagonist/agonist, tissue specific
+1953-02-2	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+76932-60-0	Gonadotropin-releasing hormone (GnRH) receptor agonist
+37933-66-7	Na+/K+-ATPase inhibitor
+83647-97-6	Angiotensin converting enzyme (ACE) inhibitor
+99-08-1	Toxicant
+125197-23-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+112965-21-6	Vitamin D receptor agonist
+56296-78-7	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+64425-21-4	Opioid receptor mixed agonist/antagonist
+122320-73-4	PPAR gamma agonist, thiazolidinedione, antidiabetic
+34976-39-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+59864-04-9	NSAID, COX-1, indomethacin like
+20830-75-5	Na+/K+-ATPase inhibitor
+23256-50-0	Imidazoline receptor agonist
+98319-25-7	Androgen antagonist, steroid 5a-reductase inhibitor
+25389-94-0	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+162011-90-7	NSAID, COX-2/1, coxib like
+31879-05-7	NSAID, COX-1/2, heterogenous
+106400-18-4	Antifolate
+171335-80-1	DNA topoisomerase I inhibitor
+127779-20-8	Protease (HIV-1) inhibitor
+225919-29-9	PDE4 inhibitor
+141400-58-0	Inhibits hypoxia response, HIF-1 inhibitor
+57-53-4	GABA-A agonist, barbiturate
+78115-72-7	Gonadotropin-releasing hormone (GnRH) receptor agonist
+33419-42-0	DNA topoisomerase II inhibitor
+318250-11-2	P2Y receptor agonist
+7783-47-3	Toxicant, heavy metal
+10129-56-3	Apoptosis inducer
+102-06-7	Sigma receptor modulator
+427-51-0	Androgen receptor antagonist, steroid
+147526-32-7	HMG-CoA reductase inhibitors
+549-18-8	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+25447-66-9	Ergot alkaloid
+121840-95-7	Estrogen antagonist, aromatase inhibitor
+187947-31-1	Toxicant, free radical generator, induces methemoglobinemia
+172822-29-6	Anti-emetic, neurokinin-1 receptor antagonist
+69353-21-5	Cholinesterase (acetyl) inhibitor, heterogeneous
+66-76-2	Vitamin-K-epoxide reductase inhibitor
+156910-61-1	Cholinesterase (acetyl) inhibitor, heterogeneous
+142880-36-2	Protease (MMP) inhibitor
+18866-78-9	Adrenoceptor agonist
+536-24-3	Adrenoceptor agonist
+193739-23-0	Arachidonate 5-lipoxygenase inhibitor
+125-71-3	Opioid receptor (mu) agonist
+59-46-1	Voltage gated Na+ channel blocker, p-aminobenzoate
+566-48-3	Estrogen antagonist, aromatase inhibitor
+132195-65-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+219653-30-2	PPAR gamma agonist
+110314-48-2	DNA intercalator
+91032-37-0	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+356-12-7	Glucocorticoid receptor agonist
+21679-14-1	DNA-Polymerase Inhibitor, purine nucleoside
+13269-35-7	Muscarinic acetylcoline receptor (M) antagonist
+154-42-7	DNA-Polymerase Inhibitor, thiopurine base
+4544-15-4	Histamine receptor (H1) antagonist
+103628-48-4	5HT1D agonist
+81938-43-4	Angiotensin converting enzyme (ACE) inhibitor
+4406-22-8	Opioid receptor antagonist
+526-36-3	Imidazoline receptor agonist
+69655-05-6	Viral RT inhibitor
+357-08-4	Opioid receptor antagonist
+101246-66-6	Cholinesterase (acetyl) inhibitor, heterogeneous
+57982-77-1	Gonadotropin-releasing hormone (GnRH) receptor agonist
+119413-53-5	Opioid receptor (mu) agonist
+797-62-6	Progesterone receptor agonist
+174636-33-0	Neurokinin 3 receptor antagonist
+51803-78-2	NSAID, COX-1/2, heterogenous
+15180-02-6	Tubulin binder
+6933-90-0	Adrenoceptor agonist
+87233-62-3	Histamine receptor (H1) antagonist
+65277-42-1	Sterol 14-demethylase inhibitor, ketoconazole like
+33515-09-2	Gonadotropin-releasing hormone (GnRH) receptor agonist
+637-58-1	Voltage gated Na+ channel blocker, lipophylic amine
+8049-62-5	Insulin receptor agonist
+64211-45-6	Sterol 14-demethylase inhibitor
+642-15-9	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+3505-38-2	Histamine receptor (H1) antagonist
+174636-26-1	Neurokinin 3 receptor antagonist
+119478-56-7	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+127420-24-0	Angiotensin converting enzyme (ACE) inhibitor
+143-75-9	Voltage gated Na+ channel blocker, anticonvulsant
+54-85-3	Mycolic acid biosynthesis inhibitor
+84-01-5	Dopamine receptor antagonist (D), phenothiazine
+1111-39-3	Na+/K+-ATPase inhibitor
+70024-40-7	Adrenoceptor-alpha1 antagonist, zosin
+198480-56-7	Estrogen receptor antagonist/agonist, tissue specific
+158440-71-2	DNA-alkylator
+137332-54-8	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+51-43-4	Adrenoceptor agonist
+57-96-5	Organic anion transporter inhibitor
+388082-77-7	Protein-tyrosine kinase (erbb) inhibitor
+2013-58-3	Bacterial ribosomal (30S) function inhibitor, tetracycline
+439-14-5	GABA-A agonist, benzodiazepin, long acting
+55819-32-4	Toxicant, insecticide, cholinesterase inhibitor
+2391-03-9	Histamine receptor (H1) antagonist
+84-96-8	Dopamine receptor antagonist (D), phenothiazine
+91-23-6	Toxicant, DNA alkylator
+298-81-7	P450 enzyme inhibitor
+67-72-1	Toxicant, free radical generator
+80-49-9	Muscarinic acetylcoline receptor (M) antagonist
+58-05-9	Antifolate rescue
+36104-80-0	GABA-A agonist, benzodiazepin, medium acting
+204248-78-2	Impairs cell membrane function
+78218-09-4	Antiinflammatory, thromboxane-A synthase inhibitor
+1405-10-3	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+96448-41-8	Glutamate receptor (NMDA) antagonist
+205598-06-7	Toxicant, DNA damaging
+66376-36-1	Farnesyl-PP synthase inhibitor
+50-32-8	Toxicant, Ah receptor agonist
+76-57-3	Opioid receptor agonist
+12244-57-4	Antiinflammatory, elastase inhibitor
+103639-04-9	Anti-emetic, 5HT3 antagonist
+70458-92-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+167354-35-0	Multidrug resistant pump inhibitor
+120656-93-1	Opioid receptor (mu) agonist
+152946-68-4	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+477-30-5	Tubulin binder, colchicinoid
+28721-07-5	Voltage gated Na+ channel blocker, tricyclic anticonvulsant
+56-86-0	Vitamin/mineral, miscellaneous
+264218-23-7	Glycogen synthase kinase-3 (GSK-3) inhibitor
+60-80-0	NSAID, COX-3, antipyrine like
+10457-91-7	Dopamine receptor antagonist (D), butyrophenone
+82-93-9	Histamine receptor (H1) antagonist
+3102-57-6	Apoptosis inducer
+114-86-3	AMP kinase activator
+179545-77-8	Protease (MMP) inhibitor
+150399-21-6	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, aminosalicylic acid
+93572-42-0	Pro-inflammatory stimuli
+50-23-7	Glucocorticoid receptor agonist
+39331-48-1	Monoamine Re-uptake (DAT) inhibitor
+177611-54-0	DNA topoisomerase I inhibitor
+58-58-2	Ribosomal protein synthesis inhibitor
+108138-46-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+26675-46-7	Ca++ channel (T-Type) blocker
+82101-10-8	Adrenoceptor agonist
+91161-71-6	Squalene epoxidase inhibitor
+177469-96-4	Toxicant, free radical generator
+21462-39-5	Bacterial ribosomal (50S) function inhibitor, lincosamide
+97682-44-5	DNA topoisomerase I inhibitor
+24527-27-3	Dopamine receptor antagonist (D), phenothiazine
+53-16-7	Estrogen receptor agonist, steroidal
+160141-09-3	Protein farnesyl transferase inhibitor
+3717-88-2	Unknown mechanism
+209859-87-0	Anti-emetic, 5HT3 antagonist
+47879-97-0	Bacterial ribosomal (50S) function inhibitor, macrolide
+161967-81-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+139346-15-9	5HT1 agonist
+3900-31-0	GABA-A agonist, benzodiazepin
+142057-77-0	Cholinesterase (acetyl) inhibitor, heterogeneous
+54965-21-8	Tubulin binder, benzimidazole
+38641-94-0	Toxicant
+672-72-0	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+84-80-0	Vitamin-K-epoxide reductase inhibitor
+51-83-2	Muscarinic acetylcoline receptor (M) agonist
+58581-89-8	Histamine receptor (H1) antagonist
+30685-43-9	Na+/K+-ATPase inhibitor
+111011-63-3	Ca++ channel (L-Type) blocker, 1,4-DHP
+53847-30-6	Toxicant, Ah receptor agonist, DNA alkylator
+157605-25-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+749-13-3	Dopamine receptor antagonist (D), butyrophenone
+88321-09-9	Protease (thiol) inhibitor
+96639-11-1	Toxicant
+70639-48-4	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+123482-22-4	Anti-emetic, 5HT3 antagonist
+14216-34-3	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+81409-90-7	Ergot alkaloid
+50-06-6	GABA-A agonist, barbiturate
+118142-72-6	Opioid receptor (mu) agonist
+122883-93-6	5HT2/D4/D2 antagonist
+98769-83-6	Monoamine Re-uptake (NET) inhibitor
+16485-10-2	Vitamin/mineral, miscellaneous
+103060-53-3	Impairs cell membrane function
+82924-03-6	Angiotensin converting enzyme (ACE) inhibitor
+89565-68-4	Anti-emetic, 5HT3 antagonist
+125-72-4	Opioid receptor (mu) agonist
+119687-33-1	Ca++ channel (L-Type) blocker, 1,4-DHP
+124669-25-6	Sterol 14-demethylase inhibitor, fluconazole like
+49745-95-1	Adrenoceptor-beta1 agonist
+164301-51-3	Protein-serine/threonine kinase (p38) inhibitor
+57-27-2	Opioid receptor (mu) agonist
+125-40-6	GABA-A agonist, barbiturate
+15500-66-0	Nicotinic acetylcholine receptor antagonist
+107007-99-8	Anti-emetic, 5HT3 antagonist
+112398-08-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+426-13-1	Glucocorticoid receptor agonist
+451-71-8	K+ Channel (KATP-SUR1) blocker, antidiabetic
+140637-82-7	DNA intercalator, anthracycline
+141396-28-3	Thrombin inhibitor
+87760-53-0	5HT1 agonist
+144665-07-6	Voltage gated Na+ channel blocker
+77-28-1	GABA-A agonist, barbiturate
+137881-27-7	Protein poly(ADP-ribose) polymerase (PARP) inhibitor
+909-39-7	Sigma receptor modulator
+57308-51-7	Dopamine receptor (D) agonist
+5630-53-5	Estrogen receptor agonist
+100427-26-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+108-90-7	Toxicant, DNA damaging
+175865-59-5	Viral DNA-polymerase inhibitor
+58409-59-9	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+94749-08-3	Adrenoceptor-beta2 agonist
+789-02-6	Toxicant
+153259-65-5	PDE4 inhibitor
+115-38-8	GABA-A agonist, barbiturate
+50-52-2	Dopamine receptor antagonist (D), phenothiazine
+153439-40-8	Histamine receptor (H1) antagonist
+195612-80-7	DNA intercalator, anthracycline
+17466-45-4	Binds to hepatic F-actin
+138154-39-9	DNA topoisomerase inhibitor
+155-41-9	Muscarinic acetylcoline receptor (M) antagonist
+427-00-9	Opioid receptor agonist
+602-85-7	Ergot alkaloid
+167155-71-7	Multidrug resistant pump inhibitor
+525-66-6	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+113957-09-8	PDE inhibitor, non-specific, xanthine
+128426-71-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+1154-59-2	Unknown mechanism, antiseptic
+134-36-1	Bacterial ribosomal (50S) function inhibitor, macrolide
+159519-65-0	Viral (HIV) fusion inhibitor
+98717-15-8	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+147098-20-2	HMG-CoA reductase inhibitors
+61869-08-7	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+115699-46-2	Bacterial beta-lactamase inhibitor
+1622-62-4	GABA-A agonist, benzodiazepin
+55432-15-0	DNA damaging, free oxygen radical generator
+58652-20-3	Progesterone receptor agonist
+58-60-6	Toxicant
+63-74-1	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+113665-84-2	Nucleotide receptor P2Y12 antagonist
+113734-18-2	Adrenoceptor-beta3 agonist
+59467-70-8	GABA-A agonist, benzodiazepin, short acting
+119413-55-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+65-49-6	Mycobacterium folate synthesis inhibitor
+127373-66-4	Protease (serine/threonine) inhibitor
+61197-73-7	GABA-A agonist, benzodiazepin, short acting
+120443-16-5	Leukotriene receptor antagonist
+14402-89-2	NO doner
+133681-84-2	H2O2 radical scavenger
+579-56-6	Adrenoceptor-alpha antagonist
+37148-27-9	Adrenoceptor-alpha2 agonist
+19171-19-8	Unknown mechanism, inhibit cytokine production
+107753-78-6	Leukotriene receptor antagonist
+76095-16-4	Angiotensin converting enzyme (ACE) inhibitor
+305-33-9	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+13721-39-6	Toxicant, heavy metal, phosphate mimic
+7082-34-0	Na+/K+-ATPase inhibitor
+129321-78-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+58-39-9	Dopamine receptor antagonist (D), phenothiazine
+36980-34-4	K+ Channel (KATP-SUR1) blocker, antidiabetic
+202138-50-9	Viral RT inhibitor
+53746-45-5	NSAID, COX-1/2, heterogenous
+4759-48-2	Retinoic acid receptor (RAR) agonist
+226700-79-4	Protease (HIV-1) inhibitor
+157182-23-5	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+58-61-7	Adenosine receptor agonist,
+138-14-7	Iron chelator, HIF-1alpha stablizer
+117052-25-2	Antifolate, dihydrofolate reductase inhibitor
+100490-36-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+644-62-2	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+131875-08-6	Vitamin D receptor agonist
+66934-18-7	NSAID, COX-1, arylacylprofen
+125277-78-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+965-90-2	Androgen receptor agonist
+36205-82-0	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+163253-37-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+1015-89-0	ADP-ribosyltransferase inhibitor
+35795-17-6	Adrenoceptor-alpha1 antagonist, zosin
+26628-22-8	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+557795-19-4	Protein-tyrosine kinase (Flt3) inhibitor
+150399-23-8	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+171099-57-3	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+357-07-3	Opioid receptor agonist
+3253-62-1	Na+/K+-ATPase inhibitor
+71486-22-1	Tubulin binder, vinca
+137548-41-5	Estrogen antagonist, aromatase inhibitor
+71-58-9	Progesterone receptor agonist
+1263-89-4	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+129689-30-1	Adrenoceptor-beta3 agonist
+39809-25-1	Viral DNA-polymerase inhibitor
+108930-17-2	Protein-serine/threonine kinase (PKC) inhibitor
+14611-51-9	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+461-78-9	Toxicant
+139264-82-7	5HT1 agonist
+148229-78-1	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+79-11-8	Toxicant
+145821-59-6	GABA reuptake inhibitor
+19982-08-2	Glutamate receptor (NMDA) antagonist
+88889-14-9	Angiotensin converting enzyme (ACE) inhibitor
+1684-40-8	Cholinesterase inhibitor
+115956-12-2	Anti-emetic, 5HT3 antagonist
+124-87-8	Toxicant, mycotoxin/plant toxin
+127046-45-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+129497-78-5	H2O2 radical scavenger
+108068-98-0	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+438-41-5	GABA-A agonist, benzodiazepin, long acting
+118635-52-2	NSAID, COX-1, arylacylprofen
+64485-93-4	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+17598-65-1	Na+/K+-ATPase inhibitor
+88768-40-5	Angiotensin converting enzyme (ACE) inhibitor
+130370-60-4	Protease (MMP) inhibitor
+7775-09-9	Toxicant
+113045-79-7	Bacterial DNA gyrase inhibitor, fluoroquinolone
+440-17-5	Dopamine receptor antagonist (D), phenothiazine
+110101-66-1	H2O2 radical scavenger
+1066-17-7	Impairs cell membrane function
+95-25-0	K+ Channel (Ca++ dependent) opener
+131740-09-5	Apoptosis inducer, Cyclin-dependent kinase inhibitor
+56796-39-5	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+79-01-6	Toxicant, free radical generator, DNA damaging
+11061-68-0	Insulin receptor agonist
+103177-37-3	Leukotriene receptor antagonist
+91-75-8	Histamine receptor (H1) antagonist
+108436-80-2	Viral DNA-polymerase inhibitor
+106685-40-9	Retinoic acid receptor (RAR) agonist
+51-56-9	Muscarinic acetylcoline receptor (M) antagonist
+40507-78-6	Imidazoline receptor agonist
+33286-22-5	Ca++ channel (L-Type) blocker
+110707-92-1	Anti-emetic, 5HT3 antagonist
+99614-02-5	Anti-emetic, 5HT3 antagonist
+12374-71-9	Monoamine Re-uptake (DAT) inhibitor
+259188-38-0	Protease (MMP) inhibitor
+50972-17-3	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+405169-16-6	Protein-tyrosine kinase (Flt3) inhibitor
+86-54-4	K+ Channel (Ca++ dependent) opener
+51-48-9	T3 receptor agonist
+120-97-8	Carbonic Anhydrase Inhibitor
+2133-81-5	DNA-Polymerase Inhibitor, purine nucleoside
+96-18-4	Toxicant, DNA alkylator
+74863-84-6	Thrombin inhibitor
+15687-27-1	NSAID, COX-1, ibuprofen like
+105816-04-4	K+ Channel (KATP-SUR1) blocker, antidiabetic
+77-21-4	GABA-A agonist, barbiturate
+175865-65-3	Viral DNA-polymerase inhibitor
+140387-89-9	Ergot alkaloid
+102121-60-8	Retinoic acid receptor (RAR) agonist
+127-71-9	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor, isoxazol-sulfonamide
+122536-20-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+138680-08-7	GABA-A agonist, short acting
+60-02-6	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+135969-54-9	K+ Channel (KATP-SUR1) blocker, antidiabetic
+98079-52-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+152802-07-8	Bile acid transporter (ileal) inhibitor
+21870-06-4	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+21228-47-7	AMP kinase activator
+30418-50-9	Toxicant
+124-48-1	Toxicant, free radical generator
+84243-58-3	PDE3 inhibitor
+63132-39-8	Farnesyl-PP synthase inhibitor
+81962-84-7	Bacterial DNA gyrase inhibitor, fluoroquinolone
+81103-11-9	Bacterial ribosomal (50S) function inhibitor, macrolide
+34973-91-6	Histamine receptor agonist
+70918-01-3	Adrenoceptor-alpha1 antagonist, zosin
+630-64-8	Na+/K+-ATPase inhibitor
+157182-32-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+42924-53-8	NSAID, COX-1, 6-Methoxy-naphthalenyl-acetic acid
+148504-51-2	Angiotensin receptor AT1 antagonist
+29094-61-9	K+ Channel (KATP-SUR1) blocker, antidiabetic
+70001-26-2	Opioid receptor agonist
+105350-26-3	Leukotriene receptor antagonist
+387867-13-2	Protein-tyrosine kinase (Flt3) inhibitor
+56180-94-0	Alpha-glucosidase inhibitor, antidiabetic
+105051-87-4	Estrogen antagonist, aromatase inhibitor
+530-08-5	Adrenoceptor agonist
+120635-74-7	Anti-emetic, 5HT3 antagonist
+51-62-7	Monoamine Re-uptake (NET) inhibitor
+70323-44-3	Toxicant, mycotoxin/plant toxin
+56211-40-6	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+53123-88-9	Inhibits T-cell activation
+110865-84-4	Endothelin receptor antagonist
+82821-47-4	NSAID, COX-1, ibuprofen like
+192-97-2	Toxicant, Ah receptor agonist
+62-73-7	Toxicant, insecticide, cholinesterase inhibitor
+8052-21-9	Histamine receptor (H1) antagonist, diphenylamine
+151319-34-5	GABA-A agonist, short acting
+645-05-6	DNA-alkylator
+207844-01-7	K+ Channel (KATP-SUR1) blocker, antidiabetic
+70259-49-3	DNA intercalator, anthracycline
+4910-46-7	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+91714-93-1	NSAID, COX-1, heterogeneous
+90581-30-9	Bacterial ribosomal (50S) function inhibitor, macrolide
+129746-22-1	Voltage gated Na+ channel blocker, tricyclic anticonvulsant
+511-09-1	Ergot alkaloid
+129-71-5	Histamine receptor (H1) antagonist
+602-41-5	Tubulin binder, colchicinoid
+128196-01-0	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+5588-16-9	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+33671-46-4	GABA-A agonist, benzodiazepin
+49562-28-9	PPAR alpha agonist, fibrate ester
+2079-54-1	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+5581-42-0	K+ Channel (KATP-SUR1) blocker, antidiabetic
+62139-95-1	Toxicant, insecticide, cholinesterase inhibitor
+75970-99-9	Histamine receptor (H1) antagonist
+54-49-9	Adrenoceptor agonist
+200631-89-6	PPAR gamma agonist, thiazolidinedione, antidiabetic
+147536-97-8	Endothelin receptor antagonist
+175865-60-8	Viral DNA-polymerase inhibitor
+153832-46-3	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+91682-96-1	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+1156-19-0	K+ Channel (KATP-SUR1) blocker, antidiabetic
+113775-47-6	Imidazoline receptor agonist
+58-08-2	Adenosine receptor antagonist, xanthine
+69-09-0	Dopamine receptor antagonist (D), phenothiazine
+131841-20-8	Bacterial beta-lactamase inhibitor
+89-63-4	Toxicant, DNA damaging
+174402-32-5	DNA topoisomerase I inhibitor
+120128-20-3	Leukotriene receptor antagonist
+50-59-9	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+69207-52-9	Carnitine palmitoyltransferase inhibitor
+112885-43-5	5HT4 agonist
+141450-48-8	Tubulin binder
+64-75-5	Bacterial ribosomal (30S) function inhibitor, tetracycline
+55-91-4	Cholinesterase (acetyl) inhibitor, heterogeneous
+116308-55-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+99047-27-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+56-23-5	Toxicant, free radical generator, DNA damaging
+34973-08-5	Gonadotropin-releasing hormone (GnRH) receptor agonist
+59-67-6	Vitamin B, niacin
+13010-47-4	DNA damaging, free oxygen radical generator, nitrosourea
+144285-03-0	PDE4 inhibitor
+50-11-3	GABA-A agonist, barbiturate
+57109-90-7	GABA-A agonist, benzodiazepin
+124012-42-6	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+5633-20-5	Muscarinic acetylcoline receptor (M) antagonist
+132-17-2	Monoamine Re-uptake (DAT) inhibitor
+113-15-5	Ergot alkaloid
+172822-28-5	Anti-emetic, neurokinin-1 receptor antagonist
+86615-41-0	Adrenoceptor-beta3 agonist
+144604-00-2	Ca++ channel (L-Type) blocker
+1953-04-4	Cholinesterase (acetyl) inhibitor, heterogeneous
+99300-78-4	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+164150-85-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+129-03-3	5HT2/H1 antagonist, tricyclic
+54-92-2	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+17902-23-7	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+68373-14-8	Bacterial beta-lactamase inhibitor
+191219-80-4	PDE4 inhibitor
+83881-51-0	Histamine receptor (H1) antagonist
+89365-50-4	Adrenoceptor-beta2 agonist
+434-22-0	Androgen receptor agonist
+144628-52-4	Angiotensin receptor AT1 antagonist
+13013-17-7	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+210353-55-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+138-65-8	Adrenoceptor agonist
+68099-86-5	Ca++ channel blocker
+1722-62-9	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+66357-59-3	Histamine receptor (H2) antagonist
+70374-39-9	NSAID, COX-1/2, oxicam
+81382-52-7	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+83805-11-2	Vitamin D receptor agonist
+128427-55-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+165800-06-6	Farnesyl-PP synthase inhibitor
+146-56-5	Dopamine receptor antagonist (D), phenothiazine
+175865-63-1	Viral DNA-polymerase inhibitor
+4474-91-3	Angiotensin receptor agonist
+140401-05-4	Inhibits pyrimidine /purine metabolism, IMP dehydrogenase inhibitor
+99519-84-3	Ca++ channel blocker
+100-52-7	Toxicant
+521-18-6	Androgen receptor agonist
+75-35-4	Toxicant, free radical generator, DNA damaging
+52315-07-8	Voltage gated Na+ channel blocker
+56391-56-1	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+34042-85-8	NSAID, COX-1/2, oxicam
+237068-57-4	VEGF receptor antagonist
+317-34-0	Adenosine receptor antagonist, xanthine
+14293-44-8	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+12772-35-9	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+13551-87-6	DNA damaging, free oxygen radical generator
+139264-17-8	5HT1 agonist
+118359-59-4	DNA-alkylator
+104606-13-5	Voltage gated Na+ channel blocker
+7646-85-7	Toxicant, transition metal
+58-73-1	Histamine receptor (H1) antagonist, diphenylamine
+103295-62-1	PDE inhibitor, non-specific, xanthine
+31883-05-3	Voltage gated Na+ channel blocker
+181296-84-4	Apoptosis inhibitor
+107-22-2	Toxicant
+51022-75-4	NSAID, COX-1, arylacylprofen
+13655-52-2	Adrenoceptor-beta antagonist
+119474-47-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+74258-86-9	Angiotensin converting enzyme (ACE) inhibitor
+109214-55-3	Angiotensin converting enzyme (ACE) inhibitor
+90-39-1	Nicotinic acetylcholine receptor antagonist
+5984-50-9	Adrenoceptor agonist
+32780-64-6	Adrenoceptor-beta antagonist
+120360-10-3	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+5638-76-6	Histamine receptor agonist
+107-11-9	Toxicant, free radical generator
+86541-74-4	Angiotensin converting enzyme (ACE) inhibitor
+51333-22-3	Glucocorticoid receptor agonist
+30516-87-1	Viral RT inhibitor
+50976-86-8	Bacterial ribosomal (50S) function inhibitor, macrolide
+41859-67-0	PPAR alpha agonist, fibric acid
+1982-37-2	Dopamine receptor antagonist (D), phenothiazine
+17431-55-9	Bacterial ribosomal (50S) function inhibitor, lincosamide
+73220-03-8	Dopamine receptor antagonist (D)
+111902-57-9	Angiotensin converting enzyme (ACE) inhibitor
+55242-55-2	PDE inhibitor
+144689-63-4	Angiotensin receptor AT1 antagonist
+99-99-0	Toxicant, induces methemoglobinemia
+1501-84-4	Viral M2 protein inhibitor
+60561-17-3	Opioid receptor (mu) agonist
+144598-75-4	5HT2/D4/D2 antagonist
+70-00-8	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+22232-54-8	Thyroperoxidase inhibitor
+50-35-1	Unknown mechanism, inhibit cytokine production
+1405-20-5	Impairs cell membrane function
+159126-29-1	DNA-alkylator, nitrogen mustard
+154-21-2	Bacterial ribosomal (50S) function inhibitor, lincosamide
+20231-81-6	Na+/K+-ATPase inhibitor
+126294-30-2	Ca++ channel (L-Type) blocker, 1,4-DHP
+54187-04-1	Imidazoline receptor agonist
+214462-68-7	Mannosidase inhibitor
+106-47-8	Toxicant, DNA damaging, induces methemoglobinemia
+83799-24-0	Histamine receptor (H1) antagonist
+22204-88-2	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+64221-86-9	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+51246-70-9	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+86386-73-4	Sterol 14-demethylase inhibitor, fluconazole like
+13497-05-7	Retinoic acid receptor (RAR) agonist
+10108-64-2	Toxicant, heavy metal
+38677-81-5	Adrenoceptor-beta2 agonist
+804-63-7	Voltage gated Na+ channel blocker
+11033-34-4	DNA intercalator, anthracycline
+209216-23-9	Viral DNA-polymerase inhibitor
+133743-71-2	Ca++ channel (L-Type) blocker, 1,4-DHP
+611-75-6	Guanylate cyclase inhibitor
+15793-38-1	Adrenoceptor-alpha1 antagonist, zosin
+40516-48-1	Retinoic acid receptor (RAR) agonist
+132100-55-1	HMG-CoA reductase inhibitors
+2315-02-8	Adrenoceptor-alpha1 agonist, oxymetazoline
+141750-63-2	HMG-CoA reductase inhibitors
+34482-99-0	GABA-A agonist, benzodiazepin
+91714-94-2	NSAID, COX-1, heterogeneous
+61-75-6	Cholinesterase (acetyl) inhibitor, heterogeneous
+103775-10-6	Angiotensin converting enzyme (ACE) inhibitor
+621-42-1	NSAID, COX-3, acetaminophen like
+72589-96-9	Toxicant, heavy metal
+25447-65-8	Ergot alkaloid
+56573-65-0	Retinoic acid receptor (RAR) agonist
+30562-34-6	Protein-tyrosine kinase (MET/HGFR) inhibitor
+192565-91-6	HMG-CoA reductase inhibitors
+7689-03-4	DNA topoisomerase I inhibitor
+189940-24-7	PDE4 inhibitor
+511-08-0	Ergot alkaloid
+117-81-7	Toxicant, PPAR alpha agonist
+86-43-1	Voltage gated Na+ channel blocker, p-aminobenzoate
+115-44-6	GABA-A agonist, barbiturate
+96638-41-4	Toxicant
+447-41-6	Glutamate receptor (NMDA) antagonist
+71620-89-8	Monoamine Re-uptake (NET) inhibitor
+82824-01-9	Opioid receptor antagonist
+1403-66-3	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+57117-41-6	Toxicant, Ah receptor agonist
+81938-40-1	Angiotensin converting enzyme (ACE) inhibitor
+58765-21-2	GABA-A agonist, benzodiazepin
+37115-32-5	GABA-A agonist, benzodiazepin
+2438-32-6	Histamine receptor (H1) antagonist, diphenylamine
+144256-27-9	5HT4 agonist
+80125-14-0	Dopamine receptor antagonist (D)
+107-18-6	Toxicant, free radical generator
+123-41-1	Muscarinic acetylcoline receptor (M) agonist
+26864-56-2	Ca++ channel (T-Type) blocker
+1071-83-6	Toxicant
+15318-45-3	Bacterial ribosomal (50S) function inhibitor, amphenicol
+650-51-1	Unknown mechanism
+125-29-1	Opioid receptor (mu) agonist
+2259-96-3	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+153537-73-6	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+121985-71-5	Voltage gated Na+ channel blocker, tricyclic anticonvulsant
+195704-72-4	Endothelin receptor antagonist
+443-48-1	DNA damaging, free oxygen radical generator, antiparasitic
+91618-36-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+35322-07-7	GABA-A agonist, benzodiazepin
+52-53-9	Ca++ channel (L-Type) blocker
+70393-85-0	Toxicant
+101396-42-3	Dopamine receptor antagonist (D), phenothiazine
+50679-08-8	Histamine receptor (H1) antagonist
+118949-22-7	Estrogen antagonist, aromatase inhibitor
+10102-18-8	Toxicant, selenium
+173903-35-0	DNA-alkylator, platin
+205645-02-9	Glutamate receptor (AMPA) antagonist
+192185-68-5	Protein farnesyl transferase inhibitor
+74050-98-9	5HT2 antagonist
+590-63-6	Muscarinic acetylcoline receptor (M) agonist
+126-99-8	Toxicant
+99294-93-6	GABA-A agonist, short acting
+170632-47-0	Inhibits hypoxia response, HIF-1 inhibitor
+62-67-9	Opioid receptor mixed agonist/antagonist
+6740-88-1	Glutamate receptor (NMDA) antagonist
+22916-47-8	Sterol 14-demethylase inhibitor, fluconazole like
+149908-23-6	Bacterial ribosomal (50S) function inhibitor, macrolide
+75659-07-3	Adrenoceptor-beta antagonist
+443913-73-3	Protein-tyrosine kinase (EGFR) inhibitor
+103598-03-4	Adrenoceptor-beta1 antagonist, p-phenoxypropanoamine
+79955-36-5	DNA-alkylator, methanesulfonate
+129273-38-7	5HT1 agonist
+95734-82-0	DNA-alkylator, platin
+186496-72-0	Endothelin receptor antagonist
+71-73-8	GABA-A agonist, barbiturate
+77-92-9	Unknown mechanism, acidifying agent
+28657-80-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+140-72-7	Impairs cell membrane function
+79617-96-2	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+19216-56-9	Adrenoceptor-alpha1 antagonist, zosin
+9045-65-2	Insulin receptor agonist
+107758-28-1	Adrenoceptor-beta3 agonist
+96515-73-0	Ca++ channel (L-Type) blocker, 1,4-DHP
+88-04-0	Unknown mechanism, antiseptic
+60142-96-3	Reduce glutamate release
+57852-57-0	DNA intercalator, anthracycline
+124-99-2	Na+/K+-ATPase inhibitor
+106-87-6	Toxicant
+14923-17-2	Glutamate receptor (NMDA) antagonist
+196808-23-8	PPAR gamma agonist
+959-24-0	Adrenoceptor-beta antagonist
+12679-58-2	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+50-55-5	Monoamine Re-uptake inhibitor, depletes transmmiter from neurons
+59703-84-3	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+50-78-2	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+10238-21-8	K+ Channel (KATP-SUR1) blocker, antidiabetic
+68767-14-6	NSAID, COX-1, ibuprofen like
+302-27-2	Toxicant, voltage-gated Na+ channel opener
+210354-22-6	NO synthesis inhibitor
+5786-68-5	Anti-emetic, 5HT3 antagonist
+72509-76-3	Ca++ channel (L-Type) blocker, 1,4-DHP
+116666-63-8	Ca++ channel (T-Type) blocker
+81-13-0	Vitamin/mineral, miscellaneous
+3056-17-5	Viral RT inhibitor
+63710-10-1	DNA intercalator, anthracycline
+138154-55-9	DNA topoisomerase inhibitor
+319-86-8	Toxicant, free oxygen radical generator
+17397-89-6	Fatty acid synthase inhibitor
+7722-44-3	Impairs cell membrane function
+125-69-9	Opioid receptor (mu) agonist
+467214-21-7	Protein-tyrosine kinase (MET) inhibitor
+14521-96-1	Opioid receptor agonist
+7177-56-2	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+51-55-8	Muscarinic acetylcoline receptor (M) antagonist
+37762-06-4	PDE5 inhibitor
+53-96-3	Toxicant, DNA alkylator
+543-90-8	Toxicant, heavy metal
+114-80-7	Cholinesterase (acetyl) inhibitor, heterogeneous
+16676-29-2	Opioid receptor antagonist
+1672-46-4	Na+/K+-ATPase inhibitor
+8060-73-9	Voltage gated Na+ channel blocker, anticonvulsant
+797-63-7	Progesterone receptor agonist
+137018-55-4	H2O2 radical scavenger
+75-69-4	Toxicant, free oxygen radical generator
+24645-20-3	NSAID, COX-1, ibuprofen like
+28395-03-1	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+119813-10-4	DNA intercalator
+15826-37-6	Unknown mechanism, inhibit cytokine production
+134138-41-3	Glutamate receptor (NMDA) antagonist
+175865-62-0	Viral DNA-polymerase inhibitor
+36282-47-0	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+483-18-1	Toxicant, voltage-gated Na+ channel opener
+146874-86-4	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+111542-93-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+189453-10-9	Tubulin binder
+92569-65-8	K+ Channel (KATP-SUR2 ) opener
+29984-33-6	DNA-Polymerase Inhibitor, purine nucleoside
+60-23-1	Vitamin/mineral, miscellaneous
+66-27-3	DNA-alkylator, methanesulfonate
+146-22-5	GABA-A agonist, benzodiazepin, medium acting
+31430-18-9	Tubulin binder, benzimidazole
+13292-46-1	RNA polymerase inhibitor
+37091-66-0	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+14769-73-4	Tubulin binder
+163253-35-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+121039-16-5	Ca++ channel (T-Type) blocker
+59729-33-8	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+15686-51-8	Histamine receptor (H1) antagonist, diphenylamine
+59729-37-2	DNA damaging, free oxygen radical generator
+30299-08-2	PPAR alpha agonist, fibric acid
+25314-87-8	Voltage gated Na+ channel blocker, lipophylic amine
+60634-69-7	GABA-A agonist, barbiturate
+100-63-0	Dopamine synthesis inhibitor, dopamine-beta-monooxygenase inhibitor
+51052-62-1	Glutamate receptor (NMDA) antagonist
+57808-65-8	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+143-67-9	Tubulin binder, vinca
+167465-36-3	Multidrug resistant pump inhibitor
+99-76-3	Unknown mechanism
+68077-27-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+4419-39-0	Glucocorticoid receptor agonist
+77-36-1	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+183319-69-9	Protein-tyrosine kinase (EGFR) inhibitor
+180981-08-2	DNA-alkylator, platin
+102-54-5	Toxicant, heavy metal
+28125-87-3	Imidazoline receptor agonist
+5411-22-3	Monoamine Re-uptake (NET) inhibitor
+119413-54-6	DNA topoisomerase I inhibitor
+252916-29-3	Protein-tyrosine kinase (EGFR) inhibitor
+2058-52-8	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+894-71-3	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+51146-57-7	NSAID, COX-1, ibuprofen like
+100-33-4	RNA splicing inhibitor, antiparasitics
+55721-11-4	Vitamin D receptor agonist
+146537-07-7	DNA intercalator
+27060-91-9	GABA-A agonist, benzodiazepin
+15663-27-1	DNA-alkylator, platin
+70-30-4	Cholinesterase (acetyl) inhibitor, heterogeneous
+127294-70-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+80-05-7	Toxicant, estrogen receptor agonist
+98769-82-5	Monoamine Re-uptake (NET) inhibitor
+37321-09-8	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+83203-42-3	Progesterone receptor antagonist
+1397-94-0	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+25316-40-9	DNA intercalator, anthracycline
+98116-53-1	Leukotriene receptor antagonist
+18911-13-2	Antiinflammatory, elastase inhibitor
+1404-93-9	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+849-55-8	Glutamate receptor (NMDA) antagonist
+95-27-2	Tubulin binder, benzimidazole
+212141-90-7	Protein-tyrosine kinase (Kit) inhibitor
+65-29-2	Muscarinic acetylcoline receptor (M2) antagonist
+98-01-1	Toxicant
+82159-09-9	Aldehyde reductase inhibitor
+54965-23-0	Opioid receptor mixed agonist/antagonist
+121268-17-5	Farnesyl-PP synthase inhibitor
+77-26-9	GABA-A agonist, barbiturate
+84-02-6	Dopamine receptor antagonist (D), phenothiazine
+446-86-6	DNA-Polymerase Inhibitor, thiopurine base
+79286-77-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+117-37-3	Vitamin-K-epoxide reductase inhibitor
+178961-24-5	Bile acid transporter (ileal) inhibitor
+40602-63-9	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+139755-83-2	PDE5 inhibitor
+111523-41-2	DNA-alkylator, platin
+514-36-3	Mineralocorticoid receptor agonist
+80581-86-8	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+108-95-2	Toxicant
+569-65-3	Muscarinic acetylcoline receptor (M) antagonist
+124832-27-5	Viral DNA-polymerase inhibitor
+68844-77-9	Histamine receptor (H1) antagonist
+114-07-8	Bacterial ribosomal (50S) function inhibitor, macrolide
+361-37-5	5HT2 antagonist
+67696-82-6	Na+/K+-ATPase inhibitor
+170902-81-5	Anti-emetic, neurokinin-1 receptor antagonist
+62435-42-1	DNA-alkylator, nitrogen mustard
+105920-77-2	Antiinflammatory, thromboxane-A synthase inhibitor
+86541-75-5	Angiotensin converting enzyme (ACE) inhibitor
+5300-03-8	Retinoic acid receptor (RAR) agonist
+40671-54-3	K+ Channel (Ca++ dependent) opener
+42408-82-2	Opioid receptor mixed agonist/antagonist
+115622-58-7	Bacterial beta-lactamase inhibitor
+82586-52-5	Angiotensin converting enzyme (ACE) inhibitor
+55837-25-7	Adrenoceptor-alpha antagonist
+82834-16-0	Angiotensin converting enzyme (ACE) inhibitor
+33178-86-8	Imidazoline receptor agonist
+5511-98-8	Na+/K+-ATPase inhibitor
+139314-01-5	Cholinesterase (acetyl) inhibitor, heterogeneous
+108852-90-0	DNA intercalator, anthracycline
+93035-32-6	Histamine receptor (H1) antagonist
+153537-74-7	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+2622-26-6	Dopamine receptor antagonist (D), phenothiazine
+231277-92-2	Protein-tyrosine kinase (erbb) inhibitor
+73573-88-3	HMG-CoA reductase inhibitors, non-aromatic
+191592-36-6	5HT2 antagonist
+89544-10-5	K+ Channel (KATP-SUR2 ) opener
+142116-35-6	PDE inhibitor, non-specific, xanthine
+53746-46-6	Adrenoceptor-alpha1 antagonist, zosin
+73218-79-8	Imidazoline receptor agonist
+664-95-9	K+ Channel (KATP-SUR1) blocker, antidiabetic
+536-21-0	Adrenoceptor agonist
+34552-84-6	NSAID, COX-1/2, oxicam
+28300-74-5	Toxicant
+13710-19-5	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+92395-36-3	DNA intercalator, anthracycline
+148564-47-0	Angiotensin receptor AT1 antagonist
+24169-02-6	Sterol 14-demethylase inhibitor, fluconazole like
+3715-90-0	Imidazoline receptor agonist
+550-24-3	Apoptosis inducer
+37341-99-4	Vitamin-K-epoxide reductase inhibitor
+74713-59-0	Apoptosis inducer
+7081-53-0	Respiratory stimulant
+53-41-8	Androgen receptor agonist
+129299-90-7	Anti-emetic, 5HT3 antagonist
+88303-60-0	DNA intercalator
+58186-27-9	H2O2 radical scavenger
+120054-86-6	Ca++ channel (L-Type) blocker, 1,4-DHP
+13492-01-8	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+2208-51-7	5HT2 antagonist
+61-76-7	Adrenoceptor-alpha1 agonist, oxymetazoline
+66-32-0	Glycine receptor antagonist
+756-79-6	Cholinesterase inhibitor
+35531-88-5	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+43229-80-7	Adrenoceptor-beta2 agonist
+66532-85-2	NSAID, COX-3, acetaminophen like
+50293-90-8	Adrenoceptor agonist
+135-09-1	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+81-25-4	FXR agonist
+21256-18-8	NSAID, COX-1, heterogeneous
+346-18-9	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+138330-18-4	Farnesyl-PP synthase inhibitor
+148-82-3	DNA-alkylator, nitrogen mustard
+673-50-7	Histamine receptor agonist
+51025-85-5	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+144035-83-6	PDE4 inhibitor
+121-54-0	Nicotinic acetylcholine receptor antagonist
+91097-81-3	Adrenoceptor-beta3 agonist
+60-54-8	Bacterial ribosomal (30S) function inhibitor, tetracycline
+131086-21-0	Viral RT inhibitor
+15176-29-1	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+173903-27-0	DNA-alkylator, platin
+71-27-2	Nicotinic acetylcholine receptor agonist
+133040-01-4	Angiotensin receptor AT1 antagonist
+53177-88-1	Na+/K+-ATPase inhibitor
+117976-89-3	H+/K+-ATPase inhibitor
+51322-75-9	Imidazoline receptor agonist
+89226-75-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+107910-75-8	Viral DNA-polymerase inhibitor
+122894-02-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+3811-25-4	Adrenoceptor agonist
+20460-30-4	Na+/K+-ATPase inhibitor
+4320-13-2	Dopamine receptor antagonist (D), phenothiazine
+2068-78-2	Tubulin binder, vinca
+24729-96-2	Bacterial ribosomal (50S) function inhibitor, lincosamide
+23214-92-8	DNA intercalator, anthracycline
+721-50-6	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+98-95-3	Toxicant, free radical generator, induces methemoglobinemia
+496-67-3	GABA-A agonist
+112887-68-0	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+64294-95-7	Histamine receptor (H1) antagonist
+81098-60-4	5HT4 agonist
+193807-60-2	Protease (MMP) inhibitor
+79404-91-4	Glucan synthesis inhibitor
+5967-52-2	Adrenoceptor agonist
+76497-12-6	Progesterone receptor agonist
+361-09-1	FXR agonist
+61-16-5	Adrenoceptor-alpha1 agonist, oxymetazoline
+39562-70-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+738-70-5	Antifolate, dihydrofolate reductase inhibitor
+53152-21-9	Opioid receptor mixed agonist/antagonist
+63675-72-9	Ca++ channel (L-Type) blocker, 1,4-DHP
+76568-02-0	Unknown mechanism
+59767-13-4	Histamine receptor (H1) antagonist
+2537-29-3	GABA-A agonist, barbiturate
+70288-86-7	GABA-A Cl- channel opener, antiparasitic
+67915-31-5	Sterol 14-demethylase inhibitor, ketoconazole like
+55142-85-3	Nucleotide receptor P2Y12 antagonist
+91032-36-9	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+64211-46-7	Sterol 14-demethylase inhibitor
+87-12-7	Unknown mechanism
+150-68-5	Toxicant
+132539-07-2	Opioid receptor (mu) agonist
+6385-02-0	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+2975-36-2	Dopamine receptor antagonist (D), phenothiazine
+182133-27-3	Estrogen receptor antagonist/agonist, tissue specific
+1404-23-5	Inhibits hypoxia response, HIF-1 inhibitor
+116041-13-5	PDE inhibitor, non-specific, xanthine
+111348-33-5	DNA topoisomerase I inhibitor
+262352-17-0	Cholesterol ester transfer protein (CETP) inhibitor
+7440-38-2	Toxicant, heavy metal
+5987-82-6	Voltage gated Na+ channel blocker, p-aminobenzoate
+73210-73-8	Adrenoceptor-beta1 agonist
+35459-13-3	Adrenoceptor agonist
+86826-12-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+83905-01-5	Bacterial ribosomal (50S) function inhibitor, macrolide
+4394-00-7	NSAID, COX-1/2, heterogenous
+50-60-2	Adrenoceptor-alpha antagonist
+187285-10-5	Farnesyl-PP synthase inhibitor
+34580-13-7	5HT2 antagonist
+121947-25-9	Voltage gated Na+ channel blocker, tricyclic anticonvulsant
+125317-39-7	Tubulin binder, vinca
+73-48-3	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+3239-44-9	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+64-73-3	Bacterial ribosomal (30S) function inhibitor, tetracycline
+64461-82-1	Imidazoline receptor agonist
+23590-99-0	Adenosine receptor agonist,
+113-98-4	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+57808-66-9	Dopamine receptor antagonist (D)
+22232-71-9	Monoamine Re-uptake (DAT) inhibitor
+2154-02-1	Ca++ channel (L-Type) blocker
+15347-57-6	Toxicant, heavy metal
+77-07-6	Opioid receptor (mu) agonist
+34786-70-4	Impairs cell membrane function, polyene antifungal antibiotic
+17575-20-1	Na+/K+-ATPase inhibitor
+127243-85-0	Protein-serine/threonine kinase (PKA) inhibitor
+98769-81-4	Monoamine Re-uptake (NET) inhibitor
+122-11-2	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+68693-11-8	Monoamine Re-uptake (DAT) inhibitor
+115103-54-3	GABA reuptake inhibitor
+183808-97-1	Farnesyl-PP synthase inhibitor
+59803-99-5	Imidazoline receptor agonist
+87573-04-4	Bacterial ribosomal (50S) function inhibitor, macrolide
+89-57-6	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, aminosalicylic acid
+31428-62-3	Imidazoline receptor agonist
+193275-84-2	Protein farnesyl transferase inhibitor
+148-24-3	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+4546-39-8	Histamine receptor (H1) antagonist
+12393-32-7	Insulin receptor agonist
+284461-73-0	Protein-tyrosine kinase (Raf) inhibitor
+1808-12-4	Histamine receptor (H1) antagonist
+68291-97-4	Voltage gated Na+ channel blocker, anticonvulsant
+149647-78-9	Histone deacetylase inhibitor
+25333-77-1	Opioid receptor agonist
+51146-56-6	NSAID, COX-1, ibuprofen like
+11116-31-7	DNA damaging, free oxygen radical generator
+630-93-3	Voltage gated Na+ channel blocker, anticonvulsant
+58152-03-7	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+94-24-6	Voltage gated Na+ channel blocker, p-aminobenzoate
+158966-92-8	Leukotriene receptor antagonist
+96-88-8	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+456-59-7	Unknown mechanism
+180683-37-8	Protease (HIV-1) inhibitor
+797-64-8	Progesterone receptor agonist
+107-02-8	Toxicant, DNA damaging
+548-62-9	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+192939-46-1	Thrombin inhibitor
+125-42-8	GABA-A agonist, barbiturate
+2738-64-9	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+87333-19-5	Angiotensin converting enzyme (ACE) inhibitor
+5051-62-7	Imidazoline receptor agonist
+10262-69-8	Monoamine Re-uptake (NET) inhibitor
+1977-10-2	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+135558-11-1	DNA-alkylator, platin
+36735-22-5	GABA-A agonist, benzodiazepin
+93957-54-1	HMG-CoA reductase inhibitors
+14976-57-9	Histamine receptor (H1) antagonist, diphenylamine
+110204-46-1	Anti-emetic, 5HT3 antagonist
+127-07-1	Ribonucleoside-PP reductase inhibitor
+4410-48-4	Voltage gated Na+ channel blocker, lipophylic amine
+518-75-2	Toxicant
+55350-03-3	Toxicant, mitochondrial respiration inhibitor, inhibits ATP-synthase
+201677-61-4	Protease (serine/threonine) inhibitor
+102767-28-2	Voltage gated Na+ channel blocker, anticonvulsant
+143201-11-0	HMG-CoA reductase inhibitors
+145108-58-3	Imidazoline receptor agonist
+150374-95-1	Protease (serine/threonine) inhibitor
+19794-93-5	5HT2 antagonist
+19356-17-3	Vitamin D receptor agonist
+98-96-4	Niacin antagonist
+113045-80-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+1404-31-5	Impairs cell membrane function
+51-52-5	Thyroperoxidase inhibitor
+82410-32-0	Viral DNA-polymerase inhibitor
+693-13-0	Toxicant
+1759-09-7	Dopamine receptor antagonist (D), phenothiazine
+486-16-8	Histamine receptor (H1) antagonist
+130308-48-4	Bradykinin antagonist
+15793-40-5	Ca++ channel (L-Type) blocker
+10124-48-8	Toxicant, transition metal
+118292-40-3	Retinoic acid receptor (RAR) agonist
+555-60-2	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+63521-85-7	DNA intercalator, anthracycline
+110267-81-7	DNA intercalator, anthracycline
+84449-90-1	Estrogen receptor antagonist/agonist, tissue specific
+53-19-0	Corticosterone 18-monooxygenase inhibitor, P-glycoprotein antagonist
+66104-23-2	Ergot alkaloid
+109713-79-3	Adrenoceptor-alpha1 antagonist, zosin
+2622-37-9	Dopamine receptor antagonist (D), phenothiazine
+120685-11-2	Protein-serine/threonine kinase (PKC) inhibitor
+116521-53-0	DNA intercalator, anthracycline
+58-18-4	Androgen receptor agonist
+99522-79-9	Ca++ channel (L-Type) blocker, 1,4-DHP
+118384-10-4	PPAR gamma agonist, thiazolidinedione, antidiabetic
+24166-13-0	GABA-A agonist, benzodiazepin
+8072-21-7	Toxicant, insecticide, cholinesterase inhibitor
+129-74-8	Histamine receptor (H1) antagonist
+6754-58-1	Toxicant, free radical generator
+68-26-8	Vitamin/mineral, miscellaneous
+434-07-1	Androgen receptor agonist
+60-56-0	Thyroperoxidase inhibitor
+17692-26-1	Dopamine receptor antagonist (D), phenothiazine
+3778-73-2	DNA-alkylator, nitrogen mustard
+1218-35-5	Imidazoline receptor agonist
+57-62-5	Bacterial ribosomal (30S) function inhibitor, tetracycline
+156579-02-1	Antifolate, dihydrofolate reductase inhibitor
+75736-33-3	Monoamine Re-uptake (DAT) inhibitor
+57-64-7	Cholinesterase inhibitor
+162829-89-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+1134-47-0	GABA-B agonist
+185808-55-3	PPAR gamma agonist, thiazolidinedione, antidiabetic
+10212-25-6	DNA-Polymerase Inhibitor
+71-55-6	Toxicant
+106650-56-0	Monoamine Re-uptake (NET) inhibitor
+111-42-2	Toxicant
+63585-09-1	Viral DNA-polymerase inhibitor
+167354-32-7	Multidrug resistant pump inhibitor
+67121-76-0	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+135729-61-2	Anti-emetic, 5HT3 antagonist
+1977-11-3	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+39122-18-4	Voltage gated Na+ channel blocker, anticonvulsant
+66-86-4	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+35212-22-7	Phytoestrogen
+4201-22-3	Imidazoline receptor agonist
+146376-58-1	Adrenoceptor-beta3 agonist
+215258-80-3	Protease (MMP) inhibitor
+132203-70-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+52-86-8	Dopamine receptor antagonist (D), butyrophenone
+141725-88-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+79660-72-3	Bacterial DNA gyrase inhibitor, 8-fluoro-fluoroquinolone
+16905-00-3	Antiinflammatory, elastase inhibitor
+51-03-6	Toxicant
+11103-62-1	Tubulin binder
+586-06-1	Adrenoceptor agonist
+128413-88-7	Sigma receptor modulator
+24377-67-1	Toxicant, voltage-gated Na+ channel opener
+105760-98-3	DNA topoisomerase II inhibitor
+105462-24-6	Farnesyl-PP synthase inhibitor
+93107-08-5	Bacterial DNA gyrase inhibitor, fluoroquinolone
+129904-63-8	Ca++ channel (L-Type) blocker, 1,4-DHP
+63208-82-2	Apoptosis inhibitor
+151581-24-7	Leukotriene receptor antagonist
+11076-19-0	Toxicant, mitochondrial respiration inhibitor, uncouples Oxidative phosphorylation
+5072-26-4	Inhibits glutathione synthesis
+115-28-6	Toxicant
+51-79-6	Glutamate receptor antagonist, GABA-A agonist
+92077-78-6	Angiotensin converting enzyme (ACE) inhibitor
+171095-65-1	Arachidonate 5-lipoxygenase inhibitor
+3254-89-5	Muscarinic acetylcoline receptor (M) antagonist
+2577-72-2	Unknown mechanism
+39800-16-3	DNA-alkylator, nitrogen mustard
+134381-21-8	Proteasome inhibitor
+76-41-5	Opioid receptor agonist
+70458-96-7	Bacterial DNA gyrase inhibitor, fluoroquinolone
+379270-37-8	Viral RT inhibitor
+84252-03-9	Bacterial ribosomal (50S) function inhibitor, macrolide
+24730-10-7	Ergot alkaloid
+15676-16-1	Dopamine receptor (D2) antagonist
+61413-54-5	PDE4 inhibitor
+57-92-1	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+89651-00-3	Ergot alkaloid
+7585-39-9	Cyclodextrin
+97-77-8	Aldehyde dehydrogenase inhibitor
+111406-87-2	Arachidonate 5-lipoxygenase inhibitor
+145858-51-1	Estrogen antagonist, aromatase inhibitor
+437-38-7	Opioid receptor (mu) agonist
+124756-23-6	5HT1 agonist
+60504-57-6	DNA intercalator, anthracycline
+96392-96-0	DNA-alkylator, platin
+152-58-9	Glucocorticoid receptor agonist
+60719-84-8	PDE3 inhibitor
+1082-57-1	Imidazoline receptor agonist
+37350-58-6	Adrenoceptor-beta1 antagonist, p-phenoxypropanoamine
+122254-45-9	HMG-CoA reductase inhibitors
+315-22-0	Toxicant, mycotoxin/plant toxin
+45086-03-1	AMP kinase activator
+5585-59-1	Bacterial ribosomal (30S) function inhibitor, tetracycline
+82419-36-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+1197-18-8	Plasmin inhibitor
+75530-68-6	Ca++ channel (L-Type) blocker, 1,4-DHP
+67-47-0	Toxicant
+128-62-1	Bradykinin antagonist
+30771-29-0	Antifolate rescue
+134308-13-7	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+56-54-2	Voltage gated Na+ channel blocker
+42551-62-2	Glutamate receptor (NMDA) antagonist
+980-71-2	Histamine receptor (H1) antagonist
+23694-81-7	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+204974-67-4	Protein-serine/threonine kinase (p38) inhibitor
+134523-00-5	HMG-CoA reductase inhibitors
+145525-40-2	K+ Channel (KATP-SUR1) blocker, antidiabetic
+115308-98-0	DNA-alkylator, nitrogen mustard
+42540-40-9	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+55-86-7	DNA-alkylator, nitrogen mustard
+125197-24-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+514-65-8	Voltage gated Na+ channel blocker
+79-57-2	Bacterial ribosomal (30S) function inhibitor, tetracycline
+148553-50-8	Reduce glutamate release
+882-09-7	PPAR alpha agonist, fibric acid
+59803-98-4	Imidazoline receptor agonist
+68741-18-4	Histamine receptor (H1) antagonist
+174634-08-3	DNA topoisomerase inhibitor
+12584-58-6	Insulin receptor agonist
+171599-83-0	PDE5 inhibitor
+19387-91-8	DNA damaging, free oxygen radical generator, antiparasitic
+97240-79-4	GABA reuptake inhibitor
+71628-96-1	DNA intercalator, anthracycline
+34444-01-4	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+104051-69-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+51543-39-6	NSAID, COX-1/2, heterogenous
+61379-65-5	RNA polymerase inhibitor
+114977-28-5	Tubulin binder
+123948-88-9	DNA topoisomerase I inhibitor
+81732-46-9	Adrenoceptor-beta2 agonist
+75706-12-6	Inhibits pyrimidine /purine metabolism, dihydroorotase inhibitor
+103909-75-7	Vitamin D receptor agonist
+59009-93-7	GABA-A agonist, benzodiazepin
+111025-46-8	PPAR gamma agonist, thiazolidinedione, antidiabetic
+145733-36-4	Angiotensin receptor AT1 antagonist
+27589-33-9	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+62658-63-3	Adrenoceptor-beta antagonist
+161814-49-9	Protease (HIV-1) inhibitor
+7125-76-0	Opioid receptor agonist
+124750-99-8	Angiotensin receptor AT1 antagonist
+226700-80-7	Protease (HIV-1) inhibitor
+72496-41-4	DNA intercalator, anthracycline
+87481-49-0	Adrenoceptor-beta2 agonist
+33279-57-1	Na+/K+-ATPase inhibitor
+2898-12-6	GABA-A agonist, benzodiazepin
+147149-76-6	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+57773-65-6	Gonadotropin-releasing hormone (GnRH) receptor agonist
+72822-13-0	Adrenoceptor-alpha1 antagonist
+68497-62-1	PDE inhibitor, non-specific, xanthine
+114374-97-9	5HT1 agonist
+86220-42-0	Gonadotropin-releasing hormone (GnRH) receptor agonist
+7224-08-0	Dopamine receptor antagonist (D), phenothiazine
+11030-31-2	Na+/K+-ATPase inhibitor
+132539-06-1	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+671-16-9	DNA-alkylator
+665-66-7	Nicotinic acetylcholine receptor antagonist
+69217-67-0	NSAID, COX-3, acetaminophen like
+106560-14-9	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+68-41-7	Bacterial Cell wall biosynthesis inhibitor
+27511-99-5	GABA-A agonist, barbiturate
+2809-21-4	Farnesyl-PP synthase inhibitor
+130464-84-5	Protease (MMP) inhibitor
+111469-81-9	Opioid receptor antagonist
+68291-98-5	Voltage gated Na+ channel blocker, anticonvulsant
+65576-45-6	Dopamine receptor antagonist (D)
+4360-12-7	Voltage gated Na+ channel blocker, lipophylic amine
+25046-79-1	K+ Channel (KATP-SUR1) blocker, antidiabetic
+382-67-2	Glucocorticoid receptor agonist
+859-18-7	Bacterial ribosomal (50S) function inhibitor, lincosamide
+11003-08-0	Toxicant, DNA alkylator
+104987-11-3	Inhibits T-cell activation
+114488-24-3	DNA-alkylator, platin
+95847-87-3	5HT1 agonist
+121-92-6	Toxicant
+267243-28-7	Protein-tyrosine kinase (erbb) inhibitor
+113-92-8	Histamine receptor (H1) antagonist, diphenylamine
+79516-68-0	Histamine receptor (H1) antagonist
+82-95-1	Histamine receptor (H1) antagonist
+84-08-2	Dopamine receptor antagonist (D), phenothiazine
+133-67-5	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+51-41-2	Adrenoceptor agonist
+152657-84-6	Opioid receptor agonist
+1508-65-2	Muscarinic acetylcoline receptor (M) antagonist
+87027-09-6	NSAID, COX-1/2, oxicam
+143577-61-1	5HT1 agonist
+73986-90-0	Ergot alkaloid
+43210-67-9	Tubulin binder, benzimidazole
+7540-22-9	Bacterial ribosomal (50S) function inhibitor, macrolide
+27223-35-4	GABA-A agonist, benzodiazepin
+36508-71-1	DNA intercalator, anthracycline
+17440-83-4	Na+ channel (ENaC) inhibitor, distal tubule diuretic
+81403-80-7	Adrenoceptor-alpha1 antagonist, zosin
+15686-71-2	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+54-21-7	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+72432-10-1	Glutamate receptor (metabotropic) agonist
+50-33-9	NSAID, COX-1, heterogeneous
+92623-85-3	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+50-81-7	H2O2 radical scavenger
+100-00-5	Toxicant
+64706-54-3	Ca++ channel blocker
+160472-97-9	Anti-emetic, 5HT3 antagonist
+1228-19-9	K+ Channel (KATP-SUR1) blocker, antidiabetic
+51-34-3	Muscarinic acetylcoline receptor (M) antagonist
+61422-45-5	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+34135-07-4	Glucocorticoid receptor agonist
+551-06-4	Toxicant
+318-98-9	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+198470-84-7	NSAID, COX-2/1, coxib like
+134028-04-9	Ca++ channel (L-Type) blocker, 1,4-DHP
+59-05-2	Antifolate, dihydrofolate reductase inhibitor
+101477-54-7	Ca++ channel (L-Type) blocker
+41575-94-4	DNA-alkylator, platin
+89987-06-4	Farnesyl-PP synthase inhibitor
+8026-72-0	Bacterial ribosomal (30S) function inhibitor, tetracycline
+128-46-1	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+58786-99-5	Opioid receptor mixed agonist/antagonist
+25122-46-7	Glucocorticoid receptor agonist
+97901-21-8	Antiinflammatory, thromboxane-A synthase inhibitor
+138614-30-9	Bradykinin antagonist
+12758-40-6	Chemokine receptor inhibitor
+62613-82-5	PDE inhibitor, non-specific, xanthine
+81732-65-2	Adrenoceptor-beta2 agonist
+23277-43-2	Opioid receptor mixed agonist/antagonist
+138729-47-2	GABA-A agonist, short acting
+59804-37-4	NSAID, COX-1/2, oxicam
+58970-76-6	Aminopeptidase inhibitor
+58-32-2	Equilibrative nucleoside transporter 1 inhibitor
+3296-90-0	Toxicant
+198904-31-3	Protease (HIV-1) inhibitor
+36505-84-7	5HT1A partial agonist
+22204-53-1	NSAID, COX-1, 6-Methoxy-naphthalenyl-acetic acid
+259199-65-0	Apoptosis inducer, p53 function enhancer
+184475-35-2	Protein-tyrosine kinase (EGFR) inhibitor
+516-90-5	Bile salt
+148717-90-2	Angiogenesis inhibitor
+61036-63-3	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+86393-32-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+55985-32-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+7261-97-4	Inhibits Ca++ release from intracellular stores
+120092-68-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+14362-31-3	Histamine receptor (H1) antagonist
+220997-97-7	DNA topoisomerase I inhibitor
+106-51-4	Toxicant
+3506-31-8	Adrenoceptor agonist
+550-70-9	Histamine receptor (H1) antagonist
+81147-92-4	Adrenoceptor-beta1 antagonist, p-phenoxypropanoamine
+5104-49-4	NSAID, COX-1/2, heterogenous
+94-59-7	Toxicant
+11070-73-8	Insulin receptor agonist
+7440-02-0	Toxicant, heavy metal, hypoxia inducer, HIF-1alpha stablizer
+136-47-0	Voltage gated Na+ channel blocker, p-aminobenzoate
+22144-77-0	Actin filament inhibitor
+89396-94-1	Angiotensin converting enzyme (ACE) inhibitor
+10596-23-3	Farnesyl-PP synthase inhibitor
+93-15-2	Toxicant
+57-43-2	GABA-A agonist, barbiturate
+25265-71-8	Toxicant
+298-46-4	Voltage gated Na+ channel blocker, tricyclic anticonvulsant
+75696-02-5	GABA-A agonist, benzodiazepin, short acting
+14110-97-5	Toxicant, transition metal
+32986-56-4	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+100599-27-7	NSAID, COX-1, indomethacin like
+76712-82-8	Gonadotropin-releasing hormone (GnRH) receptor agonist
+146613-90-3	Angiotensin receptor AT1 antagonist
+51-15-0	Cholinesterase inhibitor
+110944-55-3	5HT1 agonist
+30123-17-2	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+117091-64-2	DNA topoisomerase II inhibitor
+169590-42-5	NSAID, COX-2/1, coxib like
+16220-07-8	DNA-Polymerase Inhibitor, purine nucleoside
+2235-90-7	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+3562-84-3	Organic anion transporter inhibitor
+54910-89-3	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+119474-55-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+127-79-7	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor, isoxazol-sulfonamide
+110958-23-1	PDE inhibitor, non-specific, xanthine
+155773-58-3	DNA topoisomerase I inhibitor
+151390-79-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+67809-22-7	T3 receptor agonist
+4548-15-6	DNA damaging, free oxygen radical generator
+135729-56-5	Anti-emetic, 5HT3 antagonist
+23593-75-1	Sterol 14-demethylase inhibitor
+76584-70-8	Voltage gated Na+ channel blocker, anticonvulsant
+76-03-9	Unknown mechanism
+176721-04-3	Imidazoline receptor agonist
+80755-51-7	Adrenoceptor-alpha1 antagonist, zosin
+2432-99-7	Toxicant
+48141-64-6	Adrenoceptor agonist
+4205-90-7	Adrenoceptor-alpha2 agonist, imidazoline receptor agonist
+10379-14-3	GABA-A agonist, benzodiazepin
+65-45-2	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+110-86-1	Toxicant, free radical generator
+66981-73-5	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+104-40-5	Toxicant, estrogen receptor agonist
+121714-72-5	Progesterone receptor agonist
+56-29-1	GABA-A agonist, barbiturate
+12772-40-6	Toxicant, insecticide, cholinesterase inhibitor
+614-39-1	Voltage gated Na+ channel blocker, p-aminobenzoate
+13137-64-9	Na+/K+-ATPase inhibitor
+22994-85-0	DNA damaging, free oxygen radical generator
+1434-54-4	Glucocorticoid receptor antagonist
+70458-95-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+103-90-2	NSAID, COX-3, acetaminophen like
+139264-25-8	5HT1 agonist
+25451-15-4	Voltage gated Na+ channel blocker, anticonvulsant
+137862-53-4	Angiotensin receptor AT1 antagonist
+124669-21-2	Sterol 14-demethylase inhibitor, fluconazole like
+89-82-7	Toxicant
+155230-09-4	Imidazoline receptor agonist
+518-28-5	Tubulin binder, toposide
+66969-81-1	Adrenoceptor-alpha1 antagonist, zosin
+12663-50-2	Voltage gated Na+ channel blocker, p-aminobenzoate
+59467-77-5	GABA-A agonist, benzodiazepin
+598-55-0	Toxicant
+564-36-3	Ergot alkaloid
+58957-92-9	DNA intercalator, anthracycline
+84485-00-7	Monoamine Re-uptake (NET) inhibitor
+127254-12-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+143322-58-1	5HT1 agonist
+67469-69-6	Monoamine Re-uptake (DAT) inhibitor
+20187-55-7	NSAID, COX-1, heterogeneous
+11096-21-2	Toxicant, insecticide, cholinesterase inhibitor
+61-80-3	K+ Channel (Ca++ dependent) opener
+68630-75-1	Gonadotropin-releasing hormone (GnRH) receptor agonist
+51-05-8	Voltage gated Na+ channel blocker, p-aminobenzoate
+139226-30-5	Lipoxygenase inhibitor
+127045-41-4	Bacterial DNA gyrase inhibitor, fluoroquinolone
+114289-47-3	Sterol O-acyltransferase (ACAT) inhibitor
+10379-11-0	GABA-A agonist, benzodiazepin
+53086-13-8	NSAID, COX-1, arylacylprofen
+72559-06-9	RNA polymerase inhibitor
+537-46-2	Monoamine Re-uptake (NET) inhibitor
+57-47-6	Cholinesterase inhibitor
+148-79-8	Tubulin binder, benzimidazole
+13755-38-9	NO doner
+561-83-1	GABA-A agonist, barbiturate
+139226-28-1	Lipoxygenase inhibitor
+122547-49-3	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+1424-27-7	Carbonic Anhydrase Inhibitor
+51-98-9	Progesterone receptor agonist
+87-08-1	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+111974-69-7	5HT2/D4/D2 antagonist, tricyclic antipsychotic
+89226-50-6	Ca++ channel (L-Type) blocker, 1,4-DHP
+72741-87-8	Mannosidase inhibitor
+972-02-1	Muscarinic acetylcoline receptor (M) antagonist
+27262-47-1	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+124083-20-1	Carnitine palmitoyltransferase inhibitor
+119914-60-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+29883-15-6	Toxicant, mitochondrial respiration inhibitor, inhibits electron transfer
+72-33-3	Estrogen receptor agonist, steroidal
+170729-80-3	Anti-emetic, neurokinin-1 receptor antagonist
+136816-53-0	DNA intercalator, anthracycline
+103628-46-2	5HT1D agonist
+303-25-3	Histamine receptor (H1) antagonist
+140462-76-6	Histamine receptor (H1) antagonist
+2169-64-4	DNA-Polymerase Inhibitor, pyrimidine nucleoside
+2109-73-1	NSAID, COX-3, acetaminophen like
+2062-84-2	Dopamine receptor (D2) antagonist
+5979-00-0	Vitamin-K-epoxide reductase inhibitor
+202807-80-5	Glutamate receptor (NMDA) antagonist
+2955-38-6	GABA-A agonist, benzodiazepin
+2265-22-7	Glucocorticoid receptor agonist
+23491-45-4	DNA intercalator
+83435-66-9	Angiotensin converting enzyme (ACE) inhibitor
+76053-16-2	GABA-A agonist, benzodiazepin
+83380-47-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+79547-78-7	Histamine receptor (H1) antagonist
+72956-09-3	Adrenoceptor-beta antagonist
+30868-30-5	DNA-Polymerase Inhibitor
+38101-59-6	VEGF receptor antagonist
+10457-90-6	Dopamine receptor antagonist (D), butyrophenone
+139987-54-5	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+107023-41-6	Leukotriene receptor antagonist
+846-50-4	GABA-A agonist, benzodiazepin, short acting
+4267-05-4	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+12767-26-9	Adenosine receptor antagonist, xanthine
+86189-69-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+1764-85-8	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+537-98-4	H2O2 radical scavenger
+364782-34-3	Calcimimetic
+98631-95-9	DNA topoisomerase II inhibitor
+112457-95-1	5HT1 agonist
+163042-96-4	Adenosine receptor agonist,
+35543-24-9	Adrenoceptor-alpha antagonist
+102090-90-4	Angiotensin converting enzyme (ACE) inhibitor
+70476-82-3	DNA intercalator
+135729-62-3	Anti-emetic, 5HT3 antagonist
+154453-18-6	Inhibits hypoxia response, HIF-1 inhibitor
+595-33-5	Progesterone receptor agonist
+50892-23-4	PPAR alpha agonist, fibric acid
+158664-17-6	Antifolate, dihydrofolate reductase inhibitor
+1693-37-4	NSAID, COX-3, acetaminophen like
+3902-71-4	Unknown mechanism
+467214-20-6	Protein-tyrosine kinase (MET) inhibitor
+111520-35-5	Gonadotropin-releasing hormone (GnRH) receptor agonist
+145781-32-4	Angiotensin receptor AT1 antagonist
+54-62-6	Antifolate, dihydrofolate reductase inhibitor
+4342-03-4	DNA-alkylator
+2062-78-4	Ca++ channel (T-Type) blocker
+254751-28-5	Glutamate receptor (AMPA) antagonist
+75755-07-6	Farnesyl-PP synthase inhibitor
+969-33-5	5HT2/H1 antagonist, tricyclic
+91032-26-7	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+123447-62-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+78712-43-3	Antiinflammatory, thromboxane-A synthase inhibitor
+7414-83-7	Farnesyl-PP synthase inhibitor
+2447-57-6	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+27220-47-9	Sterol 14-demethylase inhibitor, fluconazole like
+97322-87-7	PPAR gamma agonist, thiazolidinedione, antidiabetic
+269718-83-4	Dopamine receptor (D2) agonist
+24219-97-4	Histamine receptor (H1) antagonist
+83366-66-9	5HT2 antagonist
+50-91-9	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+132-22-9	Histamine receptor (H1) antagonist
+2016-88-8	Na+ channel (ENaC) inhibitor, distal tubule diuretic
+1397-89-3	Impairs cell membrane function, polyene antifungal antibiotic
+56281-36-8	Retinoic acid receptor (RAR) agonist
+23734-88-5	Estrogen antagonist, aromatase inhibitor
+395-28-8	Adrenoceptor-alpha antagonist
+15687-07-7	GABA-A agonist, benzodiazepin
+125-59-7	Voltage gated Na+ channel blocker, anticonvulsant
+124-90-3	Opioid receptor (mu) agonist
+86-22-6	Histamine receptor (H1) antagonist
+53-79-2	Ribosomal protein synthesis inhibitor
+68367-52-2	Aldehyde reductase inhibitor
+177172-49-5	Calcimimetic
+86753-29-9	GABA-A Cl- channel opener, antiparasitic
+113-42-8	Ergot alkaloid
+31377-23-8	Nicotinic acetylcholine receptor antagonist
+145858-52-5	Estrogen antagonist, aromatase inhibitor
+173903-39-4	DNA-alkylator, platin
+51-21-8	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+9004-10-8	Insulin receptor agonist
+66778-36-7	Voltage gated Na+ channel blocker
+59721-28-7	Protease (serine/threonine) inhibitor
+146376-61-6	Adrenoceptor-beta3 agonist
+82626-48-0	GABA-A agonist, short acting
+186826-86-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+5310-55-4	GABA-A agonist
+3074-35-9	K+ Channel (KATP-SUR1) blocker, antidiabetic
+6000-74-4	Glucocorticoid receptor agonist
+142654-34-0	Bacterial beta-lactamase inhibitor
+2933-45-1	Monoamine Re-uptake (DAT) inhibitor
+7232-21-5	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+53-21-4	Monoamine Re-uptake (DAT) inhibitor
+39831-55-5	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+92-84-2	Dopamine receptor antagonist (D), phenothiazine
+69049-06-5	Opioid receptor (mu) agonist
+142522-28-9	Leukotriene receptor antagonist
+74-31-7	H2O2 radical scavenger
+148869-05-0	Estrogen antagonist, aromatase inhibitor
+1264-72-8	Impairs cell membrane function
+88107-10-2	Leukotriene receptor antagonist
+76963-41-2	Histamine receptor (H2) antagonist
+199875-69-9	Toxicant, Ah receptor agonist, DNA alkylator
+160146-17-8	Estrogen antagonist, aromatase inhibitor
+3366-95-8	DNA damaging, free oxygen radical generator
+68964-90-9	Sigma receptor modulator
+479-18-5	PDE inhibitor, non-specific, xanthine
+54143-55-4	Voltage gated Na+ channel blocker
+132017-01-7	HMG-CoA reductase inhibitors
+110871-86-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+565-33-3	K+ Channel (KATP-SUR1) blocker, antidiabetic
+58-33-3	Dopamine receptor antagonist (D), phenothiazine
+4528-52-3	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+87-68-3	Toxicant, DNA damaging
+54-42-2	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+54-25-1	Inhibits pyrimidine /purine metabolism, thymidine kinase inhibitor
+113806-05-6	Histamine receptor (H1) antagonist
+271-89-6	Toxicant
+99-66-1	Voltage gated Na+ channel blocker, anticonvulsant
+36637-18-0	Voltage gated Na+ channel blocker, alpha-amino-acid arylamide
+111223-26-8	Angiotensin converting enzyme (ACE) inhibitor
+76547-98-3	Angiotensin converting enzyme (ACE) inhibitor
+56391-57-2	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+101827-46-7	Squalene epoxidase inhibitor
+210353-56-3	Bacterial DNA gyrase inhibitor, fluoroquinolone
+74-83-9	Toxicant
+117211-03-7	Bacterial beta-lactamase inhibitor
+213252-19-8	PPAR gamma agonist, thiazolidinedione, antidiabetic
+120635-72-5	Anti-emetic, 5HT3 antagonist
+128229-52-7	Histamine receptor (H1) antagonist
+508-75-8	Na+/K+-ATPase inhibitor
+36519-31-0	Adrenoceptor-beta2 agonist
+71447-49-9	Gonadotropin-releasing hormone (GnRH) receptor agonist
+128427-30-5	Bacterial DNA gyrase inhibitor, fluoroquinolone
+85691-74-3	Antiinflammatory, thromboxane-A synthase inhibitor
+175865-61-9	Viral DNA-polymerase inhibitor
+113-73-5	Impairs cell membrane function
+186392-65-4	Glycogen phosphorylase inhibitor
+212142-18-2	Protein-tyrosine kinase (Kit) inhibitor
+79-38-9	Toxicant, free oxygen radical generator
+145040-37-5	Angiotensin receptor AT1 antagonist
+22260-51-1	Ergot alkaloid
+42200-33-9	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+34661-75-1	Adrenoceptor-alpha antagonist
+34580-14-8	5HT2 antagonist
+85-79-0	Voltage gated Na+ channel blocker, lipophylic amine
+13523-86-9	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+299-75-2	DNA-alkylator, methanesulfonate
+25523-97-1	Histamine receptor (H1) antagonist, diphenylamine
+109545-84-8	Bacterial ribosomal (30S) function inhibitor
+42835-25-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+76578-12-6	Toxicant, free radical generator
+40796-97-2	Anti-emetic, 5HT3 antagonist
+145858-50-0	Estrogen antagonist, aromatase inhibitor
+68-12-2	Toxicant, free radical generator
+183552-38-7	Gonadotropin-releasing hormone (GnRH) receptor antagonist
+822-36-6	Toxicant
+188696-80-2	Glutamate receptor (AMPA) antagonist
+17230-88-5	Progesterone receptor antagonist
+60-32-2	Plasmin inhibitor
+345-78-8	Adrenoceptor agonist
+124669-22-3	Sterol 14-demethylase inhibitor, fluconazole like
+5611-64-3	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+58-93-5	Na+-Cl- cotransporter (TSC) inhibitor, distal tubule diuretic
+183718-77-6	Toxicant, DNA damaging, induces methemoglobinemia
+15307-81-0	NSAID, COX-1/2, o-phenylamino-phenylacetic acid
+54317-11-2	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+34911-55-2	Monoamine Re-uptake (DAT/NET) inhibitor, adrenoceptor-alpha antagonist
+53-06-5	Glucocorticoid receptor agonist
+127-69-5	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor
+30418-51-0	Toxicant
+153125-17-8	Antiinflammatory, phospholipase A2 inhibitor
+116644-53-2	Ca++ channel (T-Type) blocker
+137071-32-0	Inhibits T-cell activation
+16105-77-4	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+120014-06-4	Cholinesterase (acetyl) inhibitor, heterogeneous
+140-65-8	Voltage gated Na+ channel blocker, lipophylic amine
+59721-29-8	Protease (serine/threonine) inhibitor
+56124-62-0	DNA intercalator, anthracycline
+101828-21-1	Squalene epoxidase inhibitor
+99614-01-4	Anti-emetic, 5HT3 antagonist
+95058-81-4	DNA-Polymerase Inhibitor, pyrimidine nucleoside
+1491-59-4	Adrenoceptor-alpha1 agonist, oxymetazoline
+532-32-1	Unknown mechanism, acidifying agent
+65-19-0	Adrenoceptor-alpha2 antagonist
+120-80-9	Toxicant, free radical generator, DNA damaging
+8072-39-7	Toxicant, insecticide, cholinesterase inhibitor
+257933-82-7	Protein-tyrosine kinase (erbb) inhibitor
+117-89-5	Dopamine receptor antagonist (D), phenothiazine
+94-09-7	Voltage gated Na+ channel blocker, p-aminobenzoate
+90-45-9	DNA intercalator
+5051-22-9	Adrenoceptor-beta1 antagonist, aryloxypropanoamine
+50935-04-1	DNA intercalator, anthracycline
+69-74-9	DNA-Polymerase Inhibitor, pyrimidine nucleoside
+5841-63-4	Monoamine Re-uptake (DAT) inhibitor
+62-44-2	NSAID, COX-3, acetaminophen like
+74103-06-3	NSAID, COX-1, heterogeneous
+115964-29-9	Bacterial DNA gyrase inhibitor, fluoroquinolone
+8065-45-0	Monoamine Re-uptake (DAT) inhibitor
+105655-99-0	DNA topoisomerase II inhibitor
+522-48-5	Imidazoline receptor agonist
+13311-84-7	Androgen receptor antagonist
+27948-47-6	Adrenoceptor-beta antagonist
+116788-91-1	Toxicant, insecticide, cholinesterase inhibitor
+35604-67-2	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+50-24-8	Glucocorticoid and mineralocorticoid receptor agonist
+1104-22-9	Muscarinic acetylcoline receptor (M) antagonist
+70879-28-6	Opioid receptor (mu) agonist
+68-88-2	Histamine receptor (H1) antagonist
+83435-67-0	Angiotensin converting enzyme (ACE) inhibitor
+159989-64-7	Protease (HIV-1) inhibitor
+17198-21-9	Dopamine synthesis inhibitor, dopamine-beta-monooxygenase inhibitor
+96566-25-5	Leukotriene receptor antagonist
+162301-08-8	Bacterial DNA gyrase inhibitor, fluoroquinolone
+91599-74-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+46817-91-8	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+115104-28-4	Leukotriene receptor antagonist
+1553-60-2	NSAID, COX-1, ibuprofen like
+848-75-9	GABA-A agonist, benzodiazepin, short acting
+173903-41-8	DNA-alkylator, platin
+789-61-7	DNA-Polymerase Inhibitor, purine nucleoside
+73963-72-1	PDE3 inhibitor
+163133-43-5	NSAID, COX-1, 6-Methoxy-naphthalenyl-acetic acid
+6168-86-1	Adrenoceptor agonist
+509-86-4	GABA-A agonist, barbiturate
+84057-94-3	Adrenoceptor-beta1 antagonist, p-phenoxypropanoamine
+74103-07-4	NSAID, COX-1, heterogeneous
+624747-15-5	Caspase inhibitor
+96497-67-5	DNA intercalator, anthracycline
+127-48-0	GABA-A agonist
+114298-18-9	5HT1 agonist
+55981-09-4	Antibacterial, fungicidal, antiparasitic, MOA unknown
+61380-40-3	Opioid receptor (mu) agonist
+83015-26-3	Norepinephrine uptake inhibitor, specific
+140-64-7	RNA splicing inhibitor, antiparasitics
+65673-63-4	Apoptosis inducer, BH3 domain binder
+1405-97-6	Impairs cell membrane function
+167887-97-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+54083-22-6	DNA intercalator, anthracycline
+2508-72-7	Histamine receptor (H1) antagonist
+30652-11-0	Iron chelator, HIF-1alpha stablizer
+83-44-3	FXR agonist
+14885-29-1	DNA damaging, free oxygen radical generator
+5728-52-9	NSAID, COX-1, heterogeneous
+90417-38-2	Protein poly(ADP-ribose) polymerase (PARP) inhibitor
+192725-17-0	Protease (HIV-1) inhibitor
+84-22-0	Imidazoline receptor agonist
+59277-89-3	Viral DNA-polymerase inhibitor
+98-82-8	Toxicant
+85721-33-1	Bacterial DNA gyrase inhibitor, fluoroquinolone
+62030-88-0	Dopamine receptor antagonist (D), phenothiazine
+22601-59-8	Bacterial Cell wall biosynthesis inhibitor
+443129-35-9	Toxicant, heavy metal
+303-49-1	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+78755-81-4	GABA-A agonist, benzodiazepin
+486-66-8	Phytoestrogen
+29975-16-4	GABA-A agonist, benzodiazepin
+91032-38-1	Bacterial Cell wall biosynthesis inhibitor, D-Ala-D-Ala carboxypeptidase inhibitor
+154361-50-9	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+1420-55-9	Dopamine receptor antagonist (D), phenothiazine
+119905-00-9	DNA intercalator
+186827-03-2	Bacterial DNA gyrase inhibitor, fluoroquinolone
+73573-87-2	Adrenoceptor-beta2 agonist
+94-58-6	Toxicant
+1812-30-2	GABA-A agonist, benzodiazepin
+344458-19-1	Protein poly(ADP-ribose) polymerase (PARP) inhibitor
+105826-92-4	Anti-emetic, 5HT3 antagonist
+77-23-6	Sigma receptor modulator
+128517-07-7	Histone deacetylase inhibitor
+7481-89-2	Viral RT inhibitor
+26159-36-4	NSAID, COX-1, 6-Methoxy-naphthalenyl-acetic acid
+155-09-9	Monoamine oxidase/ Catechol-O-methyl transferase inhibitor
+151165-96-7	Bile acid transporter (ileal) inhibitor
+73590-58-6	H+/K+-ATPase inhibitor
+59122-46-2	Prostaglandin receptor agonist
+8017-52-5	Voltage gated Na+ channel blocker, anticonvulsant
+212141-54-3	Protein-tyrosine kinase (Kit) inhibitor
+116573-93-4	Ca++ channel (L-Type) blocker, 1,4-DHP
+56-49-5	Toxicant, Ah receptor agonist, DNA alkylator
+6591-49-7	Bacterial ribosomal (30S) function inhibitor, tetracycline
+122742-25-0	Progesterone receptor antagonist
+3771-19-5	PPAR alpha agonist, fibric acid
+33342-05-1	K+ Channel (KATP-SUR1) blocker, antidiabetic
+116002-70-1	Anti-emetic, 5HT3 antagonist
+130-95-0	Voltage gated Na+ channel blocker
+29462-18-8	GABA-A agonist, benzodiazepin
+503-01-5	Adrenoceptor agonist
+154413-61-3	Leukotriene receptor antagonist
+77-67-8	Voltage gated Na+ channel blocker, anticonvulsant
+912-60-7	Bradykinin antagonist
+59-88-1	Dopamine synthesis inhibitor, dopamine-beta-monooxygenase inhibitor
+106400-81-1	Antifolate
+226256-56-0	Calcimimetic
+9045-63-0	Insulin receptor agonist
+130018-77-8	Histamine receptor (H1) antagonist
+117523-47-4	Opioid receptor (mu) agonist
+63-98-9	GABA-A agonist
+54-36-4	P450 enzyme (steroid metabolism) inhibitor
+113403-10-4	NSAID, COX-1, ibuprofen like
+119006-77-8	Sterol 14-demethylase inhibitor
+101043-37-2	Protein-serine/threonine phosphatase inhibitor
+129277-01-6	Viral M2 protein inhibitor
+7554-65-6	Alcohol dehydrogenase inhibitor
+404-86-4	Vanilloid receptor agonist
+88669-04-9	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+50-49-7	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+51-64-9	Monoamine Re-uptake (NET) inhibitor
+53179-09-2	Bacterial ribosomal (30S) function inhibitor, aminoglycoside
+23981-47-7	NSAID, COX-1, 6-Methoxy-naphthalenyl-acetic acid
+35658-65-2	Toxicant, heavy metal
+3380-34-5	Bacterial lipid metabolism inhibitor
+103628-47-3	5HT1D agonist
+1421-15-4	Voltage gated Na+ channel blocker, anticonvulsant
+54573-75-0	Vitamin D receptor agonist
+179041-30-6	5HT1 agonist
+61-25-6	Ca++ channel (L-Type) blocker
+112828-00-9	Vitamin D receptor agonist
+24280-93-1	Unknown mechanism, inhibit cytokine production
+298-57-7	Histamine receptor (H1) antagonist, Ca++ channel (L-Type) blocker
+1668-19-5	Histamine receptor (H1) antagonist, tricyclic
+1806-26-4	Toxicant, estrogen receptor agonist
+156-56-9	Carnitine palmitoyltransferase inhibitor
+42116-76-7	DNA damaging, free oxygen radical generator
+105956-97-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+120656-74-8	Opioid receptor (mu) agonist
+196808-24-9	PPAR gamma agonist
+163706-06-7	Nucleotide receptor P2Y12 antagonist
+82586-55-8	Angiotensin converting enzyme (ACE) inhibitor
+25967-29-7	GABA-A agonist, benzodiazepin
+118289-78-4	5HT2/D4/D2 antagonist
+141683-98-9	PPAR gamma agonist, thiazolidinedione, antidiabetic
+65807-02-5	Gonadotropin-releasing hormone (GnRH) receptor agonist
+86780-90-7	Ca++ channel (L-Type) blocker, 1,4-DHP
+72-69-5	Monoamine Re-uptake (NET/SERT) inhibitor, tricyclic
+68-22-4	Progesterone receptor agonist
+55837-27-9	Na+-K+-2Cl- cotransporter inhibitor, loop diuretic
+93106-60-6	Bacterial DNA gyrase inhibitor, fluoroquinolone
+82752-99-6	5HT2 antagonist
+151-67-7	Ca++ channel (T-Type) blocker
+75438-57-2	Adrenoceptor-alpha2 agonist, imidazoline receptor agonist
+148717-54-8	Calcimimetic
+86784-41-0	Bacterial DNA gyrase inhibitor, fluoroquinolone
+78415-72-2	PDE3 inhibitor
+10045-45-1	K+ Channel (Ca++ dependent) opener
+286370-15-8	Protein-tyrosine kinase (Kit) inhibitor
+108674-86-8	Ergot alkaloid
+105165-22-8	Androgen receptor agonist
+60-89-9	Dopamine receptor antagonist (D), phenothiazine
+76932-56-4	Gonadotropin-releasing hormone (GnRH) receptor agonist
+162326-86-5	Adrenoceptor-beta3 agonist
+119-36-8	Antiinflammatory, IkB kinase-beta (IKK-beta) inhibitor, salicylic acid
+47880-49-9	Bacterial ribosomal (50S) function inhibitor, macrolide
+139264-24-7	5HT1 agonist
+631-27-6	K+ Channel (KATP-SUR1) blocker, antidiabetic
+132-98-9	Bacterial Cell wall biosynthesis inhibitor, PBP inhibitor
+522-51-0	K+ Channel (Ca++ dependent) blocker
+148262-19-5	DNA topoisomerase II inhibitor
+68-89-3	NSAID, COX-3, antipyrine like
+181586-07-2	Protease (serine/threonine) inhibitor
+60763-49-7	Histamine receptor (H1) antagonist, Ca++ channel (L-Type) blocker
+5581-45-3	Monoamine Re-uptake (SERT) inhibitor, heterogeneous structures
+23795-03-1	Organic anion transporter inhibitor
+157212-55-0	Endothelin receptor antagonist
+77639-66-8	Antiinflammatory, target unknown
+137281-23-3	Inhibits pyrimidine /purine metabolism, thymidylate synthase inhibitor
+132-21-8	Histamine receptor (H1) antagonist
+53-60-1	Dopamine receptor antagonist (D), phenothiazine
+74790-08-2	DNA-alkylator, platin
+113759-50-5	Ca++ channel (L-Type) blocker, 1,4-DHP
+32222-06-3	Vitamin D receptor agonist
+144-82-1	Bacterial folate synthesis inhibitor, dihydropteroate synthase inhibitor, isoxazol-sulfonamide
+90101-16-9	NSAID, COX-1/2, oxicam
+102106-21-8	Ca++ channel (L-Type) blocker, 1,4-DHP
+127657-42-5	Farnesyl-PP synthase inhibitor
+105234-21-7	Voltage gated Na+ channel blocker, tricyclic anticonvulsant
+127-33-3	Bacterial ribosomal (30S) function inhibitor, tetracycline
+561-86-4	GABA-A agonist, barbiturate

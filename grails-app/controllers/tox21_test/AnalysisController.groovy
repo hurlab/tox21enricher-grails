@@ -77,7 +77,7 @@ class AnalysisController implements InitializingBean {
                     transactionData[3].CASRNBox = convertCheckedCasrns(tmpBox)
                 }
                 itemBox = transactionData[3].CASRNBox
-                println "ITEMBOX IS: $itemBox"
+                //println "ITEMBOX IS: $itemBox"
             } 
             else {
                 if (transactionData[3].analysisType == "CASRNS") {
@@ -185,7 +185,6 @@ class AnalysisController implements InitializingBean {
 
         //update queue display w/ result link after enrichment is done
         def getQueueDataSuccess(def idToUpdate, def resultLink, def nodeCutoff) { 
-        println("| adding result link")
             for(int i = 0; i < queueDataList.size(); i++) {
                 if(idToUpdate == queueDataList[i][1]) {
                     queueDataList[i][4] = resultLink
@@ -328,6 +327,7 @@ class AnalysisController implements InitializingBean {
                         def curSet = 1
 
                         //detect if the user submitted SMILES or InChi. They are both handled almost identically internally.
+                        //the only difference is that InChI is fist converted to SMILES and then they are handled the same.
                         if(enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
                             println("| I think it's SMILES")
                             params.SMILEBox.eachLine { smile, lineNumber ->
@@ -362,43 +362,65 @@ class AnalysisController implements InitializingBean {
                         def dataBox
                         if(enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
                             dataBox = params.SMILEBox
-                            println "SMILES | dataBox is $dataBox"
+                            //println "SMILES | dataBox is $dataBox"
                         }
                         else {
                             dataBox = params.InChIBox
-                            println "InChI | dataBox is $dataBox"
+                            //println "InChI | dataBox is $dataBox"
                         }
 
                         dataBox.eachLine { itemFromBox, lineNumber ->
                             //Try/catch block to catch invalid SMILEs/InChI
                             try {
                                 def resultSet
-                                def resultSimilarities
+                                def reactive
 
                                 //This calls a Python script that uses rdkit to convert InChI strings to SMILES strings
                                 //after this, InChI strings are processed the same as SMILES
                                 if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
-                                    println "converting: $itemFromBox"
+                                    //println "converting: $itemFromBox"
                                     itemFromBox = enrichmentService.convertInchiToSmiles(itemFromBox)
                                 }
 
                                 if (params.smilesSearchType == "Substructure") {
-                                    resultSet = sql.rows("select casrn from mols where m @> CAST(${itemFromBox} AS mol);")
-                                    resultSimilarities = sql.rows("select casrn from mols where m @> CAST(${itemFromBox} AS mol);")
+                                    def tmpRows = sql.rows("select casrn from mols where m @> CAST(${itemFromBox} AS mol);")
+                                    if (tmpRows != []) {
+                                        tmpRows.each { tmpRow ->
+                                            tmpRow["similarity"] = 0.5
+                                        }
+                                        resultSet = tmpRows
+                                    }
+                                    else {
+                                        resultSet = []
+                                    }
+                                    //reactive = sql.rows("select m from mols where m @> CAST(${itemFromBox} AS mol);")
                                 }
                                 else if (params.smilesSearchType == "Similarity") {
-                                    //TODO: consolidate these 2 queries for less overhead
-                                    resultSet = sql.rows("select casrn from get_mfp2_neighbors(${itemFromBox});")
-                                    resultSimilarities = sql.rows("select casrn, similarity from get_mfp2_neighbors(${itemFromBox});")
+                                    resultSet = sql.rows("select casrn, similarity from get_mfp2_neighbors(${itemFromBox});")      
+                                    //reactive = sql.rows("select m from get_mfp2_neighbors(${itemFromBox});")
                                 }
-                                casrnResultsData.put(itemFromBox,resultSimilarities)
+
+                                //temporary - need to change to accomodate for all reactive structures, not just cyanide
+                                //def reactiveList = []
+                                //reactive.each { molecule ->
+                                //    if (molecule.toString().contains("C#N") || molecule.toString().contains("N#C")) {
+                                //        println "CONTAINS CYANIDE"
+                                //        reactiveList += molecule.toString()
+                                //    }
+                                //    else {
+                                //        reactiveList += "none"
+                                //    }  
+                                //}
+
+                                casrnResultsData.put(itemFromBox,resultSet)
                                 
                                 psqlGoodSmiles.add([index: lineNumber, smile: itemFromBox])
                                 if (resultSet.size() > 0) {
                                     params.CASRNBox += "#Set" + curSet + "\n"
                                     curSet++
                                     resultSet.each { result ->
-                                        params.CASRNBox += result.casrn + "\n"
+                                        //just grab the CASRN, not the similarity here, hence the result[0]
+                                        params.CASRNBox += result[0] + "\n"
                                     }
                                     smilesWithResults.add(itemFromBox)
                                 }
@@ -475,21 +497,21 @@ class AnalysisController implements InitializingBean {
                                     numberOfResubmitSets++
                                 }
                             }
-                            println ("WE HAVE: ${numberOfResubmitSets} FOR RESUBMISSION")
+                            //println ("WE HAVE: ${numberOfResubmitSets} FOR RESUBMISSION")
 
                             def resubmitList = []
                             if (numberOfResubmitSets == 1) {    //if only one set, add to this list
-                                println "ONLY ONE SET"
+                                //println "ONLY ONE SET"
                                 resubmitList += params.setName.toString()
                             }
                             else {                              //if multiple sets, just set this variable equal to the list
-                                println "$numberOfResubmitSets SETS"
+                                //println "$numberOfResubmitSets SETS"
                                 resubmitList = params.setName
                             }
 
-                            println "| >>> DATA SETS: " + resubmitList
+                            //println "| >>> DATA SETS: " + resubmitList
                             def casrnsChecklist = params.CASRNSChecked.toString().tokenize(',[]')
-                            println "| >>> SELECTED CASRNS: " + casrnsChecklist
+                            //println "| >>> SELECTED CASRNS: " + casrnsChecklist
 
                             //convert list of checked chemicals and set information to a format we can work with in Groovy
                             def setsFromResults = [:]
@@ -499,11 +521,8 @@ class AnalysisController implements InitializingBean {
                                 def jsonSlurper = new JsonSlurper().parseText(resubmitList[m].toString()) as Map
                                 def slurpedList
                                 def convertedJson
-                                println "in the loop with ${resubmitList[m].toString()}"
                                 jsonSlurper.each {jsonKey, jsonValue ->
-                                    println "JSONSLURPER: $jsonSlurper | with KEY: ${jsonKey}"
                                     def splitList = jsonValue.tokenize(',[]')
-                                    println "SLURPEDLIST: $splitList"
                                     convertedJson = ["${jsonKey}":splitList]
                                 }
                                 setsFromResults << convertedJson
@@ -511,21 +530,15 @@ class AnalysisController implements InitializingBean {
 
                             //put only the checked items into each set in params.CASRNBox (so we can perform enrichment the same way as if we did a regular CASRNs enrichment)
                             setsFromResults.each {nameKey, listValue -> 
-                                println "> $nameKey | $listValue"
                                 params.CASRNBox += nameKey.trim() + "\n"
                                 for (int i = 0; i < listValue.size(); i++) {
                                     for (int j = 0; j < casrnsChecklist.size(); j++ ) {
                                         if (listValue[i] == casrnsChecklist[j]) {
                                             params.CASRNBox += listValue[i].trim() + "\n"
-                                            println "> added ${listValue[i]} to $nameKey"
                                         }
                                     }
                                 }
-                            }
-
-                            println "GOT THIS CASRNBOX: ${params.CASRNBox}"
-                            
-
+                            }                            
                         }
 
                         
@@ -576,7 +589,7 @@ class AnalysisController implements InitializingBean {
                     //TODO: don't do this if the user provided SMILEs as input
                     CASRNBox.eachLine { casrn, lineNumber ->
                             casrn = casrn.trim()
-                            println "CASRN  <" + casrn + ">"
+                            //println "CASRN  <" + casrn + ">"
                             casrnInput.add([index: lineNumber, casrn: casrn])
                     }
 
@@ -626,14 +639,12 @@ class AnalysisController implements InitializingBean {
                             structureActivity: "STRUCTURE_ACTIVITY",
                             therapeuticClass: "THERAPEUTIC_CLASS",
                             tissueToxicity: "TISSUE_TOXICITY",
-                            //zeroClass: "ZERO_CLASS",
                             taLevel1: "TA_LEVEL_1",
                             taLevel2: "TA_LEVEL_2",
                             taLevel3: "TA_LEVEL_3",
                             pathway: "CTD_PATHWAY",
                             chem2Disease: "CTD_CHEM2DISEASE",
                             ctdChem2Gene25: "CTD_CHEM2GENE_25",
-                            goBiop: "CTD_GO_BP",
                             drugbankTargets: "DRUGBANK_TARGETS",
                             drugbankAtcCode: "DRUGBANK_ATC_CODE",
                             toxinsTargets: "TOXINS_TARGETS",
@@ -641,34 +652,23 @@ class AnalysisController implements InitializingBean {
                             multicaseToxPrediction: "MULTICASE_TOX_PREDICTION",
                             toxRefDb: "TOXREFDB",
                             htsActive: "HTS_ACTIVE",
-                            toxCast: "TOXCAST",
+                            toxCast: "TOXCAST_ACTIVE",
                             toxPrintStructure: "TOXPRINT_STRUCTURE",
-                            atcNotValidated: "ATC_NOT_VALIDATED",
-                            atcValidated: "ATC_VALIDATED",
-                            carrierNotValidated: "CARRIER_NOT_VALIDATED",
-                            carrierValidated: "CARRIER_VALIDATED",
                             ctdChemicalsDiseases: "CTD_CHEMICALS_DISEASES",
                             ctdChemicalsGenes: "CTD_CHEMICALS_GENES",
-                            ctdChemicalsGoenrichBioprocess: "CTD_CHEMICALS_GOENRICH_BIOPROCESS",
+                            ctdChemicalsGoenrichBioprocess: "CTD_GOENRICH_BIOPROCESS",
                             ctdChemicalsGoenrichCellcomp: "CTD_CHEMICALS_GOENRICH_CELLCOMP",
                             ctdChemicalsGoenrichMolfunct: "CTD_CHEMICALS_GOENRICH_MOLFUNCT",
                             ctdChemicalsPathways: "CTD_CHEMICALS_PATHWAYS",
-                            sf: "CTD_SF",
                             drugbankAtc: "DRUGBANK_ATC",
                             drugbankCarriers: "DRUGBANK_CARRIERS",
                             drugbankEnzymes: "DRUGBANK_ENZYMES",
                             drugbankTransporters: "DRUGBANK_TRANSPORTERS",
-                            enzymesNotValidated: "ENZYMES_NOT_VALIDATED",
-                            enzymesValidated: "ENZYMES_VALIDATED",
-                            targetGenesNotValidated: "TARGET_GENES_NOT_VALIDATED",
-                            targetGenesValidated: "TARGET_GENES_VALIDATED",
-                            transporterNotValidated: "TRANSPORTER_NOT_VALIDATED",
-                            transporterValidated: "TRANSPORTER_VALIDATED"
                     ]
 
                     //Translate params to the format the perl scripts expect.
                     for (j in groovyParams) {
-                        println "GOT: $j"
+                        //println "GOT: $j"
                         if (j.value == "on" && postParamTranslationMap.containsKey(j.key)) {
                             //add to annoSelectStr to perform enrichment
                             annoSelectStr += postParamTranslationMap[j.key.toString()] + "=checked "
@@ -677,8 +677,7 @@ class AnalysisController implements InitializingBean {
                         }
                     }
 
-                    println "WE SAVED: ${annoSelectSaved}"
-
+                    //println "WE SAVED: ${annoSelectSaved}"
                     //println("ANNO SELECT STR: $annoSelectStr")
 
                     //changed from incremental to UUID so each enrichment will have a unique ID, DIFFERENT than the transaction ID!
@@ -788,13 +787,14 @@ class AnalysisController implements InitializingBean {
                             //print "Copied $txtFileName to $xlsFileName\n"
                         }
                     }
+
                     //create casrn file to make re-enrichment table - todo: make into own thing
                     if (enrichAnalysisType == "SMILESSimilarity" 
                     || enrichAnalysisType == "InChISimilarity"
                     || enrichAnalysisType == "SMILES"
                     || enrichAnalysisType == "InChI") {
                         //create file to store CASRNs for SMILES/InChI - TODO: make service
-                        println ">>> creating file at ${currentOutputDir}/CASRNs.txt"
+                        //println ">>> creating file at ${currentOutputDir}/CASRNs.txt"
                         File casrnFile = new File(currentOutputDir + "/CASRNs.txt")
                         def casrnNameIndex = 0
                         params.CASRNBox.eachLine { line ->
@@ -807,20 +807,14 @@ class AnalysisController implements InitializingBean {
                                     totalSize += casrnValues.size()
                                     for (int i = 0; i < casrnValues.size(); i++) {
                                         casrnValues[i].each { casrnInsideKey, casrnInsideValue ->
-                                            if(casrnInsideKey == "casrn" && casrnInsideValue == line) {
+                                            if(casrnInsideKey == "casrn" && casrnInsideValue == line && tmpCasrnNameList[casrnNameIndex] != null) {
                                                 if (enrichAnalysisType == "SMILESSimilarity" || enrichAnalysisType == "InChISimilarity") {
                                                     casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + String.format("%.2f",casrnValues[i].similarity.value) + "\n"
                                                 }
                                                 else {
                                                     casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\n"
-                                                    println "----> " + casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\n"
                                                 }
                                                 casrnNameIndex++
-                                                println ">> i = $i"
-                                                println ">> casrnValues size = ${casrnValues.size()}"
-                                                println ">> casrnNameIndex = $casrnNameIndex"
-                                                println ">> TOTAL SIZE: $totalSize"
-
                                             }   
                                         }
                                     }

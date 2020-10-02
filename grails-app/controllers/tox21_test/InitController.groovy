@@ -38,7 +38,7 @@ class InitController {
     def getAnnoClassAsJson() {
         def sql = new Sql(dataSource_psql)
         def rows = sql.rows("SELECT * FROM annotation_class;")
-        println rows
+        //println rows
 
         respond rows    //have to use respond instead of render
     }

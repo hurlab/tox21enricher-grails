@@ -1,0 +1,1320 @@
+1000120-98-8	DB05528	Other lipid modifying agents
+10030-90-7	DB14489	Iron bivalent, oral preparations
+10043-35-3	DB11326	Antiinfectives
+10043-49-9	DB13427	Other antiinflammatory therapeutic radiopharmaceuticals
+1009119-64-5	DB09102	Antivirals for treatment of HCV infections
+10095-06-4	DB13522	Other psychostimulants and nootropics
+10098-91-6	DB13076	Yttrium (90Y) compounds
+10102-43-9	DB00435	Other respiratory system products
+10103-46-5	DB11348	Calcium; Ascorbic acid (vitamin C), combinations
+10116-22-0	DB13857	Pregnadien derivatives
+10124-48-8	DB13344	Mercurial products
+101363-10-4	DB13772	Fluoroquinolones
+101418-00-2	DB13492	Phenol and derivatives; Other antiinfectives and antiseptics
+10163-15-2	DB09484	Fluoride; Caries prophylactic agents
+10172-60-8	DB11125	Quaternary ammonium compounds; Antiseptics; Quaternary ammonium compounds
+10176-39-3	DB13537	Digitalis glycosides
+1018-71-9	DB13603	Antibiotics
+1018448-65-1	DB05773	Monoclonal antibodies
+102-45-4	DB08999	Sympathomimetics, plain
+102-71-6	DB13747	Other cicatrizants
+10236-81-4	DB13254	Synthetic anticholinergics, quaternary ammonium compounds
+1024603-93-7	DB06043	Monoclonal antibodies
+1025504-45-3	DB11915	Other nervous system drugs
+102786-61-8	DB00036	Blood coagulation factors
+1028-33-7	DB13634	Purine derivatives
+10310-32-4	DB13227	Other capillary stabilizing agents; Other agents for treatment of hemorrhoids and anal fissures for topical use
+10328-35-5	DB13282	Medicated dressings with antiinfectives
+1035654-66-0	DB12035	Tetracyclines
+10379-14-3	DB13324	Other centrally acting agents
+10381-75-6	DB14018	Xanthines
+10397-75-8	DB13755	Watersoluble, nephrotropic, high osmolar X-ray contrast media
+104-14-3	DB13251	Adrenergic and dopaminergic agents
+104-32-5	DB13296	Other antiinfectives; Biguanides and amidines
+104138-64-9	DB00103	Enzymes; Enzymes
+104145-95-1	DB01066	Third-generation cephalosporins
+1044511-01-4	DB12023	Other systemic drugs for obstructive airway diseases
+10447-39-9	DB13713	Other antihistamines for systemic use
+104713-75-9	DB09227	Dihydropyridine derivatives
+104746-04-5	DB14575	Carboxamide derivatives
+1048016-09-6	DB08888	Other ophthalmologicals
+104993-28-4	DB00569	Other antithrombotic agents
+1050-79-9	DB13554	Butyrophenone derivatives
+105360-89-2	DB13500	Synthetic anticholinergic agents in combination with psycholeptics; Synthetic anticholinergics, quaternary ammonium compounds
+105431-72-9	DB13806	Other psychostimulants and nootropics
+105857-23-6	DB00009	Enzymes; Other ophthalmologicals
+10592-65-1	DB13685	Progestogens; Progestogens and estrogens, fixed combinations
+10605-24-0	DB13408	Organic nitrates; Organic nitrates
+106791-39-3	DB01135	Other quaternary ammonium compounds
+106900-12-3	DB14661	Antipropulsives
+1072833-77-2	DB09570	Other antineoplastic agents
+107452-89-1	DB06283	Other analgesics and antipyretics
+1078-21-3	DB13455	Other psychostimulants and nootropics
+108-01-0	DB13352	Other psychostimulants and nootropics
+108-46-3	DB11085	Other anti-acne preparations for topical use; Other antiinfectives
+108147-54-2	DB05018	Various alimentary tract and metabolism products
+108153-74-8	DB09532	Tests for pancreatic function
+1083-57-4	DB13278	Anilides; Anilides; Anilides
+1084-65-7	DB13284	Sulfonamides; Sulfonamides, plain
+1088-11-5	DB14028	Benzodiazepine derivatives
+1088-92-2	DB13730	Nitrofuran derivatives
+109-93-3	DB13690	Ethers
+109319-16-6	DB13133	Blood coagulation factors; Blood coagulation factors
+109581-73-9	DB09161	Technetium (99mTc) compounds
+109623-97-4	DB13534	Other anxiolytics
+110-91-8	DB13669	Salicylic acid and derivatives
+11006-76-1	DB11476	Other antibiotics for topical use
+110101-66-1	DB13050	Other nervous system drugs
+11041-12-6	DB01432	Bile acid sequestrants
+11061-68-0	DB00030	Insulins and analogues for injection, intermediate-acting; Insulins and analogues for injection, long-acting; Insulins and analogues for injection, fast-acting; Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting; Insulins and analogues for inhalation
+11070-73-8	DB09456	Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting; Insulins and analogues for injection, intermediate-acting; Insulins and analogues for injection, long-acting; Insulins and analogues for injection, fast-acting
+110942-02-4	DB00041	Interleukins
+11096-26-7	DB00016	Other antianemic preparations
+1110766-97-6	DB13125	Other systemic hemostatics
+11116-97-5	DB13365	Calcium
+11121-32-7	DB13633	Other drugs used in benign prostatic hypertrophy; Antibiotics; Antiinfectives and antiseptics for local oral treatment; Antibiotics
+1115-84-0	DB13250	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+1117844-87-7	DB13200	Colony stimulating factors
+112-38-9	DB11117	Other antifungals for topical use; Other antifungals for topical use
+1121-31-9	DB06815	Other dermatologicals
+112665-43-7	DB06739	Other systemic drugs for obstructive airway diseases
+113-53-1	DB09167	Non-selective monoamine reuptake inhibitors
+113-78-0	DB13798	Oxytocin and analogues
+1132935-63-7	DB09183	Antivirals for treatment of HCV infections; Antivirals for treatment of HCV infections
+113359-04-9	DB13667	Fourth-generation cephalosporins
+114-33-0	DB08840	Preparations for biliary tract therapy
+114-43-2	DB13567	Other anticestodals
+1143-38-0	DB11157	Antracen derivatives; Antracen derivatives
+1143503-69-8	DB11569	Interleukin inhibitors
+1146-99-2	DB13275	Vitamin K antagonists
+115-68-4	DB13214	Sulfonamides
+115-77-5	DB13526	Osmotically acting laxatives
+1156-05-4	DB13413	Tertiary amines
+1159266-37-1	DB12498	Monoclonal antibodies
+115960-14-0	DB13490	Bioflavonoids
+116-43-8	DB13580	Sulfonamides
+116094-23-6	DB01306	Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting; Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting; Insulins and analogues for injection, fast-acting
+1161-88-2	DB13547	Sulfonamides
+1165-48-6	DB13482	Respiratory stimulants
+1173755-55-9	DB06014	Other drugs for disorders of the musculo-skeletal system
+1174277-80-5	DB09105	Enzymes
+1174395-19-7	DB11776	Interleukin inhibitors
+118-55-8	DB11071	Other urologicals
+1182-87-2	DB13756	Other cardiac glycosides
+118390-30-0	DB00069	Interferons
+118457-14-0	DB04861	Beta blocking agents and calcium channel blockers; Angiotensin II receptor blockers (ARBs), other combinations; Beta blocking agents, selective, and thiazides; Beta blocking agents, selective
+1185-57-5	DB09501	Paramagnetic contrast media
+1187560-31-1	DB13896	Other antineoplastic agents
+1189541-98-7	DB11767	Interleukin inhibitors
+119-41-5	DB13333	Other vasodilators used in cardiac diseases
+119-96-0	DB08928	Arsenic compounds
+119006-77-8	DB13425	Imidazole derivatives; Imidazole and triazole derivatives
+1190264-60-8	DB12159	Agents for dermatitis, excluding corticosteroids
+1190307-88-0	DB08934	Antivirals for treatment of HCV infections; Antivirals for treatment of HCV infections; Antivirals for treatment of HCV infections; Antivirals for treatment of HCV infections
+1192706-52-7	DB12814	Interferons
+1194585-53-9	DB11803	Interleukin inhibitors
+1195-16-0	DB13442	Liver therapy
+1196-01-6	DB13391	Expectorants
+1197953-54-0	DB12267	Protein kinase inhibitors
+120-47-8	DB13628	Other antifungals for topical use
+120210-48-2	DB13481	Other antiinflammatory and antirheumatic agents, non-steroids
+1204669-58-8	DB11717	Other antineoplastic agents
+1207283-85-9	DB12329	Tetracyclines; Tetracyclines
+1207456-01-6	DB11760	Other antineoplastic agents
+1209-98-9	DB01463	Centrally acting sympathomimetics
+120993-53-5	DB11095	Direct thrombin inhibitors
+1211327-92-2	DB09122	Interferons
+1211441-98-3	DB11730	Protein kinase inhibitors
+121181-53-1	DB00099	Colony stimulating factors
+12126-59-9	DB00286	Natural and semisynthetic estrogens, plain; Estrogens, combinations with other drugs
+121524-79-6	DB09138	Technetium (99mTc) compounds
+1216941-48-8	DB09297	Antivirals for treatment of HCV infections; Antivirals for treatment of HCV infections
+1222-57-7	DB13593	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+122341-38-2	DB11630	Sensitizers used in photodynamic/radiation therapy
+122575-21-7	DB05273	Various pain palliation radiopharmaceuticals
+1229022-83-6	DB09029	Interleukin inhibitors
+123-56-8	DB13376	Other urologicals
+123-82-0	DB13238	Sympathomimetics, plain; Sympathomimetics, combinations excl. corticosteroids
+12304-65-3	DB13322	Combinations and complexes of aluminium, calcium and magnesium compounds
+12321-44-7	DB13189	Calcitonin preparations
+12359-72-7	DB11573	Medicated dressings with antiinfectives; Other drugs affecting bone structure and mineralization
+123774-72-1	DB00020	Colony stimulating factors
+12427-33-7	DB01285	ACTH
+124584-08-3	DB04899	Other vasodilators used in cardiac diseases
+1245916-14-6	DB09302	Other lipid modifying agents
+1246264-45-8	DB13140	Specific immunoglobulins
+1247-42-3	DB09383	Glucocorticoids
+124904-93-4	DB06785	Anti-gonadotropin-releasing hormones
+125-42-8	DB13377	Barbiturates, plain
+125-55-3	DB13229	Barbiturates in combination with other drugs
+125-58-6	DB13515	Drugs used in opioid dependence
+1251830-50-8	DB13688	Other drugs for disorders of the musculo-skeletal system
+1254032-66-0	DB13931	Other antiglaucoma preparations
+1256937-27-5	DB09303	Other lipid modifying agents
+1258226-87-7	DB09296	Antivirals for treatment of HCV infections; Antivirals for treatment of HCV infections
+12584-58-6	DB00071	Insulins and analogues for injection, intermediate-acting; Insulins and analogues for injection, fast-acting; Insulins and analogues for injection, long-acting; Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting
+1258984-36-9	DB13161	Other drugs for disorders of the musculo-skeletal system
+126040-58-2	DB14684	Bulk-forming laxatives
+1262449-58-0	DB14562	Antidotes
+12629-01-5	DB00052	Somatropin and somatropin agonists
+1262984-82-6	DB09266	Technetium (99mTc) compounds
+12650-88-3	DB13260	Other antivirals; Antivirals
+126544-47-6	DB01410	Glucocorticoids; Corticosteroids
+127-08-2	DB14498	Electrolyte solutions
+127455-27-0	DB09160	Technetium (99mTc) compounds
+1276027-63-4	DB11563	Enzymes
+128-46-1	DB11512	Antibiotics
+128-62-1	DB06174	Opium alkaloids and derivatives
+128326-82-9	DB13656	Imidazole and triazole derivatives
+128607-22-7	DB04938	Selective estrogen receptor modulators
+129-16-8	DB13392	Mercurial products
+129580-63-8	DB04996	Platinum compounds
+129731-10-8	DB13767	Aromatase inhibitors
+129805-33-0	DB11631	Bone morphogenetic proteins
+130167-68-9	DB00061	Other immunostimulants
+130167-69-0	DB00059	Other antineoplastic agents
+13029-44-2	DB00890	Synthetic estrogens, plain; Estrogens, combinations with other drugs
+1304-85-4	DB13209	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+1306760-87-1	DB12612	Selective immunosuppressants
+1309-33-7	DB13423	Iron trivalent, oral preparations
+1309-37-1	DB11576	Superparamagnetic contrast media
+131-11-3	DB13336	Other insecticides and repellents
+1310101-21-3	DB13802	Liver therapy
+131410-48-5	DB00225	Paramagnetic contrast media
+1315-04-4	DB13473	Expectorants
+131707-25-0	DB13609	Other antivirals
+1318-93-0	DB13654	Other intestinal adsorbents
+132-60-5	DB13551	Preparations with no effect on uric acid metabolism
+1322-20-9	DB13734	Phenol and derivatives
+132259-10-0	DB09337	Medical gases
+13246-02-1	DB13303	Carbamic acid esters
+1326244-10-3	DB14004	Interleukin inhibitors
+13265-10-6	DB11315	Belladonna and derivatives in combination with psycholeptics; Anticholinergics; Belladonna alkaloids, semisynthetic, quaternary ammonium compounds
+1327-53-3	DB01169	Other antineoplastic agents
+1329602-23-4	DB15290	Colony stimulating factors
+133-51-7	DB13732	Antimony compounds
+1330-43-4	DB14505	Other antiinfectives
+133107-64-9	DB00046	Insulins and analogues for injection, intermediate-acting; Insulins and analogues for injection, fast-acting; Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting
+1334-74-3	DB09561	Electrolyte solutions
+1335098-50-4	DB15119	Interferons
+13364-32-4	DB13561	Centrally acting antiobesity products
+133652-38-7	DB00015	Enzymes
+1339940-90-7	DB11606	Blood coagulation factors
+134-62-3	DB11282	Other insecticides and repellents
+13422-51-0	DB00200	Vitamin B12 (cyanocobalamin and analogues); Antidotes; Vitamin B12 (cyanocobalamin and analogues)
+13425-39-3	DB13842	Purine derivatives
+1343-88-0	DB13249	Magnesium compounds
+1344-28-1	DB11342	Other anti-acne preparations for topical use
+1344-95-2	DB13829	Calcium compounds
+13460-98-5	DB12927	Adrenergic and dopaminergic agents
+13473-38-6	DB13844	Synthetic anticholinergic agents in combination with psycholeptics; Synthetic anticholinergics, quaternary ammonium compounds
+134774-45-1	DB00049	Detoxifying agents for antineoplastic treatment; Other antigout preparations
+135-58-0	DB13356	Sulfur containing products; Preparations containing sulfur
+1350289-85-8	DB11834	Interleukin inhibitors
+1351337-07-9	DB05336	Specific immunoglobulins
+135354-02-8	DB06393	Other nervous system drugs
+1353550-13-6	DB13164	Protein kinase inhibitors
+1353900-92-1	DB13878	Antivirals for treatment of HCV infections
+135889-00-8	DB13461	Third-generation cephalosporins
+135968-09-1	DB13144	Colony stimulating factors
+135998-32-2	DB09425	Other central nervous system diagnostic radiopharmaceuticals
+136-23-2	DB14194	Other agents for treatment of hemorrhoids and anal fissures for topical use
+136-77-6	DB11254	Antiseptics
+1360457-46-0	DB12107	Carbapenems
+13609-67-1	DB14540	Corticosteroids, moderately potent (group II); Corticosteroids, moderately potent, combinations with antiseptics
+1362509-93-0	DB09264	Antidotes
+1363687-32-4	DB09077	Monoclonal antibodies
+1365970-03-1	DB13879	Antivirals for treatment of HCV infections
+137-26-8	DB13245	Sulfur containing products
+13741-18-9	DB13714	Other antibacterials
+1374640-70-6	DB11907	Protein kinase inhibitors
+1374853-91-4	DB09037	Monoclonal antibodies
+13755-41-4	DB13650	Aluminium compounds
+1377049-84-7	DB11613	Antivirals for treatment of HCV infections; Antivirals for treatment of HCV infections
+138068-37-8	DB00001	Direct thrombin inhibitors
+1380723-44-3	DB11595	Monoclonal antibodies
+13838-08-9	DB13294	Antibiotics
+138530-94-6	DB05351	Proton pump inhibitors
+138661-01-5	DB13535	Other immunoglobulins
+13870-90-1	DB11191	Vitamin B12 (cyanocobalamin and analogues)
+138955-27-8	DB00057	Indium (111In) compounds
+139-42-4	DB13519	Other antiemetics
+139076-62-3	DB00025	Blood coagulation factors
+13909-09-6	DB13647	Nitrosoureas
+139096-04-1	DB11835	Indium (111In) compounds
+1393-87-9	DB08965	Antibiotics
+1394-02-1	DB13302	Antibiotics; Antibiotics; Antibiotics
+13957-36-3	DB13272	Drugs for urinary frequency and incontinence
+13957-55-6	DB13361	Other drugs for functional gastrointestinal disorders
+14008-44-7	DB13591	Other antiemetics
+1401965-15-8	DB14947	Monoclonal antibodies
+1403-17-4	DB01152	Antibiotics
+1403-66-3	DB00798	Antibiotics; Antiinfectives; Other antibiotics for topical use; Antiinfectives; Other aminoglycosides
+14034-78-7	DB13235	Antiinfectives and antiseptics for local oral treatment
+1403744-56-8	DB13241	Selective immunosuppressants
+1404-04-2	DB00994	Antibiotics; Antibiotics; Other aminoglycosides; Other antibiotics for topical use; Antiinfectives; Antiinfectives and antiseptics for local oral treatment; Antibiotics; Antiinfectives; Antiinfectives; Antibiotics
+1404-26-8	DB00781	Antiinfectives; Antiinfectives; Polymyxins; Antibiotics; Antibiotics
+1404-88-2	DB13503	Antibiotics; Antibiotics; Other antibiotics for topical use
+1405-86-3	DB13751	Liver therapy
+1405-97-6	DB00027	Antibiotics
+1406-66-2	DB11251	Other plain vitamin preparations
+140608-64-6	DB00075	Selective immunosuppressants
+141-01-5	DB14491	Iron bivalent, oral preparations; Iron in combination with folic acid
+141-03-7	DB13332	Other insecticides and repellents
+1415247-71-0	DB09137	Technetium (99mTc) compounds
+141758-74-9	DB01276	Glucagon-like peptide-1 (GLP-1) analogues
+14176-10-4	DB13753	Other peripheral vasodilators
+1420706-45-1	DB14582	Other nervous system drugs
+1421-14-3	DB13234	Other general anesthetics
+1421373-65-0	DB09330	Protein kinase inhibitors
+142261-03-8	DB13864	Blood substitutes and plasma protein fractions
+1424-00-6	DB13587	5-androstanon (3) derivatives
+1426055-14-2	DB14597	Drugs used in hereditary angioedema
+1428935-60-7	DB11714	Monoclonal antibodies
+14293-44-8	DB13803	Sulfonamides, plain
+143-47-5	DB13321	Watersoluble, nephrotropic, high osmolar X-ray contrast media
+143-74-8	DB13212	Tests for renal function and ureteral injuries
+143003-46-7	DB00088	Enzymes
+143090-92-0	DB00026	Interleukin inhibitors
+14324-55-1	DB14193	Other agents for treatment of hemorrhoids and anal fissures for topical use
+1435-55-8	DB15300	Antiarrhythmics, class Ia
+143653-53-6	DB00054	Platelet aggregation inhibitors excl. heparin
+14380-61-1	DB11123	Other antiseptics and disinfectants
+143831-71-4	DB00003	Mucolytics
+144-12-7	DB13666	Synthetic anticholinergics, quaternary ammonium compounds; Synthetic anticholinergic agents in combination with analgesics
+144-76-3	DB01145	Drugs for treatment of lepra
+144-86-5	DB14708	Other antiseptics and disinfectants
+144245-52-3	DB06759	Antivirals
+14452-57-4	DB13486	Osmotically acting laxatives; Magnesium compounds
+144598-75-4	DB01267	Other antipsychotics
+1446502-11-9	DB13874	Other antineoplastic agents
+14504-73-5	DB13711	Other antihistamines for systemic use
+145155-23-3	DB00068	Interferons
+145258-61-3	DB00060	Interferons
+145464-28-4	DB00089	Indium (111In) compounds
+1454846-35-5	DB12130	Protein kinase inhibitors
+145941-26-0	DB00038	Interleukins
+146-36-1	DB13727	Other peripheral vasodilators
+14611-51-9	DB01037	Monoamine oxidase B inhibitors
+146479-72-3	DB00066	Gonadotropins; Gonadotropins; Gonadotropins
+14698-29-4	DB13627	Other quinolones
+147-55-7	DB13337	Combinations of penicillins, incl. beta-lactamase inhibitors; Beta-lactamase sensitive penicillins
+1470-35-5	DB13545	Preparations increasing uric acid excretion
+14729-84-1	DB14501	Iron bivalent, oral preparations
+148-24-3	DB11145	Antiseptics; Antiinfectives and antiseptics for local oral treatment; Quinoline derivatives; Quinoline derivatives
+1480-19-9	DB13665	Butyrophenone derivatives
+148465-45-6	DB04941	Other antidiarrheals
+14914-30-8	DB09293	Various thyroid diagnostic radiopharmaceuticals; Iodine (131I) compounds
+1492823-75-2	DB12374	Enzymes
+14929-11-4	DB13433	Fibrates
+14932-42-4	DB09315	Other respiratory system diagnostic radiopharmaceuticals
+14992-58-6	DB13796	Other cough suppressants
+150-76-5	DB09516	Other dermatologicals
+150322-43-3	DB06209	Platelet aggregation inhibitors excl. heparin
+150683-30-0	DB06212	Vasopressin antagonists
+151126-32-8	DB01278	Other blood glucose lowering drugs, excl. insulins
+151662-36-1	DB13173	Enzymes
+15176-29-1	DB13421	Antivirals
+152657-84-6	DB13471	Other therapeutic products
+152923-56-3	DB00111	Interleukin inhibitors
+152923-57-4	DB00044	Gonadotropins
+153-00-4	DB13710	Androstan derivatives
+153-76-4	DB13584	Other quaternary ammonium compounds
+153-87-7	DB13403	Indole derivatives
+15302-16-6	DB13341	Centrally acting sympathomimetics
+15351-13-0	DB13422	Nicotinic acid and derivatives
+1535212-07-7	DB12026	Antivirals for treatment of HCV infections
+1537032-82-8	DB11945	Monoclonal antibodies
+15394-62-4	DB13720	Synthetic anticholinergic agents in combination with psycholeptics; Synthetic anticholinergics, quaternary ammonium compounds
+154248-97-2	DB00053	Enzymes
+154361-49-6	DB00113	Technetium (99mTc) compounds
+15489-16-4	DB13236	Other antitrematodal agents
+15489-90-4	DB13387	Other hem products
+15574-96-6	DB06153	Other antimigraine preparations
+155798-07-5	DB08824	Iodine (123I) compounds
+15599-26-5	DB13436	Other cough suppressants
+15599-39-0	DB13838	Antiinfectives
+156227-98-4	DB04956	Tumor necrosis factor alpha (TNF-α) inhibitors
+156586-89-9	DB13375	Monoclonal antibodies
+15678-91-8	DB09443	Other respiratory system diagnostic radiopharmaceuticals
+15686-83-6	DB11156	Tetrahydropyrimidine derivatives
+15687-21-5	DB13610	Corticosteroid derivatives
+15687-37-3	DB13680	Other capillary stabilizing agents
+15687-41-9	DB13398	Other vasodilators used in cardiac diseases; Other vasodilators used in cardiac diseases
+15708-41-5	DB13381	Iron trivalent, oral preparations
+1578199-75-3	DB14042	Other antimigraine preparations
+15793-40-5	DB13725	Drugs for urinary frequency and incontinence
+1582205-90-0	DB14039	Other antimigraine preparations
+15930-12-8	DB13789	Antiinfectives
+159519-65-0	DB00109	Other antivirals
+159776-70-2	DB13616	Direct thrombin inhibitors
+159811-51-5	DB08867	Emergency contraceptives; Progesterone receptor modulators
+160337-95-1	DB00047	Insulins and analogues for injection, long-acting; Insulins and analogues for injection, long-acting
+16034-77-8	DB09403	Watersoluble, hepatotropic X-ray contrast media
+1610833-03-8	DB14012	Other drugs affecting bone structure and mineralization
+1610943-06-0	DB13923	Other systemic hemostatics
+1611493-60-7	DB11799	Antivirals for treatment of HIV infections, combinations
+1617-90-9	DB13374	Other peripheral vasodilators
+16175-92-1	DB13369	Synthetic anticholinergics, quaternary ammonium compounds
+16188-61-7	DB13349	Substituted alkylamines
+162394-19-6	DB00039	Detoxifying agents for antineoplastic treatment
+162652-95-1	DB11641	Vinca alkaloids and analogues
+16287-71-1	DB13774	Antiseptics
+163133-43-5	DB06682	Propionic acid derivatives
+163252-36-6	DB06683	Nucleoside and nucleotide reverse transcriptase inhibitors
+163253-35-8	DB13261	Fluoroquinolones
+163521-12-8	DB06684	Other antidepressants
+163545-26-4	DB09103	Colony stimulating factors
+16376-74-2	DB13497	Other drugs for functional gastrointestinal disorders
+1638194-78-1	DB12366	Enzymes
+16505-84-3	DB00944	Parasympathomimetics
+165101-51-9	DB00102	Other cicatrizants; Other agents for local oral treatment
+1672-88-4	DB13475	Nitrofuran derivatives
+167362-48-3	DB06662	Selective immunosuppressants
+167747-19-5	DB13976	Technetium (99mTc) compounds
+16816-67-4	DB11190	Other plain vitamin preparations
+169148-63-4	DB01307	Insulins and analogues for injection, long-acting
+16941-32-5	DB00040	Glycogenolytic hormones
+16960-16-0	DB01284	ACTH
+170277-31-3	DB00065	Tumor necrosis factor alpha (TNF-α) inhibitors
+1709815-23-5	DB14724	Selective immunosuppressants
+17141-74-1	DB14048	Drugs for treatment of hyperkalemia and hyperphosphatemia
+171544-35-7	DB09507	Superparamagnetic contrast media
+17243-57-1	DB13852	Centrally acting antiobesity products
+17243-64-0	DB13202	Other drugs for bile therapy
+17299-00-2	DB13694	Anticholinesterases
+173146-27-5	DB00004	Other antineoplastic agents
+173352-21-1	DB13623	Other anxiolytics
+17372-87-1	DB13706	Other antiseptics and disinfectants
+17427-14-4	DB13402	Aldehydes and derivatives
+174722-31-7	DB00073	Monoclonal antibodies
+17479-19-5	DB13345	Ergot alkaloids; Ergot alkaloids
+17575-22-3	DB13467	Digitalis glycosides
+176161-24-3	DB06234	Other antivirals
+1764-85-8	DB13989	Low-ceiling diuretics and potassium-sparing agents
+17692-22-7	DB13614	Sympathomimetics, plain
+17692-31-8	DB13785	Other cough suppressants
+17692-51-2	DB13520	Prolactine inhibitors
+177073-44-8	DB00097	Gonadotropins
+1772578-74-1	DB13926	Other ophthalmologicals
+1777-82-8	DB13269	Antiseptics
+177795-60-7	DB13762	Proton pump inhibitors
+17854-59-0	DB13579	Respiratory stimulants
+17902-23-7	DB09256	Pyrimidine analogues; Pyrimidine analogues
+179045-86-4	DB00074	Interleukin inhibitors
+180288-69-1	DB00072	Monoclonal antibodies
+18046-21-4	DB13217	Acetic acid derivatives and related substances; Antiinflammatory preparations, non-steroids for topical use
+18109-80-3	DB13731	Other cough suppressants
+182815-43-6	DB00930	Bile acid sequestrants
+183552-38-7	DB00106	Other hormone antagonists and related agents
+185243-69-0	DB00005	Tumor necrosis factor alpha (TNF-α) inhibitors
+186018-45-1	DB09046	Amino acids and derivatives
+188039-54-5	DB00110	Specific immunoglobulins
+188265-33-0	DB01266	Antivirals
+18840-47-6	DB13703	Adrenergic and dopaminergic agents
+188627-80-7	DB00063	Platelet aggregation inhibitors excl. heparin
+18917-93-6	DB14515	Magnesium
+1892-43-9	DB11368	Other antifungals for topical use
+189261-10-7	DB00108	Selective immunosuppressants
+19022-77-6	DB13280	Aluminium compounds
+190977-41-4	DB13811	Other antineoplastic agents
+1910-68-5	DB13641	Thiosemicarbazones
+191588-94-0	DB00031	Enzymes
+192314-93-5	DB06358	Trimethoprim and derivatives
+1926-49-4	DB13686	Beta-lactamase sensitive penicillins
+193901-90-5	DB06705	Paramagnetic contrast media
+194100-83-9	DB00024	Thyrotropin
+194804-75-6	DB06160	Fluoroquinolones
+19504-77-9	DB13459	Antibiotics
+1954-28-5	DB13339	Epoxides
+19562-30-2	DB13744	Other quinolones
+195962-23-3	DB09066	Gonadotropins
+196078-29-2	DB06612	Other systemic drugs for obstructive airway diseases
+1961-77-9	DB13528	Progestogens and estrogens, fixed combinations; Progestogens and estrogens, sequential preparations; Progestogens and estrogens, sequential preparations; Pregnadien derivatives
+197462-97-8	DB13658	Blood substitutes and plasma protein fractions
+1976-28-9	DB13576	Nicotinic acid and derivatives
+197922-42-2	DB08900	Various alimentary tract and metabolism products
+198153-51-4	DB00008	Interferons; Interferons
+2016-36-6	DB14006	Salicylic acid and derivatives
+2016-63-9	DB13203	Xanthines
+20187-55-7	DB13501	Antiinflammatory preparations, non-steroids for topical use; Antiinflammatory agents, non-steroids
+20287-37-0	DB13708	Sulfonamides, plain
+20310-61-6	DB13590	Calcium
+20448-86-6	DB13619	Tertiary amines
+204656-20-2	DB06655	Insulins and analogues for injection, long-acting; Glucagon-like peptide-1 (GLP-1) analogues
+2058-52-8	DB13256	Diazepines, oxazepines, thiazepines and oxepines
+205923-56-4	DB00002	Monoclonal antibodies
+206181-63-7	DB00078	Various therapeutic radiopharmaceuticals
+207679-81-0	DB15578	Drugs for urinary frequency and incontinence
+207748-29-6	DB01309	Insulins and analogues for injection, fast-acting
+208265-92-3	DB00019	Colony stimulating factors
+208921-02-2	DB00081	Iodine (131I) compounds
+209810-58-2	DB00012	Other antianemic preparations
+209860-87-7	DB08819	Prostaglandin analogues
+210589-09-6	DB00090	Enzymes
+21215-62-3	DB06773	Calcitonin preparations
+2127-01-7	DB13617	Sulfonamides, plain; Sulfonamides, plain
+21363-18-8	DB13353	Other analgesics and antipyretics
+2137-18-0	DB13230	Progestogens; Pregnen (4) derivatives
+2139-47-1	DB13407	Antiinflammatory preparations, non-steroids for topical use; Pyrazolones
+214745-43-4	DB00095	Selective immunosuppressants
+214766-78-6	DB06699	Other hormone antagonists and related agents
+2156-27-6	DB13309	Other cough suppressants
+215647-85-1	DB00022	Interferons; Interferons
+2165-19-7	DB13211	Guanidine derivatives
+216503-57-0	DB00087	Selective immunosuppressants
+216974-75-3	DB00112	Monoclonal antibodies
+21715-46-8	DB08986	Other anxiolytics
+2179-37-5	DB13488	Other peripheral vasodilators
+218620-50-9	DB00082	Other anterior pituitary lobe hormones and analogues
+21888-98-2	DB08997	Tertiary amines
+218949-48-5	DB08869	Somatropin and somatropin agonists
+21946-79-2	DB13637	Organic nitrates
+219685-50-4	DB01257	Selective immunosuppressants
+220578-59-6	DB00056	Monoclonal antibodies
+22064-27-3	DB13695	Synthetic anticholinergics, quaternary ammonium compounds
+22089-22-1	DB12902	Nitrogen mustard analogues
+2210-63-1	DB13629	Butylpyrazolidines; Antiinflammatory preparations, non-steroids for topical use
+22131-35-7	DB13681	Other peripheral vasodilators
+222535-22-0	DB00092	Selective immunosuppressants
+222716-86-1	DB04895	Antineovascularisation agents
+222727-39-1	DB13146	Other diagnostic radiopharmaceuticals for tumour detection
+223673-61-8	DB08893	Drugs for urinary frequency and incontinence
+22443-11-4	DB13445	Other cough suppressants
+22619-35-8	DB13451	Vitamin K antagonists
+22760-18-5	DB13649	Other antiinflammatory and antirheumatic agents, non-steroids
+22950-29-4	DB13494	Adrenergic and dopaminergic agents
+23047-25-8	DB13411	Non-selective monoamine reuptake inhibitors
+23214-96-2	DB13648	Curare alkaloids
+23271-74-1	DB13825	Other cough suppressants
+23288-61-1	DB09314	Various thyroid diagnostic radiopharmaceuticals
+2338-21-8	DB13420	Phenothiazine derivatives
+23465-76-1	DB13835	Other drugs for functional gastrointestinal disorders
+23694-81-7	DB13530	Beta blocking agents, non-selective
+23869-24-1	DB13764	Bioflavonoids
+23884-64-2	DB13565	Antiinfectives and antiseptics for local oral treatment; Quaternary ammonium compounds
+23887-41-4	DB13342	Other vasodilators used in cardiac diseases
+24047-25-4	DB13410	Guanidine derivatives
+241473-69-8	DB06602	Other systemic drugs for obstructive airway diseases
+241479-67-4	DB11633	Triazole derivatives
+242138-07-4	DB00043	Other systemic drugs for obstructive airway diseases
+24279-91-2	DB13677	Ethylene imines
+2430-49-1	DB13770	Barbiturates, plain
+24356-66-9	DB00194	Nucleosides and nucleotides excl. reverse transcriptase inhibitors; Antivirals
+2438-72-4	DB13346	Acetic acid derivatives and related substances; Antiinflammatory preparations, non-steroids for topical use
+246539-15-1	DB11639	Bone morphogenetic proteins
+2470-73-7	DB13784	Phenothiazines with piperazine structure
+24808-52-4	DB14490	Iron bivalent, oral preparations
+24818-79-9	DB13780	Fibrates
+2487-63-0	DB13484	Androstan derivatives
+24916-50-5	DB06145	Combinations of antibacterials; Macrolides
+24967-93-9	DB09301	Other antiinflammatory and antirheumatic agents, non-steroids
+25053-27-4	DB13477	Heparins or heparinoids for topical use
+25287-60-9	DB13258	Dichloroacetamide derivatives
+25301-02-4	DB06439	Expectorants
+25322-68-3	DB11236	Osmotically acting laxatives; Osmotically acting laxatives
+2537-29-3	DB13253	Barbiturates, plain
+25466-44-8	DB13276	Other drugs for functional gastrointestinal disorders
+25523-97-1	DB13679	Substituted alkylamines; Substituted alkylamines
+2557-49-5	DB00223	Corticosteroids, potent (group III)
+25655-41-8	DB06812	Other antiinfectives and antiseptics; Antiseptics; Iodine products; Medicated dressings with antiinfectives; Other antiinfectives; Medicated shampoos
+25775-90-0	DB09120	Capsaicin and similar agents
+258329-46-3	DB13759	Synthetic anticholinergics, quaternary ammonium compounds
+26002-80-2	DB13717	Pyrethrines, incl. synthetic compounds; Pyrethrines, incl. synthetic compounds
+26020-55-3	DB13463	Other antimigraine preparations
+2618-25-9	DB13741	Watersoluble, hepatotropic X-ray contrast media
+2624-43-3	DB13472	Ovulation stimulants, synthetic
+2624-44-4	DB13483	Other systemic hemostatics
+263351-82-2	DB13809	Taxanes
+26629-87-8	DB13457	Other antidepressants
+26658-42-4	DB00375	Bile acid sequestrants
+26717-47-5	DB13849	Fibrates
+267639-76-9	DB05332	Other systemic hemostatics
+26774-90-3	DB13300	Penicillins with extended spectrum
+268203-93-6	DB06267	Drugs used in erectile dysfunction
+26864-56-2	DB13791	Diphenylbutylpiperidine derivatives
+26944-48-9	DB08962	Sulfonylureas
+26973-24-0	DB13821	First-generation cephalosporins
+270076-60-3	DB13704	Streptogramins
+27025-49-6	DB13506	Antibiotics
+27035-30-9	DB13308	Acetic acid derivatives and related substances
+2709-56-0	DB00875	Thioxanthene derivatives
+27223-35-4	DB01587	Benzodiazepine derivatives
+27279-43-2	DB13763	Gold preparations
+27367-90-4	DB13687	Other hypnotics and sedatives
+27470-51-5	DB13232	Antiinflammatory preparations, non-steroids for topical use
+27574-24-9	DB13252	Tertiary amines
+27892-33-7	DB13505	Synthetic anticholinergic agents in combination with psycholeptics; Hypnotics and sedatives in combination, excl. barbiturates; Drugs for urinary frequency and incontinence
+28014-46-2	DB09369	Estrogens
+28179-44-4	DB13444	Watersoluble, nephrotropic, high osmolar X-ray contrast media
+28210-41-5	DB01344	Drugs for treatment of hyperkalemia and hyperphosphatemia
+2825-60-7	DB13664	Corticosteroids, plain
+28319-77-9	DB04660	Other parasympathomimetics
+28704-27-0	DB05259	Other immunostimulants
+28757-47-3	DB12277	Biguanides and amidines
+2898-12-6	DB13437	Benzodiazepine derivatives
+29126-50-9	DB14508	Other dermatologicals
+29177-84-2	DB01545	Benzodiazepine derivatives
+2921-92-8	DB13255	Organic nitrates; Organic nitrates
+2944-65-2	DB13639	Iron bivalent, oral preparations
+29462-18-8	DB14719	Benzodiazepine derivatives
+297-83-6	DB13215	Tests for liver functional capacity
+298-57-7	DB00568	Antivertigo preparations; Antivertigo preparations
+299-27-4	DB13620	Potassium
+299-29-6	DB14488	Iron bivalent, oral preparations
+300-37-8	DB13568	Watersoluble, nephrotropic, high osmolar X-ray contrast media
+300-38-9	DB07637	Other antithyroid preparations
+301692-76-2	DB12399	Coxibs
+30418-38-3	DB13692	Selective beta-2-adrenoreceptor agonists; Selective beta-2-adrenoreceptor agonists
+30578-37-1	DB13330	Adrenergic and dopaminergic agents
+306-52-5	DB06753	Other hypnotics and sedatives
+30685-43-9	DB13401	Digitalis glycosides
+30748-29-9	DB13364	Other antiinflammatory and antirheumatic agents, non-steroids; Antiinflammatory preparations, non-steroids for topical use; Other antiinflammatory and antirheumatic agents, non-steroids
+30751-05-4	DB13419	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+308067-60-9	DB00098	Selective immunosuppressants
+308068-55-5	DB06754	Heparin group
+308079-75-6	DB10584	Diphtheria vaccines
+30986-62-0	DB13748	Liver therapy
+311-45-5	DB13495	Parasympathomimetics
+31127-82-9	DB13539	Watersoluble, hepatotropic X-ray contrast media
+3115-05-7	DB13428	Watersoluble, hepatotropic X-ray contrast media
+31329-57-4	DB13588	Other peripheral vasodilators
+314-03-4	DB13292	Other antihistamines for systemic use
+314-35-2	DB13592	Xanthines and adrenergics; Xanthines
+31431-43-3	DB13465	Benzimidazole derivatives
+31477-60-8	DB13310	Selective estrogen receptor modulators
+31610-87-4	DB13833	Belladonna alkaloids, semisynthetic, quaternary ammonium compounds
+317-34-0	DB01223	Xanthines; Xanthines; Xanthines; Xanthines and adrenergics
+31721-17-2	DB13246	Non-selective monoamine reuptake inhibitors
+31793-07-4	DB13722	Propionic acid derivatives
+318-23-0	DB09284	Other vasodilators used in cardiac diseases
+31848-01-8	DB13558	Other cough suppressants
+31855-75-1	DB00895	Combinations of penicillins, incl. beta-lactamase inhibitors
+320367-13-3	DB09265	Insulins and analogues for injection, long-acting; Glucagon-like peptide-1 (GLP-1) analogues
+32059-15-7	DB13604	Guanidine derivatives
+32359-34-5	DB13219	Other antidepressants
+3239-44-9	DB01191	Centrally acting antiobesity products
+32421-46-8	DB13652	Antiarrhythmics, class III
+32665-36-4	DB13395	Other systemic drugs for obstructive airway diseases
+32828-81-2	DB13327	Platelet aggregation inhibitors excl. heparin
+3286-46-2	DB13416	Vitamin B1, plain
+32953-89-2	DB13559	Selective beta-2-adrenoreceptor agonists
+330600-85-6	DB06614	Neuraminidase inhibitors
+33124-50-4	DB13223	Corticosteroids, moderately potent (group II)
+331242-75-2	DB14485	Other agents for treatment of hemorrhoids and anal fissures for topical use
+331731-18-1	DB00051	Tumor necrosis factor alpha (TNF-α) inhibitors
+332348-12-6	DB01281	Selective immunosuppressants
+33371-53-8	DB13542	Synthetic anticholinergics, quaternary ammonium compounds; Synthetic anticholinergic agents in combination with analgesics; Synthetic anticholinergic agents in combination with psycholeptics
+33414-33-4	DB13645	Antiarrhythmics, class Ic
+3344-18-1	DB11110	Salt solutions; Magnesium; Osmotically acting laxatives
+33605-94-6	DB13412	Other psychostimulants and nootropics
+33614-49-2	DB13743	Gold preparations
+33725-54-1	DB15598	Iron trivalent, oral preparations
+33876-97-0	DB13400	Other vasodilators used in cardiac diseases
+339-43-5	DB13406	Sulfonylureas
+339086-15-6	DB13886	Specific immunoglobulins
+339177-26-3	DB01269	Monoclonal antibodies
+339308-60-0	DB05459	Interleukin inhibitors
+3397-23-7	DB13464	Vasopressin and analogues
+33996-33-7	DB13363	Other antiinflammatory and antirheumatic agents, non-steroids; Other dermatologicals
+3416-26-0	DB13766	Other non-selective calcium channel blockers
+34161-24-5	DB13790	Other psychostimulants and nootropics
+34184-77-5	DB13602	Pregnadien derivatives
+34493-98-6	DB13270	Other aminoglycosides
+34717-03-8	DB13786	Magnesium
+347396-82-1	DB01270	Antineovascularisation agents
+34758-83-3	DB13564	Other cough suppressants
+34765-96-3	DB13298	Tests for renal function and ureteral injuries
+34786-74-8	DB08978	Belladonna alkaloids, semisynthetic, quaternary ammonium compounds
+34816-55-2	DB13418	Synthetic estrogens, plain
+34866-47-2	DB13625	Selective beta-2-adrenoreceptor agonists; Selective beta-2-adrenoreceptor agonists
+34914-39-1	DB13267	Other nasal preparations
+350-12-9	DB13671	Other antifungals for topical use
+35080-11-6	DB13555	Antiarrhythmics, class Ia
+35212-22-7	DB13618	Other drugs affecting bone structure and mineralization
+3540-95-2	DB13439	Other drugs for functional gastrointestinal disorders
+35457-80-8	DB13456	Macrolides
+3546-03-0	DB09000	Phenothiazines with aliphatic side-chain
+35531-88-5	DB09319	Combinations of penicillins, incl. beta-lactamase inhibitors; Penicillins with extended spectrum
+35615-72-6	DB13289	Other analgesics and antipyretics
+356547-88-1	DB08879	Selective immunosuppressants
+3568-00-1	DB13430	Thiazides, plain; Low-ceiling diuretics and potassium-sparing agents
+3572-52-9	DB13815	Medicated shampoos
+3576-64-5	DB13512	Dichloroacetamide derivatives
+358-52-1	DB13662	Other hypnotics and sedatives
+3583-64-0	DB13286	Acetic acid derivatives and related substances
+35898-87-4	DB13715	Other vasodilators used in cardiac diseases
+36104-80-0	DB01489	Benzodiazepine derivatives
+3611-72-1	DB13291	Other vasodilators used in cardiac diseases
+362-74-3	DB13242	Phosphodiesterase inhibitors
+3625-25-0	DB13805	Barbiturates, plain
+362665-56-3	DB11642	Other nervous system drugs
+36309-01-0	DB13810	Opium alkaloids and derivatives
+36364-49-5	DB13860	Salicylic acid and derivatives
+3639-19-8	DB13599	Arsenic compounds
+36531-26-7	DB13670	Tetrahydropyrimidine derivatives
+36703-88-5	DB13156	Other antivirals
+367514-87-2	DB08815	Indole derivatives
+3679-64-9	DB13696	Other antifungals for topical use
+3689-50-7	DB13820	Phenothiazine derivatives
+3689-76-7	DB13611	Imidazole and triazole derivatives
+3693-38-7	DB13856	Corticosteroids, potent (group III)
+3703-79-5	DB13206	2-amino-1-phenylethanol derivatives
+37178-37-3	DB06535	Dopa and dopa derivatives
+372-66-7	DB13574	Other vasodilators used in cardiac diseases
+37228-64-1	DB08876	Enzymes
+3731-59-7	DB13597	Other antivirals
+37339-90-5	DB13480	Other immunostimulants
+3736-08-1	DB01482	Centrally acting sympathomimetics
+375823-41-9	DB06273	Interleukin inhibitors
+376653-43-9	DB14733	Other cephalosporins and penems
+37686-84-3	DB13399	Prolactine inhibitors
+37693-01-9	DB13237	Other antibacterials
+3772-76-7	DB13485	Long-acting sulfonamides
+3785-21-5	DB13328	Amides
+378746-64-6	DB06600	Other quinolones
+380610-27-5	DB06366	Monoclonal antibodies
+380843-75-4	DB06616	Protein kinase inhibitors
+3810-35-3	DB13659	Other agents against amoebiasis and other protozoal diseases
+381231-18-1	DB13074	Tests for pituitary function
+38146-42-8	DB13705	Quaternary ammonium compounds
+38270-90-5	DB09498	Various pain palliation radiopharmaceuticals
+3841-11-0	DB13491	Corticosteroids, moderately potent (group II)
+38609-97-1	DB13674	Other immunostimulants
+389139-89-3	DB12455	Tetracyclines
+38964-88-4	DB13396	Hydantoin derivatives
+390-64-7	DB04825	Other vasodilators used in cardiac diseases; Other vasodilators used in cardiac diseases
+39219-28-8	DB12487	Natural and semisynthetic estrogens, plain
+3922-90-5	DB11442	Combinations of antibacterials; Macrolides
+39552-01-7	DB09013	Beta blocking agents
+39563-28-5	DB13508	Beta blocking agents, non-selective
+39589-98-5	DB13204	Other insecticides and repellents
+396091-73-9	DB06663	Somatostatin and analogues
+39715-02-1	DB13435	Hydrazinophthalazine derivatives
+39718-89-3	DB13314	Propionic acid derivatives
+397864-44-7	DB08906	Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Corticosteroids; Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics; Glucocorticoids
+39978-42-2	DB13325	Other intestinal antiinfectives
+40507-78-6	DB13827	Sympathomimetics, plain
+40762-15-0	DB13837	Benzodiazepine derivatives
+4085-31-8	DB13941	Other antimalarials; Artemisinin and derivatives, combinations
+4105-38-8	DB09144	Various alimentary tract and metabolism products
+41354-48-7	DB13626	Aluminium compounds
+414910-27-3	DB06634	Other antiemetics
+41744-40-5	DB13693	Penicillins with extended spectrum
+41826-92-0	DB13311	Other drugs for functional gastrointestinal disorders
+4201-22-3	DB13429	Imidazoline receptor agonists
+42017-89-0	DB13873	Fibrates
+42024-98-6	DB13448	Tertiary amines
+420784-05-0	DB01272	Enzymes
+42220-21-3	DB13797	Iodine (131I) compounds
+42370-41-2	DB13315	Mucolytics
+42597-57-9	DB13460	Fibrates
+428863-50-7	DB08904	Tumor necrosis factor alpha (TNF-α) inhibitors
+4295-63-0	DB13822	Other cough suppressants
+4320-30-3	DB13207	Liver therapy
+43210-67-9	DB11410	Benzimidazole derivatives
+4439-25-2	DB13578	Esters of aminobenzoic acid
+4468-02-4	DB11248	Other agents for treatment of hemorrhoids and anal fissures for topical use; Zinc
+447-41-6	DB06152	2-amino-1-phenylethanol derivatives; Sympathomimetics, labour repressants
+4474-91-3	DB11842	Other cardiac stimulants
+4498-32-2	DB13225	Non-selective monoamine reuptake inhibitors
+457-87-4	DB13285	Centrally acting antiobesity products
+4599-60-4	DB13264	Tetracyclines
+460738-38-9	DB05311	Drugs used in hereditary angioedema
+4619-74-3	DB13513	Other antifungals for topical use
+462-58-8	DB00411	Choline esters; Parasympathomimetics
+466-06-8	DB13307	Scilla glycosides; Scilla glycosides
+466-90-0	DB13458	Opium alkaloids and derivatives
+467-60-7	DB11584	Other psychostimulants and nootropics
+4696-76-8	DB13673	Other aminoglycosides
+472960-22-8	DB05396	Interferons
+475086-01-2	DB11362	Platelet aggregation inhibitors excl. heparin
+47543-65-7	DB13397	Other cough suppressants
+47562-08-3	DB13651	Antiarrhythmics, class Ia
+476181-74-5	DB06674	Tumor necrosis factor alpha (TNF-α) inhibitors
+477-30-5	DB13318	Colchicine derivatives
+477-32-7	DB13355	Other peripheral vasodilators
+477-93-0	DB13794	Other cough suppressants
+477202-00-9	DB06186	Monoclonal antibodies
+47747-56-8	DB13814	Penicillins with extended spectrum
+478166-15-3	DB14751	Somatropin and somatropin agonists
+479-92-5	DB13524	Pyrazolones; Pyrazolones; Pyrazolones
+47931-85-1	DB00017	Calcitonin preparations
+4828-27-7	DB00838	Corticosteroids, moderately potent (group II)
+483-18-1	DB13393	Other agents against amoebiasis and other protozoal diseases; Other agents against amoebiasis and other protozoal diseases
+483-20-5	DB11577	Tests for renal function and ureteral injuries
+4846-91-7	DB13736	Sympathomimetics, plain
+485-89-2	DB13596	Quinolines
+486-17-9	DB09014	Diphenylmethane derivatives
+486-79-3	DB13839	Salicylic acid and derivatives; Salicylic acid and derivatives; Salicylic acid and derivatives; Antiinflammatory/antirheumatic agents in combination with corticosteroids
+488-41-5	DB13543	Other alkylating agents
+4880-88-0	DB13793	Other peripheral vasodilators
+489-84-9	DB13329	Other ophthalmologicals
+4914-30-1	DB13865	Other agents against amoebiasis and other protozoal diseases
+493-80-1	DB13479	Substituted ethylene diamines; Substituted ethylene diamines
+493-92-5	DB13438	Other psychostimulants and nootropics
+4936-47-4	DB13724	Other antiinfectives and antiseptics
+4945-47-5	DB13489	Other antihistamines for systemic use; Antihistamines for topical use
+49564-56-9	DB13745	Other quaternary ammonium compounds
+496-00-4	DB13548	Biguanides and amidines; Other antiinfectives
+496-67-3	DB13370	Other hypnotics and sedatives
+49755-67-1	DB13701	Watersoluble, nephrotropic, high osmolar X-ray contrast media
+4991-65-5	DB13343	Preparations containing sulfur
+50-29-3	DB13424	Chlorine containing products; Chlorine containing products
+50-56-6	DB00107	Ergot alkaloids and oxytocin incl. analogues, in combination; Oxytocin and analogues
+50-57-7	DB14642	Vasopressin and analogues
+5001-32-1	DB13779	Guanidine derivatives
+5003-48-5	DB13657	Salicylic acid and derivatives
+501081-76-1	DB06372	Interleukin inhibitors
+502-55-6	DB13712	Sulfur containing products
+50264-69-2	DB06266	Other antineoplastic agents
+50567-35-6	DB04817	Pyrazolones; Pyrazolones; Pyrazolones
+506-26-3	DB13854	Other dermatologicals; Other dermatologicals
+50629-82-8	DB13728	Corticosteroids, potent (group III)
+508-77-0	DB13240	Strophanthus glycosides
+508233-74-7	DB09068	Other antidepressants
+50838-36-3	DB13360	Other antifungals for topical use
+509077-98-9	DB06607	Monoclonal antibodies
+50936-59-9	DB01271	Enzymes
+51-68-3	DB13758	Other psychostimulants and nootropics
+51022-74-3	DB08945	Watersoluble, hepatotropic X-ray contrast media
+51037-30-0	DB09055	Nicotinic acid and derivatives
+511-45-5	DB13642	Other centrally acting agents
+5118-29-6	DB13384	Antidepressants in combination with psycholeptics; Non-selective monoamine reuptake inhibitors
+512-16-3	DB13493	Other drugs for bile therapy
+514-61-4	DB13533	Estren derivatives
+51484-40-3	DB13371	Acetic acid derivatives and related substances
+515-49-1	DB13699	Short-acting sulfonamides
+515-64-0	DB13283	Short-acting sulfonamides
+515814-01-4	DB11693	Calcineurin inhibitors
+516-21-2	DB14763	Biguanides
+51627-14-6	DB13266	First-generation cephalosporins
+5169-78-8	DB13474	Other cough suppressants
+517-43-1	DB11365	Contact laxatives; Contact laxatives
+51931-66-9	DB13787	Other opioids
+51940-44-4	DB13823	Other quinolones
+52-31-3	DB13737	Barbiturates, plain
+52-43-7	DB13577	Barbiturates, plain
+52-68-6	DB11473	Organophosphorous compounds
+520-77-4	DB13799	Oxazolidine derivatives
+52031-09-1	DB13771	Iron trivalent, oral preparations
+52093-21-7	DB13274	Antibiotics
+521-74-4	DB13536	Hydroxyquinoline derivatives; Other intestinal antiinfectives; Quinoline derivatives
+522-18-9	DB13788	Other drugs for functional gastrointestinal disorders
+522-66-7	DB13718	Quinine and derivatives
+52214-84-3	DB09064	Fibrates
+52232-67-4	DB06285	Parathyroid hormones and analogues
+52315-07-8	DB13721	Pyrethrines
+524-81-2	DB13808	Other antihistamines for systemic use
+524-83-4	DB13468	Ethers of tropine or tropine derivatives
+52463-83-9	DB13335	Benzodiazepine derivatives
+5251-34-3	DB13843	Glucocorticoids
+52549-17-4	DB13514	Antiinflammatory agents, non-steroids
+527698-09-5	DB12699	Colony stimulating factors
+528-92-7	DB13221	Other hypnotics and sedatives
+52918-63-5	DB13600	Pyrethrines
+52997-54-3	DB09165	Technetium (99mTc) compounds
+53-06-5	DB14681	Glucocorticoids; Corticosteroids, plain
+53-18-9	DB13575	Rauwolfia alkaloids; Rauwolfia alkaloids and diuretics in combination; Rauwolfia alkaloids
+53-73-6	DB13517	Other cardiac stimulants
+53008-15-4	DB13621	Local hemostatics
+53164-05-9	DB13783	Acetic acid derivatives and related substances
+532-11-6	DB13853	Various alimentary tract and metabolism products
+53230-10-7	DB00358	Artemisinin and derivatives, combinations; Methanolquinolines
+53267-01-9	DB13358	Other antiarrhythmics, class I and III
+533-45-9	DB06470	Hypnotics and sedatives in combination, excl. barbiturates; Other hypnotics and sedatives
+5334-23-6	DB13807	Preparations inhibiting uric acid production
+534-08-7	DB13383	Iodine products
+53449-58-4	DB13709	Nicotinic acid and derivatives
+53583-79-2	DB13273	Benzamides
+536-21-0	DB13378	Adrenergic and dopaminergic agents
+53608-75-6	DB00085	Enzyme preparations
+53648-05-8	DB08955	Propionic acid derivatives
+53714-56-0	DB00007	Gonadotropin releasing hormone analogues; Gonadotropin releasing hormone analogues
+53716-44-2	DB13581	Synthetic anticholinergics, esters with tertiary amino group
+53783-83-8	DB13288	Cyclic amines; Antivirals
+53808-88-1	DB13432	Acetic acid derivatives and related substances
+539-21-9	DB13697	Antiseptics
+53943-88-7	DB08939	Mucolytics
+54-03-5	DB13265	Other vasodilators used in cardiac diseases
+54-30-8	DB13738	Synthetic anticholinergics, esters with tertiary amino group; Synthetic anticholinergic agents in combination with analgesics
+54-95-5	DB13415	Respiratory stimulants; Respiratory stimulants
+54-96-6	DB11640	Other nervous system drugs
+54063-32-0	DB13158	Corticosteroids, moderately potent (group II); Corticosteroids and antiinfectives in combination; Corticosteroids, plain
+54063-42-2	DB13582	Various diagnostic radiopharmaceuticals
+541502-14-1	DB09036	Interleukin inhibitors
+54182-59-1	DB13299	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+54340-58-8	DB13478	Other opioids
+54350-48-0	DB00926	Retinoids for treatment of psoriasis
+54533-85-6	DB13546	Other psychostimulants and nootropics
+5466-77-3	DB09496	Protectives against UV-radiation for topical use
+54663-47-7	DB13702	Antiinfectives and antiseptics for local oral treatment
+54739-18-3	DB00176	Selective serotonin reuptake inhibitors
+54767-75-8	DB13340	Other peripheral vasodilators
+55-68-5	DB13388	Medicated dressings with antiinfectives
+55096-26-9	DB06230	Drugs used in alcohol dependence
+551-27-9	DB13660	Beta-lactamase sensitive penicillins
+5511-98-8	DB13691	Digitalis glycosides; Digitalis glycosides
+55242-55-2	DB06479	Xanthine derivatives
+552858-79-4	DB01279	Enzymes
+55294-15-0	DB13801	Pyrazolone derivatives
+553-06-0	DB13531	Synthetic antispasmodics, amides with tertiary amines
+553-69-5	DB13414	Other centrally acting agents
+55482-89-8	DB13538	Salicylic acid and derivatives
+5560-72-5	DB13496	Non-selective monoamine reuptake inhibitors
+5560-78-1	DB13205	Dichloroacetamide derivatives
+557-34-6	DB14487	Other agents for treatment of hemorrhoids and anal fissures for topical use; Various alimentary tract and metabolism products
+5579-92-0	DB13389	Non-watersoluble X-ray contrast media
+55837-25-7	DB13510	Other peripheral vasodilators
+55837-29-1	DB13091	Synthetic antispasmodics, amides with tertiary amines
+5588-20-5	DB13516	Other antiinfectives and antiseptics
+55881-07-7	DB13287	Macrolides
+55905-53-8	DB13511	Propulsives
+56-04-2	DB13644	Thiouracils
+56-53-1	DB00255	Estrogens; Estrogens; Estrogens, combinations with other drugs; Synthetic estrogens, plain
+56-91-7	DB13244	Amino acids
+56087-11-7	DB13560	Other cicatrizants
+561-77-3	DB13678	Synthetic anticholinergics, esters with tertiary amino group
+56187-47-4	DB13778	First-generation cephalosporins
+562-26-5	DB13605	Opioid anesthetics
+56281-36-8	DB13368	Retinoids for topical use in acne
+563-71-3	DB13698	Iron bivalent, oral preparations
+5632-44-0	DB13305	Antihistamines for topical use
+5634-34-4	DB13812	Xanthines
+5636-92-0	DB13607	Other antiinfectives
+565-33-3	DB13675	Sulfonylureas
+56518-41-3	DB13795	Trimethoprim and derivatives
+565451-13-0	DB08902	Specific immunoglobulins
+56775-88-3	DB04832	Selective serotonin reuptake inhibitors
+56897-09-7	DB13487	Iodine (131I) compounds
+5696-09-3	DB13819	Other drugs for functional gastrointestinal disorders
+57-15-8	DB11386	Other antiemetics; Other antiemetics
+57-67-0	DB13726	Sulfonamides
+57132-53-3	DB13527	Acetic acid derivatives and related substances
+572924-54-0	DB06233	Protein kinase inhibitors
+57333-96-7	DB13689	Other antipsoriatics for topical use
+5749-67-7	DB13612	Salicylic acid and derivatives; Platelet aggregation inhibitors excl. heparin
+57526-81-5	DB13777	Adrenergic and dopaminergic agents
+57574-09-1	DB04836	Non-selective monoamine reuptake inhibitors
+57734-69-7	DB13566	Other antihistamines for systemic use
+57821-29-1	DB06271	Heparin group
+57982-77-1	DB06719	Gonadotropin releasing hormone analogues
+57982-78-2	DB13502	Other dopaminergic agents
+58073-76-0	DB13606	Benzomorphan derivatives
+58152-03-7	DB13540	Other aminoglycosides
+584-79-2	DB13746	Pyrethrines, incl. synthetic compounds; Pyrethrines, incl. synthetic compounds
+58416-00-5	DB13632	Other antiinfectives and antiseptics
+58505-81-0	DB14514	Magnesium
+58551-69-2	DB00429	Prostaglandins
+5868-05-3	DB13441	Nicotinic acid and derivatives
+58691-88-6	DB11636	Progestogens and estrogens, fixed combinations; Progestogens and estrogens, sequential preparations; Pregnadien derivatives
+587-61-1	DB09366	Non-watersoluble X-ray contrast media
+58994-96-0	DB13832	Nitrosoureas
+59-26-7	DB13655	Respiratory stimulants; Respiratory stimulants
+59-47-2	DB13583	Other centrally acting agents
+591-64-0	DB13800	Calcium
+59338-93-1	DB01425	Propulsives
+594839-88-0	DB11644	Other nervous system drugs
+596-50-9	DB13507	Synthetic anticholinergics, quaternary ammonium compounds
+59625-89-7	DB13749	Magnesium
+5966-41-6	DB13476	Other drugs for functional gastrointestinal disorders
+59721-28-7	DB13729	Proteinase inhibitors
+59729-31-6	DB13653	Antiarrhythmics, class Ic
+5982-52-5	DB13769	Synthetic anticholinergics, quaternary ammonium compounds
+59866-76-1	DB13630	Other cough suppressants
+599-33-7	DB13208	Glucocorticoids
+599-88-2	DB13320	Long-acting sulfonamides
+59995-65-2	DB09090	Other drugs for functional gastrointestinal disorders
+60-29-7	DB13598	Ethers
+6004-98-4	DB06787	Synthetic anticholinergics, quaternary ammonium compounds
+60084-10-8	DB13243	Other antineoplastic agents
+60205-81-4	DB00332	Anticholinergics; Other nasal preparations; Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids
+603-00-9	DB13449	Xanthines; Xanthines and adrenergics
+604-51-3	DB13466	Other antihistamines for systemic use
+60560-33-0	DB06762	Guanidine derivatives; Other antihypertensives and diuretics
+606138-08-3	DB09310	Blood coagulation factors
+60719-82-6	DB13233	Selective serotonin reuptake inhibitors
+60731-46-6	DB13742	Calcitonin preparations
+608141-41-9	DB05676	Selective immunosuppressants
+61-57-4	DB13661	Other antitrematodal agents
+61036-62-2	DB06149	Glycopeptide antibacterials
+611-53-0	DB13776	Antivirals
+61197-73-7	DB13643	Benzodiazepine derivatives
+615258-40-7	DB06643	Other drugs affecting bone structure and mineralization
+61869-07-6	DB13768	Mucolytics
+619-60-3	DB13549	Antidotes
+62-67-9	DB11490	Antidotes
+62587-73-9	DB13499	Third-generation cephalosporins
+62613-82-5	DB13601	Other psychostimulants and nootropics
+62732-44-9	DB13668	Anticholinesterases
+6277-14-1	DB13640	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+62973-76-6	DB13350	Imidazole derivatives; Nitroimidazole derivatives
+630420-16-5	DB11586	Antivirals for treatment of HCV infections
+63358-49-6	DB13816	Penicillins with extended spectrum
+6336-50-1	DB13804	Thiouracils
+63503-12-8	DB09502	Other diagnostic radiopharmaceuticals for tumour detection
+63547-13-7	DB08925	Other psychostimulants and nootropics
+635715-01-4	DB05889	Monoclonal antibodies
+636-54-4	DB13792	Sulfonamides and potassium in combination; Sulfonamides, plain
+637334-45-3	DB11988	Selective immunosuppressants
+63795-61-9	DB13622	Various diagnostic radiopharmaceuticals
+63834-04-8	DB13672	Synthetic antispasmodics, amides with tertiary amines
+639-48-5	DB13454	Natural opium alkaloids
+64-02-8	DB13404	Other ophthalmologicals
+64-55-1	DB06797	Carbamates
+64-65-3	DB13740	Respiratory stimulants
+64-86-8	DB01394	Preparations with no effect on uric acid metabolism
+64228-79-1	DB13295	Other quaternary ammonium compounds
+64241-34-5	DB13452	Hydrazinophthalazine derivatives
+64365-11-3	DB09278	Charcoal preparations; Charcoal preparations
+646-02-6	DB13585	Other vasodilators used in cardiac diseases; Other vasodilators used in cardiac diseases
+6489-97-0	DB13836	Penicillins with extended spectrum
+65052-63-3	DB13504	Third-generation cephalosporins
+65072-01-7	DB09393	Solutions for parenteral nutrition
+651-06-9	DB06821	Long-acting sulfonamides; Sulfonamides
+652-37-9	DB13573	Xanthines
+65277-42-1	DB01026	Imidazole derivatives; Imidazole derivatives; Imidazole derivatives; Imidazole and triazole derivatives
+653-03-2	DB13213	Phenothiazines with piperazine structure
+6533-00-2	DB09389	Progestogens and estrogens, fixed combinations; Progestogens and estrogens, sequential preparations; Progestogens and estrogens, fixed combinations
+65472-88-0	DB00735	Other antifungals for topical use
+656247-17-5	DB09079	Protein kinase inhibitors
+65761-24-2	DB13556	Long-acting sulfonamides
+66195-31-1	DB13316	Sympathomimetics excl. antiglaucoma preparations; Adrenergic and dopaminergic agents
+6620-60-6	DB13431	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+66258-76-2	DB00319	Penicillins with extended spectrum; Combinations of penicillins, incl. beta-lactamase inhibitors
+66564-14-5	DB08810	Propulsives
+66644-81-3	DB13523	Benzamides
+66778-36-7	DB01228	Antiarrhythmics, class Ic
+668270-12-0	DB08882	Dipeptidyl peptidase 4 (DPP-4) inhibitors; Combinations of oral blood glucose lowering drugs; Combinations of oral blood glucose lowering drugs
+66934-18-7	DB13317	Propionic acid derivatives; Antiinflammatory products for vaginal administration
+67-66-3	DB11387	Halogenated hydrocarbons
+671-95-4	DB13663	Sulfonamides and potassium in combination; Sulfonamides, plain
+673-31-4	DB13354	Carbamic acid esters; Carbamic acid esters; Carbamic acid esters
+6736-03-4	DB01057	Parasympathomimetics
+67452-97-5	DB00240	Corticosteroids, moderately potent (group II); Corticosteroids, plain
+677010-34-3	DB06310	Specific immunoglobulins
+677324-53-7	DB09107	Other antianemic preparations
+678-26-2	DB11625	Ultrasound contrast media
+67862-54-8	DB09398	Other diagnostic radiopharmaceuticals for tumour detection
+679818-59-8	DB06650	Monoclonal antibodies
+68-23-5	DB09371	Progestogens and estrogens, fixed combinations
+68-76-8	DB13304	Ethylene imines
+68-90-6	DB13277	Other vasodilators used in cardiac diseases; Other vasodilators used in cardiac diseases
+68-96-2	DB14570	Progestogens and estrogens, fixed combinations; Pregnen (4) derivatives
+680188-33-4	DB12698	Other antivirals
+681492-22-8	DB11637	Other drugs for treatment of tuberculosis
+6818-37-7	DB13290	Caries prophylactic agents
+68206-94-0	DB13367	Platelet aggregation inhibitors excl. heparin
+6829-98-7	DB13782	Non-selective monoamine reuptake inhibitors
+6834-98-6	DB13571	Antibiotics
+68359-37-5	DB13828	Pyrethrines
+68497-62-1	DB13247	Other psychostimulants and nootropics
+68506-86-5	DB01080	Fatty acid derivatives
+68562-41-4	DB01277	Somatropin and somatropin agonists
+6915-57-7	DB13818	Other antiinfectives
+69235-50-3	DB13373	Antiseptics
+69239-56-1	DB09420	Various thyroid diagnostic radiopharmaceuticals
+6961-46-2	DB13297	Other topical products for joint and muscular pain
+6964-20-1	DB13348	Other lipid modifying agents
+69739-16-8	DB13470	Third-generation cephalosporins
+697761-98-1	DB09101	Antivirals for treatment of HIV infections, combinations; Other antivirals; Antivirals for treatment of HIV infections, combinations
+6998-60-3	DB11753	Antibiotics; Antiinfectives; Antibiotics
+70-07-5	DB13754	Other anxiolytics
+70-10-0	DB13613	Other antifungals for topical use
+7004-98-0	DB13386	Ovulation stimulants, synthetic
+7018-07-7	DB13359	Magnesium
+706808-37-9	DB06681	Selective immunosuppressants
+7077-34-1	DB13719	Organic nitrates; Organic nitrates
+7101-51-1	DB13313	Dopa and dopa derivatives; Dopa and dopa derivatives
+71205-22-6	DB13595	Combinations and complexes of aluminium, calcium and magnesium compounds
+7175-09-9	DB13222	Hydroxyquinoline derivatives
+7181-73-9	DB13462	Other antinematodals
+7182-53-8	DB09300	Belladonna and derivatives in combination with analgesics; Belladonna alkaloids, semisynthetic, quaternary ammonium compounds
+71939-50-9	DB11638	Artemisinin and derivatives, combinations; Artemisinin and derivatives, plain
+7195-27-9	DB13405	Sulfonamides and potassium in combination; Sulfonamides, plain
+72-63-9	DB13586	Androstan derivatives; Androgens for topical use
+72-80-0	DB13306	Hydroxyquinoline derivatives; Antiseptics; Quinoline derivatives; Quinoline derivatives
+7235-40-7	DB06755	Vitamin A, plain; Protectives against UV-radiation for systemic use
+72479-26-6	DB13434	Imidazole and triazole derivatives; Imidazole derivatives
+7248-21-7	DB13541	Other antimigraine preparations
+72573-82-1	DB09132	Paramagnetic contrast media
+72590-77-3	DB14543	Corticosteroids, moderately potent (group II)
+72797-41-2	DB09289	Other antidepressants
+728-88-1	DB06264	Other centrally acting agents; Other topical products for joint and muscular pain
+72945-61-0	DB09139	Technetium (99mTc) compounds
+72950-39-1	DB13183	Technetium (99mTc) compounds
+73121-56-9	DB13824	Prostaglandins
+73573-87-2	DB00983	Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics; Selective beta-2-adrenoreceptor agonists; Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics; Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics; Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics
+740028-90-4	DB00986	Synthetic anticholinergics, quaternary ammonium compounds; Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Synthetic anticholinergic agents in combination with psycholeptics; Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Anticholinergics
+74014-51-0	DB13409	Macrolides
+74050-20-7	DB14538	Corticosteroids, potent (group III)
+742-20-1	DB13532	Thiazides and potassium in combination; Sulfonamides; Low-ceiling diuretics and potassium-sparing agents; Thiazides, plain
+742092-03-1	DB05168	Vinca alkaloids and analogues
+7440-63-3	DB13453	Other general anesthetics
+7446-70-0	DB11081	Other anti-acne preparations for topical use
+74512-12-2	DB13684	Imidazole derivatives; Imidazole and triazole derivatives
+74513-62-5	DB13129	Progestogens and estrogens, fixed combinations; Progestogens and estrogens, sequential preparations
+74847-35-1	DB12975	Artemisinin and derivatives, combinations
+7487-94-7	DB13765	Mercurial products
+74899-72-2	DB00011	Interferons
+749-13-3	DB13552	Butyrophenone derivatives
+74978-16-8	DB08938	Combinations and complexes of aluminium, calcium and magnesium compounds; Antacids with antiflatulents
+75-00-3	DB13259	Other local anesthetics
+75-47-8	DB13813	Medicated dressings with antiinfectives
+7518-35-6	DB13334	Alkyl sulfonates
+75567-37-2	DB05013	Other chemotherapeutics
+75696-02-5	DB01594	Benzodiazepine derivatives
+75802-64-1	DB13220	Iron bivalent, oral preparations
+75887-54-6	DB13851	Artemisinin and derivatives, plain
+75917-92-9	DB09480	Iodine (123I) compounds
+759457-82-4	DB15575	Sensitizers used in photodynamic/radiation therapy
+760981-83-7	DB09308	Macrolides
+761423-87-4	DB11698	Sodium-glucose co-transporter 2 (SGLT2) inhibitors
+76144-81-5	DB13723	Other cardiac preparations
+763113-22-0	DB09074	Other antineoplastic agents
+7635-46-3	DB09370	Various therapeutic radiopharmaceuticals
+76448-31-2	DB13319	Imidazole derivatives; Nitroimidazole derivatives
+7646-85-7	DB14533	Other agents for treatment of hemorrhoids and anal fissures for topical use; Electrolyte solutions
+7647-01-0	DB13366	Electrolyte solutions; Acid preparations
+7647-63-4	DB13840	Phenothiazine derivatives; Phenothiazine derivatives
+76543-88-9	DB00034	Interferons
+76568-02-0	DB13228	Quinolone vasodilators
+765922-62-1	DB09151	Other central nervous system diagnostic radiopharmaceuticals
+76610-84-9	DB13638	Second-generation cephalosporins
+7683-36-5	DB13750	Antidotes
+76932-56-4	DB00666	Gonadotropin-releasing hormones
+7696-12-0	DB13752	Pyrethrines
+77-03-2	DB13224	Other cough suppressants
+77-04-3	DB13331	Piperidinedione derivatives
+77-23-6	DB11186	Other cough suppressants
+77-65-6	DB13817	Other hypnotics and sedatives
+77-75-8	DB13733	Hypnotics and sedatives in combination, excl. barbiturates; Other hypnotics and sedatives
+770691-21-9	DB06703	Paramagnetic contrast media
+7722-64-7	DB13831	Antidotes; Other antiseptics and disinfectants
+7722-84-1	DB11091	Other antiseptics and disinfectants; Antiinfectives; Other dermatologicals; Antiinfectives and antiseptics for local oral treatment
+7727-43-7	DB11150	Barium sulfate containing X-ray contrast media
+7757-87-1	DB13862	Electrolyte solutions
+7758-19-2	DB13210	Other cicatrizants
+7758-94-3	DB13569	Iron bivalent, oral preparations
+7758-98-7	DB06778	Antidotes
+7761-88-8	DB11080	Silver compounds
+7773-52-6	DB11073	Quaternary ammonium compounds; Antiinfectives; Antiseptics; Medicated dressings with antiinfectives
+7778-74-7	DB09418	Perchlorates
+7782-77-6	DB09112	Antidotes
+7783-00-8	DB11127	Selenium
+7783-08-6	DB11068	Selenium
+7783-47-3	DB11092	Caries prophylactic agents
+7784-30-7	DB14517	Aluminium compounds
+78-11-5	DB06154	Organic nitrates; Organic nitrates
+78-28-4	DB13572	Carbamates
+782500-75-8	DB09043	Glucagon-like peptide-1 (GLP-1) analogues
+78613-35-1	DB09056	Other antifungals for topical use
+79-01-6	DB13323	Halogenated hydrocarbons
+79-83-4	DB01783	Other cicatrizants; Other plain vitamin preparations
+790299-79-5	DB11526	Protein kinase inhibitors
+79770-24-4	DB09487	Watersoluble, nephrotropic, low osmolar X-ray contrast media
+80-35-3	DB13773	Long-acting sulfonamides
+80-74-0	DB14033	Sulfonamides
+8001-79-4	DB11113	Contact laxatives
+8002-90-2	DB13379	Other agents against amoebiasis and other protozoal diseases
+8008-60-4	DB11130	Antipropulsives; Natural opium alkaloids
+8012-96-2	DB13293	Expectorants; Antidotes
+8013-17-0	DB09344	Sclerosing agents for local injection
+8015-51-8	DB13447	Respiratory stimulants
+8017-88-7	DB13834	Mercurial products
+8017-89-8	DB01612	Antidotes
+8021-39-4	DB13271	Expectorants
+80295-38-1	DB09228	Drugs used in hereditary angioedema
+80387-96-8	DB13380	Synthetic anticholinergics, esters with tertiary amino group
+804-10-4	DB13279	Other vasodilators used in cardiac diseases
+8042-47-5	DB11057	Softeners, emollients; Softeners, emollients
+80529-93-7	DB00789	Paramagnetic contrast media
+8057-49-6	DB13196	Other hypnotics and sedatives
+8063-17-0	DB09363	Rauwolfia alkaloids; Rauwolfia alkaloids and diuretics in combination
+81110-73-8	DB11696	Other antidiarrheals
+814-80-2	DB13231	Calcium
+815610-63-0	DB05679	Interleukin inhibitors
+81669-57-0	DB00029	Enzymes
+81801-12-9	DB13781	Other cardiac stimulants
+81846-19-7	DB00374	Platelet aggregation inhibitors excl. heparin
+82-66-6	DB13347	Vitamin K antagonists
+82-98-4	DB13351	Synthetic anticholinergics, esters with tertiary amino group
+82030-87-3	DB09098	Somatropin and somatropin agonists
+82664-20-8	DB13338	Macrolides
+827-61-2	DB13262	Parasympathomimetics; Parasympathomimetics
+82964-04-3	DB02383	Aldose reductase inhibitors
+83275-56-3	DB13635	Other cardiac preparations
+83435-66-9	DB13312	ACE inhibitors, plain; ACE inhibitors and calcium channel blockers; ACE inhibitors and diuretics
+83688-84-0	DB13775	Beta blocking agents, non-selective
+83712-60-1	DB04932	Other antithrombotic agents
+838853-48-8	DB13615	Other immunostimulants
+83930-13-6	DB12656	Tests for pituitary function
+84-01-5	DB13382	Phenothiazines with aliphatic side-chain
+84-06-0	DB13557	Phenothiazines with piperazine structure
+84-12-8	DB13469	Other agents against amoebiasis and other protozoal diseases
+84-74-2	DB13716	Other insecticides and repellents
+84082-80-4	DB01323	Other antidepressants
+84305-41-9	DB09062	Second-generation cephalosporins
+844439-96-9	DB09564	Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting; Insulins and analogues for injection, long-acting; Insulins and analogues for injection, long-acting
+84604-10-4	DB13263	Other ectoparasiticides, incl. scabicides
+848-21-5	DB13563	Progestogens
+848-75-9	DB13872	Benzodiazepine derivatives
+84845-75-0	DB13760	H2-receptor antagonists
+848779-32-8	DB14951	Other antineoplastic agents
+84957-29-9	DB13682	Fourth-generation cephalosporins
+85-73-4	DB13248	Sulfonamides; Sulfonamides
+853426-35-4	DB09052	Monoclonal antibodies
+85650-52-8	DB00370	Other antidepressants
+856866-72-3	DB14569	Other antibacterials
+857401-00-4	DB13636	Ethers chemically close to antihistamines
+85897-35-4	DB06760	Enzymes
+86-40-8	DB13326	Acridine derivatives
+86-80-6	DB13683	Anesthetics for topical use
+86168-78-7	DB00010	Tests for pituitary function; Somatropin and somatropin agonists
+862111-32-8	DB08885	Antineovascularisation agents; Other antineoplastic agents
+86401-95-8	DB14643	Corticosteroids, potent (group III)
+864070-44-0	DB09038	Combinations of oral blood glucose lowering drugs; Combinations of oral blood glucose lowering drugs; Sodium-glucose co-transporter 2 (SGLT2) inhibitors
+865-04-3	DB13631	Rauwolfia alkaloids; Rauwolfia alkaloids and diuretics in combination
+866323-14-0	DB05015	Other antineoplastic agents
+86784-80-7	DB05394	Tests for pituitary function
+868-18-8	DB13707	Osmotically acting laxatives
+868049-49-4	DB09080	Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids; Selective beta-2-adrenoreceptor agonists
+86880-51-5	DB13757	Beta blocking agents, selective
+87-00-3	DB11181	Anticholinergics
+87-89-8	DB13178	Other plain vitamin preparations
+87056-78-8	DB09097	Prolactine inhibitors
+873857-62-6	DB08874	Antibiotics
+87638-04-8	DB13553	Monobactams
+87806-31-3	DB00707	Sensitizers used in photodynamic/radiation therapy
+878672-00-5	DB11560	Preparations increasing uric acid excretion
+88-04-0	DB11121	Phenol and derivatives
+88-46-0	DB13529	Other sclerosing agents; Other sclerosing agents
+881-17-4	DB09382	Other renal system diagnostic radiopharmaceuticals
+88430-50-6	DB05229	Platelet aggregation inhibitors excl. heparin
+884604-91-5	DB06720	Enzymes
+885051-90-1	DB09208	Other antigout preparations
+89226-50-6	DB09238	Dihydropyridine derivatives; ACE inhibitors and calcium channel blockers
+89419-40-9	DB13676	Other antipsychotics
+89797-00-2	DB13861	Watersoluble, nephrotropic, low osmolar X-ray contrast media
+898830-54-1	DB04907	Other antineoplastic agents
+89943-82-8	DB12766	Other low-ceiling diuretics
+90-39-1	DB06727	Antiarrhythmics, class Ia
+90-49-3	DB13362	Other antiepileptics
+90-54-0	DB13845	Other vasodilators used in cardiac diseases
+9000-30-0	DB13446	Other blood glucose lowering drugs, excl. insulins
+9000-36-6	DB10535	Bulk-forming laxatives; Bulk-forming laxatives
+9000-69-5	DB11158	Other intestinal adsorbents
+9000-94-6	DB11598	Heparin group
+9000-99-1	DB13199	Enzymes
+9001-00-7	DB13281	Proteolytic enzymes; Enzymes
+9001-01-8	DB13197	Enzymes
+9001-09-6	DB06752	Enzymes
+9001-12-1	DB00048	Proteolytic enzymes; Enzymes; Proteolytic enzymes
+9001-32-5	DB09222	Fibrinogen
+9001-54-1	DB14740	Enzymes
+9001-75-6	DB13198	Enzyme and acid preparations, combinations; Enzyme preparations
+9002-01-1	DB00086	Enzymes; Enzymes
+9002-07-7	DB11237	Enzymes; Proteolytic enzymes; Enzymes
+9002-61-3	DB09126	Gonadotropins
+9002-64-6	DB05829	Parathyroid hormones and analogues
+9002-68-0	DB00032	Gonadotropins
+9002-71-5	DB15263	Tests for thyreoidea function
+9002-92-0	DB06811	Sclerosing agents for local injection
+9002-96-4	DB11635	Other plain vitamin preparations
+9003-98-9	DB09551	Enzymes; Enzymes
+9004-07-3	DB09375	Other surgical aids; Enzymes
+9004-09-5	DB05254	Enzymes; Enzymes
+9004-54-0	DB09255	Blood substitutes and plasma protein fractions
+9004-61-9	DB08818	Viscoelastic substances; Viscoelastic substances; Other cicatrizants; Other drugs for disorders of the musculo-skeletal system; Other nasal preparations
+9004-65-3	DB11075	Viscoelastic substances
+9004-67-5	DB11228	Bulk-forming laxatives
+90045-36-6	DB01381	Other anti-dementia drugs; Anticholinesterases
+9005-27-0	DB09111	Blood substitutes and plasma protein fractions
+9005-32-7	DB13518	Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)
+9005-35-0	DB13372	Local hemostatics
+9005-49-6	DB15404	Heparin group
+9005-80-5	DB00638	Tests for renal function and ureteral injuries
+9011-97-6	DB08862	Tests for pancreatic function
+901119-35-5	DB12010	Other systemic hemostatics
+9012-00-4	DB13700	Antidotes
+9014-67-9	DB13509	Salicylic acid and derivatives; Platelet aggregation inhibitors excl. heparin
+9015-68-3	DB00023	Other antineoplastic agents
+902143-01-5	DB09148	Other central nervous system diagnostic radiopharmaceuticals
+9025-60-9	DB09051	Enzymes
+90293-01-9	DB13550	Other antidepressants
+9031-11-2	DB13761	Enzyme preparations
+9032-53-5	DB13570	Local hemostatics
+90357-06-5	DB01128	Anti-androgens; Gonadotropin releasing hormone analogues
+9038-41-9	DB06776	Drugs for treatment of hypercalcemia
+9039-53-6	DB00013	Enzymes
+9039-61-6	DB09005	Other systemic hemostatics
+9041-08-1	DB09259	Heparin group
+9041-92-3	DB00058	Proteinase inhibitors
+9046-56-4	DB05099	Enzymes
+90566-53-3	DB13867	Glucocorticoids; Corticosteroids, potent (group III); Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics; Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics; Corticosteroids; Corticosteroids
+906805-06-9	DB09559	Monoclonal antibodies
+9074-87-7	DB08898	Detoxifying agents for antineoplastic treatment
+90779-69-4	DB09059	Other gynecologicals
+9087-70-1	DB06692	Proteinase inhibitors
+909395-70-6	DB11866	Other drugs affecting bone structure and mineralization
+90961-53-8	DB06200	Antiarrhythmics, class III
+91-80-5	DB04819	Substituted ethylene diamines
+91-82-7	DB13846	Other antihistamines for systemic use; Other antihistamines for systemic use
+91-85-0	DB11235	Antihistamines for topical use; Substituted ethylene diamines; Antiallergic agents, excl. corticosteroids
+910-86-1	DB13608	Thiocarbamide derivatives
+910463-68-2	DB13928	Glucagon-like peptide-1 (GLP-1) analogues
+911637-19-9	DB12412	Dipeptidyl peptidase 4 (DPP-4) inhibitors; Dipeptidyl peptidase 4 (DPP-4) inhibitors; Combinations of oral blood glucose lowering drugs
+913976-27-9	DB08894	Other antianemic preparations
+914088-09-8	DB08870	Monoclonal antibodies
+91449-79-5	DB09258	Heparin group
+914613-48-2	DB06168	Interleukin inhibitors
+915296-00-3	DB06317	Monoclonal antibodies
+915810-67-2	DB06081	Other antithrombotic agents
+916055-93-1	DB06800	Peripheral opioid receptor antagonists
+916072-89-4	DB11691	Peripheral opioid receptor antagonists
+917381-47-6	DB06688	Other immunostimulants
+92118-27-9	DB04106	Nitrosoureas
+923287-50-7	DB11632	Other dopaminergic agents
+923604-59-5	DB06290	Sulfonamides; Antivirals for treatment of HCV infections
+923950-08-7	DB09045	Glucagon-like peptide-1 (GLP-1) analogues
+92812-82-3	DB13848	Other diagnostic radiopharmaceuticals for tumour detection
+929881-05-0	DB13521	Other lipid modifying agents
+93-30-1	DB13624	Non-selective beta-adrenoreceptor agonists
+93379-54-5	DB13443	Beta blocking agents, selective
+93384-43-1	DB00083	Other muscle relaxants, peripherally acting agents
+93384-44-2	DB00042	Other muscle relaxants, peripherally acting agents
+938-73-8	DB13544	Salicylic acid and derivatives; Salicylic acid and derivatives; Salicylic acid and derivatives
+94-35-9	DB13357	Carbamic acid esters
+94-96-2	DB13826	Other insecticides and repellents
+943609-66-3	DB09033	Selective immunosuppressants
+945721-28-8	DB09331	Monoclonal antibodies
+946414-94-4	DB09035	Monoclonal antibodies
+947687-13-0	DB05578	Monoclonal antibodies
+949142-50-1	DB08935	Monoclonal antibodies
+94948-59-1	DB11626	Other immunostimulants
+95-27-2	DB13858	Other antifungals for topical use
+952-54-5	DB13417	Other drugs for treatment of tuberculosis
+95522-45-5	DB11634	Drugs for treatment of hyperkalemia and hyperphosphatemia
+956103-76-7	DB09149	Other central nervous system diagnostic radiopharmaceuticals
+959-14-8	DB13216	Other cough suppressants
+965-52-6	DB13855	Other intestinal antiinfectives
+96946-41-7	DB00565	Other quaternary ammonium compounds
+97-23-4	DB11396	Other anticestodals
+97-44-9	DB13268	Arsenic compounds; Arsenic compounds; Other intestinal antiinfectives
+97048-13-0	DB00094	Gonadotropins
+97094-64-9	DB13850	Synthetic anticholinergics, quaternary ammonium compounds
+97635-31-9	DB13142	Calcium
+982-24-1	DB13841	Thioxanthene derivatives
+983-85-7	DB13739	Beta-lactamase sensitive penicillins
+98530-12-2	DB00105	Interferons
+98530-76-8	DB00055	Enzymes
+987-78-0	DB12153	Other psychostimulants and nootropics
+99-15-0	DB13226	Antivertigo preparations
+99-45-6	DB13394	Other agents for local oral treatment; Local hemostatics
+99-79-6	DB01187	Non-watersoluble X-ray contrast media
+99149-95-8	DB13646	Enzymes
+99283-10-0	DB12525	Colony stimulating factors
+99453-84-6	DB13239	Mucolytics
+99489-94-8	DB05794	Other vasodilators used in cardiac diseases
+996-31-6	DB09483	Electrolyte solutions
+99944-78-2	DB09163	Technetium (99mTc) compounds

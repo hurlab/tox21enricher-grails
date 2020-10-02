@@ -4,20 +4,33 @@ function renderCheckboxes() {
 
     $.get("/tox21enricher/init/getAnnoClassAsJson", function(data) {
         //alert("Data: " + data)
-        var checkboxGroups = {"PubChem Compound Annotation":[], "DrugMatrix Annotation":[], "CTD Annotation":[], "Other Annotations":[]};
-        var stringMap = {"CTD Annotation":"CTD Annotation", "DrugMatrix Annotation":"DrugMatrix Annotation","PubChem Compound Annotation":"PubChem Compound Annotation"};
+        var checkboxGroups = {"PubChem Compound Annotation":[], "DrugMatrix Annotation":[], "DrugBank Annotation":[], "CTD Annotation":[], "Other Annotations":[]};
+        var stringMap = {"CTD Annotation":"CTD Annotation","DrugMatrix Annotation":"DrugMatrix Annotation","PubChem Compound Annotation":"PubChem Compound Annotation","DrugBank Annotation":"DrugBank Annotation"};
         for (var annoclassid in data) {
             var record = data[annoclassid];
             var annotype = record.annotype;
+            var annodesc = record.annodesc; //annotation descriptions for tooltips
             var name = "Other Annotations";
             if (stringMap.hasOwnProperty(annotype)) {
                 name = stringMap[annotype];
             }
-            if (record.annoclassname == "CTD_GO_BP") {
-                checkboxGroups[name].push(["GO BIOP <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
+            if (record.annoclassname == "CTD_CHEMICALS_GOENRICH_BIOPROCESS") {
+                checkboxGroups[name].push(["CTD_GOENRICH_BIOPROCESS <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
             }
-            else if (record.annoclassname == "ZERO_CLASS") {
-                //this is just here so ZERO_CLASS isn't populated as a checkbox option
+            else if (record.annoclassname == "ZERO_CLASS" || 
+                     record.annoclassname == "CTD_GO_BP" || 
+                     record.annoclassname == "CTD_SF" || 
+                     record.annoclassname == "ENZYMES_NOT_VALIDATED" ||
+                     record.annoclassname == "ENZYMES_VALIDATED" ||
+                     record.annoclassname == "TARGET_GENES_NOT_VALIDATED" ||
+                     record.annoclassname == "TARGET_GENES_VALIDATED" ||
+                     record.annoclassname == "TRANSPORTER_NOT_VALIDATED" ||
+                     record.annoclassname == "TRANSPORTER_VALIDATED" ||
+                     record.annoclassname == "ATC_NOT_VALIDATED" ||
+                     record.annoclassname == "ATC_VALIDATED" ||
+                     record.annoclassname == "CARRIER_NOT_VALIDATED" ||
+                     record.annoclassname == "CARRIER_VALIDATED") {
+                //do nothing, we aren't using these
             }
             else {
                 checkboxGroups[name].push([record.annoclassname, record.annogroovyclassname, record.annodesc]);
@@ -25,7 +38,7 @@ function renderCheckboxes() {
         }
 
         var totalContainer = $("<ul>").addClass("accordion");
-        $(totalContainer).attr("data-multi-expand", false);
+        $(totalContainer).attr("data-multi-expand", true);
         $(totalContainer).attr("data-allow-all-closed", true);
         $(totalContainer).attr("data-accordion", "");
         for (var group in checkboxGroups) {
@@ -52,20 +65,19 @@ function renderCheckboxes() {
                 $(wrapperDiv).append(switchDiv);
                 $(wrapperDiv).addClass("end");
 
+                //--Tooltips for each annotation class--//
                 //$(wrapperDiv).attr("data-tooltip", "");
                 //$(wrapperDiv).attr("aria-haspopup", true);
                 //$(wrapperDiv).addClass("has-tip");
                 //$(wrapperDiv).attr("data-disable-hover", false);
-                //$(wrapperDiv).attr("tabindex", 1);
+                //$(wrapperDiv).attr("tabindex", 0);
+                //$(wrapperDiv).attr("data-position", "right");
+                //$(wrapperDiv).attr("data-alignment", "center");
                 //$(wrapperDiv).attr("title", el[2]);
 
                 $(wrapperDiv).prepend($("<label>").addClass("finger").prop("for", el[1]).html(el[0]));
                 $(rowDiv).append(wrapperDiv);
                 $(accordionContent).append(rowDiv);
-
-                //var tooltip = '<a href="#" data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1"><span class="fas fa-question-circle"></span></a>';
-                //$(wrapperDiv).append($("<span>").addClass("fas fa-question-circle"))
-                //$(wrapperDiv).append(tooltip).attr("title", el[2]);
             }
             $(accordionBox).append(accordionContent);
             $(totalContainer).append(accordionBox);
@@ -78,17 +90,5 @@ function renderCheckboxes() {
 }
 
 $(document).ready(function() { renderCheckboxes();
-    //$("#thresholdSelect").hide();
-    //$("#substructureRadio").click(function(){
-    //    $("#thresholdSelect").hide();
-        //alert("Test");
-    //});
-    //$("#similarityRadio").click(function(){
-    //    $("#thresholdSelect").show();
-        //alert("Test again");
-    //}); 
-    //$("#thresholdSelectValueManual").hide();
-    //$("#thresholdSelectValue").show();
-    
-    $(document).foundation();
+$(document).foundation();
 });

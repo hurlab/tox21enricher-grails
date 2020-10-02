@@ -391,6 +391,7 @@
                 <div class="accordion" id="categoriesHeader">
                     <h3>Select chemical/biological annotation categories</h3>
 
+                    <button class="button" type="button" id="btnToggleAccordions" onclick="toggleAccordions();">Expand All</button>
                     <button class="button" type="button" id="btnToggleCategories" onclick="toggleCategories();">Deselect All</button>
 
                 </div>

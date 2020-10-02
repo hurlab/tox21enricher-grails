@@ -137,19 +137,19 @@ class ResultSetService {
             lines = fh.readLines()
         }
         catch (FileNotFoundException e) {
-            return [Set1:[id: "none", name: "none", sim: 0.0]]
+            return [Set1:[id: "none", name: "none", sim: 0.0, react: "none"]]
         }
         def inputSetsMap = [:]
         def currentSet
         lines.each { String line ->  //TODO: add number
             //println "line: $line"
             def inputSetCasrns = []
-            if (line.startsWith("#")) {
+            if (line.startsWith("#")) { //set name
                 line = line.substring(1) //remove # symbol from set name
                 currentSet = line
                 inputSetsMap.put(line,[])
             }
-            else if (line.startsWith("%")) {
+            else if (line.startsWith("%")) {    //annotations
                 //ignore here                
             }
             else {

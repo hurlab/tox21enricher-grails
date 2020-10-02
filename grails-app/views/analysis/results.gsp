@@ -67,6 +67,27 @@
                 });
             }
 
+            function toggleAccordionsReenrich() {
+                $("div.accordion").each(function() {
+                    var isDown = $(this).data("tox21_isExpanded");
+                    var direction = "up";
+                    if (!isDown) {
+                        direction = "down";
+                    }
+                    if (direction == "down") {
+                        $("#btnToggleAccordionsReenrich").text("Collapse All");
+                    } else {
+                        $("#btnToggleAccordionsReenrich").text("Expand All");
+                    }
+
+                    $(this).data("tox21_isExpanded", !$(this).data("tox21_isExpanded"));
+                    var wrapper = this;
+                    $(wrapper).find(".accordion-content").each(function() {
+                        $(wrapper).foundation(direction, $(this));
+                    });
+                });
+            }
+
             function regenerateNetwork() {
                 $('#regen').submit();
             }
@@ -100,6 +121,28 @@
                 isPerformingEnrichment = true;
                 $('#enrichForm').submit();
             }
+
+            //Toggle select/deselect all for reenrichment
+            var deselectAll = false;
+            function selectAllReenrich() {       //toggle enrichment category checkboxes
+            $("input[type=checkbox]").each(function() {
+                var isChecked = $(this).data("tox21_isChecked");
+                var doCheck = true;
+                if (!isChecked)
+                    doCheck = false;
+
+                if(doCheck == true) {
+                    $("#selectReenrichButton").text("Deselect All");
+                } else {
+                    $("#selectReenrichButton").text("Select All");
+                }
+
+                $(this).data("tox21_isChecked", !$(this).data("tox21_isChecked"));
+                if ($(this).attr('id') != "goBiop") {
+                    $(this).prop('checked', doCheck);
+                }
+            });
+        }
 
             //Periodically refresh the waiting page to update queue position and transaction status
             setInterval(function(){
@@ -174,10 +217,10 @@
         <br />
         <h3>Enrichment Results</h3>
 
-        <%-- <button class="button" type="button" id="btnToggleAccordions" onclick="toggleAccordions();">Expand All</button> --%>
+        <button class="button" type="button" id="btnToggleAccordions" onclick="toggleAccordions();">Expand All</button>
 
         <g:set var="count" value="${0}" />
-        <ul class="accordion" data-accordion data-multi-expand="false" data-allow-all-closed="true">
+        <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
         <g:each var="fileSet" in="${resultSetModel.sortedResultMap}">
             <li class="accordion-item" data-accordion-item>
                 <a class="accordion-title">Set: ${fileSet.key}</a>
@@ -365,7 +408,11 @@
             <br>
             <h3>Re-enrich Selected Chemicals</h3>
             <br>
-            <ul class="accordion" data-accordion data-multi-expand="false" data-allow-all-closed="true">
+            <label for="reenrichAccordion">Select CASRNs for re-enrichment:
+                <button class="tiny button" type="button" id="btnToggleAccordionsReenrich" onclick="toggleAccordionsReenrich();">Expand All</button>
+                <button class="tiny button" id="selectReenrichButton" type="button" onclick = "selectAllReenrich()">Deselect All</button>
+            </label>
+            <div class="accordion" id="reenrichAccordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
                 <g:each var="dataSet" in="${casrnResults}">
                     <li class="accordion-item" data-accordion-item>
                         <a class="accordion-title">Set: ${dataSet.key}</a>
@@ -377,12 +424,12 @@
                                                 <input style="display: none" type="text" name="setName" id="setName" value="${"{\"#"+dataSet.key+"\":\""+dataSet.value.id+"\"}"}" />
                                                 <thead>
                                                     <tr>
-                                                    <th width="150">Select</th>
-                                                    <!-- <th width="150">Chemical Structure</th> -->
-                                                    <th width="150">Name</th>
-                                                    <th width="150">Structural Similarity (Tanimoto)</th>
+                                                    <th width="50">Select</th>
+                                                    <th width="200">Chemical Structure</th>
+                                                    <th width="200">Name</th>
+                                                    <th width="50">Structural Similarity (Tanimoto)</th>
                                                     <!-- <th width="150">Biological Similarity (Pearson)</th> -->
-                                                    <th width="150">CASRN</th>
+                                                    <th width="50">CASRN</th>
                                                     <!-- <th width="150">Mismatch Structure Alert</th> -->
                                                     </tr>
                                                 </thead>
@@ -390,7 +437,15 @@
                                                     <g:each var="casrn" in="${dataSet.value}">
                                                         <tr>
                                                         <td><input type="checkbox" name="CASRNSChecked" id="CASRNSChecked" value="${casrn.id}" checked></td>
-                                                        <!-- <td>[CHEMICAL STRUCTURE IMAGE GOES HERE]</td> -->
+                                                        <td>
+                                                            <g:set var="structureExists" value="${new File("/home/hurlab/tox21/grails-app/assets/images/structures/${casrn.id}.png").exists()}"></g:set>
+                                                            <g:if test="${structureExists}">
+                                                                <asset:image src="structures/${casrn.id}.png" width="150" height="150" />
+                                                            </g:if>
+                                                            <g:if test="${!structureExists}">
+                                                                <asset:image src="structures/no_img.png" width="150" height="150" />
+                                                            </g:if>
+                                                        </td>
                                                         <td>${casrn.name}</td>
                                                         <td>${casrn.sim}</td>
                                                         <!-- <td>[not implemented yet]</td> -->
@@ -406,7 +461,7 @@
                             </div>
                     </li>
                 </g:each>
-            </ul>
+            </div>
             <br />
 
             <input type="button" class="button" name="reenrich" value="Re-Enrich Selected Chemicals" onclick="resubmitCasrns()" />                

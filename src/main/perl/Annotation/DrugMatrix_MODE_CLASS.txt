@@ -1,0 +1,4184 @@
+32672-69-8	Receptor Ligand Antagonist
+115103-85-0	Receptor Ligand Antagonist
+116001-96-8	Enzyme Inhibitor
+51012-32-9	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+82626-01-5	Channel Modulator
+8013-40-9	Enzyme Inhibitor; Receptor Agonist; Receptor Ligand Antagonist
+184036-34-8	Receptor Ligand Antagonist, Selective
+8055-10-5	Distorts /blocks macromolecular synthesis scaffold
+29442-58-8	Channel enhancer /opener
+17780-72-2	Enzyme Inhibitor
+1947-37-1	Receptor Agonist
+521-78-8	Solute transporter inhibitor
+108912-17-0	Enzyme Inhibitor
+28270-04-4	Receptor Agonist
+13392-28-4	Channel Blocker, selective
+125602-71-3	Receptor Ligand Antagonist, Selective
+36637-19-1	Channel Blocker
+156769-21-0	Enzyme Inhibitor
+80214-83-1	Distorts /blocks macromolecular synthesis scaffold
+69-14-7	Enzyme Inhibitor
+15468-34-5	Distorts /blocks macromolecular synthesis scaffold
+170508-05-1	Receptor Ligand Antagonist
+153559-49-0	Receptor Agonist, Non-selective
+147221-93-0	Enzyme Inhibitor
+67337-44-4	Enzyme Inhibitor
+152323-98-3	Enzyme Inhibitor, selective
+154-93-8	Distorts /blocks macromolecular scaffold function
+88873-75-0	Enzyme Inhibitor
+504-24-5	Channel Modulator
+138794-73-7	Enzyme Inhibitor
+75695-93-1	Channel Blocker
+91374-21-9	Receptor Agonist; Receptor Agonist, selective
+73771-04-7	Receptor Agonist
+87691-92-7	Receptor Agonist
+152-04-5	Endogenous Receptor /Channel Ligand
+5875-06-9	Channel Blocker
+51-57-0	Receptor Partial Agonist; Solute transporter inhibitor; Enzyme substrate mimic
+134067-56-4	Enzyme Inhibitor
+28981-97-7	Channel enhancer /opener
+114798-26-4	Receptor Ligand Antagonist, Selective
+191114-48-4	Distorts /blocks macromolecular synthesis scaffold
+51274-83-0	Receptor Partial Agonist
+117467-28-4	Enzyme Inhibitor
+61849-14-7	Receptor Agonist
+3810-80-8	Receptor Agonist; Channel Blocker
+322-35-0	Enzyme Inhibitor
+72803-02-2	Channel Blocker
+98079-51-7	Enzyme Inhibitor, selective
+1622-61-3	Channel enhancer /opener
+93793-83-0	Receptor Ligand Antagonist
+101053-01-4	Solute transporter inhibitor
+87238-52-6	Enzyme Inhibitor
+73-78-9	Channel Modulator
+2353-33-5	Enzyme Inhibitor
+37661-08-8	Enzyme Inhibitor
+16679-58-6	Receptor Agonist, selective
+66-79-5	Enzyme Inhibitor
+1402-99-9	Distorts /blocks macromolecular synthesis scaffold
+15307-86-5	Enzyme Inhibitor
+31842-01-0	Enzyme Inhibitor
+67190-19-6	Receptor Agonist
+138661-03-7	Channel Blocker
+25384-17-2	Receptor Agonist
+126721-07-1	Enzyme Inhibitor
+125133-74-6	Enzyme Inhibitor
+123040-16-4	Channel Blocker, selective
+64-17-5	Endogenous Enzyme Substrate; Channel Modulator
+188062-50-2	Enzyme substrate mimic
+99047-26-4	Channel Blocker
+136087-85-9	Enzyme Inhibitor
+14611-52-0	Enzyme Inhibitor
+147-24-0	Receptor Ligand Antagonist, Non-selective; Channel Blocker; Receptor Ligand Antagonist, Selective
+1531-12-0	Receptor Agonist
+147238-98-0	Enzyme Inhibitor
+129688-50-2	Enzyme Inhibitor
+321-98-2	Solute transporter inhibitor; Receptor /Channel ligand mimic; Enzyme substrate mimic
+65043-22-3	Solute transporter inhibitor
+81846-19-7	Receptor Agonist, selective
+101-31-5	Solute transporter inhibitor
+14759-06-9	Receptor Ligand Antagonist
+159668-20-9	Enzyme Inhibitor
+120280-33-3	Channel Modulator
+65141-46-0	Channel enhancer /opener
+95399-71-6	Enzyme Inhibitor
+174636-32-9	Enzyme Inhibitor
+446-72-0	Enzyme Inhibitor; Receptor Agonist, selective
+6673-35-4	Receptor Ligand Antagonist, Selective
+6265-73-2	Channel enhancer /opener
+77-02-1	Channel Modulator
+269062-93-3	Distorts /blocks macromolecular scaffold function
+35523-89-8	Channel Blocker
+4199-10-4	Receptor Ligand Antagonist, Non-selective
+38194-50-2	Enzyme Inhibitor
+1400-61-9	Distorts /blocks macromolecular scaffold function
+522-40-7	Receptor Ligand Antagonist
+167933-07-5	Receptor Ligand Antagonist
+76639-94-6	Distorts /blocks macromolecular synthesis scaffold
+99291-25-5	Receptor Ligand Antagonist
+122852-42-0	Channel Blocker, selective
+81840-15-5	Enzyme Inhibitor; Channel Blocker
+127625-29-0	Receptor Ligand Antagonist
+87234-24-0	Enzyme Inhibitor
+140944-31-6	Channel Blocker
+50629-82-8	Receptor Agonist
+71950-35-1	Enzyme Inhibitor, selective
+50-76-0	Distorts /blocks macromolecular synthesis scaffold
+109889-09-0	Channel Blocker, selective
+2192-20-3	Receptor Ligand Antagonist
+2385-81-1	Receptor Agonist
+847-25-6	Distorts /blocks macromolecular synthesis scaffold
+157810-81-6	Enzyme Inhibitor
+64-86-8	Distorts /blocks macromolecular synthesis scaffold
+51154-48-4	Enzyme Inhibitor
+52-49-3	Receptor Agonist, selective
+123-03-5	Distorts /blocks macromolecular scaffold function
+2152-44-5	Receptor Agonist
+50-07-7	Distorts /blocks macromolecular scaffold function
+38398-32-2	Channel enhancer /opener
+150408-73-4	Receptor Ligand Antagonist
+71031-15-7	Enzyme Inhibitor; Solute transporter inhibitor
+127595-43-1	Solute transporter inhibitor; Channel Blocker
+113045-82-2	Enzyme Inhibitor, selective
+118876-58-7	Channel Blocker, selective
+1786-81-8	Channel Blocker
+285983-48-4	Enzyme Inhibitor
+138786-67-1	Enzyme Inhibitor
+154644-14-1	Enzyme Inhibitor
+89786-04-9	Enzyme Inhibitor
+42399-41-7	Channel Modulator
+36894-69-6	Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist, Selective
+156-51-4	Enzyme Inhibitor
+24477-37-0	Channel Blocker, selective
+193811-33-5	Enzyme Inhibitor
+121277-96-1	Channel Modulator
+119-04-0	Distorts /blocks macromolecular synthesis scaffold
+142352-46-3	Enzyme Inhibitor
+157126-18-6	Enzyme Inhibitor
+141993-70-6	Enzyme Inhibitor
+76706-55-3	Enzyme Inhibitor, Non-selective
+19875-60-6	Receptor Agonist
+303-53-7	Receptor Ligand Antagonist
+1034-82-8	Channel Blocker, selective
+90581-31-0	Distorts /blocks macromolecular synthesis scaffold
+105981-50-8	Receptor Agonist
+68377-91-3	Receptor Partial Agonist; Receptor Ligand Antagonist, Non-selective
+73873-87-7	Receptor Agonist
+465-65-6	Receptor Ligand Antagonist
+84697-21-2	Enzyme Inhibitor
+83881-52-1	Receptor Ligand Antagonist, Selective
+4222-79-1	Receptor Agonist
+68302-57-8	Enzyme Inhibitor
+57-66-9	Solute transporter inhibitor
+6108-05-0	Channel Modulator
+15301-69-6	Receptor Ligand Antagonist
+101345-71-5	Receptor Agonist, selective
+123040-69-7	Channel Blocker, selective
+77360-52-2	Enzyme Inhibitor
+826-39-1	Channel Blocker
+1176-08-5	Receptor Ligand Antagonist
+6211-32-1	Receptor Ligand Antagonist, Selective
+192755-52-5	Enzyme Inhibitor
+150915-40-5	Receptor Ligand Antagonist, Selective
+61263-35-2	Receptor Agonist
+13093-88-4	Receptor Ligand Antagonist
+24659-79-8	Distorts /blocks macromolecular synthesis scaffold
+152-02-3	Receptor Partial Agonist
+128794-94-5	Enzyme Inhibitor
+80573-04-2	Enzyme Inhibitor
+27912-14-7	Receptor Ligand Antagonist, Non-selective
+83536-10-1	Receptor Agonist, selective
+61-73-4	Enzyme Inhibitor
+79548-73-5	Distorts /blocks macromolecular synthesis scaffold
+66711-21-5	Receptor Agonist
+9045-67-4	Endogenous Receptor /Channel Ligand
+54-11-5	Channel Modulator
+508-99-6	Channel enhancer /opener
+14028-44-5	Solute transporter inhibitor; Receptor Ligand Antagonist
+135910-20-2	Enzyme Inhibitor
+165800-05-5	Receptor Ligand Antagonist, Selective
+530-78-9	Enzyme Inhibitor; Channel Blocker
+637-07-0	Receptor Agonist, selective
+26159-34-2	Enzyme Inhibitor
+314-19-2	Receptor Agonist
+93413-69-5	Solute transporter inhibitor
+113045-81-1	Enzyme Inhibitor, selective
+134523-05-8	Enzyme Inhibitor
+10418-03-8	Receptor Agonist
+83480-29-9	Enzyme Inhibitor
+150378-17-9	Enzyme Inhibitor
+3506-09-0	Receptor Ligand Antagonist, Non-selective
+84845-57-8	Enzyme Inhibitor
+66794-74-9	Channel Blocker
+77-22-5	Channel Blocker; Receptor Ligand Antagonist
+23142-01-0	Receptor Agonist, selective; Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist
+59293-82-2	Enzyme Inhibitor
+7712-50-7	Channel Blocker
+124083-14-3	Enzyme Inhibitor
+127299-93-8	Receptor Agonist, selective
+104594-70-9	Enzyme Inhibitor
+29122-68-7	Receptor Ligand Antagonist, Selective
+163009-73-2	Enzyme Inhibitor
+302-79-4	Endogenous Receptor /Channel Ligand
+428-07-9	Solute transporter inhibitor
+6452-71-7	Receptor Partial Agonist
+3737-09-5	Channel Blocker
+75176-37-3	Enzyme Inhibitor
+38321-02-7	Channel Blocker
+35107-70-1	Channel Modulator
+5929-09-9	Channel Blocker
+36085-73-1	Receptor Agonist; Channel Modulator
+128667-95-8	Enzyme Inhibitor
+60-31-1	Endogenous Receptor /Channel Ligand
+84625-61-6	Enzyme Inhibitor
+5741-22-0	Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist
+42864-78-8	Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective; Receptor Agonist, Non-selective
+485-35-8	Channel Modulator
+1404-19-9	Enzyme Inhibitor, selective
+14252-80-3	Channel Blocker
+101-26-8	Enzyme Inhibitor
+77191-36-7	Receptor Ligand Antagonist
+280744-09-4	Enzyme Inhibitor
+83-12-5	Enzyme Inhibitor
+55837-18-8	Enzyme Inhibitor
+134395-54-3	Enzyme Inhibitor
+54527-84-3	Channel Blocker
+75330-75-5	Enzyme Inhibitor
+146939-27-7	Receptor Ligand Antagonist
+911-45-5	Receptor Ligand Antagonist
+12741-00-3	Enzyme Inhibitor
+78628-80-5	Enzyme Inhibitor
+58-95-7	Enzyme Inhibitor
+64840-90-0	Channel Blocker
+76-99-3	Receptor Agonist
+82009-34-5	Enzyme Inhibitor
+3093-35-4	Receptor Agonist
+468-59-7	Receptor Agonist
+84371-65-3	Receptor Ligand Antagonist
+117354-64-0	Receptor Agonist, selective
+34330-64-8	Receptor /Channel ligand mimic; Receptor Ligand Antagonist
+87233-61-2	Receptor Ligand Antagonist, Selective
+119901-68-7	Enzyme Inhibitor
+135015-84-8	Receptor Ligand Antagonist, Selective
+5370-01-4	Channel enhancer /opener; Channel Modulator
+138402-11-6	Receptor Ligand Antagonist, Selective
+125276-50-8	Enzyme Inhibitor
+6621-47-2	Enzyme Inhibitor; Channel Blocker
+125-33-7	Channel Modulator
+13412-64-1	Enzyme Inhibitor
+52-01-7	Receptor Ligand Antagonist
+143693-03-2	Receptor Ligand Antagonist
+97519-39-6	Enzyme Inhibitor
+10540-29-1	Receptor Ligand Antagonist
+1742-95-6	Enzyme Inhibitor
+378-44-9	Receptor Agonist
+8023-22-1	Enzyme Inhibitor
+69049-74-7	Channel Blocker
+92823-00-2	Enzyme Inhibitor
+123122-54-3	Enzyme Inhibitor
+1050-79-9	Receptor Ligand Antagonist
+62571-86-2	Enzyme Inhibitor
+132036-36-3	Channel Blocker
+137-53-1	Receptor Agonist
+76-25-5	Receptor Agonist
+133347-98-5	Enzyme Inhibitor; Channel Blocker
+57186-25-1	Channel Modulator
+208661-17-0	Receptor Ligand Antagonist
+554-57-4	Enzyme Inhibitor
+32838-26-9	Enzyme Inhibitor
+104060-12-0	Channel Blocker
+58-94-6	Channel Blocker, selective
+103577-45-3	Enzyme Inhibitor
+113102-19-5	Enzyme Inhibitor, selective
+139264-19-0	Receptor Agonist
+23092-17-3	Channel enhancer /opener
+133299-87-3	Channel Modulator
+131739-92-9	Enzyme Inhibitor
+199864-86-3	Receptor Ligand Antagonist
+91503-79-6	Enzyme Inhibitor
+49625-23-2	Receptor Ligand Antagonist, Selective; Channel Modulator
+91-81-6	Receptor Ligand Antagonist
+3092-17-9	Receptor Agonist, selective
+51234-28-7	Enzyme Inhibitor
+71-63-6	Enzyme Inhibitor
+7790-78-5	Receptor /Channel ligand mimic; Receptor Ligand Antagonist
+82571-53-7	Enzyme Inhibitor
+36556-75-9	Receptor Ligand Antagonist, Selective; Receptor Agonist, Non-selective
+53267-01-9	Channel Blocker
+150821-03-7	Receptor Ligand Antagonist
+117585-83-8	Enzyme Inhibitor
+97-39-2	Receptor Agonist
+54856-23-4	Receptor Agonist; Receptor Ligand Antagonist
+131-13-5	Enzyme Inhibitor
+13392-18-2	Receptor Agonist
+81872-09-5	Enzyme Inhibitor
+4368-28-9	Channel Blocker
+339-43-5	Channel Blocker, selective
+155213-67-5	Enzyme Inhibitor
+35795-16-5	Receptor Ligand Antagonist, Selective
+14357-78-9	Receptor Ligand Antagonist
+34368-04-2	Receptor Agonist, selective
+41100-52-1	Channel Blocker
+34846-90-7	Enzyme Inhibitor
+8027-03-0	Distorts /blocks macromolecular synthesis scaffold
+71097-83-1	Receptor Agonist
+143538-48-1	Receptor Ligand Antagonist
+17321-77-6	Solute transporter inhibitor
+115575-11-6	Enzyme Inhibitor, selective
+389-08-2	Enzyme Inhibitor
+86126-06-9	Receptor Ligand Antagonist, Selective
+1841-19-6	Channel Blocker; Receptor Ligand Antagonist
+5585-88-6	Receptor Agonist, selective; Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist
+599-79-1	Enzyme Inhibitor, selective
+93811-58-6	Enzyme Inhibitor
+96036-03-2	Enzyme Inhibitor
+181695-72-7	Enzyme Inhibitor
+5585-64-8	Receptor Ligand Antagonist
+89459-25-6	Enzyme Inhibitor
+159652-53-6	Enzyme Inhibitor
+143257-98-1	Channel Blocker, selective
+121277-97-2	Channel Modulator
+106017-08-7	Enzyme Inhibitor, selective
+2043-38-1	Channel Blocker, selective
+137-58-6	Channel Modulator
+749-02-0	Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+2181-04-6	Enzyme Inhibitor; Receptor Ligand Antagonist
+16378-22-6	Enzyme Inhibitor
+55136-48-6	Receptor Ligand Antagonist
+50-13-5	Receptor Agonist
+83-43-2	Receptor Agonist
+134395-53-2	Enzyme Inhibitor
+50-44-2	Enzyme substrate mimic
+37517-26-3	Receptor Ligand Antagonist
+192329-42-3	Enzyme Inhibitor; Enzyme Inhibitor, selective
+5874-97-5	Receptor Agonist, selective
+3833-99-6	Receptor Ligand Antagonist
+51022-69-6	Receptor Agonist
+499-67-2	Channel Blocker
+53776-71-9	Distorts /blocks macromolecular synthesis scaffold
+128470-16-6	Receptor Agonist
+141283-87-6	Enzyme Inhibitor
+119742-13-1	Receptor Agonist
+31677-93-7	Solute transporter inhibitor; Channel Blocker
+79580-28-2	Channel Blocker
+54739-18-3	Solute transporter inhibitor
+357-67-5	Channel Modulator
+59729-31-6	Channel Blocker
+97901-22-9	Enzyme Inhibitor
+57333-96-7	Receptor Agonist
+17692-38-5	Enzyme Inhibitor
+132907-72-3	Channel Blocker, selective
+60325-46-4	Receptor Agonist, selective
+29110-48-3	Receptor Agonist, selective
+103434-39-5	Channel Blocker
+64024-15-3	Receptor Agonist; Receptor Partial Agonist
+31430-15-6	Distorts /blocks macromolecular scaffold function
+95153-31-4	Enzyme Inhibitor
+140944-30-5	Channel Blocker
+131899-25-7	Channel Modulator
+153436-54-5	Enzyme Inhibitor, Non-selective; Receptor tyrosine kinase inhibitor
+64228-79-1	Channel Blocker
+150492-03-8	Channel Modulator
+3385-03-3	Receptor Agonist
+22161-81-5	Enzyme Inhibitor
+134578-96-4	Receptor Ligand Antagonist, Selective
+60-99-1	Receptor Ligand Antagonist
+6700-40-9	Receptor Agonist, selective
+75847-73-3	Enzyme Inhibitor
+526-08-9	Enzyme Inhibitor
+141701-65-7	Enzyme Inhibitor
+175865-68-6	Enzyme Inhibitor, selective
+58-22-0	Endogenous Receptor /Channel Ligand
+98319-26-7	Enzyme Inhibitor; Enzyme Inhibitor, selective
+52-43-7	Channel Modulator
+152918-18-8	Receptor Agonist, selective
+1172-18-5	Channel enhancer /opener
+31352-82-6	Channel enhancer /opener
+175865-67-5	Enzyme Inhibitor, selective
+10083-56-4	Solute transporter inhibitor
+66211-92-5	Distorts /blocks macromolecular synthesis scaffold
+123482-23-5	Solute transporter inhibitor; Channel Blocker, selective
+521-11-9	Receptor Agonist
+90-34-6	Enzyme Inhibitor
+57524-89-7	Channel enhancer /opener
+73-49-4	Channel Blocker
+22164-94-9	Enzyme Inhibitor
+125251-66-3	Receptor Agonist
+2113-05-5	Channel Blocker; Channel enhancer /opener
+146426-40-6	Enzyme Inhibitor
+7195-27-9	Enzyme Inhibitor
+28781-64-8	Channel enhancer /opener
+86-13-5	Solute transporter inhibitor
+21306-56-9	Channel Blocker
+156177-65-0	Enzyme Inhibitor
+5579-16-8	Receptor Agonist
+32385-11-8	Distorts /blocks macromolecular synthesis scaffold
+6251-69-0	Endogenous Receptor /Channel Ligand
+71125-38-7	Enzyme Inhibitor
+7487-88-9	Channel Modulator
+25546-65-0	Distorts /blocks macromolecular synthesis scaffold
+80-75-1	Receptor Agonist
+77086-22-7	Channel Blocker
+53643-48-4	Distorts /blocks macromolecular synthesis scaffold
+132036-88-5	Channel Blocker, selective
+1131-64-2	Enzyme Inhibitor
+7491-74-9	Receptor Agonist; Channel Blocker
+147098-18-8	Enzyme Inhibitor
+114875-57-9	Enzyme Inhibitor
+107097-80-3	Receptor Ligand Antagonist
+140841-32-3	Enzyme Inhibitor
+7005-78-9	Receptor Agonist
+316-81-4	Receptor Ligand Antagonist
+67-97-0	Receptor Agonist
+56-40-6	Receptor Agonist
+112733-06-9	Enzyme Inhibitor
+114037-60-4	Enzyme Inhibitor
+122344-31-4	Receptor Agonist
+114012-12-3	Receptor Agonist, selective
+190442-10-5	Enzyme Inhibitor
+64-85-7	Receptor Agonist
+39133-32-9	Receptor Agonist, selective; Channel Modulator
+149-64-4	Receptor Ligand Antagonist
+78964-85-9	Enzyme Inhibitor
+121569-61-7	Enzyme Inhibitor
+111974-60-8	Receptor Ligand Antagonist
+40034-42-2	Enzyme Inhibitor, selective
+29110-47-2	Receptor Agonist, selective
+6700-42-1	Enzyme Inhibitor
+120410-24-4	Enzyme Inhibitor
+1220-83-3	Enzyme Inhibitor
+21489-20-3	Solute transporter inhibitor
+132014-21-2	Channel enhancer /opener
+32062-10-5	Receptor Agonist, selective
+152811-62-6	Receptor Ligand Antagonist, Selective
+71-81-8	Receptor Ligand Antagonist
+107376-72-7	Enzyme Inhibitor
+34381-68-5	Receptor Ligand Antagonist, Selective
+140207-93-8	Enzyme Inhibitor
+104632-28-2	Receptor Agonist
+170566-84-4	Receptor Ligand Antagonist
+154164-30-4	Channel Blocker, selective
+158836-71-6	Enzyme Inhibitor
+13009-99-9	Enzyme Inhibitor
+120373-24-2	Receptor Agonist
+141596-46-5	Receptor Ligand Antagonist
+25332-39-2	Solute transporter inhibitor
+75820-08-5	Channel Blocker
+672-87-7	Enzyme Inhibitor
+154652-83-2	Channel Blocker
+58-28-6	Solute transporter inhibitor
+134678-17-4	Enzyme substrate mimic
+59-33-6	Receptor Ligand Antagonist, Selective
+160146-16-7	Enzyme Inhibitor, selective
+3485-62-9	Receptor Ligand Antagonist
+322-79-2	Enzyme Inhibitor
+99464-64-9	Enzyme Inhibitor
+90-04-0	Distorts /blocks macromolecular synthesis scaffold; Enzyme substrate mimic
+633-65-8	Distorts /blocks macromolecular synthesis scaffold
+152814-19-2	Channel Modulator
+63516-10-9	Solute transporter inhibitor
+41354-29-4	Receptor Ligand Antagonist, Non-selective
+17360-35-9	Receptor Agonist, selective
+159098-79-0	Enzyme Inhibitor
+37561-27-6	Receptor Ligand Antagonist
+155141-29-0	Receptor Agonist
+35711-34-3	Enzyme Inhibitor
+64-77-7	Channel Blocker, selective
+108319-06-8	Enzyme Inhibitor, selective
+118244-44-3	Receptor Agonist
+57-33-0	Channel Modulator
+7447-40-7	Channel Modulator
+33386-08-2	Receptor Partial Agonist
+81093-37-0	Enzyme Inhibitor
+6011-62-7	Enzyme Inhibitor
+5536-17-4	Enzyme substrate mimic
+1425-61-2	Distorts /blocks macromolecular synthesis scaffold
+11116-32-8	Distorts /blocks macromolecular synthesis scaffold
+138199-71-0	Enzyme Inhibitor, selective
+87726-17-8	Enzyme Inhibitor
+13539-59-8	Enzyme Inhibitor
+35891-93-1	Channel Blocker
+27523-40-6	Enzyme Inhibitor
+73-31-4	Endogenous Receptor /Channel Ligand
+180916-16-9	Receptor Modulator
+63358-49-6	Enzyme Inhibitor
+27203-92-5	Receptor Agonist; Solute transporter inhibitor
+14838-15-4	Receptor Agonist
+65271-80-9	Distorts /blocks macromolecular synthesis scaffold
+4891-15-0	Distorts /blocks macromolecular synthesis scaffold; Receptor Agonist; Receptor Ligand Antagonist
+21535-47-7	Receptor Ligand Antagonist
+90243-99-5	Enzyme Inhibitor
+14286-84-1	Channel Blocker
+25812-30-0	Receptor Agonist, selective
+105239-91-6	Enzyme Inhibitor
+183547-57-1	Receptor Ligand Antagonist, Selective
+33124-53-7	Receptor Ligand Antagonist
+90-69-7	Channel Modulator
+94948-59-1	Endogenous Receptor /Channel Ligand
+604-75-1	Channel enhancer /opener
+53716-50-0	Distorts /blocks macromolecular scaffold function
+15686-91-6	Receptor Partial Agonist
+129299-72-5	Channel Blocker, selective
+124351-85-5	Enzyme Inhibitor
+63527-52-6	Enzyme Inhibitor
+151328-91-5	Enzyme Inhibitor
+25614-03-3	Receptor Partial Agonist; Receptor Agonist
+80382-23-6	Enzyme Inhibitor
+52942-31-1	Receptor Ligand Antagonist
+3546-03-0	Receptor Ligand Antagonist
+51627-14-6	Enzyme Inhibitor
+125-84-8	Enzyme Inhibitor, Non-selective
+114419-77-1	Receptor Agonist; Channel Blocker; Receptor Ligand Antagonist
+320-67-2	Enzyme substrate mimic
+79902-63-9	Enzyme Inhibitor
+47879-92-5	Distorts /blocks macromolecular synthesis scaffold
+963-39-3	Channel enhancer /opener
+60085-78-1	Channel enhancer /opener
+180468-40-0	Receptor Ligand Antagonist, Selective
+103420-77-5	Receptor Ligand Antagonist, Selective
+40198-53-6	Enzyme Inhibitor
+61618-27-7	Enzyme Inhibitor
+37517-28-5	Enzyme Inhibitor
+112984-60-8	Enzyme Inhibitor, selective
+172344-72-8	Enzyme Inhibitor, selective
+59865-13-3	Enzyme Inhibitor
+144701-48-4	Receptor Ligand Antagonist, Selective
+74772-77-3	Receptor Agonist
+134234-13-2	Channel Modulator
+39133-31-8	Receptor Agonist, selective; Channel Modulator
+129297-21-8	Enzyme Inhibitor
+91-80-5	Receptor Ligand Antagonist
+56097-80-4	Enzyme Inhibitor
+83730-53-4	Enzyme Inhibitor
+141184-34-1	Enzyme Inhibitor
+26774-90-3	Enzyme Inhibitor
+52549-17-4	Enzyme Inhibitor
+163680-77-1	Enzyme Inhibitor, selective
+33089-61-1	Receptor Agonist
+81-81-2	Enzyme Inhibitor
+159792-14-0	Receptor Ligand Antagonist
+56974-61-9	Enzyme Inhibitor
+84408-37-7	Enzyme Inhibitor, selective
+62013-04-1	Distorts /blocks macromolecular synthesis scaffold
+3426-54-8	Distorts /blocks macromolecular synthesis scaffold
+34156-56-4	Enzyme Inhibitor
+14930-96-2	Distorts /blocks macromolecular synthesis scaffold
+121123-17-9	Enzyme Inhibitor
+66722-44-9	Receptor Ligand Antagonist, Selective
+2409-26-9	Channel Modulator
+102676-31-3	Enzyme Inhibitor, selective
+89371-37-9	Enzyme Inhibitor
+509-67-1	Receptor Agonist
+130726-68-0	Enzyme Inhibitor
+151406-07-4	Receptor Ligand Antagonist, Selective
+57-68-1	Enzyme Inhibitor
+93479-97-1	Channel Blocker, selective
+159351-69-6	Enzyme Inhibitor
+114785-90-9	Receptor Ligand Antagonist
+99551-09-4	Endogenous Receptor /Channel Ligand
+101343-69-5	Receptor Agonist, selective
+112733-11-6	Enzyme Inhibitor
+58994-96-0	Distorts /blocks macromolecular scaffold function
+115607-61-9	Enzyme Inhibitor
+109683-61-6	Enzyme Inhibitor
+98048-97-6	Enzyme Inhibitor
+133563-46-9	Channel Blocker
+58-38-8	Receptor Ligand Antagonist
+56420-45-2	Distorts /blocks macromolecular synthesis scaffold
+135467-18-4	Enzyme Inhibitor
+141579-88-6	Enzyme Inhibitor
+101363-10-4	Enzyme Inhibitor, selective
+144364-95-4	Receptor Ligand Antagonist, Selective
+66052-89-9	Receptor Ligand Antagonist
+86-21-5	Receptor Ligand Antagonist, Selective
+50370-12-2	Enzyme Inhibitor
+97805-49-7	Receptor Agonist
+2622-30-2	Receptor Ligand Antagonist
+172152-36-2	Enzyme Inhibitor
+1424-00-6	Receptor Agonist
+555-57-7	Enzyme Inhibitor
+144912-63-0	Channel Modulator
+40828-46-4	Enzyme Inhibitor
+5786-21-0	Solute transporter inhibitor; Receptor Ligand Antagonist
+21736-83-4	Distorts /blocks macromolecular synthesis scaffold
+520-85-4	Receptor Agonist
+84-17-3	Receptor Agonist
+59708-52-0	Receptor Agonist, selective
+320725-47-1	Enzyme Inhibitor
+30418-52-1	Distorts /blocks macromolecular synthesis scaffold
+129-83-9	Receptor Agonist
+4323-43-7	Receptor Agonist
+120408-07-3	Enzyme Inhibitor
+79570-19-7	Receptor Agonist, selective
+52212-02-9	Channel Blocker, selective
+6620-60-6	Receptor Ligand Antagonist
+79672-88-1	Receptor Agonist
+78123-71-4	Receptor Agonist, selective
+151096-09-2	Enzyme Inhibitor, selective
+124832-26-4	Enzyme Inhibitor, selective
+129300-27-2	Channel Blocker, selective
+180384-57-0	Receptor Ligand Antagonist, Non-selective
+34597-40-5	Enzyme Inhibitor
+71424-95-8	Receptor Agonist
+38821-49-7	Enzyme Inhibitor
+113617-63-3	Enzyme Inhibitor, selective
+40666-16-8	Receptor Agonist, selective
+133052-90-1	Enzyme Inhibitor, selective
+82-88-2	Receptor Ligand Antagonist
+60-57-1	Channel Blocker
+62-51-1	Receptor Agonist
+57010-31-8	Channel Blocker
+65899-73-2	Enzyme Inhibitor
+105618-02-8	Distorts /blocks macromolecular scaffold function
+114432-13-2	Channel Modulator
+81872-10-8	Enzyme Inhibitor
+148699-92-7	Receptor Ligand Antagonist
+51953-95-8	Receptor Agonist
+84-06-0	Receptor Ligand Antagonist
+125905-00-2	Enzyme Inhibitor
+83928-76-1	Receptor Agonist
+41340-25-4	Enzyme Inhibitor
+135467-20-8	Enzyme Inhibitor
+112885-41-3	Receptor Agonist
+119615-63-3	Enzyme Inhibitor
+99592-32-2	Enzyme Inhibitor
+23210-56-2	Channel Blocker
+108943-08-4	Distorts /blocks macromolecular synthesis scaffold
+72332-33-3	Receptor Agonist, selective
+6055-19-2	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+66104-22-1	Receptor Agonist
+55-65-2	Enzyme Inhibitor
+51-06-9	Channel Blocker, selective
+168077-14-3	Receptor Ligand Antagonist, Selective
+128668-65-5	Enzyme Inhibitor
+103238-57-9	Enzyme Inhibitor
+125974-72-3	Enzyme Inhibitor
+1229-29-4	Receptor Ligand Antagonist
+109581-93-3	Enzyme Inhibitor
+835-31-4	Receptor Agonist
+61825-94-3	Distorts /blocks macromolecular scaffold function
+50700-72-6	Channel Blocker, selective
+533-45-9	Channel enhancer /opener
+65517-27-3	Channel enhancer /opener
+548-73-2	Receptor Agonist; Receptor Ligand Antagonist
+487-79-6	Channel Modulator
+94-36-0	Distorts /blocks macromolecular scaffold function
+299-39-8	Channel Blocker
+159138-80-4	Enzyme Inhibitor
+138-37-4	Enzyme Inhibitor
+138298-79-0	Receptor Agonist
+15301-82-3	Distorts /blocks macromolecular synthesis scaffold
+148408-66-6	Distorts /blocks macromolecular synthesis scaffold
+96125-53-0	Channel Modulator
+522-00-9	Receptor Ligand Antagonist
+57-42-1	Receptor Agonist
+26552-51-2	Enzyme Inhibitor
+171596-29-5	Enzyme Inhibitor, selective
+68342-78-9	Channel Blocker
+148563-16-0	Receptor Agonist, selective
+469-79-4	Receptor Agonist
+123280-13-7	Receptor Ligand Antagonist, Selective
+723-46-6	Enzyme Inhibitor
+105981-51-9	Receptor Agonist
+53910-25-1	Enzyme Inhibitor
+82-92-8	Receptor Ligand Antagonist
+137927-14-1	Enzyme Inhibitor
+7601-55-0	Channel Blocker
+153507-46-1	Receptor Ligand Antagonist, Selective
+50-27-1	Endogenous Receptor /Channel Ligand
+59917-39-4	Distorts /blocks macromolecular synthesis scaffold
+112885-42-4	Receptor Agonist
+76-74-4	Channel Modulator
+10347-81-6	Solute transporter inhibitor
+147193-59-7	Enzyme Inhibitor
+69373-95-1	Channel Blocker
+88150-42-9	Channel Blocker
+69-23-8	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+212141-51-0	Enzyme Inhibitor
+50-14-6	Receptor Agonist
+107-43-7	Enzyme substrate mimic
+89482-00-8	Enzyme Inhibitor
+111686-79-4	Channel Blocker; Channel Modulator
+87056-78-8	Receptor Agonist
+116314-67-1	Enzyme Inhibitor, selective
+83150-76-9	Receptor /Channel ligand mimic
+74050-97-8	Receptor Agonist, selective; Receptor Agonist; Receptor Ligand Antagonist
+135-07-9	Channel Blocker, selective
+183322-45-4	Enzyme Inhibitor, Non-selective; Receptor tyrosine kinase inhibitor
+60-91-3	Receptor Ligand Antagonist
+69123-98-4	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+129453-61-8	Receptor Ligand Antagonist
+5585-73-9	Solute transporter inhibitor
+113241-47-7	Channel Modulator
+107097-79-0	Enzyme Inhibitor, selective
+79700-61-1	Channel Modulator
+315-72-0	Channel Blocker; Receptor Ligand Antagonist
+58-37-7	Receptor Ligand Antagonist
+82768-84-1	Enzyme Inhibitor
+1393-88-0	Distorts /blocks macromolecular scaffold function
+29701-07-3	Distorts /blocks macromolecular synthesis scaffold
+42863-81-0	Channel enhancer /opener
+154039-60-8	Enzyme Inhibitor; Enzyme Inhibitor, selective
+1405-87-4	Distorts /blocks macromolecular synthesis scaffold
+136817-59-9	Enzyme Inhibitor
+52468-60-7	Channel Blocker
+136470-78-5	Enzyme substrate mimic
+51781-06-7	Receptor Ligand Antagonist, Selective
+19685-09-7	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+6893-02-3	Receptor Agonist
+289499-45-2	Enzyme Inhibitor
+167305-00-2	Enzyme Inhibitor
+75898-90-7	Enzyme Inhibitor
+129920-03-2	Channel Modulator
+84880-03-5	Enzyme Inhibitor
+78613-35-1	Enzyme Inhibitor
+72-14-0	Enzyme Inhibitor
+86393-37-5	Enzyme Inhibitor, selective
+135070-05-2	Receptor Ligand Antagonist, Selective
+56980-93-9	Receptor Partial Agonist; Receptor Ligand Antagonist, Selective
+90850-05-8	Enzyme Inhibitor
+212141-89-4	Enzyme Inhibitor
+87691-91-6	Receptor Agonist
+89458-99-1	Enzyme Inhibitor
+59831-63-9	Enzyme Inhibitor
+137882-98-5	Receptor Ligand Antagonist, Selective
+129-18-0	Enzyme Inhibitor
+51-49-0	Receptor Agonist
+157542-49-9	Enzyme Inhibitor
+8015-12-1	Receptor Agonist
+22254-24-6	Solute transporter inhibitor; Receptor Ligand Antagonist
+553-13-9	Channel Blocker
+141549-75-9	Channel Blocker, selective
+56839-43-1	Channel Blocker
+119431-25-3	Channel Blocker
+80-74-0	Enzyme Inhibitor
+110013-21-3	Enzyme Inhibitor, selective
+79660-53-0	Enzyme Inhibitor, selective
+75738-58-8	Enzyme Inhibitor
+692-13-7	Receptor Agonist; Channel Modulator; Enzyme Activator
+122894-15-9	Enzyme Inhibitor, selective
+61337-67-5	Channel Blocker; Receptor Ligand Antagonist, Selective
+107736-98-1	Receptor Agonist
+139145-89-4	Enzyme Inhibitor
+157971-78-3	Channel Blocker, selective
+123524-52-7	Channel Blocker
+2465-59-0	Enzyme Inhibitor
+53179-11-6	Receptor Agonist; Channel Blocker
+30033-10-4	Channel Blocker, selective
+522-24-7	Receptor Ligand Antagonist
+79778-41-9	Enzyme Inhibitor
+31431-39-7	Distorts /blocks macromolecular scaffold function
+62288-83-9	Receptor Agonist, selective
+153062-94-3	Channel Blocker
+89785-84-2	Enzyme Inhibitor
+32886-97-8	Enzyme Inhibitor
+129-49-7	Receptor Ligand Antagonist, Non-selective
+117086-68-7	Solute transporter inhibitor; Channel Blocker, selective
+110347-85-8	Channel Modulator
+3313-26-6	Enzyme Inhibitor; Receptor Ligand Antagonist
+10328-70-8	Endogenous Receptor /Channel Ligand
+1614-12-6	Enzyme Inhibitor, Non-selective
+134717-73-0	Enzyme Inhibitor
+52-24-4	Distorts /blocks macromolecular scaffold function
+85650-56-2	Receptor Ligand Antagonist
+35763-26-9	Receptor Agonist, selective
+57248-88-1	Enzyme Inhibitor
+10182-82-8	Enzyme Inhibitor
+148229-79-2	Receptor Agonist; Solute transporter inhibitor
+79559-97-0	Solute transporter inhibitor
+53164-05-9	Enzyme Inhibitor
+101530-10-3	Enzyme Inhibitor
+1095-90-5	Receptor Agonist
+51-71-8	Enzyme Inhibitor
+119169-78-7	Enzyme Inhibitor
+120280-90-2	Channel Modulator
+846-49-1	Channel enhancer /opener
+123308-22-5	Enzyme Inhibitor
+75747-14-7	Enzyme Inhibitor
+8067-24-1	Receptor Ligand Antagonist
+511-12-6	Receptor Partial Agonist; Receptor Ligand Antagonist
+18323-44-9	Distorts /blocks macromolecular synthesis scaffold
+434-13-9	Enzyme Inhibitor; Receptor Agonist
+103890-78-4	Channel Blocker
+63074-08-8	Receptor Ligand Antagonist, Selective
+360-70-3	Receptor Agonist
+90182-92-6	Receptor Agonist; Channel Blocker
+103899-31-6	Channel Modulator
+28546-58-9	Channel enhancer /opener
+156727-74-1	Receptor Agonist, selective
+142522-81-4	Receptor Ligand Antagonist
+37065-29-5	Enzyme Inhibitor, selective
+134028-06-1	Channel Blocker
+179024-48-7	Enzyme Inhibitor
+35135-67-2	Receptor Agonist
+117414-74-1	Channel Modulator
+88040-23-7	Enzyme Inhibitor
+829-74-3	Receptor Agonist
+100643-71-8	Receptor Ligand Antagonist
+68342-79-0	Channel Blocker
+65-28-1	Receptor Ligand Antagonist, Non-selective; Channel enhancer /opener
+144453-77-0	Enzyme Inhibitor
+146623-69-0	Receptor Ligand Antagonist, Selective
+14918-35-5	Distorts /blocks macromolecular synthesis scaffold
+152459-95-5	Enzyme Inhibitor; Receptor tyrosine kinase inhibitor
+116649-85-5	Receptor Ligand Antagonist
+523-87-5	Receptor Ligand Antagonist
+129904-55-8	Channel Blocker
+7054-25-3	Channel Blocker, Non-selective; Enzyme Inhibitor, selective
+72005-58-4	Channel Blocker
+147366-41-4	Distorts /blocks macromolecular scaffold function
+469-62-5	Receptor Agonist
+67467-83-8	Enzyme Inhibitor
+768-94-5	Receptor Ligand Antagonist; Channel Blocker, selective
+14759-04-7	Receptor Ligand Antagonist
+4238-71-5	Enzyme Inhibitor
+104227-87-4	Enzyme Inhibitor, selective
+1824-58-4	Channel Blocker, selective
+120280-13-9	Enzyme Inhibitor
+112811-59-3	Enzyme Inhibitor, selective
+2746-81-8	Receptor Ligand Antagonist
+122647-32-9	Channel Blocker
+81045-50-3	Enzyme Inhibitor
+24143-17-7	Channel enhancer /opener
+147398-01-4	Receptor Ligand Antagonist, Selective
+50-18-0	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+68-35-9	Enzyme substrate mimic
+145202-66-0	Receptor Agonist
+130636-43-0	Channel Blocker, selective
+1508-76-5	Receptor Ligand Antagonist, Selective
+58-25-3	Channel Modulator
+124151-60-6	Enzyme Inhibitor
+132031-37-9	Enzyme Inhibitor
+64-72-2	Distorts /blocks macromolecular synthesis scaffold
+147254-64-6	Enzyme Inhibitor
+67-48-1	Receptor Agonist; Channel Modulator
+120279-82-2	Enzyme Inhibitor
+150284-34-7	Channel Modulator
+82640-04-8	Receptor Agonist, selective
+69-05-6	Enzyme Inhibitor; Channel Blocker
+11030-21-0	Distorts /blocks macromolecular synthesis scaffold
+76326-31-3	Channel Modulator
+477-93-0	Receptor Ligand Antagonist
+4291-63-8	Enzyme substrate mimic
+66357-35-5	Receptor Ligand Antagonist, Selective
+129029-23-8	Receptor Ligand Antagonist
+865-21-4	Distorts /blocks macromolecular synthesis scaffold
+191217-81-9	Receptor Agonist
+56767-76-1	Enzyme Inhibitor
+143966-35-2	Channel Modulator
+66318-17-0	Enzyme Inhibitor
+76-42-6	Receptor Agonist, selective
+138844-81-2	Enzyme Inhibitor
+134028-07-2	Channel Blocker
+36418-29-8	Receptor Agonist
+53-03-2	Receptor Agonist
+59973-80-7	Enzyme Inhibitor
+133-16-4	Channel Blocker
+138301-71-0	Enzyme Inhibitor
+50-28-2	Endogenous Receptor /Channel Ligand
+69-72-7	Enzyme Inhibitor; Solute transporter inhibitor; Enzyme Inhibitor, selective
+167678-33-3	Receptor Ligand Antagonist
+187724-61-4	Enzyme Inhibitor
+22059-21-8	Receptor Agonist
+159138-81-5	Enzyme Inhibitor
+137099-09-3	Enzyme Inhibitor
+329-65-7	Receptor Agonist
+145314-18-7	Enzyme Inhibitor
+76631-46-4	Receptor Agonist
+212141-52-1	Enzyme Inhibitor
+6156-47-4	Distorts /blocks macromolecular synthesis scaffold
+156223-05-1	Channel Modulator
+51762-05-1	Enzyme Inhibitor
+126452-49-1	Enzyme Inhibitor
+95896-08-5	Receptor Agonist
+58-14-0	Enzyme Inhibitor
+74711-43-6	Enzyme Inhibitor
+85441-60-7	Enzyme Inhibitor
+19237-84-4	Receptor Ligand Antagonist, Selective
+162301-05-5	Enzyme Inhibitor, selective
+147511-69-1	Enzyme Inhibitor
+34784-64-0	Receptor Ligand Antagonist; Receptor Agonist, Non-selective
+125-53-1	Receptor Ligand Antagonist
+127618-28-4	Solute transporter inhibitor; Channel Blocker, selective
+94-25-7	Channel Blocker
+12643-15-1	Distorts /blocks macromolecular scaffold function
+63469-19-2	Enzyme Inhibitor
+3801-06-7	Enzyme Inhibitor
+76-90-4	Receptor Ligand Antagonist, Selective
+564-25-0	Distorts /blocks macromolecular synthesis scaffold
+23672-07-3	Receptor Ligand Antagonist
+40762-15-0	Channel enhancer /opener
+79794-75-5	Receptor Ligand Antagonist, Selective
+190791-29-8	Receptor Modulator
+140703-51-1	Receptor Agonist
+82219-78-1	Enzyme Inhibitor
+50-53-3	Solute transporter inhibitor; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+60929-23-9	Solute transporter inhibitor
+124508-66-3	Receptor Agonist
+26973-24-0	Enzyme Inhibitor
+173830-17-6	Solute transporter inhibitor
+5593-20-4	Receptor Agonist
+7002-58-6	Channel Blocker; Receptor Ligand Antagonist
+21362-69-6	Receptor Agonist
+149882-23-5	Channel Modulator
+22494-42-4	Enzyme Inhibitor
+120210-48-2	Enzyme Inhibitor
+834-28-6	Channel Modulator; Enzyme Activator
+98753-19-6	Enzyme Inhibitor
+141579-54-6	Enzyme Inhibitor
+15690-55-8	Receptor Ligand Antagonist
+76932-60-0	Receptor Agonist
+83647-97-6	Enzyme Inhibitor
+14176-49-9	Receptor Agonist
+64425-21-4	Receptor Partial Agonist
+545-80-2	Receptor Ligand Antagonist
+122320-73-4	Receptor Agonist
+59864-04-9	Enzyme Inhibitor
+189448-35-9	Enzyme Inhibitor
+207556-62-5	Enzyme Inhibitor
+162011-90-7	Enzyme Inhibitor
+106400-18-4	Enzyme Inhibitor
+127779-20-8	Enzyme Inhibitor
+58447-24-8	Enzyme Inhibitor
+141064-37-1	Enzyme Inhibitor
+441-61-2	Receptor Agonist
+107429-63-0	Channel Modulator
+102-06-7	Receptor Agonist
+427-51-0	Receptor Agonist; Receptor Ligand Antagonist, Selective
+179107-34-7	Receptor Ligand Antagonist, Selective
+147526-32-7	Enzyme Inhibitor
+25447-66-9	Receptor Agonist
+69353-21-5	Enzyme Inhibitor
+121021-52-1	Channel Modulator
+83643-88-3	Channel Modulator
+129172-46-9	Enzyme Inhibitor
+125-71-3	Receptor Agonist, selective
+114785-14-7	Receptor Ligand Antagonist
+59-46-1	Channel Modulator
+566-48-3	Enzyme Inhibitor
+38957-41-4	Enzyme Inhibitor
+21679-14-1	Enzyme substrate mimic
+13269-35-7	Solute transporter inhibitor
+154-42-7	Enzyme substrate mimic
+24305-27-9	Receptor /Channel ligand mimic
+145433-12-1	Channel Modulator
+81938-43-4	Enzyme Inhibitor
+118409-57-7	Receptor tyrosine kinase inhibitor
+101041-94-5	Enzyme Inhibitor
+69655-05-6	Enzyme substrate mimic
+57982-77-1	Receptor Agonist
+53066-26-5	Distorts /blocks macromolecular synthesis scaffold
+119413-53-5	Receptor Agonist, selective
+71675-85-9	Receptor Ligand Antagonist
+6933-90-0	Receptor Agonist
+63677-95-2	Enzyme Inhibitor
+13461-01-3	Receptor Ligand Antagonist
+65277-42-1	Enzyme Inhibitor
+8049-62-5	Endogenous Receptor /Channel Ligand
+130773-02-3	Enzyme Inhibitor
+64211-45-6	Enzyme Inhibitor
+72522-13-5	Receptor Agonist
+139290-65-6	Receptor Ligand Antagonist
+87638-04-8	Enzyme Inhibitor
+55837-19-9	Receptor Ligand Antagonist
+119478-56-7	Enzyme Inhibitor
+127420-24-0	Enzyme Inhibitor
+143-75-9	Channel Blocker
+19728-88-2	Receptor Ligand Antagonist, Non-selective
+198480-56-7	Receptor Modulator
+77174-66-4	Enzyme Inhibitor
+57-96-5	Solute transporter inhibitor
+388082-77-7	Enzyme Inhibitor
+17784-12-2	Enzyme Inhibitor
+439-14-5	Channel enhancer /opener
+60569-19-9	Enzyme Inhibitor; Channel Blocker
+84-96-8	Receptor Ligand Antagonist
+97162-19-1	Enzyme Inhibitor
+298-81-7	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+87269-97-4	Enzyme Inhibitor
+80-49-9	Solute transporter inhibitor
+87679-71-8	Enzyme Inhibitor
+36104-80-0	Channel enhancer /opener
+204248-78-2	Distorts /blocks macromolecular scaffold function
+78218-09-4	Enzyme Inhibitor
+1405-10-3	Distorts /blocks macromolecular synthesis scaffold
+608-07-1	Receptor Agonist, selective
+66376-36-1	Enzyme Inhibitor
+26652-09-5	Receptor Agonist, selective; Receptor Agonist
+76-57-3	Receptor Agonist, selective
+10448-84-7	Receptor Ligand Antagonist
+70458-92-3	Enzyme Inhibitor, selective
+1131-65-3	Enzyme Inhibitor
+110671-78-8	Distorts /blocks macromolecular synthesis scaffold
+57475-17-9	Channel Blocker
+56-86-0	Endogenous Receptor /Channel Ligand
+144301-94-0	Channel enhancer /opener; Channel Modulator
+60-80-0	Enzyme Inhibitor
+82-93-9	Receptor Ligand Antagonist
+133099-04-4	Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+24815-24-5	Solute transporter inhibitor
+97518-16-6	Enzyme Inhibitor
+107233-08-9	Receptor Agonist
+50-23-7	Endogenous Receptor /Channel Ligand
+76470-66-1	Enzyme Inhibitor
+39331-48-1	Solute transporter inhibitor
+26675-46-7	Channel Blocker, Non-selective
+127408-32-6	Channel Modulator
+33125-97-2	Solute transporter inhibitor; Channel enhancer /opener; Channel Blocker; Channel Modulator
+24527-27-3	Receptor Ligand Antagonist
+2002-29-1	Receptor Agonist
+76990-56-2	Channel Blocker
+173830-15-4	Solute transporter inhibitor
+160141-09-3	Enzyme Inhibitor
+3717-88-2	Receptor Ligand Antagonist
+161967-81-3	Enzyme Inhibitor, selective
+139346-15-9	Receptor Agonist
+2363-58-8	Receptor Ligand Antagonist
+58503-82-5	Solute transporter inhibitor
+142057-77-0	Enzyme Inhibitor
+144412-49-7	Receptor Ligand Antagonist, Selective
+54965-21-8	Distorts /blocks macromolecular scaffold function
+84-80-0	Enzyme Inhibitor
+122647-31-8	Channel Blocker
+96639-11-1	Enzyme Inhibitor
+70639-48-4	Distorts /blocks macromolecular synthesis scaffold
+123482-22-4	Solute transporter inhibitor; Channel Blocker, selective
+81409-90-7	Receptor Agonist
+118142-72-6	Receptor Agonist, selective
+103486-79-9	Channel Modulator
+122883-93-6	Receptor Ligand Antagonist
+125-72-4	Receptor Agonist, selective
+89565-68-4	Solute transporter inhibitor; Channel Blocker, selective
+66734-13-2	Receptor Agonist
+4697-36-3	Enzyme Inhibitor
+140695-21-2	Receptor Ligand Antagonist, Selective
+119687-33-1	Channel Blocker
+91374-20-8	Receptor Agonist; Receptor Agonist, selective
+107007-99-8	Channel Blocker, selective
+141396-28-3	Enzyme Inhibitor
+146978-48-5	Receptor Ligand Antagonist, Selective
+123013-34-3	Receptor Agonist
+87760-53-0	Receptor Agonist
+144665-07-6	Channel Blocker
+57308-51-7	Receptor Agonist
+5630-53-5	Receptor Agonist
+175865-59-5	Enzyme Inhibitor, selective
+789-02-6	Channel Blocker, selective
+153259-65-5	Enzyme Inhibitor
+115-38-8	Channel Modulator
+63659-19-8	Receptor Ligand Antagonist, Selective
+796-29-2	Solute transporter inhibitor
+120287-85-6	Receptor Ligand Antagonist
+17466-45-4	Distorts /blocks macromolecular scaffold function
+103766-25-2	Enzyme Inhibitor
+131899-26-8	Channel Modulator
+146665-77-2	Distorts /blocks macromolecular scaffold function
+75949-61-0	Receptor Ligand Antagonist
+175615-45-9	Enzyme Inhibitor
+22298-29-9	Receptor Agonist
+93738-40-0	Channel Modulator
+61869-08-7	Solute transporter inhibitor
+87151-85-7	Receptor Agonist, selective
+115699-46-2	Enzyme Inhibitor
+3544-24-9	Enzyme Inhibitor
+72702-95-5	Enzyme Inhibitor
+58652-20-3	Enzyme Inhibitor
+54350-48-0	Enzyme Inhibitor; Enzyme Activator
+58-60-6	Distorts /blocks macromolecular scaffold function
+95729-65-0	Enzyme Inhibitor
+113665-84-2	Receptor Ligand Antagonist
+59467-70-8	Channel enhancer /opener
+135548-66-2	Channel Blocker
+65189-78-8	Enzyme Inhibitor
+56-94-0	Enzyme Inhibitor
+37148-27-9	Receptor Agonist, selective
+107753-78-6	Receptor Ligand Antagonist
+305-33-9	Enzyme Inhibitor
+173997-06-3	Enzyme Inhibitor
+129260-79-3	Receptor Agonist
+745-65-3	Receptor Agonist
+128253-25-8	Enzyme Inhibitor
+36980-34-4	Channel Blocker, selective
+84-36-6	Solute transporter inhibitor
+130801-14-8	Channel Blocker
+42971-09-5	Enzyme Inhibitor; Channel Blocker; Channel Modulator
+117052-25-2	Enzyme substrate mimic
+644-62-2	Enzyme Inhibitor
+205110-48-1	Distorts /blocks macromolecular synthesis scaffold
+131875-08-6	Receptor Agonist
+965-90-2	Receptor Agonist
+36205-82-0	Enzyme Inhibitor, selective
+163253-37-0	Enzyme Inhibitor, selective
+1015-89-0	Enzyme Inhibitor
+35795-17-6	Receptor Ligand Antagonist, Selective
+557795-19-4	Enzyme Inhibitor
+71486-22-1	Distorts /blocks macromolecular synthesis scaffold
+71-58-9	Receptor Agonist
+33765-68-3	Receptor Ligand Antagonist
+129689-30-1	Receptor Agonist, selective
+105889-45-0	Enzyme Inhibitor
+39809-25-1	Enzyme Inhibitor, selective
+143892-90-4	Enzyme Inhibitor
+19982-08-2	Channel Blocker
+1684-40-8	Enzyme Inhibitor
+115956-12-2	Channel Blocker, selective
+62-90-8	Receptor Agonist
+5591-45-7	Enzyme Inhibitor; Receptor Ligand Antagonist
+202825-46-5	Channel Blocker
+64485-93-4	Enzyme Inhibitor
+101-40-6	Receptor Agonist
+142471-56-5	Enzyme Inhibitor; Channel Blocker
+130370-60-4	Enzyme Inhibitor
+80809-81-0	Enzyme Inhibitor
+71316-84-2	Solute transporter inhibitor
+95-25-0	Channel enhancer /opener
+131740-09-5	Enzyme Inhibitor
+87344-06-7	Enzyme Inhibitor
+56796-39-5	Enzyme Inhibitor
+62232-46-6	Channel Blocker, selective
+54556-98-8	Enzyme Inhibitor; Channel Blocker
+11061-68-0	Endogenous Receptor /Channel Ligand
+91-75-8	Receptor Ligand Antagonist
+106685-40-9	Receptor Agonist, selective
+33286-22-5	Channel Modulator
+110707-92-1	Channel Blocker, selective
+112344-52-2	Enzyme Inhibitor
+99614-02-5	Channel Blocker, selective
+259188-38-0	Enzyme Inhibitor, selective
+50972-17-3	Enzyme Inhibitor
+118101-09-0	Receptor Ligand Antagonist
+2438-72-4	Enzyme Inhibitor
+77-10-1	Channel Blocker
+105816-04-4	Channel Blocker, selective
+77-21-4	Channel Modulator
+175865-65-3	Enzyme Inhibitor, selective
+127-71-9	Enzyme Inhibitor
+201605-51-8	Receptor Ligand Antagonist, Selective
+138680-08-7	Channel Modulator
+67392-87-4	Receptor Agonist; Receptor Ligand Antagonist
+60-02-6	Enzyme Inhibitor
+98079-52-8	Enzyme Inhibitor, selective
+152802-07-8	Channel Modulator
+21870-06-4	Receptor Ligand Antagonist
+82-98-4	Receptor Ligand Antagonist, Non-selective
+81962-84-7	Enzyme Inhibitor, selective
+63701-56-4	Receptor Agonist, selective
+70918-01-3	Receptor Ligand Antagonist, Selective
+42924-53-8	Enzyme Inhibitor
+142873-41-4	Enzyme Inhibitor
+29094-61-9	Channel Blocker, selective
+70001-26-2	Receptor Agonist, selective
+141545-89-3	Enzyme Inhibitor
+38821-52-2	Receptor Ligand Antagonist
+530-08-5	Receptor Agonist, selective
+120635-74-7	Channel Blocker, selective
+50838-36-3	Enzyme Inhibitor
+82821-47-4	Enzyme Inhibitor
+74150-27-9	Enzyme Inhibitor
+8052-21-9	Receptor Ligand Antagonist, Non-selective; Channel Blocker; Receptor Ligand Antagonist, Selective
+151319-34-5	Channel enhancer /opener
+56776-01-3	Receptor Agonist
+143388-64-1	Receptor Agonist
+87721-62-8	Receptor Ligand Antagonist
+2751-68-0	Receptor Ligand Antagonist
+70259-49-3	Distorts /blocks macromolecular synthesis scaffold
+4910-46-7	Enzyme Inhibitor
+128043-99-2	Enzyme Inhibitor
+116049-53-7	Channel Modulator
+61477-94-9	Channel Blocker; Receptor Ligand Antagonist
+90581-30-9	Distorts /blocks macromolecular synthesis scaffold
+511-09-1	Receptor Agonist
+129-71-5	Receptor Ligand Antagonist
+5588-16-9	Channel Blocker, selective
+23155-02-4	Enzyme Inhibitor
+49562-28-9	Receptor Agonist, selective
+5581-42-0	Channel Blocker, selective
+62139-95-1	Enzyme Inhibitor
+103745-39-7	Channel Blocker
+119271-78-2	Enzyme Inhibitor
+106861-44-3	Channel Blocker
+200631-89-6	Receptor Agonist
+175865-60-8	Enzyme Inhibitor, selective
+91682-96-1	Enzyme Inhibitor
+100678-32-8	Channel Blocker
+113775-47-6	Receptor Agonist
+58-08-2	Enzyme Inhibitor; Receptor Agonist; Receptor Ligand Antagonist
+55-91-4	Enzyme Inhibitor
+64-75-5	Distorts /blocks macromolecular synthesis scaffold
+34973-08-5	Endogenous Receptor /Channel Ligand
+144285-03-0	Enzyme Inhibitor
+50-11-3	Channel Modulator
+124012-42-6	Enzyme Inhibitor
+117143-81-4	Distorts /blocks macromolecular synthesis scaffold
+132-17-2	Solute transporter inhibitor
+172822-28-5	Receptor Ligand Antagonist
+86615-41-0	Receptor Agonist, selective
+59-02-9	Enzyme Inhibitor
+47082-97-3	Receptor Ligand Antagonist
+139155-29-6	Enzyme Inhibitor
+536-43-6	Channel Blocker
+129-03-3	Receptor Ligand Antagonist, Non-selective
+54-92-2	Enzyme Inhibitor
+89365-50-4	Receptor Agonist, selective
+144628-52-4	Receptor Ligand Antagonist, Selective
+58001-44-8	Enzyme Inhibitor
+13013-17-7	Receptor Ligand Antagonist, Non-selective
+138-65-8	Endogenous Enzyme Substrate; Endogenous Receptor /Channel Ligand
+85320-68-9	Receptor Ligand Antagonist
+54247-25-5	Receptor Ligand Antagonist, Selective
+128427-55-4	Enzyme Inhibitor, selective
+175865-63-1	Enzyme Inhibitor, selective
+64-55-1	Channel enhancer /opener; Receptor Ligand Antagonist
+140401-05-4	Enzyme Inhibitor
+521-18-6	Receptor Agonist
+56391-56-1	Distorts /blocks macromolecular synthesis scaffold
+237068-57-4	Receptor Ligand Antagonist
+317-34-0	Enzyme Inhibitor; Receptor Agonist; Receptor Ligand Antagonist
+55975-92-3	Enzyme Inhibitor
+14293-44-8	Channel Blocker
+12650-69-0	Enzyme Inhibitor
+12772-35-9	Distorts /blocks macromolecular synthesis scaffold
+139264-17-8	Receptor Agonist
+96829-58-2	Enzyme Inhibitor
+58-73-1	Receptor Ligand Antagonist, Non-selective; Channel Blocker; Receptor Ligand Antagonist, Selective
+31883-05-3	Channel Blocker; Receptor Ligand Antagonist
+74258-86-9	Enzyme Inhibitor
+109214-55-3	Enzyme Inhibitor
+5638-76-6	Receptor Agonist; Receptor Ligand Antagonist
+86939-10-8	Solute transporter inhibitor
+51333-22-3	Receptor Agonist
+192703-06-3	Receptor Ligand Antagonist, Selective
+50976-86-8	Distorts /blocks macromolecular synthesis scaffold
+41859-67-0	Receptor Agonist, selective
+5534-95-2	Receptor Agonist
+111902-57-9	Enzyme Inhibitor
+1231-93-2	Receptor Agonist
+60561-17-3	Receptor Agonist, selective
+16941-32-5	Receptor Agonist
+47739-98-0	Solute transporter inhibitor
+22232-54-8	Enzyme Inhibitor
+199871-60-8	Enzyme Inhibitor
+596-51-0	Receptor Ligand Antagonist
+154-21-2	Distorts /blocks macromolecular synthesis scaffold
+152289-59-3	Receptor Ligand Antagonist
+99593-25-6	Channel enhancer /opener
+121679-19-4	Receptor Agonist
+83799-24-0	Receptor Ligand Antagonist, Selective
+75221-13-0	Enzyme Inhibitor
+157341-41-8	Enzyme Inhibitor
+101246-68-8	Enzyme Inhibitor
+52022-31-8	Enzyme Inhibitor
+51246-70-9	Receptor Ligand Antagonist
+71145-03-4	Channel Blocker
+13497-05-7	Receptor Agonist
+804-63-7	Enzyme Inhibitor; Channel Blocker
+163009-72-1	Enzyme Inhibitor
+611-75-6	Enzyme Inhibitor; Channel Blocker
+55268-75-2	Enzyme Inhibitor
+156862-51-0	Receptor Ligand Antagonist
+71771-90-9	Receptor Agonist, selective
+56-65-5	Receptor /Channel ligand mimic
+132100-55-1	Enzyme Inhibitor
+2315-02-8	Receptor Agonist
+91714-94-2	Enzyme Inhibitor
+55-57-2	Channel Blocker
+56573-65-0	Receptor Agonist
+64552-17-6	Receptor Ligand Antagonist
+39860-99-6	Receptor Ligand Antagonist
+56689-45-3	Distorts /blocks macromolecular synthesis scaffold
+115-44-6	Channel Modulator
+447-41-6	Receptor Ligand Antagonist
+71620-89-8	Solute transporter inhibitor; Channel Blocker
+4345-03-3	Enzyme Inhibitor
+1403-66-3	Distorts /blocks macromolecular synthesis scaffold
+81938-40-1	Enzyme Inhibitor
+2438-32-6	Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist, Selective
+76-43-7	Receptor Agonist
+144264-47-1	Channel enhancer /opener; Channel Modulator
+123-41-1	Receptor Agonist; Channel Modulator
+125-29-1	Receptor Agonist
+132031-81-3	Channel Modulator
+2259-96-3	Channel Blocker, selective
+157283-68-6	Receptor Agonist
+121985-71-5	Channel Blocker
+153537-73-6	Enzyme Inhibitor
+87848-99-5	Receptor Ligand Antagonist, Selective
+177563-39-2	Receptor Ligand Antagonist, Selective
+155415-08-0	Enzyme Inhibitor
+74050-20-7	Receptor Agonist
+35322-07-7	Channel enhancer /opener
+52-53-9	Receptor Agonist; Channel Blocker
+90961-53-8	Channel Modulator
+70393-85-0	Enzyme Inhibitor
+101396-42-3	Receptor Ligand Antagonist
+50679-08-8	Receptor Ligand Antagonist, Selective
+118414-82-7	Enzyme Inhibitor
+118949-22-7	Enzyme Inhibitor
+171724-30-4	Receptor Ligand Antagonist, Selective
+107868-30-4	Enzyme Inhibitor
+205645-02-9	Receptor Ligand Antagonist
+590-63-6	Receptor Agonist
+35941-71-0	Enzyme Inhibitor
+5588-10-3	Receptor Agonist
+72599-27-0	Enzyme Inhibitor
+6740-88-1	Channel Blocker
+443913-73-3	Enzyme Inhibitor
+72432-03-2	Enzyme Inhibitor, selective
+79955-36-5	Distorts /blocks macromolecular scaffold function
+71-73-8	Channel Blocker; Channel Modulator
+67-78-7	Receptor Agonist
+140-72-7	Distorts /blocks macromolecular scaffold function
+79617-96-2	Solute transporter inhibitor
+150812-13-8	Channel Modulator
+179120-51-5	Channel Modulator
+107758-28-1	Receptor Agonist, selective
+96515-73-0	Channel Blocker
+60142-96-3	Channel Modulator
+35121-78-9	Receptor Agonist
+14923-17-2	Channel Blocker
+196808-23-8	Receptor Agonist
+149193-59-9	Receptor Ligand Antagonist, Selective
+50-55-5	Solute transporter inhibitor
+50-78-2	Enzyme Inhibitor; Enzyme Inhibitor, selective
+68767-14-6	Enzyme Inhibitor
+302-27-2	Channel enhancer /opener
+22664-55-7	Receptor Ligand Antagonist, Non-selective
+103775-14-0	Enzyme Inhibitor
+3056-17-5	Enzyme substrate mimic
+581-88-4	Enzyme Inhibitor
+17397-89-6	Enzyme Inhibitor
+7722-44-3	Distorts /blocks macromolecular scaffold function
+125-69-9	Receptor Agonist, selective
+51-55-8	Solute transporter inhibitor; Receptor Ligand Antagonist, Non-selective
+37762-06-4	Enzyme Inhibitor, selective
+543-90-8	Receptor /Channel ligand mimic
+114-80-7	Enzyme Inhibitor
+123572-84-9	Enzyme Inhibitor
+511-45-5	Receptor Ligand Antagonist
+797-63-7	Receptor Agonist
+128851-36-5	Enzyme Inhibitor
+166974-22-7	Receptor Ligand Antagonist
+28395-03-1	Channel Blocker, selective
+36282-47-0	Receptor Agonist; Solute transporter inhibitor
+175865-62-0	Enzyme Inhibitor, selective
+105806-65-3	Enzyme Inhibitor
+483-18-1	Distorts /blocks macromolecular synthesis scaffold
+146874-86-4	Receptor Ligand Antagonist, Non-selective
+67330-25-0	Enzyme Inhibitor
+550-99-2	Receptor Agonist
+29984-33-6	Enzyme substrate mimic
+179120-94-6	Channel Modulator
+92569-65-8	Channel Modulator
+146-22-5	Channel enhancer /opener
+66-27-3	Distorts /blocks macromolecular scaffold function
+31430-18-9	Distorts /blocks macromolecular scaffold function
+166974-23-8	Receptor Ligand Antagonist
+81988-77-4	Enzyme Inhibitor
+200398-40-9	Receptor Ligand Antagonist
+14769-73-4	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+38103-61-6	Receptor Ligand Antagonist, Non-selective
+163253-35-8	Enzyme Inhibitor, selective
+57470-78-7	Receptor Partial Agonist; Receptor Ligand Antagonist, Selective
+15686-51-8	Receptor Ligand Antagonist
+60634-69-7	Channel Modulator
+30299-08-2	Receptor Agonist, selective
+100-63-0	Enzyme Inhibitor
+68077-27-0	Enzyme Inhibitor, selective
+34779-28-7	Enzyme Inhibitor
+4419-39-0	Receptor Agonist
+77-36-1	Channel Blocker, selective
+38821-53-3	Enzyme Inhibitor
+183319-69-9	Receptor tyrosine kinase inhibitor
+5411-22-3	Receptor Agonist; Solute transporter inhibitor; Enzyme substrate mimic
+119413-54-6	Enzyme Inhibitor
+163250-90-6	Receptor Ligand Antagonist, Selective
+894-71-3	Solute transporter inhibitor
+100-33-4	Distorts /blocks macromolecular synthesis scaffold
+27060-91-9	Channel enhancer /opener
+98769-82-5	Solute transporter inhibitor; Channel Blocker
+80-05-7	Receptor Agonist
+84964-12-5	Channel Blocker
+27164-46-1	Enzyme Inhibitor
+37321-09-8	Distorts /blocks macromolecular synthesis scaffold
+59-97-2	Receptor Ligand Antagonist
+1397-94-0	Distorts /blocks macromolecular scaffold function
+25316-40-9	Distorts /blocks macromolecular synthesis scaffold
+82747-56-6	Receptor Ligand Antagonist
+849-55-8	Receptor Ligand Antagonist
+212141-90-7	Enzyme Inhibitor
+65-29-2	Receptor Ligand Antagonist, Selective
+82159-09-9	Enzyme Inhibitor
+54965-23-0	Receptor Agonist; Receptor Partial Agonist; Receptor Ligand Antagonist
+121268-17-5	Enzyme Inhibitor
+3704-09-4	Receptor Agonist
+84-02-6	Receptor Ligand Antagonist
+178961-24-5	Channel Modulator
+139755-83-2	Enzyme Inhibitor, selective
+514-36-3	Receptor Agonist
+80581-86-8	Enzyme Inhibitor
+569-65-3	Receptor Ligand Antagonist
+361-37-5	Receptor Ligand Antagonist, Non-selective
+113-45-1	Solute transporter inhibitor
+35144-91-3	Receptor Agonist
+105920-77-2	Enzyme Inhibitor
+86541-75-5	Enzyme Inhibitor
+5300-03-8	Receptor Agonist
+130209-82-4	Receptor Agonist
+82586-52-5	Enzyme Inhibitor
+115622-58-7	Enzyme Inhibitor
+119377-56-9	Enzyme Inhibitor
+82834-16-0	Enzyme Inhibitor
+33178-86-8	Channel Blocker
+13909-09-6	Distorts /blocks macromolecular scaffold function
+139314-01-5	Enzyme Inhibitor
+108852-90-0	Distorts /blocks macromolecular synthesis scaffold
+231277-92-2	Enzyme Inhibitor
+149847-79-0	Channel Blocker
+123955-10-2	Channel Blocker
+53746-46-6	Receptor Ligand Antagonist, Selective
+664-95-9	Channel Blocker, selective
+134822-78-9	Enzyme Inhibitor
+13710-19-5	Enzyme Inhibitor; Enzyme Inhibitor, selective; Channel Modulator
+148564-47-0	Receptor Ligand Antagonist, Selective
+3715-90-0	Receptor Agonist, selective
+13609-67-1	Endogenous Receptor /Channel Ligand
+37341-99-4	Enzyme Inhibitor
+25905-77-5	Enzyme Inhibitor; Receptor Agonist, selective; Receptor Agonist
+1926-48-3	Enzyme Inhibitor
+7081-53-0	Solute transporter inhibitor
+129299-90-7	Channel Blocker, selective
+120054-86-6	Channel Blocker
+52365-63-6	Receptor Agonist
+61-76-7	Receptor Agonist
+66-32-0	Channel Blocker; Channel Modulator
+35531-88-5	Enzyme Inhibitor
+50293-90-8	Receptor Agonist, selective
+135-09-1	Channel Blocker, selective
+92823-03-5	Enzyme Inhibitor
+138330-18-4	Enzyme Inhibitor
+27325-36-6	Receptor Ligand Antagonist
+79517-01-4	Receptor /Channel ligand mimic
+121-54-0	Channel Blocker
+60-54-8	Distorts /blocks macromolecular synthesis scaffold
+131543-23-2	Receptor Agonist
+15176-29-1	Enzyme substrate mimic
+121346-33-6	Channel Modulator
+133040-01-4	Receptor Ligand Antagonist, Selective
+117976-89-3	Enzyme Inhibitor
+51322-75-9	Receptor Partial Agonist
+114875-68-2	Enzyme Inhibitor
+1405-86-3	Enzyme Inhibitor
+107910-75-8	Enzyme Inhibitor, selective
+2668-66-8	Receptor Agonist
+3811-25-4	Receptor Agonist
+2068-78-2	Distorts /blocks macromolecular synthesis scaffold
+4320-13-2	Receptor Ligand Antagonist
+721-50-6	Channel Blocker
+75481-73-1	Enzyme Inhibitor
+496-67-3	Channel Modulator
+53639-82-0	Receptor Ligand Antagonist
+16561-29-8	Enzyme Activator
+64294-95-7	Receptor Ligand Antagonist
+112887-68-0	Enzyme Inhibitor
+42057-22-7	Enzyme Inhibitor
+5967-52-2	Receptor Agonist
+22568-64-5	Receptor Partial Agonist
+551-11-1	Receptor Agonist
+61-16-5	Receptor Agonist, Non-selective
+99200-09-6	Receptor Ligand Antagonist, Selective
+115199-84-3	Receptor Agonist, selective
+39562-70-4	Channel Blocker
+738-70-5	Enzyme Inhibitor
+53152-21-9	Receptor Partial Agonist
+63675-72-9	Channel Blocker
+17265-13-3	Enzyme Inhibitor
+70288-86-7	Channel enhancer /opener
+67915-31-5	Enzyme Inhibitor
+168162-57-0	Receptor Ligand Antagonist, Non-selective
+26305-03-3	Enzyme Inhibitor
+120241-32-9	Receptor Ligand Antagonist
+34184-77-5	Receptor Agonist
+64211-46-7	Enzyme Inhibitor
+115767-74-3	Receptor Ligand Antagonist
+2975-36-2	Solute transporter inhibitor; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+87239-81-4	Enzyme Inhibitor
+111348-33-5	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+35459-13-3	Receptor Agonist, selective
+83905-01-5	Distorts /blocks macromolecular synthesis scaffold
+4394-00-7	Enzyme Inhibitor; Channel Blocker
+50-60-2	Receptor Ligand Antagonist, Non-selective; Channel enhancer /opener
+34580-13-7	Receptor Ligand Antagonist, Non-selective
+187285-10-5	Enzyme Inhibitor
+121947-25-9	Channel Blocker
+3239-44-9	Solute transporter inhibitor; Receptor /Channel ligand mimic
+78263-90-8	Channel enhancer /opener
+103466-73-5	Receptor Agonist
+57808-66-9	Receptor Ligand Antagonist, Selective
+2154-02-1	Channel Blocker
+77-07-6	Receptor Agonist, selective
+34786-70-4	Distorts /blocks macromolecular scaffold function
+125-52-0	Receptor Ligand Antagonist
+113559-13-0	Channel Modulator
+68693-11-8	Solute transporter inhibitor
+159776-68-8	Enzyme Inhibitor
+115103-54-3	Solute transporter inhibitor
+112018-01-6	Enzyme Inhibitor
+183808-97-1	Enzyme Inhibitor
+87573-04-4	Distorts /blocks macromolecular synthesis scaffold
+139145-87-2	Enzyme Inhibitor
+32527-55-2	Enzyme Inhibitor
+89-57-6	Enzyme Inhibitor, selective
+130-80-3	Receptor Ligand Antagonist
+179091-43-1	Enzyme Inhibitor
+4546-39-8	Receptor Ligand Antagonist
+25333-77-1	Receptor Agonist
+2607-06-9	Receptor Agonist
+51146-56-6	Enzyme Inhibitor
+11116-31-7	Distorts /blocks macromolecular synthesis scaffold
+630-93-3	Channel Blocker
+100680-33-9	Enzyme Inhibitor
+94-24-6	Channel Blocker
+144980-29-0	Receptor Agonist
+133099-07-7	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+96-88-8	Channel Blocker
+456-59-7	Enzyme Inhibitor; Channel Blocker, Non-selective
+86111-26-4	Receptor Ligand Antagonist
+26615-21-4	Receptor Ligand Antagonist
+136794-86-0	Solute transporter inhibitor
+548-62-9	Distorts /blocks macromolecular scaffold function
+125-42-8	Channel Modulator
+64544-07-6	Enzyme Inhibitor
+86197-47-9	Receptor Agonist
+1977-10-2	Receptor Ligand Antagonist
+36735-22-5	Channel enhancer /opener
+93957-54-1	Enzyme Inhibitor
+14976-57-9	Receptor Ligand Antagonist
+127-07-1	Enzyme Inhibitor
+4410-48-4	Channel Blocker
+145108-58-3	Receptor Agonist
+19356-17-3	Receptor Agonist
+113045-80-0	Enzyme Inhibitor, selective
+65243-33-6	Enzyme Inhibitor
+82410-32-0	Enzyme Inhibitor, selective
+119817-90-2	Receptor Ligand Antagonist
+95722-07-9	Receptor Agonist
+6054-98-4	Enzyme Inhibitor
+5870-29-1	Receptor Ligand Antagonist
+96020-91-6	Enzyme Inhibitor
+15793-40-5	Channel Blocker; Receptor Ligand Antagonist
+987-78-0	Receptor Agonist; Channel Modulator
+83919-23-7	Receptor Agonist
+979-32-8	Receptor Agonist
+84449-90-1	Receptor Agonist, selective
+110267-81-7	Distorts /blocks macromolecular synthesis scaffold
+2126-70-7	Distorts /blocks macromolecular synthesis scaffold
+104344-23-2	Receptor Ligand Antagonist, Selective
+59-63-2	Enzyme Inhibitor
+120685-11-2	Enzyme Inhibitor
+106730-54-5	Enzyme Inhibitor
+8072-21-7	Enzyme Inhibitor
+24166-13-0	Channel enhancer /opener
+60-56-0	Enzyme Inhibitor
+17692-26-1	Receptor Ligand Antagonist
+3778-73-2	Distorts /blocks macromolecular scaffold function
+57-62-5	Distorts /blocks macromolecular synthesis scaffold
+75736-33-3	Solute transporter inhibitor
+57-64-7	Enzyme Inhibitor
+125276-51-9	Enzyme Inhibitor
+1134-47-0	Receptor Agonist, selective
+185808-55-3	Receptor Agonist
+32887-01-7	Enzyme Inhibitor
+150779-71-8	Enzyme Inhibitor
+2544-09-4	Enzyme Inhibitor
+118896-96-1	Channel Modulator
+115610-29-2	Enzyme Inhibitor
+60925-61-3	Enzyme Inhibitor
+39122-18-4	Channel Blocker, selective
+66-86-4	Distorts /blocks macromolecular synthesis scaffold
+35212-22-7	Receptor Agonist, selective
+146376-58-1	Receptor Agonist, selective
+132203-70-4	Channel Blocker
+85287-61-2	Enzyme Inhibitor
+15622-65-8	Receptor Ligand Antagonist
+69014-14-8	Receptor Ligand Antagonist, Selective
+52-86-8	Receptor Agonist; Channel Blocker; Receptor Ligand Antagonist
+79660-72-3	Enzyme Inhibitor, selective
+57775-29-8	Receptor Ligand Antagonist, Non-selective
+59338-93-1	Receptor Ligand Antagonist, Selective
+11103-62-1	Distorts /blocks macromolecular synthesis scaffold
+128413-88-7	Receptor Agonist
+586-06-1	Receptor Agonist, selective
+24377-67-1	Distorts /blocks macromolecular synthesis scaffold
+105462-24-6	Enzyme Inhibitor
+129904-63-8	Channel Blocker
+11076-19-0	Solute transporter inhibitor
+171228-49-2	Enzyme Inhibitor
+51-79-6	Channel Blocker, selective; Channel Modulator
+65085-01-0	Enzyme Inhibitor
+72479-26-6	Enzyme Inhibitor
+3254-89-5	Receptor Ligand Antagonist
+34787-01-4	Enzyme Inhibitor
+95688-34-9	Receptor Agonist, Non-selective
+103497-68-3	Enzyme Inhibitor
+24730-10-7	Receptor Agonist
+61413-54-5	Enzyme Inhibitor
+15676-16-1	Receptor Ligand Antagonist
+69373-88-2	Channel Blocker
+182560-84-5	Enzyme Inhibitor
+57-92-1	Distorts /blocks macromolecular synthesis scaffold
+97-77-8	Enzyme Inhibitor; Channel Modulator
+124756-23-6	Receptor Agonist
+135821-54-4	Enzyme Inhibitor
+152-58-9	Receptor Partial Agonist
+119347-91-0	Enzyme Inhibitor
+85815-37-8	Channel enhancer /opener
+60719-84-8	Enzyme Inhibitor
+1082-57-1	Receptor Agonist, selective
+37350-58-6	Receptor Ligand Antagonist, Selective
+58-19-5	Receptor Agonist
+541-22-0	Channel Modulator
+193420-09-6	Enzyme Inhibitor
+103898-38-0	Channel Modulator
+99291-24-4	Receptor Ligand Antagonist
+82419-36-1	Enzyme Inhibitor, selective
+1197-18-8	Channel Blocker
+75530-68-6	Channel Blocker
+30771-29-0	Enzyme substrate mimic
+134308-13-7	Enzyme Inhibitor, selective
+70319-10-7	Enzyme Inhibitor
+56-54-2	Channel Blocker, Non-selective; Enzyme Inhibitor, selective
+23694-81-7	Receptor Ligand Antagonist
+115308-98-0	Distorts /blocks macromolecular scaffold function
+139290-69-0	Receptor Ligand Antagonist
+55-86-7	Distorts /blocks macromolecular scaffold function
+78628-28-1	Receptor Ligand Antagonist
+79-57-2	Distorts /blocks macromolecular synthesis scaffold
+71351-79-6	Receptor Ligand Antagonist, Selective
+882-09-7	Receptor Agonist, selective
+69388-79-0	Enzyme Inhibitor
+1972-08-3	Receptor Agonist
+174634-08-3	Enzyme Inhibitor
+5560-59-8	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist; Channel Modulator
+120241-31-8	Receptor Ligand Antagonist
+133430-69-0	Enzyme Inhibitor
+94424-50-7	Receptor Agonist
+32953-89-2	Receptor Agonist, selective
+80-08-0	Enzyme Inhibitor
+16662-46-7	Channel Blocker
+50-56-6	Receptor Agonist
+51543-39-6	Enzyme Inhibitor
+113359-04-9	Enzyme Inhibitor
+90293-01-9	Channel Blocker, selective
+65429-87-0	Receptor Ligand Antagonist
+72558-82-8	Enzyme Inhibitor
+75706-12-6	Enzyme Inhibitor
+145733-36-4	Receptor Ligand Antagonist, Selective
+136042-19-8	Receptor Ligand Antagonist, Selective
+27589-33-9	Channel Blocker, selective
+1766-91-2	Channel Blocker, selective
+161814-49-9	Enzyme Inhibitor
+52152-93-9	Enzyme Inhibitor
+226700-80-7	Enzyme Inhibitor
+137795-35-8	Receptor Ligand Antagonist
+72496-41-4	Distorts /blocks macromolecular synthesis scaffold
+2898-12-6	Channel enhancer /opener
+147149-76-6	Enzyme Inhibitor
+72822-13-0	Receptor Ligand Antagonist, Selective
+51627-20-4	Enzyme Inhibitor
+114374-97-9	Receptor Agonist
+671-16-9	Distorts /blocks macromolecular scaffold function
+665-66-7	Receptor Ligand Antagonist; Channel Blocker, selective
+106560-14-9	Enzyme Inhibitor
+68-41-7	Distorts /blocks macromolecular synthesis scaffold
+27511-99-5	Channel Modulator
+115256-11-6	Channel Blocker, selective
+1177-87-3	Receptor Agonist
+2809-21-4	Enzyme Inhibitor
+130464-84-5	Enzyme Inhibitor
+68291-98-5	Channel Blocker
+33159-27-2	Enzyme Inhibitor
+59-98-3	Receptor Ligand Antagonist
+40542-65-2	Receptor Ligand Antagonist
+4360-12-7	Channel Blocker
+382-67-2	Receptor Agonist
+859-18-7	Distorts /blocks macromolecular synthesis scaffold
+104987-11-3	Enzyme Inhibitor
+35189-28-7	Receptor Agonist
+133865-89-1	Channel Blocker
+267243-28-7	Enzyme Inhibitor
+82-95-1	Receptor Ligand Antagonist
+156586-91-3	Receptor Ligand Antagonist, Selective
+81047-99-6	Receptor Ligand Antagonist
+85136-71-6	Receptor Agonist, Non-selective
+173830-20-1	Solute transporter inhibitor
+73986-90-0	Receptor Agonist
+468-56-4	Receptor Agonist
+159776-70-2	Enzyme Inhibitor
+7540-22-9	Distorts /blocks macromolecular synthesis scaffold
+27223-35-4	Channel enhancer /opener
+36508-71-1	Distorts /blocks macromolecular synthesis scaffold
+124555-18-6	Receptor Agonist
+139403-31-9	Receptor Agonist
+138199-64-1	Receptor Ligand Antagonist, Selective
+79360-43-3	Receptor Agonist
+17440-83-4	Enzyme Inhibitor; Channel Blocker
+81403-80-7	Receptor Ligand Antagonist, Selective
+15686-71-2	Enzyme Inhibitor
+303-81-1	Enzyme Inhibitor
+50-33-9	Enzyme Inhibitor
+92623-85-3	Solute transporter inhibitor; Channel Blocker
+64706-54-3	Channel Blocker
+160472-97-9	Channel Blocker, selective
+1228-19-9	Channel Blocker, selective
+61422-45-5	Enzyme substrate mimic
+551-06-4	Distorts /blocks macromolecular scaffold function
+17243-38-8	Enzyme Inhibitor
+135159-51-2	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+74849-93-7	Enzyme Inhibitor
+41575-94-4	Distorts /blocks macromolecular scaffold function
+89987-06-4	Enzyme Inhibitor
+52809-07-1	Receptor Agonist
+8026-72-0	Distorts /blocks macromolecular synthesis scaffold
+63659-18-7	Receptor Ligand Antagonist, Selective
+145-12-0	Receptor Agonist; Receptor Ligand Antagonist
+58786-99-5	Receptor Agonist; Receptor Partial Agonist; Receptor Ligand Antagonist
+25122-46-7	Receptor Agonist
+155-58-8	Receptor Ligand Antagonist
+59804-37-4	Enzyme Inhibitor
+163009-62-9	Enzyme Inhibitor
+58-32-2	Enzyme Inhibitor; Solute transporter inhibitor
+3736-08-1	Receptor Ligand Antagonist
+36505-84-7	Receptor Partial Agonist
+22204-53-1	Enzyme Inhibitor
+184475-35-2	Enzyme Inhibitor; Receptor tyrosine kinase inhibitor
+85275-48-5	Receptor Ligand Antagonist
+62357-86-2	Receptor Agonist, selective
+148717-90-2	Enzyme Inhibitor
+61036-63-3	Distorts /blocks macromolecular synthesis scaffold
+19772-76-0	Channel Modulator
+101189-47-3	Receptor Ligand Antagonist, Selective
+55985-32-5	Channel Blocker
+133180-79-7	Enzyme Inhibitor, selective
+120092-68-4	Channel Blocker
+148016-81-3	Enzyme Inhibitor
+5104-49-4	Enzyme Inhibitor
+94-59-7	Distorts /blocks macromolecular synthesis scaffold
+130579-75-8	Receptor Ligand Antagonist
+10596-23-3	Enzyme Inhibitor
+57-43-2	Channel Modulator
+124600-57-3	Receptor Agonist
+22189-32-8	Distorts /blocks macromolecular synthesis scaffold
+32986-56-4	Distorts /blocks macromolecular synthesis scaffold
+146613-90-3	Receptor Ligand Antagonist, Selective
+51-15-0	Enzyme Inhibitor
+176027-90-0	Receptor Agonist
+30123-17-2	Channel Modulator
+117091-64-2	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+16220-07-8	Enzyme substrate mimic
+3562-84-3	Solute transporter inhibitor
+38363-32-5	Receptor Ligand Antagonist
+65828-79-7	Enzyme Inhibitor
+52231-20-6	Enzyme Inhibitor
+127-79-7	Enzyme Inhibitor
+78816-67-8	Solute transporter inhibitor
+140385-36-0	Channel Modulator
+67809-22-7	Receptor Agonist
+113206-78-3	Enzyme Inhibitor
+151390-79-3	Enzyme Inhibitor, selective
+145231-45-4	Receptor Ligand Antagonist
+23593-75-1	Enzyme Inhibitor; Channel Blocker
+39978-42-2	Distorts /blocks macromolecular synthesis scaffold
+76584-70-8	Enzyme Inhibitor; Channel Modulator
+50924-49-7	Enzyme Inhibitor
+147127-20-6	Enzyme substrate mimic
+94535-50-9	Channel enhancer /opener
+65-45-2	Enzyme Inhibitor, selective
+104-40-5	Receptor Partial Agonist
+56-29-1	Channel Modulator
+82547-58-8	Enzyme Inhibitor
+12772-40-6	Enzyme Inhibitor
+70458-95-6	Enzyme Inhibitor, selective
+137862-53-4	Receptor Ligand Antagonist, Selective
+138472-18-1	Enzyme Inhibitor
+155230-09-4	Receptor Agonist
+76420-72-9	Enzyme Inhibitor
+59467-77-5	Channel enhancer /opener
+58957-92-9	Distorts /blocks macromolecular synthesis scaffold
+84485-00-7	Solute transporter inhibitor
+127254-12-0	Enzyme Inhibitor, selective
+67469-69-6	Solute transporter inhibitor
+141799-76-0	Enzyme Inhibitor
+73384-59-5	Enzyme Inhibitor
+51-05-8	Channel Modulator
+127045-41-4	Enzyme Inhibitor, selective
+10379-11-0	Channel enhancer /opener
+50847-11-5	Enzyme Inhibitor, Non-selective
+561-83-1	Channel Modulator
+122547-49-3	Enzyme Inhibitor
+1424-27-7	Enzyme Inhibitor
+141284-74-4	Enzyme Inhibitor
+112017-99-9	Enzyme Inhibitor
+97519-41-0	Enzyme Inhibitor
+72741-87-8	Enzyme Inhibitor
+972-02-1	Receptor Ligand Antagonist
+27262-47-1	Channel Blocker
+118244-45-4	Receptor Agonist
+124083-20-1	Enzyme Inhibitor
+119914-60-2	Enzyme Inhibitor, selective
+72-33-3	Receptor Agonist
+848-53-3	Receptor Ligand Antagonist
+103628-46-2	Receptor Agonist, selective
+140462-76-6	Receptor Ligand Antagonist
+154397-77-0	Enzyme Inhibitor
+2062-84-2	Receptor Ligand Antagonist
+5979-00-0	Enzyme Inhibitor
+127245-22-1	Enzyme Inhibitor
+76053-16-2	Channel enhancer /opener
+144966-96-1	Receptor Ligand Antagonist
+79547-78-7	Receptor Ligand Antagonist, Selective
+30868-30-5	Enzyme substrate mimic
+120138-50-3	Distorts /blocks macromolecular synthesis scaffold
+38101-59-6	Receptor Ligand Antagonist
+139987-54-5	Enzyme Inhibitor
+107023-41-6	Receptor Ligand Antagonist
+5560-72-5	Enzyme Inhibitor; Solute transporter inhibitor; Channel Blocker, selective
+73278-54-3	Receptor Ligand Antagonist, Selective
+12767-26-9	Enzyme Inhibitor; Receptor Agonist; Receptor Ligand Antagonist
+163136-03-6	Enzyme Inhibitor
+86189-69-7	Channel Blocker
+124020-22-0	Channel Blocker
+171655-92-8	Solute transporter inhibitor
+57262-94-9	Enzyme Inhibitor; Receptor Ligand Antagonist
+1764-85-8	Channel Blocker, selective
+112457-95-1	Receptor Agonist
+102090-90-4	Enzyme Inhibitor
+135729-62-3	Channel Blocker, selective
+595-33-5	Enzyme Inhibitor
+24530-37-8	Solute transporter inhibitor; Receptor Ligand Antagonist
+50-22-6	Endogenous Receptor /Channel Ligand
+111520-35-5	Receptor Agonist
+4342-03-4	Distorts /blocks macromolecular scaffold function
+66777-81-9	Enzyme Inhibitor; Channel Blocker
+123447-62-1	Enzyme Inhibitor, selective
+36441-32-4	Enzyme Inhibitor
+57726-65-5	Receptor Agonist; Channel Blocker
+148-18-5	Enzyme Inhibitor
+57296-63-6	Channel Blocker, selective
+83366-66-9	Solute transporter inhibitor; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+134395-50-9	Enzyme Inhibitor
+13647-35-3	Enzyme Inhibitor
+1397-89-3	Distorts /blocks macromolecular scaffold function
+125-59-7	Channel Blocker
+124-90-3	Receptor Agonist, selective
+31477-60-8	Receptor Partial Agonist
+86-22-6	Receptor Ligand Antagonist, Selective
+53-79-2	Distorts /blocks macromolecular scaffold function
+68367-52-2	Enzyme Inhibitor
+554-92-7	Receptor Ligand Antagonist
+51-21-8	Enzyme substrate mimic
+56518-40-2	Enzyme Inhibitor
+66778-36-7	Channel Blocker
+82626-48-0	Channel enhancer /opener
+146376-61-6	Receptor Agonist, selective
+59721-28-7	Enzyme Inhibitor
+118968-41-5	Receptor Ligand Antagonist
+6000-74-4	Endogenous Receptor /Channel Ligand
+142654-34-0	Enzyme Inhibitor
+133563-45-8	Channel Blocker
+492-18-2	Channel Blocker
+7232-21-5	Receptor Ligand Antagonist, Selective; Channel Modulator
+53-21-4	Solute transporter inhibitor
+69049-06-5	Receptor Agonist
+142-47-2	Endogenous Receptor /Channel Ligand
+138-39-6	Enzyme Inhibitor
+88107-10-2	Receptor Ligand Antagonist
+76963-41-2	Receptor Ligand Antagonist, Selective
+139155-45-6	Enzyme Inhibitor
+36920-48-6	Enzyme Inhibitor
+155773-59-4	Enzyme Inhibitor
+80223-99-0	Receptor Ligand Antagonist, Selective
+180468-39-7	Receptor Ligand Antagonist, Selective
+82664-20-8	Distorts /blocks macromolecular synthesis scaffold
+479-18-5	Enzyme Inhibitor; Receptor Agonist
+54143-55-4	Channel Blocker
+110871-86-8	Enzyme Inhibitor, selective
+565-33-3	Channel Blocker, selective
+4528-52-3	Enzyme Inhibitor
+32295-18-4	Channel Blocker, selective
+54-42-2	Enzyme Inhibitor; Enzyme substrate mimic
+54-25-1	Enzyme Inhibitor; Enzyme substrate mimic
+113806-05-6	Receptor Ligand Antagonist
+99-66-1	Enzyme Inhibitor; Channel Modulator
+51781-21-6	Receptor Ligand Antagonist, Selective
+47166-67-6	Solute transporter inhibitor
+86273-18-9	Enzyme Inhibitor
+362-29-8	Receptor Ligand Antagonist
+101827-46-7	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+77181-69-2	Enzyme substrate mimic
+213252-19-8	Receptor Agonist
+2763-96-4	Channel Modulator
+36519-31-0	Receptor Agonist, selective
+85691-74-3	Enzyme Inhibitor
+175865-61-9	Enzyme Inhibitor, selective
+145040-37-5	Receptor Ligand Antagonist, Selective
+22260-51-1	Receptor Partial Agonist; Receptor Agonist
+42200-33-9	Receptor Ligand Antagonist, Non-selective
+7081-40-5	Enzyme Inhibitor; Receptor Ligand Antagonist
+34580-14-8	Receptor Ligand Antagonist, Non-selective
+85-79-0	Solute transporter inhibitor; Channel Blocker
+120280-91-3	Channel Modulator
+42835-25-6	Enzyme Inhibitor, selective
+4969-02-2	Enzyme Inhibitor; Receptor Ligand Antagonist
+145858-50-0	Enzyme Inhibitor, selective
+183552-38-7	Receptor Ligand Antagonist
+841-73-6	Channel Modulator
+60-32-2	Enzyme Inhibitor
+26481-51-6	Receptor Ligand Antagonist, Non-selective
+140187-23-1	Channel Modulator
+31101-25-4	Distorts /blocks macromolecular synthesis scaffold
+53-06-5	Endogenous Receptor /Channel Ligand
+127-69-5	Enzyme Inhibitor
+170148-29-5	Channel enhancer /opener
+30418-51-0	Distorts /blocks macromolecular synthesis scaffold
+116644-53-2	Channel Blocker; Channel Blocker, selective
+36950-96-6	Enzyme Inhibitor
+80343-63-1	Receptor Ligand Antagonist, Selective
+16105-77-4	Solute transporter inhibitor
+120014-06-4	Enzyme Inhibitor
+140-65-8	Channel Modulator
+99614-01-4	Channel Blocker, selective
+101828-21-1	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+8072-39-7	Enzyme Inhibitor
+53772-83-1	Receptor Ligand Antagonist
+257933-82-7	Enzyme Inhibitor
+117-89-5	Receptor Ligand Antagonist
+94-09-7	Channel Blocker
+7772-98-7	Enzyme substrate mimic
+50935-04-1	Distorts /blocks macromolecular synthesis scaffold
+27115-86-2	Channel Blocker, selective
+66898-62-2	Enzyme Inhibitor; Channel Blocker
+190841-79-3	Receptor Ligand Antagonist, Selective
+62-44-2	Enzyme Inhibitor
+171655-91-7	Solute transporter inhibitor
+13311-84-7	Receptor Ligand Antagonist, Selective
+27948-47-6	Receptor Ligand Antagonist, Non-selective; Channel Blocker, selective
+116788-91-1	Enzyme Inhibitor
+50-24-8	Receptor Agonist
+1104-22-9	Receptor Ligand Antagonist
+159989-64-7	Enzyme Inhibitor
+84379-13-5	Channel Modulator
+83435-67-0	Enzyme Inhibitor
+17198-21-9	Enzyme Inhibitor
+162301-08-8	Enzyme Inhibitor, selective
+91599-74-5	Channel Blocker
+46817-91-8	Enzyme Inhibitor; Solute transporter inhibitor
+82956-11-4	Enzyme Inhibitor
+115104-28-4	Receptor Ligand Antagonist
+163133-43-5	Enzyme Inhibitor
+6168-86-1	Receptor Agonist
+60-40-2	Channel Blocker
+74103-07-4	Enzyme Inhibitor
+39543-79-8	Receptor Partial Agonist
+96497-67-5	Distorts /blocks macromolecular synthesis scaffold
+112893-26-2	Enzyme Inhibitor
+83015-26-3	Channel Blocker
+141064-23-5	Receptor Agonist
+119487-10-4	Receptor Ligand Antagonist
+139145-84-9	Enzyme Inhibitor
+59277-89-3	Enzyme Inhibitor, selective
+150492-04-9	Channel Modulator
+7416-34-4	Receptor Ligand Antagonist
+76497-13-7	Enzyme Inhibitor
+26786-32-3	Solute transporter inhibitor
+22601-59-8	Distorts /blocks macromolecular synthesis scaffold
+303-49-1	Solute transporter inhibitor
+78755-81-4	Channel enhancer /opener
+29975-16-4	Channel enhancer /opener
+154361-50-9	Enzyme Inhibitor
+73573-87-2	Receptor Agonist, selective
+131-01-1	Solute transporter inhibitor
+105826-92-4	Solute transporter inhibitor; Channel Blocker, selective
+86329-79-5	Enzyme Inhibitor
+7481-89-2	Enzyme substrate mimic
+93221-48-8	Receptor Ligand Antagonist
+73590-58-6	Enzyme Inhibitor
+62929-91-3	Receptor Agonist, selective
+52-21-1	Receptor Agonist
+8017-52-5	Channel Blocker
+212141-54-3	Enzyme Inhibitor
+33342-05-1	Channel Blocker, selective
+154413-61-3	Receptor Ligand Antagonist, Selective
+503-01-5	Receptor Agonist
+512-15-2	Receptor Ligand Antagonist
+77-67-8	Channel Blocker, selective
+912-60-7	Receptor Agonist, selective; Receptor Ligand Antagonist, Non-selective
+59-88-1	Enzyme Inhibitor
+117523-47-4	Receptor Agonist, selective
+130018-77-8	Receptor Ligand Antagonist, Selective
+119006-77-8	Enzyme Inhibitor; Channel Blocker
+101043-37-2	Enzyme Inhibitor
+129277-01-6	Channel Blocker, selective
+166095-95-0	Channel enhancer /opener; Channel Modulator
+404-86-4	Channel Modulator
+88669-04-9	Distorts /blocks macromolecular synthesis scaffold
+118785-03-8	Enzyme Inhibitor
+915-30-0	Receptor Agonist; Channel Blocker
+53179-09-2	Distorts /blocks macromolecular synthesis scaffold
+62732-44-9	Channel Modulator
+23981-47-7	Enzyme Inhibitor
+35658-65-2	Receptor /Channel ligand mimic; Receptor Ligand Antagonist
+143945-39-5	Receptor Ligand Antagonist, Selective
+128149-06-4	Channel enhancer /opener
+1421-15-4	Channel Blocker
+13799-03-6	Receptor Ligand Antagonist
+61-25-6	Enzyme Inhibitor
+112828-00-9	Receptor Agonist
+24280-93-1	Enzyme Inhibitor
+156601-79-5	Enzyme Inhibitor
+298-57-7	Channel Blocker; Receptor Ligand Antagonist
+1668-19-5	Receptor Ligand Antagonist
+69542-93-4	Receptor Ligand Antagonist
+196808-24-9	Receptor Agonist
+25967-29-7	Channel enhancer /opener
+142373-60-2	Receptor Ligand Antagonist, Selective
+141683-98-9	Receptor Agonist
+65807-02-5	Receptor Agonist
+86780-90-7	Channel Blocker
+72-69-5	Solute transporter inhibitor
+154355-79-0	Enzyme Inhibitor
+108319-07-9	Enzyme Inhibitor
+34919-98-7	Receptor Partial Agonist; Receptor Ligand Antagonist
+93106-60-6	Enzyme Inhibitor, selective
+7456-24-8	Receptor Ligand Antagonist
+115-79-7	Enzyme Inhibitor
+86484-52-8	Receptor Agonist
+154355-75-6	Enzyme Inhibitor
+51264-14-3	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+82752-99-6	Solute transporter inhibitor; Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+75438-57-2	Receptor Agonist
+152854-19-5	Receptor Agonist
+86784-41-0	Enzyme Inhibitor, selective
+118-55-8	Enzyme Inhibitor; Enzyme Inhibitor, selective
+10045-45-1	Channel Modulator
+71-62-5	Channel Blocker
+60-89-9	Solute transporter inhibitor; Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+129729-66-4	Channel Modulator
+139264-24-7	Receptor Agonist
+47880-49-9	Distorts /blocks macromolecular synthesis scaffold
+49864-70-2	Receptor Ligand Antagonist
+98647-62-2	Enzyme Inhibitor
+68-89-3	Enzyme Inhibitor
+5581-45-3	Receptor Ligand Antagonist, Selective; Channel Modulator
+23795-03-1	Solute transporter inhibitor
+120165-51-7	Enzyme Inhibitor
+130332-27-3	Receptor Ligand Antagonist
+53-60-1	Receptor Ligand Antagonist
+113759-50-5	Channel Blocker
+32222-06-3	Receptor Agonist
+60207-31-0	Enzyme Inhibitor
+102106-21-8	Channel Blocker
+18472-51-0	Distorts /blocks macromolecular scaffold function
+105234-21-7	Channel Blocker
+127-33-3	Distorts /blocks macromolecular synthesis scaffold
+26921-17-5	Receptor Ligand Antagonist, Non-selective
+80225-28-1	Receptor Agonist
+108912-14-7	Enzyme Inhibitor
+121650-80-4	Channel Blocker
+76824-35-6	Receptor Ligand Antagonist, Selective
+143538-27-6	Receptor Ligand Antagonist
+101-77-9	Distorts /blocks macromolecular scaffold function
+102625-70-7	Enzyme Inhibitor
+37517-30-9	Receptor Ligand Antagonist, Selective
+132697-38-2	Enzyme Inhibitor
+102676-47-1	Enzyme Inhibitor, selective
+1492-18-8	Enzyme substrate mimic
+52485-79-7	Receptor Partial Agonist
+147127-19-3	Enzyme substrate mimic
+14919-77-8	Enzyme Inhibitor
+1508-75-4	Receptor Ligand Antagonist
+115972-78-6	Channel Blocker
+191866-32-7	Enzyme Inhibitor
+17754-44-8	Solute transporter inhibitor
+125-64-4	Channel Modulator
+93129-94-3	Receptor Agonist
+968-58-1	Receptor Ligand Antagonist
+6533-00-2	Receptor Agonist
+466-06-8	Enzyme Inhibitor
+59-92-7	Receptor Agonist
+90438-83-8	Distorts /blocks macromolecular synthesis scaffold
+37091-65-9	Enzyme Inhibitor
+15307-79-6	Enzyme Inhibitor
+108437-28-1	Enzyme Inhibitor, selective
+115436-72-1	Enzyme Inhibitor
+93957-55-2	Enzyme Inhibitor
+3810-74-0	Distorts /blocks macromolecular synthesis scaffold
+180468-37-5	Receptor Ligand Antagonist, Selective
+20380-58-9	Receptor Agonist
+77-20-3	Receptor Agonist
+143621-35-6	Enzyme Inhibitor
+630-56-8	Receptor Agonist
+122111-03-9	Enzyme substrate mimic
+111974-72-2	Receptor Ligand Antagonist
+85441-61-8	Enzyme Inhibitor
+34183-22-7	Channel Blocker; Receptor Ligand Antagonist
+101479-70-3	Receptor Ligand Antagonist
+120279-36-9	Enzyme Inhibitor
+101152-94-7	Solute transporter inhibitor; Channel Blocker
+61-72-3	Enzyme Inhibitor
+63659-12-1	Receptor Partial Agonist
+22232-80-0	Receptor Agonist
+74011-58-8	Enzyme Inhibitor, selective
+144702-17-0	Receptor Ligand Antagonist, Selective
+145599-86-6	Enzyme Inhibitor
+81026-63-3	Receptor Agonist
+123441-03-2	Enzyme Inhibitor
+146961-76-4	Enzyme Inhibitor, selective
+280105-85-3	Channel Modulator
+127408-30-4	Channel Modulator
+80210-62-4	Enzyme Inhibitor
+41294-56-8	Receptor Agonist
+95847-70-4	Receptor Agonist
+170902-47-3	Receptor Ligand Antagonist, Selective
+106308-44-5	Channel Blocker
+152658-17-8	Receptor Agonist, selective
+99331-53-0	Enzyme Inhibitor, selective
+119514-66-8	Channel Blocker
+101238-51-1	Channel Blocker
+299-42-3	Solute transporter inhibitor; Receptor /Channel ligand mimic; Enzyme substrate mimic
+16320-04-0	Receptor Ligand Antagonist
+66887-96-5	Distorts /blocks macromolecular synthesis scaffold
+2922-20-5	Channel Blocker; Receptor Ligand Antagonist
+66148-78-5	Enzyme Inhibitor
+67-20-9	Enzyme Inhibitor
+20830-81-3	Distorts /blocks macromolecular synthesis scaffold
+104145-95-1	Enzyme Inhibitor
+134-58-7	Enzyme substrate mimic
+129299-88-3	Channel Blocker, selective
+139481-59-7	Receptor Ligand Antagonist, Selective
+827-61-2	Enzyme Inhibitor
+119221-49-7	Distorts /blocks macromolecular synthesis scaffold
+59733-86-7	Distorts /blocks macromolecular synthesis scaffold
+2011-67-8	Channel enhancer /opener
+135-23-9	Receptor Ligand Antagonist
+208848-19-5	Enzyme Inhibitor
+127293-58-7	Channel Blocker
+77862-92-1	Channel Blocker
+166432-28-6	Channel Blocker
+64019-93-8	Receptor Agonist
+162542-52-1	Enzyme Inhibitor
+30484-77-6	Channel Blocker
+147-94-4	Enzyme substrate mimic
+30578-37-1	Enzyme Inhibitor, selective
+83-98-7	Solute transporter inhibitor
+78994-24-8	Receptor Partial Agonist
+5667-71-0	Distorts /blocks macromolecular synthesis scaffold
+83880-70-0	Receptor Agonist
+18016-80-3	Receptor Partial Agonist
+113241-09-1	Channel Modulator
+7082-21-5	Channel Blocker; Receptor Ligand Antagonist
+10118-90-8	Distorts /blocks macromolecular synthesis scaffold
+86639-82-9	Distorts /blocks macromolecular synthesis scaffold
+58795-03-2	Enzyme Inhibitor
+134234-12-1	Channel Modulator
+154229-19-3	Enzyme Inhibitor
+108050-82-4	Receptor Agonist
+1951-25-3	Enzyme Inhibitor; Solute transporter inhibitor; Receptor Ligand Antagonist, Non-selective; Channel Blocker; Channel Modulator
+79350-37-1	Enzyme Inhibitor
+5534-02-1	Receptor Agonist
+390-28-3	Receptor Agonist, Non-selective
+13993-65-2	Receptor Ligand Antagonist
+59-66-5	Enzyme Inhibitor
+116942-30-4	Enzyme Inhibitor
+51481-61-9	Receptor Ligand Antagonist, Selective
+97067-66-8	Receptor Ligand Antagonist
+160738-57-8	Enzyme Inhibitor, selective
+10592-13-9	Distorts /blocks macromolecular synthesis scaffold
+173997-05-2	Enzyme Inhibitor
+79307-93-0	Receptor Ligand Antagonist, Selective
+82034-46-6	Receptor Agonist
+138890-62-7	Enzyme Inhibitor
+23541-50-6	Distorts /blocks macromolecular synthesis scaffold
+136013-69-9	Solute transporter inhibitor; Channel Blocker
+75607-67-9	Enzyme substrate mimic
+467-43-6	Channel Modulator
+36322-90-4	Enzyme Inhibitor
+87394-87-4	Receptor Agonist, selective
+102908-59-8	Receptor Agonist
+60607-34-3	Receptor Ligand Antagonist
+130289-71-3	Receptor Ligand Antagonist
+59217-68-4	Channel Modulator
+62996-74-1	Enzyme Inhibitor, Non-selective
+968-81-0	Channel Blocker, selective
+142589-10-4	Enzyme Inhibitor
+89778-27-8	Receptor Ligand Antagonist
+75067-66-2	Receptor Ligand Antagonist
+96478-43-2	Receptor Ligand Antagonist
+34097-16-0	Receptor Agonist
+167256-08-8	Receptor Ligand Antagonist, Selective
+104456-79-3	Enzyme Inhibitor
+25122-57-0	Receptor Agonist
+28797-61-7	Receptor Ligand Antagonist, Selective
+21187-98-4	Channel Blocker, selective
+109552-15-0	Enzyme Inhibitor
+121032-29-9	Enzyme substrate mimic
+149503-79-7	Receptor Ligand Antagonist, Selective
+107758-27-0	Receptor Agonist, selective
+116208-23-2	Enzyme Inhibitor
+129731-10-8	Enzyme Inhibitor
+98048-07-8	Enzyme Inhibitor
+3176-03-2	Receptor Agonist
+144-14-9	Receptor Agonist
+54-31-9	Channel Blocker, selective
+36587-93-6	Channel Blocker
+143151-35-3	Channel Blocker, selective
+636-54-4	Enzyme Inhibitor; Channel Blocker
+1421-86-9	Channel Blocker; Channel Modulator
+58579-51-4	Enzyme Inhibitor
+158751-64-5	Channel Blocker; Channel Modulator
+31868-18-5	Channel enhancer /opener
+134395-51-0	Enzyme Inhibitor
+13614-98-7	Distorts /blocks macromolecular synthesis scaffold
+555-30-6	Receptor Agonist, selective
+71195-58-9	Receptor Agonist
+523-54-6	Receptor Ligand Antagonist
+3572-43-8	Enzyme Inhibitor; Channel Blocker
+69975-86-6	Enzyme Inhibitor
+40391-99-9	Enzyme Inhibitor
+645-43-2	Enzyme Inhibitor
+51-75-2	Distorts /blocks macromolecular scaffold function
+9045-66-3	Endogenous Receptor /Channel Ligand
+54-71-7	Receptor Agonist
+21498-08-8	Receptor Agonist; Receptor Agonist, selective
+9041-93-4	Distorts /blocks macromolecular synthesis scaffold
+90103-92-7	Enzyme Inhibitor
+62893-19-0	Enzyme Inhibitor
+61400-59-7	Enzyme Inhibitor
+985-16-0	Enzyme Inhibitor
+151767-02-1	Receptor Ligand Antagonist
+106266-06-2	Receptor Ligand Antagonist
+315-30-0	Enzyme Inhibitor
+162542-51-0	Enzyme Inhibitor
+79944-58-4	Receptor Ligand Antagonist, Selective
+123948-87-8	Enzyme Inhibitor
+18968-99-5	Solute transporter inhibitor
+123258-84-4	Solute transporter inhibitor; Channel Blocker, selective
+150915-41-6	Receptor Agonist
+80621-81-4	Enzyme Inhibitor, selective
+111358-88-4	Enzyme Inhibitor
+59-01-8	Distorts /blocks macromolecular synthesis scaffold
+43200-80-2	Channel Modulator
+86-34-0	Solute transporter inhibitor
+26807-65-8	Channel Blocker
+81161-17-3	Receptor Ligand Antagonist, Selective
+52214-84-3	Receptor Agonist, selective
+11024-24-1	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+111011-76-8	Channel Blocker
+68-91-7	Receptor Ligand Antagonist
+35700-21-1	Receptor Agonist
+120511-73-1	Enzyme Inhibitor, selective
+27848-84-6	Receptor Ligand Antagonist
+33067-94-6	Receptor Agonist
+145216-43-9	Receptor Ligand Antagonist, Selective
+2192-21-4	Channel Blocker
+787-93-9	Channel Blocker; Channel Modulator
+113932-41-5	Solute transporter inhibitor
+61270-58-4	Enzyme Inhibitor
+56-53-1	Receptor Ligand Antagonist
+352513-83-8	Enzyme Inhibitor
+24049-18-1	Enzyme Inhibitor
+90729-43-4	Receptor Ligand Antagonist
+113658-85-8	Channel Blocker
+113-59-7	Solute transporter inhibitor
+638-94-8	Receptor Agonist
+105784-61-0	Enzyme Inhibitor, selective
+17692-51-2	Receptor Ligand Antagonist
+89391-50-4	Enzyme Inhibitor
+144494-65-5	Receptor Ligand Antagonist, Selective
+179258-59-4	Channel Modulator
+302-22-7	Receptor Ligand Antagonist, Selective
+92665-29-7	Enzyme Inhibitor
+153808-85-6	Enzyme Inhibitor, selective
+26844-12-2	Receptor Ligand Antagonist
+41136-22-5	Enzyme Inhibitor
+2022-85-7	Distorts /blocks macromolecular synthesis scaffold
+55779-06-1	Distorts /blocks macromolecular synthesis scaffold
+136634-88-3	Channel Blocker
+39552-01-7	Receptor Partial Agonist
+1518-86-1	Receptor Partial Agonist; Solute transporter inhibitor; Enzyme substrate mimic
+153205-46-0	Receptor Agonist, selective
+47468-70-2	Endogenous Receptor /Channel Ligand
+3978-86-7	Receptor Ligand Antagonist, Selective
+143966-31-8	Channel Modulator
+123572-81-6	Enzyme Inhibitor
+127182-67-6	Enzyme Inhibitor
+147398-02-5	Receptor Ligand Antagonist, Selective
+486-12-4	Receptor Ligand Antagonist
+2323-36-6	Enzyme Inhibitor
+138452-21-8	Receptor Ligand Antagonist, Selective
+130350-52-6	Channel Blocker
+57847-69-5	Enzyme Inhibitor
+112809-51-5	Enzyme Inhibitor, selective
+179120-52-6	Channel Modulator
+14488-58-5	Enzyme Inhibitor
+113558-89-7	Channel Modulator
+113082-98-7	Enzyme Inhibitor
+72002-64-3	Receptor Agonist
+88660-47-3	Receptor Agonist; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+192927-63-2	Enzyme Inhibitor, selective
+4774-24-7	Channel Blocker, selective
+119302-91-9	Channel Blocker, selective
+89781-55-5	Enzyme Inhibitor
+83-79-4	Enzyme Inhibitor
+95828-55-0	Enzyme Inhibitor
+132875-62-8	Receptor Agonist, selective
+71990-00-6	Receptor Agonist
+59729-32-7	Solute transporter inhibitor
+131322-37-7	Receptor Agonist
+2921-88-2	Enzyme Inhibitor
+139340-56-0	Enzyme Inhibitor
+70774-25-3	Distorts /blocks macromolecular synthesis scaffold
+158920-43-5	Solute transporter inhibitor
+96244-68-7	Enzyme Inhibitor
+154447-36-6	Enzyme Inhibitor, selective
+18559-94-9	Receptor Agonist, selective
+90-65-3	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+57-22-7	Distorts /blocks macromolecular synthesis scaffold
+5942-95-0	Solute transporter inhibitor; Receptor Ligand Antagonist
+60-41-3	Channel Blocker; Channel Modulator
+51-61-6	Endogenous Receptor /Channel Ligand
+86776-67-2	Channel enhancer /opener
+1926-49-4	Enzyme Inhibitor
+396-01-0	Enzyme Inhibitor; Channel Blocker
+302962-49-8	Enzyme Inhibitor
+64318-79-2	Receptor Agonist
+5743-04-4	Receptor /Channel ligand mimic
+89796-99-6	Enzyme Inhibitor
+74667-52-0	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+136145-07-8	Enzyme Inhibitor
+38304-91-5	Channel enhancer /opener
+546-88-3	Enzyme Inhibitor
+148396-36-5	Receptor Ligand Antagonist, Selective
+379-79-3	Receptor Partial Agonist; Receptor Ligand Antagonist, Non-selective
+131644-83-2	Channel Blocker
+168146-84-7	Enzyme substrate mimic
+61036-64-4	Distorts /blocks macromolecular synthesis scaffold
+61318-90-9	Enzyme Inhibitor
+56030-54-7	Receptor Agonist, selective
+61270-78-8	Enzyme Inhibitor
+67-73-2	Receptor Agonist
+93-30-1	Receptor Agonist
+118803-58-0	Enzyme Inhibitor
+434-03-7	Receptor Agonist
+82-08-6	Enzyme Inhibitor
+109683-79-6	Enzyme Inhibitor
+149882-10-0	Enzyme Inhibitor
+91-84-9	Receptor Ligand Antagonist, Selective
+1303-00-0	Receptor Agonist
+74764-40-2	Channel Blocker
+23239-51-2	Receptor Agonist; Receptor Agonist, selective
+130200-44-1	Enzyme Inhibitor
+149845-07-8	Enzyme Inhibitor
+165800-03-3	Distorts /blocks macromolecular synthesis scaffold
+33817-20-8	Enzyme Inhibitor
+78-44-4	Channel Blocker; Channel Modulator
+547-44-4	Channel Blocker, selective
+17560-51-9	Channel Blocker, selective
+66332-77-2	Enzyme Inhibitor
+52-39-1	Endogenous Receptor /Channel Ligand
+4205-91-8	Receptor Agonist
+53994-73-3	Enzyme Inhibitor
+31828-71-4	Channel enhancer /opener; Channel Modulator
+29177-84-2	Channel Modulator
+203311-40-4	Enzyme Inhibitor
+202409-33-4	Enzyme Inhibitor
+37932-96-0	Receptor Ligand Antagonist, Selective
+1867-66-9	Channel Blocker
+24390-14-5	Distorts /blocks macromolecular synthesis scaffold
+602-59-5	Distorts /blocks macromolecular synthesis scaffold
+39563-28-5	Receptor Ligand Antagonist, Selective
+3689-50-7	Receptor Ligand Antagonist
+56796-20-4	Enzyme Inhibitor
+3871-82-7	Receptor Ligand Antagonist
+128312-51-6	Receptor Ligand Antagonist
+103844-77-5	Channel Modulator
+57801-81-7	Channel Modulator
+100-92-5	Receptor Agonist
+143966-32-9	Channel Modulator
+364-62-5	Receptor Ligand Antagonist, Selective; Channel Modulator
+36889-15-3	Distorts /blocks macromolecular synthesis scaffold
+40507-23-1	Enzyme Inhibitor
+63-24-1	Distorts /blocks macromolecular scaffold function
+52447-11-7	Receptor Agonist, selective; Receptor Agonist
+53885-35-1	Receptor Ligand Antagonist
+135135-87-4	Receptor Ligand Antagonist
+1199-18-4	Receptor Agonist; Solute transporter inhibitor
+3577-01-3	Enzyme Inhibitor
+169209-63-6	Receptor Ligand Antagonist
+742-20-1	Channel Blocker, selective
+61622-34-2	Enzyme Inhibitor
+62774-96-3	Receptor Agonist, Non-selective
+67700-30-5	Enzyme Inhibitor
+36791-04-5	Enzyme substrate mimic
+141200-24-0	Receptor Agonist
+1225-55-4	Solute transporter inhibitor
+26171-23-3	Enzyme Inhibitor
+201341-05-1	Enzyme substrate mimic
+20698-16-2	Channel Modulator
+136609-26-2	Enzyme Inhibitor
+55905-53-8	Receptor Ligand Antagonist, Selective
+28911-01-5	Channel enhancer /opener
+104-31-4	Channel Blocker, selective
+107724-20-9	Receptor Ligand Antagonist, Selective
+112529-15-4	Receptor Agonist
+104428-01-5	Receptor Agonist
+7542-37-2	Distorts /blocks macromolecular synthesis scaffold
+1744-22-5	Channel Blocker
+55-03-8	Receptor Agonist
+50-04-4	Receptor Agonist
+174634-09-4	Enzyme Inhibitor
+110311-27-8	Channel Blocker, selective
+16714-57-1	Enzyme substrate mimic
+86832-68-0	Enzyme Inhibitor
+22345-47-7	Channel enhancer /opener
+36105-20-1	Channel enhancer /opener
+118-23-0	Receptor Ligand Antagonist, Selective
+135239-65-5	Enzyme Inhibitor
+105431-72-9	Channel Blocker
+134395-57-6	Enzyme Inhibitor
+81486-22-8	Receptor Ligand Antagonist
+527-75-3	Distorts /blocks macromolecular synthesis scaffold
+50-37-3	Receptor Agonist, Non-selective
+33032-12-1	Receptor Ligand Antagonist
+180915-85-9	Receptor Modulator
+74191-85-8	Receptor Ligand Antagonist, Selective
+61991-54-6	Distorts /blocks macromolecular scaffold function
+64490-92-2	Enzyme Inhibitor
+98043-60-8	Solute transporter inhibitor
+135003-30-4	Receptor Ligand Antagonist
+186827-02-1	Enzyme Inhibitor, selective
+130306-02-4	Enzyme Inhibitor
+134395-49-6	Enzyme Inhibitor
+91032-34-7	Distorts /blocks macromolecular synthesis scaffold
+992-21-2	Distorts /blocks macromolecular synthesis scaffold
+36330-85-5	Enzyme Inhibitor
+164150-99-6	Enzyme Inhibitor, selective
+40580-59-4	Receptor Ligand Antagonist
+57-41-0	Channel Blocker
+3485-14-1	Enzyme Inhibitor
+735-52-4	Distorts /blocks macromolecular synthesis scaffold
+121749-39-1	Enzyme Inhibitor; Enzyme Inhibitor, Non-selective
+31282-04-9	Distorts /blocks macromolecular synthesis scaffold
+122898-67-3	Enzyme Inhibitor; Receptor Ligand Antagonist
+90-81-3	Solute transporter inhibitor; Receptor /Channel ligand mimic; Enzyme substrate mimic
+150492-02-7	Channel Modulator
+84057-84-1	Channel Blocker
+134395-55-4	Enzyme Inhibitor
+138977-28-3	Receptor Ligand Antagonist
+88594-78-9	Enzyme Inhibitor
+15302-12-2	Receptor Ligand Antagonist
+25953-17-7	Enzyme Inhibitor; Receptor Agonist; Receptor Agonist, selective
+97275-40-6	Enzyme Inhibitor
+57435-86-6	Channel enhancer /opener
+52663-81-7	Receptor Agonist, selective
+20594-83-6	Receptor Partial Agonist
+110862-48-1	Enzyme Inhibitor
+85604-00-8	Receptor Ligand Antagonist, Selective
+33818-15-4	Receptor Agonist; Channel Modulator
+17617-23-1	Channel enhancer /opener
+147059-72-1	Enzyme Inhibitor, selective
+98383-18-7	Distorts /blocks macromolecular scaffold function
+59263-76-2	Receptor Partial Agonist
+21829-25-4	Channel Blocker
+136544-11-1	Channel enhancer /opener
+97-53-0	Distorts /blocks macromolecular synthesis scaffold
+111477-47-5	Enzyme Inhibitor
+121104-96-9	Enzyme Inhibitor
+56-57-5	Distorts /blocks macromolecular scaffold function
+357-70-0	Enzyme Inhibitor
+146822-06-2	Channel Modulator
+71245-23-3	Enzyme Inhibitor
+107361-33-1	Enzyme Inhibitor
+149950-60-7	Enzyme Inhibitor
+145514-04-1	Enzyme substrate mimic
+59333-67-4	Solute transporter inhibitor
+226904-33-2	Enzyme Inhibitor
+106243-16-7	Receptor Ligand Antagonist
+50-50-0	Receptor Agonist
+80012-43-7	Receptor Ligand Antagonist
+82952-64-5	Enzyme substrate mimic
+1538-09-6	Enzyme Inhibitor
+138384-68-6	Enzyme Inhibitor
+15180-03-7	Channel Blocker, selective
+50264-69-2	Channel Blocker
+37686-84-3	Receptor Partial Agonist
+6577-41-9	Receptor Ligand Antagonist
+153504-81-5	Channel Blocker
+130112-42-4	Enzyme Inhibitor, Non-selective
+99487-25-9	Channel Blocker
+88931-51-5	Receptor Agonist
+64872-77-1	Enzyme Inhibitor
+182367-47-1	Enzyme Inhibitor, selective
+54143-57-6	Receptor Ligand Antagonist, Selective; Channel Modulator
+6493-05-6	Enzyme Inhibitor; Receptor Agonist; Receptor Ligand Antagonist
+50652-76-1	Enzyme Inhibitor
+31036-80-3	Receptor Agonist; Receptor Agonist, selective
+104632-27-1	Receptor Agonist
+6036-95-9	Receptor Ligand Antagonist, Selective
+657-24-9	Receptor Agonist; Channel Modulator; Enzyme Activator
+77883-43-3	Receptor Ligand Antagonist, Selective
+297-90-5	Receptor Agonist
+2430-27-5	Enzyme Inhibitor; Channel Modulator
+90-22-2	Receptor Ligand Antagonist, Selective
+71863-55-3	Channel Blocker
+290357-24-3	Enzyme Inhibitor
+55-98-1	Distorts /blocks macromolecular scaffold function
+152121-47-6	Enzyme Inhibitor
+33564-31-7	Receptor Agonist
+173830-19-8	Solute transporter inhibitor
+2280-32-2	Distorts /blocks macromolecular synthesis scaffold
+98651-66-2	Receptor Agonist
+100828-16-8	Channel Modulator
+63612-50-0	Receptor Ligand Antagonist, Selective
+102676-96-0	Enzyme Inhibitor, selective
+68550-75-4	Enzyme Inhibitor
+552-94-3	Enzyme Inhibitor
+182133-25-1	Receptor Ligand Antagonist
+144245-52-3	Distorts /blocks macromolecular scaffold function
+528-74-5	Enzyme substrate mimic
+66852-54-8	Receptor Agonist
+58-40-2	Receptor Ligand Antagonist
+27574-24-9	Solute transporter inhibitor
+27025-49-6	Enzyme Inhibitor
+65052-63-3	Enzyme Inhibitor
+141579-87-5	Enzyme Inhibitor
+152-11-4	Receptor Agonist; Channel Blocker
+134054-36-7	Channel Blocker
+57-63-6	Receptor Agonist
+117241-47-1	Channel Modulator
+12709-67-0	Receptor Agonist
+3736-12-7	Enzyme Inhibitor
+112665-43-7	Receptor Ligand Antagonist
+115607-77-7	Enzyme Inhibitor
+71247-25-1	Receptor Agonist
+7220-56-6	Receptor Ligand Antagonist
+57775-22-1	Receptor Ligand Antagonist
+37612-13-8	Channel Blocker
+6202-23-9	Receptor Ligand Antagonist
+32891-29-5	Receptor Ligand Antagonist, Non-selective
+739-71-9	Solute transporter inhibitor
+83002-04-4	Receptor Agonist
+116308-56-6	Channel Blocker
+127985-21-1	Channel Modulator
+117857-93-9	Receptor Agonist
+137975-06-5	Receptor Ligand Antagonist, Selective
+71320-77-9	Enzyme Inhibitor
+390-64-7	Channel Blocker
+122892-31-3	Enzyme Inhibitor; Receptor Ligand Antagonist
+75088-80-1	Enzyme Inhibitor
+60918-52-7	Channel enhancer /opener
+39832-48-9	Receptor Agonist, selective
+50-02-2	Receptor Agonist
+56-75-7	Distorts /blocks macromolecular synthesis scaffold
+76610-84-9	Enzyme Inhibitor
+54533-85-6	Channel Blocker
+18883-66-4	Distorts /blocks macromolecular scaffold function
+508-52-1	Enzyme Inhibitor
+25387-67-1	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+63748-50-5	Receptor Agonist
+81131-70-6	Enzyme Inhibitor
+104713-75-9	Channel Blocker
+117591-79-4	Receptor Modulator; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+58-63-9	Receptor Agonist
+70356-03-5	Enzyme Inhibitor
+101041-95-6	Enzyme Inhibitor
+118018-42-1	Receptor Ligand Antagonist
+118288-08-7	Receptor Ligand Antagonist, Selective
+212142-19-3	Enzyme Inhibitor
+359-83-1	Receptor Agonist; Receptor Partial Agonist
+59-96-1	Receptor Ligand Antagonist, Non-selective; Solute transporter inhibitor
+175865-64-2	Enzyme Inhibitor, selective
+125549-25-9	Receptor Agonist
+29868-97-1	Receptor Ligand Antagonist, Selective
+126-07-8	Distorts /blocks macromolecular synthesis scaffold
+114830-63-6	Enzyme Inhibitor
+84057-95-4	Channel Blocker
+26308-28-1	Channel enhancer /opener
+74-55-5	Enzyme Inhibitor
+6138-56-3	Receptor Ligand Antagonist
+129-06-6	Enzyme Inhibitor
+673-31-4	Channel Blocker; Channel Modulator
+134028-05-0	Channel Blocker
+4097-22-7	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+162401-32-3	Enzyme Inhibitor
+1038-59-1	Channel Blocker, selective
+106900-12-3	Receptor Agonist; Channel Blocker
+108863-62-3	Enzyme Inhibitor
+58947-95-8	Receptor Agonist, selective
+116574-11-9	Channel Blocker
+26944-48-9	Channel Blocker, selective
+113145-70-3	Channel Blocker
+28782-42-5	Receptor Agonist
+109-52-4	Enzyme Inhibitor
+16595-80-5	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+108674-87-9	Receptor Ligand Antagonist
+4696-76-8	Distorts /blocks macromolecular synthesis scaffold
+52-68-6	Enzyme Inhibitor
+2998-57-4	Distorts /blocks macromolecular synthesis scaffold; Receptor Agonist; Receptor Ligand Antagonist
+312-93-6	Receptor Agonist
+113029-02-0	Enzyme Inhibitor, selective
+78110-38-0	Enzyme Inhibitor
+23674-86-4	Receptor Agonist
+547757-23-3	Enzyme Inhibitor
+31428-61-2	Receptor Partial Agonist
+55-18-5	Distorts /blocks macromolecular scaffold function
+306-53-6	Channel Modulator
+123958-79-2	Enzyme Inhibitor
+58-71-9	Enzyme Inhibitor
+135905-89-4	Solute transporter inhibitor; Channel Blocker, selective
+77-37-2	Receptor Ligand Antagonist, Selective
+138926-19-9	Enzyme Inhibitor
+321-64-2	Enzyme Inhibitor
+52645-53-1	Channel Blocker; Channel Modulator
+123280-17-1	Receptor Ligand Antagonist, Selective
+142678-34-0	Enzyme Inhibitor
+130804-35-2	Enzyme Inhibitor
+5714-08-9	Receptor Agonist
+52-31-3	Channel Modulator
+66036-44-0	Endogenous Receptor /Channel Ligand
+87646-83-1	Channel enhancer /opener
+41372-08-1	Receptor Agonist, selective
+86304-28-1	Enzyme Inhibitor, selective
+179819-89-7	Receptor Agonist, selective
+154355-76-7	Enzyme Inhibitor
+2179-37-5	Channel Blocker
+136777-49-6	Enzyme substrate mimic
+141059-52-1	Receptor Ligand Antagonist, Selective
+34433-66-4	Receptor Agonist
+1944-12-3	Receptor Agonist
+22316-47-8	Channel Modulator
+4697-14-7	Enzyme Inhibitor
+88678-31-3	Enzyme Inhibitor
+110703-94-1	Enzyme Inhibitor
+18378-89-7	Distorts /blocks macromolecular synthesis scaffold
+74341-63-2	Channel Modulator
+985-13-7	Enzyme Inhibitor; Channel Blocker
+131918-61-1	Receptor Agonist
+204714-56-7	Enzyme Inhibitor, selective
+73121-56-9	Receptor Agonist
+128253-31-6	Enzyme Inhibitor
+61802-93-5	Channel enhancer /opener
+56-25-7	Enzyme Inhibitor, selective
+2898-13-7	Channel enhancer /opener
+83997-19-7	Receptor Agonist
+157583-18-1	Enzyme Inhibitor
+3116-76-5	Enzyme Inhibitor
+55726-47-1	Enzyme substrate mimic
+173830-14-3	Solute transporter inhibitor
+141577-40-4	Receptor Ligand Antagonist
+4533-39-5	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+109229-58-5	Receptor Agonist
+37640-71-4	Channel Modulator
+108612-45-9	Receptor Ligand Antagonist, Selective
+78718-52-2	Enzyme Inhibitor
+124-94-7	Receptor Agonist
+18010-40-7	Channel Blocker
+121679-13-8	Receptor Agonist
+145-54-0	Receptor Ligand Antagonist
+80370-57-6	Enzyme Inhibitor
+54-64-8	Distorts /blocks macromolecular scaffold function
+60-87-7	Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+1477-39-0	Receptor Agonist
+26787-78-0	Enzyme Inhibitor
+93929-95-4	Channel Blocker
+41952-52-7	Enzyme Inhibitor
+127254-10-8	Enzyme Inhibitor, selective
+31698-14-3	Enzyme substrate mimic
+70797-11-4	Enzyme Inhibitor
+297-76-7	Receptor Agonist
+120958-90-9	Receptor Ligand Antagonist, Selective
+76-73-3	Channel Modulator
+35135-68-3	Receptor Agonist
+125729-29-5	Channel Blocker
+150200-16-1	Receptor Agonist
+91-33-8	Channel Blocker, selective
+71731-58-3	Receptor Ligand Antagonist
+50-47-5	Solute transporter inhibitor
+26839-75-8	Receptor Ligand Antagonist, Non-selective
+116-38-1	Enzyme Inhibitor
+100986-85-4	Enzyme Inhibitor, selective
+2691-45-4	Enzyme Inhibitor
+57-30-7	Channel Modulator
+95510-70-6	Enzyme Inhibitor
+105979-17-7	Channel Blocker
+138982-67-9	Receptor Ligand Antagonist
+41708-72-9	Channel Blocker
+42024-98-6	Receptor Ligand Antagonist, Non-selective
+64092-48-4	Enzyme Inhibitor
+163253-36-9	Enzyme Inhibitor, selective
+16590-41-3	Receptor Ligand Antagonist, Non-selective
+102106-08-1	Channel Blocker
+72150-17-5	Receptor Agonist
+139958-16-0	Receptor Ligand Antagonist, Selective
+144-11-6	Receptor Agonist, selective
+1403-00-5	Distorts /blocks macromolecular synthesis scaffold
+194037-25-7	Enzyme Inhibitor
+128253-32-7	Enzyme Inhibitor
+3930-20-9	Receptor Ligand Antagonist, Non-selective; Channel Blocker, selective
+313-06-4	Receptor Agonist
+58-54-8	Enzyme Inhibitor; Channel Blocker, selective
+88851-61-0	Distorts /blocks macromolecular synthesis scaffold
+34552-83-5	Receptor Agonist; Channel Blocker
+194093-42-0	Channel Blocker
+85148-82-9	Receptor Ligand Antagonist
+138742-43-5	Enzyme Inhibitor
+107811-63-2	Distorts /blocks macromolecular scaffold function
+148692-47-1	Enzyme Inhibitor
+90357-06-5	Receptor Ligand Antagonist, Selective
+23651-95-8	Receptor Agonist
+80300-09-0	Receptor Agonist, selective
+86541-78-8	Enzyme Inhibitor
+150-59-4	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist; Channel Modulator
+168560-79-0	Receptor Ligand Antagonist
+171724-29-1	Receptor Ligand Antagonist, Selective
+128253-12-3	Enzyme Inhibitor
+14046-64-1	Enzyme Inhibitor
+149394-66-1	Enzyme substrate mimic
+57-83-0	Endogenous Receptor /Channel Ligand
+76609-94-4	Enzyme Inhibitor
+125500-29-0	Enzyme Inhibitor
+72822-12-9	Receptor Ligand Antagonist, Selective
+133-92-6	Distorts /blocks macromolecular synthesis scaffold
+175212-04-1	Enzyme Inhibitor
+173830-10-9	Solute transporter inhibitor
+2610-86-8	Enzyme Inhibitor
+2180-92-9	Channel Blocker
+103180-28-5	Receptor Ligand Antagonist
+83348-52-1	Receptor Ligand Antagonist
+190786-44-8	Receptor Ligand Antagonist, Selective
+86976-77-4	Enzyme Inhibitor
+90243-98-4	Receptor Agonist
+60559-98-0	Channel enhancer /opener
+6190-39-2	Receptor Partial Agonist; Receptor Ligand Antagonist
+6899-05-4	Endogenous Receptor /Channel Ligand
+132036-91-0	Channel Blocker
+158942-04-2	Receptor Ligand Antagonist
+150491-97-7	Channel Modulator
+105300-43-4	Enzyme Inhibitor
+69414-41-1	Enzyme Inhibitor
+93390-81-9	Channel Blocker
+125926-17-2	Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+154776-45-1	Enzyme Inhibitor
+102030-19-3	Distorts /blocks macromolecular synthesis scaffold
+3861-76-5	Receptor Agonist
+309-29-5	Solute transporter inhibitor
+96301-34-7	Enzyme Inhibitor
+62628-58-4	Enzyme Inhibitor
+114084-78-5	Enzyme Inhibitor
+103336-05-6	Enzyme Inhibitor
+14899-36-6	Receptor Agonist
+132210-43-6	Enzyme Inhibitor
+24526-64-5	Solute transporter inhibitor; Receptor Ligand Antagonist
+125235-15-6	Enzyme Inhibitor
+123-99-9	Enzyme Inhibitor
+134523-03-8	Enzyme Inhibitor
+2152-34-3	Solute transporter inhibitor
+53-86-1	Enzyme Inhibitor
+7683-59-2	Receptor Agonist
+94-20-2	Enzyme Inhibitor; Channel Blocker, selective
+54143-56-5	Channel Blocker
+166518-61-2	Enzyme Inhibitor
+149820-74-6	Receptor Ligand Antagonist, Selective
+63824-12-4	Enzyme Inhibitor
+53797-16-3	Distorts /blocks macromolecular synthesis scaffold
+510-53-2	Receptor Agonist, selective
+63-45-6	Enzyme Inhibitor
+6004-24-6	Distorts /blocks macromolecular scaffold function
+808-26-4	Distorts /blocks macromolecular synthesis scaffold
+29218-27-7	Enzyme Inhibitor, selective
+75011-65-3	Receptor Agonist
+28860-95-9	Enzyme Inhibitor
+116853-25-9	Enzyme Inhibitor
+2016-36-6	Receptor Agonist
+78966-69-5	Channel Modulator
+69-53-4	Enzyme Inhibitor
+162424-67-1	Enzyme Inhibitor, selective
+100981-43-9	Receptor Ligand Antagonist, Selective
+131987-54-7	Enzyme Inhibitor
+13495-09-5	Receptor Agonist
+67-92-5	Receptor Ligand Antagonist, Selective
+61318-91-0	Enzyme Inhibitor
+18059-99-9	Solute transporter inhibitor; Receptor Ligand Antagonist
+29398-76-3	Receptor /Channel ligand mimic
+137160-11-3	Channel Blocker
+2078-54-8	Receptor Agonist
+105167-68-8	Receptor Agonist
+35412-62-5	Receptor Agonist
+64-43-7	Channel Modulator
+84692-91-1	Enzyme Inhibitor
+35035-05-3	Receptor Ligand Antagonist
+81771-21-3	Channel Blocker
+125-28-0	Receptor Agonist
+71119-11-4	Receptor Ligand Antagonist, Non-selective
+77016-85-4	Enzyme Inhibitor
+2398-96-1	Enzyme Inhibitor
+38048-32-7	Solute transporter inhibitor
+304-20-1	Enzyme Inhibitor; Channel Modulator
+3563-49-3	Solute transporter inhibitor
+156137-99-4	Channel Blocker, selective
+100286-90-6	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+73080-51-0	Receptor Ligand Antagonist
+84-04-8	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+123280-14-8	Receptor Ligand Antagonist, Selective
+124937-51-5	Receptor Ligand Antagonist
+147362-57-0	Enzyme Inhibitor
+136668-42-3	Enzyme Inhibitor
+50-36-2	Solute transporter inhibitor
+137234-62-9	Enzyme Inhibitor
+117545-11-6	Channel enhancer /opener
+51012-33-0	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+71-68-1	Receptor Agonist
+121588-75-8	Receptor Ligand Antagonist, Non-selective
+524-83-4	Solute transporter inhibitor
+15468-10-7	Enzyme Inhibitor
+130929-57-6	Enzyme Inhibitor, selective
+78967-07-4	Enzyme Inhibitor, selective
+1162-65-8	Distorts /blocks macromolecular scaffold function
+14882-18-9	Enzyme Inhibitor
+51-26-3	Receptor Agonist
+86348-98-3	Receptor Agonist
+124858-35-1	Enzyme Inhibitor, selective
+75-01-4	Distorts /blocks macromolecular scaffold function
+10206-21-0	Enzyme Inhibitor
+35067-47-1	Enzyme Inhibitor, selective
+287096-87-1	Enzyme Inhibitor
+77326-96-6	Receptor Agonist
+3511-16-8	Enzyme Inhibitor
+77-19-0	Receptor Ligand Antagonist, Selective
+14417-88-0	Enzyme Inhibitor
+364-98-7	Channel enhancer /opener
+168273-06-1	Receptor Ligand Antagonist, Selective
+131986-45-3	Receptor Agonist
+132875-61-7	Receptor Agonist, selective
+161172-51-6	Receptor Ligand Antagonist, Selective
+118428-36-7	Enzyme Inhibitor
+136634-44-1	Enzyme Inhibitor
+61-01-8	Receptor Ligand Antagonist
+80876-01-3	Enzyme Inhibitor
+120279-95-0	Enzyme Inhibitor
+91-64-5	Enzyme Inhibitor
+170151-25-4	Enzyme Inhibitor
+76487-49-5	Enzyme Inhibitor
+113-52-0	Solute transporter inhibitor
+90055-97-3	Receptor Ligand Antagonist
+74014-51-0	Distorts /blocks macromolecular synthesis scaffold
+55096-26-9	Receptor Ligand Antagonist
+120051-39-0	Enzyme Inhibitor
+61-68-7	Enzyme Inhibitor
+55-97-0	Channel Blocker
+181632-25-7	Receptor Ligand Antagonist
+115007-34-6	Enzyme Inhibitor
+96389-68-3	Distorts /blocks macromolecular scaffold function
+101477-55-8	Channel Blocker
+59979-24-7	Enzyme Inhibitor
+134395-52-1	Enzyme Inhibitor
+115-02-6	Distorts /blocks macromolecular scaffold function
+143491-57-0	Enzyme substrate mimic
+31884-77-2	Receptor Ligand Antagonist
+66085-59-4	Channel Blocker
+122823-06-7	Receptor Agonist, selective
+3094-09-5	Enzyme substrate mimic
+75970-64-8	Receptor Ligand Antagonist
+154776-44-0	Enzyme Inhibitor
+98112-41-5	Channel Blocker
+50-67-9	Endogenous Receptor /Channel Ligand
+18046-32-7	Receptor Agonist, selective
+92-12-6	Receptor Ligand Antagonist
+116057-75-1	Receptor Ligand Antagonist
+104340-86-5	Enzyme Inhibitor
+5534-09-8	Receptor Agonist
+29144-42-1	Distorts /blocks macromolecular synthesis scaffold
+34691-31-1	Enzyme Inhibitor
+51022-70-9	Receptor Agonist, selective
+92134-98-0	Channel Blocker
+5003-48-5	Enzyme Inhibitor
+5611-51-8	Receptor Agonist
+36688-78-5	Distorts /blocks macromolecular synthesis scaffold
+144-80-9	Enzyme Inhibitor
+22071-15-4	Enzyme Inhibitor
+140128-74-1	Enzyme Inhibitor
+82115-62-6	Receptor /Channel ligand mimic
+7492-29-7	Channel enhancer /opener
+29767-20-2	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+1893-33-0	Channel Blocker; Receptor Ligand Antagonist
+87-66-1	Enzyme Inhibitor
+71751-41-2	Channel enhancer /opener
+118918-04-0	Enzyme Inhibitor
+57-94-3	Channel Blocker
+21593-23-7	Enzyme Inhibitor
+180272-14-4	Receptor Ligand Antagonist, Selective
+87679-37-6	Enzyme Inhibitor
+2753-45-9	Enzyme Inhibitor; Channel Blocker
+3504-43-6	Enzyme Inhibitor
+90638-38-3	Receptor Agonist
+33069-62-4	Distorts /blocks macromolecular synthesis scaffold
+6106-46-3	Receptor Ligand Antagonist
+1143-38-0	Enzyme Inhibitor
+61477-96-1	Enzyme Inhibitor
+37025-55-1	Receptor Agonist
+134395-59-8	Enzyme Inhibitor
+1088-11-5	Channel enhancer /opener
+129618-40-2	Enzyme Inhibitor
+54063-53-5	Channel Blocker; Receptor Ligand Antagonist
+120638-55-3	Enzyme Inhibitor
+3819-00-9	Receptor Ligand Antagonist
+13739-02-1	Enzyme Inhibitor
+7075-03-8	Solute transporter inhibitor; Receptor Ligand Antagonist
+117241-46-0	Channel Blocker
+173838-31-8	Distorts /blocks macromolecular synthesis scaffold
+143343-83-3	Enzyme Inhibitor
+60-79-7	Receptor Partial Agonist; Receptor Ligand Antagonist
+11095-17-3	Enzyme Inhibitor
+90-54-0	Channel Blocker
+63590-64-7	Receptor Ligand Antagonist, Selective
+97845-62-0	Enzyme Inhibitor, selective
+70161-09-0	Enzyme Inhibitor
+114715-36-5	Enzyme Inhibitor, selective
+136-96-9	Distorts /blocks macromolecular scaffold function
+467-83-4	Receptor Agonist
+24558-49-4	Receptor /Channel ligand mimic
+129299-89-4	Channel Blocker, selective
+53912-89-3	Channel Modulator
+63619-84-1	Receptor Ligand Antagonist
+98106-17-3	Enzyme Inhibitor, selective
+154-69-8	Receptor Ligand Antagonist
+82556-89-6	Enzyme Inhibitor
+121617-11-6	Enzyme Inhibitor
+38029-10-6	Receptor Agonist, selective
+36-06-6	Enzyme Inhibitor
+5874-95-3	Distorts /blocks macromolecular synthesis scaffold
+147254-65-7	Enzyme Inhibitor
+120011-70-3	Enzyme Inhibitor
+148260-92-8	Enzyme Inhibitor
+131815-81-1	Channel Modulator
+58-55-9	Enzyme Inhibitor; Receptor Agonist; Receptor Ligand Antagonist
+66451-06-7	Receptor Ligand Antagonist
+305-03-3	Distorts /blocks macromolecular scaffold function
+57-24-9	Channel Blocker; Channel Modulator
+630-60-4	Enzyme Inhibitor
+102507-71-1	Enzyme Inhibitor
+162542-91-8	Enzyme Inhibitor
+914-00-1	Distorts /blocks macromolecular synthesis scaffold
+130800-90-7	Channel Blocker
+89778-26-7	Receptor Ligand Antagonist
+116839-68-0	Enzyme Inhibitor
+61718-82-9	Solute transporter inhibitor
+31793-07-4	Enzyme Inhibitor
+47747-56-8	Enzyme Inhibitor
+52712-76-2	Receptor Ligand Antagonist, Selective
+128427-54-3	Enzyme Inhibitor, selective
+892-49-9	Enzyme substrate mimic
+120788-07-0	Enzyme Inhibitor
+432-60-0	Receptor Agonist; Receptor Ligand Antagonist
+82857-40-7	Channel Blocker
+82964-04-3	Enzyme Inhibitor
+30392-40-6	Receptor Agonist, selective
+482-15-5	Receptor Ligand Antagonist
+1405-41-0	Distorts /blocks macromolecular synthesis scaffold
+1508-27-6	Receptor Ligand Antagonist
+23031-32-5	Receptor Agonist, selective
+57576-44-0	Distorts /blocks macromolecular synthesis scaffold
+8017-77-4	Distorts /blocks macromolecular synthesis scaffold
+93633-92-2	Receptor Ligand Antagonist
+179324-69-7	Distorts /blocks macromolecular scaffold function
+82935-42-0	Receptor Modulator; Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+51022-71-0	Receptor Agonist
+1406-70-8	Enzyme Inhibitor
+32004-67-4	Enzyme Inhibitor
+110221-44-8	Enzyme Inhibitor
+50-48-6	Solute transporter inhibitor
+88852-12-4	Receptor Agonist
+59-30-3	Endogenous Enzyme Substrate
+306-21-8	Receptor Partial Agonist; Solute transporter inhibitor; Enzyme substrate mimic
+551-27-9	Enzyme Inhibitor
+1524-88-5	Receptor Agonist
+56518-41-3	Enzyme Inhibitor
+83200-10-6	Channel Blocker
+96744-75-1	Receptor Agonist, selective
+88069-67-4	Channel Blocker; Receptor Ligand Antagonist
+158885-09-7	Enzyme Inhibitor
+118438-45-2	Distorts /blocks macromolecular scaffold function
+149400-88-4	Enzyme Inhibitor
+60643-86-9	Enzyme Inhibitor
+40180-04-9	Solute transporter inhibitor; Channel Blocker
+492-08-0	Channel Blocker
+94-07-5	Receptor Agonist
+1953-02-2	Enzyme Inhibitor
+65472-88-0	Enzyme Inhibitor
+113206-79-4	Enzyme Inhibitor
+51481-65-3	Enzyme Inhibitor
+112965-21-6	Receptor Agonist
+125991-51-7	Enzyme substrate mimic
+56296-78-7	Solute transporter inhibitor
+34976-39-1	Enzyme Inhibitor, selective
+133718-29-3	Enzyme Inhibitor
+147030-01-1	Enzyme Inhibitor
+20830-75-5	Enzyme Inhibitor
+25389-94-0	Distorts /blocks macromolecular synthesis scaffold
+98319-25-7	Enzyme Inhibitor; Enzyme Inhibitor, selective
+23256-50-0	Enzyme Inhibitor; Receptor Partial Agonist; Receptor Agonist
+127910-31-0	Channel Modulator
+31879-05-7	Enzyme Inhibitor
+118875-43-7	Enzyme Inhibitor
+225919-29-9	Enzyme Inhibitor
+57-53-4	Channel Blocker; Channel Modulator
+78115-72-7	Receptor Agonist
+33419-42-0	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+34433-31-3	Enzyme Inhibitor
+77337-76-9	Receptor Ligand Antagonist
+549-18-8	Solute transporter inhibitor
+172822-29-6	Receptor Ligand Antagonist
+121840-95-7	Enzyme Inhibitor
+166518-60-1	Enzyme Inhibitor
+156910-61-1	Enzyme Inhibitor
+66-76-2	Enzyme Inhibitor
+105217-71-8	Receptor Agonist
+1225-60-1	Receptor Ligand Antagonist
+193739-23-0	Enzyme Inhibitor
+63859-31-4	Receptor Agonist
+69267-51-2	Enzyme Inhibitor
+219653-30-2	Receptor Agonist
+151386-96-8	Receptor Ligand Antagonist, Selective
+548-04-9	Enzyme Inhibitor
+135467-21-9	Enzyme Inhibitor
+54782-51-3	Enzyme Inhibitor; Receptor Agonist
+91032-37-0	Distorts /blocks macromolecular synthesis scaffold
+99465-73-3	Enzyme Inhibitor
+356-12-7	Receptor Agonist
+4544-15-4	Receptor Ligand Antagonist
+103628-48-4	Receptor Agonist, selective
+127984-74-1	Receptor /Channel ligand mimic
+67-45-8	Distorts /blocks macromolecular synthesis scaffold
+108929-04-0	Receptor Ligand Antagonist
+4406-22-8	Receptor Ligand Antagonist
+526-36-3	Receptor Agonist
+101246-66-6	Enzyme Inhibitor
+357-08-4	Receptor Ligand Antagonist
+797-62-6	Receptor Agonist
+103475-41-8	Enzyme Inhibitor
+174636-33-0	Enzyme Inhibitor
+51803-78-2	Enzyme Inhibitor
+115313-22-9	Receptor Ligand Antagonist
+87233-62-3	Receptor Ligand Antagonist, Selective
+33515-09-2	Endogenous Receptor /Channel Ligand
+911-65-9	Receptor Agonist
+5588-33-0	Receptor Ligand Antagonist
+637-58-1	Channel Modulator
+64299-19-0	Receptor Agonist, selective
+642-15-9	Distorts /blocks macromolecular scaffold function
+3505-38-2	Receptor Ligand Antagonist
+172489-10-0	Channel Modulator
+174636-26-1	Enzyme Inhibitor
+143966-36-3	Channel Modulator
+84-01-5	Receptor Ligand Antagonist
+70024-40-7	Receptor Ligand Antagonist, Selective
+160588-45-4	Channel Blocker
+51-43-4	Endogenous Receptor /Channel Ligand
+147778-05-0	Channel Modulator
+968-93-4	Enzyme Inhibitor
+29925-17-5	Enzyme Inhibitor, selective
+96346-61-1	Receptor Ligand Antagonist
+2013-58-3	Distorts /blocks macromolecular synthesis scaffold
+55819-32-4	Enzyme Inhibitor
+137-26-8	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+2391-03-9	Receptor Ligand Antagonist, Selective
+158446-41-4	Receptor Ligand Antagonist
+58-05-9	Enzyme substrate mimic
+96448-41-8	Channel Blocker
+28523-86-6	Enzyme Inhibitor; Channel Blocker; Channel Modulator
+50-32-8	Distorts /blocks macromolecular scaffold function
+77-14-5	Receptor Agonist
+69-27-2	Channel Blocker
+103639-04-9	Channel Blocker, selective
+12244-57-4	Enzyme Inhibitor
+53648-55-8	Receptor Partial Agonist
+54063-45-5	Receptor Agonist; Channel Blocker
+68475-42-3	Enzyme Inhibitor
+152946-68-4	Enzyme Inhibitor
+120656-93-1	Receptor Agonist, selective
+72-63-9	Receptor Agonist
+28721-07-5	Channel Blocker
+76956-02-0	Receptor Ligand Antagonist, Selective
+2552-55-8	Receptor Agonist
+10457-91-7	Receptor Ligand Antagonist
+114-86-3	Channel Modulator; Enzyme Activator
+150399-21-6	Enzyme Inhibitor
+157832-55-8	Channel Modulator
+13055-82-8	Receptor Agonist, selective
+108138-46-1	Enzyme Inhibitor, selective
+58-58-2	Distorts /blocks macromolecular scaffold function
+91161-71-6	Enzyme Inhibitor
+21462-39-5	Distorts /blocks macromolecular synthesis scaffold
+97682-44-5	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+53-16-7	Endogenous Receptor /Channel Ligand
+209859-87-0	Channel Blocker, selective
+47879-97-0	Distorts /blocks macromolecular synthesis scaffold
+90139-06-3	Enzyme Inhibitor
+3900-31-0	Channel enhancer /opener
+113593-34-3	Channel Modulator
+38641-94-0	Enzyme Inhibitor
+135381-77-0	Enzyme Inhibitor
+58581-89-8	Receptor Ligand Antagonist, Selective
+51-83-2	Channel Modulator; Receptor Agonist, Non-selective
+30685-43-9	Enzyme Inhibitor
+111011-63-3	Channel Blocker
+106516-25-0	Receptor Ligand Antagonist
+92118-27-9	Distorts /blocks macromolecular scaffold function
+157605-25-9	Enzyme Inhibitor, selective
+749-13-3	Receptor Ligand Antagonist
+88321-09-9	Enzyme Inhibitor
+130953-69-4	Channel Blocker
+21739-91-3	Distorts /blocks macromolecular synthesis scaffold
+54240-36-7	Receptor Agonist
+50-06-6	Channel Modulator
+14216-34-3	Enzyme Inhibitor; Enzyme Inhibitor, selective
+98769-83-6	Solute transporter inhibitor; Channel Blocker
+82924-03-6	Enzyme Inhibitor
+14277-97-5	Channel Modulator
+54533-86-7	Channel Blocker
+97677-19-5	Enzyme Inhibitor
+164301-51-3	Enzyme Inhibitor
+57-27-2	Receptor Agonist, selective
+49745-95-1	Receptor Agonist, selective
+15500-66-0	Channel Blocker, selective
+125-40-6	Channel Modulator
+110221-53-9	Enzyme Inhibitor
+137424-81-8	Channel Modulator
+112398-08-0	Enzyme Inhibitor, selective
+426-13-1	Receptor Agonist
+451-71-8	Channel Blocker, selective
+108736-35-2	Receptor /Channel ligand mimic
+77-28-1	Channel Modulator
+120279-96-1	Enzyme Inhibitor
+909-39-7	Channel Blocker; Receptor Ligand Antagonist
+21416-43-3	Channel Modulator
+100427-26-7	Channel Blocker
+74578-69-1	Enzyme Inhibitor
+69739-16-8	Enzyme Inhibitor
+94749-08-3	Receptor Agonist, selective
+58409-59-9	Enzyme Inhibitor
+127396-36-5	Channel Modulator
+156055-46-8	Enzyme Inhibitor
+50-52-2	Receptor Ligand Antagonist
+153439-40-8	Receptor Ligand Antagonist, Selective
+198283-73-7	Channel Modulator
+155-41-9	Receptor Ligand Antagonist
+427-00-9	Receptor Agonist
+602-85-7	Receptor Agonist
+149908-53-2	Channel Blocker
+525-66-6	Receptor Ligand Antagonist, Non-selective
+180272-15-5	Receptor Ligand Antagonist, Selective
+128426-71-1	Enzyme Inhibitor, selective
+134-36-1	Distorts /blocks macromolecular synthesis scaffold
+98717-15-8	Channel Blocker
+289480-64-4	Receptor Agonist, selective
+25255-33-8	Receptor Agonist
+147098-20-2	Enzyme Inhibitor
+190786-43-7	Receptor Ligand Antagonist, Selective
+1622-62-4	Channel enhancer /opener
+55077-30-0	Receptor Agonist
+177563-44-9	Receptor Ligand Antagonist, Selective
+134431-49-5	Channel Modulator
+97451-46-2	Enzyme Inhibitor
+63-74-1	Enzyme Inhibitor
+113734-18-2	Receptor Agonist, selective
+65008-93-7	Receptor Ligand Antagonist
+127595-41-9	Solute transporter inhibitor; Channel Blocker
+119413-55-7	Channel Blocker
+127373-66-4	Enzyme Inhibitor
+61197-73-7	Channel enhancer /opener
+120443-16-5	Receptor Ligand Antagonist
+81656-30-6	Channel enhancer /opener
+579-56-6	Receptor Ligand Antagonist
+76095-16-4	Enzyme Inhibitor
+32828-81-2	Enzyme Inhibitor; Receptor Ligand Antagonist
+72448-63-6	Enzyme Inhibitor
+88475-69-8	Receptor Agonist
+58337-35-2	Enzyme Inhibitor
+13721-39-6	Enzyme Inhibitor
+64058-48-6	Distorts /blocks macromolecular synthesis scaffold
+937-13-3	Enzyme Inhibitor
+129321-78-4	Enzyme Inhibitor, selective
+54063-54-6	Receptor Agonist, selective
+121243-20-7	Channel Blocker
+58-39-9	Receptor Ligand Antagonist
+202138-50-9	Enzyme substrate mimic
+153062-96-5	Channel Blocker
+200940-22-3	Receptor Ligand Antagonist
+53746-45-5	Enzyme Inhibitor
+151837-55-7	Enzyme Inhibitor
+56211-43-9	Enzyme Inhibitor
+27466-27-9	Solute transporter inhibitor
+226700-79-4	Enzyme Inhibitor
+4759-48-2	Receptor Agonist
+94421-68-8	Receptor Agonist
+157182-23-5	Enzyme Inhibitor
+129981-36-8	Enzyme Inhibitor
+58-61-7	Endogenous Receptor /Channel Ligand
+100490-36-6	Enzyme Inhibitor, selective
+53716-49-7	Enzyme Inhibitor
+66934-18-7	Enzyme Inhibitor
+83621-06-1	Enzyme Inhibitor
+28002-18-8	Enzyme Inhibitor
+72830-39-8	Receptor Ligand Antagonist, Selective
+137159-92-3	Channel Blocker
+35607-66-0	Enzyme Inhibitor
+150399-23-8	Enzyme Inhibitor; Enzyme substrate mimic
+357-07-3	Receptor Agonist
+137548-41-5	Enzyme Inhibitor
+108700-03-4	Channel Blocker
+1263-89-4	Distorts /blocks macromolecular synthesis scaffold
+127-35-5	Receptor Agonist
+134395-56-5	Enzyme Inhibitor
+14611-51-9	Enzyme Inhibitor
+108930-17-2	Enzyme Inhibitor
+461-78-9	Enzyme Inhibitor
+467-60-7	Solute transporter inhibitor
+146957-32-6	Receptor Ligand Antagonist, Selective
+1639-60-7	Receptor Agonist
+139264-82-7	Receptor Agonist
+148229-78-1	Receptor Agonist; Solute transporter inhibitor
+26243-95-8	Enzyme Inhibitor
+145821-59-6	Solute transporter inhibitor
+88889-14-9	Enzyme Inhibitor
+127046-45-1	Enzyme Inhibitor, selective
+124-87-8	Channel Blocker
+66195-31-1	Receptor Agonist
+108068-98-0	Enzyme Inhibitor
+118635-52-2	Enzyme Inhibitor
+438-41-5	Channel Modulator
+17598-65-1	Enzyme Inhibitor
+88768-40-5	Enzyme Inhibitor
+113045-79-7	Enzyme Inhibitor, selective
+69712-56-7	Enzyme Inhibitor
+440-17-5	Receptor Ligand Antagonist
+1066-17-7	Distorts /blocks macromolecular scaffold function
+438-67-5	Endogenous Receptor /Channel Ligand
+119477-85-9	Receptor Ligand Antagonist, Selective
+33580-30-2	Receptor Ligand Antagonist; Receptor Agonist, Non-selective
+186033-14-7	Channel Modulator
+103177-37-3	Receptor Ligand Antagonist
+69049-73-6	Channel Blocker
+108436-80-2	Enzyme Inhibitor, selective
+51-56-9	Solute transporter inhibitor
+124750-95-4	Receptor Ligand Antagonist, Selective
+52205-73-9	Distorts /blocks macromolecular synthesis scaffold; Receptor Agonist; Receptor Ligand Antagonist
+12374-71-9	Solute transporter inhibitor
+76648-01-6	Enzyme Inhibitor
+112653-29-9	Enzyme Inhibitor
+112018-00-5	Enzyme Inhibitor
+86-54-4	Enzyme Inhibitor; Channel Modulator
+51-48-9	Receptor Agonist
+2133-81-5	Enzyme substrate mimic
+120-97-8	Enzyme Inhibitor
+466-40-0	Receptor Agonist
+74863-84-6	Enzyme Inhibitor
+117411-27-5	Enzyme Inhibitor
+15687-27-1	Enzyme Inhibitor
+127910-32-1	Channel Modulator
+148152-66-3	Channel Modulator
+140111-52-0	Channel Modulator
+140387-89-9	Receptor Agonist
+102121-60-8	Receptor Agonist, selective
+135969-54-9	Channel Blocker, selective
+39026-63-6	Receptor Agonist
+21228-47-7	Channel Modulator; Enzyme Activator
+30418-50-9	Distorts /blocks macromolecular synthesis scaffold
+59070-07-4	Enzyme Inhibitor
+63132-39-8	Enzyme Inhibitor
+81103-11-9	Distorts /blocks macromolecular synthesis scaffold
+106133-20-4	Receptor Ligand Antagonist, Selective
+157182-32-6	Enzyme Inhibitor, selective
+148504-51-2	Receptor Ligand Antagonist, Selective
+134296-40-5	Solute transporter inhibitor
+105350-26-3	Receptor Ligand Antagonist
+387867-13-2	Enzyme Inhibitor
+166095-21-2	Channel enhancer /opener; Channel Modulator
+56180-94-0	Enzyme Inhibitor
+105051-87-4	Enzyme Inhibitor
+97964-56-2	Receptor Ligand Antagonist
+103187-09-3	Receptor Ligand Antagonist
+51-62-7	Receptor Partial Agonist; Solute transporter inhibitor; Enzyme substrate mimic
+56211-40-6	Channel Blocker, selective
+53123-88-9	Enzyme Inhibitor
+192-97-2	Distorts /blocks macromolecular scaffold function
+60136-25-6	Enzyme Inhibitor; Enzyme substrate mimic
+62-73-7	Enzyme Inhibitor
+51411-04-2	Enzyme Inhibitor
+98833-92-2	Enzyme Inhibitor
+645-05-6	Distorts /blocks macromolecular synthesis scaffold
+80-50-2	Solute transporter inhibitor
+85622-93-1	Distorts /blocks macromolecular scaffold function
+91714-93-1	Enzyme Inhibitor
+129746-22-1	Channel Blocker
+104632-26-0	Receptor Agonist
+78111-17-8	Enzyme Inhibitor
+128196-01-0	Solute transporter inhibitor
+78950-78-4	Receptor Agonist, selective
+176022-59-6	Receptor Ligand Antagonist, Selective
+33671-46-4	Channel enhancer /opener
+67037-37-0	Enzyme Inhibitor
+2079-54-1	Enzyme Inhibitor
+57149-07-2	Receptor Ligand Antagonist
+75970-99-9	Receptor Ligand Antagonist
+54-49-9	Receptor Agonist
+147536-97-8	Receptor Ligand Antagonist, Non-selective
+58934-46-6	Channel Blocker
+153832-46-3	Enzyme Inhibitor
+1156-19-0	Channel Blocker, selective
+110588-57-3	Enzyme Inhibitor
+69-09-0	Solute transporter inhibitor; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+77590-96-6	Channel Blocker
+131841-20-8	Enzyme Inhibitor
+20424-00-4	Receptor Agonist
+50-59-9	Enzyme Inhibitor
+120128-20-3	Receptor Ligand Antagonist
+161715-24-8	Enzyme Inhibitor
+112885-43-5	Receptor Agonist
+135038-57-2	Enzyme Inhibitor
+71109-09-6	Enzyme Inhibitor
+99047-27-5	Channel Blocker
+116308-55-5	Channel Blocker
+145096-30-6	Enzyme Inhibitor
+13010-47-4	Distorts /blocks macromolecular scaffold function
+57109-90-7	Channel enhancer /opener
+191611-76-4	Channel Modulator
+5633-20-5	Receptor Ligand Antagonist
+113-15-5	Receptor Partial Agonist; Receptor Ligand Antagonist, Non-selective
+127266-75-5	Receptor Ligand Antagonist
+144604-00-2	Channel Modulator
+99300-78-4	Solute transporter inhibitor
+1953-04-4	Enzyme Inhibitor
+112362-50-2	Distorts /blocks macromolecular synthesis scaffold
+59170-23-9	Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective; Receptor Agonist, Non-selective
+164150-85-0	Enzyme Inhibitor, selective
+103196-89-0	Receptor Ligand Antagonist
+142304-17-4	Channel enhancer /opener; Channel Modulator
+17902-23-7	Enzyme substrate mimic
+68373-14-8	Enzyme Inhibitor
+135991-48-9	Channel Blocker
+33005-95-7	Enzyme Inhibitor
+106463-17-6	Receptor Ligand Antagonist, Selective
+135809-60-8	Channel enhancer /opener
+191219-80-4	Enzyme Inhibitor
+83881-51-0	Receptor Ligand Antagonist, Selective
+434-22-0	Receptor Agonist
+68099-86-5	Channel Blocker
+1722-62-9	Channel Blocker
+74639-40-0	Receptor Agonist; Solute transporter inhibitor
+66357-59-3	Receptor Ligand Antagonist, Selective
+70374-39-9	Enzyme Inhibitor
+151328-90-4	Enzyme Inhibitor
+73151-29-8	Enzyme Inhibitor
+83805-11-2	Receptor Agonist
+165800-06-6	Enzyme Inhibitor
+146-56-5	Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+111696-23-2	Enzyme Inhibitor
+85801-02-1	Enzyme Inhibitor
+28319-77-9	Channel Modulator
+4474-91-3	Receptor /Channel ligand mimic
+125464-42-8	Receptor Agonist, selective
+23779-99-9	Enzyme Inhibitor
+35898-87-4	Solute transporter inhibitor
+130693-82-2	Enzyme Inhibitor
+52315-07-8	Channel Blocker; Channel Modulator
+2030-63-9	Distorts /blocks macromolecular synthesis scaffold
+66834-24-0	Solute transporter inhibitor
+86408-72-2	Enzyme Inhibitor
+126784-99-4	Receptor Ligand Antagonist
+92302-55-1	Channel Blocker
+82413-20-5	Receptor Ligand Antagonist
+152995-74-9	Channel Blocker
+7646-85-7	Distorts /blocks macromolecular scaffold function
+114469-22-6	Enzyme Inhibitor
+51022-75-4	Enzyme Inhibitor
+56355-17-0	Enzyme Inhibitor
+13655-52-2	Receptor Ligand Antagonist, Selective
+119474-47-4	Enzyme Inhibitor, selective
+90-39-1	Channel Blocker
+5984-50-9	Receptor Agonist
+123013-22-9	Receptor Agonist
+32780-64-6	Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist, Selective
+90693-76-8	Receptor Agonist
+86541-74-4	Enzyme Inhibitor
+130400-16-7	Enzyme Inhibitor
+30516-87-1	Enzyme substrate mimic
+1982-37-2	Receptor Ligand Antagonist
+141284-73-3	Enzyme Inhibitor
+73220-03-8	Receptor Modulator; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+17431-55-9	Distorts /blocks macromolecular synthesis scaffold
+90-80-2	Enzyme Inhibitor
+55242-55-2	Enzyme Inhibitor; Receptor Agonist; Solute transporter inhibitor
+119625-78-4	Enzyme Inhibitor
+1501-84-4	Channel Blocker, selective
+128668-62-2	Enzyme Inhibitor
+70-00-8	Enzyme substrate mimic
+5250-39-5	Enzyme Inhibitor
+1405-20-5	Distorts /blocks macromolecular scaffold function
+130404-91-0	Receptor Ligand Antagonist
+126294-30-2	Channel Blocker
+54187-04-1	Receptor Agonist
+214462-68-7	Enzyme Inhibitor
+180200-68-4	Enzyme Inhibitor
+153-61-7	Enzyme Inhibitor
+22204-88-2	Receptor Agonist; Solute transporter inhibitor
+64221-86-9	Enzyme Inhibitor
+98224-03-4	Solute transporter inhibitor
+86386-73-4	Enzyme Inhibitor
+1253-28-7	Receptor Agonist
+10108-64-2	Receptor /Channel ligand mimic; Receptor Ligand Antagonist
+38677-81-5	Receptor Agonist, selective
+128298-28-2	Channel Blocker; Channel Modulator
+116230-66-1	Enzyme Inhibitor
+2709-56-0	Receptor Ligand Antagonist
+173830-18-7	Solute transporter inhibitor
+133743-71-2	Channel Blocker
+66778-37-8	Enzyme Inhibitor
+653-03-2	Receptor Ligand Antagonist
+70958-86-0	Receptor Ligand Antagonist
+40516-48-1	Receptor Agonist
+63516-07-4	Solute transporter inhibitor
+304-52-9	Receptor Agonist, Non-selective
+141750-63-2	Enzyme Inhibitor
+34482-99-0	Channel enhancer /opener
+113712-98-4	Enzyme Inhibitor
+103775-10-6	Enzyme Inhibitor
+61-75-6	Enzyme Inhibitor; Solute transporter inhibitor
+25447-65-8	Receptor Agonist; Receptor Ligand Antagonist
+72589-96-9	Receptor /Channel ligand mimic; Receptor Ligand Antagonist
+30562-34-6	Enzyme Inhibitor
+85505-64-2	Receptor Agonist
+192565-91-6	Enzyme Inhibitor
+7689-03-4	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+189940-24-7	Enzyme Inhibitor
+117-81-7	Receptor Agonist
+150491-98-8	Channel Modulator
+86-43-1	Channel Blocker
+136381-85-6	Receptor Ligand Antagonist
+96638-41-4	Enzyme Inhibitor
+82824-01-9	Receptor Ligand Antagonist, Selective
+37115-32-5	Channel enhancer /opener
+144256-27-9	Receptor Agonist
+80125-14-0	Receptor Modulator; Receptor Ligand Antagonist, Selective; Receptor Ligand Antagonist
+132553-86-7	Receptor Ligand Antagonist
+101626-70-4	Receptor Agonist; Channel Modulator
+24279-91-2	Distorts /blocks macromolecular scaffold function
+26864-56-2	Channel Blocker
+15318-45-3	Distorts /blocks macromolecular synthesis scaffold
+189449-59-0	Enzyme Inhibitor
+1071-83-6	Enzyme Inhibitor
+72619-34-2	Enzyme Inhibitor
+139110-80-8	Enzyme Inhibitor, selective
+111788-99-9	Enzyme Inhibitor
+103899-37-2	Channel Modulator
+91618-36-9	Enzyme Inhibitor, selective
+63329-59-9	Enzyme Inhibitor
+149028-28-4	Enzyme Inhibitor
+51579-82-9	Enzyme Inhibitor
+10102-18-8	Enzyme Inhibitor
+54024-22-5	Receptor Agonist
+74050-98-9	Receptor Ligand Antagonist, Non-selective
+99294-93-6	Channel enhancer /opener
+122841-10-5	Enzyme Inhibitor
+62-67-9	Receptor Agonist; Receptor Partial Agonist; Receptor Ligand Antagonist
+22916-47-8	Enzyme Inhibitor
+1477-47-0	Receptor Agonist; Channel Modulator
+149908-23-6	Distorts /blocks macromolecular synthesis scaffold
+59110-35-9	Receptor Ligand Antagonist
+75659-07-3	Receptor Partial Agonist; Receptor Ligand Antagonist
+121055-10-5	Channel Modulator
+103598-03-4	Receptor Ligand Antagonist, Selective
+81584-06-7	Receptor Ligand Antagonist, Non-selective
+129273-38-7	Receptor Agonist
+28058-62-0	Solute transporter inhibitor
+95734-82-0	Distorts /blocks macromolecular scaffold function
+28657-80-9	Enzyme Inhibitor, selective
+130656-51-8	Channel Blocker, selective
+22862-76-6	Distorts /blocks macromolecular synthesis scaffold
+19216-56-9	Receptor Ligand Antagonist, Selective
+9045-65-2	Endogenous Receptor /Channel Ligand
+3964-81-6	Receptor Ligand Antagonist, Selective
+149727-64-0	Receptor Ligand Antagonist, Selective
+57852-57-0	Distorts /blocks macromolecular synthesis scaffold
+148031-34-9	Receptor Ligand Antagonist, Selective
+21609-10-9	Receptor Ligand Antagonist
+959-24-0	Receptor Ligand Antagonist, Non-selective; Channel Blocker, selective
+12679-58-2	Enzyme Inhibitor
+59703-84-3	Enzyme Inhibitor
+10238-21-8	Channel Blocker, selective
+21730-16-5	Solute transporter inhibitor
+5786-68-5	Channel Blocker, selective
+72509-76-3	Channel Blocker
+116666-63-8	Channel Blocker; Channel Blocker, selective
+14521-96-1	Receptor Agonist
+7177-56-2	Distorts /blocks macromolecular synthesis scaffold
+153436-22-7	Receptor Ligand Antagonist
+109348-38-1	Channel Blocker
+16676-29-2	Receptor Ligand Antagonist, Non-selective
+1672-46-4	Enzyme Inhibitor
+8060-73-9	Channel Blocker, selective
+171724-28-0	Receptor Ligand Antagonist, Selective
+51350-19-7	Enzyme Inhibitor
+96306-34-2	Channel enhancer /opener
+83602-05-5	Enzyme Inhibitor
+24645-20-3	Enzyme Inhibitor
+122-46-3	Distorts /blocks macromolecular synthesis scaffold
+134138-41-3	Channel Modulator
+160135-92-2	Enzyme Inhibitor
+30286-75-0	Receptor Ligand Antagonist
+111542-93-9	Enzyme Inhibitor, selective
+179258-62-9	Channel Modulator
+79594-24-4	Channel Blocker, selective
+143966-37-4	Channel Modulator
+13292-46-1	Enzyme Inhibitor, selective
+37091-66-0	Enzyme Inhibitor
+57781-14-3	Receptor Partial Agonist
+121039-16-5	Channel Blocker; Channel Blocker, selective
+105889-46-1	Enzyme Inhibitor
+59729-33-8	Solute transporter inhibitor
+25314-87-8	Channel Blocker
+51052-62-1	Channel Blocker
+57808-65-8	Enzyme Inhibitor
+143-67-9	Distorts /blocks macromolecular synthesis scaffold
+205195-07-9	Enzyme Inhibitor, Non-selective; Receptor tyrosine kinase inhibitor
+55721-11-4	Receptor Agonist
+51146-57-7	Enzyme Inhibitor
+15663-27-1	Distorts /blocks macromolecular scaffold function
+127294-70-6	Enzyme Inhibitor, selective
+83203-42-3	Receptor Ligand Antagonist
+149888-94-8	Channel Blocker
+98116-53-1	Receptor Ligand Antagonist
+18911-13-2	Enzyme Inhibitor
+1404-93-9	Distorts /blocks macromolecular synthesis scaffold
+95-27-2	Distorts /blocks macromolecular scaffold function
+35457-80-8	Distorts /blocks macromolecular synthesis scaffold
+38081-67-3	Channel Blocker, selective
+66564-14-5	Receptor Agonist, selective; Receptor Ligand Antagonist, Selective
+77-26-9	Channel Modulator
+79286-77-4	Enzyme Inhibitor, selective
+446-86-6	Enzyme Inhibitor; Enzyme substrate mimic
+117-37-3	Enzyme Inhibitor
+19562-30-2	Enzyme Inhibitor, selective
+60576-13-8	Enzyme Inhibitor
+40602-63-9	Enzyme Inhibitor
+124832-27-5	Enzyme Inhibitor, selective
+68844-77-9	Receptor Ligand Antagonist, Selective
+114-07-8	Distorts /blocks macromolecular synthesis scaffold
+123122-55-4	Enzyme Inhibitor
+170902-81-5	Receptor Ligand Antagonist
+481-97-0	Endogenous Receptor /Channel Ligand
+51598-60-8	Receptor Ligand Antagonist
+40671-54-3	Enzyme Inhibitor; Channel Modulator
+42408-82-2	Receptor Partial Agonist; Receptor Agonist; Receptor Ligand Antagonist
+155204-81-2	Enzyme Inhibitor
+55837-25-7	Receptor Ligand Antagonist, Non-selective
+124884-99-7	Enzyme Inhibitor
+2622-26-6	Receptor Ligand Antagonist
+153537-74-7	Enzyme Inhibitor
+73573-88-3	Enzyme Inhibitor
+89544-10-5	Channel Modulator
+156897-06-2	Enzyme Inhibitor
+73218-79-8	Receptor Agonist
+22131-79-9	Enzyme Inhibitor
+536-21-0	Receptor Agonist
+92395-36-3	Distorts /blocks macromolecular synthesis scaffold
+24169-02-6	Enzyme Inhibitor
+123016-21-7	Enzyme Inhibitor
+53-41-8	Receptor Agonist; Channel Modulator
+106819-53-8	Receptor Ligand Antagonist
+13492-01-8	Enzyme Inhibitor
+43229-80-7	Receptor Agonist, selective
+177947-03-4	Receptor Agonist
+38274-54-3	Enzyme Inhibitor
+21256-18-8	Enzyme Inhibitor
+346-18-9	Channel Blocker, selective
+148-82-3	Distorts /blocks macromolecular scaffold function
+78-11-5	Enzyme Inhibitor
+144035-83-6	Enzyme Inhibitor
+51025-85-5	Distorts /blocks macromolecular synthesis scaffold
+53-39-4	Receptor Agonist
+127648-29-7	Solute transporter inhibitor
+91097-81-3	Receptor Agonist, selective
+131086-21-0	Enzyme substrate mimic
+83-89-6	Enzyme Inhibitor; Channel Blocker
+19545-26-7	Enzyme Inhibitor; Enzyme Inhibitor, selective
+71-27-2	Channel Modulator
+1209-98-9	Receptor Agonist
+40966-79-8	Enzyme Inhibitor
+89226-75-5	Channel Blocker
+122894-02-4	Enzyme Inhibitor, selective
+298-59-9	Solute transporter inhibitor
+500-44-7	Enzyme Inhibitor
+24729-96-2	Distorts /blocks macromolecular synthesis scaffold
+23214-92-8	Distorts /blocks macromolecular synthesis scaffold
+75821-71-5	Enzyme Inhibitor
+81098-60-4	Receptor Agonist
+76497-12-6	Receptor Agonist
+524-84-5	Receptor Agonist
+76568-02-0	Enzyme Inhibitor, selective
+59767-13-4	Receptor Ligand Antagonist
+2537-29-3	Channel Modulator
+99437-94-2	Receptor Agonist
+55142-85-3	Receptor Ligand Antagonist
+357-56-2	Receptor Agonist
+91032-36-9	Distorts /blocks macromolecular synthesis scaffold
+132539-07-2	Receptor Agonist, selective
+6385-02-0	Enzyme Inhibitor
+182133-27-3	Receptor Ligand Antagonist
+100632-81-3	Channel Blocker
+5987-82-6	Channel Blocker
+86826-12-2	Enzyme Inhibitor, selective
+103844-86-6	Channel Modulator
+10405-02-4	Receptor Ligand Antagonist
+150492-05-0	Channel Modulator
+125317-39-7	Distorts /blocks macromolecular synthesis scaffold
+73-48-3	Channel Blocker, selective
+93664-94-9	Receptor Agonist, selective; Receptor Ligand Antagonist, Selective
+64-73-3	Distorts /blocks macromolecular synthesis scaffold
+64461-82-1	Receptor Partial Agonist
+85166-20-7	Solute transporter inhibitor
+23590-99-0	Receptor Agonist
+113-98-4	Enzyme Inhibitor
+22232-71-9	Solute transporter inhibitor
+127243-85-0	Enzyme Inhibitor; Channel Modulator
+98769-81-4	Solute transporter inhibitor; Channel Blocker
+122-11-2	Enzyme Inhibitor
+69648-38-0	Receptor Agonist
+50-34-0	Channel Blocker; Receptor Ligand Antagonist
+153438-49-4	Receptor Ligand Antagonist
+59803-99-5	Receptor Agonist, selective
+124020-21-9	Channel Blocker
+31428-62-3	Receptor Partial Agonist
+284461-73-0	Enzyme Inhibitor
+12393-32-7	Endogenous Receptor /Channel Ligand
+569-57-3	Receptor Partial Agonist
+68291-97-4	Channel Blocker
+1808-12-4	Receptor Ligand Antagonist, Selective
+77671-31-9	Enzyme Inhibitor, selective
+3625-06-7	Enzyme Inhibitor; Channel Blocker
+38363-40-5	Receptor Ligand Antagonist
+58152-03-7	Distorts /blocks macromolecular synthesis scaffold
+158966-92-8	Receptor Ligand Antagonist
+180683-37-8	Enzyme Inhibitor
+302-41-0	Receptor Agonist
+797-64-8	Receptor Agonist
+2738-64-9	Enzyme Inhibitor
+87333-19-5	Enzyme Inhibitor
+5051-62-7	Enzyme Inhibitor; Receptor Agonist; Receptor Partial Agonist
+81525-10-2	Enzyme Inhibitor
+97085-50-0	Receptor Agonist
+10262-69-8	Solute transporter inhibitor
+72703-73-2	Enzyme Inhibitor
+61941-56-8	Enzyme Inhibitor
+110204-46-1	Channel Blocker, selective
+20432-69-3	Channel enhancer /opener
+55350-03-3	Enzyme Inhibitor
+201677-61-4	Enzyme Inhibitor
+56-84-8	Endogenous Receptor /Channel Ligand
+150374-95-1	Enzyme Inhibitor
+143201-11-0	Enzyme Inhibitor
+19794-93-5	Solute transporter inhibitor
+141117-12-6	Enzyme Inhibitor
+98-96-4	Enzyme substrate mimic
+51-52-5	Enzyme Inhibitor
+1404-31-5	Distorts /blocks macromolecular scaffold function
+75507-68-5	Channel Modulator
+1759-09-7	Receptor Ligand Antagonist
+130308-48-4	Receptor Ligand Antagonist
+486-16-8	Receptor Ligand Antagonist
+80734-02-7	Enzyme Inhibitor
+118292-40-3	Enzyme Inhibitor; Receptor Agonist, selective
+63521-85-7	Distorts /blocks macromolecular synthesis scaffold
+58691-88-6	Enzyme Inhibitor
+53-19-0	Enzyme Inhibitor
+2622-37-9	Receptor Ligand Antagonist
+66104-23-2	Receptor Agonist
+99487-26-0	Channel Blocker
+55779-18-5	Enzyme Inhibitor
+92602-21-6	Enzyme Inhibitor
+58-18-4	Receptor Agonist
+99522-79-9	Channel Blocker
+150812-12-7	Channel Modulator
+129-74-8	Receptor Ligand Antagonist
+8001-54-5	Distorts /blocks macromolecular scaffold function
+434-07-1	Receptor Agonist
+150284-32-5	Channel Modulator
+68401-81-0	Enzyme Inhibitor
+1218-35-5	Receptor Agonist
+113141-80-3	Enzyme Inhibitor
+1695-77-8	Distorts /blocks macromolecular synthesis scaffold
+156579-02-1	Enzyme substrate mimic
+10212-25-6	Enzyme substrate mimic
+106650-56-0	Solute transporter inhibitor
+111841-85-1	Channel enhancer /opener
+86408-71-1	Enzyme Inhibitor
+63585-09-1	Enzyme Inhibitor
+467-86-7	Receptor Agonist
+135729-61-2	Channel Blocker, selective
+141646-08-4	Enzyme Inhibitor
+17650-98-5	Receptor Agonist
+141725-88-4	Enzyme Inhibitor, selective
+110501-66-1	Enzyme Inhibitor
+176199-48-7	Receptor Agonist
+16905-00-3	Enzyme Inhibitor
+75272-39-8	Receptor Agonist, selective; Receptor Ligand Antagonist, Selective
+51-03-6	Enzyme Inhibitor
+121055-09-2	Channel Modulator
+84957-29-9	Enzyme Inhibitor
+93107-08-5	Enzyme Inhibitor, selective
+5072-26-4	Enzyme Inhibitor
+151581-24-7	Receptor Ligand Antagonist
+92077-78-6	Enzyme Inhibitor
+134052-73-6	Receptor Ligand Antagonist
+76-41-5	Receptor Agonist
+70458-96-7	Enzyme Inhibitor, selective
+84252-03-9	Distorts /blocks macromolecular synthesis scaffold
+6514-85-8	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+135392-43-7	Enzyme Inhibitor
+170151-24-3	Enzyme Inhibitor
+132810-10-7	Receptor Ligand Antagonist
+111406-87-2	Enzyme Inhibitor
+145858-51-1	Enzyme Inhibitor, selective
+437-38-7	Receptor Agonist
+122254-45-9	Enzyme Inhibitor
+45086-03-1	Channel Blocker
+85951-65-1	Receptor Agonist
+5585-59-1	Distorts /blocks macromolecular synthesis scaffold
+63547-13-7	Solute transporter inhibitor
+15722-48-2	Enzyme Inhibitor
+152289-58-2	Receptor Ligand Antagonist
+128-62-1	Receptor Agonist, selective; Receptor Ligand Antagonist, Non-selective
+60628-96-8	Enzyme Inhibitor
+42551-62-2	Channel Blocker
+980-71-2	Receptor Ligand Antagonist, Selective
+204974-67-4	Enzyme Inhibitor
+134523-00-5	Enzyme Inhibitor
+28022-11-9	Distorts /blocks macromolecular synthesis scaffold
+42540-40-9	Enzyme Inhibitor
+9007-92-5	Receptor Agonist
+514-65-8	Channel Blocker; Receptor Ligand Antagonist, Selective
+148553-50-8	Channel Modulator
+59803-98-4	Receptor Agonist, selective
+438-60-8	Solute transporter inhibitor
+19387-91-8	Distorts /blocks macromolecular scaffold function
+97240-79-4	Enzyme Inhibitor; Solute transporter inhibitor; Channel Blocker
+171599-83-0	Enzyme Inhibitor, selective
+12584-58-6	Endogenous Receptor /Channel Ligand
+513-10-0	Enzyme Inhibitor
+104051-69-6	Enzyme Inhibitor, selective
+34444-01-4	Enzyme Inhibitor
+142494-87-9	Enzyme Inhibitor
+141579-67-1	Enzyme Inhibitor
+15301-48-1	Receptor Agonist
+61379-65-5	Enzyme Inhibitor, selective
+162542-90-7	Enzyme Inhibitor
+114977-28-5	Distorts /blocks macromolecular synthesis scaffold
+123948-88-9	Enzyme Inhibitor
+81732-46-9	Receptor Agonist
+82547-81-7	Enzyme Inhibitor
+103909-75-7	Receptor Agonist
+59009-93-7	Channel enhancer /opener
+111025-46-8	Receptor Agonist
+62658-63-3	Receptor Ligand Antagonist, Non-selective
+7125-76-0	Receptor Agonist
+124750-99-8	Receptor Ligand Antagonist, Selective
+57076-71-8	Enzyme Inhibitor
+87481-49-0	Receptor Agonist, selective
+57773-65-6	Receptor Agonist
+86220-42-0	Receptor Agonist
+105806-66-4	Enzyme Inhibitor
+94168-98-6	Enzyme Inhibitor, selective
+7224-08-0	Receptor Ligand Antagonist
+132539-06-1	Solute transporter inhibitor; Receptor Ligand Antagonist
+60282-87-3	Receptor Agonist
+166952-28-9	Receptor Ligand Antagonist, Selective
+27686-84-6	Enzyme Inhibitor; Enzyme Inhibitor, selective
+111469-81-9	Receptor Ligand Antagonist
+113852-37-2	Enzyme substrate mimic
+65576-45-6	Receptor Ligand Antagonist
+25046-79-1	Channel Blocker, selective
+2920-86-7	Receptor Agonist
+1197-21-3	Channel Blocker; Enzyme substrate mimic
+11003-08-0	Distorts /blocks macromolecular scaffold function
+135416-43-2	Solute transporter inhibitor
+95847-87-3	Receptor Agonist
+113-92-8	Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist, Selective
+79516-68-0	Receptor Ligand Antagonist, Selective
+35700-23-3	Receptor Agonist
+84-08-2	Receptor Ligand Antagonist
+133-67-5	Channel Blocker, selective
+51-41-2	Endogenous Receptor /Channel Ligand
+152657-84-6	Receptor Agonist, selective
+125181-57-9	Enzyme Inhibitor
+1508-65-2	Receptor Ligand Antagonist
+1392-21-8	Distorts /blocks macromolecular synthesis scaffold
+2074-53-5	Enzyme Inhibitor
+1393-25-5	Receptor Agonist
+87027-09-6	Enzyme Inhibitor
+43210-67-9	Distorts /blocks macromolecular scaffold function
+131631-89-5	Receptor Ligand Antagonist, Non-selective
+63610-08-2	Enzyme Inhibitor
+139145-27-0	Enzyme Inhibitor
+54-21-7	Enzyme Inhibitor; Solute transporter inhibitor; Enzyme Inhibitor, selective
+72432-10-1	Receptor Agonist; Channel Modulator
+60560-33-0	Channel enhancer /opener
+51-34-3	Receptor Ligand Antagonist
+34135-07-4	Receptor Agonist
+318-98-9	Receptor Ligand Antagonist, Non-selective
+134028-04-9	Channel Blocker
+59-05-2	Enzyme substrate mimic
+101477-54-7	Channel Blocker
+54301-15-4	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+128-46-1	Distorts /blocks macromolecular synthesis scaffold
+97901-21-8	Enzyme Inhibitor
+3612-98-4	Enzyme Inhibitor
+104941-35-7	Enzyme Inhibitor
+138614-30-9	Receptor Ligand Antagonist
+81732-65-2	Receptor Agonist
+23277-43-2	Receptor Partial Agonist
+138729-47-2	Channel Modulator
+58970-76-6	Enzyme Inhibitor
+68252-19-7	Channel Blocker; Receptor Ligand Antagonist
+108610-78-2	Enzyme Inhibitor
+86393-32-0	Enzyme Inhibitor, selective
+7261-97-4	Channel Blocker, selective
+14362-31-3	Receptor Ligand Antagonist
+3506-31-8	Receptor Agonist
+897-15-4	Solute transporter inhibitor
+550-70-9	Receptor Ligand Antagonist
+35941-65-2	Solute transporter inhibitor
+81147-92-4	Receptor Ligand Antagonist, Selective
+11070-73-8	Endogenous Receptor /Channel Ligand
+136-47-0	Channel Blocker
+53-36-1	Receptor Agonist
+89396-94-1	Enzyme Inhibitor
+983-85-7	Enzyme Inhibitor
+136777-48-5	Enzyme substrate mimic
+3440-28-6	Solute transporter inhibitor
+49697-38-3	Receptor Agonist
+298-46-4	Channel Blocker
+75696-02-5	Channel enhancer /opener
+122-40-7	Receptor Ligand Antagonist
+100599-27-7	Enzyme Inhibitor
+76712-82-8	Receptor Agonist
+94724-12-6	Channel Blocker
+110944-55-3	Receptor Agonist
+169590-42-5	Enzyme Inhibitor
+141034-42-6	Channel Blocker
+2235-90-7	Enzyme Inhibitor
+485-49-4	Channel Modulator
+54910-89-3	Solute transporter inhibitor
+119474-55-4	Enzyme Inhibitor, selective
+53808-88-1	Enzyme Inhibitor
+182821-27-8	Enzyme Inhibitor
+155773-58-3	Enzyme Inhibitor
+135729-56-5	Channel Blocker, selective
+530-43-8	Distorts /blocks macromolecular synthesis scaffold
+176721-04-3	Receptor Agonist
+80755-51-7	Receptor Ligand Antagonist, Selective
+157832-56-9	Channel Modulator
+4205-90-7	Receptor Agonist
+10379-14-3	Channel enhancer /opener
+66981-73-5	Channel Modulator
+88430-50-6	Receptor Agonist
+121714-72-5	Receptor Agonist
+108687-08-7	Channel Blocker
+133454-47-4	Receptor Ligand Antagonist
+68377-92-4	Receptor Partial Agonist; Receptor Ligand Antagonist, Non-selective
+121961-22-6	Enzyme Inhibitor
+614-39-1	Channel Blocker, selective
+84878-61-5	Distorts /blocks macromolecular scaffold function
+120164-49-0	Enzyme Inhibitor
+1434-54-4	Enzyme Inhibitor; Receptor Ligand Antagonist
+139264-25-8	Receptor Agonist
+103-90-2	Enzyme Inhibitor
+25451-15-4	Channel Blocker, selective
+53583-79-2	Receptor Ligand Antagonist, Selective
+52-78-8	Receptor Agonist
+518-28-5	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+12663-50-2	Channel Modulator
+20187-55-7	Enzyme Inhibitor
+11096-21-2	Enzyme Inhibitor
+80576-83-6	Enzyme substrate mimic
+61-80-3	Channel Modulator
+68630-75-1	Receptor Agonist
+80474-14-2	Receptor Agonist
+172927-65-0	Receptor Ligand Antagonist, Selective
+139226-30-5	Enzyme Inhibitor
+114289-47-3	Enzyme Inhibitor
+53086-13-8	Enzyme Inhibitor
+72559-06-9	Enzyme Inhibitor, selective
+537-46-2	Receptor Partial Agonist; Solute transporter inhibitor; Enzyme substrate mimic
+148-79-8	Distorts /blocks macromolecular scaffold function
+57-47-6	Enzyme Inhibitor
+117581-05-2	Receptor Ligand Antagonist
+139226-28-1	Enzyme Inhibitor
+51-98-9	Receptor Agonist
+87-08-1	Enzyme Inhibitor
+89226-50-6	Channel Blocker
+111974-69-7	Receptor Ligand Antagonist
+176199-49-8	Receptor Agonist
+136816-53-0	Distorts /blocks macromolecular synthesis scaffold
+170729-80-3	Receptor Ligand Antagonist
+303-25-3	Receptor Ligand Antagonist
+89943-82-8	Receptor Ligand Antagonist
+2169-64-4	Enzyme Inhibitor; Enzyme substrate mimic
+34140-59-5	Receptor Agonist, selective; Channel Modulator
+2955-38-6	Channel enhancer /opener
+83435-66-9	Enzyme Inhibitor
+125-58-6	Receptor Agonist
+83380-47-6	Enzyme Inhibitor, selective
+72956-09-3	Receptor Ligand Antagonist, Non-selective; Channel Blocker
+110765-49-6	Enzyme Inhibitor
+60-19-5	Solute transporter inhibitor; Receptor /Channel ligand mimic; Enzyme substrate mimic
+10457-90-6	Receptor Ligand Antagonist
+846-50-4	Channel enhancer /opener
+2751-09-9	Distorts /blocks macromolecular synthesis scaffold
+4267-05-4	Channel Blocker, selective
+62893-20-3	Enzyme Inhibitor
+552-80-7	Receptor Ligand Antagonist
+6384-92-5	Channel Modulator
+98631-95-9	Enzyme Inhibitor
+35543-24-9	Receptor Ligand Antagonist, Non-selective
+163042-96-4	Receptor Agonist, selective
+1845-11-0	Receptor Ligand Antagonist
+70476-82-3	Distorts /blocks macromolecular synthesis scaffold
+50892-23-4	Receptor Agonist, selective; Receptor Ligand Antagonist
+158664-17-6	Enzyme substrate mimic
+3902-71-4	Enzyme Inhibitor; Distorts /blocks macromolecular scaffold function
+145781-32-4	Receptor Ligand Antagonist, Selective
+54-62-6	Enzyme substrate mimic
+180272-16-6	Receptor Ligand Antagonist, Selective
+63-92-3	Solute transporter inhibitor; Receptor Ligand Antagonist, Non-selective
+254751-28-5	Receptor Ligand Antagonist
+2062-78-4	Channel Blocker; Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+19772-78-2	Channel Modulator
+75755-07-6	Enzyme Inhibitor
+91032-26-7	Distorts /blocks macromolecular synthesis scaffold
+125068-54-4	Enzyme Inhibitor
+969-33-5	Receptor Ligand Antagonist, Non-selective
+78712-43-3	Enzyme Inhibitor
+120551-59-9	Enzyme Inhibitor
+7414-83-7	Enzyme Inhibitor
+103186-19-2	Receptor Ligand Antagonist
+2447-57-6	Enzyme Inhibitor
+27220-47-9	Enzyme Inhibitor
+97322-87-7	Receptor Agonist
+24219-97-4	Receptor Ligand Antagonist
+140187-25-3	Channel Modulator
+50-91-9	Enzyme substrate mimic
+104632-25-9	Receptor Agonist
+132-22-9	Receptor Ligand Antagonist, Selective
+2016-88-8	Enzyme Inhibitor; Channel Blocker
+56281-36-8	Receptor Agonist
+395-28-8	Receptor Ligand Antagonist
+23734-88-5	Enzyme Inhibitor, Non-selective
+15687-07-7	Channel enhancer /opener
+152378-30-8	Channel Modulator
+86753-29-9	Channel enhancer /opener
+102518-79-6	Enzyme Inhibitor
+113-42-8	Receptor Ligand Antagonist
+57982-78-2	Enzyme Inhibitor; Solute transporter inhibitor; Channel Blocker; Receptor Ligand Antagonist
+31377-23-8	Receptor Ligand Antagonist; Channel Blocker, selective
+145858-52-5	Enzyme Inhibitor, selective
+178273-87-5	Receptor Ligand Antagonist, Selective
+9004-10-8	Endogenous Receptor /Channel Ligand
+186826-86-8	Enzyme Inhibitor, selective
+3074-35-9	Channel Blocker, selective
+5310-55-4	Enzyme Inhibitor; Channel enhancer /opener
+2933-45-1	Solute transporter inhibitor
+66644-81-3	Receptor Ligand Antagonist
+169970-69-8	Enzyme Inhibitor; Receptor Agonist; Receptor Ligand Antagonist
+16662-47-8	Channel Blocker
+92-84-2	Receptor Ligand Antagonist
+39831-55-5	Enzyme Inhibitor
+142522-28-9	Receptor Ligand Antagonist
+148869-05-0	Enzyme Inhibitor
+1264-72-8	Distorts /blocks macromolecular scaffold function
+160146-17-8	Enzyme Inhibitor, selective
+68964-90-9	Receptor Agonist; Receptor Partial Agonist
+127061-56-7	Enzyme Inhibitor
+68247-85-8	Distorts /blocks macromolecular synthesis scaffold
+132017-01-7	Enzyme Inhibitor
+167869-21-8	Enzyme Inhibitor
+58-33-3	Receptor Ligand Antagonist; Receptor Ligand Antagonist, Selective
+83903-06-4	Receptor Ligand Antagonist, Selective
+23047-25-8	Solute transporter inhibitor
+91832-40-5	Enzyme Inhibitor
+54340-58-8	Receptor Partial Agonist
+111223-26-8	Enzyme Inhibitor
+36637-18-0	Channel Blocker
+80410-36-2	Solute transporter inhibitor
+76547-98-3	Enzyme Inhibitor
+56391-57-2	Distorts /blocks macromolecular synthesis scaffold
+117211-03-7	Enzyme Inhibitor
+78186-33-1	Enzyme Inhibitor
+120635-72-5	Channel Blocker, selective
+128427-30-5	Enzyme Inhibitor, selective
+71447-49-9	Endogenous Receptor /Channel Ligand
+64872-76-0	Enzyme Inhibitor
+113-73-5	Distorts /blocks macromolecular scaffold function
+186392-65-4	Enzyme Inhibitor
+212142-18-2	Enzyme Inhibitor
+34661-75-1	Receptor Agonist; Receptor Ligand Antagonist
+13523-86-9	Receptor Ligand Antagonist
+147-52-4	Enzyme Inhibitor
+64228-81-5	Channel Blocker
+25523-97-1	Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist, Selective
+134395-58-7	Enzyme Inhibitor
+40796-97-2	Solute transporter inhibitor; Channel Blocker, selective
+17230-88-5	Receptor Ligand Antagonist
+345-78-8	Receptor Agonist
+112808-22-7	Enzyme Inhibitor
+987-24-6	Receptor Agonist
+128326-82-9	Enzyme Inhibitor
+5611-64-3	Channel Blocker, selective
+83166-17-0	Solute transporter inhibitor
+58-93-5	Channel Blocker, selective
+54317-11-2	Channel Modulator
+15307-81-0	Enzyme Inhibitor
+34911-55-2	Solute transporter inhibitor; Channel Blocker
+101975-10-4	Enzyme Inhibitor
+31842-61-2	Receptor Agonist, selective
+75498-96-3	Enzyme Inhibitor
+123169-88-0	Enzyme Inhibitor
+143943-73-1	Enzyme Inhibitor
+56124-62-0	Distorts /blocks macromolecular synthesis scaffold
+59721-29-8	Enzyme Inhibitor
+58665-96-6	Enzyme Inhibitor
+95058-81-4	Enzyme substrate mimic
+1491-59-4	Receptor Agonist
+132236-18-1	Enzyme Inhibitor
+65-19-0	Receptor Ligand Antagonist, Selective
+120-80-9	Distorts /blocks macromolecular scaffold function
+976-71-6	Enzyme Inhibitor; Receptor Ligand Antagonist
+5956-60-5	Distorts /blocks macromolecular synthesis scaffold
+67526-95-8	Enzyme Inhibitor
+164656-23-9	Enzyme Inhibitor
+6452-73-9	Receptor Partial Agonist
+452-35-7	Enzyme Inhibitor
+5051-22-9	Receptor Ligand Antagonist, Non-selective
+90-45-9	Enzyme Inhibitor; Distorts /blocks macromolecular synthesis scaffold
+179120-92-4	Channel Modulator
+69-74-9	Enzyme substrate mimic
+5841-63-4	Solute transporter inhibitor
+90898-90-1	Enzyme Inhibitor
+106516-24-9	Receptor Ligand Antagonist
+74103-06-3	Enzyme Inhibitor
+115964-29-9	Enzyme Inhibitor, selective
+8065-45-0	Solute transporter inhibitor
+522-48-5	Receptor Agonist
+141284-77-7	Enzyme Inhibitor
+35604-67-2	Enzyme Inhibitor; Solute transporter inhibitor
+114798-27-5	Receptor Ligand Antagonist, Selective
+25953-19-9	Enzyme Inhibitor
+77175-51-0	Enzyme Inhibitor
+68-88-2	Receptor Ligand Antagonist
+135889-00-8	Enzyme Inhibitor
+70879-28-6	Receptor Agonist
+96566-25-5	Receptor Ligand Antagonist
+99248-32-5	Receptor Ligand Antagonist, Selective
+180468-38-6	Receptor Ligand Antagonist, Selective
+1553-60-2	Enzyme Inhibitor
+126869-04-3	Receptor Ligand Antagonist, Selective
+848-75-9	Channel enhancer /opener
+51-67-2	Solute transporter inhibitor; Receptor /Channel ligand mimic; Enzyme substrate mimic
+789-61-7	Enzyme substrate mimic
+73963-72-1	Enzyme Inhibitor
+16378-21-5	Enzyme Inhibitor
+509-86-4	Channel Modulator
+138069-52-0	Distorts /blocks macromolecular synthesis scaffold
+84057-94-3	Receptor Ligand Antagonist, Selective
+552-25-0	Receptor Agonist
+114298-18-9	Receptor Agonist
+127-48-0	Receptor Agonist
+61380-40-3	Receptor Agonist, selective
+140-64-7	Distorts /blocks macromolecular synthesis scaffold
+196618-13-0	Enzyme Inhibitor, selective
+1405-97-6	Distorts /blocks macromolecular scaffold function
+167887-97-0	Enzyme Inhibitor, selective
+118202-69-0	Receptor Agonist, Non-selective
+56995-20-1	Channel Modulator
+54083-22-6	Distorts /blocks macromolecular synthesis scaffold
+2508-72-7	Receptor Ligand Antagonist
+5728-52-9	Enzyme Inhibitor
+84-22-0	Receptor Agonist
+85721-33-1	Enzyme Inhibitor, selective
+119901-69-8	Enzyme Inhibitor
+106791-39-3	Receptor Ligand Antagonist
+199864-87-4	Receptor Ligand Antagonist
+62030-88-0	Receptor Ligand Antagonist
+486-66-8	Receptor Agonist, selective
+91032-38-1	Distorts /blocks macromolecular synthesis scaffold
+1420-55-9	Receptor Ligand Antagonist
+154598-52-4	Enzyme Inhibitor
+186827-03-2	Enzyme Inhibitor, selective
+94-58-6	Distorts /blocks macromolecular synthesis scaffold
+1812-30-2	Channel enhancer /opener
+77-23-6	Receptor Agonist, selective; Receptor Ligand Antagonist, Non-selective; Receptor Ligand Antagonist
+155-09-9	Enzyme Inhibitor
+151165-96-7	Channel Modulator
+59122-46-2	Receptor Agonist
+120362-37-0	Enzyme substrate mimic
+5653-80-5	Receptor Agonist
+11050-21-8	Channel Blocker
+116573-93-4	Channel Blocker
+56-49-5	Receptor Agonist; Distorts /blocks macromolecular scaffold function
+158681-13-1	Receptor Ligand Antagonist, Selective
+6591-49-7	Distorts /blocks macromolecular synthesis scaffold
+3771-19-5	Enzyme Inhibitor; Receptor Agonist, selective
+122742-25-0	Receptor Ligand Antagonist
+116002-70-1	Channel Blocker, selective
+130-95-0	Enzyme Inhibitor; Channel Blocker
+29462-18-8	Channel enhancer /opener
+123955-23-7	Channel Blocker
+106400-81-1	Enzyme Inhibitor
+74512-12-2	Enzyme Inhibitor
+9045-63-0	Endogenous Receptor /Channel Ligand
+86484-91-5	Receptor Agonist
+112573-73-6	Enzyme Inhibitor
+562-26-5	Receptor Agonist
+112192-04-8	Receptor Agonist
+54-36-4	Enzyme Inhibitor
+113403-10-4	Enzyme Inhibitor
+7554-65-6	Enzyme Inhibitor
+50-49-7	Solute transporter inhibitor
+51-64-9	Receptor Partial Agonist; Solute transporter inhibitor; Enzyme substrate mimic
+135145-96-9	Receptor Ligand Antagonist, Selective
+141374-81-4	Receptor Ligand Antagonist
+103628-47-3	Receptor Agonist, selective
+56187-89-4	Enzyme Inhibitor
+54573-75-0	Receptor Agonist
+74168-08-4	Enzyme Inhibitor
+1806-26-4	Receptor Partial Agonist
+120656-74-8	Receptor Agonist, selective
+105956-97-6	Enzyme Inhibitor, selective
+163706-06-7	Receptor Ligand Antagonist
+82586-55-8	Enzyme Inhibitor
+120056-57-7	Channel Modulator
+5571-84-6	Channel enhancer /opener
+118289-78-4	Receptor Ligand Antagonist
+55837-27-9	Channel Blocker, selective
+68-22-4	Receptor Agonist
+56341-08-3	Receptor Agonist
+54301-16-5	Distorts /blocks macromolecular synthesis scaffold; Enzyme Inhibitor
+151-67-7	Channel Blocker
+78415-72-2	Enzyme Inhibitor
+163250-91-7	Receptor Ligand Antagonist, Selective
+105165-22-8	Endogenous Receptor /Channel Ligand
+55127-96-3	Receptor Agonist
+76932-56-4	Receptor Agonist
+162326-86-5	Receptor Agonist, selective
+119-36-8	Enzyme Inhibitor, selective
+9002-60-2	Receptor Agonist
+631-27-6	Channel Blocker, selective
+127266-56-2	Receptor Ligand Antagonist
+118783-94-1	Enzyme Inhibitor
+132-98-9	Enzyme Inhibitor
+522-51-0	Enzyme Inhibitor; Channel Blocker, selective
+148262-19-5	Enzyme Inhibitor
+85181-40-4	Solute transporter inhibitor
+60763-49-7	Channel Blocker; Receptor Ligand Antagonist
+12599-00-7	Channel Modulator
+67227-56-9	Receptor Agonist; Receptor Agonist, selective
+157212-55-0	Receptor Ligand Antagonist, Non-selective
+137281-23-3	Enzyme Inhibitor; Enzyme substrate mimic
+41570-61-0	Receptor Agonist
+132-21-8	Receptor Ligand Antagonist, Selective
+127142-14-7	Enzyme Inhibitor
+35554-44-0	Enzyme Inhibitor
+90101-16-9	Enzyme Inhibitor
+144-82-1	Enzyme Inhibitor
+127657-42-5	Enzyme Inhibitor
+178429-67-9	Channel Blocker
+103300-74-9	Receptor /Channel ligand mimic
+561-86-4	Channel Modulator
