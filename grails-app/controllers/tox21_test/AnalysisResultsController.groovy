@@ -412,7 +412,47 @@ println "Terms string placeholder: $termsStringPlaceholder"
     }
 
     def generateAnnoClassColors() {
-        return [ACTIVITY_CLASS:[255, 11, 11], ADVERSE_EFFECT:[246, 71, 36], CTD_CHEM2DISEASE:[248, 112, 43], CTD_CHEM2GENE_25:[251, 136, 20], CTD_GO_BP:[253, 174, 17], CTD_PATHWAY:[249, 213, 32], CTD_SF:[254, 254, 25], DRUGBANK_ATC_CODE:[217, 252, 41], DRUGBANK_TARGETS:[178, 253, 29], HTS_ACTIVE:[144, 244, 43], INDICATION:[102, 245, 30], KNOWN_TOXICITY:[54, 254, 14], LEADSCOPE_TOXICITY:[42, 246, 42], MECH_LEVEL_1:[18, 253, 58], MECH_LEVEL_2:[6, 252, 88], MECH_LEVEL_3:[15, 248, 131], MECHANISM:[31, 252, 178], MESH:[48, 249, 215], MESH_LEVEL_1:[48, 246, 246], MESH_LEVEL_2:[7, 210, 250], MESH_LEVEL_3:[50, 185, 253], MODE_CLASS:[26, 137, 247], MULTICASE_TOX_PREDICTION:[8, 88, 248], PHARMACTIONLIST:[47, 80, 247], PRODUCT_CLASS:[31, 31, 244], STRUCTURE_ACTIVITY:[52, 12, 251], TA_LEVEL_1:[98, 20, 254], TA_LEVEL_2:[140, 31, 249], TA_LEVEL_3:[170, 17, 247], THERAPEUTIC_CLASS:[212, 34, 248], TISSUE_TOXICITY:[254, 48, 254], TOXCAST:[244, 30, 209], TOXINS_TARGETS:[252, 35, 180], TOXPRINT_STRUCTURE:[249, 24, 137], TOXREFDB:[247, 55, 119], ZERO_CLASS:[244, 31, 67]]
+        return [ACTIVITY_CLASS:[255, 11, 11], 
+                ADVERSE_EFFECT:[246, 71, 36], 
+                CTD_CHEM2DISEASE:[248, 112, 43], 
+                CTD_CHEM2GENE_25:[251, 136, 20], 
+                CTD_GOENRICH_BIOPROCESS:[253, 174, 17], 
+                CTD_PATHWAY:[249, 213, 32], 
+                CTD_CHEMICALS_DISEASES:[33, 209, 86],
+                CTD_CHEMICALS_GENES:[107, 237, 124],
+                CTD_CHEMICALS_GOENRICH_CELLCOMP:[169, 232, 178],
+                CTD_CHEMICALS_GOENRICH_MOLFUNCT:[12, 201, 107],
+                CTD_CHEMICALS_PATHWAYS:[105, 207, 58],
+                DRUGBANK_CARRIERS:[254, 254, 25],
+                DRUGBANK_ENZYMES:[48, 246, 246], 
+                DRUGBANK_TRANSPORTERS:[7, 210, 250],
+                DRUGBANK_ATC:[217, 252, 41], 
+                DRUGBANK_ATC_CODE:[50, 185, 253], 
+                DRUGBANK_TARGETS:[178, 253, 29], 
+                HTS_ACTIVE:[144, 244, 43], 
+                INDICATION:[102, 245, 30], 
+                KNOWN_TOXICITY:[54, 254, 14], 
+                LEADSCOPE_TOXICITY:[42, 246, 42], 
+                MECH_LEVEL_1:[18, 253, 58], 
+                MECH_LEVEL_2:[6, 252, 88], 
+                MECH_LEVEL_3:[15, 248, 131], 
+                MECHANISM:[31, 252, 178], 
+                MESH:[48, 249, 215], 
+                MODE_CLASS:[26, 137, 247], 
+                MULTICASE_TOX_PREDICTION:[8, 88, 248], 
+                PHARMACTIONLIST:[47, 80, 247], 
+                PRODUCT_CLASS:[31, 31, 244], 
+                STRUCTURE_ACTIVITY:[52, 12, 251], 
+                TA_LEVEL_1:[98, 20, 254], 
+                TA_LEVEL_2:[140, 31, 249], 
+                TA_LEVEL_3:[170, 17, 247], 
+                THERAPEUTIC_CLASS:[212, 34, 248], 
+                TISSUE_TOXICITY:[254, 48, 254], 
+                TOXCAST_ACTIVE:[244, 30, 209], 
+                TOXINS_TARGETS:[252, 35, 180], 
+                TOXPRINT_STRUCTURE:[249, 24, 137], 
+                TOXREFDB:[247, 55, 119], 
+                TISSUE_TOXICITY:[244, 31, 67]]
     }
 
     def generateJaccardColor(jaccard) {
