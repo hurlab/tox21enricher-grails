@@ -631,9 +631,9 @@ class AnalysisController implements InitializingBean {
                             mechLevel1: "MECH_LEVEL_1",
                             mechLevel2: "MECH_LEVEL_2",
                             mechLevel3: "MECH_LEVEL_3",
-                            meshLevel1: "MESH_LEVEL_1",
-                            meshLevel2: "MESH_LEVEL_2",
-                            meshLevel3: "MESH_LEVEL_3",
+                            //meshLevel1: "MESH_LEVEL_1", //get from PubChem
+                            //meshLevel2: "MESH_LEVEL_2", //get from PubChem
+                            //meshLevel3: "MESH_LEVEL_3", //get from PubChem
                             modeClass: "MODE_CLASS",
                             productClass: "PRODUCT_CLASS",
                             structureActivity: "STRUCTURE_ACTIVITY",

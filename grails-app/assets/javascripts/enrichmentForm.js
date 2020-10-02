@@ -29,7 +29,10 @@ function renderCheckboxes() {
                      record.annoclassname == "ATC_NOT_VALIDATED" ||
                      record.annoclassname == "ATC_VALIDATED" ||
                      record.annoclassname == "CARRIER_NOT_VALIDATED" ||
-                     record.annoclassname == "CARRIER_VALIDATED") {
+                     record.annoclassname == "CARRIER_VALIDATED" ||
+                     record.annoclassname == "MESH_LEVEL_1" ||
+                     record.annoclassname == "MESH_LEVEL_2" ||
+                     record.annoclassname == "MESH_LEVEL_3") {
                 //do nothing, we aren't using these
             }
             else {
@@ -66,14 +69,14 @@ function renderCheckboxes() {
                 $(wrapperDiv).addClass("end");
 
                 //--Tooltips for each annotation class--//
-                //$(wrapperDiv).attr("data-tooltip", "");
-                //$(wrapperDiv).attr("aria-haspopup", true);
-                //$(wrapperDiv).addClass("has-tip");
-                //$(wrapperDiv).attr("data-disable-hover", false);
-                //$(wrapperDiv).attr("tabindex", 0);
-                //$(wrapperDiv).attr("data-position", "right");
-                //$(wrapperDiv).attr("data-alignment", "center");
-                //$(wrapperDiv).attr("title", el[2]);
+                $(wrapperDiv).attr("data-tooltip", "");
+                $(wrapperDiv).attr("aria-haspopup", true);
+                $(wrapperDiv).addClass("has-tip");
+                $(wrapperDiv).attr("data-disable-hover", false);
+                $(wrapperDiv).attr("tabindex", 0);
+                $(wrapperDiv).attr("data-position", "right");
+                $(wrapperDiv).attr("data-alignment", "center");
+                $(wrapperDiv).attr("title", el[2]);
 
                 $(wrapperDiv).prepend($("<label>").addClass("finger").prop("for", el[1]).html(el[0]));
                 $(rowDiv).append(wrapperDiv);
