@@ -6,6 +6,8 @@ function renderCheckboxes() {
         //alert("Data: " + data)
         var checkboxGroups = {"PubChem Compound Annotation":[], "DrugMatrix Annotation":[], "DrugBank Annotation":[], "CTD Annotation":[], "Other Annotations":[]};
         var stringMap = {"CTD Annotation":"CTD Annotation","DrugMatrix Annotation":"DrugMatrix Annotation","PubChem Compound Annotation":"PubChem Compound Annotation","DrugBank Annotation":"DrugBank Annotation"};
+        //var stringMap = {"CTD Annotation":"CTD","DrugMatrix Annotation":"DrugMatrix","PubChem Compound Annotation":"PubChem","DrugBank Annotation":"DrugBank"};
+
         for (var annoclassid in data) {
             var record = data[annoclassid];
             var annotype = record.annotype;
@@ -15,10 +17,10 @@ function renderCheckboxes() {
                 name = stringMap[annotype];
             }
             if (record.annoclassname == "CTD_CHEMICALS_GOENRICH_BIOPROCESS") {
-                checkboxGroups[name].push(["CTD_GOENRICH_BIOPROCESS <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
+                checkboxGroups[name].push(["CTD_GO_BP (new) <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
             }
             else if (record.annoclassname == "ZERO_CLASS" || 
-                     record.annoclassname == "CTD_GO_BP" || 
+                     //record.annoclassname == "CTD_GO_BP" || 
                      record.annoclassname == "CTD_SF" || 
                      record.annoclassname == "ENZYMES_NOT_VALIDATED" ||
                      record.annoclassname == "ENZYMES_VALIDATED" ||
@@ -33,7 +35,7 @@ function renderCheckboxes() {
                      record.annoclassname == "MESH_LEVEL_1" ||
                      record.annoclassname == "MESH_LEVEL_2" ||
                      record.annoclassname == "MESH_LEVEL_3") {
-                //do nothing, we aren't using these
+                //do nothing, we aren't using these. We can get rid of this else if after the next database update when we remove these altogether
             }
             else {
                 checkboxGroups[name].push([record.annoclassname, record.annogroovyclassname, record.annodesc]);
@@ -68,14 +70,14 @@ function renderCheckboxes() {
                 $(wrapperDiv).append(switchDiv);
                 $(wrapperDiv).addClass("end");
 
-                //--Tooltips for each annotation class--//
+                //Tooltips for each annotation class
                 $(wrapperDiv).attr("data-tooltip", "");
                 $(wrapperDiv).attr("aria-haspopup", true);
                 $(wrapperDiv).addClass("has-tip");
                 $(wrapperDiv).attr("data-disable-hover", false);
                 $(wrapperDiv).attr("tabindex", 0);
-                $(wrapperDiv).attr("data-position", "right");
-                $(wrapperDiv).attr("data-alignment", "center");
+                //$(wrapperDiv).attr("data-position", "right");
+                //$(wrapperDiv).attr("data-alignment", "center");
                 $(wrapperDiv).attr("title", el[2]);
 
                 $(wrapperDiv).prepend($("<label>").addClass("finger").prop("for", el[1]).html(el[0]));

@@ -109,41 +109,84 @@
 
             var isPerformingEnrichment = false;
             function resubmitCasrns() {
-                var textTest = "${casrnResults}";
-                console.log(textTest);
-                var aR = "${annoResults}";
-                console.log(aR);
-                document.getElementById("analysisType").value = "CASRNSReenrich";
-                document.getElementById("transactionId").value = transactionId;
-                document.getElementById("nodeCutoff").value = $("#nodeCutoff")
-                $('#main').hide();
-                $('#wait').show();
-                isPerformingEnrichment = true;
-                $('#enrichForm').submit();
+                //Check if at least one checkbox is checked
+                var minChecked = false;
+                $("input[type=checkbox]").each(function() {
+                    var isChecked = $(this).prop("checked");
+                    if (isChecked) minChecked = true;
+                });
+                if (minChecked == true) {   //if yes, then perform enrichment
+                    var textTest = "${casrnResults}";
+                    console.log(textTest);
+                    var aR = "${annoResults}";
+                    console.log(aR);
+                    document.getElementById("analysisType").value = "CASRNSReenrich";
+                    document.getElementById("transactionId").value = transactionId;
+                    document.getElementById("nodeCutoff").value = $("#nodeCutoff")
+                    $('#main').hide();
+                    $('#wait').show();
+                    isPerformingEnrichment = true;
+                    $('#enrichForm').submit();
+                }
+                else {  //if not, show warning
+                    $('#reenrichWarning').show();
+                }
             }
 
             //Toggle select/deselect all for reenrichment
-            var deselectAll = false;
+            //todo: fix this so it doesn't work so weirdly with the other deselect button
+            var selectMode = "deselect";
+            var selectModeWarnings = "deselect";
             function selectAllReenrich() {       //toggle enrichment category checkboxes
-            $("input[type=checkbox]").each(function() {
-                var isChecked = $(this).data("tox21_isChecked");
-                var doCheck = true;
-                if (!isChecked)
-                    doCheck = false;
+                $("input[type=checkbox]").each(function() {
+                    var isChecked = $(this).prop("checked");
 
-                if(doCheck == true) {
-                    $("#selectReenrichButton").text("Deselect All");
-                } else {
-                    $("#selectReenrichButton").text("Select All");
+                    //IF GOING TO DESELECT
+                    if (isChecked && selectMode == "deselect") { //deselect
+                        $(this).prop("checked", false);
+                        $("#selectReenrichButton").text("Select All");
+                        $("#selectWarningsButton").text("Select All With Warnings");
+                    }
+
+                    //IF GOING TO SELECT
+                    if (!isChecked && selectMode == "select") { //select
+                        $(this).prop("checked", true);
+                        $("#selectReenrichButton").text("Deselect All");
+                        $("#selectWarningsButton").text("Deselect All With Warnings");
+                    }
+                });
+                if (selectMode == "deselect") {
+                    selectMode = "select";
+                    selectModeWarnings = "select";
                 }
-
-                $(this).data("tox21_isChecked", !$(this).data("tox21_isChecked"));
-                if ($(this).attr('id') != "goBiop") {
-                    $(this).prop('checked', doCheck);
+                else {
+                    selectMode = "deselect";
+                    selectModeWarnings = "deselect";
                 }
-            });
-        }
+            }
 
+            //Toggle select/deselect only chemicals with hyperactive functional group warnings for reenrichment
+            
+            function selectAllWarnings() {       //toggle enrichment category checkboxes
+                $("input[type=checkbox]").each(function() {
+                    var isChecked = $(this).prop("checked");
+
+                    //IF GOING TO DESELECT
+                    if (isChecked && selectModeWarnings == "deselect" && $(this).hasClass("warnYes")) { //deselect
+                        $(this).prop("checked", false);
+                        $("#selectWarningsButton").text("Select All With Warnings");
+                    }
+
+                    //IF GOING TO SELECT
+                    if (!isChecked && selectModeWarnings == "select"  && $(this).hasClass("warnYes")) { //select
+                        $(this).prop("checked", true);
+                        $("#selectWarningsButton").text("Deselect All With Warnings");
+                    }
+                });
+                if (selectModeWarnings == "deselect") selectModeWarnings = "select";
+                else selectModeWarnings = "deselect";
+            }
+            
             //Periodically refresh the waiting page to update queue position and transaction status
             setInterval(function(){
                 if (isPerformingEnrichment === true) {
@@ -163,7 +206,7 @@
     <div id="wait" style="display: none">
         <br />
         <h3>Enrichment in Progress...</h3>
-        <p>You will be directed to the results page shortly. Please do not use your browser's back button.</p>
+        <p>You will be directed to the results page shortly. Please do not use your browser's back button or close this page.</p>
         <br />
 
         <div id="waittable" class="table-scroll">
@@ -219,6 +262,7 @@
 
         <button class="button" type="button" id="btnToggleAccordions" onclick="toggleAccordions();">Expand All</button>
 
+        <div id="resultFile">
         <g:set var="count" value="${0}" />
         <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
         <g:each var="fileSet" in="${resultSetModel.sortedResultMap}">
@@ -228,27 +272,60 @@
                     <div class="row">
                         <div class="small-12 column">
                             <g:if test="${resultSetModel.enrichAnalysisType == 'SMILES'}">
-                                <h6>SMILE input: ${resultSetModel.smilesWithResults[count]}</h6>
+                                <h6>SMILES input: ${resultSetModel.smilesWithResults[count]}</h6>
                             </g:if>
                             <g:set var="count" value="${count + 1}" />
                         </div>
                     </div>
                     <div class="row">
-                        <g:each var="file" in="${fileSet.value}">
-                            <div class="small-3 column end">
-                                <g:if test="${file.endsWith("txt") && file.contains("__")}">
-                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank">${file}</g:link>
+                        <g:each var="file" in="${fileSet.value}" >
+                            <div class="small-3 column end"> 
+                                <%-- display each result set file with tooltips --%>
+                                <%-- todo: do this in a way that's not so messy, or at least put it somewhere else --%>
+                                <g:if test="${file.endsWith("Cluster.xls") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="downloadFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A list of significant terms in which functionally similar annotations are grouped together to remove redundancy. This is performed with respect to the whole annotation set rather than to individual annotation classes (.xls format).">${file}</g:link>
                                 </g:if>
+
+                                <g:elseif test="${file.endsWith("Cluster.txt") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A list of significant terms in which functionally similar annotations are grouped together to remove redundancy. This is performed with respect to the whole annotation set rather than to individual annotation classes (.txt format).">${file}</g:link>
+                                </g:elseif>
+
+                                <g:elseif test="${file.endsWith("Chart.xls") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="downloadFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A list of all significant annotations (.xls format).">${file}</g:link>
+                                </g:elseif>
+
+                                <g:elseif test="${file.endsWith("Chart.txt") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A list of all significant annotations in (.txt format).">${file}</g:link>
+                                </g:elseif>
+
+                                <g:elseif test="${file.endsWith("ChartSimple.xls") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="downloadFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A list of the top 10 most signicant annotations for each annotation class (.xls format).">${file}</g:link>
+                                </g:elseif>
+
+                                <g:elseif test="${file.endsWith("ChartSimple.txt") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A list of the top 10 most signicant annotations for each annotation class (.txt format).">${file}</g:link>
+                                </g:elseif>
+
+                                <g:elseif test="${file.endsWith("Matrix.txt") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A text representation of the heatmap.">${file}</g:link>
+                                </g:elseif>
+
                                 <g:elseif test="${file.endsWith("png")}">
-                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.gctPerSetDir, filename: file]" target="_blank">
-                                        <asset:image src="HeatMapIcon.jpg" />
+                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.gctPerSetDir, filename: file]" target="_blank" data-tooltip tabindex="0" title="A heatmap image of the enrichment results.">
+                                        <asset:image src="HeatMapIcon.jpg" width="50" height="50" />
                                     </g:link>
                                 </g:elseif>
+
                                 <g:elseif test="${!file.contains("__")}">
-                                    <g:link controller="analysisResults" action="serveInputFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank">${fileSet.key} Input</g:link>
+                                    <g:link controller="analysisResults" action="serveInputFile" params="[resultSet: resultSetModel.resultSet, filename: file]" target="_blank" data-tooltip tabindex="0" title="A list of the submitted chemicals, displayed as CASRNs with corresponding names.">${fileSet.key} Input</g:link>
                                 </g:elseif>
+
+                                <g:elseif test="${file.endsWith("ErrorCasrns.txt") && file.contains("__")}">
+                                    <g:link controller="analysisResults" action="serveFile" params="[resultSet: resultSetModel.resultSet, filename: file]" data-tooltip tabindex="0" title="CASRNs that did not produce any results.">${file}</g:link>
+                                </g:elseif> 
+
                                 <g:else>
-                                    <g:link controller="analysisResults" action="downloadFile" params="[resultSet: resultSetModel.resultSet, filename: file]">${file}</g:link>
+                                    <g:link controller="analysisResults" action="downloadFile" params="[resultSet: resultSetModel.resultSet, filename: file]" >${file}</g:link>
                                 </g:else>
                             </div>
                         </g:each>
@@ -257,8 +334,9 @@
             </li>
         </g:each>
         </ul>
+        </div>
 
-        <g:if test="${resultSetModel.enrichAnalysisType == 'SMILES' || resultSetModel.enrichAnalysisType == 'SMILESSimilarity'}">
+        <g:if test="${resultSetModel.enrichAnalysisType != 'CASRNS' && resultSetModel.smilesNoResults.size > 0}">
             SMILE input with no results: <br />
             <g:each var="smileNoResults" in="${resultSetModel.smilesNoResults}">
                 ${smileNoResults}<br />
@@ -369,8 +447,9 @@
                 <br>
                 <h3>Adjust Network Generation</h3>
                 <br>
-                <form action="../analysisResults/regenNetwork" method="post" id="regen">
-                    <label id="chartSelect">Select number of nodes to generate
+                <form action="/tox21enricher/analysisResults/regenNetwork" method="post" id="regen">
+                    <p>This will determine the maximum number of results per data set and may affect how many nodes are generated during network generation. (default = 10)</p>
+                    <label id="chartSelect">
                     <input type="text" name="nodeCutoff" id="nodeCutoff">
                         <div class="grid-x grid-margin-x">
                             <div id="similaritySlider" class="cell small-10">
@@ -400,10 +479,7 @@
     </g:if>
 
         <%-- for SMILES or InChI, show table --%>
-        <g:if test="${(resultSetModel.enrichAnalysisType == 'SMILES' && resultSetModel.smilesWithResults != []) 
-        || (resultSetModel.enrichAnalysisType == 'SMILESSimilarity' && resultSetModel.smilesWithResults != [])
-        || (resultSetModel.enrichAnalysisType == 'InChI' && resultSetModel.smilesWithResults != [])
-        || (resultSetModel.enrichAnalysisType == 'InChISimilarity' && resultSetModel.smilesWithResults != [])}">
+        <g:if test="${resultSetModel.enrichAnalysisType != "CASRNS" && resultSetModel.smilesWithResults.size > 0 && resultSetModel.images.size() > 0}">
         <form action="enrich" method="post" id="enrichForm">
             <br>
             <h3>Re-enrich Selected Chemicals</h3>
@@ -411,6 +487,9 @@
             <label for="reenrichAccordion">Select CASRNs for re-enrichment:
                 <button class="tiny button" type="button" id="btnToggleAccordionsReenrich" onclick="toggleAccordionsReenrich();">Expand All</button>
                 <button class="tiny button" id="selectReenrichButton" type="button" onclick = "selectAllReenrich()">Deselect All</button>
+                <g:if test="${reactiveResults.size() > 0}">
+                    <button class="tiny button" id="selectWarningsButton" type="button" onclick = "selectAllWarnings()">Deselect All With Warnings</button>
+                </g:if>
             </label>
             <div class="accordion" id="reenrichAccordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
                 <g:each var="dataSet" in="${casrnResults}">
@@ -425,32 +504,122 @@
                                                 <thead>
                                                     <tr>
                                                     <th width="50">Select</th>
-                                                    <th width="200">Chemical Structure</th>
-                                                    <th width="200">Name</th>
-                                                    <th width="50">Structural Similarity (Tanimoto)</th>
+                                                    <th width="100" title="Click the chemical's image to view more details.">Chemical Structure</th>
+                                                    <th width="200" title="A common name for the chemical.">Name</th>
+                                                    <g:if test="${resultSetModel.enrichAnalysisType == 'SMILESSimilarity' || resultSetModel.enrichAnalysisType == 'InChISimilarity'}">
+                                                        <th width="50" title="A measurement of how structurally similar this chemical is to the submitted chemical using a Tanimoto threshold.">Structural Similarity (Tanimoto)</th>
+                                                    </g:if>
                                                     <!-- <th width="150">Biological Similarity (Pearson)</th> -->
-                                                    <th width="50">CASRN</th>
-                                                    <!-- <th width="150">Mismatch Structure Alert</th> -->
+                                                    <th width="50" word-break="break-all" title="The chemical's representation in SMILES notation.">SMILES</th>
+                                                    <th width="50" title="The chemical's representation in CASRN notation, matching the one found in the EPA's CompTox Chemicals Dashboard.">CASRN</th>
+                                                    <g:set var="foundMismatch" value="${false}" />
+                                                    <g:each var="casrn" in="${dataSet.value}">
+                                                        <g:if test="${reactiveResults.size() > 0 && foundMismatch == false}">
+                                                            <g:each var="reactive" in="${reactiveResults}">
+                                                                <g:if test="${reactive.casrn == casrn.id}">
+                                                                    <th width="50" title="A warning explaining that a known, functionally hyperactive group(s) appears only in either the chemical you submitted or at least one of its results. It is recommended that you deselect any chemicals with this warning and perform re-enrichment.">Mismatch Structure Alert</th>
+                                                                    <g:set var="foundMismatch" value="${true}" />
+                                                                </g:if>
+                                                            </g:each>
+                                                        </g:if>
+                                                    </g:each>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <g:each var="casrn" in="${dataSet.value}">
                                                         <tr>
-                                                        <td><input type="checkbox" name="CASRNSChecked" id="CASRNSChecked" value="${casrn.id}" checked></td>
+                                                        <td>
+                                                            <!-- from ResultsTagLib -->
+                                                            <g:eachReactive reactive="${reactiveResults}" check="${casrn.id}" /> 
+                                                        </td>
                                                         <td>
                                                             <g:set var="structureExists" value="${new File("/home/hurlab/tox21/grails-app/assets/images/structures/${casrn.id}.png").exists()}"></g:set>
                                                             <g:if test="${structureExists}">
-                                                                <asset:image src="structures/${casrn.id}.png" width="150" height="150" />
+                                                                <asset:image src="structures/${casrn.id}.png" width="75" height="75" data-open="${casrn.id}" onmouseover="" style="cursor: pointer;" />
+                                                                <div class="reveal small" id="${casrn.id}" data-reveal data-options="close_on_background_click:true; close_on_esc: true;">
+                                                                    <div class="row">
+                                                                        <div class="medium-6 columns">
+                                                                            <asset:image src="structures/${casrn.id}.png" width="500" height="500" />
+                                                                        </div>
+                                                                        <div class="medium-6 columns">
+                                                                            <p class="lead">${casrn.name}</p>
+                                                                            <div class="table-scroll">
+                                                                                <table class="hover">
+                                                                                <thead></thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <g:if test="${casrn.iupac != "none"}">
+                                                                                            <td>IUPAC Name</td>
+                                                                                            <td>${casrn.iupac}</td>
+                                                                                        </g:if>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>CASRN</td>
+                                                                                        <td>${casrn.id}</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>SMILES</td>
+                                                                                        <td>${casrn.smiles}</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <g:if test="${casrn.inchi != "none"}">
+                                                                                            <td>InChI</td>
+                                                                                            <td>${casrn.inchi}</td>
+                                                                                        </g:if>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <g:if test="${casrn.inchikey != "none"}">
+                                                                                            <td>InChI Key</td>
+                                                                                            <td>${casrn.inchikey}</td>
+                                                                                        </g:if>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <g:if test="${casrn.formula != "none"}">
+                                                                                            <td>Molecular Formula</td>
+                                                                                            <td>${casrn.formula}</td>
+                                                                                        </g:if>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <g:if test="${casrn.weight != "none"}">
+                                                                                            <td>Molecular Weight</td>
+                                                                                            <td>${casrn.weight}</td>
+                                                                                        </g:if>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                            <g:if test="${casrn.cid != "none"}">
+                                                                                <p><a href="https://pubchem.ncbi.nlm.nih.gov/compound/${casrn.cid}" target="_blank">View at PubChem</a></p>
+                                                                            </g:if>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                                                                            <span aria-hidden="true">&times;</span>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
                                                             </g:if>
                                                             <g:if test="${!structureExists}">
-                                                                <asset:image src="structures/no_img.png" width="150" height="150" />
+                                                                <asset:image src="structures/no_img.png" width="75" height="75" />
                                                             </g:if>
                                                         </td>
                                                         <td>${casrn.name}</td>
-                                                        <td>${casrn.sim}</td>
+                                                        <g:if test="${resultSetModel.enrichAnalysisType == 'SMILESSimilarity' || resultSetModel.enrichAnalysisType == 'InChISimilarity'}">
+                                                            <td>${casrn.sim}</td>
+                                                        </g:if>
                                                         <!-- <td>[not implemented yet]</td> -->
+                                                        <td>${casrn.smiles}</td>
                                                         <td id="casrnToReenrich">${casrn.id}</td>
-                                                        <!-- <td>[not implemented yet]</td> -->
+                                                        <g:if test="${reactiveResults.size() > 0}">
+                                                            <g:each var="reactive" in="${reactiveResults}">
+                                                                <g:if test="${reactive.casrn == casrn.id}">
+                                                                    <td>
+                                                                    <p style="color:red" data-tooltip tabindex="0" title="Warning: either this chemical contains a known reactive group(s) (${reactive.warn}) while your original submission did not, or this chemical does not contain a known reactive group(s) (${reactive.warn}) that your original submission contained. It is recommended that you deselect this chemical and perform re-enrichment on your data set."><i>${reactive.warn}</i></p>
+                                                                    </td>
+                                                                </g:if>
+                                                            </g:each>
+                                                        </g:if>
                                                         </tr>
                                                     </g:each>
                                                 </tbody>
@@ -462,8 +631,9 @@
                     </li>
                 </g:each>
             </div>
-            <br />
-
+            <br>
+            <p name="reenrichWarning" id="reenrichWarning" style="color:red;display:none">At least one chemical must be selected to perform re-enrichment.</p>
+            <br>
             <input type="button" class="button" name="reenrich" value="Re-Enrich Selected Chemicals" onclick="resubmitCasrns()" />                
             <input type="hidden" name="analysisType" id="analysisType" value="CASRNSReenrich" />
             <input type="hidden" name="transactionId" id="transactionId" value="none" />

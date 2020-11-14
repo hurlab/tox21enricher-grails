@@ -68,7 +68,7 @@
         <br />
         <h3>Enrichment in Progress...</h3>
 
-        <p>You will be directed to the results page shortly. Please do not use your browser's back button.</p>
+        <p>You will be directed to the results page shortly. Please do not use your browser's back button or close this page.</p>
         <br />
 
         <div id="waittable" class="table-scroll"> 

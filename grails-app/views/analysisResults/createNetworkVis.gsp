@@ -50,16 +50,17 @@
             <nobr><label>Q-Value
                 <input name="qval" id="qvalInput" value="${params.qval}">
             </label></nobr>
+            <br>
             <label>Select Input Sets</label>
-            <br />
+            <br>
             <g:each var="inputSet" in="${inputSets.keySet()}">
                 <input name="checkbox" type="checkbox" value="${inputSet}" data-checked="${Arrays.asList(inputSetCheckbox).contains(inputSet)}"><label for="checkbox">${inputSet}</label>
-                <br />
+                <br>
             </g:each>
             <g:submitButton class="button small" name="networkSubmit" value="Begin Network Generation" />
             <div id="eventSpan">
                 Click a node to see more details. 
-                <br />
+                <br>
                 <i>Note: number of represented nodes may change for a certain set depending on if the set was enriched with other sets.</i>
             </div>
             <div id="eventSpan">Node Legend</div>

@@ -44,6 +44,9 @@
     <%def tid = UUID.randomUUID().toString()%>
 
     <script>
+        //set url to root. This is so stuff doesn't get broken if enrichment processes return errors
+        window.history.pushState("", "", '/tox21enricher/');
+
         //save UUID to JS variable for easy access
         var transactionId = "<%=tid%>"
 
@@ -54,28 +57,25 @@
             document.getElementById("SMILEBox").value= setSmile;
         }
         function exampleInchi() {
-            var setInchi =  "#InchISet1\n" +
-                            "InChI=1S/C8H7NO2/c1-6(10)7-2-4-8(9-11)5-3-7/h2-5H,1H3\n" +
-                            "#InchISet2\n" +
+            var setInchi =  "InChI=1S/C8H7NO2/c1-6(10)7-2-4-8(9-11)5-3-7/h2-5H,1H3\n" +
                             "InChI=1S/C7H7Cl/c8-6-7-4-2-1-3-5-7/h1-5H,6H2\n" +
-                            "#InchISet3\n" +
                             "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3\n";
             document.getElementById("InChIBox").value= setInchi;
         }
 
         function exampleSmileSimilarity() {
-            var setSmile = "CC(=O)C1=CC=C(C=C1)[N+]([O-])\n" +
-                    "ClCC1=CC=CC=C1\n" +
-                    "CN(C)C1=CC=C(C=C1)\n";
+            var setSmile = "COCCOC(=O)CC#N\n" +             //cyanide w/o warnings
+                    "C1=CC=C(C=C1)CSC#N\n" +                //cyanide warning
+                    "C1OC1C1=CC=CC=C1\n" +                  //epoxide warning
+                    "CC1(C)CC(CC(C)(CN=C=O)C1)N=C=O\n" +    //isocyanate warning
+                    "OC(=O)C(\\Cl)=C(\\Cl)C=O\n" +          //aldehyde warning
+                    "CN(C)C1=CC=C(C=C1)\n";                 //no warnings
             document.getElementById("SMILESimilarityBox").value= setSmile;
         }
 
         function exampleInchiSimilarity() {
-            var setInchi =  "#InchISet1\n" +
-                            "InChI=1S/C8H7NO2/c1-6(10)7-2-4-8(9-11)5-3-7/h2-5H,1H3\n" +
-                            "#InchISet2\n" +
+            var setInchi =  "InChI=1S/C8H7NO2/c1-6(10)7-2-4-8(9-11)5-3-7/h2-5H,1H3\n" +
                             "InChI=1S/C7H7Cl/c8-6-7-4-2-1-3-5-7/h1-5H,6H2\n" +
-                            "#InchISet3\n" +
                             "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3\n";
             document.getElementById("InChISimilarityBox").value= setInchi;
         }
@@ -142,9 +142,32 @@
             CASRNBox.value= setMany;
         }
 
+        //TODO: this function was here already, but I'm not sure if it is being used
         function clearText() {
             document.getElementById("CASRNBox").value= "";
             CASRNBox.value= "";
+        }
+
+        //clear boxes
+        function clearInputCasrn() {
+            document.getElementById("CASRNBox").value="";
+            CASRNBox.value= "";
+        }
+
+        function clearInputSmileSubstructure() {
+            document.getElementById("SMILEBox").value= "";
+        }
+
+        function clearInputInchiSubstructure() {
+            document.getElementById("InChIBox").value= "";
+        }
+
+        function clearInputSmileSimilarity() {
+            document.getElementById("SMILESimilarityBox").value= "";
+        }
+
+        function clearInputInchiSimilarity() {
+            document.getElementById("InChISimilarityBox").value= "";
         }
 
         var isPerformingEnrichment = false;
@@ -332,7 +355,7 @@
     <div id="wait" style="display: none">
         <br />
         <h3>Enrichment in Progress...</h3>
-        <p>You will be directed to the results page shortly. Please do not use your browser's back button.</p>
+        <p>You will be directed to the results page shortly. Please do not use your browser's back button or close this page.</p>
         <br />
 
         <div id="waittable" class="table-scroll">
@@ -382,11 +405,10 @@
     </div>
 
     <div id="main">
-        <form action="analysis/enrich" method="post" id="enrichForm">
+        <form action="/tox21enricher/analysis/enrich" method="post" id="enrichForm">
             <div class="row" id="checkboxes">
                 <br>
-
-                Please see <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'Tox21Enricher_Manual_v2.1.pdf']" target="_blank">this link </g:link> for instructions on using this application and the descriptions about the chemical/biological categories. Other resources from the Tox21 toolbox can be viewed <g:link url="https://ntp.niehs.nih.gov/results/tox21/tbox/">here.</g:link>
+                Please see <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'Tox21Enricher_Manual_v3.1.pdf']" target="_blank">this link </g:link> for instructions on using this application and the descriptions about the chemical/biological categories. Other resources from the Tox21 toolbox can be viewed <g:link url="https://ntp.niehs.nih.gov/results/tox21/tbox/">here.</g:link>
                 <br>
                 <div class="accordion" id="categoriesHeader">
                     <h3>Select chemical/biological annotation categories</h3>
@@ -395,13 +417,29 @@
                     <button class="button" type="button" id="btnToggleCategories" onclick="toggleCategories();">Deselect All</button>
 
                 </div>
-
             </div>
+
             <div class="row">
                 <div class="columns">
                     <br>
-                    <h3>Enrich From...</h3>
-                    <p>Note: Please verify you are using the correct chemical identifiers by referencing the <a href="https://comptox.epa.gov/dashboard">EPA's CompTox Chemicals Dashboard.</a> </p>
+                    <%-- Slider for selecting cutoff for how many nodes to generate during network generation--%>
+                    <h3>Select enrichment cutoff</h3>
+                    <p>This will determine the maximum number of results per data set and may affect how many nodes are generated during network generation. (default = 10)</p>
+                    <br>
+                    <label id="chartSelect">
+                    <input type="text" name="nodeCutoff" id="nodeCutoff">
+                        <div class="grid-x grid-margin-x">
+                            <div id="similaritySlider" class="cell small-10">
+                                <div class="slider" data-slider data-start="10" data-initial-start="10" data-end="100" data-step="1">
+                                <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="nodeCutoff"></span>
+                                <span class="slider-fill" data-slider-fill></span>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    <br>
+                    <h3>Select enrichment type</h3>
+                    <b>Note:</b> Please verify you are using the correct chemical identifiers by referencing the <a href="https://comptox.epa.gov/dashboard">EPA's CompTox Chemicals Dashboard.</a>
                 </div>
             </div>
 
@@ -421,6 +459,7 @@
                             <label for="CASRNBox">Add '#SetName' before each set, if using multiple sets at once. Ex)
                                 <button class="tiny button" type="button" onclick = "singleSet()">Single Set</button>
                                 <button class="tiny button" type="button" onclick ="multiSet()">Multiple Sets</button>
+                                <button class="tiny button" type="button" onclick ="clearInputCasrn()">Clear Input</button>
                                 <g:if test="${isCasrnErrors}">
                                     <g:textArea class="extralarge" name="CASRNBox" ><%--
                                 --%><g:each in="${goodCasrns}">
@@ -456,15 +495,11 @@
 
                                 <label for="SMILEBox">Enter partial or complete SMILES strings, one per line. Ex)
                                     <button class="tiny button" type="button" onclick = "exampleSmile()">SMILES strings</button>
+                                    <button class="tiny button" type="button" onclick ="clearInputSmileSubstructure()">Clear Input</button>
                                 </label>
 
                                 <g:if test="${isSmileErrors}">
-                                    <!--This line is all on one line with no whitespace because of the way the textArea is being populated.-->
-                                    <g:textArea class="extralarge" name="SMILEBox" ><%--
-                                --%><g:each in="${psqlGoodSmiles}">
-                                    <%--                            --%>${it.smile}<%--
-                                --%></g:each><%--
-                        --%></g:textArea>
+                                    <g:textArea class="extralarge" name="SMILEBox" >${psqlGoodSmiles}</g:textArea>
                                     <g:each in="${psqlErrorSmiles}">
                                         <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}.</p>
                                     </g:each>
@@ -480,10 +515,24 @@
 
                             <%-- InChI Box --%>
                             <div id="inchiBoxContainer" style="display: none">
-                                <label for="InChIBox">Enter InChI strings, one per line. Add '#SetName' before each set, if using multiple sets at once. Ex)
-                                    <button class="tiny button" type="button" onclick = "exampleInchi()">InChi strings</button>
+                                <label for="InChIBox">Enter InChI strings, one per line. Ex)
+                                    <button class="tiny button" type="button" onclick = "exampleInchi()">InChI strings</button>
+                                    <button class="tiny button" type="button" onclick ="clearInputInchiSubstructure()">Clear Input</button>
                                 </label>
-                                <g:textArea class="extralarge" name="InChIBox" id="InChIBox" ></g:textArea>
+                                <g:if test="${isInChIErrors}">
+                                    <g:textArea class="extralarge" name="InChIBox" >${psqlGoodSmiles}</g:textArea>
+                                    <g:each in="${psqlErrorSmiles}">
+                                        <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}.</p>
+                                    </g:each>
+                                    <g:if test="${noSmileInput}">
+                                        <p style="color:red">Input is required to perform enrichment.</p>
+                                    </g:if>
+                                </g:if>
+                                <g:else>
+                                    <g:textArea class="extralarge" name="InChIBox" id="InChIBox" ></g:textArea>
+                                    <br>
+                                </g:else>
+
                                 <br>
                             </div>
 
@@ -500,7 +549,7 @@
                                 <h4>Chemicals With Structural Similarity</h4>
                                 
                                 <div>
-                                    <label id="thresholdSelect">Select similarity threshold (%)
+                                    <label id="thresholdSelect">Select Tanimoto similarity threshold (%)
                                             <input type="text" name="thresholdSelectValue" id="thresholdSelectValue">
                                                 <div class="grid-x grid-margin-x">
                                                 <div id="similaritySlider" class="cell small-10">
@@ -523,15 +572,11 @@
 
                                     <label for="SMILEStructuralBox">Enter partial or complete SMILES strings, one per line Ex)
                                         <button class="tiny button" type="button" onclick = "exampleSmileSimilarity()">SMILES strings</button>
+                                        <button class="tiny button" type="button" onclick ="clearInputSmileSimilarity()">Clear Input</button>
                                     </label>
                                     
-                                    <g:if test="${isSmileErrors}">
-                                        <!--This line is all on one line with no whitespace because of the way the textArea is being populated.-->
-                                        <g:textArea class="extralarge" name="SMILESimilarityBox" ><%--
-                                    --%><g:each in="${psqlGoodSmiles}">
-                                        <%--                            --%>${it.smile}<%--
-                                    --%></g:each><%--
-                            --%></g:textArea>
+                                    <g:if test="${isSmileSimErrors}">
+                                        <g:textArea class="extralarge" name="SMILESimilarityBox" >${psqlGoodSmiles}</g:textArea>
                                         <g:each in="${psqlErrorSmiles}">
                                             <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}.</p>
                                         </g:each>
@@ -547,10 +592,23 @@
 
                             <%-- InChI Box --%>
                             <div id="inchiSimilarityBoxContainer" style="display: none">
-                                <label for="InChISimilarityBox">Enter InChI strings, one per line. Add '#SetName' before each set, if using multiple sets at once. Ex)
-                                    <button class="tiny button" type="button" onclick = "exampleInchiSimilarity()">InChi strings</button>
+                                <label for="InChISimilarityBox">Enter InChI strings, one per line. Ex)
+                                    <button class="tiny button" type="button" onclick = "exampleInchiSimilarity()">InChI strings</button>
+                                    <button class="tiny button" type="button" onclick ="clearInputInchiSimilarity()">Clear Input</button>
                                 </label>
-                                <g:textArea class="extralarge" name="InChISimilarityBox" id="InChISimilarityBox" ></g:textArea>
+                                <g:if test="${isInChISimErrors}">
+                                    <g:textArea class="extralarge" name="InChISimilarityBox" >${psqlGoodSmiles}</g:textArea>
+                                    <g:each in="${psqlErrorSmiles}">
+                                        <p style="color:red">Invalid SMILE "${it.smile}" on line ${it.index + 1}.</p>
+                                    </g:each>
+                                    <g:if test="${noSmileInput}">
+                                        <p style="color:red">Input is required to perform enrichment.</p>
+                                    </g:if>
+                                </g:if>
+                                <g:else>
+                                    <g:textArea class="extralarge" name="InChISimilarityBox" id="InChISimilarityBox" ></g:textArea>
+                                    <br>
+                                </g:else>
                                 <br>
                             </div>
 
@@ -572,18 +630,7 @@
                         --%>
 
                         </div>
-                        <%-- Slider for selecting cutoff for how many nodes to generate during network generation--%>
-                        <label id="chartSelect">Select number of nodes to generate
-                        <input type="text" name="nodeCutoff" id="nodeCutoff">
-                            <div class="grid-x grid-margin-x">
-                                <div id="similaritySlider" class="cell small-10">
-                                    <div class="slider" data-slider data-start="10" data-initial-start="10" data-end="100" data-step="1">
-                                    <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="nodeCutoff"></span>
-                                    <span class="slider-fill" data-slider-fill></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </label>
+                        
                 
                     </div>
                 </div>

@@ -152,9 +152,12 @@ class ResultSetService {
             else if (line.startsWith("%")) {    //annotations
                 //ignore here                
             }
-            else {
+            else if (line.startsWith("!")) { //reactivelist
+                //ignore here
+            }
+            else {  //actual casrns retrieved
                 def tmp = line.split("\t")
-                inputSetsMap.getAt("${currentSet}").add( [id: tmp[0], name: tmp[1], sim: tmp[2]] )
+                inputSetsMap.getAt("${currentSet}").add( [id: tmp[0], name: tmp[1], sim: tmp[2], smiles: tmp[3], cid: tmp[4], iupac: tmp[5], inchi: tmp[6], inchikey: tmp[7], formula: tmp[8], weight: tmp[9]] )
             }
         }
         println ">>> INPUT SETS MAP >>> " + inputSetsMap
@@ -181,6 +184,29 @@ class ResultSetService {
         }
         println ">>> ANNO MAP >>> " + annoMap
         return annoMap
+    }
+
+    def getReactiveResults(resultSet){
+        def fh
+        def lines
+        try {
+            fh = new File(storageProperties.getBaseDir() + "${resultSet}/CASRNs.txt")
+            lines = fh.readLines()
+        }
+        catch (FileNotFoundException e) {
+            return [none:"none"]
+        }
+        def reactiveMap = []
+        lines.each { String line ->  //TODO: add number
+            if (line.startsWith("!")) {
+                line = line.substring(1) //remove # symbol from set name
+                def tmp = line.split("\t") //split to get reactive smiles, casrn, and warning type
+                reactiveMap += [smiles:tmp[0], casrn:tmp[1], warn:tmp[2]]
+            }
+        }
+        println ">>> REACT MAP >>> " + reactiveMap
+        return reactiveMap
+        
     }
 
     def getInputSets(resultSet, numSets, network, nodeCutoff) {

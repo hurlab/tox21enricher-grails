@@ -18,7 +18,6 @@ class EnrichmentService implements InitializingBean {
 
     def convertInchiToSmiles(inchi) {
         println("| Running Python script...")
-        println("| Python: ${EXT_SCRIPT_PATH_PYTHON}convertInchiToMol.py ${inchi}")
         Process convertInchiToMol = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 /home/hurlab/tox21/src/main/python/convertInchiToMol.py ${inchi}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
@@ -28,7 +27,64 @@ class EnrichmentService implements InitializingBean {
             print ("Output: $pythonOut\n")
             return pythonOut.toString()
         }
+        if (pythonErr.size() > 0) {
+            print ("Error: $pythonErr\n")
+        } 
+    }
+
+    def checkSmilesValid(smiles) {
+        Process checkSmiles = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 /home/hurlab/tox21/src/main/python/checkSmiles.py ${smiles}".execute()
+        def pythonOut = new StringBuffer()
+        def pythonErr = new StringBuffer()
+        checkSmiles.consumeProcessOutput(pythonOut, pythonErr)
+        checkSmiles.waitFor()
+        if (pythonOut.size() > 0) {
+            print ("Output: $pythonOut\n")
+            return pythonOut.toString()
+        }
+        if (pythonErr.size() > 0) {
+            print ("Error: $pythonErr\n")
+            return pythonErr.toString()
+        } 
+    }
+
+    def calcReactiveGroups(mol) {
+        println("| Running Python script to look for reactive groups for current smile...")
+        Process reactiveGroups = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 /home/hurlab/tox21/src/main/python/calcReactiveGroups.py ${mol}".execute()
+        def pythonOut = new StringBuffer()
+        def pythonErr = new StringBuffer()
+        reactiveGroups.consumeProcessOutput(pythonOut, pythonErr)
+        reactiveGroups.waitFor()
+        if (pythonOut.size() > 0) {
+            print ("Output: $pythonOut\n")
+            return pythonOut.toString()
+        }
         if (pythonErr.size() > 0) print ("Error: $pythonErr\n")
+    }
+
+    def calcCasrnReactiveGroups(mol, check) {
+        def mismatchesToReturn = []
+
+        def warn_cyanide    = mol.cyanide
+        def warn_isocyanate = mol.isocyanate
+        def warn_aldehyde   = mol.aldehyde
+        def warn_epoxide    = mol.epoxide
+        
+        //check both the original SMILE and this CASRN for reactive groups; we need to check them all to find mismatches
+        if(check[0].toInteger() != warn_cyanide) {
+            mismatchesToReturn += "Cyanide"
+        } 
+        if(check[1].toInteger() != warn_isocyanate) {
+            mismatchesToReturn += "Isocyanate"
+        }
+        if(check[2].toInteger() != warn_aldehyde) {
+            mismatchesToReturn += "Aldehyde"
+        }
+        if(check[3].toInteger() != warn_epoxide) {
+            mismatchesToReturn += "Epoxide"
+        }
+
+        return mismatchesToReturn
     }
 
     def performEnrichment(inputDir, outputDir, annoSelectStr) {

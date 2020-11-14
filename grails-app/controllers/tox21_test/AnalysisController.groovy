@@ -144,7 +144,7 @@ class AnalysisController implements InitializingBean {
                         itemBoxTmp += itemName+"\n"
                     }
                     itemBox = itemBoxTmp.trim()
-                    println("| REFRESHED DATA FOR ${queueDataList[i][1]}")
+                    //println("| REFRESHED DATA FOR ${queueDataList[i][1]}")
                     render(view: "form", model: [tid: queueDataList[i][1], pos: queueDataList[i][2], type: queueDataList[i][3].analysisType, items: itemBox, success: queueDataList[i][4], nodeCutoff: queueDataList[i][5]])
                     return
                 }
@@ -183,7 +183,7 @@ class AnalysisController implements InitializingBean {
             }
         }
 
-        //update queue display w/ result link after enrichment is done
+        //update queue display w/ result link after enrichment is done. We shouldn't really need this, but this is just in case it doesn't redirect for whatever reason
         def getQueueDataSuccess(def idToUpdate, def resultLink, def nodeCutoff) { 
             for(int i = 0; i < queueDataList.size(); i++) {
                 if(idToUpdate == queueDataList[i][1]) {
@@ -211,7 +211,7 @@ class AnalysisController implements InitializingBean {
             }
         }
 
-        //convert checked CASRNs from re-enrichment to the CASRNBox
+        //convert checked CASRNs from re-enrichment to the CASRNBox so we can process the same way we do with a regular CASRNs enrichment
         def convertCheckedCasrns (def queueItemToConvert) {
             def casrnsChecklist = queueItemToConvert.CASRNSChecked.toString().tokenize(',[]')
             //convert list of checked chemicals and set information to a format we can work with in Groovy
@@ -240,9 +240,65 @@ class AnalysisController implements InitializingBean {
             return queueItemToConvert.CASRNBox
         }
 
+        //render failure view in case no input is specified
+        def renderFailure (def status) {
+            if (status == "failurecasrn") render(view: "form", model: [isCasrnErrors: true, noCasrnInput: true])
+            else if (status == "failuresmiles") render(view: "form", model: [isSmileErrors: true, noSmileInput: true])
+            else if (status == "failuresmilessim") render(view: "form", model: [isSmileSimErrors: true, noSmileInput: true])
+            else if (status == "failureinchi") render(view: "form", model: [isInChIErrors: true, noSmileInput: true])
+            else if (status == "failureinchisim") render(view: "form", model: [isInChISimErrors: true, noSmileInput: true])
+            return
+        }
+
+        //TODO: this will work, but I need to clean it up and figure out a more efficient way to do this.
+        def renderFailureErrors (def status, def errorSmiles, def goodSmiles) {
+            println "errorSmiles >> " + errorSmiles
+            def errorSmilesList = errorSmiles.split("~")
+            def errorSmilesListOutput = []
+            println " << errorSmilesList >> " 
+            if (errorSmilesList != "") {
+                for (errorSmilesItem in errorSmilesList) {
+                    if (errorSmilesItem != "") {
+                        println "| " + errorSmilesItem
+                        errorSmilesItem = errorSmilesItem.trim()
+                        def tmpSmilesSplit = []
+                        tmpSmilesSplit = errorSmilesItem.split("_")
+                        if(tmpSmilesSplit != [] && tmpSmilesSplit != null) errorSmilesListOutput += [index:(tmpSmilesSplit[0]).toInteger(), smile:(tmpSmilesSplit[1])]
+                    }
+                }
+            }
+
+            println "goodSmiles >> " + goodSmiles            
+            def goodSmilesList = goodSmiles.split("~")
+            def goodSmilesListOutput = ""
+            println " << goodSmilesList >> " 
+            if (goodSmilesList != "") {
+                //for (goodSmilesItem in goodSmilesList) {
+                for (int i=0; i < goodSmilesList.length; i++) {
+                    if (goodSmilesList[i] != "") {
+                        println "| " + goodSmilesList[i]
+                        goodSmilesList[i] = goodSmilesList[i].trim()
+                        def tmpSmilesSplit = []
+                        tmpSmilesSplit = goodSmilesList[i].split("_")
+                        if (tmpSmilesSplit != [] && tmpSmilesSplit != null) {
+                            goodSmilesListOutput += tmpSmilesSplit[1]
+                            if (i != goodSmilesList.length-1) goodSmilesListOutput += "\n"
+                        }
+                    }
+                }
+            }
+            
+            if (status == "failuresmileserror") render(view: "form", model: [isSmileErrors: true, psqlErrorSmiles: errorSmilesListOutput, psqlGoodSmiles: goodSmilesListOutput])
+            else if (status == "failuresmilessimerror") render(view: "form", model: [isSmileSimErrors: true, psqlErrorSmiles: errorSmilesListOutput, psqlGoodSmiles: goodSmilesListOutput])
+            else if (status == "failureinchierror") render(view: "form", model: [isInChIErrors: true, psqlErrorSmiles: errorSmilesListOutput, psqlGoodSmiles: goodSmilesListOutput])
+            else if (status == "failureinchisimerror") render(view: "form", model: [isInChISimErrors: true, psqlErrorSmiles: errorSmilesListOutput, psqlGoodSmiles: goodSmilesListOutput])
+            return
+        }
+
     //******        This is the method for performing the enrichment process        ******//
         def enrich() {
             RequestAttributes requestContext = RequestContextHolder.getRequestAttributes() //set the requestContext variable to the context of the most recent web request sent to the controller
+                                                                                           //this is so we know where to send the results back to
             def paramsThread = params //to allow each thread to access its request's specific params
             //println("PARAMS: $paramsThread")
 
@@ -273,19 +329,21 @@ class AnalysisController implements InitializingBean {
                     def psqlErrorSmiles = []
                     def psqlGoodSmiles = []
                     def smiles = []
-                    def inchis = []
+                    //def inchis = []
                     def smilesWithResults = []
                     def smilesNoResults = []
                     def enrichAnalysisType = "none"
                     def casrnResultsData = [:]
                     def tmpCasrnNameList = []
+                    def tmpSmilesNameList = []
                     def threshold
                     def annoSelectSaved = [:]
+                    def reactiveList = []   //list of maps of chemicals that contain reactive groups
+                    def invalidCharactersError = "[,_]" //characters to remove from error input
 
                     //If we're using SMILE input or InChI input
                     //query psql to get our CASRNs.
                     if (params.analysisType == "SMILES" || params.analysisType == "SMILESSimilarity" || params.analysisType == "InChI" || params.analysisType == "InChISimilarity") {
-
                         //we are just consolidating everything into the SMILEBox regardless of enrichment type.
                         //if user picked SMILES similarity, put contents of that input box into SMILEBox
                         if(params.analysisType == "SMILESSimilarity") {
@@ -305,17 +363,36 @@ class AnalysisController implements InitializingBean {
 
                         enrichAnalysisType = params.analysisType
                         resultSetService.setAnalysisType(enrichAnalysisType)
-                        //error checking
+
+                        //detect if the user submitted SMILES or InChi. They are both handled almost identically internally.
+                        //the only difference is that InChI is fist converted to SMILES and then they are handled the same.
+                        if(enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
+                            println("| I think it's SMILES")
+                            println "THIS: >> $params.SMILEBox"
+                        }
+                        else if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
+                            println("| I think it's InChI")
+                            println "THIS: >> $params.InChIBox"
+                        }
+
+                        
+                        //error checking if no input
                         if (params.SMILEBox == "") {
-                            if (enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
-                                render(view: "form", model: [isSmileErrors: true, noSmileInput: true])
+                            println "blank smiles error"
+                            if (enrichAnalysisType == "SMILES") {
+                                reply "$_transactionId\tfailuresmiles"
                                 return
-                            }
-                            
+                            } else if (enrichAnalysisType == "SMILESSimilarity") {
+                                reply "$_transactionId\tfailuresmilessim"
+                                return
+                            }                            
                         }
                         if (params.InChIBox == ""){
-                            if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
-                                render(view: "form", model: [isSmileErrors: true, noSmileInput: true])
+                            if (enrichAnalysisType == "InChI") {
+                                reply "$_transactionId\tfailureinchi"
+                                return
+                            } else if (enrichAnalysisType == "InChISimilarity") {
+                                reply "$_transactionId\tfailureinchisim"
                                 return
                             }
 
@@ -325,21 +402,6 @@ class AnalysisController implements InitializingBean {
                         params.CASRNBox = "";
                         def sql = new Sql(dataSource_psql)
                         def curSet = 1
-
-                        //detect if the user submitted SMILES or InChi. They are both handled almost identically internally.
-                        //the only difference is that InChI is fist converted to SMILES and then they are handled the same.
-                        if(enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
-                            println("| I think it's SMILES")
-                            params.SMILEBox.eachLine { smile, lineNumber ->
-                                smiles.add(smile)
-                            }
-                        }
-                        else if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
-                            println("| I think it's InChI")
-                            params.InChIBox.eachLine { inchi, lineNumber ->
-                                inchis.add(inchi)
-                            }
-                        }
                         
                         def setThresholdQuery
                         //validate input because we can't sanitize with prepared statement because prepared statement isn't working here for some reason
@@ -358,81 +420,151 @@ class AnalysisController implements InitializingBean {
                         def ret = sql.execute(setThresholdQuery)
                         //println("RET: " + ret)
 
-
                         def dataBox
+
                         if(enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
+                            println("| I think it's SMILES")
                             dataBox = params.SMILEBox
-                            //println "SMILES | dataBox is $dataBox"
                         }
-                        else {
+                        else if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
+                            println("| I think it's InChI")
                             dataBox = params.InChIBox
-                            //println "InChI | dataBox is $dataBox"
                         }
-
+                        
+                        //TODO: try not to use exception to control flow if possible
                         dataBox.eachLine { itemFromBox, lineNumber ->
-                            //Try/catch block to catch invalid SMILEs/InChI
-                            try {
-                                def resultSet
-                                def reactive
-
+                            def tmpInChI
+                            if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
+                                tmpInChI = itemFromBox
                                 //This calls a Python script that uses rdkit to convert InChI strings to SMILES strings
                                 //after this, InChI strings are processed the same as SMILES
-                                if (enrichAnalysisType == "InChI" || enrichAnalysisType == "InChISimilarity") {
-                                    //println "converting: $itemFromBox"
-                                    itemFromBox = enrichmentService.convertInchiToSmiles(itemFromBox)
+                                def inchiToAdd = enrichmentService.convertInchiToSmiles(itemFromBox.replaceAll("\\s","")) //strip trailing whitespace (newlines)
+                                if (inchiToAdd != null) {
+                                    itemFromBox = inchiToAdd
                                 }
+                                else {
+                                    println "error converting: $itemFromBox on $lineNumber. Not a valid InChI string?"
+                                    psqlErrorSmiles.add("${lineNumber}_${itemFromBox.replaceAll(invalidCharactersError, "").trim()}")
+                                    return
+                                }
+                            }
 
+
+                            //set list of all smiles
+                            smiles += itemFromBox
+                            //Try/catch block to catch invalid SMILEs/InChI
+                            try {
+                                def resultSet = []
+                                def rowResultSet
                                 if (params.smilesSearchType == "Substructure") {
-                                    def tmpRows = sql.rows("select casrn from mols where m @> CAST(${itemFromBox} AS mol);")
+                                    //get both casrns and smiles from database. we need smiles to find the mismatch structures
+                                    //def tmpRows = sql.rows("select * from mols where m @> CAST(${itemFromBox} AS mol);")
+                                    def tmpRows = sql.rows("select * from mols_2 where m @> CAST(${itemFromBox} AS mol);")
                                     if (tmpRows != []) {
                                         tmpRows.each { tmpRow ->
                                             tmpRow["similarity"] = 0.5
                                         }
-                                        resultSet = tmpRows
+                                        rowResultSet = tmpRows
+                                        //convert from GroovyRowResult to Map so it's easier to work with
+                                        rowResultSet.each { result ->
+                                            def tmpSet =[:]
+                                            tmpSet["casrn"] = result.casrn
+                                            tmpSet["m"] = result.m
+                                            tmpSet["similarity"] = result.similarity
+                                            tmpSet["cyanide"] = result.cyanide
+                                            tmpSet["isocyanate"] = result.isocyanate
+                                            tmpSet["aldehyde"] = result.aldehyde
+                                            tmpSet["epoxide"] = result.epoxide 
+                                            resultSet += tmpSet
+                                        }
                                     }
                                     else {
+                                        rowResultSet = []
                                         resultSet = []
                                     }
-                                    //reactive = sql.rows("select m from mols where m @> CAST(${itemFromBox} AS mol);")
                                 }
                                 else if (params.smilesSearchType == "Similarity") {
-                                    resultSet = sql.rows("select casrn, similarity from get_mfp2_neighbors(${itemFromBox});")      
-                                    //reactive = sql.rows("select m from get_mfp2_neighbors(${itemFromBox});")
+                                    //first, check if the item on this line is actually valid SMILES, TODO: make this easier:
+                                    def SmilesValidCheck = enrichmentService.checkSmilesValid(itemFromBox)
+                                    println ">>> SmilesValidCheck >>> $SmilesValidCheck"
+                                    if (SmilesValidCheck.contains("None")) {
+                                        throw new IllegalArgumentException("Invalid SMILES: ${itemFromBox}")
+                                    }
+                                    //get both casrns and smiles from database. we need smiles to find the mismatch structures
+                                    rowResultSet = sql.rows("select * from get_mfp2_neighbors(${itemFromBox});")   
+                                    //convert from GroovyRowResult to Map so it's easier to work with 
+                                    rowResultSet.each { result ->
+                                        def tmpSet =[:]
+                                        tmpSet["casrn"] = result.casrn
+                                        tmpSet["m"] = result.m
+                                        tmpSet["similarity"] = result.similarity 
+                                        tmpSet["cyanide"] = result.cyanide
+                                        tmpSet["isocyanate"] = result.isocyanate
+                                        tmpSet["aldehyde"] = result.aldehyde
+                                        tmpSet["epoxide"] = result.epoxide
+                                        resultSet += tmpSet
+                                    }
+                                    println "got results: $resultSet"  
                                 }
 
-                                //temporary - need to change to accomodate for all reactive structures, not just cyanide
-                                //def reactiveList = []
-                                //reactive.each { molecule ->
-                                //    if (molecule.toString().contains("C#N") || molecule.toString().contains("N#C")) {
-                                //        println "CONTAINS CYANIDE"
-                                //        reactiveList += molecule.toString()
-                                //    }
-                                //    else {
-                                //        reactiveList += "none"
-                                //    }  
-                                //}
+                                //Preliminary check: check the itemFromBox to see if it contains a reactiveGroup
+                                def boxReactiveGroups = enrichmentService.calcReactiveGroups(itemFromBox.toString().trim())
+                                println "submitting: " + itemFromBox.toString().trim()
+                                def boxReactiveGroupsList = []
+                                if (boxReactiveGroups != null) {
+                                    boxReactiveGroupsList = boxReactiveGroups.split(",")
+                                    //clean box by stripping newlines, probably change this to be less silly later
+                                    for(int i = 0; i < boxReactiveGroupsList.size(); i++) {
+                                        if (boxReactiveGroupsList[i].contains("\n")) {
+                                            boxReactiveGroupsList = boxReactiveGroupsList - boxReactiveGroupsList[i]
+                                        }
+                                    }
+                                }
+                                println "=================| " + boxReactiveGroupsList
 
+                                //Here, we check if any reactive structures only appear in one of the lists and keep track of those.
+                                println ">> COMPARING FOR: $itemFromBox"
+                                resultSet.each { moleculeAfter ->
+                                    def reactiveGroups = enrichmentService.calcCasrnReactiveGroups(moleculeAfter, boxReactiveGroupsList)
+                                    if (reactiveGroups != []) {
+                                        reactiveList += [smiles:itemFromBox, casrn:moleculeAfter.casrn, warn:reactiveGroups]
+                                    }
+                                    
+                                }
+
+                                println "reactiveList:: " + reactiveList
                                 casrnResultsData.put(itemFromBox,resultSet)
                                 
-                                psqlGoodSmiles.add([index: lineNumber, smile: itemFromBox])
+                                if (enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
+                                    psqlGoodSmiles.add("${lineNumber}_${itemFromBox}")
+                                }
+                                else {
+                                    psqlGoodSmiles.add("${lineNumber}_${tmpInChI}")
+                                }
+
                                 if (resultSet.size() > 0) {
                                     params.CASRNBox += "#Set" + curSet + "\n"
                                     curSet++
                                     resultSet.each { result ->
-                                        //just grab the CASRN, not the similarity here, hence the result[0]
-                                        params.CASRNBox += result[0] + "\n"
+                                        //just grab the CASRN, not the similarity here
+                                        params.CASRNBox += result["casrn"] + "\n"
                                     }
                                     smilesWithResults.add(itemFromBox)
                                 }
                             }
-                            catch (PSQLException e) {
+                            catch (PSQLException | IllegalArgumentException e) {
+                                println "smiles error"
                                 psqlErrorMessage = e.getMessage()
                                 if (psqlErrorMessage.contains(PSQL_SMILE_ERROR)) {
                                     //Add the smile and the line in the input set it occurred on.
                                     //This will allow us to give a useful message such as:
                                     //"SMILE on line 5 is invalid."
-                                    psqlErrorSmiles.add([index: lineNumber, smile: itemFromBox])
-                                } else {
+                                    psqlErrorSmiles.add("${lineNumber}_${itemFromBox.replaceAll(invalidCharactersError, "")}")
+                                }
+                                else if (psqlErrorMessage.contains("Invalid SMILES:")) {
+                                    psqlErrorSmiles.add("${lineNumber}_${itemFromBox.replaceAll(invalidCharactersError, "")}")
+                                }
+                                else {
                                     //TODO: "Unknown database error"
                                     println(psqlErrorMessage)
                                 }
@@ -446,11 +578,14 @@ class AnalysisController implements InitializingBean {
                                 for (int i = 0; i < casrnValues.size(); i++) {
                                     casrnValues[i].each { casrnInsideKey, casrnInsideValue ->
                                         if(casrnInsideKey == "casrn") { //grab casrn names
-                                            casrnName = sql.rows("SELECT TestSubstance_ChemName FROM chemical_detail WHERE CASRN LIKE '" + casrnInsideValue + "'")
+                                            //vvv probably should grab this earlier? This may introduce a performance overhead vvv
+                                            casrnName = sql.rows("SELECT testsubstance_chemname,cid,iupac_name,inchis,inchikey,mol_formula,mol_weight FROM chemical_detail WHERE CASRN LIKE '" + casrnInsideValue + "'")
+                                            println "casrnName: $casrnName"
                                             tmpCasrnNameList += casrnName
-                                            //println "==================================================================================================="
-                                            //println "| grabbed: ${casrnName}\t${casrnInsideValue}"
-                                            //println "==================================================================================================="
+                                            
+                                        }
+                                        else if(casrnInsideKey == "m") { //grab smiles names
+                                            tmpSmilesNameList += casrnInsideValue
                                         }
                                     }
                                 }
@@ -461,6 +596,7 @@ class AnalysisController implements InitializingBean {
 
                         //get list of SMILES that did not yield CASRN results
                         smiles.each { itSmiles ->
+                            println "itSmiles $itSmiles"
                             if (!smilesWithResults.contains(itSmiles)) {
                                 smilesNoResults.add(itSmiles)
                             }
@@ -468,20 +604,38 @@ class AnalysisController implements InitializingBean {
 
                         resultSetService.setSmilesNoResults(smilesNoResults)
 
-                        //println "----------------------------------PSQL ERROR SMILES:"
-                        //println psqlErrorSmiles
-                        //println "----------------------------------PSQLERRORSMILES.EMPTY:"
-                        //println psqlErrorSmiles.empty
+                        println "----------------------------------PSQL ERROR SMILES:"
+                        println psqlErrorSmiles
+                        println "----------------------------------PSQLERRORSMILES.EMPTY:"
+                        println psqlErrorSmiles.empty
                         if (!psqlErrorSmiles.empty) {
-                            render(view: "form", model: [isSmileErrors: true, psqlErrorSmiles: psqlErrorSmiles, psqlGoodSmiles: psqlGoodSmiles])
+
+                            def psqlErrorSmilesString = "~"
+                            for (def i=0; i < psqlErrorSmiles.size; i++) {
+                                psqlErrorSmilesString += psqlErrorSmiles[i]
+                                if (i != psqlErrorSmiles.size-1) psqlErrorSmilesString += "~"
+                            }
+                            def psqlGoodSmilesString = "~"
+                            for (def i=0; i < psqlGoodSmiles.size; i++) {
+                                psqlGoodSmilesString += psqlGoodSmiles[i]
+                                if (i != psqlGoodSmiles.size-1) psqlGoodSmilesString += "~"
+                            }
+
+                            println "errorSmiles: $psqlErrorSmilesString"
+                            println "goodSmiles: $psqlGoodSmilesString"
+
+                            if (enrichAnalysisType == "SMILES") reply "$_transactionId\tfailuresmileserror\t$psqlErrorSmilesString\t$psqlGoodSmilesString"
+                            else if (enrichAnalysisType == "SMILESSimilarity") reply "$_transactionId\tfailuresmilessimerror\t$psqlErrorSmilesString\t$psqlGoodSmilesString"
+                            else if (enrichAnalysisType == "InChI") reply "$_transactionId\tfailureinchierror\t$psqlErrorSmilesString\t$psqlGoodSmilesString"
+                            else if (enrichAnalysisType == "InChISimilarity") reply "$_transactionId\tfailureinchisimerror\t$psqlErrorSmilesString\t$psqlGoodSmilesString"
                             return
                         }
-                        //println "----------------------------------SMILES LIST:"
-                        //println smiles
-                        //println "----------------------------------SMILES WITH RESULTS LIST:"
-                        //println smilesWithResults
-                        //println "----------------------------------SMILES NO RESULTS LIST:"
-                        //println smilesNoResults
+                        println "----------------------------------SMILES LIST:"
+                        println smiles
+                        println "----------------------------------SMILES WITH RESULTS LIST:"
+                        println smilesWithResults
+                        println "----------------------------------SMILES NO RESULTS LIST:"
+                        println smilesNoResults
                     }
 
                     //set enrichAnalysisType = CASRNS if it wasn't SMILES
@@ -533,7 +687,7 @@ class AnalysisController implements InitializingBean {
                                 params.CASRNBox += nameKey.trim() + "\n"
                                 for (int i = 0; i < listValue.size(); i++) {
                                     for (int j = 0; j < casrnsChecklist.size(); j++ ) {
-                                        if (listValue[i] == casrnsChecklist[j]) {
+                                        if (listValue[i].trim() == casrnsChecklist[j].trim()) {
                                             params.CASRNBox += listValue[i].trim() + "\n"
                                         }
                                     }
@@ -541,13 +695,14 @@ class AnalysisController implements InitializingBean {
                             }                            
                         }
 
-                        
+                        def originalAnalysisType = enrichAnalysisType
+                        println ">>>>>> $originalAnalysisType"
                         enrichAnalysisType = "CASRNS"
                         resultSetService.setAnalysisType(enrichAnalysisType)
-                        //println "PARAMS.CASRNBOX:${params.CASRNBox}:"
-                        if (params.CASRNBox == "") {
-                            //println "IN IF"
-                            render(view: "form", model: [isCasrnErrors: true, noCasrnInput: true])
+                        println "PARAMS.CASRNBOX:${params.CASRNBox}:"
+                        if (params.CASRNBox == "" && originalAnalysisType == "none") {
+                            println ">>>problem with enrichment!"
+                            reply "$_transactionId\tfailurecasrn"
                             return
                         }
                     }
@@ -589,7 +744,7 @@ class AnalysisController implements InitializingBean {
                     //TODO: don't do this if the user provided SMILEs as input
                     CASRNBox.eachLine { casrn, lineNumber ->
                             casrn = casrn.trim()
-                            //println "CASRN  <" + casrn + ">"
+                            println "CASRN  <" + casrn + ">"
                             casrnInput.add([index: lineNumber, casrn: casrn])
                     }
 
@@ -631,9 +786,6 @@ class AnalysisController implements InitializingBean {
                             mechLevel1: "MECH_LEVEL_1",
                             mechLevel2: "MECH_LEVEL_2",
                             mechLevel3: "MECH_LEVEL_3",
-                            //meshLevel1: "MESH_LEVEL_1", //get from PubChem
-                            //meshLevel2: "MESH_LEVEL_2", //get from PubChem
-                            //meshLevel3: "MESH_LEVEL_3", //get from PubChem
                             modeClass: "MODE_CLASS",
                             productClass: "PRODUCT_CLASS",
                             structureActivity: "STRUCTURE_ACTIVITY",
@@ -656,7 +808,8 @@ class AnalysisController implements InitializingBean {
                             toxPrintStructure: "TOXPRINT_STRUCTURE",
                             ctdChemicalsDiseases: "CTD_CHEMICALS_DISEASES",
                             ctdChemicalsGenes: "CTD_CHEMICALS_GENES",
-                            ctdChemicalsGoenrichBioprocess: "CTD_GOENRICH_BIOPROCESS",
+                            ctdChemicalsGoenrichBioprocess: "CTD_CHEMICALS_GOENRICH_BIOPROCESS",
+                            goBiop: "CTD_GO_BP",
                             ctdChemicalsGoenrichCellcomp: "CTD_CHEMICALS_GOENRICH_CELLCOMP",
                             ctdChemicalsGoenrichMolfunct: "CTD_CHEMICALS_GOENRICH_MOLFUNCT",
                             ctdChemicalsPathways: "CTD_CHEMICALS_PATHWAYS",
@@ -770,7 +923,7 @@ class AnalysisController implements InitializingBean {
                     //print "Path to enrichment input: $ENRICH_INPUT_PATH\n"
                     //println "Current input dir: $currentInputDir"
                     //println "Current output dir: $currentOutputDir"
-                    //println "Annotation selection string: $annoSelectStr"
+                    println "Annotation selection string: $annoSelectStr"
                     //print "Calling enrichment analysis perl script...\n"
                     enrichmentService.performEnrichment(currentInputDir, currentOutputDir, annoSelectStr)
                     print "Enrichment completed.\n"
@@ -788,7 +941,7 @@ class AnalysisController implements InitializingBean {
                         }
                     }
 
-                    //create casrn file to make re-enrichment table - todo: make into own thing
+                    //create casrn file to make re-enrichment table - todo: make into own thing or at least clean up
                     if (enrichAnalysisType == "SMILESSimilarity" 
                     || enrichAnalysisType == "InChISimilarity"
                     || enrichAnalysisType == "SMILES"
@@ -808,11 +961,37 @@ class AnalysisController implements InitializingBean {
                                     for (int i = 0; i < casrnValues.size(); i++) {
                                         casrnValues[i].each { casrnInsideKey, casrnInsideValue ->
                                             if(casrnInsideKey == "casrn" && casrnInsideValue == line && tmpCasrnNameList[casrnNameIndex] != null) {
+                                                //error checking & handling for if we are missing any of this info
+                                                if (tmpCasrnNameList[casrnNameIndex].cid == "") {
+                                                    println "> no CID. replacing:"
+                                                    tmpCasrnNameList[casrnNameIndex].cid = "none"
+                                                }
+                                                if (tmpCasrnNameList[casrnNameIndex].iupac_name == "") {
+                                                    println "> no CID. replacing:"
+                                                    tmpCasrnNameList[casrnNameIndex].iupac_name = "none"
+                                                }
+                                                if (tmpCasrnNameList[casrnNameIndex].inchis == "") {
+                                                    println "> no CID. replacing:"
+                                                    tmpCasrnNameList[casrnNameIndex].inchis = "none"
+                                                }
+                                                if (tmpCasrnNameList[casrnNameIndex].inchikey == "") {
+                                                    println "> no CID. replacing:"
+                                                    tmpCasrnNameList[casrnNameIndex].inchikey = "none"
+                                                }
+                                                if (tmpCasrnNameList[casrnNameIndex].mol_formula == "") {
+                                                    println "> no CID. replacing:"
+                                                    tmpCasrnNameList[casrnNameIndex].mol_formula = "none"
+                                                }
+                                                if (tmpCasrnNameList[casrnNameIndex].mol_weight == "") {
+                                                    println "> no CID. replacing:"
+                                                    tmpCasrnNameList[casrnNameIndex].mol_weight = "none"
+                                                }
+
                                                 if (enrichAnalysisType == "SMILESSimilarity" || enrichAnalysisType == "InChISimilarity") {
-                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + String.format("%.2f",casrnValues[i].similarity.value) + "\n"
+                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + String.format("%.2f",casrnValues[i].similarity.value) + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight +"\n"
                                                 }
                                                 else {
-                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\n"
+                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight +"\n"
                                                 }
                                                 casrnNameIndex++
                                             }   
@@ -824,6 +1003,10 @@ class AnalysisController implements InitializingBean {
                         //append annoSelectSaved map to file
                         annoSelectSaved.each { annoKey, annoValue ->
                             casrnFile << "%" + annoKey + "\t" + annoValue + "\n"
+                        }
+                        //append list of reactive groups, if applicable, to file
+                        reactiveList.each { reactiveChemical ->
+                            casrnFile << "!" + reactiveChemical.smiles + "\t" + reactiveChemical.casrn + "\t" + reactiveChemical.warn + "\n"
                         }
                     }
 
@@ -856,7 +1039,7 @@ class AnalysisController implements InitializingBean {
                     getQueueDataSuccess(_transactionId, CACHE_DIR, params.nodeCutoff)
                     getQueueDataEnd(_transactionId)
 
-                    reply _transactionId
+                    reply "$_transactionId\tsuccess"
                     return
 
                 }//end of react
@@ -864,7 +1047,7 @@ class AnalysisController implements InitializingBean {
 
 
             //******   This is the queue     ******//
-            def queue = actor {
+            def queue = queueGroup.actor {
                 RequestContextHolder.setRequestAttributes(requestContext)//set HTTP request attributes
                 def transactionId = paramsThread.transactionId
                 def queueListItem = [paramsThread, dataSource_psql, transactionId]
@@ -898,16 +1081,53 @@ class AnalysisController implements InitializingBean {
                 enrichmentProcess.send queueListItem //send item from queue
 
                 
-                react {resultId ->
-                    println(">>> enrichment success! Freeing thread...")
-                    for(int ind2 = 0; ind2 < transactionQueue.size(); ind2++) {
-                        if(transactionQueue[ind2][0] == resultId){ //if we find the transaction's ID, delete it from the list
-                            transactionQueue.remove(ind2)
-                            
-                            decrementQueue()
+                react {result ->
+                    def tmpSplit = result.split('\t')
+                    println "tmpSplit >>> $tmpSplit"
+                    def resultId = tmpSplit[0]
+                    def status = tmpSplit[1]
+                    def errorSmiles
+                    def goodSmiles 
+
+                    if (status == "success") {
+                        println(">>> enrichment success! Freeing thread...")
+                        for(int ind2 = 0; ind2 < transactionQueue.size(); ind2++) {
+                            if(transactionQueue[ind2][0] == resultId){ //if we find the transaction's ID, delete it from the list
+                                transactionQueue.remove(ind2)
+                                
+                                decrementQueue()
+                            }
+                        }
+                        deleteQueueItem(resultId)
+                    }
+                    else { //this will handle rendering for empty input sets
+                        if (tmpSplit.size() > 2) {
+                            errorSmiles = tmpSplit[2]
+                            goodSmiles = tmpSplit[3]
+                            println(">>> enrichment failure: Invalid sets. Freeing thread...")
+                            for(int ind2 = 0; ind2 < transactionQueue.size(); ind2++) {
+                                if(transactionQueue[ind2][0] == resultId){ //if we find the transaction's ID, delete it from the list
+                                    transactionQueue.remove(ind2)
+                                    
+                                    decrementQueue()
+                                }
+                            }
+                            deleteQueueItem(resultId)
+                            renderFailureErrors(status, errorSmiles, goodSmiles)
+                        }
+                        else {
+                            println(">>> enrichment failure: No sets specified. Freeing thread...")
+                            for(int ind2 = 0; ind2 < transactionQueue.size(); ind2++) {
+                                if(transactionQueue[ind2][0] == resultId){ //if we find the transaction's ID, delete it from the list
+                                    transactionQueue.remove(ind2)
+                                    
+                                    decrementQueue()
+                                }
+                            }
+                            deleteQueueItem(resultId)
+                            renderFailure(status)
                         }
                     }
-                    deleteQueueItem(resultId)
                 }
 
             }//end of queue
@@ -971,6 +1191,9 @@ class AnalysisController implements InitializingBean {
         //get annotation map for re-enrichment
         def annoResults = resultSetService.getAnnoResults(params.resultSet)
 
+        //get list of reactive chemicals
+        def reactiveResults = resultSetService.getReactiveResults(params.resultSet)
+
         def smilesWithResults = resultSetService.getSmilesWithResults()
         def smilesNoResults = resultSetService.getSmilesNoResults()
         def enrichAnalysisType = resultSetService.getAnalysisType()
@@ -979,11 +1202,13 @@ class AnalysisController implements InitializingBean {
         println smilesNoResults
         println enrichAnalysisType
 
+        println "========= PASSING =========== $reactiveResults"
+
         def gctPerSetDir = params.resultSet + "/gct_per_set/"
 
         def resultSetModel = new ResultSetModel(params.resultSet, resultList, numSets, sortedResultMap, multiSetHeatMapImages, smilesWithResults, smilesNoResults, enrichAnalysisType, gctPerSetDir)
 
-        render(view: "results", model: [resultSetModel: resultSetModel, nodeCutoff: params.nodeCutoff, currentOutputDir: params.resultSet, reenrich: params.reenrich, casrnResults: casrnResults, annoResults: annoResults])
+        render(view: "results", model: [resultSetModel: resultSetModel, nodeCutoff: params.nodeCutoff, currentOutputDir: params.resultSet, reenrich: params.reenrich, casrnResults: casrnResults, annoResults: annoResults, reactiveResults:reactiveResults])
     }
 
     @Override
