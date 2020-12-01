@@ -11,6 +11,9 @@
 <%-- may want to look for an alternative for the jquery form validator as it is no longer being developed --%>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script> 
 
+    <%-- JSME --%>
+    <asset:javascript src="JSME_2020-06-11/jsme/jsme.nocache.js" />
+
     <style>
     .loader {
         border: 16px solid #f3f3f3;
@@ -48,7 +51,30 @@
         window.history.pushState("", "", '/tox21enricher/');
 
         //save UUID to JS variable for easy access
-        var transactionId = "<%=tid%>"
+        var transactionId = "<%=tid%>";
+
+        //this function will be called after the JavaScriptApplet code has been loaded.
+        function jsmeOnLoad() {
+            jsmeApplet = new JSApplet.JSME("jsme_container", "380px", "340px");
+        }
+
+        var jsmeOpen = false;
+        function openJsme() {
+            if (jsmeOpen == false) {
+                $('#jsme_container').show();
+                $('#jsmeInstructions').show();
+                $('#drawButtonSubstructure').text("Hide JSME");
+                $('#drawButtonSimilarity').text("Hide JSME");
+                jsmeOpen = true;
+            }
+            else {
+                $('#jsme_container').hide();
+                $('#jsmeInstructions').hide();
+                $('#drawButtonSubstructure').text("Draw chemical with JSME");
+                $('#drawButtonSimilarity').text("Draw chemical with JSME");
+                jsmeOpen = false;
+            }
+        }      
 
         function exampleSmile() {
             var setSmile = "CC(=O)C1=CC=C(C=C1)[N+]([O-])\n" +
@@ -210,6 +236,15 @@
 
         function submitCasrns() {
             document.getElementById("analysisType").value = "CASRNS";
+            document.getElementById("transactionId").value = transactionId;
+            $('#main').hide();
+            $('#wait').show();
+            isPerformingEnrichment = true;
+            $('#enrichForm').submit();
+        }
+
+        function getAnnotations() {
+            document.getElementById("analysisType").value = "Annotation";
             document.getElementById("transactionId").value = transactionId;
             $('#main').hide();
             $('#wait').show();
@@ -408,7 +443,7 @@
         <form action="/tox21enricher/analysis/enrich" method="post" id="enrichForm">
             <div class="row" id="checkboxes">
                 <br>
-                Please see <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'Tox21Enricher_Manual_v3.1.pdf']" target="_blank">this link </g:link> for instructions on using this application and the descriptions about the chemical/biological categories. Other resources from the Tox21 toolbox can be viewed <g:link url="https://ntp.niehs.nih.gov/results/tox21/tbox/">here.</g:link>
+                Please see <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'Tox21Enricher_Manual_v3.3.1.pdf']" target="_blank">this link </g:link> for instructions on using this application and the descriptions about the chemical/biological categories. Other resources from the Tox21 toolbox can be viewed <g:link url="https://ntp.niehs.nih.gov/results/tox21/tbox/">here.</g:link>
                 <br>
                 <div class="accordion" id="categoriesHeader">
                     <h3>Select chemical/biological annotation categories</h3>
@@ -424,13 +459,13 @@
                     <br>
                     <%-- Slider for selecting cutoff for how many nodes to generate during network generation--%>
                     <h3>Select enrichment cutoff</h3>
-                    <p>This will determine the maximum number of results per data set and may affect how many nodes are generated during network generation. (default = 10)</p>
+                    <p>This will determine the maximum number of results per data set and may affect how many nodes are generated during network generation. (default = 10). Larger values may increase the time it takes to complete the enrichment process.</p>
                     <br>
                     <label id="chartSelect">
                     <input type="text" name="nodeCutoff" id="nodeCutoff">
                         <div class="grid-x grid-margin-x">
                             <div id="similaritySlider" class="cell small-10">
-                                <div class="slider" data-slider data-start="10" data-initial-start="10" data-end="100" data-step="1">
+                                <div class="slider" data-slider data-start="10" data-initial-start="10" data-end="50" data-step="1">
                                 <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="nodeCutoff"></span>
                                 <span class="slider-fill" data-slider-fill></span>
                                 </div>
@@ -444,22 +479,43 @@
             </div>
 
             <div class="row">
+                <div class="large-3 columns">
+                    <div id="jsme_container" style="display:none"></div>
+                </div>
+                <div class="large-6 columns">
+                    <div id="jsmeInstructions" style="display:none">
+                        <h4>
+                            Draw Chemical with JSME
+                        </h4>
+                        <p>
+                            For instructions on using JSME to draw chemicals, <a href="https://peter-ertl.com/jsme/2013_03/help.html" target="_blank">view the guide here</a>.
+                            <br>
+                            When finished drawing, right-click by the drawing and select <b>"Copy as SMILES"</b> or <b>"Copy as InChI"</b> to copy a SMILES or InChI string to paste below.
+                            <br>
+                            JSME is created by Peter Ertl and Bruno Bienfait.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
                 <div class="columns">
                     <ul class="tabs" data-tabs id="example-tabs">
-                        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">User Provided CASRN List</a></li>
+                        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">User-Provided CASRN List</a></li>
                         <li class="tabs-title"><a href="#panel2">Chemicals With Shared Substructures</a></li>
                         <li class="tabs-title"><a href="#panel3">Chemicals With Structural Similarity</a></li>
                         <!-- <li class="tabs-title"><a href="#panel4">Chemicals With Biological Similarity</a></li>  -->
+                        <li class="tabs-title"><a href="#panel5">View Annotations for Tox21 Chemicals</a></li>
                     </ul>
 
                 <%--User Provided CASRN List--%>
                     <div class="tabs-content" data-tabs-content="example-tabs">
                         <div class="tabs-panel is-active" id="panel1">
-                            <h4>User Provided CASRN List</h4>
-                            <label for="CASRNBox">Add '#SetName' before each set, if using multiple sets at once. Ex)
-                                <button class="tiny button" type="button" onclick = "singleSet()">Single Set</button>
-                                <button class="tiny button" type="button" onclick ="multiSet()">Multiple Sets</button>
-                                <button class="tiny button" type="button" onclick ="clearInputCasrn()">Clear Input</button>
+                            <h4>User-Provided CASRN List</h4>
+                            <label for="CASRNBox">Add "#SetName" before each set, if using multiple sets at once.
+                                <button class="tiny button" type="button" onclick = "singleSet()">Example Single Set</button>
+                                <button class="tiny button" type="button" onclick ="multiSet()">Example Multiple Sets</button>
+                                <button class="tiny button" type="button" onclick ="clearInputCasrn()">Clear input</button>
                                 <g:if test="${isCasrnErrors}">
                                     <g:textArea class="extralarge" name="CASRNBox" ><%--
                                 --%><g:each in="${goodCasrns}">
@@ -488,14 +544,14 @@
                             
                             <button class="button" type="button" id="toggleSubstructureSearchButton" onclick="toggleSubstructureSearch()">Switch to InChI input</button>
                             <br>
-                            
 
                             <%-- SMILES Box --%>
                             <div id="smileBoxContainer">   
 
-                                <label for="SMILEBox">Enter partial or complete SMILES strings, one per line. Ex)
-                                    <button class="tiny button" type="button" onclick = "exampleSmile()">SMILES strings</button>
-                                    <button class="tiny button" type="button" onclick ="clearInputSmileSubstructure()">Clear Input</button>
+                                <label for="SMILEBox">Enter partial or complete SMILES strings, one per line.
+                                    <button class="tiny button" type="button" onclick = "exampleSmile()">Example SMILES strings</button>
+                                    <button class="tiny button" type="button" onclick = "openJsme()" id="drawButtonSubstructure">Draw chemical with JSME</button>
+                                    <button class="tiny button" type="button" onclick ="clearInputSmileSubstructure()">Clear input</button>
                                 </label>
 
                                 <g:if test="${isSmileErrors}">
@@ -515,9 +571,10 @@
 
                             <%-- InChI Box --%>
                             <div id="inchiBoxContainer" style="display: none">
-                                <label for="InChIBox">Enter InChI strings, one per line. Ex)
-                                    <button class="tiny button" type="button" onclick = "exampleInchi()">InChI strings</button>
-                                    <button class="tiny button" type="button" onclick ="clearInputInchiSubstructure()">Clear Input</button>
+                                <label for="InChIBox">Enter InChI strings, one per line.
+                                    <button class="tiny button" type="button" onclick = "exampleInchi()">Example InChI strings</button>
+                                    <button class="tiny button" type="button" onclick = "openJsme()" id="drawButtonSubstructure">Draw chemical with JSME</button>
+                                    <button class="tiny button" type="button" onclick ="clearInputInchiSubstructure()">Clear input</button>
                                 </label>
                                 <g:if test="${isInChIErrors}">
                                     <g:textArea class="extralarge" name="InChIBox" >${psqlGoodSmiles}</g:textArea>
@@ -547,7 +604,6 @@
                     <%--Chemicals w/ Structural Similarity (SMILES)--%>
                         <div class="tabs-panel" id="panel3">
                                 <h4>Chemicals With Structural Similarity</h4>
-                                
                                 <div>
                                     <label id="thresholdSelect">Select Tanimoto similarity threshold (%)
                                             <input type="text" name="thresholdSelectValue" id="thresholdSelectValue">
@@ -565,14 +621,13 @@
                                 
                                 <button class="button" type="button" id="toggleSubstructureSimilaritySearchButton" onclick="toggleSubstructureSimilaritySearch()">Switch to InChI input</button>
                                 <br>
-                                
 
                                 <%-- SMILES Box --%>
                                 <div id="smileSimilarityBoxContainer"> 
-
-                                    <label for="SMILEStructuralBox">Enter partial or complete SMILES strings, one per line Ex)
-                                        <button class="tiny button" type="button" onclick = "exampleSmileSimilarity()">SMILES strings</button>
-                                        <button class="tiny button" type="button" onclick ="clearInputSmileSimilarity()">Clear Input</button>
+                                    <label for="SMILEStructuralBox">Enter partial or complete SMILES strings, one per line.
+                                        <button class="tiny button" type="button" onclick = "exampleSmileSimilarity()">Example SMILES strings</button>
+                                        <button class="tiny button" type="button" onclick = "openJsme()" id="drawButtonSimilarity">Draw chemical with JSME</button>
+                                        <button class="tiny button" type="button" onclick ="clearInputSmileSimilarity()">Clear input</button>
                                     </label>
                                     
                                     <g:if test="${isSmileSimErrors}">
@@ -592,9 +647,10 @@
 
                             <%-- InChI Box --%>
                             <div id="inchiSimilarityBoxContainer" style="display: none">
-                                <label for="InChISimilarityBox">Enter InChI strings, one per line. Ex)
-                                    <button class="tiny button" type="button" onclick = "exampleInchiSimilarity()">InChI strings</button>
-                                    <button class="tiny button" type="button" onclick ="clearInputInchiSimilarity()">Clear Input</button>
+                                <label for="InChISimilarityBox">Enter InChI strings, one per line.
+                                    <button class="tiny button" type="button" onclick = "exampleInchiSimilarity()">Example InChI strings</button>
+                                    <button class="tiny button" type="button" onclick = "openJsme()" id="drawButtonSimilarity">Draw chemical with JSME</button>
+                                    <button class="tiny button" type="button" onclick ="clearInputInchiSimilarity()">Clear input</button>
                                 </label>
                                 <g:if test="${isInChISimErrors}">
                                     <g:textArea class="extralarge" name="InChISimilarityBox" >${psqlGoodSmiles}</g:textArea>
@@ -629,9 +685,34 @@
                             </div>
                         --%>
 
+                        <%--Grab all annotations for a chemical in Tox21--%>
+                            <div class="tabs-content" data-tabs-content="example-tabs">
+                                <div class="tabs-panel" id="panel5">
+                                    <h4>View Annotations for Tox21 Chemicals</h4>
+                                    <label for="AnnoBox">Enter the CASRNs for <a href="https://comptox.epa.gov/dashboard/chemical_lists/TOX21SL" target="_blank">chemicals in the Tox21 screening library</a> (one per line) to view each of their associated annotations in Tox21 Enricher.
+                                        <g:if test="${isAnnoErrors}">
+                                            <g:textArea class="extralarge" name="AnnoBox" ><%--
+                                        --%><g:each in="${goodCasrns}">
+                                            <%--                                --%>${it}<%--
+                                        --%></g:each><%--
+                                    --%></g:textArea>
+                                            <g:each in="${errorCasrns}">
+                                                <p style="color:red">Invalid CASRN "${it.casrn}" on line ${it.index + 1}.</p>
+                                            </g:each>
+                                            <g:if test="${noAnnoInput}">
+                                                <p style="color:red">Input is required to view annotations.</p>
+                                            </g:if>
+                                        </g:if>
+                                        <g:else>
+                                            <g:textArea class="extralarge" name="AnnoBox" ></g:textArea>
+                                            <br>
+                                        </g:else>
+                                        <input type="button" class="button" name="begin" value="Get Annotations" onclick="getAnnotations()" />
+                                    </label>
+
+                                </div>
+
                         </div>
-                        
-                
                     </div>
                 </div>
             </div>

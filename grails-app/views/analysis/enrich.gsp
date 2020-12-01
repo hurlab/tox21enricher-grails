@@ -56,7 +56,7 @@
             }
             
             setInterval(function(){
-                self.location = "success?resultSet=${success}&nodeCutoff=${nodeCutoff}";
+                self.location = "success?resultSet=${success}&nodeCutoff=${nodeCutoff}&enrichType=${type}";
                 return false;
             }, 1000);
         </script>

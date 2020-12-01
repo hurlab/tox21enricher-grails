@@ -58,20 +58,21 @@ class ResultSetService {
         //they need to be in the same results map otherwise it will be much more difficult to iterate over them in results.gsp
 	println "TEST:" + storageProperties.getBaseDir() + resultSet + "/gct_per_set"
         dir = new File(storageProperties.getBaseDir() + resultSet + "/gct_per_set")
-        dir.eachFile(FILES) { file ->
-            if (!file.name.contains("__")) {
-                return
-            }
-            def setName = file.name.tokenize("__").first()
-            if (!results.containsKey(setName)) {
-                results[setName] = []
-            }
-            //if you need to serve more than the jpegs, adjust this if statement
-            if (file.name.endsWith("png")) {	//adjusted for new .png files
-                results[setName] << file.name
+        if (dir.exists()){
+            dir.eachFile(FILES) { file ->
+                if (!file.name.contains("__")) {
+                    return
+                }
+                def setName = file.name.tokenize("__").first()
+                if (!results.containsKey(setName)) {
+                    results[setName] = []
+                }
+                //if you need to serve more than the jpegs, adjust this if statement
+                if (file.name.endsWith("png")) {	//adjusted for new .png files
+                    results[setName] << file.name
+                }
             }
         }
-
         //now for the input sets
         //TODO: include the original SMILE input if that option is used
         //all this will do for now is serve the input set of CASRNs, no matter the original input method (SMILE vs. CASRN)
@@ -157,7 +158,7 @@ class ResultSetService {
             }
             else {  //actual casrns retrieved
                 def tmp = line.split("\t")
-                inputSetsMap.getAt("${currentSet}").add( [id: tmp[0], name: tmp[1], sim: tmp[2], smiles: tmp[3], cid: tmp[4], iupac: tmp[5], inchi: tmp[6], inchikey: tmp[7], formula: tmp[8], weight: tmp[9]] )
+                inputSetsMap.getAt("${currentSet}").add( [id: tmp[0], name: tmp[1], sim: tmp[2], smiles: tmp[3], cid: tmp[4], iupac: tmp[5], inchi: tmp[6], inchikey: tmp[7], formula: tmp[8], weight: tmp[9], dtxsid: tmp[10]] )
             }
         }
         println ">>> INPUT SETS MAP >>> " + inputSetsMap
@@ -184,6 +185,24 @@ class ResultSetService {
         }
         println ">>> ANNO MAP >>> " + annoMap
         return annoMap
+    }
+
+    def getAllAnnotations(resultSet){
+        def fh
+        def lines
+        try {
+            fh = new File(storageProperties.getBaseDir() + "${resultSet}/Annotations.txt")
+            lines = fh.readLines()
+        }
+        catch (FileNotFoundException e) {
+            return [none:"none"]
+        }
+        def annoList = []
+        lines.each { String line ->  //TODO: add number
+            annoList += line
+        }
+        println ">>> ANNO LIST >>> " + annoList
+        return annoList
     }
 
     def getReactiveResults(resultSet){

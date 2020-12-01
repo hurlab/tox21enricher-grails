@@ -19,8 +19,8 @@ g3 = Chem.rdmolfiles.MolFromSmarts("[CX3H1](=O)[#6]")
 g4 = Chem.rdmolfiles.MolFromSmarts("[OX2]1[CX4][CX4]1")
 ###############################################################################
 
-molFile = open("mols_2_smiles.txt","r")
-reacFile = open("mols_2_final.txt","w+")
+molFile = open("mols_2_final_2.txt","r")
+reacFile = open("out_mols_2_final_2.txt","w+")
 
 # write header to output text file
 reacFile.write("casrn\tm\tcyanide\tisocyanate\taldehyde\tepoxide\n")
@@ -33,6 +33,7 @@ for line in molFileContents:
     tmp = line.split("\t")
     print(tmp[0] + "\t" + tmp[1])
     mol = Chem.rdmolfiles.MolFromSmiles(str(tmp[1]).rstrip())
+    #print(Chem.rdmolfiles.MolToSmiles(mol))
     #print("mol: ")
     #print(mol)
     #check for Nitrile
@@ -57,7 +58,7 @@ for line in molFileContents:
         r3 = 1
     if len(m4) > 0:
         r4 = 1
-    writeStr = str(tmp[0].rstrip() + "\t" + tmp[1].rstrip() + "\t" + str(r1) + "\t" + str(r2) + "\t" + str(r3) + "\t" + str(r4) + "\n")
+    writeStr = "UPDATE mols_2 SET cyanide='"+str(r1)+"', isocyanate='"+str(r2)+"', aldehyde='"+str(r3)+"', epoxide='"+str(r4)+"' WHERE casrn='"+tmp[0].rstrip()+"';\n"
     #print("writing: ")
     #print(writeStr)
     reacFile.write(writeStr)

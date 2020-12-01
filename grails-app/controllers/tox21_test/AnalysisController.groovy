@@ -86,6 +86,9 @@ class AnalysisController implements InitializingBean {
                 else if (transactionData[3].analysisType == "InChI" || transactionData[3].analysisType == "InChISimilarity") {
                     itemBox = transactionData[3].InChIBox
                 }
+                else if (transactionData[3].analysisType == "Annotation") {
+                    itemBox = transactionData[3].AnnoBox
+                }
                 else { //smiles
                     itemBox = transactionData[3].SMILEBox
                 }     
@@ -134,6 +137,9 @@ class AnalysisController implements InitializingBean {
                         else if (queueDataList[i][3].analysisType == "InChI" || queueDataList[i][3].analysisType == "InChISimilarity") {
                             itemBox = queueDataList[i][3].InChIBox
                         }
+                        else if (queueDataList[i][3].analysisType == "Annotation") {
+                            itemBox = queueDataList[i][3].AnnoBox
+                        }
                         else { //smiles
                             itemBox = queueDataList[i][3].SMILEBox
                         }
@@ -168,14 +174,19 @@ class AnalysisController implements InitializingBean {
                         if (queueDataList[i][3].analysisType == "CASRNS") {
                             itemBox = queueDataList[i][3].CASRNBox
                         }
-                        else if (queueDataList[i][3].analysisType == "InChI") {
+                        else if (queueDataList[i][3].analysisType == "InChI" || queueDataList[i][3].analysisType == "InChISimilarity") {
                             itemBox = queueDataList[i][3].InChIBox
+                        }
+                        else if (queueDataList[i][3].analysisType == "Annotation") {
+                            itemBox = queueDataList[i][3].AnnoBox
                         }
                         else { //smiles
                             itemBox = queueDataList[i][3].SMILEBox
                         }    
                     }
                     
+                    println "TEST >> ${queueDataList[i][4]}"
+
                     println("| REFRESHED END DATA FOR ${queueDataList[i][1]}")
                     render(view: "enrich", model: [tid: queueDataList[i][1], pos: queueDataList[i][2], type: queueDataList[i][3].analysisType, items: itemBox, success: queueDataList[i][4], nodeCutoff: queueDataList[i][5]])
                     return
@@ -247,6 +258,7 @@ class AnalysisController implements InitializingBean {
             else if (status == "failuresmilessim") render(view: "form", model: [isSmileSimErrors: true, noSmileInput: true])
             else if (status == "failureinchi") render(view: "form", model: [isInChIErrors: true, noSmileInput: true])
             else if (status == "failureinchisim") render(view: "form", model: [isInChISimErrors: true, noSmileInput: true])
+            else if (status == "failureanno") render(view: "form", model: [isAnnoErrors: true, noAnnoInput: true])
             return
         }
 
@@ -438,7 +450,8 @@ class AnalysisController implements InitializingBean {
                                 tmpInChI = itemFromBox
                                 //This calls a Python script that uses rdkit to convert InChI strings to SMILES strings
                                 //after this, InChI strings are processed the same as SMILES
-                                def inchiToAdd = enrichmentService.convertInchiToSmiles(itemFromBox.replaceAll("\\s","")) //strip trailing whitespace (newlines)
+                                def inchiToAdd = enrichmentService.convertInchiToSmiles(itemFromBox.trim()) //strip trailing whitespace (newlines)
+                                //def inchiToAdd = sql.rows("select smiles from chemical_detail where inchis='${itemFromBox.trim()}';") //strip trailing whitespace (newlines)
                                 if (inchiToAdd != null) {
                                     itemFromBox = inchiToAdd
                                 }
@@ -469,7 +482,7 @@ class AnalysisController implements InitializingBean {
                                         rowResultSet.each { result ->
                                             def tmpSet =[:]
                                             tmpSet["casrn"] = result.casrn
-                                            tmpSet["m"] = result.m
+                                            tmpSet["m"] = enrichmentService.convertMolToSmiles(result.m.trim())
                                             tmpSet["similarity"] = result.similarity
                                             tmpSet["cyanide"] = result.cyanide
                                             tmpSet["isocyanate"] = result.isocyanate
@@ -579,7 +592,7 @@ class AnalysisController implements InitializingBean {
                                     casrnValues[i].each { casrnInsideKey, casrnInsideValue ->
                                         if(casrnInsideKey == "casrn") { //grab casrn names
                                             //vvv probably should grab this earlier? This may introduce a performance overhead vvv
-                                            casrnName = sql.rows("SELECT testsubstance_chemname,cid,iupac_name,inchis,inchikey,mol_formula,mol_weight FROM chemical_detail WHERE CASRN LIKE '" + casrnInsideValue + "'")
+                                            casrnName = sql.rows("SELECT testsubstance_chemname,cid,iupac_name,inchis,inchikey,mol_formula,mol_weight,dtxsid FROM chemical_detail WHERE CASRN LIKE '" + casrnInsideValue + "'")
                                             println "casrnName: $casrnName"
                                             tmpCasrnNameList += casrnName
                                             
@@ -636,6 +649,78 @@ class AnalysisController implements InitializingBean {
                         println smilesWithResults
                         println "----------------------------------SMILES NO RESULTS LIST:"
                         println smilesNoResults
+                    }
+
+                    //Get all annotations for a user-supplied chemical (CASRNs)
+                    else if (params.analysisType == "Annotation") {
+                        println params.AnnoBox
+
+                        //changed from incremental to UUID so each enrichment will have a unique ID, DIFFERENT than the transaction ID!
+                        def final CACHE_DIR = UUID.randomUUID().toString()
+
+                        def currentInputDir = ENRICH_INPUT_PATH + "/" + CACHE_DIR
+                        def currentOutputDir = ENRICH_OUTPUT_PATH + "/" + CACHE_DIR
+
+                        //Don't try to add any files to output before this happens. The directory gets deleted if it already exists.
+                        def numSets = 0
+                        def outDir = new File(currentOutputDir)
+                        if (outDir.exists()) {
+                            outDir.deleteDir()
+                            outDir.mkdirs()
+                        } else {
+                            outDir.mkdirs()
+                        }
+
+                        def inputDir = new File(currentInputDir);
+                        if (inputDir.exists()) {
+                            inputDir.deleteDir()
+                            inputDir.mkdirs()
+                        } else {
+                            inputDir.mkdirs()
+                        }
+
+                        File annotationsFileFull
+                        def sql = new Sql(dataSource_psql)
+                        def annoBox = params.AnnoBox
+
+                        //if no chemicals are entered
+                        if (annoBox == "") {
+                            reply "$_transactionId\tfailureanno"
+                            return
+                        }
+
+                        annoBox.eachLine { annoBoxLine, annoBoxLineNumber ->
+                            annotationsFileFull = new File(currentOutputDir + '/' + annoBoxLine.strip() + '__Annotations.txt')
+                            def annoDetails = sql.rows("SELECT annotation FROM annotation_matrix WHERE casrn = '" + annoBoxLine.strip().toString() + "';")
+                            if (annoDetails == null || annoDetails == []) {
+                                println "here"
+                                errorCasrns.add([index: annoBoxLineNumber, casrn: annoBoxLine.strip().toString(), set: annoBoxLine.strip().toString()])
+                            }
+                            else {
+                                def annoTmp = annoDetails["annotation"]
+                                def annoList = annoTmp[0].split('\\|')
+                                annoList.each { annoId ->
+                                    def annotationNames = sql.rows("SELECT term FROM annotation_matrix_terms WHERE id = " + annoId + ";")
+                                    //println annotationNames
+                                    annotationNames.each { annotationName ->
+                                        annotationsFileFull.append("${annotationName["term"]}\n")
+                                    }
+                                }
+                            }
+                        }
+
+                        //Write any chemicals that aren't in the database
+                        errorCasrnService.writeErrorCasrnsToFile(currentOutputDir, errorCasrns)
+
+                        //Make zip to download
+                        def resultsZip = resultSetService.compressResultSet(CACHE_DIR)
+
+                        //pass the result set ID to the item in the queue
+                        getQueueDataSuccess(_transactionId, CACHE_DIR, params.nodeCutoff)
+                        getQueueDataEnd(_transactionId)
+                        reply "$_transactionId\tsuccess"
+                        return
+                        
                     }
 
                     //set enrichAnalysisType = CASRNS if it wasn't SMILES
@@ -808,8 +893,8 @@ class AnalysisController implements InitializingBean {
                             toxPrintStructure: "TOXPRINT_STRUCTURE",
                             ctdChemicalsDiseases: "CTD_CHEMICALS_DISEASES",
                             ctdChemicalsGenes: "CTD_CHEMICALS_GENES",
-                            ctdChemicalsGoenrichBioprocess: "CTD_CHEMICALS_GOENRICH_BIOPROCESS",
-                            goBiop: "CTD_GO_BP",
+                            goFatBp: "CTD_GOFAT_BIOPROCESS",
+                            goSlimBp: "CTD_GOSLIM_BIOPROCESS",
                             ctdChemicalsGoenrichCellcomp: "CTD_CHEMICALS_GOENRICH_CELLCOMP",
                             ctdChemicalsGoenrichMolfunct: "CTD_CHEMICALS_GOENRICH_MOLFUNCT",
                             ctdChemicalsPathways: "CTD_CHEMICALS_PATHWAYS",
@@ -967,31 +1052,31 @@ class AnalysisController implements InitializingBean {
                                                     tmpCasrnNameList[casrnNameIndex].cid = "none"
                                                 }
                                                 if (tmpCasrnNameList[casrnNameIndex].iupac_name == "") {
-                                                    println "> no CID. replacing:"
+                                                    println "> no IUPAC Name. replacing:"
                                                     tmpCasrnNameList[casrnNameIndex].iupac_name = "none"
                                                 }
                                                 if (tmpCasrnNameList[casrnNameIndex].inchis == "") {
-                                                    println "> no CID. replacing:"
+                                                    println "> no InChI. replacing:"
                                                     tmpCasrnNameList[casrnNameIndex].inchis = "none"
                                                 }
                                                 if (tmpCasrnNameList[casrnNameIndex].inchikey == "") {
-                                                    println "> no CID. replacing:"
+                                                    println "> no InChIKey. replacing:"
                                                     tmpCasrnNameList[casrnNameIndex].inchikey = "none"
                                                 }
                                                 if (tmpCasrnNameList[casrnNameIndex].mol_formula == "") {
-                                                    println "> no CID. replacing:"
+                                                    println "> no Molecular Formula. replacing:"
                                                     tmpCasrnNameList[casrnNameIndex].mol_formula = "none"
                                                 }
                                                 if (tmpCasrnNameList[casrnNameIndex].mol_weight == "") {
-                                                    println "> no CID. replacing:"
+                                                    println "> no Molecular Weight. replacing:"
                                                     tmpCasrnNameList[casrnNameIndex].mol_weight = "none"
                                                 }
 
                                                 if (enrichAnalysisType == "SMILESSimilarity" || enrichAnalysisType == "InChISimilarity") {
-                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + String.format("%.2f",casrnValues[i].similarity.value) + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight +"\n"
+                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + String.format("%.2f",casrnValues[i].similarity.value) + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight + "\t" + tmpCasrnNameList[casrnNameIndex].dtxsid + "\n"
                                                 }
                                                 else {
-                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight +"\n"
+                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight + "\t" + tmpCasrnNameList[casrnNameIndex].dtxsid + "\n"
                                                 }
                                                 casrnNameIndex++
                                             }   
@@ -1157,58 +1242,81 @@ class AnalysisController implements InitializingBean {
     }
 
     def success() {
-        print "Success!\n"
+        if (params.enrichType != "Annotation") {
+            print "Success!\n"
 
-        println("returning result set for: ${params.resultSet} with ${params.nodeCutoff} nodes.")
+            println("returning result set for: ${params.resultSet} with ${params.nodeCutoff} nodes.")
 
-        //generate list of results to display //params.resultSet --> cacheDir
-        def resultList = resultSetService.generateResultList(params.resultSet)
-        println "Result list: $resultList"
+            //generate list of results to display //params.resultSet --> cacheDir
+            def resultList = resultSetService.generateResultList(params.resultSet)
+            println "Result list: $resultList"
 
-        //get number of sets
-        def numSets = resultSetService.getNumSets(params.resultSet)
-        println "PARAMS.RESULTSET-------------------------${params.resultSet}"
-        println "Number of input sets: $numSets"
+            //get number of sets
+            def numSets = resultSetService.getNumSets(params.resultSet)
+            println "PARAMS.RESULTSET-------------------------${params.resultSet}"
+            println "Number of input sets: $numSets"
 
-        println "NUM SETS: ----------------------- $numSets"
+            println "NUM SETS: ----------------------- $numSets"
 
-        //create map of lists for results
-        //as of 6-20-17 this should include individual set heatmap images
-        def resultMap = resultSetService.getMultiSetFiles(params.resultSet)
-        println "Result map: $resultMap"
-        def sortedResultMap = resultMap.sort { it.key }
-        println "Sorted result map: $sortedResultMap"
+            //create map of lists for results
+            //as of 6-20-17 this should include individual set heatmap images
+            def resultMap = resultSetService.getMultiSetFiles(params.resultSet)
+            println "Result map: $resultMap"
+            def sortedResultMap = resultMap.sort { it.key }
+            println "Sorted result map: $sortedResultMap"
 
-        //create list of multi set heat map images
-        def multiSetHeatMapImages = resultSetService.getMultiSetHeatMapImages(params.resultSet, params.nodeCutoff)
+            //create list of multi set heat map images
+            def multiSetHeatMapImages = resultSetService.getMultiSetHeatMapImages(params.resultSet, params.nodeCutoff)
 
-        def inputSetDir = resultSetService.getInputSetDir(params.resultSet)
-        println "Input set dir: $inputSetDir"
+            def inputSetDir = resultSetService.getInputSetDir(params.resultSet)
+            println "Input set dir: $inputSetDir"
 
-        //grab list of casrns for SMILES/InChI
-        def casrnResults = resultSetService.getCasrnResults(params.resultSet, params.nodeCutoff)
+            //grab list of casrns for SMILES/InChI
+            def casrnResults = resultSetService.getCasrnResults(params.resultSet, params.nodeCutoff)
 
-        //get annotation map for re-enrichment
-        def annoResults = resultSetService.getAnnoResults(params.resultSet)
+            //get annotation map for re-enrichment
+            def annoResults = resultSetService.getAnnoResults(params.resultSet)
 
-        //get list of reactive chemicals
-        def reactiveResults = resultSetService.getReactiveResults(params.resultSet)
+            //get list of reactive chemicals
+            def reactiveResults = resultSetService.getReactiveResults(params.resultSet)
 
-        def smilesWithResults = resultSetService.getSmilesWithResults()
-        def smilesNoResults = resultSetService.getSmilesNoResults()
-        def enrichAnalysisType = resultSetService.getAnalysisType()
-        println "%%%%%%%%%%%%%%%%%%%%%LOOK AT ALL THIS%%%%%%%%%%%%%%%%%%%%%%%%%%%"
-        println smilesWithResults
-        println smilesNoResults
-        println enrichAnalysisType
+            def smilesWithResults = resultSetService.getSmilesWithResults()
+            def smilesNoResults = resultSetService.getSmilesNoResults()
+            def enrichAnalysisType = resultSetService.getAnalysisType()
+            println "%%%%%%%%%%%%%%%%%%%%%LOOK AT ALL THIS%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+            println smilesWithResults
+            println smilesNoResults
+            println enrichAnalysisType
 
-        println "========= PASSING =========== $reactiveResults"
+            println "========= PASSING =========== $reactiveResults"
 
-        def gctPerSetDir = params.resultSet + "/gct_per_set/"
+            def gctPerSetDir = params.resultSet + "/gct_per_set/"
 
-        def resultSetModel = new ResultSetModel(params.resultSet, resultList, numSets, sortedResultMap, multiSetHeatMapImages, smilesWithResults, smilesNoResults, enrichAnalysisType, gctPerSetDir)
+            def resultSetModel = new ResultSetModel(params.resultSet, resultList, numSets, sortedResultMap, multiSetHeatMapImages, smilesWithResults, smilesNoResults, enrichAnalysisType, gctPerSetDir)
 
-        render(view: "results", model: [resultSetModel: resultSetModel, nodeCutoff: params.nodeCutoff, currentOutputDir: params.resultSet, reenrich: params.reenrich, casrnResults: casrnResults, annoResults: annoResults, reactiveResults:reactiveResults])
+            render(view: "results", model: [resultSetModel: resultSetModel, nodeCutoff: params.nodeCutoff, currentOutputDir: params.resultSet, reenrich: params.reenrich, casrnResults: casrnResults, annoResults: annoResults, reactiveResults:reactiveResults])
+        } 
+        else {
+            //generate list of results to display //params.resultSet --> cacheDir
+            def resultList = resultSetService.generateResultList(params.resultSet)
+            println "Result list: $resultList"
+
+            //get number of sets
+            def numSets = resultSetService.getNumSets(params.resultSet)
+
+             //create map of lists for results
+            //as of 6-20-17 this should include individual set heatmap images
+            def resultMap = resultSetService.getMultiSetFiles(params.resultSet)
+            println "Result map: $resultMap"
+            def sortedResultMap = resultMap.sort { it.key }
+            println "Sorted result map: $sortedResultMap"
+
+            //get annotation list
+
+            def annotationResults = resultSetService.getAllAnnotations(params.resultSet)
+            def resultSetModel = new ResultSetModelAnno(params.resultSet, resultList, numSets, sortedResultMap, annotationResults)
+            render(view: "resultsAnno", model: [resultSetModel: resultSetModel, nodeCutoff: params.nodeCutoff, currentOutputDir: params.resultSet])
+        }
     }
 
     @Override

@@ -271,7 +271,7 @@
                 <div class="accordion-content" data-tab-content>
                     <div class="row">
                         <div class="small-12 column">
-                            <g:if test="${resultSetModel.enrichAnalysisType == 'SMILES'}">
+                            <g:if test="${resultSetModel.enrichAnalysisType != 'CASRNS'}">
                                 <h6>SMILES input: ${resultSetModel.smilesWithResults[count]}</h6>
                             </g:if>
                             <g:set var="count" value="${count + 1}" />
@@ -336,7 +336,7 @@
         </ul>
         </div>
 
-        <g:if test="${resultSetModel.enrichAnalysisType != 'CASRNS' && resultSetModel.smilesNoResults.size > 0}">
+        <g:if test="${resultSetModel.enrichAnalysisType != 'CASRNS' && resultSetModel.enrichAnalysisType != 'GetAnno' && resultSetModel.smilesNoResults.size > 0}">
             SMILE input with no results: <br />
             <g:each var="smileNoResults" in="${resultSetModel.smilesNoResults}">
                 ${smileNoResults}<br />
@@ -448,7 +448,7 @@
                 <h3>Adjust Network Generation</h3>
                 <br>
                 <form action="/tox21enricher/analysisResults/regenNetwork" method="post" id="regen">
-                    <p>This will determine the maximum number of results per data set and may affect how many nodes are generated during network generation. (default = 10)</p>
+                    <p>This will determine the maximum number of results per data set and may affect how many nodes are generated during network generation. (default = 10). Larger values may increase the time it takes to complete network generation</p>
                     <label id="chartSelect">
                     <input type="text" name="nodeCutoff" id="nodeCutoff">
                         <div class="grid-x grid-margin-x">
@@ -549,39 +549,39 @@
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <g:if test="${casrn.iupac != "none"}">
-                                                                                            <td>IUPAC Name</td>
+                                                                                            <td><b>IUPAC Name</b></td>
                                                                                             <td>${casrn.iupac}</td>
                                                                                         </g:if>
                                                                                     </tr>
                                                                                     <tr>
-                                                                                        <td>CASRN</td>
+                                                                                        <td><b>CASRN</b></td>
                                                                                         <td>${casrn.id}</td>
                                                                                     </tr>
                                                                                     <tr>
-                                                                                        <td>SMILES</td>
+                                                                                        <td><b>SMILES</b></td>
                                                                                         <td>${casrn.smiles}</td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <g:if test="${casrn.inchi != "none"}">
-                                                                                            <td>InChI</td>
+                                                                                            <td><b>InChI</b></td>
                                                                                             <td>${casrn.inchi}</td>
                                                                                         </g:if>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <g:if test="${casrn.inchikey != "none"}">
-                                                                                            <td>InChI Key</td>
+                                                                                            <td><b>InChI Key</b></td>
                                                                                             <td>${casrn.inchikey}</td>
                                                                                         </g:if>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <g:if test="${casrn.formula != "none"}">
-                                                                                            <td>Molecular Formula</td>
+                                                                                            <td><b>Molecular Formula</b></td>
                                                                                             <td>${casrn.formula}</td>
                                                                                         </g:if>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <g:if test="${casrn.weight != "none"}">
-                                                                                            <td>Molecular Weight</td>
+                                                                                            <td><b>Molecular Weight</b></td>
                                                                                             <td>${casrn.weight}</td>
                                                                                         </g:if>
                                                                                     </tr>
@@ -590,6 +590,9 @@
                                                                             </div>
                                                                             <g:if test="${casrn.cid != "none"}">
                                                                                 <p><a href="https://pubchem.ncbi.nlm.nih.gov/compound/${casrn.cid}" target="_blank">View at PubChem</a></p>
+                                                                            </g:if>
+                                                                            <g:if test="${casrn.dtxsid != "none"}">
+                                                                                <p><a href="https://comptox.epa.gov/dashboard/dsstoxdb/results?abbreviation=TOX21SL&search=${casrn.dtxsid}" target="_blank">View at EPA</a></p>
                                                                             </g:if>
                                                                         </div>
                                                                     </div>

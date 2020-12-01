@@ -16,26 +16,8 @@ function renderCheckboxes() {
             if (stringMap.hasOwnProperty(annotype)) {
                 name = stringMap[annotype];
             }
-            if (record.annoclassname == "CTD_CHEMICALS_GOENRICH_BIOPROCESS") {
-                checkboxGroups[name].push(["CTD_GO_BP (new) <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
-            }
-            else if (record.annoclassname == "ZERO_CLASS" || 
-                     //record.annoclassname == "CTD_GO_BP" || 
-                     record.annoclassname == "CTD_SF" || 
-                     record.annoclassname == "ENZYMES_NOT_VALIDATED" ||
-                     record.annoclassname == "ENZYMES_VALIDATED" ||
-                     record.annoclassname == "TARGET_GENES_NOT_VALIDATED" ||
-                     record.annoclassname == "TARGET_GENES_VALIDATED" ||
-                     record.annoclassname == "TRANSPORTER_NOT_VALIDATED" ||
-                     record.annoclassname == "TRANSPORTER_VALIDATED" ||
-                     record.annoclassname == "ATC_NOT_VALIDATED" ||
-                     record.annoclassname == "ATC_VALIDATED" ||
-                     record.annoclassname == "CARRIER_NOT_VALIDATED" ||
-                     record.annoclassname == "CARRIER_VALIDATED" ||
-                     record.annoclassname == "MESH_LEVEL_1" ||
-                     record.annoclassname == "MESH_LEVEL_2" ||
-                     record.annoclassname == "MESH_LEVEL_3") {
-                //do nothing, we aren't using these. We can get rid of this else if after the next database update when we remove these altogether
+            if (record.annoclassname == "CTD_GOFAT_BIOPROCESS") {
+                checkboxGroups[name].push(["CTD_GOFAT_BIOPROCESS <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
             }
             else {
                 checkboxGroups[name].push([record.annoclassname, record.annogroovyclassname, record.annodesc]);

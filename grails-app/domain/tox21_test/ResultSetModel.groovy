@@ -130,7 +130,7 @@ class ResultSetModel {
                 "Smiles with results: ${this.getSmilesWithResults()}\n" +
                 "Smiles no results: ${this.getSmilesNoResults()}\n" +
                 "Enrich analysis type: ${this.getEnrichAnalysisType()}\n" +
-                "gctPerSetDir: ${this.getGctPerSetDir()}"
+                "gctPerSetDir: ${this.getGctPerSetDir()}\n" +
                 "**************************************************"
         return ret
     }

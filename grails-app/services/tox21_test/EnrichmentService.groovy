@@ -11,6 +11,7 @@ class EnrichmentService implements InitializingBean {
     def config = Holders.getGrailsApplication().config
     def EXT_SCRIPT_PATH_PERL
     def EXT_SCRIPT_PATH_PYTHON
+    def PYTHON_DIR = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 "
 
     def validate() {
 
@@ -18,7 +19,7 @@ class EnrichmentService implements InitializingBean {
 
     def convertInchiToSmiles(inchi) {
         println("| Running Python script...")
-        Process convertInchiToMol = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 /home/hurlab/tox21/src/main/python/convertInchiToMol.py ${inchi}".execute()
+        Process convertInchiToMol = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/convertInchiToMol.py ${inchi}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
         convertInchiToMol.consumeProcessOutput(pythonOut, pythonErr)
@@ -33,7 +34,7 @@ class EnrichmentService implements InitializingBean {
     }
 
     def checkSmilesValid(smiles) {
-        Process checkSmiles = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 /home/hurlab/tox21/src/main/python/checkSmiles.py ${smiles}".execute()
+        Process checkSmiles = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/checkSmiles.py ${smiles}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
         checkSmiles.consumeProcessOutput(pythonOut, pythonErr)
@@ -48,9 +49,25 @@ class EnrichmentService implements InitializingBean {
         } 
     }
 
+    def convertMolToSmiles(molecule) {
+        Process checkMols = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/convertMols.py ${molecule}".execute()
+        def pythonOut = new StringBuffer()
+        def pythonErr = new StringBuffer()
+        checkMols.consumeProcessOutput(pythonOut, pythonErr)
+        checkMols.waitFor()
+        if (pythonOut.size() > 0) {
+            print ("Output: $pythonOut\n")
+            return pythonOut.toString()
+        }
+        if (pythonErr.size() > 0) {
+            print ("Error: $pythonErr\n")
+            return pythonErr.toString()
+        }
+    }
+
     def calcReactiveGroups(mol) {
         println("| Running Python script to look for reactive groups for current smile...")
-        Process reactiveGroups = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 /home/hurlab/tox21/src/main/python/calcReactiveGroups.py ${mol}".execute()
+        Process reactiveGroups = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/calcReactiveGroups.py ${mol}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
         reactiveGroups.consumeProcessOutput(pythonOut, pythonErr)
