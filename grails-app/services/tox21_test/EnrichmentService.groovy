@@ -132,7 +132,7 @@ class EnrichmentService implements InitializingBean {
 
     def createDavidChart(outputDir, nodeCutoff) {
         //changed to version 2.3 to support accessing database
-        Process process = "perl ${EXT_SCRIPT_PATH_PERL}Create_DAVID_CHART_CLUSTER_gct_v2.3.pl $outputDir $nodeCutoff ALL P 0.05 P".execute(null, new File("${EXT_SCRIPT_PATH_PERL}"))
+        Process process = "perl ${EXT_SCRIPT_PATH_PERL}Create_DAVID_CHART_CLUSTER_gct_v2.4.pl $outputDir $nodeCutoff ALL P 0.05 P".execute(null, new File("${EXT_SCRIPT_PATH_PERL}"))
         def out = new StringBuffer()
         def err = new StringBuffer()
         process.consumeProcessOutput(out, err)

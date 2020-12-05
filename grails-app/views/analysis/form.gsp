@@ -8,11 +8,12 @@
     <meta name="layout" content="main" />
 	
     <asset:javascript src="enrichmentForm.js" />
-<%-- may want to look for an alternative for the jquery form validator as it is no longer being developed --%>
+    
+    <%-- may want to look for an alternative for the jquery form validator as it is no longer being developed --%>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script> 
 
     <%-- JSME --%>
-    <asset:javascript src="JSME_2020-06-11/jsme/jsme.nocache.js" />
+    <script type="text/javascript" language="javascript" src="assets/JSME_2020-06-11/jsme/jsme.nocache.js"></script>
 
     <style>
     .loader {
@@ -390,7 +391,7 @@
     <div id="wait" style="display: none">
         <br />
         <h3>Enrichment in Progress...</h3>
-        <p>You will be directed to the results page shortly. Please do not use your browser's back button or close this page.</p>
+        <p>You will be directed to the results page after the enrichment is complete. Please do not use your browser's back button or close this page, as this may take several minutes.</p>
         <br />
 
         <div id="waittable" class="table-scroll">
@@ -443,7 +444,7 @@
         <form action="/tox21enricher/analysis/enrich" method="post" id="enrichForm">
             <div class="row" id="checkboxes">
                 <br>
-                Please see <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'Tox21Enricher_Manual_v3.3.1.pdf']" target="_blank">this link </g:link> for instructions on using this application and the descriptions about the chemical/biological categories. Other resources from the Tox21 toolbox can be viewed <g:link url="https://ntp.niehs.nih.gov/results/tox21/tbox/">here.</g:link>
+                Please see <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'Tox21Enricher_Manual_v3.3.2.pdf']" target="_blank">this link </g:link> for instructions on using this application and the descriptions about the chemical/biological categories. Other resources from the Tox21 toolbox can be viewed <g:link url="https://ntp.niehs.nih.gov/results/tox21/tbox/">here.</g:link>
                 <br>
                 <div class="accordion" id="categoriesHeader">
                     <h3>Select chemical/biological annotation categories</h3>

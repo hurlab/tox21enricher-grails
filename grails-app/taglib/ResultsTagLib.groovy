@@ -13,6 +13,8 @@ class ResultsTagLib {
                 foundMismatch = "warnYes"
             }
         }
-        out << '<input class="' << foundMismatch << '" type="checkbox" name="CASRNSChecked" id="CASRNSChecked" value="' << itemToCheck << '" checked="checked" />'
+        // put in format <casrn>__#Set<set number>
+        def itemToShow = "${attrs.check}__#${attrs.dataSetName}"
+        out << '<input class="' << foundMismatch << '" type="checkbox" name="CASRNSChecked" id="CASRNSChecked" value="' << itemToShow << '" checked="checked" />'
     }
 }

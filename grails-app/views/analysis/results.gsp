@@ -206,7 +206,7 @@
     <div id="wait" style="display: none">
         <br />
         <h3>Enrichment in Progress...</h3>
-        <p>You will be directed to the results page shortly. Please do not use your browser's back button or close this page.</p>
+        <p>You will be directed to the results page after the enrichment is complete. Please do not use your browser's back button or close this page, as this may take several minutes.</p>
         <br />
 
         <div id="waittable" class="table-scroll">
@@ -362,6 +362,8 @@
                                 <div class="small-2 column">
                                     <p>Legend</p>
                                     <asset:image src="Heatmap_color_legend.png" />
+                                    <p>Class ID Key</p>
+                                    <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'classes.txt']" target="_blank">classes.txt</g:link>
                                 </div>
                             </div>
                             <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -387,6 +389,8 @@
                                 <div class="small-2 column">
                                     <p>Legend</p>
                                     <asset:image src="Heatmap_color_legend.png" />
+                                    <p>Class ID Key</p>
+                                    <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'classes.txt']" target="_blank">classes.txt</g:link>
                                 </div>
                             </div>
                             <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -463,7 +467,7 @@
                     <!-- Network regeneration loading modal/animation -->
                     <div class="reveal tiny" id="networkRegLoadingModal" data-reveal data-options="close_on_background_click:false; close_on_esc: true;">
                         <p class="lead">Recreating network...</p>
-                        <p>The network is being updated. Please do not use your browser's back button.</p>
+                        <p>The network is being updated. Please do not use your browser's back button, as this may take several minutes.</p>
                         <div class="row">
                             <div class="small-12 small-centered columns">
                                 <div class="loader small-centered"></div>
@@ -530,7 +534,7 @@
                                                         <tr>
                                                         <td>
                                                             <!-- from ResultsTagLib -->
-                                                            <g:eachReactive reactive="${reactiveResults}" check="${casrn.id}" /> 
+                                                            <g:eachReactive reactive="${reactiveResults}" check="${casrn.id}" dataSetName="${dataSet.key}" /> 
                                                         </td>
                                                         <td>
                                                             <g:set var="structureExists" value="${new File("/home/hurlab/tox21/grails-app/assets/images/structures/${casrn.id}.png").exists()}"></g:set>

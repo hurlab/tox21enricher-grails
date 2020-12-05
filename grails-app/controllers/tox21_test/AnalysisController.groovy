@@ -482,7 +482,7 @@ class AnalysisController implements InitializingBean {
                                         rowResultSet.each { result ->
                                             def tmpSet =[:]
                                             tmpSet["casrn"] = result.casrn
-                                            tmpSet["m"] = enrichmentService.convertMolToSmiles(result.m.trim())
+                                            tmpSet["m"] = result.m
                                             tmpSet["similarity"] = result.similarity
                                             tmpSet["cyanide"] = result.cyanide
                                             tmpSet["isocyanate"] = result.isocyanate
@@ -546,7 +546,9 @@ class AnalysisController implements InitializingBean {
                                 }
 
                                 println "reactiveList:: " + reactiveList
-                                casrnResultsData.put(itemFromBox,resultSet)
+                                //casrnResultsData.put(itemFromBox,resultSet)
+                                casrnResultsData.put("#Set$curSet",resultSet)
+                                //println "PUT: ${casrnResultsData}"
                                 
                                 if (enrichAnalysisType == "SMILES" || enrichAnalysisType == "SMILESSimilarity") {
                                     psqlGoodSmiles.add("${lineNumber}_${itemFromBox}")
@@ -728,6 +730,7 @@ class AnalysisController implements InitializingBean {
                     //will in turn allow us to display results based on input type
                     else {
                         //set up CASRNBox if we are re-enriching selected CASRNs after a SMILES/InChI search
+                        def reenrichSetsMap = [:]
                         if (params.analysisType == "CASRNSReenrich") {
                             //count how many sets we have
                             int numberOfResubmitSets = 0
@@ -769,16 +772,30 @@ class AnalysisController implements InitializingBean {
 
                             //put only the checked items into each set in params.CASRNBox (so we can perform enrichment the same way as if we did a regular CASRNs enrichment)
                             setsFromResults.each {nameKey, listValue -> 
-                                params.CASRNBox += nameKey.trim() + "\n"
-                                for (int i = 0; i < listValue.size(); i++) {
-                                    for (int j = 0; j < casrnsChecklist.size(); j++ ) {
-                                        if (listValue[i].trim() == casrnsChecklist[j].trim()) {
-                                            params.CASRNBox += listValue[i].trim() + "\n"
+                                for (int j = 0; j < casrnsChecklist.size(); j++ ) {
+                                    def tmpCheckSplit = casrnsChecklist[j].trim().split("__")  //0 = casrn, 1 = set name
+                                    //println "ITEM: ${tmpCheckSplit[0]}\tSET: ${tmpCheckSplit[1]}"
+                                    for (int i = 0; i < listValue.size(); i++) {
+                                        if (listValue[i].trim() == tmpCheckSplit[0] && tmpCheckSplit[1] == nameKey) {
+                                            if(reenrichSetsMap.containsKey(tmpCheckSplit[1]) == false) {
+                                                reenrichSetsMap.put(tmpCheckSplit[1], [])
+                                            }
+                                            reenrichSetsMap[tmpCheckSplit[1]] += tmpCheckSplit[0]
                                         }
                                     }
                                 }
                             }                            
                         }
+
+                        //re-populate CASRNBox based on which chemicals were checked for re-enrichment for each set
+                        reenrichSetsMap.each { rsmKey, rsmVal ->
+                            println "MAP:::: ${rsmKey}\t\t${rsmVal}"
+                            params.CASRNBox += rsmKey  + "\n"
+                            rsmVal.each{rsmValCasrn ->
+                                params.CASRNBox += rsmValCasrn + "\n"
+                            }
+                        }
+                        
 
                         def originalAnalysisType = enrichAnalysisType
                         println ">>>>>> $originalAnalysisType"
@@ -1035,17 +1052,23 @@ class AnalysisController implements InitializingBean {
                         //println ">>> creating file at ${currentOutputDir}/CASRNs.txt"
                         File casrnFile = new File(currentOutputDir + "/CASRNs.txt")
                         def casrnNameIndex = 0
+                        def currentSet = ""
                         params.CASRNBox.eachLine { line ->
+                            println "============================="
+                            println "$line"
+                            println "============================="
                             if (line.startsWith("#")) { //set name
                                 casrnFile << line + "\n"
+                                currentSet = line
+                                println "CURRENT SET: $currentSet"
                             }
                             else {  //else, casrn id
                                 def totalSize = 0
                                 casrnResultsData.each { casrnKey, casrnValues ->
+                                    println ">>>> $casrnKey\t$casrnValues"
                                     totalSize += casrnValues.size()
                                     for (int i = 0; i < casrnValues.size(); i++) {
-                                        casrnValues[i].each { casrnInsideKey, casrnInsideValue ->
-                                            if(casrnInsideKey == "casrn" && casrnInsideValue == line && tmpCasrnNameList[casrnNameIndex] != null) {
+                                            if(casrnValues[i].casrn == line && casrnKey == currentSet && tmpCasrnNameList[casrnNameIndex] != null) {
                                                 //error checking & handling for if we are missing any of this info
                                                 if (tmpCasrnNameList[casrnNameIndex].cid == "") {
                                                     println "> no CID. replacing:"
@@ -1073,14 +1096,14 @@ class AnalysisController implements InitializingBean {
                                                 }
 
                                                 if (enrichAnalysisType == "SMILESSimilarity" || enrichAnalysisType == "InChISimilarity") {
-                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + String.format("%.2f",casrnValues[i].similarity.value) + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight + "\t" + tmpCasrnNameList[casrnNameIndex].dtxsid + "\n"
+                                                    casrnFile << casrnValues[i].casrn + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + String.format("%.2f",casrnValues[i].similarity.value) + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight + "\t" + tmpCasrnNameList[casrnNameIndex].dtxsid + "\n"
                                                 }
                                                 else {
-                                                    casrnFile << casrnInsideValue + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight + "\t" + tmpCasrnNameList[casrnNameIndex].dtxsid + "\n"
+                                                    casrnFile << casrnValues[i].casrn + "\t" + tmpCasrnNameList[casrnNameIndex].testsubstance_chemname + "\t" + threshold + "\t" + tmpSmilesNameList[casrnNameIndex] + "\t" + tmpCasrnNameList[casrnNameIndex].cid + "\t" + tmpCasrnNameList[casrnNameIndex].iupac_name + "\t" + tmpCasrnNameList[casrnNameIndex].inchis + "\t" + tmpCasrnNameList[casrnNameIndex].inchikey + "\t" + tmpCasrnNameList[casrnNameIndex].mol_formula + "\t" + tmpCasrnNameList[casrnNameIndex].mol_weight + "\t" + tmpCasrnNameList[casrnNameIndex].dtxsid + "\n"
                                                 }
                                                 casrnNameIndex++
                                             }   
-                                        }
+                                        //}
                                     }
                                 }
                             }
