@@ -1,0 +1,13 @@
+GROUPID	UID	Terms	Set1	Set2	Set3
+27	29865	Benzyl Compounds	1.71792004438536		
+40	36491	bond:C#N_nitrile		4.98985064365894	
+5	8606	Cell Transformation, Neoplastic			2.95489454832223
+40	36625	bond:CX_halide_alkyl-X_benzyl_generic	2.04160323823235		
+22	29054	Neurotoxicityy-pup behavior mouse	1.56508807351202		
+29	32052	MDR1 inhibition at 10uM			2.8563414322548
+40	36582	bond:CN_amine_ter-N_aromatic_aliphatic			8.6178660370563
+40	36884	chain:aromaticAlkane_Ph-C1_acyclic_connect_H_gt_1	3.25556611004418		
+22	28975	Developmental Toxicity-pre impl. loss rabbit			1.68879005711595
+22	29002	Genetic Toxicity -UDS			1.73089029173354
+22	29015	Genetic Toxicity -microbial			2.06243800902784
+22	29010	Genetic Toxicity -drosophila SLRL			5.73192863113731

@@ -352,6 +352,14 @@ class AnalysisController implements InitializingBean {
                     def annoSelectSaved = [:]
                     def reactiveList = []   //list of maps of chemicals that contain reactive groups
                     def invalidCharactersError = "[,_]" //characters to remove from error input
+                    def sql = new Sql(dataSource_psql)
+                    def userIp = "" //ip address for request
+
+                    // Get timestamp for enrichment start
+                    def timestampEnrichStart = new Date()
+                    def timestampEnrichStartFormatted = timestampEnrichStart.format('dd/MM/yyyy hh:mm:ss')
+                    
+
 
                     //If we're using SMILE input or InChI input
                     //query psql to get our CASRNs.
@@ -412,7 +420,7 @@ class AnalysisController implements InitializingBean {
 
                         def psqlErrorMessage
                         params.CASRNBox = "";
-                        def sql = new Sql(dataSource_psql)
+                        
                         def curSet = 1
                         
                         def setThresholdQuery
@@ -499,7 +507,7 @@ class AnalysisController implements InitializingBean {
                                 else if (params.smilesSearchType == "Similarity") {
                                     //first, check if the item on this line is actually valid SMILES, TODO: make this easier:
                                     def SmilesValidCheck = enrichmentService.checkSmilesValid(itemFromBox)
-                                    println ">>> SmilesValidCheck >>> $SmilesValidCheck"
+                                    //println ">>> SmilesValidCheck >>> $SmilesValidCheck"
                                     if (SmilesValidCheck.contains("None")) {
                                         throw new IllegalArgumentException("Invalid SMILES: ${itemFromBox}")
                                     }
@@ -522,7 +530,7 @@ class AnalysisController implements InitializingBean {
 
                                 //Preliminary check: check the itemFromBox to see if it contains a reactiveGroup
                                 def boxReactiveGroups = enrichmentService.calcReactiveGroups(itemFromBox.toString().trim())
-                                println "submitting: " + itemFromBox.toString().trim()
+                                //println "submitting: " + itemFromBox.toString().trim()
                                 def boxReactiveGroupsList = []
                                 if (boxReactiveGroups != null) {
                                     boxReactiveGroupsList = boxReactiveGroups.split(",")
@@ -533,10 +541,10 @@ class AnalysisController implements InitializingBean {
                                         }
                                     }
                                 }
-                                println "=================| " + boxReactiveGroupsList
+                                //println "=================| " + boxReactiveGroupsList
 
                                 //Here, we check if any reactive structures only appear in one of the lists and keep track of those.
-                                println ">> COMPARING FOR: $itemFromBox"
+                                //println ">> COMPARING FOR: $itemFromBox"
                                 resultSet.each { moleculeAfter ->
                                     def reactiveGroups = enrichmentService.calcCasrnReactiveGroups(moleculeAfter, boxReactiveGroupsList)
                                     if (reactiveGroups != []) {
@@ -545,7 +553,7 @@ class AnalysisController implements InitializingBean {
                                     
                                 }
 
-                                println "reactiveList:: " + reactiveList
+                                //println "reactiveList:: " + reactiveList
                                 //casrnResultsData.put(itemFromBox,resultSet)
                                 casrnResultsData.put("#Set$curSet",resultSet)
                                 //println "PUT: ${casrnResultsData}"
@@ -657,8 +665,9 @@ class AnalysisController implements InitializingBean {
                     else if (params.analysisType == "Annotation") {
                         println params.AnnoBox
 
-                        //changed from incremental to UUID so each enrichment will have a unique ID, DIFFERENT than the transaction ID!
-                        def final CACHE_DIR = UUID.randomUUID().toString()
+                        //changed from incremental to UUID so each enrichment will have a unique ID, DIFFERENT than the transaction ID! <- OBSOLETE
+                        //def final CACHE_DIR = UUID.randomUUID().toString()
+                        def final CACHE_DIR = params.transactionId //02/10/2021 change to make the same as transaction ID
 
                         def currentInputDir = ENRICH_INPUT_PATH + "/" + CACHE_DIR
                         def currentOutputDir = ENRICH_OUTPUT_PATH + "/" + CACHE_DIR
@@ -682,7 +691,7 @@ class AnalysisController implements InitializingBean {
                         }
 
                         File annotationsFileFull
-                        def sql = new Sql(dataSource_psql)
+                        //def sql = new Sql(dataSource_psql)
                         def annoBox = params.AnnoBox
 
                         //if no chemicals are entered
@@ -906,6 +915,7 @@ class AnalysisController implements InitializingBean {
                             multicaseToxPrediction: "MULTICASE_TOX_PREDICTION",
                             toxRefDb: "TOXREFDB",
                             htsActive: "HTS_ACTIVE",
+                            htsStrongActive: "HTS_STRONGACTIVE",
                             toxCast: "TOXCAST_ACTIVE",
                             toxPrintStructure: "TOXPRINT_STRUCTURE",
                             ctdChemicalsDiseases: "CTD_CHEMICALS_DISEASES",
@@ -936,7 +946,8 @@ class AnalysisController implements InitializingBean {
                     //println("ANNO SELECT STR: $annoSelectStr")
 
                     //changed from incremental to UUID so each enrichment will have a unique ID, DIFFERENT than the transaction ID!
-                    def final CACHE_DIR = UUID.randomUUID().toString()
+                    //def final CACHE_DIR = UUID.randomUUID().toString()
+                    def final CACHE_DIR = params.transactionId
 
                     def currentInputDir = ENRICH_INPUT_PATH + "/" + CACHE_DIR
                     def currentOutputDir = ENRICH_OUTPUT_PATH + "/" + CACHE_DIR
@@ -1003,7 +1014,7 @@ class AnalysisController implements InitializingBean {
                                         //Better yet, make it its own method
                                         //FYI: sql.rows() returns a list of maps
                                         //where each map is field names and values for a given record
-                                        def sql = new Sql(dataSource_psql)
+                                        //def sql = new Sql(dataSource_psql)
                                         def rows = sql.rows("SELECT TestSubstance_ChemName FROM chemical_detail WHERE CASRN LIKE '" + line + "'")
                                         //println("Line: " + line)
                                         //println("Rows: " + rows)
@@ -1026,9 +1037,12 @@ class AnalysisController implements InitializingBean {
                     //println "Current input dir: $currentInputDir"
                     //println "Current output dir: $currentOutputDir"
                     println "Annotation selection string: $annoSelectStr"
-                    //print "Calling enrichment analysis perl script...\n"
-                    enrichmentService.performEnrichment(currentInputDir, currentOutputDir, annoSelectStr)
+                    def ts_s_Enrichment = new Date()
+                    print "Calling enrichment analysis perl script...\n"
+                    enrichmentService.performEnrichment(currentInputDir, currentOutputDir, annoSelectStr, CACHE_DIR, params.nodeCutoff)
                     print "Enrichment completed.\n"
+                    def ts_e_Enrichment = new Date()
+                    println "RUNTIME: ${(ts_e_Enrichment.getTime() - ts_s_Enrichment.getTime())/1000}"
 
                     //create .xls files
                     new File(currentOutputDir).eachFileRecurse(FILES) {
@@ -1120,18 +1134,18 @@ class AnalysisController implements InitializingBean {
 
                     //gct file creation and heatmap generation
                     print "Beginning gct file creation for single set...\n"
-                    enrichmentService.createIndividualGCT(currentInputDir, currentOutputDir)
+                    //enrichmentService.createIndividualGCT(currentInputDir, currentOutputDir)
                     print "Beginning heatmap image creation...\n"
-                    enrichmentService.createClusteringImages("$currentOutputDir" + "/gct_per_set/ -color=BR")
+                    //enrichmentService.createClusteringImages("$currentOutputDir" + "/gct_per_set/ -color=BR")
                     print "Done creating heatmap images for single set.\n"
 
                     //multi set heatmap creation
                     //if (numSets > 1) {
                     print "Beginning gct file creation for multiple sets...\n"
-                    enrichmentService.createDavidChart(currentOutputDir, params.nodeCutoff) //# of nodes to generate in network
+                    //enrichmentService.createDavidChart(currentOutputDir, params.nodeCutoff) //# of nodes to generate in network
                     print "Done creating gct files for multiple sets.\n"
                     print "Beginning heatmap image creation...\n"
-                    enrichmentService.createClusteringImages("$currentOutputDir" + "/gct/")
+                    //enrichmentService.createClusteringImages("$currentOutputDir" + "/gct/")
                     print "Done creating heatmap images.\n"
                     //}
 
@@ -1147,6 +1161,23 @@ class AnalysisController implements InitializingBean {
                     getQueueDataSuccess(_transactionId, CACHE_DIR, params.nodeCutoff)
                     getQueueDataEnd(_transactionId)
 
+                    //get timestamp for enrichment finish
+                    def timestampEnrichFinish = new Date()
+                    def timestampEnrichFinishFormatted = timestampEnrichFinish.format('dd/MM/yyyy hh:mm:ss')
+
+                    //extract IP address
+                    def ipAddress = RequestContextHolder.currentRequestAttributes().toString()
+                    def ipAddressFormatted = ipAddress.split("client=")[1]
+                    //println "ipAddressFormatted; $ipAddressFormatted"
+
+                    //Prepare query to add enrichment details to psql table
+                    def postEnrichmentToDbQuery
+                    if(params.CASRNBox) postEnrichmentToDbQuery = "INSERT INTO enrichment_list(id, chemlist, type, node_cutoff, anno_select_str, timestamp_start, timestamp_finish, ip) VALUES(${params.transactionId}, ${params.CASRNBox}, ${params.analysisType}, ${params.nodeCutoff as Integer}, ${annoSelectStr}, ${timestampEnrichStartFormatted}, ${timestampEnrichFinishFormatted}, $ipAddressFormatted);"
+                    if(params.SMILEBox) postEnrichmentToDbQuery = "INSERT INTO enrichment_list(id, chemlist, type, node_cutoff, anno_select_str, timestamp_start, timestamp_finish, ip) VALUES(${params.transactionId}, ${params.SMILEBox}, ${params.analysisType}, ${params.nodeCutoff as Integer}, ${annoSelectStr}, ${timestampEnrichStartFormatted}, ${timestampEnrichFinishFormatted}, $ipAddressFormatted);"
+                    if(params.InChIBox) postEnrichmentToDbQuery = "INSERT INTO enrichment_list(id, chemlist, type, node_cutoff, anno_select_str, timestamp_start, timestamp_finish, ip) VALUES(${params.transactionId}, ${params.InChIBox}, ${params.analysisType}, ${params.nodeCutoff as Integer}, ${annoSelectStr}, ${timestampEnrichStartFormatted}, ${timestampEnrichFinishFormatted}, $ipAddressFormatted);"
+                    def enrichmentTracker = sql.execute(postEnrichmentToDbQuery)
+                    println("enrichmentTracker results: $enrichmentTracker")
+
                     reply "$_transactionId\tsuccess"
                     return
 
@@ -1161,6 +1192,9 @@ class AnalysisController implements InitializingBean {
                 def queueListItem = [paramsThread, dataSource_psql, transactionId]
                 
                 transactionQueue << [transactionId, queueListItem[0]]
+
+                //submit initial info to enrichment_list table in database
+                //submitEnrichmentToDbQuery = "INSERT INTO enrichment_list(id, chemlist, type, node_cutoff, anno_select_str, timestamp_start, timestamp_finish, ip) VALUES(${params.transactionId}, ${params.SMILEBox}, ${params.analysisType}, ${params.nodeCutoff as Integer}, ${annoSelectStr}, ${timestampEnrichStartFormatted}, ${timestampEnrichFinishFormatted}, $ipAddressFormatted);"
 
                 //thread debug
                 println("\n######THREAD DEBUG INFORMATION ######")
@@ -1190,6 +1224,11 @@ class AnalysisController implements InitializingBean {
 
                 
                 react {result ->
+
+                    
+
+                    println "RESULTS>>>>>>>>>>>>>>>> $result"
+
                     def tmpSplit = result.split('\t')
                     println "tmpSplit >>> $tmpSplit"
                     def resultId = tmpSplit[0]

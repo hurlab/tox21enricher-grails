@@ -1,0 +1,33 @@
+#1.2
+30	3
+ID	Terms	BPAanalogs	Flameretardants	PAH
+Reproductive Toxicity -repro rat male		0	4.44938255015708	0
+NVS_NR_bER		7.82898955240876	0	0
+OCT1 substrates		6.28852833092884	0	0
+AHR		0	0	8.48211859898036
+ring:fused_PAH_phenanthrene		0	0	13.4979964832744
+Organophosphates		0	5.98814453999019	0
+bond:P=O_phosphate_alkyl_ester		0	4.11327194695079	0
+RCA fetal weight decrease, mouse		0	6.10813028445967	0
+Polycyclic Compounds		0	0	8.80134637900609
+chain:aromaticAlkane_Ar-C-Ar		7.07524418853286	0	0
+Reproductive Toxicity -sperm rodent		0	4.50030204736693	0
+NVS_NR_mERa		6.39076781224818	0	0
+bond:COH_alcohol_aromatic		12.3804726386322	0	0
+BE0000372		0	0	18.6349198185297
+RCA fetal death, mouse		0	4.01158144542899	1.65284226667273
+ring:fused_PAH_anthracene		0	0	8.42962777198384
+NVS_NR_hER		8.11222949308564	0	0
+bond:P=O_phosphate		0	13.7756149864734	0
+chain:aromaticAlkane_Ph-C1-Ph		7.69024079732552	0	0
+BE0004796		0	0	8.53526515706971
+Genetic Toxicity -microbial		0	0	7.78597445095881
+bond:COH_alcohol_aromatic_phenol		12.5863575348296	0	0
+Reproductive Toxicity -sperm ratPositive		0	6.79629108813624	0
+bond:COH_alcohol_generic		7.00037155957892	0	0
+Organophosphorus Compounds		0	8.06654058760832	0
+Polycyclic Hydrocarbons, Aromatic		0	0	11.7716665618454
+ring:fused_[6_6]_naphthalene		0	0	14.7175462999047
+bond:P=O_phosphorus_oxo		0	11.77548278172	0
+agonism_ER/partial		9.13777722892602	0	0
+GNMT		0	0	15.9146499372792

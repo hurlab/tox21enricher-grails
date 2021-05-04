@@ -35,6 +35,7 @@ if (not defined $ARGV[0])
 # --------------------------------------
 our $dirName					= $ARGV[0];
 $dirName						=~ s/\\/\//g;
+print STDERR "!!! dirName: $dirName !!!\n\n";
 my @dirNameSplit				= split (/\//, $dirName);
 my $dirTypeTag					= '';
 if ($dirNameSplit[0] =~ /CLUSTER/i)

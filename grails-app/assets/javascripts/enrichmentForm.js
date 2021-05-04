@@ -17,7 +17,7 @@ function renderCheckboxes() {
                 name = stringMap[annotype];
             }
             if (record.annoclassname == "CTD_GOFAT_BIOPROCESS") {
-                checkboxGroups[name].push(["CTD_GOFAT_BIOPROCESS <sub>Very Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
+                checkboxGroups[name].push(["CTD_GOFAT_BIOPROCESS <sub>Extremely Slow</sub>", record.annogroovyclassname, record.annodesc, false]);
             }
             else {
                 checkboxGroups[name].push([record.annoclassname, record.annogroovyclassname, record.annodesc]);
@@ -77,5 +77,26 @@ function renderCheckboxes() {
 }
 
 $(document).ready(function() { renderCheckboxes();
+$(document).foundation();
+});
+
+function renderEnrichCount() {
+
+    $.get("/tox21enricher/init/getEnrichCount", function(data) {
+        var countValue = JSON.stringify(data).split(":");   
+        prepCountValue = countValue[1].replace("}","").replace("]","");
+        //var countValueContainer = $("<div>").addClass("row");
+        //$(countValueContainer).value("Number of enrichment processes performed: " + prepCountValue);
+        //$(countValueContainer).text("Number of enrichment processes performed: " + prepCountValue);
+
+        $("#enrichCountValue").append("Total number of enrichment processes performed: " + prepCountValue);
+        
+        $(document).foundation();
+    } );
+
+
+}
+
+$(document).ready(function() { renderEnrichCount();
 $(document).foundation();
 });

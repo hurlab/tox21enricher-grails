@@ -1,0 +1,8 @@
+100-44-7	Benzyl chloride
+100-46-9	Benzylamine
+103-29-7	Bibenzyl
+101-81-5	Diphenylmethane
+620-20-2	1-Chloro-3-(chloromethyl)-benzene
+104-82-5	4-Methylbenzyl chloride
+612-12-4	1,2-Bis(chloromethyl)benzene
+

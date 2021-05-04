@@ -431,6 +431,7 @@ println "Terms string placeholder: $termsStringPlaceholder"
                 DRUGBANK_ATC_CODE:[50, 185, 253], 
                 DRUGBANK_TARGETS:[178, 253, 29], 
                 HTS_ACTIVE:[144, 244, 43], 
+                HTS_STRONGACTIVE:[80, 140, 20], 
                 INDICATION:[102, 245, 30], 
                 KNOWN_TOXICITY:[54, 254, 14], 
                 LEADSCOPE_TOXICITY:[42, 246, 42], 

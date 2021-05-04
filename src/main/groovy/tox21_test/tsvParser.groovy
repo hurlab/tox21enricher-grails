@@ -26,8 +26,8 @@ termsString = "'" + termsJoined + "'"
 //println "Terms string: $termsString"
 //println ""
 
-def url = "jdbc:mysql://localhost:3306/tox21second"
-def user = "user"
+def url = "jdbc:mysql://localhost:3306/tox21enricher"
+def user = "username"
 def password = "password"
 def driver = "com.mysql.jdbc.Driver"
 

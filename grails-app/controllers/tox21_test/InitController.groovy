@@ -42,5 +42,11 @@ class InitController {
 
         respond rows    //have to use respond instead of render
     }
+
+    def getEnrichCount() {
+        def sql = new Sql(dataSource_psql)
+        def rows = sql.rows("SELECT COUNT(*) FROM enrichment_list;")
+        respond rows
+    }
     
 }

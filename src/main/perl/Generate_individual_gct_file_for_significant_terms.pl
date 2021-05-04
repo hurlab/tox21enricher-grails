@@ -2,6 +2,7 @@
 
 use warnings;
 use strict;
+use Data::Dumper;
 
 # --------------------------------------------------------------------
 #
@@ -57,6 +58,13 @@ while(<CAS>)
 }	close CAS;
 
 
+
+#print STDERR "===============================================================\n";
+#print STDERR "CASRN2NAME HASH\n";
+#print STDERR Dumper(%CASRN2Name);
+#print STDERR "===============================================================\n";
+
+
 # -------------------------------------
 # Enumerate all possible directories
 # -------------------------------------
@@ -95,6 +103,7 @@ sub process_variable_DAVID_CHART_directories_individual_file
 	my $sigCutOff				= $ARGV[5];
 	my $sigColumnName			= uc($ARGV[4]);
 	my $sigColumnIndex			= get_column_index ($sigColumnName);			# 4=p-value, 11=BH p-value, 12=FDR
+	print STDERR "! >> SIG COLUMN INDEX !: $sigColumnIndex\n";
 	my $valueColumnName			= uc($ARGV[6]);
 	my $valueColumnIndex		= get_column_index ($valueColumnName);
 	
@@ -119,10 +128,10 @@ sub process_variable_DAVID_CHART_directories_individual_file
 			my @CASRNs = split (/\, /, $tmpSplit[5]);
 			foreach my $CASRN (@CASRNs)
 			{	$CASRN2TermMatrix{$CASRN}{$tmpTermKey} = 1;
+				print STDERR "$CASRN2TermMatrix{$CASRN}\t--\t \n";
 			}
 		}	close DATA;
 		
-
 		# Now create new output files
 		open (OUTFILE, ">".$outputDir.$tmp2[0].'.gct');
 		my @CASRNs			= keys %CASRN2TermMatrix;

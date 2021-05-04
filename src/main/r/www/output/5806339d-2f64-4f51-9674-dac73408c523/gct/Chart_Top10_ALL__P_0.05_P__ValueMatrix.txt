@@ -1,0 +1,9 @@
+GROUP	ID	Terms	Set1	Set2	Set3
+MESH	Amines				5.20421411573931
+MESH	Hydrocarbons, Cyclic		2.08004354523098		
+MESH	Benzene Derivatives		2.62076864133401		
+MESH	Phenylenediamines				1.43559165146255
+MESH	Aniline Compounds				6.28044116185645
+MESH	Hydrocarbons		1.70699860581952		
+MESH	Hydrocarbons, Aromatic		2.23926717291241		
+MESH	Benzyl Compounds		1.71792004438536		

@@ -3,6 +3,7 @@ package tox21_test
 import grails.gorm.transactions.Transactional
 import grails.util.Holders
 import org.springframework.beans.factory.InitializingBean
+import groovyx.net.http.HTTPBuilder
 
 @Transactional
 class EnrichmentService implements InitializingBean {
@@ -104,12 +105,30 @@ class EnrichmentService implements InitializingBean {
         return mismatchesToReturn
     }
 
-    def performEnrichment(inputDir, outputDir, annoSelectStr) {
+    def performEnrichment(inputDir, outputDir, annoSelectStr, processUUID, nodeCutoff) {
         println "current input dir: $inputDir"
         println "current output dir: $outputDir"
         println "annoSelectStr: $annoSelectStr"
+
+        def tmpSplitAnno = annoSelectStr.split(" ")
+        def annotationCheckedList = ""
+        tmpSplitAnno.each {
+            def tmpAnno = it.split("=")
+            //if(tmpAnno[1] == "checked") annotationCheckedList += "${tmpAnno[0]},"
+            annotationCheckedList += "${tmpAnno[0]} "
+        }
+
+        ///*
+
+        def postEnrichment = new HTTPBuilder('http://localhost:8082')
+        def postEnrichmentMessage = postEnrichment.get(path:'/enrich', query: [enrichmentUUID:"${processUUID}", annoSelectStr:"${annotationCheckedList}", nodeCutoff:nodeCutoff])
+
+        println ">>> received from R server: $postEnrichmentMessage"
+        //*/
+
+        /*
         println "perl ${EXT_SCRIPT_PATH_PERL} $inputDir $outputDir $annoSelectStr"
-        Process process = "perl ${EXT_SCRIPT_PATH_PERL}Perform_Tox21_PubChem_Enrichment_v2.3.pl $inputDir $outputDir $annoSelectStr".execute(null, new File("${EXT_SCRIPT_PATH_PERL}"))
+        Process process = "perl ${EXT_SCRIPT_PATH_PERL}API_Perform_Tox21_PubChem_Enrichment_v2.3.pl $inputDir $outputDir $annoSelectStr".execute(null, new File("${EXT_SCRIPT_PATH_PERL}"))
         def out = new StringBuffer()
         def err = new StringBuffer()
         process.consumeProcessOutput(out, err)
@@ -117,6 +136,8 @@ class EnrichmentService implements InitializingBean {
         if (out.size() > 0) print ("Output: $out\n")
         if (err.size() > 0) print ("Error: $err\n")
         print ("Exit value: ${process.exitValue()}\n")
+        */
+        
     }
 
     def createIndividualGCT(inputDir, outputDir) {

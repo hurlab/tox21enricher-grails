@@ -310,7 +310,7 @@
                 }
 
                 $(this).data("tox21_isChecked", !$(this).data("tox21_isChecked"));
-                if ($(this).attr('id') != "goBiop") {
+                if ($(this).attr('id') != "goFatBp") {
                     $(this).prop('checked', doCheck);
                 }
             });
@@ -445,6 +445,8 @@
             <div class="row" id="checkboxes">
                 <br>
                 Please see <g:link controller="analysisResults" action="serveUserManual" params="[filename: 'Tox21Enricher_Manual_v3.3.2.pdf']" target="_blank">this link </g:link> for instructions on using this application and the descriptions about the chemical/biological categories. Other resources from the Tox21 toolbox can be viewed <g:link url="https://ntp.niehs.nih.gov/results/tox21/tbox/">here.</g:link>
+                <br>
+                <p id="enrichCountValue"></p>
                 <br>
                 <div class="accordion" id="categoriesHeader">
                     <h3>Select chemical/biological annotation categories</h3>

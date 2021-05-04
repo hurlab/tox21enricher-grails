@@ -1,0 +1,12 @@
+115-86-6	Triphenyl phosphate
+115-96-8	Tris(2-chloroethyl) phosphate
+1241-94-7	2-Ethylhexyl diphenyl phosphate
+1330-78-5	Tricresyl phosphate
+13674-87-8	TDCPP
+29761-21-5	Isodecyl diphenyl phosphate
+5436-43-1	2,2'4,4'-Tetrabromodiphenyl ether
+56803-37-3	tert-Butylphenyl diphenyl phosphate
+68937-41-7	Phenol, isopropylated, phosphate (3:1)
+78-30-8	Tri-o-cresyl phosphate
+79-94-7	3,3',5,5'-Tetrabromobisphenol A
+

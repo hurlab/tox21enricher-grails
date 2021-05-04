@@ -1,0 +1,14 @@
+1478-61-1	Bisphenol AF
+41481-66-7	4,4'-Sulfonylbis[2-(prop-2-en-1-yl)phenol]
+5613-46-7	4,4'-Propane-2,2-diylbis(2,6-dimethylphenol)
+57-63-6	17alpha-Ethinylestradiol
+620-92-8	Bis(4-hydroxyphenyl)methane
+77-40-7	Bisphenol B
+79-94-7	3,3',5,5'-Tetrabromobisphenol A
+79-95-8	2,2',6,6'-Tetrachlorobisphenol A
+79-97-0	3,3'-Dimethylbisphenol A
+80-05-7	Bisphenol A
+80-09-1	4,4'-Sulfonyldiphenol
+843-55-0	Bisphenol Z
+94-18-8	Benzylparaben
+
