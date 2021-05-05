@@ -353,11 +353,11 @@ shinyServer(function(input, output, session) {
         # Generate UUID for this query
         transactionId <- UUIDgenerate()
 
-        inDir <- paste0("/home/hurlab/tox21r/tox21enricher/Input/", transactionId, "/")
-        outDir <- paste0("/home/hurlab/tox21r/tox21enricher/Output/", transactionId, "/")
+        inDir <- paste0("/home/hurlab/tox21/Input/", transactionId, "/")
+        outDir <- paste0("/home/hurlab/tox21/Output/", transactionId, "/")
         outDirWeb <- paste0("output/", transactionId, "/")
-        outDirHeatmap <- paste0("/home/hurlab/tox21r/tox21enricher/Output/", transactionId, "/gct_per_set/ -color=BR")
-        outDirHeatmapMulti <- paste0("/home/hurlab/tox21r/tox21enricher/Output/", transactionId, "/gct/")
+        outDirHeatmap <- paste0("/home/hurlab/tox21/Output/", transactionId, "/gct_per_set/ -color=BR")
+        outDirHeatmapMulti <- paste0("/home/hurlab/tox21/Output/", transactionId, "/gct/")
         
         # Get selected annotation classes
         # TODO: use map() to make this more R-like
