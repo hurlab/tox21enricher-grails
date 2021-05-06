@@ -355,7 +355,7 @@ shinyServer(function(input, output, session) {
 
         inDir <- paste0("/home/hurlab/tox21/Input/", transactionId, "/")
         outDir <- paste0("/home/hurlab/tox21/Output/", transactionId, "/")
-        outDirWeb <- paste0("output/", transactionId, "/")
+        outDirWeb <- paste0("/home/hurlab/tox21/Output/", transactionId, "/")
         outDirHeatmap <- paste0("/home/hurlab/tox21/Output/", transactionId, "/gct_per_set/ -color=BR")
         outDirHeatmapMulti <- paste0("/home/hurlab/tox21/Output/", transactionId, "/gct/")
         
