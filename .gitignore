@@ -116,3 +116,16 @@ gradle-app.setting
 
 # New psql datasource folder
 /postgresqlData/
+
+# Input and Output folders
+!/Input/
+!/Output/
+
+# Obsolete Perl Code
+/src/main/perl/old_perl_ignore/
+
+# bfg utility
+bfg-1.14.0.jar
+
+# temp passwords file
+passwords.txt
