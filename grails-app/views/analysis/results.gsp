@@ -537,7 +537,7 @@
                                                             <g:eachReactive reactive="${reactiveResults}" check="${casrn.id}" dataSetName="${dataSet.key}" /> 
                                                         </td>
                                                         <td>
-                                                            <g:set var="structureExists" value="${new File("/home/hurlab/tox21/grails-app/assets/images/structures/${casrn.id}.png").exists()}"></g:set>
+                                                            <g:set var="structureExists" value="${new File("${System.properties['user.home']}/tox21enricher/grails-app/assets/images/structures/${casrn.id}.png").exists()}"></g:set>
                                                             <g:if test="${structureExists}">
                                                                 <asset:image src="structures/${casrn.id}.png" width="75" height="75" data-open="${casrn.id}" onmouseover="" style="cursor: pointer;" />
                                                                 <div class="reveal small" id="${casrn.id}" data-reveal data-options="close_on_background_click:true; close_on_esc: true;">
