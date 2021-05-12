@@ -1,0 +1,9 @@
+default:
+  tox21enricher:
+    driver: 'Postgres' 
+    server: '127.0.0.1:5432/tox21enricher'
+    host: 'localhost'
+    uid: 'username'
+    pwd: "password"  
+    port: 5432
+    database: 'tox21enricher'

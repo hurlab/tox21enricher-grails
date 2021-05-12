@@ -1,8 +1,0 @@
-CASRN	MESH|Amines	MESH|Benzene Derivatives	MESH|Benzhydryl Compounds	MESH|Benzyl Compounds	MESH|Benzylamines	MESH|Benzylidene Compounds	MESH|Hydrocarbons	MESH|Hydrocarbons, Aromatic	MESH|Hydrocarbons, Cyclic	MESH|Organic Chemicals	MESH|Stilbenes
-100-44-7	0	1	0	1	0	0	1	1	1	1	0
-620-20-2	0	0	0	0	0	0	0	0	0	0	0
-612-12-4	0	0	0	0	0	0	0	0	0	0	0
-100-46-9	1	1	0	1	1	0	1	1	1	1	0
-104-82-5	0	0	0	0	0	0	0	0	0	0	0
-103-29-7	0	1	0	0	0	1	1	1	1	1	1
-101-81-5	0	1	1	0	0	0	1	1	1	1	0

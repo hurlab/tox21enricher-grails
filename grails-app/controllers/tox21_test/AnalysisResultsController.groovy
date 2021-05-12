@@ -26,7 +26,7 @@ class AnalysisResultsController {
     //regenerate network (& heatmap) with new number of nodes
     def regenNetwork() {
         println("regenerating network with ${params.nodeCutoff} for set ${params.currentOutputDir}")
-        def fullOutputDir = "/home/hurlab/tox21/Output/${params.currentOutputDir}"
+        def fullOutputDir = "${System.properties['user.home']}/tox21enricher/Output/${params.currentOutputDir}"
         enrichmentService.createDavidChart(fullOutputDir, params.nodeCutoff)
         enrichmentService.createClusteringImages("${fullOutputDir}" + "/gct/")
         ResultSetService.compressResultSet(params.currentOutputDir)
@@ -145,6 +145,9 @@ class AnalysisResultsController {
             network = -1
         def resultSet = params.resultSet
         def numSets = params.int('numSets')
+
+        println "NUMBER OF SETS $numSets"
+
         def inputSets = ResultSetService.getInputSets(resultSet, numSets, network, params.nodeCutoff)
         def filePath, fh
         println "PARAMS.NETWORK: ${params.network}"
@@ -293,6 +296,18 @@ println ""
 
 println ""
 println "TERMS LENGTH: ${terms.size()}"
+        if(terms.size() < 1) {
+            println ">>>>>>>>>>>. no terms, returning error"
+            def qval
+            if (params.qval == null) {
+                qval = 0.05
+            } else {
+                qval = params.qval
+            }
+            render(view: "networkError", model: [resultSet: params.resultSet, network: params.network, inputSets: inputSets, numSets: numSets, qval: qval, nodeCutoff: params.nodeCutoff])
+            return
+        }
+
 println ""
 println "Term string placeholder length: $termPlaceholderCount"
 println ""

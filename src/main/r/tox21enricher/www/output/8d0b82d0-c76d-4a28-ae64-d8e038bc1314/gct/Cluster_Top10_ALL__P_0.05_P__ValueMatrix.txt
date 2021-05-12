@@ -1,4 +1,0 @@
-GROUP	ID	Terms	Set1	Set2	Set3
-MESH	MESH | Phenylenediamines				1.43559165146255
-MESH	MESH | Benzene Derivatives		2.62076864133401		
-MESH	MESH | Aniline Compounds				6.28044116185645

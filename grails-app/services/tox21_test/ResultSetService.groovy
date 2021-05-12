@@ -89,8 +89,8 @@ class ResultSetService {
 
     def getMultiSetHeatMapImages(resultSet, nodeCutoff) {
         //todo: clean this up.
-        def chartImage = new File("/home/hurlab/tox21/Output/${resultSet}/gct/Chart_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.png")
-        def clusterImage = new File("/home/hurlab/tox21/Output/${resultSet}/gct/Cluster_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.png")
+        def chartImage = new File("${System.properties['user.home']}/tox21enricher/Output/${resultSet}/gct/Chart_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.png")
+        def clusterImage = new File("${System.properties['user.home']}/tox21enricher/Output/${resultSet}/gct/Cluster_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.png")
         def images 
         if (chartImage.exists() == true && clusterImage.exists() == true) {
             images = ["Chart_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.png", "Cluster_Top${nodeCutoff}_ALL__P_0.05_P__ValueMatrix.png"]
@@ -229,7 +229,7 @@ class ResultSetService {
     }
 
     def getInputSets(resultSet, numSets, network, nodeCutoff) {
-        println numSets
+        println "numSets $numSets"
         println network
         def fh
         if (network == 1) {
@@ -256,6 +256,8 @@ class ResultSetService {
         def processedFirstLine = false
 
         println "IN ResultSetService.getInputSets()"
+
+        println "===============\nLINES:\n$lines\n\n"
         
         lines.each { String line ->  //TODO: add number
             println "line: $line"

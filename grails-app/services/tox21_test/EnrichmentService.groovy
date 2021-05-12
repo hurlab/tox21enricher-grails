@@ -12,7 +12,7 @@ class EnrichmentService implements InitializingBean {
     def config = Holders.getGrailsApplication().config
     def EXT_SCRIPT_PATH_PERL
     def EXT_SCRIPT_PATH_PYTHON
-    def PYTHON_DIR = "/home/hurlab/anaconda3/envs/my-rdkit-env/bin/python3.6 "
+    def PYTHON_DIR = "${System.properties['user.home']}/anaconda3/envs/my-rdkit-env/bin/python3.6 "
 
     def validate() {
 
@@ -20,7 +20,7 @@ class EnrichmentService implements InitializingBean {
 
     def convertInchiToSmiles(inchi) {
         println("| Running Python script...")
-        Process convertInchiToMol = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/convertInchiToMol.py ${inchi}".execute()
+        Process convertInchiToMol = "${PYTHON_DIR}/${System.properties['user.home']}/tox21enricher/src/main/python/convertInchiToMol.py ${inchi}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
         convertInchiToMol.consumeProcessOutput(pythonOut, pythonErr)
@@ -35,7 +35,7 @@ class EnrichmentService implements InitializingBean {
     }
 
     def checkSmilesValid(smiles) {
-        Process checkSmiles = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/checkSmiles.py ${smiles}".execute()
+        Process checkSmiles = "${PYTHON_DIR}/${System.properties['user.home']}/tox21enricher/src/main/python/checkSmiles.py ${smiles}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
         checkSmiles.consumeProcessOutput(pythonOut, pythonErr)
@@ -51,7 +51,7 @@ class EnrichmentService implements InitializingBean {
     }
 
     def convertMolToSmiles(molecule) {
-        Process checkMols = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/convertMols.py ${molecule}".execute()
+        Process checkMols = "${PYTHON_DIR}/${System.properties['user.home']}/tox21enricher/src/main/python/convertMols.py ${molecule}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
         checkMols.consumeProcessOutput(pythonOut, pythonErr)
@@ -68,7 +68,7 @@ class EnrichmentService implements InitializingBean {
 
     def calcReactiveGroups(mol) {
         println("| Running Python script to look for reactive groups for current smile...")
-        Process reactiveGroups = "${PYTHON_DIR}/home/hurlab/tox21/src/main/python/calcReactiveGroups.py ${mol}".execute()
+        Process reactiveGroups = "${PYTHON_DIR}/${System.properties['user.home']}/tox21enricher/src/main/python/calcReactiveGroups.py ${mol}".execute()
         def pythonOut = new StringBuffer()
         def pythonErr = new StringBuffer()
         reactiveGroups.consumeProcessOutput(pythonOut, pythonErr)

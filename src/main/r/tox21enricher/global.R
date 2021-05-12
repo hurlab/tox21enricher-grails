@@ -1,3 +1,4 @@
+library(config)
 library(DT)
 library(pool)
 library(rjson)
@@ -9,11 +10,12 @@ library(shinydashboard)
 library(shinyjs)
 
 # Connect to PostgreSQL tox21enricher database
+tox21db <- config::get("tox21enricher")
 pool <- dbPool(
   drv = dbDriver("PostgreSQL",max.con = 100),
-  dbname = "tox21enricher",
-  host = "localhost",
-  user = "username",
-  password = "password",
+  dbname = tox21db$database,
+  host = tox21db$host,
+  user = tox21db$uid,
+  password = tox21db$pwd,
   idleTimeout = 3600000
 )

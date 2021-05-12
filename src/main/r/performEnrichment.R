@@ -10,6 +10,7 @@
 #* @apiContact list(name="Parker Combs", url="parker.combs@und.edu")
 #* @apiVersion 1.0
 
+library(config)
 library(ggplot2)
 library(httr)
 library(parallel)
@@ -26,12 +27,13 @@ library(xlsx)
 
 # Define info for connecting to PostgreSQL Tox21 Enricher database on server startup
 # TODO: obfuscate authorization credentials
+tox21db <- config::get("tox21enricher")
 pool <- dbPool(
   drv = dbDriver("PostgreSQL",max.con = 100),
-  dbname = "tox21enricher",
-  host = "localhost",
-  user = "username",
-  password = "password",
+  dbname = tox21db$database,
+  host = tox21db$host,
+  user = tox21db$uid,
+  password = tox21db$pwd,
   idleTimeout = 3600000
 )
 
@@ -54,7 +56,6 @@ outpChemDetail <- dbGetQuery(pool, queryChemDetail)
 # Close DB connection
 poolClose(pool)
 
-
 # Base annotations
 DSSTox2name           <- list()
 DSSTox2CASRN          <- list()
@@ -69,6 +70,7 @@ funCatTerm2CASRN      <- list()
 funCat2CASRN          <- list()
 term2funCat           <- list()
 
+#TODO: speed this up vvv
 # Load base Annotations
 baseAnnotations <- apply(outpChemDetail, 1, function(i){
   if (i["testsubstance_chemname"] == "") {
@@ -150,8 +152,8 @@ performEnrichment <- function(enrichmentUUID="-1", annoSelectStr="MESH PHARMACTI
   for(i in annoSelectStrSplit[[1]]) {
     funCat2Selected[[i]] <- 1
   }
-  inDir <- paste0("/home/hurlab/tox21/Input/", enrichmentUUID)    # Directory for input files for enrichment set
-  outDir <- paste0("/home/hurlab/tox21/Output/", enrichmentUUID)  # Directory for output files for enrichment set
+  inDir <- paste0(path.expand('~'), "/tox21enricher/Input/", enrichmentUUID)    # Directory for input files for enrichment set
+  outDir <- paste0(path.expand('~'), "/tox21enricher/Output/", enrichmentUUID)  # Directory for output files for enrichment set
   
   # CASRN count
   funCatTerm2CASRNCount <- list() 
@@ -312,8 +314,6 @@ performEnrichment <- function(enrichmentUUID="-1", annoSelectStr="MESH PHARMACTI
     CAS[x,"casrn"]
   })
   
-  print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
-
   # Generate individual gct files
   process_variable_DAVID_CHART_directories_individual_file (baseinputDirName, baseDirName, baseOutputDir, '', '', ARGV_4, ARGV_5, ARGV_6, CASRN2Name)
   # Generate clustering images (heatmaps)
@@ -351,19 +351,16 @@ process_variable_DAVID_CHART_directories_individual_file <- function(inputDirNam
   
   # Step0. Get only the files that actually have contents
   infiles <- lapply(infilesAll, function(infile) {
-    DATA <- read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE)
-    if(nrow(DATA) < 1){
-      return(NULL)
-    } 
+    #DATA <- read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE)
+    #if(nrow(DATA) < 1){
+    #  return(NULL)
+    #} 
     return(infile)
   })
   infiles <- infiles[!sapply(infiles, is.null)]
   
   print(">> >> infiles")
   print(infiles)
-  
-  #Sys.sleep(10)
-  #stop()
   
   sigCutOff         <- ARGV_5
   sigColumnName     <- toupper(ARGV_4)
@@ -382,162 +379,159 @@ process_variable_DAVID_CHART_directories_individual_file <- function(inputDirNam
     DATA <- read.delim(file=infile, header=TRUE, sep="\t", comment.char="", fill=TRUE) 
     print("=== DATA ===")
     print(DATA)
-    #if(nrow(DATA) < 1){
-    #  return(FALSE)
-    #}
+    
+    if(nrow(DATA) < 1){
+      # if no rows, make blank .gct file
+      print(paste0("GCT file at: ,", outputDir, tmp2[length(tmp2)], sep="\t"))
+      OUTFILE           <- file(paste0(outputDir, tmp2[length(tmp2)], ".gct", sep=""))
+      outputContent     <- paste0("#1.2\n", 0, "\t", 0, "\nCASRN\tName", sep="")
+      writeLines(outputContent, OUTFILE) 
+      close(OUTFILE)
+    } else {
   
-    term2pvalue <- lapply(1:nrow(DATA), function(line){
-      tmpSplit <- vector("list", 13)
-      tmpSplit[1]   <- as.character(DATA[line, "Category"])
-      tmpSplit[2]   <- as.character(DATA[line, "Term"])
-      tmpSplit[3]   <- as.character(DATA[line, "Count"])
-      tmpSplit[4]   <- as.character(DATA[line, "X."])
-      tmpSplit[5]   <- as.character(DATA[line, "PValue"])
-      tmpSplit[6]   <- as.character(DATA[line, "CASRNs"])
-      tmpSplit[7]   <- as.character(DATA[line, "List.Total"])
-      tmpSplit[8]   <- as.character(DATA[line, "Pop.Hits"])
-      tmpSplit[9]   <- as.character(DATA[line, "Pop.Total"])
-      tmpSplit[10]  <- as.character(DATA[line, "Fold.Enrichment"])
-      tmpSplit[11]  <- as.character(DATA[line, "Bonferroni"])
-      tmpSplit[12]  <- as.character(DATA[line, "Benjamini"])
-      tmpSplit[13]  <- as.character(DATA[line, "FDR"])
-
-      if ( grepl("^\\D", tmpSplit[[sigColumnIndex]]) | as.double(tmpSplit[[sigColumnIndex]]) >= sigCutOff | as.double(tmpSplit[[10]]) < 1) {
-        # skip
-      } else {
-        return(tmpSplit[[sigColumnIndex]])
-      }
-    })
-    # Remove null elements
-    term2pvalue <- lapply(term2pvalue, function(innerList) innerList[sapply(innerList, length) > 0])
-    term2pvalue <- term2pvalue[!sapply(term2pvalue, is.null)]
-    
-    nameListTerm2pvalue <- lapply(1:nrow(DATA), function(line){
-      tmpSplit <- vector("list", 13)
-      tmpSplit[1]   <- as.character(DATA[line, "Category"])
-      tmpSplit[2]   <- as.character(DATA[line, "Term"])
-      tmpSplit[3]   <- as.character(DATA[line, "Count"])
-      tmpSplit[4]   <- as.character(DATA[line, "X."])
-      tmpSplit[5]   <- as.character(DATA[line, "PValue"])
-      tmpSplit[6]   <- as.character(DATA[line, "CASRNs"])
-      tmpSplit[7]   <- as.character(DATA[line, "List.Total"])
-      tmpSplit[8]   <- as.character(DATA[line, "Pop.Hits"])
-      tmpSplit[9]   <- as.character(DATA[line, "Pop.Total"])
-      tmpSplit[10]  <- as.character(DATA[line, "Fold.Enrichment"])
-      tmpSplit[11]  <- as.character(DATA[line, "Bonferroni"])
-      tmpSplit[12]  <- as.character(DATA[line, "Benjamini"])
-      tmpSplit[13]  <- as.character(DATA[line, "FDR"])
-      
-      if ( grepl("^\\D", tmpSplit[[sigColumnIndex]]) | as.double(tmpSplit[[sigColumnIndex]]) >= sigCutOff | as.double(tmpSplit[[10]]) < 1) {
-        # skip
-      } else {
-        tmpTermKey <- paste0(tmpSplit[[2]], " | ", tmpSplit[[1]], sep="")
-        return(tmpTermKey)
-      }
-    })
-    # Remove null elements
-    nameListTerm2pvalue <- lapply(nameListTerm2pvalue, function(innerList) innerList[sapply(innerList, length) > 0])
-    nameListTerm2pvalue <- nameListTerm2pvalue[!sapply(nameListTerm2pvalue, is.null)]
-    
-    # Set names of term2pvalue
-    names(term2pvalue) <- nameListTerm2pvalue
-    
-    CASRN2TermMatrix_lv1 <- lapply(1:nrow(DATA), function(line){
-      tmpSplit <- vector("list", 13)
-      tmpSplit[1]   <- as.character(DATA[line, "Category"])
-      tmpSplit[2]   <- as.character(DATA[line, "Term"])
-      tmpSplit[3]   <- as.character(DATA[line, "Count"])
-      tmpSplit[4]   <- as.character(DATA[line, "X."])
-      tmpSplit[5]   <- as.character(DATA[line, "PValue"])
-      tmpSplit[6]   <- as.character(DATA[line, "CASRNs"])
-      tmpSplit[7]   <- as.character(DATA[line, "List.Total"])
-      tmpSplit[8]   <- as.character(DATA[line, "Pop.Hits"])
-      tmpSplit[9]   <- as.character(DATA[line, "Pop.Total"])
-      tmpSplit[10]  <- as.character(DATA[line, "Fold.Enrichment"])
-      tmpSplit[11]  <- as.character(DATA[line, "Bonferroni"])
-      tmpSplit[12]  <- as.character(DATA[line, "Benjamini"])
-      tmpSplit[13]  <- as.character(DATA[line, "FDR"])
-      
-      if ( grepl("^\\D", tmpSplit[[sigColumnIndex]]) | as.double(tmpSplit[[sigColumnIndex]]) >= sigCutOff | as.double(tmpSplit[[10]]) < 1) {
-        # skip
-      } else {
-        tmpTermKey <- paste0(tmpSplit[[2]], " | ", tmpSplit[[1]], sep="")
-        CASRNs <- str_split(tmpSplit[[6]], ", ")
-        tmpTermKeyList <- vector("list", length(unlist(CASRNs)))
-        CASRN2TermMatrix_lv1_tmp <- lapply(tmpTermKeyList, function(x) tmpTermKey)
-        names(CASRN2TermMatrix_lv1_tmp) <- unlist(CASRNs)
-        return(CASRN2TermMatrix_lv1_tmp)
-
-      }
-    })
-    
-    #Get not null elements
-    CASRN2TermMatrix_lv2 <- CASRN2TermMatrix_lv1[!sapply(CASRN2TermMatrix_lv1, is.null)]
-    CASRN2TermMatrix_lv2 <- unlist(CASRN2TermMatrix_lv2, recursive = FALSE)
-    
-    print("CASRN2TermMatrix_lv1")
-    print(CASRN2TermMatrix_lv1)
-    
-    print("CASRN2TermMatrix_lv2")
-    print(CASRN2TermMatrix_lv2)
-    
-    # Merge same names
-    #CASRN2TermMatrix <- sapply(unique(names(CASRN2TermMatrix_lv2)), function(x) {
-    CASRN2TermMatrix <- lapply(unique(names(CASRN2TermMatrix_lv2)), function(x) {
-      unlist(unname(CASRN2TermMatrix_lv2[names(CASRN2TermMatrix_lv2) %in% x]))
-    })
-    names(CASRN2TermMatrix) <- unique(names(CASRN2TermMatrix_lv2))
-                             
-    # Now create new output files
-    print(paste0("GCT file at: ,", outputDir, tmp2[length(tmp2)], sep="\t"))
-    OUTFILE           <- file(paste0(outputDir, tmp2[length(tmp2)], ".gct", sep=""))
-
-    if(typeof(CASRN2TermMatrix) == "list"){
-      CASRNs            <- names(CASRN2TermMatrix)
-    }
-    else {
-      CASRNs            <- colnames(CASRN2TermMatrix)
-    }
-    tmpTermKeys       <- names(term2pvalue)
-    CASRNCount        <- length(CASRNs)
-    tmpTermKeyCount   <- length(tmpTermKeys)
-    outputContent     <- paste0("#1.2\n", CASRNCount, "\t", tmpTermKeyCount, "\nCASRN\tName", sep="")
-    
-    for(tmpTermKey in tmpTermKeys) {	
-      outputContent <- paste0(outputContent, "\t", tmpTermKey, " | ", term2pvalue[tmpTermKey], sep="")
-    }
-    outputContent	<- paste0(outputContent, "\n", sep="")
-    
-    for(CASRN in unique(CASRNs)){
-      outputContent	<- paste0(outputContent, CASRN, "\t", sep="")
-      #print("^^")
-      if (is.null(CASRN2Name[[CASRN]]) == FALSE){	
-        termNameOut <- CASRN2Name[[CASRN]]
-        if(nchar(termNameOut) > 30){ # If the term name is longer than 30 characters (arbitrary, can change later), truncate for readibility on the heatmap images
-          termNameOut <- paste0(substring(termNameOut, 1, 30), "...", sep="")
-        }
-        outputContent	<- paste0(outputContent, termNameOut, sep="")
-      }
-       
-      for(tmpTermKey in tmpTermKeys){
-        if (tmpTermKey %in% CASRN2TermMatrix[[CASRN]] == TRUE){
-          outputContent	<- paste0(outputContent, "\t1", sep="")
+      term2pvalue <- lapply(1:nrow(DATA), function(line){
+        tmpSplit <- vector("list", 13)
+        tmpSplit[1]   <- as.character(DATA[line, "Category"])
+        tmpSplit[2]   <- as.character(DATA[line, "Term"])
+        tmpSplit[3]   <- as.character(DATA[line, "Count"])
+        tmpSplit[4]   <- as.character(DATA[line, "X."])
+        tmpSplit[5]   <- as.character(DATA[line, "PValue"])
+        tmpSplit[6]   <- as.character(DATA[line, "CASRNs"])
+        tmpSplit[7]   <- as.character(DATA[line, "List.Total"])
+        tmpSplit[8]   <- as.character(DATA[line, "Pop.Hits"])
+        tmpSplit[9]   <- as.character(DATA[line, "Pop.Total"])
+        tmpSplit[10]  <- as.character(DATA[line, "Fold.Enrichment"])
+        tmpSplit[11]  <- as.character(DATA[line, "Bonferroni"])
+        tmpSplit[12]  <- as.character(DATA[line, "Benjamini"])
+        tmpSplit[13]  <- as.character(DATA[line, "FDR"])
+  
+        if ( grepl("^\\D", tmpSplit[[sigColumnIndex]]) | as.double(tmpSplit[[sigColumnIndex]]) >= sigCutOff | as.double(tmpSplit[[10]]) < 1) {
+          # skip
         } else {
-          outputContent	<- paste0(outputContent, "\t0", sep="")
+          return(tmpSplit[[sigColumnIndex]])
         }
-      }	
+      })
+      # Remove null elements
+      term2pvalue <- lapply(term2pvalue, function(innerList) innerList[sapply(innerList, length) > 0])
+      term2pvalue <- term2pvalue[!sapply(term2pvalue, is.null)]
+      
+      nameListTerm2pvalue <- lapply(1:nrow(DATA), function(line){
+        tmpSplit <- vector("list", 13)
+        tmpSplit[1]   <- as.character(DATA[line, "Category"])
+        tmpSplit[2]   <- as.character(DATA[line, "Term"])
+        tmpSplit[3]   <- as.character(DATA[line, "Count"])
+        tmpSplit[4]   <- as.character(DATA[line, "X."])
+        tmpSplit[5]   <- as.character(DATA[line, "PValue"])
+        tmpSplit[6]   <- as.character(DATA[line, "CASRNs"])
+        tmpSplit[7]   <- as.character(DATA[line, "List.Total"])
+        tmpSplit[8]   <- as.character(DATA[line, "Pop.Hits"])
+        tmpSplit[9]   <- as.character(DATA[line, "Pop.Total"])
+        tmpSplit[10]  <- as.character(DATA[line, "Fold.Enrichment"])
+        tmpSplit[11]  <- as.character(DATA[line, "Bonferroni"])
+        tmpSplit[12]  <- as.character(DATA[line, "Benjamini"])
+        tmpSplit[13]  <- as.character(DATA[line, "FDR"])
+        
+        if ( grepl("^\\D", tmpSplit[[sigColumnIndex]]) | as.double(tmpSplit[[sigColumnIndex]]) >= sigCutOff | as.double(tmpSplit[[10]]) < 1) {
+          # skip
+        } else {
+          tmpTermKey <- paste0(tmpSplit[[2]], " | ", tmpSplit[[1]], sep="")
+          return(tmpTermKey)
+        }
+      })
+      # Remove null elements
+      nameListTerm2pvalue <- lapply(nameListTerm2pvalue, function(innerList) innerList[sapply(innerList, length) > 0])
+      nameListTerm2pvalue <- nameListTerm2pvalue[!sapply(nameListTerm2pvalue, is.null)]
+      
+      # Set names of term2pvalue
+      names(term2pvalue) <- nameListTerm2pvalue
+      
+      CASRN2TermMatrix_lv1 <- lapply(1:nrow(DATA), function(line){
+        tmpSplit <- vector("list", 13)
+        tmpSplit[1]   <- as.character(DATA[line, "Category"])
+        tmpSplit[2]   <- as.character(DATA[line, "Term"])
+        tmpSplit[3]   <- as.character(DATA[line, "Count"])
+        tmpSplit[4]   <- as.character(DATA[line, "X."])
+        tmpSplit[5]   <- as.character(DATA[line, "PValue"])
+        tmpSplit[6]   <- as.character(DATA[line, "CASRNs"])
+        tmpSplit[7]   <- as.character(DATA[line, "List.Total"])
+        tmpSplit[8]   <- as.character(DATA[line, "Pop.Hits"])
+        tmpSplit[9]   <- as.character(DATA[line, "Pop.Total"])
+        tmpSplit[10]  <- as.character(DATA[line, "Fold.Enrichment"])
+        tmpSplit[11]  <- as.character(DATA[line, "Bonferroni"])
+        tmpSplit[12]  <- as.character(DATA[line, "Benjamini"])
+        tmpSplit[13]  <- as.character(DATA[line, "FDR"])
+        
+        if ( grepl("^\\D", tmpSplit[[sigColumnIndex]]) | as.double(tmpSplit[[sigColumnIndex]]) >= sigCutOff | as.double(tmpSplit[[10]]) < 1) {
+          # skip
+        } else {
+          tmpTermKey <- paste0(tmpSplit[[2]], " | ", tmpSplit[[1]], sep="")
+          CASRNs <- str_split(tmpSplit[[6]], ", ")
+          tmpTermKeyList <- vector("list", length(unlist(CASRNs)))
+          CASRN2TermMatrix_lv1_tmp <- lapply(tmpTermKeyList, function(x) tmpTermKey)
+          names(CASRN2TermMatrix_lv1_tmp) <- unlist(CASRNs)
+          return(CASRN2TermMatrix_lv1_tmp)
+  
+        }
+      })
+      
+      #Get not null elements
+      CASRN2TermMatrix_lv2 <- CASRN2TermMatrix_lv1[!sapply(CASRN2TermMatrix_lv1, is.null)]
+      CASRN2TermMatrix_lv2 <- unlist(CASRN2TermMatrix_lv2, recursive = FALSE)
+      
+      # Merge same names
+      CASRN2TermMatrix <- lapply(unique(names(CASRN2TermMatrix_lv2)), function(x) {
+        unlist(unname(CASRN2TermMatrix_lv2[names(CASRN2TermMatrix_lv2) %in% x]))
+      })
+      names(CASRN2TermMatrix) <- unique(names(CASRN2TermMatrix_lv2))
+                               
+      # Now create new output files
+      print(paste0("GCT file at: ,", outputDir, tmp2[length(tmp2)], sep="\t"))
+      OUTFILE           <- file(paste0(outputDir, tmp2[length(tmp2)], ".gct", sep=""))
+  
+      if(typeof(CASRN2TermMatrix) == "list"){
+        CASRNs            <- names(CASRN2TermMatrix)
+      }
+      else {
+        CASRNs            <- colnames(CASRN2TermMatrix)
+      }
+      tmpTermKeys       <- names(term2pvalue)
+      CASRNCount        <- length(CASRNs)
+      tmpTermKeyCount   <- length(tmpTermKeys)
+      outputContent     <- paste0("#1.2\n", CASRNCount, "\t", tmpTermKeyCount, "\nCASRN\tName", sep="")
+      
+      for(tmpTermKey in tmpTermKeys) {	
+        outputContent <- paste0(outputContent, "\t", tmpTermKey, " | ", term2pvalue[tmpTermKey], sep="")
+      }
       outputContent	<- paste0(outputContent, "\n", sep="")
+      
+      for(CASRN in unique(CASRNs)){
+        outputContent	<- paste0(outputContent, CASRN, "\t", sep="")
+        #print("^^")
+        if (is.null(CASRN2Name[[CASRN]]) == FALSE){	
+          termNameOut <- CASRN2Name[[CASRN]]
+          if(nchar(termNameOut) > 30){ # If the term name is longer than 30 characters (arbitrary, can change later), truncate for readibility on the heatmap images
+            termNameOut <- paste0(substring(termNameOut, 1, 30), "...", sep="")
+          }
+          outputContent	<- paste0(outputContent, termNameOut, sep="")
+        }
+         
+        for(tmpTermKey in tmpTermKeys){
+          if (tmpTermKey %in% CASRN2TermMatrix[[CASRN]] == TRUE){
+            outputContent	<- paste0(outputContent, "\t1", sep="")
+          } else {
+            outputContent	<- paste0(outputContent, "\t0", sep="")
+          }
+        }	
+        outputContent	<- paste0(outputContent, "\n", sep="")
+      }
+                 
+      writeLines(outputContent, OUTFILE) 
+      close(OUTFILE)
     }
-               
-    writeLines(outputContent, OUTFILE) 
-    close(OUTFILE)
-
   }
 }	
 
 get_column_index <- function(columnType) {
-  print("checking")
-  print(columnType)
   
   if (grepl("P", columnType, ignore.case=TRUE)) {	
     return(5)
@@ -569,7 +563,7 @@ create_clustering_images <- function(outDir = "", imageFlags = "-color=BR"){
   }
   
   outputBaseDir				      <- outDir
-  libDir						        <- "/home/hurlab/tox21/src/main/perl/HClusterLibrary/"
+  libDir						        <- paste0(path.expand('~'), "/tox21enricher/src/main/perl/HClusterLibrary/")
   path_separator			      <- ';'
   log_transform				      <- "no"
   row_center					      <- "no"
@@ -765,18 +759,27 @@ check_gct_contains_more_than_two_lines <- function(infile){
   print(paste0("in here? at: ", infile, sep=""))
   INFILE <- read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, skip=2, fill=TRUE)
   lineCount	<- 0
-  # TODO: calculate lineCount by tking length of list
-  checkGct <- lapply(1:nrow(INFILE), function(line){
-    INFILE[line,] <<- gsub("[[:space:]]", "", INFILE[line,]) 
-    if (paste0(INFILE[line,], collapse="\t") == ""){
-      # Do nothing
-    }	else {
-      lineCount <<- lineCount + 1
-    }
-  })
+  # TODO: calculate lineCount by taking length of list
   
-  #TODO: this may be >= 3
-  if(lineCount >=3){
+  print("INFILE")
+  print(INFILE)
+  lineCount <- nrow(INFILE)
+  
+  #checkGct <- lapply(1:nrow(INFILE), function(line){
+  #  INFILE[line,] <<- gsub("[[:space:]]", "", INFILE[line,]) 
+  #  
+  #  print("INFILE[line,]")
+  #  print(INFILE[line,])
+  #  
+  #  if (paste0(INFILE[line,], collapse="\t") == ""){
+  #    # Do nothing
+  #  }	else {
+  #    lineCount <<- lineCount + 1
+  #  }
+  #})
+  
+  
+  if(lineCount >=2){
     return(1)
   } else {
     return(0)
@@ -847,7 +850,7 @@ create_david_chart_cluster <- function(baseDirName="", topTermLimit=10, mode="AL
                                                                                   # ARGV[1]       ARGV[2] ARGV[3]        ARGV[4]    ARGV[5]
   process_variable_DAVID_CHART_directories (baseDirName, baseOutputDir, "", "",   topTermLimit,   mode,   sigColumnName, sigCutoff, valueColumnName, className2classID, classID2annotationTerm2termUniqueID)
   process_variable_DAVID_CLUSTER_directories (baseDirName, baseOutputDir, "", "", topTermLimit,   mode,   sigColumnName, sigCutoff, valueColumnName, className2classID, classID2annotationTerm2termUniqueID)
-              
+  
 }
 
 
@@ -856,8 +859,14 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   # Check the directory for any file
   print("! Processing $dirName CLUSTER ...\n")
   infiles <- Sys.glob(paste0(dirName,"/*_Cluster.txt"))
+  
+  print("infiles")
+  print(infiles)
+  
+  
+  
   if (is.null(infiles[1])){
-    return()
+    return(FALSE)
   }
   
   # Define number of top clusters
@@ -899,7 +908,7 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   # Load gct file, if available
   # check gct file
   gctFiles <- Sys.glob(paste0(dirInputName, "/*.gct"))
-  if (is.null(gctFiles[1])) {
+  if (length(gctFiles) > 0) {
     loadGctTmp <- load_gct_file_as_profile(gctFiles[1], geneID2ExpProfile)
     gctFileStatus <- loadGctTmp[1]
     gctFileHeader <- loadGctTmp[2]
@@ -909,7 +918,14 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   # Step1. Get the list of significant terms
   # TODO: convert to multithreaded
   #getSigTerms <- mclapply(infiles, function(infile) {
+  
+  if(length(infiles) < 1){
+    return(FALSE)
+  }
+
   getSigTerms <- lapply(infiles, function(infile) {
+
+    
     tmp1 <- str_split(infile, "/")[[1]]
     tmpNameSplit <- str_split(tmp1[length(tmp1)], "__Cluster.txt")[[1]]
     shortFileBaseName	<- tmpNameSplit[1]
@@ -919,21 +935,38 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
     
     lines <- DATA
     
+    print("lines")
+    print(lines)
+    
+    if(nrow(lines) < 1){
+      return(FALSE)
+    }
+    
     tmpIDList <- lapply(1:nrow(lines), function(i){
       tmpSplit <- lapply(lines[i,], function(lineItem) {
         return(lineItem)
       })
       
+      #print(">>> inner tmpSplit")
+      #print(tmpSplit)
+      
       if(grepl("^Annotation Cluster", tmpSplit[[1]])) {
         firstClusterIndex <- i + 2
+        
         tmpSplitInner <- lapply(lines[firstClusterIndex,], function(lineItem) {
           return(lineItem)
         })
         
+        print("inner index")
+        print(tmpSplitInner[[sigColumnIndex]])
+        print(sigColumnIndex)
+        
         if (tmpSplitInner[[sigColumnIndex]] == "" | is.na(tmpSplitInner[[sigColumnIndex]]) == TRUE | grepl("^\\D", tmpSplitInner[[sigColumnIndex]]) == TRUE | as.double(tmpSplitInner[[sigColumnIndex]]) >= sigCutoff | as.double(tmpSplitInner[[10]]) < 1) {
           #    # do nothing
+          return(NULL)
         } else {
           tmpID	<- paste0(tmpSplitInner[[1]], " | ", tmpSplitInner[[2]], sep="")
+          return(tmpID)
         }
       }
     })
@@ -946,6 +979,9 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
     if(length(tmpIDList) > as.double(topTermLimit)){
       tmpIDList <- tmpIDList[1:(as.double(topTermLimit))]
     }
+    
+    print("tmpIDList")
+    print(tmpIDList)
     
     tmp_ID2Term <- lapply(1:nrow(lines), function(i){
       tmpSplit <- lapply(lines[i,], function(lineItem) {
@@ -1006,7 +1042,7 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
     return(list(ID2Term=tmp_ID2Term, ID2Class=tmp_ID2Class))
     
   })
-
+  
   getSigTermsFilteredTerms <- lapply(1:length(getSigTerms), function(i){
     return(getSigTerms[[i]]["ID2Term"])
   })
@@ -1018,6 +1054,9 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   #TODO: make this more readable
   ID2Term  <- unique(unlist(unname(unlist(getSigTermsFilteredTerms,   recursive = FALSE)), recursive = FALSE))
   ID2Class <- unique(unlist(unname(unlist(getSigTermsFilteredClasses, recursive = FALSE)), recursive = FALSE))
+  # remove NA
+  ID2Term <- ID2Term[!sapply(ID2Term, is.na)]
+  ID2Class <- ID2Class[!sapply(ID2Class, is.na)]
   
   #IDs <- names(ID2Term)
   # For cluster, we want to append the class name before the term as a given term may appear in multiple classes. If that happens, heatmap generation will be messed up.
@@ -1046,21 +1085,33 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
     # ------------------------------------------------------------
     # Check term file and load
     # TODO: Do we need to do this again here? -> amendment: probably not
-    DATA <- read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE, skip=1)
+    # try this with a trycatch
 
-    #TODO: clean this up like the above code
-    for(line in 1:nrow(DATA)) {
-      tmpSplit <- lapply(DATA[line,], function(lineItem) {
-        return(lineItem)
-      })
-    
-      if (tmpSplit[[sigColumnIndex]] == "" | is.null(tmpSplit[[sigColumnIndex]]) == TRUE | is.null(tmpSplit[[10]]) == TRUE | grepl("^\\D", tmpSplit[[sigColumnIndex]]) == TRUE | (mode == "ALL" & as.double(tmpSplit[[sigColumnIndex]]) >= sigCutoff) | as.double(tmpSplit[[10]]) < 1) {
-        # Do nothing
-      } else {
-        tmpID	<- paste0(tmpSplit[[1]], " | ", tmpSplit[[2]])
-        if (is.null(ID2Term[tmpID]) == FALSE) {
-          pvalueMatrix[[tmpID]][tmp3[1]]  <- -1 * log10(as.double(tmpSplit[[valueColumnIndex]]))
-          fcMatrix[[tmpID]][tmp3[1]]      <- tmpSplit[10]
+    DATA <- tryCatch(read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE, skip=1),
+                     error=function(cond) {
+                       print("no lines in input file")
+                       return(data.frame())
+                     })
+
+    #if(nrow(DATA) < 1) {
+    #  return(FALSE)
+    #}
+
+    if(nrow(DATA) > 0){
+      #TODO: clean this up like the above code
+      for(line in 1:nrow(DATA)) {
+        tmpSplit <- lapply(DATA[line,], function(lineItem) {
+          return(lineItem)
+        })
+      
+        if (tmpSplit[[sigColumnIndex]] == "" | is.null(tmpSplit[[sigColumnIndex]]) == TRUE | is.null(tmpSplit[[10]]) == TRUE | grepl("^\\D", tmpSplit[[sigColumnIndex]]) == TRUE | (mode == "ALL" & as.double(tmpSplit[[sigColumnIndex]]) >= sigCutoff) | as.double(tmpSplit[[10]]) < 1) {
+          # Do nothing
+        } else {
+          tmpID	<- paste0(tmpSplit[[1]], " | ", tmpSplit[[2]])
+          if (is.null(ID2Term[tmpID]) == FALSE) {
+            pvalueMatrix[[tmpID]][tmp3[1]]  <- -1 * log10(as.double(tmpSplit[[valueColumnIndex]]))
+            fcMatrix[[tmpID]][tmp3[1]]      <- tmpSplit[10]
+          }
         }
       }
     }
@@ -1085,7 +1136,7 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   #Get not null elements
   IDs <- IDs[!sapply(IDs, is.na)]
   IDs <- unlist(IDs, recursive = FALSE)
-  
+
   # TODO: This, but efficiently
   for(ID in IDs) {	
     # TODO: to make this faster, we could create a data frame in here and then just write that to the file at the end
@@ -1108,6 +1159,7 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   
   write(paste0(writeToSummary, writeToSummary2, sep=""), SUMMARY, append=TRUE)
   
+  
   close(SUMMARY)
   
   # Create a network summary file for Cluster
@@ -1117,32 +1169,28 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   writeToNetwork <- paste0("GROUPID\tUID\tTerms\t", paste0(fileHeaderNames, collapse="\t"), "\n", sep="")
   writeToNetwork2 <- ""
   # TODO: This, but efficiently
+  
   for(ID in IDs) {
-    idTermSplits <- str_split(ID, "\\|")[[1]]
-    tmpHashRef	 <- classID2annotationTerm2termUniqueID[className2classID[[idTermSplits[1]]]]
+    idTermSplits <- str_split(ID, " \\| ")[[1]]
+    tmpHashRef	 <- classID2annotationTerm2termUniqueID[[className2classID[[idTermSplits[1]]]]]
     
     # TODO want to have the names for this just be the terms and not the classes
-    #print("tmpHashRef")
-    #print(tmpHashRef)
     
     writeToNetwork2 <- paste0(writeToNetwork2, className2classID[[idTermSplits[1]]], "\t", tmpHashRef[[idTermSplits[2]]], "\t", idTermSplits[2])
     for (header in fileHeaderNames) {
-      if(header %in% names(pvalueMatrix[[ID]])){
-        if (is.null(pvalueMatrix[[ID]][header]) == FALSE | is.na(pvalueMatrix[[ID]][header]) == FALSE) {
-        #if (is.null(pvalueMatrix[[ID]][[header]]) == FALSE | is.na(pvalueMatrix[[ID]][[header]]) == FALSE) {
-          writeToNetwork2 <- paste0(writeToNetwork2, "\t", pvalueMatrix[[ID]][header])
-        } else {
-          writeToNetwork2 <- paste0(writeToNetwork2, "\t")
-        }
+      if (is.na(unname(pvalueMatrix[[ID]][header])) == FALSE) {
+        writeToNetwork2 <- paste0(writeToNetwork2, "\t", pvalueMatrix[[ID]][header])
+      } else {
+        writeToNetwork2 <- paste0(writeToNetwork2, "\t")
       }
     }
     writeToNetwork2 <- paste0(writeToNetwork2, "\n")
   }
+  # remove trailing newline
+  writeToNetwork2 <- substr(writeToNetwork2, 1, nchar(writeToNetwork2)-1)
   
   write(paste0(writeToNetwork, writeToNetwork2), NETWORK, append=TRUE)
   close(NETWORK)
-  
-  
   
   # Create a gct file from ValueMatrix
   INFILE <- read.delim(paste0(outputDir, summaryFileNameBase, "__ValueMatrix.txt"), sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE)
@@ -1157,23 +1205,25 @@ process_variable_DAVID_CLUSTER_directories <- function(dirName, outputDir, extTa
   geneCnt  <- 0
   content	<- ""
   
-  for(l in 1:nrow(INFILE)) {
-    line <- paste0(INFILE[l,], collapse="\t")
-    if (line == "") {
-      # Do nothing
-    } else {
-      tmpSplit <- str_split(line, "\t")[[1]]
-      for (i in 4:(sampleCnt+3)) {
-        if (tmpSplit[i] == "NA" | is.na(tmpSplit[i]) == TRUE | length(tmpSplit[i]) < 1 | is.null(tmpSplit[i]) == TRUE) {
-          tmpSplit[i] <- 0
+  if(nrow(INFILE) > 0){
+    for(l in 1:nrow(INFILE)) {
+      line <- paste0(INFILE[l,], collapse="\t")
+      if (line == "") {
+        # Do nothing
+      } else {
+        tmpSplit <- str_split(line, "\t")[[1]]
+        for (i in 4:(sampleCnt+3)) {
+          if (tmpSplit[i] == "NA" | is.na(tmpSplit[i]) == TRUE | length(tmpSplit[i]) < 1 | is.null(tmpSplit[i]) == TRUE) {
+            tmpSplit[i] <- 0
+          }
         }
+        
+        tmpSplit <- tmpSplit[-(1:1)] #Shift
+        content <- paste0(content, paste0(tmpSplit, collapse="\t"), "\n")
+        geneCnt <- geneCnt + 1
       }
-      
-      tmpSplit <- tmpSplit[-(1:1)] #Shift
-      content <- paste0(content, paste0(tmpSplit, collapse="\t"), "\n")
-      geneCnt <- geneCnt + 1
-    }
-  }	
+    }	
+  }
   write(paste0("#1.2\n", geneCnt, "\t", sampleCnt, "\n", paste0(colnames(INFILE)[-(1:1)],collapse="\t"), "\n", content), OUTFILE, append=TRUE)
   close(OUTFILE)
 }	
@@ -1183,6 +1233,10 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
   # Check the directory for any file
   print(paste0("! Processing $dirName CHART ...", dirName))
   infilesAll <- Sys.glob(paste0(dirName,"/*_Chart.txt"))
+  
+  print("infilesAll")
+  print(infilesAll)
+  
   if (is.null(infilesAll[1])){
     return(FALSE)
   }
@@ -1227,7 +1281,12 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
   # Load gct file, if available
   # check gct file
   gctFiles <- Sys.glob(paste0(dirInputName, "/*.gct"))
-  if (is.null(gctFiles[1])) {
+  
+  print("gctFiles")
+  print(gctFiles)
+
+  #if (is.null(gctFiles[1]) == FALSE) {
+  if (length(gctFiles) > 0) {
     # TODO: fix this vvv
     loadGctTmp <- load_gct_file_as_profile(gctFiles[1], geneID2ExpProfile)
     gctFileStatus <- loadGctTmp[1]
@@ -1238,12 +1297,19 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
   # Step0. Get only the files that actually have contents
   infiles <- lapply(infilesAll, function(infile) {
     DATA <- read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE)
-    if(nrow(DATA) < 1){
-      return(NULL)
-    } 
+    #if(nrow(DATA) < 1){
+      # make blank cluster file and return null here
+    #  return(NULL)
+    #} 
     return(infile)
   })
   infiles <- infiles[!sapply(infiles, is.null)]
+  print("infiles")
+  print(infiles)
+  
+  if (length(infiles) < 1) {
+    return (FALSE)
+  }
                             
   # Step1. Get the list of significant terms
   
@@ -1256,6 +1322,12 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
     originalSourceFile <- paste0(dirInputName, "/", shortFileBaseName, ".txt")
     DATA <- read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE)
     lines <- DATA
+    
+    print("lines")
+    print(lines)
+    if(nrow(lines) < 1){
+      return(FALSE)
+    }
 
     tmpIDList <- lapply(1:nrow(lines), function(i){
       tmpSplit <- lapply(lines[i,], function(lineItem) {
@@ -1332,21 +1404,31 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
     
   })
   
+  print("getSigTerms")
+  print(getSigTerms)
+  
   getSigTermsFilteredTerms <- lapply(1:length(getSigTerms), function(i){
     return(getSigTerms[[i]]["ID2Term"])
   })
   
-  
-  
   getSigTermsFilteredClasses <- lapply(1:length(getSigTerms), function(i){
     return(getSigTerms[[i]]["ID2Class"])
   })
-  
+
   ID2Term <- unlist(unname(unlist(getSigTermsFilteredTerms, recursive = FALSE)), recursive = FALSE)
   ID2Class <- unlist(unname(unlist(getSigTermsFilteredClasses, recursive = FALSE)), recursive = FALSE)
+  # remove NA
+  ID2Term <- ID2Term[!sapply(ID2Term, is.na)]
+  ID2Class <- ID2Class[!sapply(ID2Class, is.na)]
   
   #TODO: this works differently for Chart
-  IDs <- paste0(ID2Class, " | ", names(ID2Class))
+  print("ID2Class")
+  print(ID2Class)
+  if (length(ID2Class) > 0){
+    IDs <- paste0(ID2Class, " | ", names(ID2Class))
+  } else {
+    IDs <- list()
+  }
   
   for(infile in infiles) {
     tmp1 <- str_split(infile, "/")[[1]]
@@ -1372,20 +1454,22 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
     # Check term file and load
     # TODO: Do we need to do this again here? -> amendment: probably not
     DATA <- read.delim(infile, sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE)
-    
+
     #TODO: clean this up like the above code
-    for(line in 1:nrow(DATA)) {
-      tmpSplit <- lapply(DATA[line,], function(lineItem) {
-        return(lineItem)
-      })
-      
-      if (tmpSplit[[sigColumnIndex]] == "" | is.null(tmpSplit[[sigColumnIndex]]) == TRUE | is.null(tmpSplit[[10]]) == TRUE | grepl("^\\D", tmpSplit[[sigColumnIndex]]) == TRUE | (mode == "ALL" & tmpSplit[[sigColumnIndex]] >= sigCutoff) | tmpSplit[[10]] < 1) {
-        # Do nothing
-      } else {
-        tmpID	<- paste0(tmpSplit[[1]], " | ", tmpSplit[[2]])
-        if (is.null(ID2Term[tmpID]) == FALSE) {
-          pvalueMatrix[[tmpID]][tmp3[1]]  <- -1 * log10(as.double(tmpSplit[[valueColumnIndex]]))
-          fcMatrix[[tmpID]][tmp3[1]]      <- tmpSplit[[10]]
+    if (nrow(DATA) > 0){
+      for(line in 1:nrow(DATA)) {
+        tmpSplit <- lapply(DATA[line,], function(lineItem) {
+          return(lineItem)
+        })
+        
+        if (tmpSplit[[sigColumnIndex]] == "" | is.null(tmpSplit[[sigColumnIndex]]) == TRUE | is.null(tmpSplit[[10]]) == TRUE | grepl("^\\D", tmpSplit[[sigColumnIndex]]) == TRUE | (mode == "ALL" & tmpSplit[[sigColumnIndex]] >= sigCutoff) | tmpSplit[[10]] < 1) {
+          # Do nothing
+        } else {
+          tmpID	<- paste0(tmpSplit[[1]], " | ", tmpSplit[[2]])
+          if (is.null(ID2Term[tmpID]) == FALSE) {
+            pvalueMatrix[[tmpID]][tmp3[1]]  <- -1 * log10(as.double(tmpSplit[[valueColumnIndex]]))
+            fcMatrix[[tmpID]][tmp3[1]]      <- tmpSplit[[10]]
+          }
         }
       }
     }
@@ -1403,6 +1487,9 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
   print(paste0("! Creating summary file at: ", paste0(outputDir, summaryFileName)))
   writeToSummary <- paste0("GROUP\tID\tTerms\t", paste0(fileHeaderNames, collapse="\t"), "\n", sep="")
   writeToSummary2 <- ""
+  
+  print("IDs")
+  print(IDs)
   
   # TODO: This, but efficiently
   for(ID in IDs) {	
@@ -1426,6 +1513,9 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
     writeToSummary2 <- paste0(writeToSummary2, "\n")
   }	
   
+  print("paste0(writeToSummary, writeToSummary2)")
+  print(paste0(writeToSummary, writeToSummary2))
+  
   write(paste0(writeToSummary, writeToSummary2), SUMMARY, append=TRUE)
   
   close(SUMMARY)
@@ -1438,22 +1528,22 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
   writeToNetwork2 <- ""
   # TODO: This, but efficiently
   for(ID in IDs) {
-    idTermSplits <- str_split(ID, "\\|")[[1]]
-    tmpHashRef	 <- classID2annotationTerm2termUniqueID[className2classID[[idTermSplits[1]]]]
+    idTermSplits <- str_split(ID, " \\| ")[[1]]
+    tmpHashRef	 <- classID2annotationTerm2termUniqueID[[className2classID[[idTermSplits[1]]]]]
     
     writeToNetwork2 <- paste0(writeToNetwork2, className2classID[[idTermSplits[1]]], "\t", tmpHashRef[[idTermSplits[2]]], "\t", idTermSplits[2])
     for (header in fileHeaderNames) {
       IDToUse <- ID
-      if(header %in% names(pvalueMatrix[[IDToUse]])){
-        if (is.null(pvalueMatrix[[IDToUse]][header]) == FALSE | is.na(pvalueMatrix[[IDToUse]][header]) == FALSE | length(pvalueMatrix[[IDToUse]][header]) < 1) {
-          writeToNetwork2 <- paste0(writeToNetwork2, "\t", pvalueMatrix[[IDToUse]][header])
-        } else {
-          writeToNetwork2 <- paste0(writeToNetwork2, "\t")
-        }
+      if (is.na(unname(pvalueMatrix[[IDToUse]][header])) == FALSE) {
+        writeToNetwork2 <- paste0(writeToNetwork2, "\t", pvalueMatrix[[IDToUse]][header])
+      } else {
+        writeToNetwork2 <- paste0(writeToNetwork2, "\t")
       }
     }
     writeToNetwork2 <- paste0(writeToNetwork2, "\n")
   }
+  # remove trailing newline
+  writeToNetwork2 <- substr(writeToNetwork2, 1, nchar(writeToNetwork2)-1)
   
   write(paste0(writeToNetwork, writeToNetwork2), NETWORK, append=TRUE)
   close(NETWORK)
@@ -1461,6 +1551,10 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
   
   # Create a gct file from ValueMatrix
   INFILE <- read.delim(paste0(outputDir, summaryFileNameBase, "__ValueMatrix.txt"), sep="\t", comment.char="", quote="", stringsAsFactors = FALSE, header=TRUE, fill=TRUE)
+  
+  print("INFILE")
+  print(INFILE)
+  
   file.create(paste0(outputDir, summaryFileNameBase, "__ValueMatrix.gct"))
   OUTFILE <- file(paste0(outputDir, summaryFileNameBase, "__ValueMatrix.gct"))
   
@@ -1469,40 +1563,46 @@ process_variable_DAVID_CHART_directories <- function(dirName, outputDir, extTag,
   sampleCnt	  <- length(headerSplit) - 3
   geneCnt  <- 0
   content	<- ""
-  
-  for(l in 1:nrow(INFILE)) {
-    line <- paste0(INFILE[l,], collapse="\t")
-    if (line == "") {
-      # Do nothing
-    } else {
-      tmpSplit <- str_split(line, "\t")[[1]]
-      for (i in 4:(sampleCnt+3)) {
-        if (tmpSplit[i] == "NA" | is.na(tmpSplit[i]) == TRUE | length(tmpSplit[i]) < 1 | is.null(tmpSplit[i]) == TRUE) {
-          tmpSplit[i] <- 0
+  if(nrow(INFILE) > 0) {
+    for(l in 1:nrow(INFILE)) {
+      line <- paste0(INFILE[l,], collapse="\t")
+      
+      if (line == "") {
+        # Do nothing
+      } else {
+        tmpSplit <- str_split(line, "\t")[[1]]
+        for (i in 4:(sampleCnt+3)) {
+          if (tmpSplit[i] == "NA" | is.na(tmpSplit[i]) == TRUE | length(tmpSplit[i]) < 1 | is.null(tmpSplit[i]) == TRUE) {
+            tmpSplit[i] <- 0
+          }
         }
+        tmpSplit <- tmpSplit[-(1:1)] #Shift
+        
+        # TODO: Replaces long annotation name with shorthand
+        #tmpSplitName <- str_split(tmpSplit[1], " | "
+        #queryAnnotationClassIDString <- outpClasses[, outpClasses$annoclassname=tmpSplitName[1]]
+        
+        #my $queryAnnotationClassID = $dbConnection->prepare($queryAnnotationClassIDString);
+        #$queryAnnotationClassID->execute();
+        #my @tmpSplitClassID;
+        #while(my $annotationClassID = $queryAnnotationClassID->fetchrow_hashref()) {
+        #  $tmpSplitClassID[0] = $annotationClassID->{'annoclassid'};
+        #}
+        #my $codedAnnotationName = "CLASS ".$tmpSplitClassID[0]." | ".$tmpSplitName[1];
+        #$tmpSplit[0] = $codedAnnotationName;
+        
+        print(">>> tmpSplit")
+        print(tmpSplit)
+        
+        content <- paste0(content, paste0(tmpSplit, collapse="\t"), "\n")
+        geneCnt <- geneCnt + 1
       }
-      tmpSplit <- tmpSplit[-(1:1)] #Shift
-      
-      # Replaces long annotation name with shorthand
-      #tmpSplitName <- str_split(tmpSplit[1], " | "
-      #queryAnnotationClassIDString <- outpClasses[, outpClasses$annoclassname=tmpSplitName[1]]
-      
-      #my $queryAnnotationClassID = $dbConnection->prepare($queryAnnotationClassIDString);
-      #$queryAnnotationClassID->execute();
-      #my @tmpSplitClassID;
-      #while(my $annotationClassID = $queryAnnotationClassID->fetchrow_hashref()) {
-      #  $tmpSplitClassID[0] = $annotationClassID->{'annoclassid'};
-      #}
-      #my $codedAnnotationName = "CLASS ".$tmpSplitClassID[0]." | ".$tmpSplitName[1];
-      #$tmpSplit[0] = $codedAnnotationName;
-      
-      content <- paste0(content, paste0(tmpSplit, collapse="\t"), "\n")
-      geneCnt <- geneCnt + 1
-    }
-  }	
+    }	
+  }
   
   write(paste0("#1.2\n", geneCnt, "\t", sampleCnt, "\n", paste0(colnames(INFILE)[-(1:1)],collapse="\t"), "\n", content), OUTFILE, append=TRUE)
   close(OUTFILE)
+  
 }	
 
 # Load GCT file as profile
@@ -1600,7 +1700,7 @@ perform_CASRN_enrichment_analysis <- function(CASRNRef, outputBaseDir, outfileBa
   outfileMatrix		<- paste0(outputBaseDir, outfileBase, "__Matrix.txt")
   
   # Create directories if they don't exist
-  dir.create(paste0("/home/hurlab/tox21/", outputBaseDir))
+  dir.create(paste0(path.expand('~'), "/tox21enricher/", outputBaseDir))
   
   # Open file connections to output files and initialize headers
   OUTFILE         <- file(outfileChart)
@@ -1754,11 +1854,46 @@ perform_CASRN_enrichment_analysis <- function(CASRNRef, outputBaseDir, outfileBa
     }
   })
   
+  #TODO: fix this so it still makes matrix and cluster files for sets w/o results
   RINPUT_df <- data.frame(X1=unlist(RINPUT_index1), X2=unlist(RINPUT_index2), X3=unlist(RINPUT_index3), X4=unlist(RINPUT_index4))
+  
+  print("RINPUT_df")
+  print(RINPUT_df)
+  
+  
   if(nrow(RINPUT_df) < 2){
+    
+    # Print out the matrix file
+    sortedHeaderTerms <- sigTerm2CASRNMatrix[order(unlist(sigTerm2CASRNMatrix), decreasing = FALSE)]
+    # Clean out NA values (TODO: Probably a better way to do this?)
+    sortedHeaderTerms <- sortedHeaderTerms[lengths(sortedHeaderTerms)!=0]
+    
+    matrixHeader <- paste(names(sortedHeaderTerms), collapse='\t')
+    matrixOutput <- paste0("CASRN\t", matrixHeader, "\n\n")
+    
+    matrixPrintToFile <- lapply(names(mappedCASRNs), function(tmpCasrn){	
+      matrixOutput <<- paste(matrixOutput, tmpCasrn, sep="")
+      tmpMatrixHeaderProcess <- lapply(names(sortedHeaderTerms), function(tmpMatrixHeader){
+        if (is.null(sigTerm2CASRNMatrix[[tmpMatrixHeader]][[tmpCasrn]]) == FALSE & tmpMatrixHeader != "NA"){
+          matrixOutput <<- paste(matrixOutput,"\t1",sep="")
+        }
+        else{
+          matrixOutput <<- paste(matrixOutput,"\t0",sep="")
+        }
+      })
+      matrixOutput <<- paste(matrixOutput,"\n",sep="")
+    })	
+    
+    write(matrixOutput, outfileMatrix, append=TRUE)
+    
     close(OUTFILE)
     close(SIMPLE)
     close(MATRIX)
+    
+    # Open and create a blank cluster file
+    outfileCluster		<- paste0(outputBaseDir, outfileBase, "__Cluster.txt")
+    file.create(outfileCluster)
+    
     return(FALSE)
   }
   # create a R command file -> now just work on data frame
@@ -1938,7 +2073,6 @@ get_funCat_from_funCatTerm <- function(funCatTerm){
 }
 
 kappa_cluster <- function(x, deg=NULL, useTerm=FALSE, cutoff=0.5, overlap=0.5, minSize=5, escore=3, outputBaseDir, outfileBase, sortedFunCatTerms, sigTerm2CASRNMatrix, sortedFunCatTermsCount, inputCASRNsCount=0, similarityThreshold=0.50, initialGroupMembership, multipleLinkageThreshold=0.5, EASEThreshold=1.0, term2Pvalue, term2Contents) {
-  
   # ----------------------------------------------------------------------
   #	Perform functional term clustering
   # ----------------------------------------------------------------------
@@ -1994,6 +2128,8 @@ kappa_cluster <- function(x, deg=NULL, useTerm=FALSE, cutoff=0.5, overlap=0.5, m
   
   # TODO: Clean this up earlier but this should clean things up from this point and down
   sortedFunCatTerms <- names(sortedFunCatTerms)
+  print("sortedFunCatTerms")
+  print(sortedFunCatTerms)
   
   for (i in (1:(sortedFunCatTermsCount-1))) {
     for (j in ((i+1):(sortedFunCatTermsCount))) {
@@ -2028,7 +2164,7 @@ kappa_cluster <- function(x, deg=NULL, useTerm=FALSE, cutoff=0.5, overlap=0.5, m
         
         termpair2kappa[[sortedFunCatTerms[i]]][sortedFunCatTerms[j]] <- Kappa
         termpair2kappa[[sortedFunCatTerms[j]]][sortedFunCatTerms[i]] <- Kappa
-        
+
         if (Kappa > similarityThreshold) {
           if(is.null(termpair2kappaOverThresholdCount[[sortedFunCatTerms[i]]]) == TRUE){
             termpair2kappaOverThresholdCount[[sortedFunCatTerms[i]]] <- 1
@@ -2055,6 +2191,9 @@ kappa_cluster <- function(x, deg=NULL, useTerm=FALSE, cutoff=0.5, overlap=0.5, m
   #	Each term could form a initial seeding group (initial seeds) 
   #   as long as it has close relationships (kappa > 0.35 or any designated number) 
   #   with more than > 2 or any designated number of other members. 
+  
+  print("termpair2kappaOverThreshold")
+  print(termpair2kappaOverThreshold)
   
   termpair2kappaOverThreshold <- termpair2kappaOverThreshold[order(unlist(termpair2kappaOverThreshold), decreasing = TRUE)]
 
@@ -2272,12 +2411,13 @@ function(enrichmentType="CASRNs", inputStr="", annoSelectStr="MESH PHARMACTIONLI
   print(paste0("New enrichment input: ", transactionId))
   
   # Open pool for PostgreSQL
+  tox21db <- config::get("tox21enricher")
   poolTerms <- dbPool(
     drv = dbDriver("PostgreSQL",max.con = 100),
-    dbname = "tox21enricher",
-    host = "localhost",
-    user = "username",
-    password = "password",
+    dbname = tox21db$database,
+    host = tox21db$host,
+    user = tox21db$uid,
+    password = tox21db$pwd,
     idleTimeout = 3600000
   )
   
@@ -2434,8 +2574,8 @@ function(enrichmentType="CASRNs", inputStr="", annoSelectStr="MESH PHARMACTIONLI
   
   fileGenerationProcess <- lapply(names(inputList), function(i){
     # Create input directory & input file
-    inputDir <- paste0("/home/hurlab/tox21/Input/", transactionId, "/")
-    inputFile	<- paste0("/home/hurlab/tox21/Input/", transactionId, "/", i, ".txt")
+    inputDir <- paste0(path.expand('~'), "/tox21enricher/Input/", transactionId, "/")
+    inputFile	<- paste0(path.expand('~'), "/tox21enricher/Input/", transactionId, "/", i, ".txt")
     dir.create(inputDir)
     INPUT <- file(inputFile)  
     
@@ -2464,11 +2604,8 @@ function(enrichmentType="CASRNs", inputStr="", annoSelectStr="MESH PHARMACTIONLI
   
   # Send to enrich endpoint to perform enrichment analysis
   performEnrichment(transactionId, annoSelectStr)
- 
-  #TODO: generate other files needed for result set here
-  # Create .xlsx files
-  # Use write.xlsx2 because it's faster
-  outDir <- paste0("/home/hurlab/tox21/Output/",transactionId,"/",sep="")
+
+  outDir <- paste0(path.expand('~'), "/tox21enricher/Output/",transactionId,"/",sep="")
   for (i in names(inputList)) {
     xlsxChart <- read.table(paste0(outDir, i, "__Chart.txt"), header=TRUE, sep="\t", comment.char="", fill=FALSE)
     xlsxChartSimple <- read.table(paste0(outDir, i, "__ChartSimple.txt"), header=TRUE, sep="\t", comment.char="", fill=FALSE)
@@ -2478,14 +2615,6 @@ function(enrichmentType="CASRNs", inputStr="", annoSelectStr="MESH PHARMACTIONLI
     write.xlsx2(xlsxChartSimple, paste0(outDir, i, "__ChartSimple.xlsx"), sheetName=paste0(i), col.names=TRUE, row.names=TRUE, append=FALSE)
     write.xlsx2(xlsxCluster, paste0(outDir, i, "__Cluster.xlsx"), sheetName=paste0(i), col.names=TRUE, row.names=TRUE, append=FALSE)
   }
-  
-  # Run Perl script to generate GCT file
-  #cmdGCT <- paste("perl","www/perl/Generate_individual_gct_file_for_significant_terms.pl",inDir,outDir,"100","ALL","P","0.05","P")
-  #system(cmdGCT)
-  
-  # Run Perl script to create DAVID files
-  #cmdDavid <- paste("perl","www/perl/Create_DAVID_CHART_CLUSTER_gct_v2.4.pl",outDir,cutoff,"ALL","P","0.05","P")
-  #system(cmdDavid)
   
   print('done')
   return(transactionId)
@@ -2498,9 +2627,9 @@ function(enrichmentType="CASRNs", inputStr="", annoSelectStr="MESH PHARMACTIONLI
 #* @param id The UUID of the enrichment process to download.
 #* @get /download
 function(id="-1", res) {
-  dirToReturn <- dir(paste0("/home/hurlab/tox21/Output/",id,"/",sep=""), full.names=TRUE)
-  dlFile <- zip(zipfile=paste0("/home/hurlab/tox21/Output/",id,"/tox21enricher.zip",sep=""), files=dirToReturn)
-  fName <- paste0("/home/hurlab/tox21/Output/",id,"/tox21enricher.zip",sep="")
+  dirToReturn <- dir(paste0(path.expand('~'), "/tox21enricher/Output/",id,"/",sep=""), full.names=TRUE)
+  dlFile <- zip(zipfile=paste0(path.expand('~'), "/tox21enricher/Output/",id,"/tox21enricher.zip",sep=""), files=dirToReturn)
+  fName <- paste0(path.expand('~'), "/tox21enricher/Output/",id,"/tox21enricher.zip",sep="")
   readBin(fName, 'raw', n = file.info(fName)$size)
 }
 #######################################################################################

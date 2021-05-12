@@ -1,8 +1,0 @@
-#1.2
-5	15
-CASRN	Name	chain:aromaticAlkane_Ph-C1_acyclic_generic | TOXPRINT_STRUCTURE | 1.09e-02	Neurotoxicityy-pup behavior rodent | LEADSCOPE_TOXICITY | 8.82e-03	chain:aromaticAlkane_Ph-C1_acyclic_connect_noDblBd | TOXPRINT_STRUCTURE | 2.37e-03	Benzyl Compounds | MESH | 1.91e-02	bond:CX_halide_alkyl-X_aromatic_alkane | TOXPRINT_STRUCTURE | 1.19e-02	Neurotoxicityy-pup behavior mouse | LEADSCOPE_TOXICITY | 2.72e-02	chain:aromaticAlkane_Ph-C1_acyclic_connect_H_gt_1 | TOXPRINT_STRUCTURE | 5.55e-04	Benzene Derivatives | MESH | 2.39e-03	Hydrocarbons, Aromatic | MESH | 5.76e-03	bond:CX_halide_alkyl-X_benzyl_generic | TOXPRINT_STRUCTURE | 9.09e-03	bond:CX_halide_alkyl-X_aromatic_generic | TOXPRINT_STRUCTURE | 1.19e-02	ring:aromatic_phenyl | TOXPRINT_STRUCTURE | 8.88e-03	MRP3 inhibition at 10uM | MULTICASE_TOX_PREDICTION | 7.98e-03	Hydrocarbons | MESH | 1.96e-02	Hydrocarbons, Cyclic | MESH | 8.32e-03
-103-29-7		1	1	1	0	0	1	1	1	1	0	0	1	1	1	1
-101-81-5		1	1	1	0	0	0	1	1	1	0	0	1	1	1	1
-100-44-7		1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
-620-20-2		1	0	1	0	1	0	1	0	0	1	1	0	0	0	0
-100-46-9		1	1	1	1	0	1	1	1	1	0	0	1	1	1	1

@@ -1,5 +1,0 @@
-CASRN	MESH|Acetates	MESH|Acids, Acyclic	MESH|Carboxylic Acids	MESH|Fatty Acids	MESH|Fatty Acids, Volatile	MESH|Lipids	MESH|Organic Chemicals
-10258-54-5	0	0	0	0	0	0	0
-105-34-0	0	0	0	0	0	0	0
-5459-58-5	0	0	0	0	0	0	0
-105-56-6	1	1	1	1	1	1	1
