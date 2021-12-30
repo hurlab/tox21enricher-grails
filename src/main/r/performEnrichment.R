@@ -1822,14 +1822,11 @@ perform_CASRN_enrichment_analysis <- function(CASRNRef, outputBaseDir, outfileBa
                 n1p <- funCatTerm2CASRNCount[[funCat]][[term]]
 
                 # skip any under-represented terms
-                foldenrichment <- (targetCASRNCount/length(targetTotalCASRNInFunCatCount))/(n1p/npp)
-                pvalue <- 1
-                
+                foldenrichment <- (targetCASRNCount/length(targetTotalCASRNInFunCatCount))/(n1p/npp)                
                 # truncate pvalue digits after decimal to 15
                 annoArrayLine	<- c(funCat, term, targetCASRNCount, round((targetCASRNCount/inputCASRNsCount*100), digits=15),
                                    1, paste(unlist(unname(sapply(targetCASRNsRef, paste, collapse=", "))), collapse=', '), targetTotalCASRNInFunCatCount, 
-                                   n1p, npp, (targetCASRNCount/targetTotalCASRNInFunCatCount)/(n1p/npp), 
-                                   (1-(1-pvalue)^targetTotalTermCount))
+                                   n1p, npp, (targetCASRNCount/targetTotalCASRNInFunCatCount)/(n1p/npp))
                 tmp_annoArrayInner <- append(tmp_annoArrayInner, annoArrayLine)
               }
             }
@@ -1900,7 +1897,7 @@ perform_CASRN_enrichment_analysis <- function(CASRNRef, outputBaseDir, outfileBa
   p.value <- apply(RINPUT_df, 1, function(x) {
     fisher.test(matrix(unlist(x), nrow=2))$p.value
   })
-  ROUTPUT <- data.frame(p.value, fdr=p.adjust(p.value))
+  ROUTPUT <- data.frame(p.value=p.value, bonferroni=p.adjust(p.value, method="bonferroni"), by=p.adjust(p.value,method="BY"), fdr=p.adjust(p.value))
   
   # Load the output file 
   #TODO: make this not dumb, don't grow the array in map
@@ -1909,7 +1906,7 @@ perform_CASRN_enrichment_analysis <- function(CASRNRef, outputBaseDir, outfileBa
   ROutputDataResults <- apply(ROUTPUT, 1, function(x){
     line <- x
       if (length(line) > 0) {
-        ROutputLineSplit <- list(line[['p.value']], line[['fdr']])
+        ROutputLineSplit <- list(p.value=line[['p.value']], bonferroni=line[['bonferroni']], by=line[['by']], fdr=line[['fdr']])
         ROutputData[[ROutputIndex]] <<- ROutputLineSplit
         ROutputIndex <<- ROutputIndex + 1
       }
@@ -1925,17 +1922,17 @@ perform_CASRN_enrichment_analysis <- function(CASRNRef, outputBaseDir, outfileBa
 
   annoArrayIndex <- 1
   pvalueUpdateProcess <- lapply(annoArray, function(i){
-    tmp <- c("p.value", "fdr")
      # update the p-value
-     annoArray[[annoArrayIndex]][5] <<- ROutputData[[annoArrayIndex]][[1]]
+     annoArray[[annoArrayIndex]][5] <<- ROutputData[[annoArrayIndex]][["p.value"]]
      
-     # add FDR to the array 
-     annoArray[[annoArrayIndex]][12] <<- ROutputData[[annoArrayIndex]][[2]]
-     annoArray[[annoArrayIndex]][13] <<- ROutputData[[annoArrayIndex]][[1]]
+     # add Bonferroni, Benjamini, FDR to the array 
+     annoArray[[annoArrayIndex]][11] <<- ROutputData[[annoArrayIndex]][["bonferroni"]]
+     annoArray[[annoArrayIndex]][12] <<- ROutputData[[annoArrayIndex]][["by"]]
+     annoArray[[annoArrayIndex]][13] <<- ROutputData[[annoArrayIndex]][["fdr"]]
      
      # finalize the hashes
      term2Contents[[paste0(annoArray[[annoArrayIndex]][1], "|", annoArray[[annoArrayIndex]][2])]]	<<- paste0(annoArray[[annoArrayIndex]])
-     term2Pvalue[[paste0(annoArray[[annoArrayIndex]][1], "|", annoArray[[annoArrayIndex]][2])]]	<<- ROutputData[[annoArrayIndex]][1]
+     term2Pvalue[[paste0(annoArray[[annoArrayIndex]][1], "|", annoArray[[annoArrayIndex]][2])]]	<<- ROutputData[[annoArrayIndex]]["p.value"]
      
      annoArrayIndex <<- annoArrayIndex + 1
   })
